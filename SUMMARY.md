@@ -2,6 +2,8 @@
 
 * [Main page](README.md)
 
+# Modding
+
 ## Information
 
 ## Texture & Color
@@ -10,3 +12,4 @@
 
 ## Text
 
+# Commands
