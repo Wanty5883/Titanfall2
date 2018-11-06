@@ -10,7 +10,7 @@ Track wiki update on NoSkill Community Discord server where news are posted soon
 Please send me a message through the NS Discord server if you notice anything wrong in the wiki.  
 You can reach me via contact details.  
   
- ᵗᵒᵖ ᵗʸᵖᵒ ᵃⁿᵈ ᶜᵒⁿᵗʳᶦᵇᵘᵗᵒʳ ʷᶦˡˡ ᵍᵉᵗ ᵃ ˡᶦᵗᵗˡᵉ ʳᵉʷᵃʳᵈ
+ ᵗᵒᵖ ᵗʸᵖᵒ ʰᵘⁿᵗᵉʳ ᵃⁿᵈ ᶜᵒⁿᵗʳᶦᵇᵘᵗᵒʳ ʷᶦˡˡ ᵍᵉᵗ ᵃ ˡᶦᵗᵗˡᵉ ʳᵉʷᵃʳᵈ
 
 ## Modding
 

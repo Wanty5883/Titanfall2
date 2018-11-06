@@ -9,6 +9,9 @@
 
 ## Information
 
+* [Modding tools](information/modding-tools.md)
+* [Weapon config info](information/weapon-config-info.md)
+
 ## Texture & Color
 
 ## Models
