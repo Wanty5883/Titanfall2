@@ -2,7 +2,7 @@
 
 * [Main page](README.md)
 
-# Modding
+## Modding
 
 ## Information
 
@@ -12,4 +12,4 @@
 
 ## Text
 
-# Commands
+## Commands
