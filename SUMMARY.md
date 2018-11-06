@@ -1,4 +1,12 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Main page](README.md)
+
+## Information
+
+## Texture & Color
+
+## User Interface
+
+## Text
 
