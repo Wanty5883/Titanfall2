@@ -16,11 +16,12 @@
 
 ## Texture & Color
 
+* [LSTAR - Heat color](texture-and-color/lstar-heat-color.md)
+* [Northstar - Railgun heat color](texture-and-color/northstar-railgun-heat-color.md)
 * [Legion - Power shot heat color](texture-and-color/legion-power-shot-heat-color.md)
 * [Ronin - Sword block color](texture-and-color/ronin-sword-block-color.md)
 * [Ion - Vortex shield color](texture-and-color/ion-vortex-shield-color.md)
 * [Ion - Splitter rifle heat effect](texture-and-color/ion-splitter-rifle-heat-effect.md)
-* [LSTAR - Heat color](texture-and-color/lstar-heat-color.md)
 
 ## Models
 

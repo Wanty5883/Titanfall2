@@ -1,8 +1,4 @@
----
-description: LSTAR heat effect guide
----
-
-# LSTAR - Heat color
+# Northstar - Railgun heat color
 
 ## Preparation <a id="preparation"></a>
 
@@ -37,16 +33,15 @@ You can change the heat effect texture to any other texture in the game. Some te
 
 ### Heat effect
 
-For editing lstar heat effect, go to this location
+For editing Northstar railgun heat effect, go to this location.
 
-> \materials\models\weapons\lstar
+> \materials\models\weapons\_r2\titan\_plasma\_railgun
 
-Open the file _`lstar_heat_charge.vmt`_ and refer to the different info provided
+Open the file _`titan_sniper_charge_fx.vmt`_ and refer to the different info provided
 
-### Example
+#### Northstar Railgun example
 
-I made a little video that show off different heat color [here](https://www.youtube.com/watch?v=XskIpdwQg9s)  
-An other example in gif format [here](https://gfycat.com/fr/gifs/detail/fastspryaustrianpinscher)
+[Here](https://gfycat.com/UnlawfulCompetentFairybluebird) a little example
 
 ## Repacking <a id="repacking"></a>
 
