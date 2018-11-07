@@ -16,6 +16,7 @@
 
 ## Texture & Color
 
+* [Charge rifle - Heat color effect](texture-and-color/charge-rifle-heat-color-effect.md)
 * [LSTAR - Heat color](texture-and-color/lstar-heat-color.md)
 * [Northstar - Railgun heat color](texture-and-color/northstar-railgun-heat-color.md)
 * [Legion - Power shot heat color](texture-and-color/legion-power-shot-heat-color.md)

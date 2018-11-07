@@ -4,11 +4,11 @@
 
 VMT and VTF files work together. VTF files contain textures \(graphics\) sets and VMT files contain the materials \(values\).
 
-### VMT
+## VMT
 
 Here is more information around VMT files. I'll refer to some header down bellow from the guides.
 
-#### $layercolor
+### $layercolor
 
 This parameter sets color for some textures, I should mention this isn't the case every time. Color can be set by an external VTF file. This is the kind of value you might encounter in Titanfall VMT files.
 
@@ -20,7 +20,7 @@ _`$layercolor2`_ use rgb values but not 0 – 255. When you use brackets, Source
 
 You can get more brightness using value up than 1. For heat color I would recommend to use value between 1 and 5. More is too much in game \(personal preference\).
 
-#### $texture2 & $basetexture
+### $texture2 & $basetexture
 
 This value is path to the texture you want to use in your material files. Both can use path to any texture file, in some case, some texture would look wreid or wouldn't work at all. Down bellow a little example of how you can use this value, thoose path will always point by default the material folder. You don't need to add the file extension in the path
 
@@ -30,23 +30,23 @@ This value is path to the texture you want to use in your material files. Both c
 
 This example use the texture file located in this path. `englishclient_mp_common.bsp.pak000_dir.vpk\materials\models\weapons\lstar`
 
-**texturescrollrate**
+### **texturescrollrate**
 
 This value is an additonal parameter to `$texture2` & `$basetexture`. It scroll the texture counter clockwise or clockwise. Negative value will scroll counter clockwise and positive value will scoll clockwise.
 
-**texturescale**
+### **texturescale**
 
 This value will basically defined the size of the texture on your model for example.
 
-#### $allowoverbright
+### $allowoverbright
 
 This value increase or decrease the brightness of a glowing effect
 
-### VTF
+## VTF
 
 Here is more information around VTF files. I'll refer to some header down bellow from the guides.
 
-#### How to edit animated texture color
+### How to edit animated texture color
 
 Once you loaded the texture in VTFEdit, extract it as PNG outside your extracted folder
 
