@@ -31,9 +31,9 @@
 
 ## User Interface
 
+* [Network - Menus](user-interface/network-menus.md)
+
 ## Text
 
-## Menus
-
-* [Network menus](menus/network-menus.md)
+* [Text modding r1\_language](text/text-modding-r1_language.md)
 
