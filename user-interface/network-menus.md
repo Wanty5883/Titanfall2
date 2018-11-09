@@ -17,7 +17,7 @@ Copy these file and paste them in an empty folder somewhere else:
 * englishclient\_frontend.bsp.pak000\_dir.vpk
 * client\_frontend.bsp.pak000\_000.vpk
 
- You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://wanty5883.gitbook.io/titanfall2/information/modding-tools)​
+You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://wanty5883.gitbook.io/titanfall2/information/modding-tools)​
 
 ## Unpacking <a id="unpacking"></a>
 

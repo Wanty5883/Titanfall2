@@ -8,7 +8,9 @@ description: Guide to change in game text
 
 In this guide you will have to edit text. Simply use a text editor for that such as Atom, NotePad++, VIM and many other ones would work fine.
 
+{% hint style="warning" %}
 This guide will be large. Refer to the **table of contents** to find what you are looking for.
+{% endhint %}
 
 Since there is a lot of value, feel free to offer your help to improve this guide check [contact](https://wanty5883.gitbook.io/titanfall2/contact).
 

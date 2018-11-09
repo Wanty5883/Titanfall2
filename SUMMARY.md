@@ -24,6 +24,9 @@
 * [Ronin - Sword block color](texture-and-color/ronin-sword-block-color.md)
 * [Ion - Vortex shield color](texture-and-color/ion-vortex-shield-color.md)
 * [Ion - Splitter rifle heat effect](texture-and-color/ion-splitter-rifle-heat-effect.md)
+* [Cable - Grapple & Tether Trap](texture-and-color/cable-grapple-and-tether-trap.md)
+* [Cable - Zipline](texture-and-color/cable-zipline.md)
+* [Marvin - Chest screen](texture-and-color/marvin-chest-screen.md)
 
 ## Models
 
@@ -36,4 +39,8 @@
 ## Text
 
 * [Text modding r1\_language](text/text-modding-r1_language.md)
+
+## Tutorial
+
+* [Northstar](tutorial/untitled.md)
 

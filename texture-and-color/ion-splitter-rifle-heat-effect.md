@@ -31,7 +31,7 @@ You can edit the heat color, [here](https://wanty5883.gitbook.io/titanfall2/info
 
 You can change the heat effect texture to any other texture in the game. Some texture would work, some wouldn't look good and some other texture would just not work. More info [here](https://wanty5883.gitbook.io/titanfall2/information/color-and-texture-info#usdtexture2-and-usdbasetexture) how to edit the texture value.
 
-### Enlable heat effect
+### Enable heat effect
 
 For editing Splitter Rifle heat effect, go to this location.
 
