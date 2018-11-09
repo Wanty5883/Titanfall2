@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Main page](README.md)
+* [Contact](contact.md)
 
 ## How to start modding ?
 
@@ -26,9 +27,13 @@
 
 ## Models
 
+* [Pilot class](models/pilot-class.md)
+
 ## User Interface
 
 ## Text
 
 ## Menus
+
+* [Network menus](menus/network-menus.md)
 
