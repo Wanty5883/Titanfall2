@@ -37,7 +37,7 @@ Open the file _`community_info.res`_
 
 To make edit easier, down bellow a list of code block to the right value you want to edit. To edit color, edit the string _`fgcolor_override "x x x x"`_. The 3 first value are RGB and the 4th one is the opacity. **In some code block**, mostly what we will call "value" \(value, is the result in menus\) you won't find this string _`fgcolor_override "x x x x"`_. Just add it inside the bracket with the RGB + opacity code you want.
 
-Is possible to hide some labels by editing this string _`visible 1`_ to 0. The labels where you edit it will be hidden **but** other labels won't fit empty place. You will need to edit both thoose values _`wide`_ & _`tall`_ for that.
+Is possible to hide some labels by editing this string _`visible 1`_ to 0. The labels where you edit it will be hidden **but** other labels won't fit empty place. You will need to edit both those values _`wide`_ & _`tall`_ for that.
 
 ![](https://github.com/Wanty5883/Titanfall2/raw/master/picture/community_info.PNG)
 
@@ -750,7 +750,7 @@ For now, this isn't the right ones. They are only supposition, any information a
 
 At the end of this file, we can see 2 hidden labels which contain death \(opposite of kills\) and losses \(opposite of wins\).
 
-For now, set the value \*`visible 1`\*show it, but both thoose stats show 0, I guess there is no server track on this stats. They are also by default at the same place then label "Wins" & "Kills", need the right _`wide`_ & _`tall`_ value in labels. Any information would be welcome !
+For now, set the value \*`visible 1`\*show it, but both those stats show 0, I guess there is no server track on this stats. They are also by default at the same place then label "Wins" & "Kills", need the right _`wide`_ & _`tall`_ value in labels. Any information would be welcome !
 
 ## Repacking <a id="repacking"></a>
 

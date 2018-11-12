@@ -67,7 +67,7 @@ After doing this the heat effect is now enable on the Splitter Rifle.
 
 On the Splitter Rifle is possible to get continuous heat effect.
 
-I would recommend thoose heat effect texture who look really nice on the Splitter Rifle.
+I would recommend those heat effect texture who look really nice on the Splitter Rifle.
 
 * `particle\energy\energy_burn_loop`
 * `particle\blood\blood_anim_spray` Then change the following values, they are my own sample. Do not copy paste this code block in your VMT file, the value in this code block are only the edited values, make sure to replace each one of them into your material file.

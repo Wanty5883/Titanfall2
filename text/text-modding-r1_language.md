@@ -86,7 +86,7 @@ To edit titan ejecting message find the following code block
 
 **Titan HUD**
 
-Thoose value set the text that show up in middle of your screen. Not the one close to the core meter.
+Those value set the text that show up in middle of your screen. Not the one close to the core meter.
 
 ```text
 "HUD_EJECT"                                     "[Eject]"
@@ -101,7 +101,7 @@ Thoose value set the text that show up in middle of your screen. Not the one clo
 
 **Titan core Meter**
 
-Thoose value set the text around the core meter.
+Those value set the text around the core meter.
 
 It's important that you leave the values like _`%s1`_, _\`\`1%$rui/hud/titan\_core%`0+%s1`3%%\`_, _\`3%%\`_untouched.
 
@@ -162,7 +162,7 @@ Down bellow, code block that set the text in the little LSTAR screen.
 
 ### Gamemode
 
-As I tested, thoose value are common to any gamemode if you have a respawn time set.
+As I tested, those value are common to any gamemode if you have a respawn time set.
 
 ```text
 "GAMEMODE_RESPAWNING_IN_N"					"Respawning in: `1%s1"
@@ -171,7 +171,7 @@ As I tested, thoose value are common to any gamemode if you have a respawn time 
 
 **Capture the flag**
 
-Thoose value set the text for the different state of the flags through the wall.
+Those value set the text for the different state of the flags through the wall.
 
 ```text
 "GAMEMODE_FLAG_DEFEND"								"DEFEND"
@@ -188,7 +188,7 @@ Thoose value set the text for the different state of the flags through the wall.
 "GAMEMODE_FLAG_YOU"								   "You have the Flag"
 ```
 
-Thoose value set the text for the different action on the flag made by players.
+Those value set the text for the different action on the flag made by players.
 
 ```text
 "GAMEMODE_PLAYER_HAS_FRIENDLY_FLAG"					"%s1 has our flag!"
@@ -210,7 +210,7 @@ Thoose value set the text for the different action on the flag made by players.
 "GAMEMODE_PLAYER_DROPPED_FLAG_RUI"					"Dropped the Flag"
 ```
 
-Thoose value set the text for the different action you did on the flag.
+Those value set the text for the different action you did on the flag.
 
 ```text
 "GAMEMODE_YOU_PICKED_UP_THE_FLAG_RUI"				"Picked up the Flag"
@@ -223,7 +223,7 @@ Thoose value set the text for the different action you did on the flag.
 
 **Amped Hardpoint**
 
-Thoose value set the text while inside a point.
+Those value set the text while inside a point.
 
 ```text
 "HUD_SECURED"										"SECURED"
@@ -238,7 +238,7 @@ Thoose value set the text while inside a point.
 
 **Marked for death**
 
-Thoose values set the text for marked kilss. It's important that you leave the values like _`%s1`_, _`3%%`_untouched.
+Those values set the text for marked kilss. It's important that you leave the values like _`%s1`_, _`3%%`_untouched.
 
 For more mark for death text value, with the function search look for _`MARKED_FOR_DEATH`_.
 

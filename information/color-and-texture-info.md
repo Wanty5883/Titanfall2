@@ -22,7 +22,7 @@ You can get more brightness using value up than 1. For heat color I would recomm
 
 ### $texture2 & $basetexture
 
-This value is path to the texture you want to use in your material files. Both can use path to any texture file, in some case, some texture would look wreid or wouldn't work at all. Down bellow a little example of how you can use this value, thoose path will always point by default the material folder. You don't need to add the file extension in the path
+This value is path to the texture you want to use in your material files. Both can use path to any texture file, in some case, some texture would look wreid or wouldn't work at all. Down bellow a little example of how you can use this value, those path will always point by default the material folder. You don't need to add the file extension in the path
 
 ```text
 "$basetexture" "models\weapons\lstar\lstar_heat_charge_col"

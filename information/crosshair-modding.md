@@ -31,7 +31,7 @@ Go to this location in your extracted folder
 
 > \scripts\weapons
 
-This folder containt the "config files" for the weapons. Edit thoose files at your own risk, if you get banned because you edit some important value don’t blame me.
+This folder containt the "config files" for the weapons. Edit those files at your own risk, if you get banned because you edit some important value don’t blame me.
 
 Find that code block to get where is the crosshair code part.
 

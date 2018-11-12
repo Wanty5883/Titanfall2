@@ -35,7 +35,7 @@ To change pilot class models go to this directory:
 
 To change the pilot class you want, first off find the file linked to this class. Then choose the class you want and duplicate them. Then just rename the duplicated files into the name of the class you wanted to change.
 
-The files in the folder have different name who correspond to thoose pilot classes:
+The files in the folder have different name who correspond to those pilot classes:
 
 * pilot\_jester = Stim
 * pilot\_medium\_stalker = Holo

@@ -15,7 +15,7 @@ This page is quite... big due to the big amount of information around weapon con
 This folder containt the "config files" for the weapons. This folder contain a lot of files, check [File location](https://wanty5883.gitbook.io/titanfall2/information/weapon-config-info#file-location) for the full list of the different weapons in the game.
 
 {% hint style="danger" %}
-**Edit thoose files at your own risk**, if you get banned because you edit some important value don’t blame me.
+**Edit those files at your own risk**, if you get banned because you edit some important value don’t blame me.
 {% endhint %}
 
 ## Location
@@ -56,9 +56,9 @@ This value set the based size of the crosshair, this won't change the vector siz
 
 > englishclient\_mp\_common.bsp.pak000\_dir.vpk\scripts\weapons
 
-This folder containt the "config files" for the weapons. Edit thoose files at your own risk, if you get banned because you edit some important value don’t blame me.
+This folder containt the "config files" for the weapons. Edit those files at your own risk, if you get banned because you edit some important value don’t blame me.
 
-This guide will cover value bellow the comment `// Effects` in thoose files. This guide will be large and covert lot of different value, so for an easier navigation refer to the **table of content**. Here is the part of the file we are looking for
+This guide will cover value bellow the comment `// Effects` in those files. This guide will be large and covert lot of different value, so for an easier navigation refer to the **table of content**. Here is the part of the file we are looking for
 
 ```text
 // Effects
