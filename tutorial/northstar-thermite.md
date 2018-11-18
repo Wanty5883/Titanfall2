@@ -1,4 +1,4 @@
-# Northstar - Gravity
+# Northstar - Thermite
 
 ## Preparation
 
@@ -8,7 +8,7 @@ Any suggestion are welcome, you can submit your request / idea on NS Discord or 
 
 ### Demo
 
-[![Northstar - Gravity](https://github.com/Wanty5883/Titanfall2/raw/master/picture/northstar%20-%20gravity%20YT.PNG?raw=true)](https://www.youtube.com/watch?v=A2ke8bzzi30)
+[![Northstar - Gravity](https://github.com/Wanty5883/Titanfall2/raw/master/picture/northstar%20-%20thermite.PNG?raw=true)](https://youtu.be/oYTL5fdoAEo)
 
 ## Railgun
 
@@ -24,29 +24,24 @@ Open the file `mp_titanweapon_sniper.txt` with your text editor.
 
 Find and replace the following values in your file. **Note:** Do not copy paste this entire code block into your original file, replace string by string or you might resolve with a none working file.
 
-Thoose value change the railgun projectile to a blue one for regular shot and to gravity vortex for the full charged shots.
-
 ```text
-"projectile_trail_effect_0"				"wpn_grenade_frag_blue"
-"projectile_trail_effect_1"				"wpn_grenade_frag_blue"
-"projectile_trail_effect_2"				"P_wpn_grenade_gravity"
+"projectile_trail_effect_0"				"P_grenade_thermite_trail"
+"projectile_trail_effect_1"				"P_wpn_meteor_trail"
+"projectile_trail_effect_2"				"P_wpn_meteor_exp_amp"
+"impact_effect_table" 					"titan_meteor"
 ```
 
-Thoose value change the muzzle flash to an electric one. _note:_ muzzle flash apply when you shoot, this is not the vortex effect when you charge the railgun.
-
 ```text
-"fx_muzzle_flash_view"					"wpn_muzzleflash_arc_cannon_fp"
-"fx_muzzle_flash_world"					"wpn_muzzleflash_arc_cannon_fp"
+"fx_muzzle_flash_view"					"wpn_muzzleflash_40mm_fp"
+"fx_muzzle_flash_world"					"wpn_muzzleflash_40mm"
 "fx_muzzle_flash_attach"				"muzzle_flash"
 ```
 
-This list of value change the charge effect and sound of the railgun. I change the charge effect **and**sound to the gravity vortex.
-
 ```text
-"charge_sound_1p"					"weapon_gravitystar_preexplo"
+"charge_sound_1p"					"Weapon_Predator_MotorLoop_1P"
 "charge_full_sound_1p"					"Weapon_Titan_Sniper_SustainLoop"
-"charge_effect_1p"					"P_wpn_grenade_gravity"
-"charge_effect_3p"					"P_wpn_grenade_gravity"
+"charge_effect_1p"					"P_wpn_meteor_exp_amp"
+"charge_effect_3p"					"P_wpn_meteor_exp_amp"
 ```
 
 ### Crosshair
@@ -108,29 +103,23 @@ Open the file `mp_titanweapon_flightcore_rockets.txt` with your text editor.
 
 Find and replace the following values in your file. **Note:** Do not copy paste this entire code block into your original file, replace string by string or you might resolve with a none working file.
 
-This will change the muzzle flash to an electric one.
-
 ```text
-"fx_muzzle_flash_view"					"wpn_muzzleflash_arc_cannon_fp"
-"fx_muzzle_flash_world"					"wpn_muzzleflash_arc_cannon_fp"
+"fx_muzzle_flash_view"					"P_wpn_HeatSheild_burn_titan"
+"fx_muzzle_flash_world"					"P_wpn_HeatSheild_burn_titan"
 "fx_muzzle_flash_attach"				"muzzle_flash_2"
 
-"fx_muzzle_flash2_view"					"P_elec_screen"
-"fx_muzzle_flash2_world"				"P_elec_screen"
+"fx_muzzle_flash2_view"					"wpn_mflash_xo_rocket_shoulder_FP"
+"fx_muzzle_flash2_world"				"P_muzzleflash_predator"
 "fx_muzzle_flash2_attach"				"muzzle_flash"
 ```
 
-Change the projectile to the EPG one and changeed the impact to the arc launcher one.
-
 ```text
-"impact_effect_table" 					"exp_arc_ball"
-"projectile_trail_effect_0" 				"P_plasma_proj_LG_DLight"
+"impact_effect_table" 					"titan_meteor"
+"projectile_trail_effect_0" 				"P_wpn_meteor_exp_amp"
 ```
 
-Changed the core sound to a soft "energy" one \(that point is purely personnal taste\) only for first person.
-
 ```text
-"fire_sound_1_player_1p"			"ShoulderRocket_Homing_Fire_1P"
+"fire_sound_1_player_1p"			"Weapon_Softball_Fire_1P"
 "fire_sound_1_player_3p"			"weapon_titan_flightcore_rocket_fire_3p"
 "fire_sound_2"					"Weapon_bulletCasings.Bounce"
 ```
@@ -186,15 +175,13 @@ This will change the cluster icon to the one from Frontier Defense. The cluster 
 "viewmodel"		"models/weapons/titan_raptor_rocket_pod/atpov_titan_raptor_rocket_pod_core.mdl"
 ```
 
-This change the cluster missile projectile to the gravity vortex, which is the theme of this Northstar theme.
-
 ```text
-"projectile_trail_effect_0"			"P_wpn_grenade_gravity"
+"projectile_trail_effect_0"			"P_wpn_meteor_trail"
 ```
 
 ## Tether trap
 
-To get this tether trap effect, you will need to edit one text files. No specific software exept your text editor.
+To get this cluster missle, you will need to edit one text files. No specific software exept your text editor.
 
 Go to this location
 
@@ -210,10 +197,7 @@ This change the tether trap icon HUD to the one used in Frontier Defense.
 "hud_icon"			"rui/menu/fd_menu/upgrade_northstar_explosive_trap_hud"
 ```
 
-Thoose values make the tether trap this electric effect.
-
 ```text
-"impact_effect_table"				"P_wpn_arcTrap"
-"projectile_trail_effect_0"			"P_wpn_arcball_trail_amp"
+"projectile_trail_effect_0"			"P_meteor_trap_trail"
 ```
 
