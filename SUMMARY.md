@@ -42,6 +42,6 @@
 
 ## Tutorial
 
-* [Northstar - Gravity](tutorial/untitled.md)
+* [Northstar - Gravity](tutorial/northstar-gravity.md)
 * [Northstar - Thermite](tutorial/northstar-thermite.md)
 
