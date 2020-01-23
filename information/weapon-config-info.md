@@ -4,8 +4,6 @@ description: List of information for the weapon config files
 
 # Weapon config info
 
-
-
 ## Introduction & Warning
 
 This page is quite... big due to the big amount of information around weapon config files and I plan to add even more. So for the sake of your mental health refer to the content summary on the right side of your screen. I done title and subtile to make it easier !
@@ -234,7 +232,6 @@ You can have different value between normal and amped mode on each weapon config
 |  | wpn\_grenade\_TT | Related to gunship |
 |  | wpn\_grenade\_TT\_mag | Related to gunship |
 |  | wpn\_grenade\_TT\_activate | Related to Scorch |
-| Arc Trap | P\_arcTrap\_light | FD content |
 |  | test\_projectile |  |
 |  | P\_sspectre\_proj |  |
 | Spectre Spawner | P\_drone\_launch\_trail |  |
@@ -246,7 +243,17 @@ You can have different value between normal and amped mode on each weapon config
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
-| Pulse Blade | wpn\_grenade\_sonar\_impact |  |
+| Phase Shift | P\_phase\_shift\_main | Appear & disappear |
+| Phase Shift | P\_phase\_shift\_main\_XO | Titan value |
+| Phase Shift | P\_phase\_shift\_screen | Screen FX |
+| Phase Shift | P\_phase\_shift\_screen\_start |  |
+| Pulse Blade | wpn\_grenade\_sonar\_impact | Impact effect |
+| Pulse Blade | P\_ar\_sonar\_CP\_amp |  |
+| Pulse Blade | P\_ar\_sonar\_CP |  |
+| Pulse Blade | P\_ar\_holopulse\_CP |  |
+| Pulse Blade | P\_holo\_screespace |  |
+| Stim | P\_heal |  |
+| Stim | P\_pilot\_stim\_hld |  |
 
 ### Pilot Ordnance
 
@@ -258,33 +265,134 @@ You can have different value between normal and amped mode on each weapon config
 | Arc Trap | P\_wpn\_arcTrap\_beam | FD content |
 | Hardcover | P\_pilot\_cover\_shield |  |
 | Hardcover | P\_pilot\_amped\_shield |  |
+| Satchel | wpn\_laser\_blink |  |
+| Satchel | wpn\_satchel\_clacker\_glow\_LG\_1 | Large |
+| Satchel | wpn\_satchel\_clacker\_glow\_SM\_1 | Small |
 | Smoke Grenade | P\_wpn\_smk\_electric\_pilot |  |
 | Smoke Grenade | P\_wpn\_smk\_electric\_pilot\_air |  |
+
+### Pilot Weapon
+
+| FX name | Value | Note |
+| :--- | :--- | :--- |
+| Arc Tool | P\_charge\_tool\_charge\_FP |  |
+| DMR | wpn\_mflash\_snp\_hmn\_smoke\_side\_FP |  |
+| DMR | wpn\_mflash\_snp\_hmn\_smoke\_side |  |
+| DMR | Rocket\_Smoke\_SMR\_Glow |  |
+| Kraber | wpn\_mflash\_snp\_hmn\_smoke\_side\_FP |  |
+| Kraber | wpn\_mflash\_snp\_hmn\_smoke\_side |  |
+| LSTAR | wpn\_mflash\_snp\_hmn\_smokepuff\_side\_FP | Cooldown effect |
+| LSTAR | wpn\_mflash\_snp\_hmn\_smokepuff\_side | Cooldown effect |
+| LSTAR | xo\_spark\_med | Burnout effect |
 
 ### Titan
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
+| Arc Ball | P\_impact\_exp\_emp\_med\_air |  |
+| Arc Ball | wpn\_arc\_cannon\_charge\_fp |  |
+| Arc Ball | wpn\_arc\_cannon\_charge |  |
+| Arc Cannon | wpn\_arc\_cannon\_electricity\_fp |  |
+| Arc Cannon | wpn\_arc\_cannon\_electricity |  |
+| Arc Cannon | impact\_arc\_cannon\_titan |  |
+| Arc Cannon | wpn\_arc\_cannon\_beam |  |
+| Arc Cannon | wpn\_arc\_cannon\_beam\_mod |  |
+| Arc Cannon | exp\_arc\_cannon |  |
+| Arc Cannon | wpn\_muzzleflash\_arc\_cannon\_fp |  |
+| Arc Cannon | wpn\_muzzleflash\_arc\_cannon |  |
+| Arc Cannon | impact\_arc\_cannon\_titan |  |
+| Arc Cannon | P\_emp\_body\_human |  |
 | Battery Generator | P\_generator\_exp |  |
 | Dome Shield | P\_shield\_hld\_01\_CP | Particle system |
 | Hotdrop Warp | P\_warpjump\_FP |  |
 | Hotdrop Trail | hotdrop\_hld\_warp |  |
+| Titancore Utility | P\_titan\_core\_atlas\_blast |  |
+| Titancore Utility | P\_titan\_core\_atlas\_charge |  |
+
+### Ion
+
+| FX name | Value | Note |
+| :--- | :--- | :--- |
+| Laser Core | P\_wpn\_lasercannon\_aim | Aim |
+| Laser Core | P\_lasercannon\_core | Core |
+| Laser Core | P\_handlaser\_charge | Muzzleflash |
+| Vortex Shield | P\_impact\_xo\_shield\_cp |  |
+| Vortex Shield | P\_impact\_exp\_med\_xo\_shield\_CP |  |
+
+### Tone
+
+| FX name | Value | Note |
+| :--- | :--- | :--- |
+| Sonar | P\_ar\_sonar\_CP\_amp |  |
+| Sonar | P\_ar\_sonar\_CP |  |
+| Sonar | P\_ar\_holopulse\_CP |  |
+| Sonar | P\_holo\_screespace |  |
+
+### Monarch
+
+| FX name | Value | Note |
+| :--- | :--- | :--- |
+| 40MM | wpn\_mflash\_40mm\_smoke\_side |  |
+| 40MM | wpn\_mflash\_40mm\_smoke\_side\_FP |  |
+| 40MM | P\_scope\_glint |  |
+| Upgrade Core | P\_wpn\_lasercannon\_aim |  |
+
+### Ronin
+
+| FX name | Value | Note |
+| :--- | :--- | :--- |
+| Sword Block | P\_impact\_xo\_sword |  |
+
+### Scorch
+
+| FX name | Value | Note |
+| :--- | :--- | :--- |
+| Flame Core | P\_impact\_exp\_xsmll\_metal |  |
+| Flame Core | P\_impact\_exp\_med\_metal |  |
+| Flame Core | flamewave\_blast\_left |  |
+| Flame Core | flamewave\_blast\_middle |  |
+| Flame Core | flamewave\_blast\_right |  |
+| Flamewall | P\_wpn\_meteor\_wall |  |
+| Flamewall | P\_wpn\_meteor\_wall\_s2s |  |
+| Flamewall | impact\_exp\_burst\_FRAG\_2 |  |
+| Thermal Shield | P\_wpn\_HeatShield |  |
+| Thermal Shield | P\_wpn\_HeatShield\_FP |  |
+| Thermal Shield | P\_wpn\_HeatShield\_impact | Absorb effect |
+| Thermal Shield | P\_wpn\_HeatSheild\_burn\_titan | Impact |
+| Thermal Shield | P\_wpn\_HeatSheild\_burn\_human | Impact |
+| Thermal Shield | P\_impact\_exp\_emp\_med\_air | Particle |
+
+### Legion
+
+| FX name | Value | Note |
+| :--- | :--- | :--- |
+| Predator Cannon | P\_predator\_barrel\_blur\_FP |  |
+| Predator Cannon | P\_predator\_barrel\_blur |  |
 
 ### Drones, Turret & Gunship
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
+| Drone Plasma | P\_wpn\_sspectre\_charge |  |
+| Drone Plasma | P\_wpn\_muzzleflash\_epg |  |
+| Drone Rocket | P\_wpn\_drone\_charge |  |
+| Mega Turret | wpn\_muzzleflash\_mega\_trrt |  |
+| Mega Turret | wpn\_shelleject\_40mm |  |
 | Gunship Launcher | wpn\_grenade\_TT\_activate | Mine ignition |
 | Gunship Launcher | tower\_light\_red | Mine trail |
 | Gunship Launcher | Rocket\_Smoke\_Large | Mine light |
+| Super Specter | P\_wpn\_sspectre\_charge |  |
+| Super Specter | P\_wpn\_muzzleflash\_sspectre |  |
 
 ### Misc
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
-| Deployable cloakfield | harvester\_base\_noise | FD content ? |
-| Deployable cloakfield | harvester\_base\_glowflat | FD content ? |
-| Deployable cloakfield | ar\_operator\_target\_idle | FD content ? |
+| Deployable Cloakfield | harvester\_base\_noise | FD content ? |
+| Deployable Cloakfield | harvester\_base\_glowflat | FD content ? |
+| Deployable Cloakfield | ar\_operator\_target\_idle | FD content ? |
+| Proto Hold Beam | elite\_smoke\_rise |  |
+| Proto Hold Beam | dissolve\_CH\_arcs |  |
 
 
 
@@ -294,8 +402,17 @@ You can have different value between normal and amped mode on each weapon config
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
+| Cloak | coop\_sentrygun\_deploymentdeniedbeep |  |
+| Cloak | bc\_pCloak | Chatter event |
+| Cloak | HUD\_kit\_meter\_replenished\_1P |  |
 | Holopilot | holopilot\_deploy\_1p |  |
 | Holopilot | holopilot\_deploy\_3p |  |
+| Phase Shift | Pilot\_PhaseShift\_PreActivate\_1P |  |
+| Phase Shift | Pilot\_PhaseShift\_PreActivate\_3P |  |
+| Phase Shift | Pilot\_PhaseShift\_Loop\_1P |  |
+| Phase Shift | Pilot\_PhaseShift\_Loop\_3P |  |
+| Phase Shift | Pilot\_PhaseShift\_WarningToEnd\_1P |  |
+| Phase Shift | Pilot\_PhaseShift\_WarningToEnd\_3P |  |
 | Pulse Blade | Pilot\_PulseBlade\_Activated\_1P |  |
 | Pulse Blade | Pilot\_PulseBlade\_Activated\_3P |  |
 | Pulse Blade | Pilot\_PulseBlade\_Sonar\_Pulse\_1P |  |
@@ -304,6 +421,11 @@ You can have different value between normal and amped mode on each weapon config
 | Pulse Blade | HUD\_MP\_EnemySonarTag\_Flashed\_1P |  |
 | Stim | pilot\_stimpack\_activate\_1P |  |
 | Stim | pilot\_stimpack\_activate\_3P |  |
+| Stim | pilot\_stimpack\_deactivate\_1P |  |
+| Stim | pilot\_stimpack\_deactivate\_3P |  |
+| Stim | pilot\_stimpack\_loop\_1P |  |
+| Stim | pilot\_stimpack\_loop\_3P |  |
+| Stim | bc\_pStim | Chatter event |
 
 ### Pilot Ordnance
 
@@ -315,6 +437,7 @@ You can have different value between normal and amped mode on each weapon config
 | Harcdcover | Hardcover\_Shield\_End\_3P |  |
 | Proximity Mine | Weapon\_ProximityMine\_Land |  |
 | Proximity Mine | Weapon\_ProximityMine\_ArmedBeep |  |
+| Satchel | weapon\_r1\_satchel.throw |  |
 | Smoke Grenade | explo\_electric\_smoke\_impact |  |
 
 ### Pilot Weapon
@@ -339,16 +462,37 @@ You can have different value between normal and amped mode on each weapon config
 | Charge Rifle | Weapon\_ChargeRifle\_WindDown\_3P | Unload sound |
 | Cold War | Weapon\_ColdWar\_ChargeUp\_1P |  |
 | Cold War | Weapon\_ColdWar\_ChargeUp\_3P |  |
+| DMR | large\_shell\_drop |  |
 | LSTAR | Weapon\_LSTAR\_Fire\_1P |  |
 | LSTAR | Weapon\_LSTAR\_Fire\_3P |  |
 | LSTAR | Weapon\_LSTAR\_Fire\_NPC |  |
+| LSTAR | lstar\_lowammowarning | Warning sound |
+| LSTAR | LSTAR\_LensBurnout | Burnout sound |
+| LSTAR | LSTAR\_LensBurnout\_3P | Burnout sound |
+| Melee | Player\_Melee\_Backhand\_1P |  |
+| Melee | player\_melee\_kick\_3p |  |
+| Smart Pistol | Weapon\_SmartPistol\_Fire\_1P |  |
+| Smart Pistol | Weapon\_SmartPistol\_Fire\_3P |  |
+| Smart Pistol | Weapon\_SmartPistol\_SuppressedFire\_1P |  |
+| Smart Pistol | Weapon\_SmartPistol\_SuppressedFire\_3P |  |
 | Thunderbolt | Weapon\_Arc\_Ball\_Loop |  |
+| Thunderbolt | Weapon\_ArcLauncher\_Fire\_1P |  |
+| Thunderbolt | Weapon\_ArcLauncher\_Fire\_3P |  |
 
 ### Titans
 
 | Sound name | Value |  |
 | :--- | :--- | :--- |
+| Arc Ball | Explo\_ProximityEMP\_Impact\_3P |  |
+| Arc Cannon | Weapon\_ArcLauncher\_Fire\_1P |  |
+| Arc Cannon | Weapon\_ArcLauncher\_Fire\_3P |  |
 | Arc Cannon | arc\_cannon\_charge |  |
+| Arc Cannon | arc\_cannon\_charged\_loop |  |
+| Arc Cannon | Arc\_Rifle\_charged\_Loop\_1P |  |
+| Arc Cannon | Arc\_Rifle\_charged\_Loop\_3P |  |
+| Arc Cannon | Titan\_Blue\_Electricity\_Cloud |  |
+| Titancore Utility | Titan\_CoreAbility\_Sustain\_Long |  |
+| Titancore Utility | Titan\_CoreAbility\_Sustain |  |
 | Warpfall | Titan\_1P\_Warpfall\_Hotdrop |  |
 | Warpfall | Titan\_1P\_Warpfall\_Start |  |
 | Warpfall | Titan\_3P\_Warpfall\_Start |  |
@@ -364,12 +508,27 @@ You can have different value between normal and amped mode on each weapon config
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
+| Laser Core | Titan\_Core\_Laser\_FireBeam\_1P\_extended |  |
+| Laser Core | Titan\_Core\_Laser\_FireBeam\_1P |  |
+| Laser Core | Titan\_Core\_Laser\_FireBeam\_3P |  |
+| Laser Core | Titan\_Core\_Laser\_ChargeUp\_1P |  |
+| Laser Core | Titan\_Core\_Laser\_Fire\_EndWarning\_1P |  |
+| Laser Core | Titan\_Core\_Laser\_FireStart\_1P |  |
+| Laser Core | Titan\_Core\_Laser\_FireStart\_3P |  |
+| Laser Core | Titan\_Core\_Laser\_FireStop\_1P |  |
+| Laser Core | Titan\_Core\_Laser\_FireStop\_3P |  |
+| Laser Core | Titan\_Core\_Laser\_ChargeUp\_1P |  |
+| Laser Core | Titan\_Core\_Laser\_ChargeUp\_3P |  |
 | Laser Shot | Weapon\_ShoulderLaser\_Fire\_3P |  |
 | Laser Shot | Weapon\_ShoulderLaser\_Fire\_3P |  |
 | Laser Shot | Weapon\_ShoulderLaser\_StutterBuild\_1P | Charge sound |
 | Laser Shot | Weapon\_ShoulderLaser\_StutterBuild\_3P | Charge sound |
 | Laser Trip Wire | Wpn\_LaserTripMine\_Deploy\_1P |  |
 | Laser Trip Wire | Wpn\_LaserTripMine\_Deploy\_3P |  |
+| Vortex Shield | Weapon\_Vortex\_Gun.ExplosiveWarningBeep |  |
+| Vortex Shield | vortex\_impact\_sound\_1p |  |
+| Vortex Shield | vortex\_impact\_sound\_3p |  |
+| Vortex Shield | Weapon.Explosion\_Med |  |
 
 ### Tone
 
@@ -378,6 +537,12 @@ You can have different value between normal and amped mode on each weapon config
 | 40mm | Weapon\_bulletCasings.Bounce |  |
 | 40mm | Weapon\_40mm\_Fire\_1P |  |
 | 40mm | Weapon\_40mm\_Fire\_3P |  |
+| 40MM | weapon\_40mm\_burstloader\_leveltick\_1 |  |
+| 40MM | weapon\_40mm\_burstloader\_leveltick\_2 |  |
+| 40MM | weapon\_40mm\_burstloader\_leveltick\_3 |  |
+| 40MM | Weapon\_Sidwinder\_Projectile | Mortar |
+| 40MM | HUD\_40mm\_TrackerBeep\_Locked |  |
+| 40MM | HUD\_40mm\_TrackerBeep\_Hit |  |
 | Sonar Pulse | Titan\_Tone\_SonarLock\_Fired\_ShoulderPod\_1P |  |
 | Sonar Pulse | Titan\_Tone\_SonarLock\_Fired\_ShoulderPod\_3P |  |
 | Particule Wall | ShieldWall\_Deploy |  |
@@ -394,6 +559,14 @@ You can have different value between normal and amped mode on each weapon config
 | Railgun | Weapon\_Titan\_Sniper\_WindUp\_Amped | FD content |
 | Railgun | Weapon\_Titan\_Sniper\_WindDown | Unload sound |
 | Railgun | Weapon\_Titan\_Sniper\_SustainLoop | Loop sound |
+| Railgun | Weapon\_Titan\_Sniper\_Level\_1\_1P |  |
+| Railgun | Weapon\_Titan\_Sniper\_Level\_1\_3P |  |
+| Railgun | Weapon\_Titan\_Sniper\_Level\_2\_1P |  |
+| Railgun | Weapon\_Titan\_Sniper\_Level\_2\_3P |  |
+| Railgun | Weapon\_Titan\_Sniper\_Level\_3\_1P |  |
+| Railgun | Weapon\_Titan\_Sniper\_Level\_3\_3P |  |
+| Railgun | Weapon\_Titan\_Sniper\_Level\_4\_1P |  |
+| Railgun | Weapon\_Titan\_Sniper\_Level\_4\_3P |  |
 | Cluster Missile | ShoulderRocket\_Cluster\_Fire\_1P |  |
 | Cluster Missile | ShoulderRocket\_Cluster\_Fire\_3P |  |
 | Tether Trap | Wpn\_TetherTrap\_Deploy\_1P |  |
@@ -425,23 +598,50 @@ You can have different value between normal and amped mode on each weapon config
 | Tracking Rockets | ShoulderRocket\_Homing\_Fire\_3P |  |
 | Rockets | ShoulderRocket\_Paint\_Fire\_1P |  |
 | Rockets | ShoulderRocket\_Paint\_Fire\_3P |  |
+| Upgrade Core | Weapon\_Predator\_MotorLoop\_1P |  |
+| Upgrade Core | Weapon\_Predator\_MotorLoop\_3P |  |
+| Upgrade Core | Weapon\_Predator\_Windup\_1P |  |
+| Upgrade Core | Weapon\_Predator\_Windup\_3P |  |
 
 ### Ronin
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
-| Leadwall | Weapon\_Leadwall\_Fire\_1P |  |
-| Leadwall | Weapon\_Leadwall\_Fire\_3P |  |
 | Arc Wave | arcwave\_fire\_1p |  |
 | Arc Wave | arcwave\_fire\_3p |  |
 | Arc Wave | Weapon\_ShoulderLaser\_StutterBuild\_02 |  |
+| Leadwall | Weapon\_Leadwall\_Fire\_1P |  |
+| Leadwall | Weapon\_Leadwall\_Fire\_3P |  |
+| Phase Dash | Pilot\_PhaseShift\_PreActivate\_1P |  |
+| Phase Dash | Pilot\_PhaseShift\_PreActivate\_3P |  |
+| Phase Dash | titan\_phasedash\_activate\_1p |  |
+| Phase Dash | titan\_phasedash\_activate\_3p |  |
+| Phase Dash | titan\_phasedash\_loop\_1p |  |
+| Phase Dash | titan\_phasedash\_loop\_3p |  |
+| Phase Dash | titan\_phasedash\_warningtoend\_1p |  |
+| Phase Dash | titan\_phasedash\_warningtoend\_3p |  |
+| Phase Dash | titan\_phasedash\_end\_1p |  |
+| Phase Dash | titan\_phasedash\_end\_3p |  |
 | Sword Block | Weapon\_ShoulderLaser\_StutterBuild\_1P |  |
 | Sword Block | ronin\_sword\_draw\_02\_3p |  |
+| Sword Block | ronin\_sword\_draw\_3p |  |
+| Sword Block | ronin\_sword\_bullet\_impacts |  |
 
 ### Scorch
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
+| Flame Core | flamewave\_start\_1p |  |
+| Flame Core | flamewave\_start\_3p |  |
+| Flame Core | Flesh.ThermiteBurn\_3P\_vs\_1P |  |
+| Flame Core | Flesh.ThermiteBurn\_1P\_vs\_3P |  |
+| Flamewall | flamewall\_flame\_start |  |
+| Flamewall | flamewall\_start\_1p |  |
+| Flamewall | flamewall\_start\_3p |  |
+| Flamewall | Explo\_ThermiteGrenade\_Impact\_3P |  |
+| Flamewall | flamewall\_flame\_burn\_front |  |
+| Flamewall | flamewall\_flame\_burn\_middle |  |
+| Flamewall | flamewall\_flame\_burn\_end |  |
 | Meteor Cannon | Weapon\_bulletCasings.Bounce |  |
 | Meteor Cannon | weapon\_thermitelauncher\_fire\_1p |  |
 | Meteor Cannon | weapon\_thermitelauncher\_fire\_3p |  |
@@ -449,6 +649,14 @@ You can have different value between normal and amped mode on each weapon config
 | Incendiary Trap | incendiary\_trap\_deploy\_3p |  |
 | Thermal Shield | heat\_shield\_1p\_loop |  |
 | Thermal Shield | heat\_shield\_3p\_loop |  |
+| Thermal Shield | heat\_shield\_1p\_end |  |
+| Thermal Shield | heat\_shield\_3p\_end |  |
+| Thermal Shield | heat\_shield\_burn\_human\_1p |  |
+| Thermal Shield | heat\_shield\_burn\_human\_3p |  |
+| Thermal Shield | heat\_shield\_burn\_titan\_1p |  |
+| Thermal Shield | heat\_shield\_burn\_titan\_3p |  |
+| Thermal Shield | heat\_shield\_stop\_bullet |  |
+| Thermal Shield | heat\_shield\_stop\_projectile |  |
 
 ### Legion
 
@@ -456,21 +664,40 @@ You can have different value between normal and amped mode on each weapon config
 | :--- | :--- | :--- |
 | Predator Cannon | Weapon\_Predator\_SecondShot\_1P |  |
 | Predator Cannon | Weapon\_Predator\_SecondShot\_3P |  |
+| Predator Cannon | weapon\_predator\_windup\_1p |  |
+| Predator Cannon | weapon\_predator\_windup\_3p |  |
 | Predator Cannon | weapon\_predator\_winddown\_1p | Unload sound |
 | Predator Cannon | weapon\_predator\_winddown\_3p | Unload sound |
+| Predator Cannon | Weapon\_Predator\_MotorLoop\_1P |  |
+| Predator Cannon | Weapon\_Predator\_MotorLoop\_3P |  |
+| Predator Cannon | wpn\_predator\_cannon\_ads\_out\_mech\_fr00\_1p |  |
 | Power Shot | Weapon\_Predator\_Powershot\_ChargeUp\_1P |  |
 | Power Shot | Weapon\_Predator\_Powershot\_ChargeUp\_3P |  |
+| Power Shot | Weapon\_Predator\_Powershot\_ShortRange\_1P |  |
+| Power Shot | Weapon\_Predator\_Powershot\_ShortRange\_3P |  |
+| Power Shot | Weapon\_Predator\_Powershot\_LongRange\_1P |  |
+| Power Shot | Weapon\_Predator\_Powershot\_LongRange\_3P |  |
 
 ### Drones, Turret & Gunship
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
 | Drones | Drone\_Beam\_Charge |  |
+| Drone Plasma | Drone\_Plasma\_Fire |  |
+| Drone Rocket | Drone\_Weapon\_Prefire |  |
+| Drone Rocket | Weapon\_ARL.Single |  |
+| Drone Rocket | ShoulderRocket\_Salvo\_Fire\_3P |  |
+| Mega Turret | MegaTurret\_Laser\_ChargeUp\_3P |  |
+| Mega Turret | O2\_Scr\_MegaTurret\_Bridge\_Fire |  |
+| Mega Turret | megaturret\_fire |  |
+| Mega Turret | Weapon\_bulletCasings.Bounce |  |
 | Gunship Launcher | NPE\_Missile\_Alarm |  |
 | Gunship Launcher | Triple\_Threat\_Grenade\_Charge |  |
 | Gunship Missile | Weapon\_ARL.Single |  |
 | Gunship Missile | ShoulderRocket\_Salvo\_Fire\_3P |  |
 | Mega Turret | MegaTurret\_Laser\_ChargeUp\_3P | Not used by default |
+| Super Specter | Weapon\_DaemonRocket\_Launcher |  |
+| Super Specter | Weapon\_DaemonRocket\_Launcher.Fire |  |
 
 ## File location
 
