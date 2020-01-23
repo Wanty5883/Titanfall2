@@ -509,10 +509,9 @@ You can have different value between normal and amped mode on each weapon config
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
 | Laser Core | Titan\_Core\_Laser\_FireBeam\_1P\_extended |  |
+| Laser Core | Titan\_Core\_Laser\_Fire\_EndWarning\_1P |  |
 | Laser Core | Titan\_Core\_Laser\_FireBeam\_1P |  |
 | Laser Core | Titan\_Core\_Laser\_FireBeam\_3P |  |
-| Laser Core | Titan\_Core\_Laser\_ChargeUp\_1P |  |
-| Laser Core | Titan\_Core\_Laser\_Fire\_EndWarning\_1P |  |
 | Laser Core | Titan\_Core\_Laser\_FireStart\_1P |  |
 | Laser Core | Titan\_Core\_Laser\_FireStart\_3P |  |
 | Laser Core | Titan\_Core\_Laser\_FireStop\_1P |  |
