@@ -98,6 +98,13 @@ As you may noticed, for some weapon when you amp them \(amped weapon\) some effe
 This value define the impact animation when the bullet hit on players or walls. It can be added to weapon who don't already have this value. As I tested before, is not possible to combine multiple impact.  
 You can have different value between normal and amped mode on each weapon config file. Impact\_effect\_table accept other type of values, like tracers.
 
+### b. Impact values
+
+| Impact name | Value | Note |
+| :--- | :--- | :--- |
+| **`Pilot Ability`** |  |  |
+| Pulse Blade | wpn\_grenade\_sonar\_impact | Impact effect |
+
 ### b. tracer\_effect
 
 Tracer effect are for **hitscan weapon only**, this function does not effect projectile based weapon. However, there is some exeption about that. Find that code block to get where is the tracers code part.
@@ -132,6 +139,8 @@ Tracer effect are for **hitscan weapon only**, this function does not effect pro
 | P\_wpn\_defender\_beam\_burn | Amped Charge rifle |  |
 | P\_wpn\_monarch\_beam\_v1 | Syphon default mode |  |
 | P\_wpn\_monarch\_beam\_v2 | Syphon varient |  |
+| wpn\_arc\_cannon\_beam | Arc Cannon |  |
+| wpn\_arc\_cannon\_beam\_mod | Arc Cannon |  |
 | **Unknown** | I have to test them |  |
 | weapon\_tracers\_vortex | Vortex shield |  |
 | weapon\_tracers\_vortex\_mod | Vortex shield |  |
@@ -151,71 +160,317 @@ You can have different value between normal and amped mode on each weapon config
 
 ### c. **Projectile value**
 
-| Value | Notes | e.g. |
+| Projectile name | Value | Note |
 | :--- | :--- | :--- |
-| **Classic** |  |  |
-| P\_titan\_sniper1 | Railgun uncharged |  |
-| P\_titan\_sniper2 | Railgun halfcharged |  |
-| P\_titan\_sniper3 | Railgun full charged |  |
-| P\_wpn\_tracer\_sniper | Railgun \(disable by default\) |  |
-| P\_FlightCore\_trail | Flight course |  |
-| weapon\_40mm\_projectile | 40MM |  |
-| P\_SalvoCore\_trail | Salvo core / cluster |  |
-| P\_Rocket\_Mortar | Mortar \(frontier defense\) |  |
-| P\_leadwall\_proj | Leadwall |  |
-| P\_mastiff\_proj | Mastiff |  |
-| P\_mastiff\_proj\_amp | Mastiff Amped |  |
-| wpn\_grenade\_frag\_mag | Spitfire |  |
-| wpn\_grenade\_frag\_mag\_burn | Spitfire Amped |  |
-| garand\_trail\_smoke | DMR \(not used by default\) |  |
-| P\_doubletake\_proj | Double Take |  |
-| weapon\_kraber\_projectile | Kraber |  |
-| weapon\_kraber\_projectile\_burn | Kraber Amped |  |
-| P\_proj\_predator\_alt\_pwr | Red projectile |  |
-| wpn\_grenade\_frag\_blue | Blue projectile |  |
-| wpn\_grenade\_sonar | Orange sonar |  |
-| wpn\_grenade\_sonar\_titan | Orange titan sonar |  |
-| **Electric** |  |  |
-| P\_wpn\_arcball\_trail | Arc launcher |  |
-| P\_wpn\_arcball\_trail\_amp | Arc launcher Amped |  |
-| **Energy** |  |  |
-| P\_projectile\_lstar | LSTAR |  |
-| P\_projectile\_lstar\_burn | LSTAR Amped |  |
-| P\_projectile\_TPA | Particle accelerator |  |
-| P\_plasma\_proj\_LG\_DLight | EPG |  |
-| P\_plasma\_proj\_LG\_amp | EPG Amped |  |
-| P\_plasma\_proj\_MD | Cold War |  |
-| P\_plasma\_proj\_MD\_amp | Cold War Amped |  |
-| P\_projectile\_turretplasma\_mega | Red projectile |  |
-| P\_plasma\_proj\_SM | Drone in FD |  |
-| **Fire** |  |  |
-| P\_wpn\_meteor\_trail | Thermite launcher |  |
-| P\_xo\_meteorWave\_trail | Flame core trail |  |
-| P\_grenade\_thermite\_trail | Firestar |  |
-| **Smoke** |  |  |
-| Rocket\_Smoke\_Small\_Titan | Rocket launcher |  |
-| Rocket\_Smoke\_SMALL\_Titan\_2 | Electric smoke |  |
-| Rocket\_Smoke\_SMALL\_Titan\_mod | Rocket launcher |  |
-| Rocket\_Smoke\_Small\_Titan\_s2s | From single player |  |
-| P\_meteor\_trap\_trail | Scorch trap smoke |  |
-| Rocket\_Smoke\_SMR | SMR |  |
-| Rocket\_Smoke\_SMR\_burn | SMR Amped |  |
-| Rocket\_Smoke\_Large | Rocket Launcher |  |
-| Rocket\_Smoke\_Large\_burn | Rocket Launcher Amped |  |
-| wpn\_grenade\_frag\_softball | Softball |  |
-| wpn\_grenade\_frag\_softball\_burn | Softball Amped |  |
-| **Unknown** |  |  |
-| P\_wpn\_laserTrip\_trail | Laser trip wire |  |
-| wpn\_grenade\_sonar\_titan\_AMP | Orange titan sonar |  |
-| wpn\_grenade\_TT | Related to gunship |  |
-| wpn\_grenade\_TT\_mag | Related to gunship |  |
-| wpn\_grenade\_TT\_activate | Related to Schorch |  |
-| P\_dragonsbreath\_trail | Leadwall and probably doublet |  |
-| P\_arcTrap\_light | Arc trap from FD |  |
-| test\_projectile | In mp\_weapon\_arena1\(LSTAR\) |  |
-| P\_sspectre\_proj | In mp\_weapon\_arena2 |  |
-| wpn\_grenade\_frag | Frag grenade |  |
-| P\_drone\_launch\_trail | Spectre spawner |  |
+| **`Pilot Weapon`** |  |  |
+| Cold War | P\_plasma\_proj\_MD |  |
+| Cold War | P\_plasma\_proj\_MD\_amp | Amped |
+| DMR | garand\_trail\_smoke | Not used by default |
+| Double Take | P\_doubletake\_proj |  |
+| EPG | P\_plasma\_proj\_LG\_DLight |  |
+| EPG | P\_plasma\_proj\_LG\_amp | Amped |
+| Kraber | weapon\_kraber\_projectile |  |
+| Kraber | weapon\_kraber\_projectile\_burn | Amped |
+| LSTAR | P\_projectile\_lstar |  |
+| LSTAR | P\_projectile\_lstar\_burn | Amped |
+| Mastiff | P\_mastiff\_proj |  |
+| Mastiff | P\_mastiff\_proj\_amp | Amped |
+| Rocket Launcher | Rocket\_Smoke\_Large |  |
+| Rocket Launcher | Rocket\_Smoke\_Large\_burn | Amped |
+| SMR | Rocket\_Smoke\_SMR |  |
+| SMR | Rocket\_Smoke\_SMR\_burn | Amped |
+| Softball | wpn\_grenade\_frag\_softball |  |
+| Softball | wpn\_grenade\_frag\_softball\_burn | Amped |
+| Spitfire | wpn\_grenade\_frag\_mag |  |
+| Spitfire | wpn\_grenade\_frag\_mag\_burn | Amped |
+| Thunderbolt | P\_wpn\_arcball\_trail |  |
+| Thunderbolt | P\_wpn\_arcball\_trail\_amp | Amped |
+| **`Pilot Ordnance`** |  |  |
+| Electric Smoke | P\_wpn\_smk\_electric\_pilot |  |
+| Electric Smoke | P\_wpn\_smk\_electric\_pilot\_air |  |
+| Firestar | P\_grenade\_thermite\_trail |  |
+| Frag Grenade | wpn\_grenade\_frag |  |
+| Gravity Star | wpn\_grenade\_frag\_blue | Blue projectile |
+| Gravity Star | P\_wpn\_grenade\_gravity | Vortex FX |
+| Gravity Star | P\_gravity\_mine\_FP | Screen FX |
+| Tether Trap | P\_tether\_explosive\_light | Not used by default |
+| **`Pilot Ability`** |  |  |
+| Pulse Blade | wpn\_grenade\_sonar | Orange projectile |
+| Pulse Blade | wpn\_grenade\_sonar\_impact | Impact effect |
+| **`Northstar`** |  |  |
+| Railgun | P\_titan\_sniper1 | Uncharged |
+| Railgun | P\_titan\_sniper2 | Half charged |
+| Railgun | P\_titan\_sniper3 | Full charged |
+| Railgun | P\_wpn\_tracer\_sniper | Disable by default |
+| Hover | P\_FlightCore\_trail |  |
+| **`Tone`** |  |  |
+| 40MM | weapon\_40mm\_projectile |  |
+| Salvo Core | P\_SalvoCore\_trail |  |
+| Mortar Rockets | P\_Rocket\_Mortar | FD content |
+| Sonar Pulse | wpn\_grenade\_sonar\_titan | Orange trail |
+| Sonar Pulse | wpn\_grenade\_sonar\_titan\_AMP | FD content |
+| **`Ronin`** |  |  |
+| Leadwall | P\_leadwall\_proj |  |
+| Leadwall | P\_dragonsbreath\_trail |  |
+| Electric Ronin | elite\_smoke\_rise | FD content |
+| **`Scorch`** |  |  |
+| Thermite Launcher | P\_wpn\_meteor\_trail |  |
+| Flame Core | P\_xo\_meteorWave\_trail |  |
+| Incendiary Trap | P\_meteor\_trap\_trail |  |
+| **`Ion`** |  |  |
+| Laser Trip Wire | P\_wpn\_laserTrip\_trail |  |
+| **`Legion`** |  |  |
+| Predator Cannon | P\_proj\_predator\_alt\_pwr | Red projectile |
+| **`Monarch`** |  |  |
+| Chaingun | P\_projectile\_TPA |  |
+| **`Misc`** |  |  |
+|  | P\_projectile\_turretplasma\_mega |  |
+| Drones | P\_plasma\_proj\_SM | FD content |
+| Electric Drones | dissolve\_CH\_arcs | FD content |
+|  | Rocket\_Smoke\_Small\_Titan |  |
+|  | Rocket\_Smoke\_SMALL\_Titan\_2 |  |
+|  | Rocket\_Smoke\_SMALL\_Titan\_mod |  |
+|  | Rocket\_Smoke\_Small\_Titan\_s2s | SP content |
+|  | wpn\_grenade\_TT | Related to gunship |
+|  | wpn\_grenade\_TT\_mag | Related to gunship |
+|  | wpn\_grenade\_TT\_activate | Related to Scorch |
+| Arc Trap | P\_arcTrap\_light | FD content |
+|  | test\_projectile |  |
+|  | P\_sspectre\_proj |  |
+| Spectre Spawner | P\_drone\_launch\_trail |  |
+| Gunship Launcher | tower\_light\_red |  |
+
+## FX
+
+### Pilot Ability
+
+| FX name | Value | Note |
+| :--- | :--- | :--- |
+| Pulse Blade | wpn\_grenade\_sonar\_impact |  |
+
+### Pilot Ordnance
+
+| FX name | Value | Note |
+| :--- | :--- | :--- |
+| Arc Trap | P\_wpn\_arcTrap | FD content |
+| Arc Trap | P\_arcTrap\_light | FD content |
+| Arc Trap | P\_wpn\_arcTrap\_start | FD content |
+| Arc Trap | P\_wpn\_arcTrap\_beam | FD content |
+| Hardcover | P\_pilot\_cover\_shield |  |
+| Hardcover | P\_pilot\_amped\_shield |  |
+| Smoke Grenade | P\_wpn\_smk\_electric\_pilot |  |
+| Smoke Grenade | P\_wpn\_smk\_electric\_pilot\_air |  |
+
+### Titan
+
+| FX name | Value | Note |
+| :--- | :--- | :--- |
+| Battery Generator | P\_generator\_exp |  |
+| Dome Shield | P\_shield\_hld\_01\_CP | Particle system |
+| Hotdrop Warp | P\_warpjump\_FP |  |
+| Hotdrop Trail | hotdrop\_hld\_warp |  |
+
+### Drones, Turret & Gunship
+
+| FX name | Value | Note |
+| :--- | :--- | :--- |
+| Gunship Launcher | wpn\_grenade\_TT\_activate | Mine ignition |
+| Gunship Launcher | tower\_light\_red | Mine trail |
+| Gunship Launcher | Rocket\_Smoke\_Large | Mine light |
+
+### Misc
+
+| FX name | Value | Note |
+| :--- | :--- | :--- |
+| Deployable cloakfield | harvester\_base\_noise | FD content ? |
+| Deployable cloakfield | harvester\_base\_glowflat | FD content ? |
+| Deployable cloakfield | ar\_operator\_target\_idle | FD content ? |
+
+
+
+## Sound
+
+### Pilot Ability
+
+| Sound name | Value | Note |
+| :--- | :--- | :--- |
+| Holopilot | holopilot\_deploy\_1p |  |
+| Holopilot | holopilot\_deploy\_3p |  |
+| Pulse Blade | Pilot\_PulseBlade\_Activated\_1P |  |
+| Pulse Blade | Pilot\_PulseBlade\_Activated\_3P |  |
+| Pulse Blade | Pilot\_PulseBlade\_Sonar\_Pulse\_1P |  |
+| Pulse Blade | Pilot\_PulseBlade\_Sonar\_Pulse\_3P |  |
+| Pulse Blade | HUD\_MP\_EnemySonarTag\_Activated\_1P |  |
+| Pulse Blade | HUD\_MP\_EnemySonarTag\_Flashed\_1P |  |
+| Stim | pilot\_stimpack\_activate\_1P |  |
+| Stim | pilot\_stimpack\_activate\_3P |  |
+
+### Pilot Ordnance
+
+| Sound name | Value | Note |
+| :--- | :--- | :--- |
+| Arc Trap | Wpn\_ArcTrap\_Activate | FD content |
+| Arc Trap | Wpn\_ArcTrap\_Beep | FD content |
+| Hardcover | Hardcover\_Shield\_Start\_3P |  |
+| Harcdcover | Hardcover\_Shield\_End\_3P |  |
+| Proximity Mine | Weapon\_ProximityMine\_Land |  |
+| Proximity Mine | Weapon\_ProximityMine\_ArmedBeep |  |
+| Smoke Grenade | explo\_electric\_smoke\_impact |  |
+
+### Pilot Weapon
+
+| Sound name | Value | Note |
+| :--- | :--- | :--- |
+| **`Pilot Weapon`** |  |  |
+| Arc Tool | Weapon\_BatteryGun\_FireLoop\_1P |  |
+| Arc Tool | Weapon\_BatteryGun\_FireLoop\_3P |  |
+| Arc Tool | Weapon\_BatteryGun\_FireStart\_3P |  |
+| Arc Tool | Weapon\_BatteryGun\_FireStop\_1P |  |
+| Arc Tool | Weapon\_BatteryGun\_Fire\_EnergyDrained\_1P |  |
+| Arc Tool | Weapon\_BatteryGun\_Fire\_EndWarning\_1P |  |
+| Arc Tool | Weapon\_BatteryGun\_CoolDownSizzle\_1P |  |
+| Arc Tool | Weapon\_BatteryGun\_CoolDownSizzle\_3P |  |
+| Alternator | Weapon\_Alternator\_SecondShot\_1P |  |
+| Alternator | Weapon\_Alternator\_SecondShot\_3P |  |
+| Alternator | Weapon\_Alternator\_SecondShot\_NPC |  |
+| Charge Rifle | Weapon\_ChargeRifle\_WindUp\_1P | Charge sound |
+| Charge Rifle | Weapon\_ChargeRifle\_WindUp\_3P | Charge sound |
+| Charge Rifle | Weapon\_ChargeRifle\_WindDown\_1P | Unload sound |
+| Charge Rifle | Weapon\_ChargeRifle\_WindDown\_3P | Unload sound |
+| Cold War | Weapon\_ColdWar\_ChargeUp\_1P |  |
+| Cold War | Weapon\_ColdWar\_ChargeUp\_3P |  |
+| LSTAR | Weapon\_LSTAR\_Fire\_1P |  |
+| LSTAR | Weapon\_LSTAR\_Fire\_3P |  |
+| LSTAR | Weapon\_LSTAR\_Fire\_NPC |  |
+| Thunderbolt | Weapon\_Arc\_Ball\_Loop |  |
+
+### Titans
+
+| Sound name | Value |  |
+| :--- | :--- | :--- |
+| Arc Cannon | arc\_cannon\_charge |  |
+| Warpfall | Titan\_1P\_Warpfall\_Hotdrop |  |
+| Warpfall | Titan\_1P\_Warpfall\_Start |  |
+| Warpfall | Titan\_3P\_Warpfall\_Start |  |
+| Warpfall | Titan\_3P\_Warpfall\_CallIn |  |
+| Warpfall | Titan\_3P\_Warpfall\_WarpToLanding |  |
+| Warpfall | Titan\_1P\_Warpfall\_WarpToLanding\_fast |  |
+| Warpfall | Titan\_3P\_Warpfall\_WarpToLanding\_fast |  |
+| Warpfall | titan\_hot\_drop\_turbo\_begin |  |
+| Warpfall | titan\_hot\_drop\_turbo\_begin\_3P |  |
+|  | Weapon\_Vortex\_Gun.ExplosiveWarningBeep |  |
+
+### Ion
+
+| Sound name | Value | Note |
+| :--- | :--- | :--- |
+| Laser Shot | Weapon\_ShoulderLaser\_Fire\_3P |  |
+| Laser Shot | Weapon\_ShoulderLaser\_Fire\_3P |  |
+| Laser Shot | Weapon\_ShoulderLaser\_StutterBuild\_1P | Charge sound |
+| Laser Shot | Weapon\_ShoulderLaser\_StutterBuild\_3P | Charge sound |
+| Laser Trip Wire | Wpn\_LaserTripMine\_Deploy\_1P |  |
+| Laser Trip Wire | Wpn\_LaserTripMine\_Deploy\_3P |  |
+
+### Tone
+
+| Sound name | Value | Note |
+| :--- | :--- | :--- |
+| 40mm | Weapon\_bulletCasings.Bounce |  |
+| 40mm | Weapon\_40mm\_Fire\_1P |  |
+| 40mm | Weapon\_40mm\_Fire\_3P |  |
+| Sonar Pulse | Titan\_Tone\_SonarLock\_Fired\_ShoulderPod\_1P |  |
+| Sonar Pulse | Titan\_Tone\_SonarLock\_Fired\_ShoulderPod\_3P |  |
+| Particule Wall | ShieldWall\_Deploy |  |
+| Salvo Core | ShoulderRocket\_Salvo\_Fire\_1P |  |
+| Salvo Core | ShoulderRocket\_Salvo\_Fire\_3P |  |
+| Salvo Core | weapon\_coreability\_salvo\_fire\_chargeup\_1p |  |
+| Salvo Core | weapon\_coreability\_salvo\_chargeup\_3p |  |
+
+### Northstar
+
+| Sound name | Value | Note |
+| :--- | :--- | :--- |
+| Railgun | Weapon\_Titan\_Sniper\_WindUp | Charge sound |
+| Railgun | Weapon\_Titan\_Sniper\_WindUp\_Amped | FD content |
+| Railgun | Weapon\_Titan\_Sniper\_WindDown | Unload sound |
+| Railgun | Weapon\_Titan\_Sniper\_SustainLoop | Loop sound |
+| Cluster Missile | ShoulderRocket\_Cluster\_Fire\_1P |  |
+| Cluster Missile | ShoulderRocket\_Cluster\_Fire\_3P |  |
+| Tether Trap | Wpn\_TetherTrap\_Deploy\_1P |  |
+| Tether Trap | Wpn\_TetherTrap\_Deploy\_3P |  |
+| Flightcore | weapon\_titan\_flightcore\_rocket\_fire\_1p |  |
+| Flightcore | weapon\_titan\_flightcore\_rocket\_fire\_3p |  |
+
+### Monarch
+
+| Sound name | Value | Note |
+| :--- | :--- | :--- |
+| Chaingun | Weapon\_XO16\_Single\_1P |  |
+| Chaingun | Weapon\_XO16\_Single\_3P |  |
+| Chaingun | Weapon\_XO16\_SingleAmped\_Monarch\_1P |  |
+| Chaingun | Weapon\_XO16\_SingleAmped\_Monarch\_3P |  |
+| Chaingun | weapon\_xo16\_singleaccel\_amped\_1p |  |
+| Chaingun | weapon\_xo16\_singleaccel\_amped\_3p |  |
+| Chaingun | Weapon\_XO16\_SingleAccel\_1P |  |
+| Chaingun | Weapon\_XO16\_SingleAccel\_3P |  |
+| Rearm | Titan\_Tone\_SonarLock\_Fired\_ShoulderPod\_1P |  |
+| Rearm | Titan\_Tone\_SonarLock\_Fired\_ShoulderPod\_3P |  |
+| Energy Syphon | Weapon\_EnergySyphon\_Lvl1\_Fire\_1P |  |
+| Energy Syphon | Weapon\_EnergySyphon\_Lvl1\_Fire\_3P |  |
+| Energy Syphon | Weapon\_EnergySyphon\_Charge\_1P |  |
+| Energy Syphon | Weapon\_EnergySyphon\_Charge\_3P |  |
+| Chaingun amp | Weapon\_XO16\_SingleAmped\_1P |  |
+| Chaingun amp | Weapon\_XO16\_SingleAmped\_3P |  |
+| Tracking Rockets | ShoulderRocket\_Homing\_Fire\_1P |  |
+| Tracking Rockets | ShoulderRocket\_Homing\_Fire\_3P |  |
+| Rockets | ShoulderRocket\_Paint\_Fire\_1P |  |
+| Rockets | ShoulderRocket\_Paint\_Fire\_3P |  |
+
+### Ronin
+
+| Sound name | Value | Note |
+| :--- | :--- | :--- |
+| Leadwall | Weapon\_Leadwall\_Fire\_1P |  |
+| Leadwall | Weapon\_Leadwall\_Fire\_3P |  |
+| Arc Wave | arcwave\_fire\_1p |  |
+| Arc Wave | arcwave\_fire\_3p |  |
+| Arc Wave | Weapon\_ShoulderLaser\_StutterBuild\_02 |  |
+| Sword Block | Weapon\_ShoulderLaser\_StutterBuild\_1P |  |
+| Sword Block | ronin\_sword\_draw\_02\_3p |  |
+
+### Scorch
+
+| Sound name | Value | Note |
+| :--- | :--- | :--- |
+| Meteor Cannon | Weapon\_bulletCasings.Bounce |  |
+| Meteor Cannon | weapon\_thermitelauncher\_fire\_1p |  |
+| Meteor Cannon | weapon\_thermitelauncher\_fire\_3p |  |
+| Incendiary Trap | incendiary\_trap\_deploy\_1p |  |
+| Incendiary Trap | incendiary\_trap\_deploy\_3p |  |
+| Thermal Shield | heat\_shield\_1p\_loop |  |
+| Thermal Shield | heat\_shield\_3p\_loop |  |
+
+### Legion
+
+| Sound name | Value | Note |
+| :--- | :--- | :--- |
+| Predator Cannon | Weapon\_Predator\_SecondShot\_1P |  |
+| Predator Cannon | Weapon\_Predator\_SecondShot\_3P |  |
+| Predator Cannon | weapon\_predator\_winddown\_1p | Unload sound |
+| Predator Cannon | weapon\_predator\_winddown\_3p | Unload sound |
+| Power Shot | Weapon\_Predator\_Powershot\_ChargeUp\_1P |  |
+| Power Shot | Weapon\_Predator\_Powershot\_ChargeUp\_3P |  |
+
+### Drones, Turret & Gunship
+
+| Sound name | Value | Note |
+| :--- | :--- | :--- |
+| Drones | Drone\_Beam\_Charge |  |
+| Gunship Launcher | NPE\_Missile\_Alarm |  |
+| Gunship Launcher | Triple\_Threat\_Grenade\_Charge |  |
+| Gunship Missile | Weapon\_ARL.Single |  |
+| Gunship Missile | ShoulderRocket\_Salvo\_Fire\_3P |  |
+| Mega Turret | MegaTurret\_Laser\_ChargeUp\_3P | Not used by default |
 
 ## File location
 
