@@ -276,6 +276,14 @@ You can have different value between normal and amped mode on each weapon config
 | FX name | Value | Note |
 | :--- | :--- | :--- |
 | Arc Tool | P\_charge\_tool\_charge\_FP |  |
+| Arc Tool | P\_elec\_arc\_loop\_LG\_1 |  |
+| Arc Tool | acl\_light\_red |  |
+| Arc Tool | acl\_light\_green |  |
+| Arc Tool | wpn\_arc\_cannon\_beam\_mod |  |
+| Arc Tool | P\_ArcSwitch\_open |  |
+| Arc Tool | P\_ArcSwitch\_open\_far |  |
+| Arc Tool | P\_ArcSwitch\_close |  |
+| Arc Tool | P\_ArcSwitch\_close\_far |  |
 | DMR | wpn\_mflash\_snp\_hmn\_smoke\_side\_FP |  |
 | DMR | wpn\_mflash\_snp\_hmn\_smoke\_side |  |
 | DMR | Rocket\_Smoke\_SMR\_Glow |  |
@@ -302,6 +310,28 @@ You can have different value between normal and amped mode on each weapon config
 | Arc Cannon | wpn\_muzzleflash\_arc\_cannon |  |
 | Arc Cannon | impact\_arc\_cannon\_titan |  |
 | Arc Cannon | P\_emp\_body\_human |  |
+| Atlas | P\_titan\_doom\_stage\_1 | ParticleSystem |
+| Atlas | P\_titan\_doom\_stage\_2 | ParticleSystem |
+| Atlas | P\_titan\_doom\_stage\_3 | ParticleSystem |
+| Atlas | P\_xo\_damage\_fire\_1 | ParticleSystem |
+| Atlas | P\_xo\_damage\_fire\_2 | ParticleSystem |
+| Atlas | P\_xo\_damage\_fire\_2\_alt | ParticleSystem |
+| Atlas | xo\_damage\_exp\_1 | ParticleSystem |
+| Atlas | xo\_damage\_exp\_2 | ParticleSystem |
+| Atlas | xo\_damage\_lvl\_1\_elec | ParticleSystem |
+| Atlas | xo\_dmg\_gibs | ParticleSystem |
+| Atlas | xo\_exp\_death | ParticleSystem |
+| Atlas | xo\_health\_dam\_exhaust\_fire\_1 | TagHealthFX |
+| Atlas | xo\_health\_exhaust\_white\_1 | TagHealthFX |
+| Atlas | xo\_health\_fire\_vent | TagHealthFX |
+| Atlas | xo\_health\_smoke\_white | TagHealthFX |
+| Atlas | xo\_spark\_med | ParticleSystem |
+| Atlas | P\_titan\_doom\_body | TagHealthFX |
+| Atlas | P\_titan\_doom\_body\_beams | TagHealthFX |
+| Atlas | P\_xo\_damage\_fire\_1 | TagHealthFX |
+| Atlas | P\_xo\_damage\_fire\_2 | TagHealthFX |
+| Atlas | P\_xo\_damage\_fire\_1\_XL | TagHealthFX |
+| Atlas | P\_xo\_damage\_fire\_2\_XL | TagHealthFX |
 | Battery Generator | P\_generator\_exp |  |
 | Dome Shield | P\_shield\_hld\_01\_CP | Particle system |
 | Hotdrop Warp | P\_warpjump\_FP |  |
@@ -323,6 +353,9 @@ You can have different value between normal and amped mode on each weapon config
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
+| 40MM | wpn\_mflash\_40mm\_smoke\_side |  |
+| 40MM | wpn\_mflash\_40mm\_smoke\_side\_FP |  |
+| 40MM | P\_scope\_glint |  |
 | Sonar | P\_ar\_sonar\_CP\_amp |  |
 | Sonar | P\_ar\_sonar\_CP |  |
 | Sonar | P\_ar\_holopulse\_CP |  |
@@ -332,15 +365,16 @@ You can have different value between normal and amped mode on each weapon config
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
-| 40MM | wpn\_mflash\_40mm\_smoke\_side |  |
-| 40MM | wpn\_mflash\_40mm\_smoke\_side\_FP |  |
-| 40MM | P\_scope\_glint |  |
 | Upgrade Core | P\_wpn\_lasercannon\_aim |  |
 
 ### Ronin
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
+| Arc Wave | P\_arcwave\_exp |  |
+| Arc Wave | P\_arcwave\_exp\_charged |  |
+| Arc Wave | P\_emp\_body\_human |  |
+| Arc Wave | P\_emp\_body\_titan |  |
 | Sword Block | P\_impact\_xo\_sword |  |
 
 ### Scorch
@@ -373,24 +407,73 @@ You can have different value between normal and amped mode on each weapon config
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
+| Bomber | P\_veh\_crow\_exp\_sml | TagHealthFX |
+| Bomber | xo\_health\_smoke\_white | TagHealthFX |
+| Bomber | veh\_chunk\_trail | TagHealthFX |
 | Drone Plasma | P\_wpn\_sspectre\_charge |  |
 | Drone Plasma | P\_wpn\_muzzleflash\_epg |  |
 | Drone Rocket | P\_wpn\_drone\_charge |  |
+| Dropship | xo\_atlas\_jet\_large | Thrusters |
+| Dropship | veh\_gunship\_damage\_FULL |  |
+| Dropship | P\_veh\_exp\_crow |  |
+| Dropship | runway\_light\_blue |  |
+| Dropship | acl\_light\_green |  |
+| Dropship | acl\_light\_red |  |
+| Dropship | acl\_light\_white |  |
 | Mega Turret | wpn\_muzzleflash\_mega\_trrt |  |
 | Mega Turret | wpn\_shelleject\_40mm |  |
 | Gunship Launcher | wpn\_grenade\_TT\_activate | Mine ignition |
 | Gunship Launcher | tower\_light\_red | Mine trail |
 | Gunship Launcher | Rocket\_Smoke\_Large | Mine light |
+| Turret | runway\_light\_red | Red glow |
+| Turret | runway\_light\_blue | Blue glow |
+| Turret | xo\_health\_exhaust\_white\_1 | TagHealthFX |
+| Turret | xo\_damage\_exp\_2 | TagHealthFX |
+| Turret | P\_sup\_spec\_dam\_vent\_1 | TagHealthFX |
+| Turret | xo\_damage\_exp\_2 | TagHealthFX |
+| Turret | sup\_spec\_vent\_fire\_1 | TagHealthFX |
+| Turret | xo\_spark\_med | TagHealthFX |
+| Stalkers | P\_sparks\_dir\_MD\_LOOP |  |
+| Stalkers | P\_spectre\_dmg\_elec |  |
+| Stalkers | P\_spectre\_dmg\_fire |  |
+| Stalkers | P\_spectre\_dmg\_smk |  |
+| Stalkers | P\_stalker\_eye\_foe |  |
+| Stalkers | P\_stalker\_eye\_friend |  |
 | Super Specter | P\_wpn\_sspectre\_charge |  |
 | Super Specter | P\_wpn\_muzzleflash\_sspectre |  |
+| Super Specter | P\_sup\_spectre\_death |  |
+| Super Specter | P\_sup\_spectre\_death\_nuke |  |
+| Super Specter | P\_xo\_damage\_fire\_2 |  |
+| Super Specter | P\_sup\_spec\_dam\_vent\_1 |  |
+| Super Specter | P\_sup\_spec\_dam\_vent\_2 |  |
+| Super Specter | P\_sup\_spectre\_dam\_1 |  |
+| Super Specter | P\_sup\_spectre\_dam\_2 |  |
+| Super Specter | drone\_dam\_smoke\_2 |  |
+| Super Specter | superSpectre\_groundSlam\_impact | Impact effect |
+| Super Specter | superSpectre\_megajump\_land | Impact effect |
 
 ### Misc
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
+| Beacon | veh\_birm\_warp\_in\_FULL | Not used |
+| Beacon | veh\_carrier\_warp\_FULL |  |
+| Beacon | veh\_carrier\_warp\_full |  |
+| Beacon | veh\_red\_warp\_in\_full\_SB | Redeye |
+| Beacon | veh\_birm\_warp\_in\_FULL | Bermingham |
+| Beacon | veh\_contrails\_01 |  |
+| Beacon | veh\_jetwash\_exit\_eng\_blast |  |
+| Beacon | P\_wpn\_charge\_tool\_beam\_HOLO | Charge ghost effect |
 | Deployable Cloakfield | harvester\_base\_noise | FD content ? |
 | Deployable Cloakfield | harvester\_base\_glowflat | FD content ? |
 | Deployable Cloakfield | ar\_operator\_target\_idle | FD content ? |
+| Orbital Strike | wpn\_orbital\_beam |  |
+| Orbital Strike | ar\_rocket\_strike\_small\_friend |  |
+| Orbital Strike | ar\_rocket\_strike\_small\_foe |  |
+| Orbital Strike | ar\_rocket\_strike\_large\_friend |  |
+| Orbital Strike | ar\_rocket\_strike\_large\_foe |  |
+| Pickups | P\_ar\_titan\_droppoint | Pickup glow FX \(battery ?\) |
+| Pickups | P\_item\_bluelion | Collectible flox FX \(helmet\) |
 | Proto Hold Beam | elite\_smoke\_rise |  |
 | Proto Hold Beam | dissolve\_CH\_arcs |  |
 
@@ -444,7 +527,6 @@ You can have different value between normal and amped mode on each weapon config
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
-| **`Pilot Weapon`** |  |  |
 | Arc Tool | Weapon\_BatteryGun\_FireLoop\_1P |  |
 | Arc Tool | Weapon\_BatteryGun\_FireLoop\_3P |  |
 | Arc Tool | Weapon\_BatteryGun\_FireStart\_3P |  |
@@ -453,6 +535,8 @@ You can have different value between normal and amped mode on each weapon config
 | Arc Tool | Weapon\_BatteryGun\_Fire\_EndWarning\_1P |  |
 | Arc Tool | Weapon\_BatteryGun\_CoolDownSizzle\_1P |  |
 | Arc Tool | Weapon\_BatteryGun\_CoolDownSizzle\_3P |  |
+| Arc Tool | ArcTool\_SmallPanel\_DeActivate |  |
+| Arc Tool | ArcTool\_SmallPanel\_Beep |  |
 | Alternator | Weapon\_Alternator\_SecondShot\_1P |  |
 | Alternator | Weapon\_Alternator\_SecondShot\_3P |  |
 | Alternator | Weapon\_Alternator\_SecondShot\_NPC |  |
@@ -483,7 +567,7 @@ You can have different value between normal and amped mode on each weapon config
 
 | Sound name | Value |  |
 | :--- | :--- | :--- |
-| Arc Ball | Explo\_ProximityEMP\_Impact\_3P |  |
+| Arc Cannon | Explo\_ProximityEMP\_Impact\_3P |  |
 | Arc Cannon | Weapon\_ArcLauncher\_Fire\_1P |  |
 | Arc Cannon | Weapon\_ArcLauncher\_Fire\_3P |  |
 | Arc Cannon | arc\_cannon\_charge |  |
@@ -491,8 +575,10 @@ You can have different value between normal and amped mode on each weapon config
 | Arc Cannon | Arc\_Rifle\_charged\_Loop\_1P |  |
 | Arc Cannon | Arc\_Rifle\_charged\_Loop\_3P |  |
 | Arc Cannon | Titan\_Blue\_Electricity\_Cloud |  |
+| Arc Cannon | weapon\_arc\_ball\_tendril |  |
 | Titancore Utility | Titan\_CoreAbility\_Sustain\_Long |  |
 | Titancore Utility | Titan\_CoreAbility\_Sustain |  |
+| Triple Threat | Wpn\_TripleThreat\_Grenade\_MineAttach |  |
 | Warpfall | Titan\_1P\_Warpfall\_Hotdrop |  |
 | Warpfall | Titan\_1P\_Warpfall\_Start |  |
 | Warpfall | Titan\_3P\_Warpfall\_Start |  |
@@ -608,6 +694,7 @@ You can have different value between normal and amped mode on each weapon config
 | :--- | :--- | :--- |
 | Arc Wave | arcwave\_fire\_1p |  |
 | Arc Wave | arcwave\_fire\_3p |  |
+| Arc Wave | arcwave\_tail\_3p |  |
 | Arc Wave | Weapon\_ShoulderLaser\_StutterBuild\_02 |  |
 | Leadwall | Weapon\_Leadwall\_Fire\_1P |  |
 | Leadwall | Weapon\_Leadwall\_Fire\_3P |  |
@@ -687,6 +774,7 @@ You can have different value between normal and amped mode on each weapon config
 | Drone Rocket | Weapon\_ARL.Single |  |
 | Drone Rocket | ShoulderRocket\_Salvo\_Fire\_3P |  |
 | Mega Turret | MegaTurret\_Laser\_ChargeUp\_3P |  |
+| Mega Turret | MegaTurret\_Laser\_Fire\_3P |  |
 | Mega Turret | O2\_Scr\_MegaTurret\_Bridge\_Fire |  |
 | Mega Turret | megaturret\_fire |  |
 | Mega Turret | Weapon\_bulletCasings.Bounce |  |
@@ -697,6 +785,17 @@ You can have different value between normal and amped mode on each weapon config
 | Mega Turret | MegaTurret\_Laser\_ChargeUp\_3P | Not used by default |
 | Super Specter | Weapon\_DaemonRocket\_Launcher |  |
 | Super Specter | Weapon\_DaemonRocket\_Launcher.Fire |  |
+| Super Specter | Titan\_1P\_Warpfall\_Start |  |
+| Super Specter | Titan\_3P\_Warpfall\_WarpToLanding |  |
+| Super Specter | ai\_reaper\_nukedestruct\_warmup\_3p |  |
+| Super Specter | ai\_reaper\_explo\_3p |  |
+
+### Misc
+
+| Sound name | Value | Note |
+| :--- | :--- | :--- |
+| Orbital Strike | weapon\_titanmortar\_fire |  |
+| Orbital Strike | weapon\_titanmortar\_projectile |  |
 
 ## File location
 
