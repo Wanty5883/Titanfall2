@@ -160,6 +160,29 @@ You can have different value between normal and amped mode on each weapon config
 
 | Projectile name | Value | Note |
 | :--- | :--- | :--- |
+| **`Pilot Weapon`** |  |  |
+| Cold War | P\_plasma\_proj\_MD |  |
+| Cold War | P\_plasma\_proj\_MD\_amp | Amped |
+| DMR | garand\_trail\_smoke | Not used by default |
+| Double Take | P\_doubletake\_proj |  |
+| EPG | P\_plasma\_proj\_LG\_DLight |  |
+| EPG | P\_plasma\_proj\_LG\_amp | Amped |
+| Kraber | weapon\_kraber\_projectile |  |
+| Kraber | weapon\_kraber\_projectile\_burn | Amped |
+| LSTAR | P\_projectile\_lstar |  |
+| LSTAR | P\_projectile\_lstar\_burn | Amped |
+| Mastiff | P\_mastiff\_proj |  |
+| Mastiff | P\_mastiff\_proj\_amp | Amped |
+| Rocket Launcher | Rocket\_Smoke\_Large |  |
+| Rocket Launcher | Rocket\_Smoke\_Large\_burn | Amped |
+| SMR | Rocket\_Smoke\_SMR |  |
+| SMR | Rocket\_Smoke\_SMR\_burn | Amped |
+| Softball | wpn\_grenade\_frag\_softball |  |
+| Softball | wpn\_grenade\_frag\_softball\_burn | Amped |
+| Spitfire | wpn\_grenade\_frag\_mag |  |
+| Spitfire | wpn\_grenade\_frag\_mag\_burn | Amped |
+| Thunderbolt | P\_wpn\_arcball\_trail |  |
+| Thunderbolt | P\_wpn\_arcball\_trail\_amp | Amped |
 | **`Pilot Ordnance`** |  |  |
 | Electric Smoke | P\_wpn\_smk\_electric\_pilot |  |
 | Electric Smoke | P\_wpn\_smk\_electric\_pilot\_air |  |
@@ -216,15 +239,6 @@ You can have different value between normal and amped mode on each weapon config
 
 ## FX
 
-### Pilots
-
-| FX name | Value | Note |
-| :--- | :--- | :--- |
-| Base | pilot\_foostep | Footstep impact |
-| Base | pilot\_landing | Landing impact |
-| Base | pilot\_slide | Slide effect |
-| Base | P\_headshot\_pilot | Headshot FX |
-
 ### Pilot Ability
 
 | FX name | Value | Note |
@@ -261,7 +275,7 @@ You can have different value between normal and amped mode on each weapon config
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
-| Arc Tool | P\_charge\_tool\_charge\_FP | Charge effect |
+| Arc Tool | P\_charge\_tool\_charge\_FP |  |
 | Arc Tool | P\_elec\_arc\_loop\_LG\_1 |  |
 | Arc Tool | acl\_light\_red |  |
 | Arc Tool | acl\_light\_green |  |
@@ -270,86 +284,14 @@ You can have different value between normal and amped mode on each weapon config
 | Arc Tool | P\_ArcSwitch\_open\_far |  |
 | Arc Tool | P\_ArcSwitch\_close |  |
 | Arc Tool | P\_ArcSwitch\_close\_far |  |
-| Arc Tool | dissolve\_CH\_arcs | Freeze FX |
-| Arc Tool | elite\_smoke\_rise | Freeze FX tittans |
-| Archer | Rocket\_Smoke\_Large | Projectile |
-| Archer | Rocket\_Smoke\_Large\_burn | Amped projectile |
-| Archer | P\_archer\_rocket\_s2s |  |
-| Archer | exp\_rocket\_archer | Impact effect |
-| Archer | exp\_flak\_s2s | Impact effect |
-| Archer | exp\_rocket\_spectremortar | Impact effect |
-| Archer | wpn\_vortex\_projectile\_rocket\_FP |  |
-| Archer | wpn\_vortex\_projectile\_rocket |  |
-| Archer | P\_wpn\_muzzleflash\_law\_fp |  |
-| Archer | P\_wpn\_muzzleflash\_law |  |
-| Archer | P\_wpn\_muzzleflash\_law\_fp\_burn | Amped muzzleflash FP |
-| Archer | P\_wpn\_muzzleflash\_law\_burn | Amped muzzleflash |
-| Cold War | P\_plasma\_proj\_MD |  |
-| Cold War | P\_plasma\_proj\_MD\_amp | Amped projectile |
 | DMR | wpn\_mflash\_snp\_hmn\_smoke\_side\_FP |  |
 | DMR | wpn\_mflash\_snp\_hmn\_smoke\_side |  |
-| DMR | garand\_trail\_smoke | Not used by default |
 | DMR | Rocket\_Smoke\_SMR\_Glow |  |
-| Double Take | P\_doubletake\_proj |  |
-| Double Take | P\_doubletake\_proj\_burn | Amped projectile |
-| Double Take | P\_dragonsbreath\_trail | Not used by default |
-| Double Take | doubletake\_bullet | Impact effect |
-| Double Take | P\_wpn\_mflash\_dbltake\_FP |  |
-| Double Take | P\_wpn\_mflash\_dbltake |  |
-| Double Take | P\_wpn\_mflash\_dbltake\_FP\_burn | Amped muzzleflash FP |
-| Double Take | P\_wpn\_mflash\_dbltake\_burn | Amped muzzleflash |
-| EPG | P\_plasma\_proj\_LG\_DLight |  |
-| EPG | P\_plasma\_proj\_LG\_amp | Amped projectile |
-| EPG | exp\_plasma\_LG | Impact effect |
-| EPG | P\_wpn\_muzzleflash\_epg\_FP |  |
-| EPG | P\_wpn\_muzzleflash\_epg |  |
-| EPG | P\_wpn\_muzzleflash\_epg\_FP\_amp | Amped muzzleflash FP |
-| EPG | P\_wpn\_muzzleflash\_epg\_amp | Amped muzzleflash |
-| Kraber | weapon\_kraber\_projectile |  |
 | Kraber | wpn\_mflash\_snp\_hmn\_smoke\_side\_FP |  |
 | Kraber | wpn\_mflash\_snp\_hmn\_smoke\_side |  |
-| Kraber | wpn\_muzzleflash\_snp\_hmn\_FP\_burn | Amped muzzleflash FP |
-| Kraber | wpn\_muzzleflash\_snp\_hmn\_burn | Amped muzzleflash |
-| Kraber | wpn\_shelleject\_rifle\_large\_FP |  |
-| Kraber | wpn\_shelleject\_rifle\_large |  |
-| Kraber | wpn\_muzzleflash\_snp\_hmn\_FP |  |
-| Kraber | wpn\_muzzleflash\_snp\_hmn |  |
-| LSTAR | P\_projectile\_lstar | Projectile effect |
-| LSTAR | P\_projectile\_lstar\_burn | Amped projectile |
-| LSTAR | lstar | Impact effect |
-| LSTAR | P\_muz\_lstar\_FP |  |
-| LSTAR | P\_muz\_lstar |  |
-| LSTAR | P\_muz\_lstar\_FP\_burn | Amped muzzleflash FP |
-| LSTAR | P\_muz\_lstar\_burn | Amped muzzleflash |
 | LSTAR | wpn\_mflash\_snp\_hmn\_smokepuff\_side\_FP | Cooldown effect |
 | LSTAR | wpn\_mflash\_snp\_hmn\_smokepuff\_side | Cooldown effect |
 | LSTAR | xo\_spark\_med | Burnout effect |
-| Mastiff | P\_mastiff\_proj | Projectile |
-| Mastiff | P\_mastiff\_proj\_amp | Amped projectile |
-| Mastiff | P\_dragonsbreath\_trail | Not used by default |
-| Mastiff | bullet\_mastiff | Impact effect |
-| Mastiff | wpn\_shelleject\_shotshell\_FP |  |
-| Mastiff | wpn\_shelleject\_shotshell |  |
-| Mastiff | P\_wpn\_muz\_mastiff\_FP | Muzzleflash FP |
-| Mastiff | P\_wpn\_muz\_mastiff | Muzzleflash |
-| Mastiff | P\_wpn\_muz\_mastiff\_amp\_FP | Amped muzzleflash FP |
-| Mastiff | P\_wpn\_muz\_mastiff\_amp | Amped muzzleflash |
-| SMR | Rocket\_Smoke\_SMR | Projectile effect |
-| SMR | Rocket\_Smoke\_SMR\_burn | Amped projectile |
-| SMR | Rocket\_Smoke\_SMR\_s2s | Projectile effect |
-| SMR | exp\_smr | Impact effect |
-| SMR | P\_wpn\_muzzleflash\_smr\_FP | Muzleflash FP |
-| SMR | P\_wpn\_muzzleflash\_smr | Muzzleflash |
-| SMR | P\_wpn\_muzzleflash\_smr\_fp\_burn | Amped muzzleflash FP |
-| SMR | P\_wpn\_muzzleflash\_smr\_burn | Amped muzzleflash |
-| SMR | wpn\_vortex\_projectile\_SMR\_FP |  |
-| SMR | wpn\_vortex\_projectile\_SMR |  |
-| Softball | wpn\_grenade\_frag\_softball | Projectile effect |
-| Softball | wpn\_grenade\_frag\_softball\_burn | Amped projectile |
-| Spitfire | wpn\_grenade\_frag\_mag |  |
-| Spitfire | wpn\_grenade\_frag\_mag\_burn | Amped |
-| Thunderbolt | P\_wpn\_arcball\_trail | Projectile effect |
-| Thunderbolt | P\_wpn\_arcball\_trail\_amp | Amped projectile |
 
 ### Titan
 
@@ -414,16 +356,6 @@ You can have different value between normal and amped mode on each weapon config
 | 40MM | wpn\_mflash\_40mm\_smoke\_side |  |
 | 40MM | wpn\_mflash\_40mm\_smoke\_side\_FP |  |
 | 40MM | P\_scope\_glint |  |
-| 40MM | P\_impact\_exp\_lrg\_concrete |  |
-| 40MM | P\_impact\_exp\_lrg\_dirt |  |
-| 40MM | P\_impact\_exp\_lrg\_metal |  |
-| 40MM | P\_impact\_exp\_lrg\_slime |  |
-| 40MM | P\_impact\_exp\_lrg\_water |  |
-| 40MM | P\_impact\_exp\_lrg\_air |  |
-| 40MM | P\_impact\_exp\_lrg\_metal |  |
-| 40MM | P\_xo\_armor\_impact\_EXP |  |
-| Sonar Pulse | P\_impact\_exp\_laserlite\_AMP |  |
-| Sonar Pulse | P\_impact\_exp\_laserlite\_default |  |
 | Sonar | P\_ar\_sonar\_CP\_amp |  |
 | Sonar | P\_ar\_sonar\_CP |  |
 | Sonar | P\_ar\_holopulse\_CP |  |
@@ -470,7 +402,6 @@ You can have different value between normal and amped mode on each weapon config
 | :--- | :--- | :--- |
 | Predator Cannon | P\_predator\_barrel\_blur\_FP |  |
 | Predator Cannon | P\_predator\_barrel\_blur |  |
-| Predator Bullets | P\_impact\_sparks\_predator\_PS |  |
 
 ### Drones, Turret & Gunship
 
@@ -491,11 +422,6 @@ You can have different value between normal and amped mode on each weapon config
 | Dropship | acl\_light\_white |  |
 | Mega Turret | wpn\_muzzleflash\_mega\_trrt |  |
 | Mega Turret | wpn\_shelleject\_40mm |  |
-| Mega Turret s2s | weapon\_tracers\_mega\_turret\_aa | Tracer effect |
-| Mega Turret s2s | refuel\_aa\_turret | Impact effect |
-| Mega Turret s2s | P\_muzzleflash\_MaltaGun | Cannon FX |
-| Mega Turret s2s | mflash\_maltagun\_tracer\_fake | Cannon FX light |
-| Mega Turret s2s Ion | P\_ion\_moving\_proj |  |
 | Gunship Launcher | wpn\_grenade\_TT\_activate | Mine ignition |
 | Gunship Launcher | tower\_light\_red | Mine trail |
 | Gunship Launcher | Rocket\_Smoke\_Large | Mine light |
@@ -507,7 +433,6 @@ You can have different value between normal and amped mode on each weapon config
 | Turret | xo\_damage\_exp\_2 | TagHealthFX |
 | Turret | sup\_spec\_vent\_fire\_1 | TagHealthFX |
 | Turret | xo\_spark\_med | TagHealthFX |
-| Turret Anti-Titan | P\_anti\_titan\_shield\_3P | Shield wall FX |
 | Stalkers | P\_sparks\_dir\_MD\_LOOP |  |
 | Stalkers | P\_spectre\_dmg\_elec |  |
 | Stalkers | P\_spectre\_dmg\_fire |  |
@@ -515,10 +440,7 @@ You can have different value between normal and amped mode on each weapon config
 | Stalkers | P\_stalker\_eye\_foe |  |
 | Stalkers | P\_stalker\_eye\_friend |  |
 | Super Specter | P\_wpn\_sspectre\_charge |  |
-| Super Specter | P\_wpn\_muzzleflash\_sspectre | Muzzleflash |
-| Super Specter | P\_sspectre\_impact\_titan |  |
-| Super Specter | P\_xo\_armor\_impact\_EXP |  |
-| Super Specter | P\_plasma\_exp\_MD |  |
+| Super Specter | P\_wpn\_muzzleflash\_sspectre |  |
 | Super Specter | P\_sup\_spectre\_death |  |
 | Super Specter | P\_sup\_spectre\_death\_nuke |  |
 | Super Specter | P\_xo\_damage\_fire\_2 |  |
@@ -558,42 +480,6 @@ You can have different value between normal and amped mode on each weapon config
 
 
 ## Sound
-
-### Pilot
-
-| Sound name | Value | Note |
-| :--- | :--- | :--- |
-| Base | pilotslide |  |
-| Base | Jumpjet\_Freefall\_Start\_1P |  |
-| Base | Jumpjet\_Freefall\_Start\_3P |  |
-| Base | Jumpjet\_Freefall\_Body\_1P |  |
-| Base | Jumpjet\_Freefall\_Body\_3P |  |
-| Base | Jumpjet\_Freefall\_End\_1P |  |
-| Base | Jumpjet\_Freefall\_End\_3P |  |
-| Base | Jumpjet\_Jump\_Start\_1P |  |
-| Base | Jumpjet\_Jump\_Start\_3P |  |
-| Base | Jumpjet\_Jump\_Body\_1P |  |
-| Base | Jumpjet\_Jump\_Body\_3P |  |
-| Base | Jumpjet\_Jump\_End\_1P |  |
-| Base | Jumpjet\_Jump\_End\_3P |  |
-| Base | Jumpjet\_Jet\_Start\_1P |  |
-| Base | Jumpjet\_Jet\_Start\_3P |  |
-| Base | Jumpjet\_Jet\_Body\_1P |  |
-| Base | Jumpjet\_Jet\_Body\_3P |  |
-| Base | Jumpjet\_Jet\_End\_1P |  |
-| Base | Jumpjet\_Jet\_End\_3P |  |
-| Base | Jumpjet\_Wallrun\_Start\_1P |  |
-| Base | Jumpjet\_Wallrun\_Start\_3P |  |
-| Base | Jumpjet\_Wallrun\_Body\_1P |  |
-| Base | Jumpjet\_Wallrun\_Body\_3P |  |
-| Base | Jumpjet\_Wallrun\_End\_1P |  |
-| Base | Jumpjet\_Wallrun\_End\_3P |  |
-| Base | Pilot\_Wounded\_Loop\_1P |  |
-| Base | Pilot\_Wounded\_Loop\_3P |  |
-| Base | Pilot\_Critical\_Breath\_Start\_1P |  |
-| Base | Pilot\_Critical\_Drone\_Loop\_1P |  |
-| Base | Pilot\_Critical\_Breath\_Loop\_1P |  |
-| Base | Pilot\_Wounded\_BreathLoop\_End\_1P |  |
 
 ### Pilot Ability
 
@@ -651,12 +537,6 @@ You can have different value between normal and amped mode on each weapon config
 | Arc Tool | Weapon\_BatteryGun\_CoolDownSizzle\_3P |  |
 | Arc Tool | ArcTool\_SmallPanel\_DeActivate |  |
 | Arc Tool | ArcTool\_SmallPanel\_Beep |  |
-| Archer | Weapon\_Archer\_Fire\_1P |  |
-| Archer | Weapon\_Archer\_Fire\_3P |  |
-| Archer | Weapon\_Archer\_Fire\_NPC |  |
-| Archer | weapon\_spectremortar\_fire | Fire sound |
-| Archer | Weapon\_Archer\_Seeking |  |
-| Archer | Weapon\_Archer\_LockOn |  |
 | Alternator | Weapon\_Alternator\_SecondShot\_1P |  |
 | Alternator | Weapon\_Alternator\_SecondShot\_3P |  |
 | Alternator | Weapon\_Alternator\_SecondShot\_NPC |  |
@@ -667,72 +547,18 @@ You can have different value between normal and amped mode on each weapon config
 | Cold War | Weapon\_ColdWar\_ChargeUp\_1P |  |
 | Cold War | Weapon\_ColdWar\_ChargeUp\_3P |  |
 | DMR | large\_shell\_drop |  |
-| Double Take | wpn\_pickup\_Rifle\_1P |  |
-| Double Take | Weapon\_DoubleTake\_Fire\_1P |  |
-| Double Take | Weapon\_DoubleTake\_Fire\_3P |  |
-| Double Take | Weapon\_DoubleTake\_Fire\_NPC |  |
-| Double Take | large\_shell\_drop |  |
-| Double Take | large\_shell\_drop |  |
-| Double Take | DoubleTake\_LowAmmo\_Shot1 |  |
-| Double Take | DoubleTake\_LowAmmo\_Shot2 |  |
-| Double Take | DoubleTake\_LowAmmo\_Shot3 |  |
-| Double Take | Weapon\_Rangemaster\_Kraber\_ADS\_In |  |
-| Double Take | Weapon\_Rangemaster\_Kraber\_ADS\_Out |  |
-| EPG | Weapon\_epg\_Fire\_1P |  |
-| EPG | Weapon\_epg\_Fire\_3P |  |
-| EPG | Weapon\_epg\_Fire\_NPC |  |
-| EPG | weapon\_epg\_projectile\_loop |  |
-| EPG | weapon\_epg\_idle\_gears\_1p | Idle sound |
-| EPG | EPG\_LowAmmo\_Shot1 |  |
-| EPG | EPG\_LowAmmo\_Shot2 |  |
-| EPG | wpn\_pickup\_MG\_1P |  |
-| Kraber | Weapon\_Kraber\_Fire\_1P |  |
-| Kraber | Weapon\_Kraber\_Fire\_3P |  |
-| Kraber | Kraber\_LowAmmo\_Shot1 |  |
-| Kraber | Kraber\_LowAmmo\_Shot2 |  |
-| Kraber | Kraber\_LowAmmo\_Shot3 |  |
-| Kraber | Weapon\_Rangemaster\_Kraber\_ADS\_In |  |
-| Kraber | Weapon\_Rangemaster\_Kraber\_ADS\_Out |  |
-| Kraber | large\_shell\_drop |  |
 | LSTAR | Weapon\_LSTAR\_Fire\_1P |  |
 | LSTAR | Weapon\_LSTAR\_Fire\_3P |  |
 | LSTAR | Weapon\_LSTAR\_Fire\_NPC |  |
-| LSTAR | weapon\_lstar\_secondshot\_1p |  |
-| LSTAR | weapon\_lstar\_secondshot\_3p |  |
-| LSTAR | weapon\_lstar\_idle\_gears\_1p | Idle sound |
 | LSTAR | lstar\_lowammowarning | Warning sound |
 | LSTAR | LSTAR\_LensBurnout | Burnout sound |
 | LSTAR | LSTAR\_LensBurnout\_3P | Burnout sound |
-| LSTAR | Weapon\_LSTAR\_ADS\_In | ADS in |
-| LSTAR | Weapon\_LSTAR\_ADS\_Out | ADS out |
-| LSTAR | Weapon\_LSTAR\_FirstShot\_1P |  |
-| LSTAR | Weapon\_LSTAR\_Loop\_1P |  |
-| LSTAR | Weapon\_LSTAR\_LoopEnd\_1P |  |
-| LSTAR | Weapon\_LSTAR\_FirstShot\_3P |  |
-| LSTAR | Weapon\_LSTAR\_Loop\_3P |  |
-| LSTAR | Weapon\_LSTAR\_LoopEnd\_3P |  |
-| LSTAR | Weapon\_LSTAR\_FirstShot\_3P\_npc\_a |  |
-| LSTAR | Weapon\_LSTAR\_Loop\_3P\_npc\_a |  |
-| LSTAR | Weapon\_LSTAR\_LoopEnd\_3P\_npc\_a |  |
-| Mastiff | Weapon\_Mastiff\_Fire\_1P |  |
-| Mastiff | Weapon\_Mastiff\_Fire\_3P |  |
-| Mastiff | Weapon\_Mastiff\_Fire\_npc |  |
-| Mastiff | Mastiff\_LowAmmo\_Shot1 |  |
-| Mastiff | Mastiff\_LowAmmo\_Shot2 |  |
-| Mastiff | Mastiff\_LowAmmo\_Shot3 |  |
 | Melee | Player\_Melee\_Backhand\_1P |  |
 | Melee | player\_melee\_kick\_3p |  |
 | Smart Pistol | Weapon\_SmartPistol\_Fire\_1P |  |
 | Smart Pistol | Weapon\_SmartPistol\_Fire\_3P |  |
 | Smart Pistol | Weapon\_SmartPistol\_SuppressedFire\_1P |  |
 | Smart Pistol | Weapon\_SmartPistol\_SuppressedFire\_3P |  |
-| SMR | Weapon\_Sidewinder\_Fire\_1P |  |
-| SMR | Weapon\_Sidewinder\_Fire\_3P |  |
-| SMR | Weapon\_Sidewinder\_Fire\_npc |  |
-| SMR | Weapon\_Sidwinder\_Projectile | Projectile sound |
-| SMR | Weapon\_Sidewinder\_ADS\_In | ADS in |
-| SMR | Weapon\_Sidewinder\_ADS\_Out | ADS out |
-| SMR | wpn\_pickup\_MG\_1P | Pickup sound |
 | Thunderbolt | Weapon\_Arc\_Ball\_Loop |  |
 | Thunderbolt | Weapon\_ArcLauncher\_Fire\_1P |  |
 | Thunderbolt | Weapon\_ArcLauncher\_Fire\_3P |  |
@@ -750,27 +576,6 @@ You can have different value between normal and amped mode on each weapon config
 | Arc Cannon | Arc\_Rifle\_charged\_Loop\_3P |  |
 | Arc Cannon | Titan\_Blue\_Electricity\_Cloud |  |
 | Arc Cannon | weapon\_arc\_ball\_tendril |  |
-| Arc Cannon | Weapon\_Arc\_Ball\_Loop |  |
-| Embark | Embark\_Kneeling\_Front\_1P |  |
-| Embark | Embark\_Kneeling\_Front\_3P |  |
-| Embark | Embark\_Standing\_Front\_1P |  |
-| Embark | Embark\_Standing\_Front\_3P |  |
-| Embark | Embark\_Kneeling\_Left\_1P |  |
-| Embark | Embark\_Kneeling\_Left\_3P |  |
-| Embark | Embark\_Standing\_Front\_1P |  |
-| Embark | Embark\_Standing\_Front\_3P |  |
-| Embark | Embark\_Kneeling\_Behind\_1P |  |
-| Embark | Embark\_Kneeling\_Behind\_3P |  |
-| Embark | Embark\_Standing\_Behind\_1P |  |
-| Embark | Embark\_Standing\_Behind\_3P |  |
-| Embark | Embark\_Kneeling\_AboveRight\_1P |  |
-| Embark | Embark\_Kneeling\_AboveRight\_3P |  |
-| Embark | Embark\_Standing\_AboveRight\_1P |  |
-| Embark | Embark\_Standing\_AboveRight\_3P |  |
-| Embark | Embark\_Kneeling\_AboveLeft\_1P |  |
-| Embark | Embark\_Kneeling\_AboveLeft\_3P |  |
-| Embark | Embark\_Standing\_AboveLeft\_1P |  |
-| Embark | Embark\_Standing\_AboveLeft\_3P |  |
 | Titancore Utility | Titan\_CoreAbility\_Sustain\_Long |  |
 | Titancore Utility | Titan\_CoreAbility\_Sustain |  |
 | Triple Threat | Wpn\_TripleThreat\_Grenade\_MineAttach |  |
@@ -790,7 +595,6 @@ You can have different value between normal and amped mode on each weapon config
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
 | Laser Core | Titan\_Core\_Laser\_FireBeam\_1P\_extended |  |
-| Laser Core | Titan\_Core\_Laser\_FireBeam\_1P |  |
 | Laser Core | Titan\_Core\_Laser\_Fire\_EndWarning\_1P |  |
 | Laser Core | Titan\_Core\_Laser\_FireBeam\_1P |  |
 | Laser Core | Titan\_Core\_Laser\_FireBeam\_3P |  |
@@ -824,8 +628,6 @@ You can have different value between normal and amped mode on each weapon config
 | 40MM | Weapon\_Sidwinder\_Projectile | Mortar |
 | 40MM | HUD\_40mm\_TrackerBeep\_Locked |  |
 | 40MM | HUD\_40mm\_TrackerBeep\_Hit |  |
-| 40MM | explo\_40mm\_splashed\_impact\_3p |  |
-| 40MM | TitanBubbleShield.Explosive.BulletImpact\_3P\_vs\_3P |  |
 | Sonar Pulse | Titan\_Tone\_SonarLock\_Fired\_ShoulderPod\_1P |  |
 | Sonar Pulse | Titan\_Tone\_SonarLock\_Fired\_ShoulderPod\_3P |  |
 | Particule Wall | ShieldWall\_Deploy |  |
@@ -980,6 +782,7 @@ You can have different value between normal and amped mode on each weapon config
 | Gunship Launcher | Triple\_Threat\_Grenade\_Charge |  |
 | Gunship Missile | Weapon\_ARL.Single |  |
 | Gunship Missile | ShoulderRocket\_Salvo\_Fire\_3P |  |
+| Mega Turret | MegaTurret\_Laser\_ChargeUp\_3P | Not used by default |
 | Super Specter | Weapon\_DaemonRocket\_Launcher |  |
 | Super Specter | Weapon\_DaemonRocket\_Launcher.Fire |  |
 | Super Specter | Titan\_1P\_Warpfall\_Start |  |

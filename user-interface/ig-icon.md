@@ -7,6 +7,14 @@
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
 | Cloak | rui/pilot\_loadout/tactical/pilot\_tactical\_cloak |  |
+| Pulse Blade | rui/pilot\_loadout/tactical/pilot\_tactical\_pulse\_blade |  |
+
+### **Pilot Ordnance**
+
+| **Icon name** | Value | Note |
+| :--- | :--- | :--- |
+| Electric Smoke | rui/pilot\_loadout/ordnance/electric\_smoke\_menu |  |
+| Electric Smoke | rui/pilot\_loadout/ordnance/electric\_smoke |  |
 
 ### Pilot Weapons
 
