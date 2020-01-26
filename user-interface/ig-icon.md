@@ -1,4 +1,4 @@
-# IG - Icon
+# In Game - Icon
 
 ## Weapon Icon
 
@@ -12,8 +12,18 @@
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
+| Attachements | r2\_ui/menus/loadout\_icons/attachments/stock\_scope |  |
+| Attachements | r2\_ui/menus/loadout\_icons/attachments/stock\_doubletake\_sight |  |
+| Attachements | r2\_ui/menus/loadout\_icons/attachments/aog |  |
+| Attachements | r2\_ui/menus/loadout\_icons/attachments/iron\_sights |  |
 | Arc Tool | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_arc\_tool |  |
+| Archer | r2\_ui/menus/loadout\_icons/anti\_titan/at\_archer |  |
+| EPG | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_epg1 |  |
+| Kraber | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_kraber |  |
+| LSTAR | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_lstar |  |
+| Mastiff | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_mastiff |  |
 | Melee | rui/hud/common/melee\_icon |  |
+| SMR | r2\_ui/menus/loadout\_icons/anti\_titan/at\_sidewinder |  |
 
 ### Titan Weapons
 
@@ -26,9 +36,11 @@
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
 |  | vgui/HUD/titan\_build\_icon | Tume earned icon |
+|  | rui/titan\_loadout/core/titan\_core\_nuke |  |
 | Atlas | vgui/HUD/dpad\_titan\_core\_emp |  |
 | Ogre | vgui/HUD/dpad\_titan\_core\_shield |  |
 | Stryder | vgui/HUD/dpad\_titan\_core\_dash |  |
+| Salvo Core | rui/titan\_loadout/core/titan\_core\_salvo |  |
 
 ### Drones, Turret & Gunship
 
@@ -36,5 +48,13 @@
 | :--- | :--- | :--- |
 | Turret Mega Fort War | r2\_ui/menus/loadout\_icons/anti\_titan/at\_defenderc |  |
 
+### Gamemode
 
+| Icon name | Value | Note |
+| :--- | :--- | :--- |
+| Bomb | r2\_ui/hud/gametype\_icons/bomb/bomb\_neutral\_bg |  |
+| Bomb | r2\_ui/hud/gametype\_icons/bomb/bomb\_neutral |  |
+| Bomb | r2\_ui/hud/gametype\_icons/bomb/bomb\_marker\_bg |  |
+| Bomb | r2\_ui/hud/gametype\_icons/bomb/bomb\_marker\_friendly |  |
+| Bomb | r2\_ui/hud/gametype\_icons/bomb/bomb\_marker\_enemy |  |
 
