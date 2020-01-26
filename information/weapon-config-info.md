@@ -790,6 +790,7 @@ You can have different value between normal and amped mode on each weapon config
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
 | Laser Core | Titan\_Core\_Laser\_FireBeam\_1P\_extended |  |
+| Laser Core | Titan\_Core\_Laser\_FireBeam\_1P |  |
 | Laser Core | Titan\_Core\_Laser\_Fire\_EndWarning\_1P |  |
 | Laser Core | Titan\_Core\_Laser\_FireBeam\_1P |  |
 | Laser Core | Titan\_Core\_Laser\_FireBeam\_3P |  |
@@ -979,7 +980,6 @@ You can have different value between normal and amped mode on each weapon config
 | Gunship Launcher | Triple\_Threat\_Grenade\_Charge |  |
 | Gunship Missile | Weapon\_ARL.Single |  |
 | Gunship Missile | ShoulderRocket\_Salvo\_Fire\_3P |  |
-| Mega Turret | MegaTurret\_Laser\_ChargeUp\_3P | Not used by default |
 | Super Specter | Weapon\_DaemonRocket\_Launcher |  |
 | Super Specter | Weapon\_DaemonRocket\_Launcher.Fire |  |
 | Super Specter | Titan\_1P\_Warpfall\_Start |  |
