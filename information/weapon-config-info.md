@@ -160,29 +160,6 @@ You can have different value between normal and amped mode on each weapon config
 
 | Projectile name | Value | Note |
 | :--- | :--- | :--- |
-| **`Pilot Weapon`** |  |  |
-| Cold War | P\_plasma\_proj\_MD |  |
-| Cold War | P\_plasma\_proj\_MD\_amp | Amped |
-| DMR | garand\_trail\_smoke | Not used by default |
-| Double Take | P\_doubletake\_proj |  |
-| EPG | P\_plasma\_proj\_LG\_DLight |  |
-| EPG | P\_plasma\_proj\_LG\_amp | Amped |
-| Kraber | weapon\_kraber\_projectile |  |
-| Kraber | weapon\_kraber\_projectile\_burn | Amped |
-| LSTAR | P\_projectile\_lstar |  |
-| LSTAR | P\_projectile\_lstar\_burn | Amped |
-| Mastiff | P\_mastiff\_proj |  |
-| Mastiff | P\_mastiff\_proj\_amp | Amped |
-| Rocket Launcher | Rocket\_Smoke\_Large |  |
-| Rocket Launcher | Rocket\_Smoke\_Large\_burn | Amped |
-| SMR | Rocket\_Smoke\_SMR |  |
-| SMR | Rocket\_Smoke\_SMR\_burn | Amped |
-| Softball | wpn\_grenade\_frag\_softball |  |
-| Softball | wpn\_grenade\_frag\_softball\_burn | Amped |
-| Spitfire | wpn\_grenade\_frag\_mag |  |
-| Spitfire | wpn\_grenade\_frag\_mag\_burn | Amped |
-| Thunderbolt | P\_wpn\_arcball\_trail |  |
-| Thunderbolt | P\_wpn\_arcball\_trail\_amp | Amped |
 | **`Pilot Ordnance`** |  |  |
 | Electric Smoke | P\_wpn\_smk\_electric\_pilot |  |
 | Electric Smoke | P\_wpn\_smk\_electric\_pilot\_air |  |
@@ -284,9 +261,20 @@ You can have different value between normal and amped mode on each weapon config
 | Arc Tool | P\_ArcSwitch\_open\_far |  |
 | Arc Tool | P\_ArcSwitch\_close |  |
 | Arc Tool | P\_ArcSwitch\_close\_far |  |
+| Cold War | P\_plasma\_proj\_MD |  |
+| Cold War | P\_plasma\_proj\_MD\_amp | Amped projectile |
 | DMR | wpn\_mflash\_snp\_hmn\_smoke\_side\_FP |  |
 | DMR | wpn\_mflash\_snp\_hmn\_smoke\_side |  |
+| DMR | garand\_trail\_smoke | Not used by default |
 | DMR | Rocket\_Smoke\_SMR\_Glow |  |
+| Double Take | P\_doubletake\_proj |  |
+| Double Take | P\_doubletake\_proj\_burn | Amped projectile |
+| Double Take | P\_dragonsbreath\_trail | Not used by default |
+| Double Take | doubletake\_bullet | Impact effect |
+| Double Take | P\_wpn\_mflash\_dbltake\_FP |  |
+| Double Take | P\_wpn\_mflash\_dbltake |  |
+| Double Take | P\_wpn\_mflash\_dbltake\_FP\_burn | Amped muzzleflash FP |
+| Double Take | P\_wpn\_mflash\_dbltake\_burn | Amped muzzleflash |
 | Kraber | wpn\_mflash\_snp\_hmn\_smoke\_side\_FP |  |
 | Kraber | wpn\_mflash\_snp\_hmn\_smoke\_side |  |
 | LSTAR | wpn\_mflash\_snp\_hmn\_smokepuff\_side\_FP | Cooldown effect |
@@ -547,6 +535,17 @@ You can have different value between normal and amped mode on each weapon config
 | Cold War | Weapon\_ColdWar\_ChargeUp\_1P |  |
 | Cold War | Weapon\_ColdWar\_ChargeUp\_3P |  |
 | DMR | large\_shell\_drop |  |
+| Double Take | wpn\_pickup\_Rifle\_1P |  |
+| Double Take | Weapon\_DoubleTake\_Fire\_1P |  |
+| Double Take | Weapon\_DoubleTake\_Fire\_3P |  |
+| Double Take | Weapon\_DoubleTake\_Fire\_NPC |  |
+| Double Take | large\_shell\_drop |  |
+| Double Take | large\_shell\_drop |  |
+| Double Take | DoubleTake\_LowAmmo\_Shot1 |  |
+| Double Take | DoubleTake\_LowAmmo\_Shot2 |  |
+| Double Take | DoubleTake\_LowAmmo\_Shot3 |  |
+| Double Take | Weapon\_Rangemaster\_Kraber\_ADS\_In |  |
+| Double Take | Weapon\_Rangemaster\_Kraber\_ADS\_Out |  |
 | LSTAR | Weapon\_LSTAR\_Fire\_1P |  |
 | LSTAR | Weapon\_LSTAR\_Fire\_3P |  |
 | LSTAR | Weapon\_LSTAR\_Fire\_NPC |  |
