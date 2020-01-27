@@ -34,7 +34,7 @@
 
 ## User Interface
 
-* [In Game - Icon](user-interface/ig-icon.md)
+* [Icon](user-interface/ig-icon.md)
 * [Network - Menus](user-interface/network-menus.md)
 
 ## Text
