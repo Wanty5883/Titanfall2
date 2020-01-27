@@ -50,6 +50,13 @@
 | Stryder | vgui/HUD/dpad\_titan\_core\_dash |  |
 | Salvo Core | rui/titan\_loadout/core/titan\_core\_salvo |  |
 
+### Titan Ordnance
+
+| Icon name | Value | Note |
+| :--- | :--- | :--- |
+| Laser Shot | rui/titan\_loadout/ordnance/concussive\_shot\_short |  |
+|  | rui/titan\_loadout/ordnance/concussive\_shot\_long |  |
+
 ### Drones, Turret & Gunship
 
 | Icon name | Value | Note |
