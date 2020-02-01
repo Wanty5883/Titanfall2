@@ -233,6 +233,8 @@ You can have different value between normal and amped mode on each weapon config
 | Arc Tool | acl\_light\_red |  |
 | Arc Tool | acl\_light\_green |  |
 | Arc Tool | wpn\_arc\_cannon\_beam\_mod |  |
+| Arc Tool | P\_wpn\_charge\_tool\_beam | Charge effect |
+| Arc Tool | P\_wpn\_charge\_tool\_notarget | Charge effect |
 | Arc Tool | P\_ArcSwitch\_open |  |
 | Arc Tool | P\_ArcSwitch\_open\_far |  |
 | Arc Tool | P\_ArcSwitch\_close |  |
@@ -301,6 +303,7 @@ You can have different value between normal and amped mode on each weapon config
 | Mastiff | P\_wpn\_muz\_mastiff | Muzzleflash |
 | Mastiff | P\_wpn\_muz\_mastiff\_amp\_FP | Amped muzzleflash FP |
 | Mastiff | P\_wpn\_muz\_mastiff\_amp | Amped muzzleflash |
+| Mastiff | P\_wpn\_charge\_tool\_beam | Sustain laser effect |
 | SMR | Rocket\_Smoke\_SMR | Projectile effect |
 | SMR | Rocket\_Smoke\_SMR\_burn | Amped projectile |
 | SMR | Rocket\_Smoke\_SMR\_s2s | Projectile effect |
@@ -327,6 +330,7 @@ You can have different value between normal and amped mode on each weapon config
 | Arc Ball | P\_impact\_exp\_emp\_med\_air |  |
 | Arc Ball | wpn\_arc\_cannon\_charge\_fp |  |
 | Arc Ball | wpn\_arc\_cannon\_charge |  |
+| Arc Ball | P\_wpn\_arcball\_beam |  |
 | Arc Cannon | wpn\_arc\_cannon\_electricity\_fp |  |
 | Arc Cannon | wpn\_arc\_cannon\_electricity |  |
 | Arc Cannon | impact\_arc\_cannon\_titan |  |
@@ -363,17 +367,25 @@ You can have different value between normal and amped mode on each weapon config
 | Dome Shield | P\_shield\_hld\_01\_CP | Particle system |
 | Hotdrop Warp | P\_warpjump\_FP |  |
 | Hotdrop Trail | hotdrop\_hld\_warp |  |
+| Malta | amb\_emit\_s2s\_Malta\_Thrusters |  |
 | Smokescreen | P\_wpn\_smk\_electric |  |
 | Smokescreen | P\_wpn\_smk\_electric\_burn\_mod |  |
 | Smokescreen | P\_wpn\_smk\_electric\_heal |  |
 | Smokescreen | P\_smkscreen\_test |  |
 | Titancore Utility | P\_titan\_core\_atlas\_blast |  |
 | Titancore Utility | P\_titan\_core\_atlas\_charge |  |
+| Viper Boss | P\_titan\_core\_atlas\_blast | Core effect |
+| Viper Boss | P\_s2s\_coreroom\_core\_light | Ark light FX |
+| Viper Boss | P\_ship\_fire\_large | Shipfire FX |
+| Viper Boss | xo\_exp\_death\_s2s | Explosion FX |
+| Viper Boss | P\_s2s\_viper\_death\_fire | Death FX |
+| Viper Boss | P\_dlight\_cokpit\_viper |  |
 
 ### Ion
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
+| Ion Ball | P\_ion\_moving\_proj |  |
 | Laser Core | P\_wpn\_lasercannon\_aim | Aim |
 | Laser Core | P\_lasercannon\_core | Core |
 | Laser Core | P\_handlaser\_charge | Muzzleflash |
@@ -381,7 +393,7 @@ You can have different value between normal and amped mode on each weapon config
 | Laser Trip Wire | P\_wpn\_lasertrip\_beam | Beam FX |
 | Laser Trip Wire | P\_arc\_pylon\_zap | Zap FX |
 | Laser Trip Wire | P\_wpn\_lasertrip\_base | FX all |
-| Laser Trip Wire | wpn\_grenade\_frag\_blue\_icon | FX friendly |
+| Laser Trip Wire | wpn\_grenade\_frag\_blue\_icon | FX friendly icon |
 | Laser Trip Wire | P\_impact\_exp\_XLG\_metal | Explode FX |
 | Vortex Shield | P\_impact\_xo\_shield\_cp |  |
 | Vortex Shield | P\_impact\_exp\_med\_xo\_shield\_CP |  |
@@ -413,6 +425,21 @@ You can have different value between normal and amped mode on each weapon config
 | FX name | Value | Note |
 | :--- | :--- | :--- |
 | Upgrade Core | P\_wpn\_lasercannon\_aim |  |
+| Energy Syphon | P\_wpn\_monarch\_beam\_v1 | Tracer effect |
+| Energy Syphon | P\_wpn\_monarch\_beam\_v2 | Tracer effect |
+| Energy Syphon | P\_wpn\_hand\_laser\_beam\_BC | Tracer effect |
+| Energy Syphon | P\_wpn\_monarch\_charge\_v1 | Charge effect |
+| Energy Syphon | P\_wpn\_monarch\_charge\_v2 | Energy transfer |
+| Energy Syphon | P\_wpn\_monarch\_mflash\_v1 | Muzzleflash |
+| Energy Syphon | P\_wpn\_monarch\_mflash\_v2 | Energy transfer |
+| Energy Syphon | exp\_monarch\_beam\_v1 | Impact effect |
+| Energy Syphon | exp\_monarch\_beam\_v2 | EnergyTransfer |
+| Energy Syphon | exp\_monarch\_beam\_LG\_v2 | FD content |
+| Energy Syphon | P\_monarchBeam\_body\_human | Vanguard energy body |
+| Energy Syphon | P\_monarchBeam\_body\_titan | Vanguard energy body |
+| Energy Syphon | P\_emp\_body\_human | FX EMP body |
+| Energy Syphon | P\_emp\_body\_titan | FX EMP body |
+|  | weld\_spark\_01\_sparksfly | FX EMP reboot sparks |
 
 ### Ronin
 
@@ -461,6 +488,13 @@ You can have different value between normal and amped mode on each weapon config
 | Bomber | P\_veh\_crow\_exp\_sml | TagHealthFX |
 | Bomber | xo\_health\_smoke\_white | TagHealthFX |
 | Bomber | veh\_chunk\_trail | TagHealthFX |
+| Drone | P\_drone\_shield\_wall\_XO | Shield wall titan |
+| Drone | P\_drone\_shield\_wall | Shield wall human |
+| Drone | P\_drone\_exp\_md | Explosion |
+| Drone | P\_drone\_exp\_rocket | Explosion |
+| Drone | P\_drone\_exp\_plasma | Explosion |
+| Drone | P\_drone\_exp\_worker | Explosion |
+| Drone | ACL Light | Shield rope glow |
 | Cloak Drone | Coop\_CloakDrone\_Beam | Looping |
 | Cloak Drone | Coop\_DroneTeleport\_In | Warp in |
 | Cloak Drone | Coop\_DroneTeleport\_Out | Warp out |
@@ -534,6 +568,7 @@ You can have different value between normal and amped mode on each weapon config
 | ACL Light | acl\_light\_red |  |
 | ACL Light | acl\_light\_green |  |
 | ACL Light | acl\_light\_blue |  |
+| ACL Light | acl\_light\_white |  |
 | Ball Lightning | P\_wpn\_arcball\_beam | Zap FX |
 | Beacon | veh\_birm\_warp\_in\_FULL | Not used |
 | Beacon | veh\_carrier\_warp\_FULL |  |
@@ -543,17 +578,40 @@ You can have different value between normal and amped mode on each weapon config
 | Beacon | veh\_contrails\_01 |  |
 | Beacon | veh\_jetwash\_exit\_eng\_blast |  |
 | Beacon | P\_wpn\_charge\_tool\_beam\_HOLO | Charge ghost effect |
+| Beacon | P\_env\_birds\_beacon\_SB |  |
+| Beacon | P\_cloud\_thickCover\_SM\_beacon |  |
+| Beacon | P\_cloudground\_beacon |  |
+| Beacon | P\_beacon\_beam\_endglow |  |
+| Beacon | P\_sparks\_beacon\_dish | Beacon explode |
+| Beacon | P\_beacon\_lights\_cp1 |  |
+| Beacon | fx\_beacon\_beam\_small\_CP1 |  |
+| Beacon | P\_cloudthin\_fast\_beacon |  |
+| Beacon | P\_cloudCumulus\_beacon |  |
+| Beacon | P\_cloud\_thickCover\_beacon |  |
+| Console | P\_dlight\_consoleLights\_beacon |  |
 | Deployable Cloakfield | harvester\_base\_noise | FD content ? |
 | Deployable Cloakfield | harvester\_base\_glowflat | FD content ? |
 | Deployable Cloakfield | ar\_operator\_target\_idle | FD content ? |
 | Exhaust Rear | veh\_redeye\_round\_jet\_FULL | Annapolis |
-| Orbital Strike | wpn\_orbital\_beam |  |
+| Glass | p\_impact\_exp\_smll\_air | Breach FX1 |
+| Glass | P\_glass\_exp\_breach | FX glass |
+| Glass | P\_glass\_exp\_bridge | BT FX glass |
+| Glass | P\_glass\_exp\_bridge\_SML | BT FX glass SML |
 | Harvester | P\_tw\_harvester\_beam\_endcap | Beam |
 | Harvester | P\_tw\_harvester\_damaged | Damaged |
 | Harvester | P\_harvestor\_shield\_wall | Overshield |
 | Harvester | P\_coop\_harvester\_CP | Shield |
 | Harvester | P\_coop\_harvester\_break\_CP | Shield break |
 | Harvester | P\_tw\_harvester\_beam\_endcap | Gen beam |
+| Lifeboat | P\_veh\_ePod\_launch |  |
+| Lifeboat | P\_veh\_ePod\_light |  |
+| Light | runway\_light\_orange |  |
+| Light | industrial\_wall\_light\_orange |  |
+|  | warning\_light\_orange\_blink\_nowall |  |
+| Light | warning\_light\_red |  |
+| MaltaGun | P\_muzzleflash\_MaltaGun | Cannon FX |
+| MaltaGun | P\_exp\_flak\_s2s | Cannon Impact |
+| Orbital Strike | wpn\_orbital\_beam |  |
 | Orbital Strike | ar\_rocket\_strike\_small\_friend |  |
 | Orbital Strike | ar\_rocket\_strike\_small\_foe |  |
 | Orbital Strike | ar\_rocket\_strike\_large\_friend |  |
@@ -562,8 +620,39 @@ You can have different value between normal and amped mode on each weapon config
 | Pickups | P\_item\_bluelion | Collectible glow FX \(helmet\) |
 | Proto Hold Beam | elite\_smoke\_rise |  |
 | Proto Hold Beam | dissolve\_CH\_arcs |  |
+| Space Debris | P\_space\_debris\_filler |  |
+| Trinity | P\_exp\_trin\_death | Militia decoy shop destruction |
+| Trinity | P\_s2s\_flap\_wind | Deck flap wind |
+| Wind | P\_wind\_cruising | Player wind FX |
+| Wind | P\_s2s\_bridge\_wind | Bridge glass wind FX |
 
+### Unknown
 
+| FX name | Value | Note |
+| :--- | :--- | :--- |
+|  | env\_star\_red\_dwarf |  |
+|  | P\_steam\_red\_ring\_384 |  |
+|  | P\_steam\_red\_256 |  |
+|  | env\_steam\_fan\_1 |  |
+|  | P\_env\_steam\_hall\_256 |  |
+|  | env\_smoke\_room\_256 |  |
+|  | env\_smoke\_room\_128 |  |
+|  | P\_sparks\_dir\_SM\_LOOP |  |
+|  | P\_fire\_grass |  |
+|  | P\_fire\_med |  |
+|  | P\_fire\_med\_Full |  |
+|  | P\_fire\_tiny\_FULL |  |
+|  | P\_smoke\_thin\_crash\_SM |  |
+|  | env\_smoke\_plume\_XLG\_dark |  |
+|  | P\_security\_laser |  |
+|  | assembly\_laser\_end1 |  |
+|  | assembly\_laser\_end2 |  |
+|  | assembly\_laser\_end3 |  |
+|  | assembly\_laser\_end4 |  |
+|  | P\_conduit\_elec\_light |  |
+|  | P\_elec\_conduit\_loop\_top |  |
+|  | P\_conduit\_elec\_light\_med |  |
+|  | P\_elec\_conduit\_loop\_top\_med |  |
 
 ## Sound
 
@@ -657,7 +746,7 @@ You can have different value between normal and amped mode on each weapon config
 | Arc Trap | weapon\_sentryfragdrone\_pinpull\_3p |  |
 | Arc Trap | weapon\_sentryfragdrone\_throw\_3p | Throw sound |
 | Arc Trap | weapon\_sentryfragdrone\_warmup |  |
-| Arc Trap | coop\_sentrygun\_deploymentdeniedbeep |  |
+| Arc Trap | coop\_senteur\_deploymentdeniedbeep |  |
 | Electric Smoke | weapon\_electric\_smoke\_throw\_1p | Throw sound |
 | Electric Smoke | weapon\_electric\_smoke\_throw\_3p | Throw sound |
 | Electric Smoke | weapon\_electric\_smoke\_pinpull\_1p |  |
@@ -667,6 +756,7 @@ You can have different value between normal and amped mode on each weapon config
 | Firestar | weapon\_firestar\_draw\_1p | Draw sound |
 | Firestar | weapon\_firestar\_draw\_3p | Draw sound |
 | Firestar | weapon\_firestar\_whoosh | Projectile sound |
+| Firestar | explo\_firestar\_impact | Fire sound |
 | Gravity Star | weapon\_gravitystar\_throw\_1p | Throw sound |
 | Gravity Star | weapon\_gravitystar\_throw\_3p | Throw sound |
 | Gravity Star | weapon\_gravitystar\_draw\_1p | Draw sound |
@@ -707,10 +797,18 @@ You can have different value between normal and amped mode on each weapon config
 | Alternator | Weapon\_Alternator\_SecondShot\_1P |  |
 | Alternator | Weapon\_Alternator\_SecondShot\_3P |  |
 | Alternator | Weapon\_Alternator\_SecondShot\_NPC |  |
+| Charge Rifle | Weapon\_ChargeRifle\_Fire\_1P |  |
+| Charge Rifle | Weapon\_ChargeRifle\_Fire\_3P |  |
+| Charge Rifle | Weapon\_ChargeRifle\_Fire\_NPC |  |
 | Charge Rifle | Weapon\_ChargeRifle\_WindUp\_1P | Charge sound |
 | Charge Rifle | Weapon\_ChargeRifle\_WindUp\_3P | Charge sound |
 | Charge Rifle | Weapon\_ChargeRifle\_WindDown\_1P | Unload sound |
 | Charge Rifle | Weapon\_ChargeRifle\_WindDown\_3P | Unload sound |
+| Charge Rifle | Weapon\_ChargeRifle\_TriggerOn |  |
+| Charge Rifle | Weapon\_ChargeRifle\_TriggerOff |  |
+| Charge Rifle | Weapon\_ChargeRifle\_ADS\_In |  |
+| Charge Rifle | Weapon\_ChargeRifle\_ADS\_Out |  |
+| Charge Rifle | wpn\_pickup\_ATWeapon\_1P |  |
 | Cold War | Weapon\_ColdWar\_ChargeUp\_1P |  |
 | Cold War | Weapon\_ColdWar\_ChargeUp\_3P |  |
 | DMR | large\_shell\_drop |  |
@@ -793,6 +891,18 @@ You can have different value between normal and amped mode on each weapon config
 | R-201 | weapon\_r101\_loop\_3p\_npc\_a |  |
 | R-201 | Weapon\_R101\_ADS\_In |  |
 | R-201 | Weapon\_R101\_ADS\_Out |  |
+| R97 | Weapon\_R97\_SecondShot\_1P |  |
+| R97 | Weapon\_R97\_SecondShot\_3P |  |
+| R97 | Weapon\_r97\_secondshot\_npc |  |
+| R97 | Weapon\_R97\_Fire\_First\_1P |  |
+| R97 | Weapon\_R97\_Fire\_First\_3P |  |
+| R97 | Weapon\_R97\_Fire\_Loop\_1P |  |
+| R97 | Weapon\_R97\_Fire\_Loop\_3P |  |
+| R97 | Weapon\_R97\_Fire\_Last\_1P |  |
+| R97 | Weapon\_R97\_Fire\_Last\_3P |  |
+| R97 | weapon\_r97\_loop\_3p\_npc\_a |  |
+| R97 | Weapon\_R97\_ADS\_In |  |
+| R97 | Weapon\_R97\_ADS\_Out |  |
 | Smart Pistol | Weapon\_SmartPistol\_Fire\_1P |  |
 | Smart Pistol | Weapon\_SmartPistol\_Fire\_3P |  |
 | Smart Pistol | Weapon\_SmartPistol\_SuppressedFire\_1P |  |
@@ -860,6 +970,7 @@ You can have different value between normal and amped mode on each weapon config
 | Embark | Embark\_Kneeling\_AboveLeft\_3P |  |
 | Embark | Embark\_Standing\_AboveLeft\_1P |  |
 | Embark | Embark\_Standing\_AboveLeft\_3P |  |
+| Fastball | bt\_beacon\_fastball\_Whoosh | SP content |
 | Smoke | titan\_offhand\_electricsmoke\_deploy\_1P |  |
 | Smoke | titan\_offhand\_electricsmoke\_deploy\_3P |  |
 | Smoke | titan\_offhand\_electricsmoke\_deploy\_amped\_1P |  |
@@ -899,6 +1010,9 @@ You can have different value between normal and amped mode on each weapon config
 | Laser Core | Titan\_Core\_Laser\_FireStop\_3P |  |
 | Laser Core | Titan\_Core\_Laser\_ChargeUp\_1P |  |
 | Laser Core | Titan\_Core\_Laser\_ChargeUp\_3P |  |
+| Laser Core | Titan\_Core\_Laser\_FireBeam\_1P\_extended |  |
+| Laser Core | Titan\_Core\_Laser\_FireBeam\_1P |  |
+| Laser Core | Titan\_Core\_Laser\_FireBeam\_3P |  |
 | Laser Shot | Weapon\_ShoulderLaser\_Fire\_3P |  |
 | Laser Shot | Weapon\_ShoulderLaser\_Fire\_3P |  |
 | Laser Shot | Weapon\_ShoulderLaser\_StutterBuild\_1P | Charge sound |
@@ -981,6 +1095,8 @@ You can have different value between normal and amped mode on each weapon config
 | Rearm | Titan\_Tone\_SonarLock\_Fired\_ShoulderPod\_3P |  |
 | Energy Syphon | Weapon\_EnergySyphon\_Lvl1\_Fire\_1P |  |
 | Energy Syphon | Weapon\_EnergySyphon\_Lvl1\_Fire\_3P |  |
+| Energy Syphon | Weapon\_EnergySyphon\_Lvl2\_Fire\_1P | Energy transfer |
+| Energy Syphon | Weapon\_EnergySyphon\_Lvl2\_Fire\_3P | Energy transfer |
 | Energy Syphon | Weapon\_EnergySyphon\_Charge\_1P |  |
 | Energy Syphon | Weapon\_EnergySyphon\_Charge\_3P |  |
 | Chaingun amp | Weapon\_XO16\_SingleAmped\_1P |  |
@@ -1074,7 +1190,8 @@ You can have different value between normal and amped mode on each weapon config
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
-| Drones | Drone\_Beam\_Charge |  |
+| Drone | Drone\_Beam\_Charge |  |
+| Drone | Drone\_DeathExplo |  |
 | Drone Plasma | Drone\_Plasma\_Fire |  |
 | Drone Rocket | Drone\_Weapon\_Prefire |  |
 | Drone Rocket | Weapon\_ARL.Single |  |
