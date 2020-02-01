@@ -6,7 +6,7 @@ description: List of information for the weapon config files
 
 ## Introduction & Warning
 
-This page is quite... big due to the big amount of information around weapon config files and I plan to add even more. So for the sake of your mental health refer to the content summary on the right side of your screen. I done title and subtile to make it easier !
+This page is quite... big due to the big amount of information around weapon config files and I plan to add more. So for the sake of your mental health refer to the content summary on the right side of your screen. I done title and subtile to make it easier !
 
 > englishclient\_mp\_common.bsp.pak000\_dir.vpk\scripts\weapons
 
@@ -131,7 +131,7 @@ Tracer effect are for **hitscan weapon only**, this function does not effect pro
 | P\_wpn\_monarch\_beam\_v2 | Syphon varient |  |
 | wpn\_arc\_cannon\_beam | Arc Cannon |  |
 | wpn\_arc\_cannon\_beam\_mod | Arc Cannon |  |
-| **Unknown** | I have to test them |  |
+| **Unknown** |  |  |
 | weapon\_tracers\_vortex | Vortex shield |  |
 | weapon\_tracers\_vortex\_mod | Vortex shield |  |
 | P\_wpn\_tracer\_sniper | Not used by railgun | Railgun |
@@ -831,6 +831,22 @@ You can have different value between normal and amped mode on each weapon config
 | EPG | EPG\_LowAmmo\_Shot1 |  |
 | EPG | EPG\_LowAmmo\_Shot2 |  |
 | EPG | wpn\_pickup\_MG\_1P |  |
+| Flatline | Weapon\_Vinson\_Trigger |  |
+| Flatline | Vinson\_shell | Fire sound 1 |
+| Flatline | Weapon\_bulletCasings.Bounce | Fire sound 1 |
+| Flatline | Weapon\_Vinson\_SecondShot\_1P |  |
+| Flatline | Weapon\_Vinson\_SecondShot\_3P |  |
+| Flatline | Weapon\_Vinson\_SecondShot\_NPC |  |
+| Flatline | Weapon\_HemlokSMG\_Fire\_First\_1P |  |
+| Flatline | Weapon\_HemlokSMG\_Fire\_First\_3P |  |
+| Flatline | Weapon\_Vinson\_FirstShot\_1P |  |
+| Flatline | Weapon\_Vinson\_Loop\_1P |  |
+| Flatline | Weapon\_Vinson\_Loop\_3P |  |
+| Flatline | Weapon\_Vinson\_Loop\_3p\_NPC\_a |  |
+| Flatline | Weapon\_Vinson\_LoopEnd\_1P |  |
+| Flatline | Weapon\_Vinson\_LoopEnd\_3P |  |
+| Flatline | Weapon\_Vinson\_LoopEnd\_NPC |  |
+| Flatline | Vinson\_LowAmmo\_Shot1 |  |
 | G2A5 | Weapon\_G2A4\_Fire\_1P |  |
 | G2A5 | Weapon\_G2A4\_Fire\_3P |  |
 | G2A5 | Weapon\_G2A4\_Fire\_NPC |  |
@@ -878,19 +894,42 @@ You can have different value between normal and amped mode on each weapon config
 | Mastiff | Mastiff\_LowAmmo\_Shot3 |  |
 | Melee | Player\_Melee\_Backhand\_1P |  |
 | Melee | player\_melee\_kick\_3p |  |
-| R-201 | R101\_shell |  |
-| R-201 | Weapon\_R101\_SecondShot\_1P |  |
-| R-201 | Weapon\_R101\_SecondShot\_3P |  |
-| R-201 | Weapon\_r101\_secondshot\_npc |  |
-| R-201 | Weapon\_R101\_FirstShot\_1P |  |
-| R-201 | R101\_LowAmmo\_Shot1 |  |
-| R-201 | Weapon\_R101\_Loop\_1P |  |
-| R-201 | Weapon\_R101\_Loop\_3P |  |
-| R-201 | Weapon\_R101\_LoopEnd\_1P |  |
-| R-201 | Weapon\_R101\_LoopEnd\_3P |  |
-| R-201 | weapon\_r101\_loop\_3p\_npc\_a |  |
-| R-201 | Weapon\_R101\_ADS\_In |  |
-| R-201 | Weapon\_R101\_ADS\_Out |  |
+| R-201 / R-101 | R101\_shell |  |
+| R-201 / R-101 | Weapon\_R101\_SecondShot\_1P |  |
+| R-201 / R-101 | Weapon\_R101\_SecondShot\_3P |  |
+| R-201 / R-101 | Weapon\_r101\_secondshot\_npc |  |
+| R-201 / R-101 | Weapon\_R101\_FirstShot\_1P |  |
+| R-201 / R-101 | Weapon\_R101\_FirstShotSuppressed\_1P |  |
+| R-201 / R-101 | Weapon\_R101\_FirstShotSuppressed\_3P |  |
+| R-201 / R-101 | R101\_LowAmmo\_Shot1 |  |
+| R-201 / R-101 | Weapon\_R101\_Loop\_1P |  |
+| R-201 / R-101 | Weapon\_R101\_LoopSuppressed\_1P |  |
+| R-201 / R-101 | Weapon\_R101\_Loop\_3P |  |
+| R-201 / R-101 | Weapon\_R101\_LoopSuppressed\_3P |  |
+| R-201 / R-101 | Weapon\_R101\_LoopEnd\_1P |  |
+| R-201 / R-101 | Weapon\_R101\_LoopSuppressedEnd\_1P |  |
+| R-201 / R-101 | Weapon\_R101\_LoopEnd\_3P |  |
+| R-201 / R-101 | Weapon\_R101\_LoopSuppressedEnd\_3P |  |
+| R-201 / R-101 | weapon\_r101\_loop\_3p\_npc\_a |  |
+| R-201 / R-101 | Weapon\_R101\_ADS\_In |  |
+| R-201 / R-101 | Weapon\_R101\_ADS\_Out |  |
+| RE-45 | weapon\_re45auto\_shell |  |
+| RE-45 | Weapon\_RE45Auto\_secondshot\_1P |  |
+| RE-45 | weapon\_re45auto\_fire\_secondsuppressed\_1p |  |
+| RE-45 | Weapon\_RE45Auto\_secondshot\_3P |  |
+| RE-45 | weapon\_re45auto\_fire\_secondsuppressed\_3p |  |
+| RE-45 | Weapon\_RE45Auto\_secondshot\_npc |  |
+| RE-45 | Weapon\_RE45Auto\_FirstShot\_1P |  |
+| RE-45 | Weapon\_RE45Auto\_Fire\_FirstSuppressed\_1P |  |
+| RE-45 | Weapon\_RE45Auto\_FireLoop\_1P |  |
+| RE-45 | Weapon\_RE45Auto\_Fire\_LoopSuppressed\_1P |  |
+| RE-45 | Weapon\_RE45Auto\_FireLoop\_3P |  |
+| RE-45 | Weapon\_RE45Auto\_Fire\_LoopSuppressed\_3P |  |
+| RE-45 | Weapon\_RE45Auto\_FireLoop\_3P\_NPC\_A |  |
+| RE-45 | Weapon\_RE45Auto\_LoopEnd\_1P |  |
+| RE-45 | Weapon\_RE45Auto\_Fire\_LastSuppressed\_1P |  |
+| RE-45 | Weapon\_RE45Auto\_Fire\_LastSuppressed\_3P |  |
+| RE-45 | RE45Auto\_LowAmmo\_Shot1 |  |
 | R97 | Weapon\_R97\_SecondShot\_1P |  |
 | R97 | Weapon\_R97\_SecondShot\_3P |  |
 | R97 | Weapon\_r97\_secondshot\_npc |  |
@@ -932,6 +971,19 @@ You can have different value between normal and amped mode on each weapon config
 | Thunderbolt | Weapon\_Arc\_Ball\_Loop |  |
 | Thunderbolt | Weapon\_ArcLauncher\_Fire\_1P |  |
 | Thunderbolt | Weapon\_ArcLauncher\_Fire\_3P |  |
+| Wingman | Weapon\_Wingman\_Fire\_1P |  |
+| Wingman | Weapon\_Wingman\_Fire\_3P |  |
+| Wingman | Weapon\_Wingman\_Fire\_NPC |  |
+| Wingman | Weapon\_Wingman\_FireSuppressed\_1P |  |
+| Wingman | Weapon\_Wingman\_FireSuppressed\_3P |  |
+| Wingman | Weapon\_Wingman\_FireSuppressed\_NPC |  |
+| Wingman | Wingman\_LowAmmo\_Shot1 |  |
+| Wingman | Wingman\_LowAmmo\_Shot2 |  |
+| Wingman | Wingman\_LowAmmo\_Shot3 |  |
+| Wingman | Weapon\_Wingman\_ADS\_In |  |
+| Wingman | Weapon\_Wingman\_ADS\_Out |  |
+| Wingman Elite | Weapon\_Wingman\_Elite\_Fire\_1P |  |
+| Wingman Elite | Weapon\_Wingman\_Elite\_Fire\_3P |  |
 
 ### Titans
 
