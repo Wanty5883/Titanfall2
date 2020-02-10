@@ -1,37 +1,6 @@
-# Icon
+# Icon & HUD
 
-## General Content Icon
-
-### Pilot Abilities
-
-| Icon name | Value | Note |
-| :--- | :--- | :--- |
-| Cloak | rui/pilot\_loadout/tactical/pilot\_tactical\_cloak |  |
-| Pulse Blade | rui/pilot\_loadout/tactical/pilot\_tactical\_pulse\_blade |  |
-
-### **Pilot Ordnance**
-
-| **Icon name** | Value | Note |
-| :--- | :--- | :--- |
-| Electric Smoke | rui/pilot\_loadout/ordnance/electric\_smoke\_menu |  |
-| Electric Smoke | rui/pilot\_loadout/ordnance/electric\_smoke |  |
-
-### Pilot Weapons
-
-| Icon name | Value | Note |
-| :--- | :--- | :--- |
-| Attachements | r2\_ui/menus/loadout\_icons/attachments/stock\_scope |  |
-| Attachements | r2\_ui/menus/loadout\_icons/attachments/stock\_doubletake\_sight |  |
-| Attachements | r2\_ui/menus/loadout\_icons/attachments/aog |  |
-| Attachements | r2\_ui/menus/loadout\_icons/attachments/iron\_sights |  |
-| Arc Tool | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_arc\_tool |  |
-| Archer | r2\_ui/menus/loadout\_icons/anti\_titan/at\_archer |  |
-| EPG | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_epg1 |  |
-| Kraber | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_kraber |  |
-| LSTAR | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_lstar |  |
-| Mastiff | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_mastiff |  |
-| Melee | rui/hud/common/melee\_icon |  |
-| SMR | r2\_ui/menus/loadout\_icons/anti\_titan/at\_sidewinder |  |
+## Titan
 
 ### Titan Weapons
 
@@ -41,13 +10,20 @@
 | Meteor  | r2\_ui/menus/loadout\_icons/titan\_weapon/titan\_weapon\_thermite\_cannon |  |
 | Railgun | r2\_ui/menus/loadout\_icons/titan\_weapon/titan\_weapon\_railgun |  |
 
-### Titan Ordnance
+### Northstar
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
 | Cluster Missile | rui/titan\_loadout/ordnance/cluster\_missile\_menu |  |
 | Cluster Missile | rui/titan\_loadout/ordnance/cluster\_missile |  |
 | Cluster Missile | rui/menu/fd\_menu/upgrade\_northstar\_twin\_cluster\_hud | FD content |
+
+### Ronin
+
+| Icon name | Value | Note |
+| :--- | :--- | :--- |
+| Sword Block | rui/titan\_loadout/defensive/titan\_defensive\_sword\_block\_menu |  |
+| Sword Block | rui/titan\_loadout/defensive/titan\_defensive\_sword\_block |  |
 
 ### Titan Cores
 
