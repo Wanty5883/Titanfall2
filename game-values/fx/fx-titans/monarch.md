@@ -6,8 +6,11 @@ description: Monarch FX value
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
+| **Chaingun** |  |  |
 | Chaingun | weapon\_tracers\_xo16\_speed | Tracer FX |
+| **Upgrade Core** |  |  |
 | Upgrade Core | P\_wpn\_lasercannon\_aim |  |
+| **Energy Syphon** |  |  |
 | Energy Syphon | P\_wpn\_monarch\_beam\_v1 | Tracer effect |
 | Energy Syphon | P\_wpn\_monarch\_beam\_v2 | Tracer effect |
 | Energy Syphon | P\_wpn\_hand\_laser\_beam\_BC | Tracer effect |

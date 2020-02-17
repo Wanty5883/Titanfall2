@@ -24,4 +24,5 @@ description: Shotgun sound value
 | Mastiff | Mastiff\_LowAmmo\_Shot1 |  |
 | Mastiff | Mastiff\_LowAmmo\_Shot2 |  |
 | Mastiff | Mastiff\_LowAmmo\_Shot3 |  |
+| Mastiff | weapon\_mastiff\_projectile\_crackle | Projectile sound |
 

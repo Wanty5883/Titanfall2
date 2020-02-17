@@ -8,6 +8,8 @@ description: 'Pistols sound values, does include primary weapon pistols.'
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
+| **Mozambique** |  |  |
+| Mozambique | wpn\_mozambique\_projectile\_crackle | Projectile sound |
 | **P2016** |  |  |
 | P2016 | pistol\_dryfire |  |
 | P2016 | wpn\_pickup\_Pistol\_1P |  |

@@ -1,3 +1,7 @@
+---
+description: FX & SFX uses
+---
+
 # FX
 
 ## Action
@@ -23,29 +27,53 @@ projectile.SetProjectilTrailEffectIndex
 | vortexWeapon |  |
 {% endtab %}
 
-{% tab title="Action Command" %}
+{% tab title="Action Command FX" %}
 | Command value | Note |
 | :--- | :--- |
-| **PlayWeapon** |  |
+| **Play** |  |
+| PlayFXOnEntity |  |
+| PlayFXOnEntityForEveryoneExceptPlayer |  |
+| PlayImpactFXTable |  |
+| PlayLoopFXOnEntity |  |
+| StopFX |  |
 | PlayWeaponEffect |  |
 | PlayWeaponEffectNoCull |  |
 | PlayWeaponEffectReturnViewEffectHandle |  |
-| PlayImpactFXTable |  |
+| PlayWeaponEffectOnOwner |  |
 | StopWeaponEffect |  |
-| **PlayFX** |  |
-| PlayFXOnEntity |  |
-| StopFX |  |
 | **Fire** |  |
 | FireWeaponBullet |  |
 | FireWeaponGrenade |  |
 | FireWeaponMissile |  |
-| **Projectile** |  |
+| **Start** |  |
 | StartParticleEffectOnEntity |  |
+| StartParticleEffectOnEntityWithPos |  |
+| StartParticleEffectOnEntity\_ReturnEntity |  |
+| StartParticleEffectInWorld |  |
 | StartParticleEffectInWorld\_ReturnEntity |  |
-| PlayLoopFXOnEntity |  |
+| StartParticleEffectInWorldWithHandle |  |
+| **Set** |  |
 | SetImpactEffectTable |  |
 | SetModel |  |
 | SetProjectilTrailEffectIndex |  |
+{% endtab %}
+
+{% tab title="Action Command SFX" %}
+| Command value | Note |
+| :--- | :--- |
+| EmitWeaponSound |  |
+| EmitWeaponSound\_1p3p |  |
+| EmitWeaponNpcSound |  |
+| EmitSoundOnEntity |  |
+| EmitSoundOnEntityOnlyToPlayer |  |
+| EmitSoundOnEntityExceptToPlayer |  |
+| EmitSoundOnEntityAfterDelay |  |
+| EmitSoundOnEntityWithSeek |  |
+| EmitSoundOnEntityToTeam |  |
+| EmitSoundOnEntityToEnemies |  |
+| EmitSoundAtPosition |  |
+| EmitSoundAtPositionExceptToPlayer |  |
+| FadeOutSoundOnEntity |  |
 {% endtab %}
 {% endtabs %}
 

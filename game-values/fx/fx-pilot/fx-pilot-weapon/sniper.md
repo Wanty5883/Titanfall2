@@ -6,10 +6,12 @@ description: Sniper FX value
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
+| **DMR** |  |  |
 | DMR | wpn\_mflash\_snp\_hmn\_smoke\_side\_FP | Muzzleflash |
 | DMR | wpn\_mflash\_snp\_hmn\_smoke\_side | Muzzleflash |
 | DMR | garand\_trail\_smoke | Not used by default |
 | DMR | Rocket\_Smoke\_SMR\_Glow |  |
+| **Double Take** |  |  |
 | Double Take | P\_doubletake\_proj | Projectile effect |
 | Double Take | P\_doubletake\_proj\_burn | Amped projectile |
 | Double Take | P\_dragonsbreath\_trail | Not used by default |

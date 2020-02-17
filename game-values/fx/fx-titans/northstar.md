@@ -6,7 +6,9 @@ description: Northstar FX value
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
+| **Hover** |  |  |
 | Hover |  |  |
+| **Railgun** |  |  |
 | Railgun | P\_titan\_sniper1 | Projectile |
 | Railgun | P\_titan\_sniper2 | Projectile |
 | Railgun | P\_titan\_sniper3 | Projectile |

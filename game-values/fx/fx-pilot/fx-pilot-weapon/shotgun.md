@@ -6,6 +6,7 @@ description: Shotgun FX value
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
+| **EVA8** |  |  |
 | EVA8 | weapon\_tracers\_shotgun | Tracer |
 | EVA8 | P\_wpn\_tracer\_shotgun\_BC | Tracer amped |
 | EVA8 | inc\_bullet | Impact |
@@ -17,6 +18,7 @@ description: Shotgun FX value
 | EVA8 | mflash\_shotgun\_FULL | Muzzleflash |
 | EVA8 | P\_wpn\_muz\_shotgun\_amp\_FP | Muzzleflash FP amped |
 | EVA8 | P\_wpn\_muz\_shotgun\_amp | Muzzleflash amped |
+| **Mastiff** |  |  |
 | Mastiff | P\_mastiff\_proj | Projectile |
 | Mastiff | P\_mastiff\_proj\_amp | Amped projectile |
 | Mastiff | P\_dragonsbreath\_trail | Not used by default |

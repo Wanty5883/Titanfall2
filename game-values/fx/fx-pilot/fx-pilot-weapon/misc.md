@@ -6,6 +6,7 @@ description: 'Other pilot weapon FX, such as Arc Tool'
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
+| **Arc Tool** |  |  |
 | Arc Tool | P\_charge\_tool\_charge\_FP | Charge FP |
 | Arc Tool | P\_elec\_arc\_loop\_LG\_1 |  |
 | Arc Tool | acl\_light\_red |  |

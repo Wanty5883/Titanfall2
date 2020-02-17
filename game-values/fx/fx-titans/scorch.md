@@ -6,14 +6,17 @@ description: Scorch FX value
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
+| **Flame Core** |  |  |
 | Flame Core | P\_impact\_exp\_xsmll\_metal |  |
 | Flame Core | P\_impact\_exp\_med\_metal |  |
 | Flame Core | flamewave\_blast\_left |  |
 | Flame Core | flamewave\_blast\_middle |  |
 | Flame Core | flamewave\_blast\_right |  |
+| **Flamewall** |  |  |
 | Flamewall | P\_wpn\_meteor\_wall |  |
 | Flamewall | P\_wpn\_meteor\_wall\_s2s |  |
 | Flamewall | impact\_exp\_burst\_FRAG\_2 |  |
+| **Thermal Shield** |  |  |
 | Thermal Shield | P\_wpn\_HeatShield |  |
 | Thermal Shield | P\_wpn\_HeatShield\_FP |  |
 | Thermal Shield | P\_wpn\_HeatShield\_impact | Absorb effect |

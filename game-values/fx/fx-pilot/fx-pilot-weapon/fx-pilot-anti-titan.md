@@ -6,6 +6,7 @@ description: Anti-Titan weapon FX value
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
+| **Archer** |  |  |
 | Archer | Rocket\_Smoke\_Large | Projectile |
 | Archer | Rocket\_Smoke\_Large\_burn | Projectile effect amped |
 | Archer | P\_archer\_rocket\_s2s | Projectile effect |
@@ -18,6 +19,7 @@ description: Anti-Titan weapon FX value
 | Archer | P\_wpn\_muzzleflash\_law | Muzzleflash |
 | Archer | P\_wpn\_muzzleflash\_law\_fp\_burn | Amped muzzleflash FP amped |
 | Archer | P\_wpn\_muzzleflash\_law\_burn | Amped muzzleflash |
+| **Charge Rifle** |  |  |
 | Charge Rifle | P\_wpn\_defender\_beam | Tracer effect |
 | Charge Rifle | P\_wpn\_defender\_beam\_burn | Tracer effect amped |
 | Charge Rifle | exp\_defender | Impact effect |
@@ -26,6 +28,7 @@ description: Anti-Titan weapon FX value
 | Charge Rifle | P\_wpn\_defender\_charge\_FP\_burn | Charge effect FP amped |
 | Charge Rifle | P\_wpn\_defender\_charge\_burn | Charge effect amped |
 | Charge Rifle | defender\_charge\_CH\_dlight | Charge effect |
+| **MGL** |  |  |
 | MGL | exp\_mgl | Impact effect |
 | MGL | wpn\_grenade\_frag\_mag | Projectile effect |
 | MGL | wpn\_grenade\_frag\_mag\_burn | Projectile effect amped |
@@ -33,6 +36,7 @@ description: Anti-Titan weapon FX value
 | MGL | P\_wpn\_muzzleflash\_mgl\_FULL | Muzzleflash |
 | MGL | P\_wpn\_muzzleflash\_mgl\_FP\_burn | Muzzleflash FP amped |
 | MGL | P\_wpn\_muzzleflash\_mgl\_burn | Muzzleflash amped |
+| **Thunderbolt** |  |  |
 | Thunderbolt | P\_wpn\_arcball\_trail | Projectile effect |
 | Thunderbolt | P\_wpn\_arcball\_trail\_amp | Amped projectile |
 | Thunderbolt | exp\_arc\_ball | Impact |

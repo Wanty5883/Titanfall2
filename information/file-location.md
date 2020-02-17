@@ -19,7 +19,7 @@
 | Alternator | mp\_weapon\_alternator\_smg.txt |
 | CAR | mp\_weapon\_car.txt |
 | R-97 | mp\_weapon\_r97.txt |
-| Volt | mp\_weapon\_hemlock\_smg.txt |
+| Volt | mp\_weapon\_hemlok\_smg.txt |
 
 ### **Shotgun**
 

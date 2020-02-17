@@ -6,6 +6,7 @@ description: Assault Rifle FX value
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
+| **R-201** |  |  |
 | R-201 | P\_wpn\_tracer | Tracer |
 | R-201 | P\_wpn\_tracer\_BC | Tracer amped |
 | R-201 | wpn\_muzzleflash\_smg\_FP | Muzzleflash FP |
