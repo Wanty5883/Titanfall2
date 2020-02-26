@@ -1,4 +1,4 @@
-# Northstar - Railgun heat color
+# Railgun heat color
 
 ## Preparation <a id="preparation"></a>
 

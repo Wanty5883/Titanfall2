@@ -1,4 +1,4 @@
-# Ion - Vortex shield color
+# Vortex shield color
 
 ## Preparation
 

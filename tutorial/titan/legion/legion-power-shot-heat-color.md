@@ -1,4 +1,4 @@
-# Legion - Power shot heat color
+# Power shot heat color
 
 ## Preparation
 

@@ -8,12 +8,12 @@
 
 * [1. Modding introduction](how-to-start-modding/1.-modding-introduction.md)
 * [2. How to backup, extract & repack](how-to-start-modding/2.-how-to-backup-extract-and-repack.md)
+* [3. Modding tools](how-to-start-modding/modding-tools.md)
 
 ## Information
 
-* [Modding tools](information/modding-tools.md)
-* [Weapon config info](information/weapon-config-info.md)
 * [File location](information/file-location.md)
+* [Weapon config info](information/weapon-config-info.md)
 * [Crosshair modding](information/crosshair-modding.md)
 * [Color & Texture info](information/color-and-texture-info.md)
 
@@ -77,19 +77,6 @@
 * [Icon & HUD](game-values/ig-icon/README.md)
   * [Pilot](game-values/ig-icon/pilot.md)
 
-## Texture & Color
-
-* [Charge rifle - Heat color effect](texture-and-color/charge-rifle-heat-color-effect.md)
-* [LSTAR - Heat color](texture-and-color/lstar-heat-color.md)
-* [Northstar - Railgun heat color](texture-and-color/northstar-railgun-heat-color.md)
-* [Legion - Power shot heat color](texture-and-color/legion-power-shot-heat-color.md)
-* [Ronin - Sword block color](texture-and-color/ronin-sword-block-color.md)
-* [Ion - Vortex shield color](texture-and-color/ion-vortex-shield-color.md)
-* [Ion - Splitter rifle heat effect](texture-and-color/ion-splitter-rifle-heat-effect.md)
-* [Cable - Grapple & Tether Trap](texture-and-color/cable-grapple-and-tether-trap.md)
-* [Cable - Zipline](texture-and-color/cable-zipline.md)
-* [Marvin - Chest screen](texture-and-color/marvin-chest-screen.md)
-
 ## Models
 
 * [Pilot class](models/pilot-class.md)
@@ -104,6 +91,23 @@
 
 ## Tutorial
 
-* [Northstar - Gravity](tutorial/northstar-gravity.md)
-* [Northstar - Thermite](tutorial/northstar-thermite.md)
+* [Pilot](tutorial/pilot/README.md)
+  * [Charge rifle - Heat color effect](tutorial/pilot/charge-rifle-heat-color-effect.md)
+  * [LSTAR - Heat color](tutorial/pilot/lstar-heat-color.md)
+* [Titan](tutorial/titan/README.md)
+  * [Ion](tutorial/titan/ion/README.md)
+    * [Splitter rifle heat effect](tutorial/titan/ion/ion-splitter-rifle-heat-effect.md)
+    * [Vortex shield color](tutorial/titan/ion/ion-vortex-shield-color.md)
+  * [Legion](tutorial/titan/legion/README.md)
+    * [Power shot heat color](tutorial/titan/legion/legion-power-shot-heat-color.md)
+  * [Ronin](tutorial/titan/ronin/README.md)
+    * [Sword block color](tutorial/titan/ronin/ronin-sword-block-color.md)
+  * [Northstar](tutorial/titan/northstar/README.md)
+    * [Cable - Grapple & Tether Trap](tutorial/titan/northstar/cable-grapple-and-tether-trap.md)
+    * [Railgun heat color](tutorial/titan/northstar/northstar-railgun-heat-color.md)
+    * [Northstar - Gravity](tutorial/titan/northstar/northstar-gravity.md)
+    * [Northstar - Thermite](tutorial/titan/northstar/northstar-thermite.md)
+* [Misc](tutorial/misc/README.md)
+  * [Marvin - Chest screen](tutorial/misc/marvin-chest-screen.md)
+  * [Cable - Zipline](tutorial/misc/cable-zipline.md)
 

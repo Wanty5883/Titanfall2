@@ -1,4 +1,4 @@
-# Ronin - Sword block color
+# Sword block color
 
 ## Preparation
 

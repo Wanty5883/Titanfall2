@@ -1,4 +1,4 @@
-# Ion - Splitter rifle heat effect
+# Splitter rifle heat effect
 
 ## Preparation
 

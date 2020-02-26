@@ -2,7 +2,7 @@
 description: List of tools used in some Titanfall 2 modding process
 ---
 
-# Modding tools
+# 3. Modding tools
 
 Here is a list of the third party software to use for modding Titanfall 2.
 
