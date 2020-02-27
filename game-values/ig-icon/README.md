@@ -1,4 +1,4 @@
-# Icon & HUD
+# Icons & HUD
 
 ## 
 

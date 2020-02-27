@@ -32,4 +32,5 @@ Here is a list of the third party software to use for modding Titanfall 2.
 * Blender - [Download](https://www.blender.org/)
   * Blender Source Tool - [Download & info](https://developer.valvesoftware.com/wiki/Blender_Source_Tools)
 * Crowbar - [Download & info](http://steamcommunity.com/groups/CrowbarTool)
+* Ninja Ripper v1.7.1 - [Download & info](https://gamebanana.com/tools/5638)
 

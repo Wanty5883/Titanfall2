@@ -12,7 +12,7 @@ Before getting into Titanfall 2 modding, you should backup any VPK files that yo
 In this guide, the location of each VPK file will be listed at the beginning of the page.
 {% endhint %}
 
-This Gitbook repo will be updated over time as I get new information about what's possible around Titanfall 2 modding. You can check the [NoSkill Community Discord server](https://discordapp.com/invite/sEgmTKg) where I leave update notifications each time content will be added here.
+This Gitbook repo will be updated over time as I get new information about what's possible around Titanfall 2 modding. You can check the [NoSkill Community Discord server](https://discordapp.com/invite/sEgmTKg) where updates notifications are posted each time new content is added to the wiki. Join our Discord server to say hi, asking questions, report some typo mistake or ask to contribute to the wiki.
 
 {% hint style="warning" %}
 The Discord server **is not a support server for vpk modding**.

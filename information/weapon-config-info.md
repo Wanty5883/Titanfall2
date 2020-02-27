@@ -10,10 +10,10 @@ Massive amount of value and information. Check down bellow in `Game Values` cate
 
 > englishclient\_mp\_common.bsp.pak000\_dir.vpk\scripts\weapons
 
-This folder containt the "config files" for the weapons. This folder contain a lot of files, check [File location](https://wanty5883.gitbook.io/titanfall2/information/weapon-config-info#file-location) for the full list of the different weapons in the game.
+This folder contains the "config files" for the weapons. This folder contain a lot of files, check [File location](https://wanty5883.gitbook.io/titanfall2/information/weapon-config-info#file-location) for the full list of the different weapons in the game.
 
 {% hint style="danger" %}
-**Edit those files at your own risk**, if you get banned because you edit some important value don’t blame me.
+**Edit those files at your own risk.** If you get banned because you edit some important value it is your own fault. Do not experiment with values that are not client sided or mainly aesthetic.
 {% endhint %}
 
 ## Location

@@ -25,7 +25,8 @@
     * [Models  - Pilot Weapons](game-values/models/pilot/models-pilot-weapons.md)
   * [Titan](game-values/models/titan.md)
   * [Model - Projectile](game-values/models/model-projectile.md)
-  * [Mode - NPC](game-values/models/mode-npc.md)
+  * [Model - NPC](game-values/models/mode-npc.md)
+  * [Model - Frontier Defense](game-values/models/model-frontier-defense.md)
 * [FX](game-values/fx/README.md)
   * [FX - Pilot](game-values/fx/fx-pilot/README.md)
     * [FX - Pilot Weapon](game-values/fx/fx-pilot/fx-pilot-weapon/README.md)
@@ -74,10 +75,13 @@
     * [Legion](game-values/sound/sound-titans/legion.md)
   * [Drone, Turret & Gunship](game-values/sound/sound-drone-turret-and-gunship.md)
   * [Sound - Misc & Unknown](game-values/sound/sound-misc-and-unknown.md)
-* [Icon & HUD](game-values/ig-icon/README.md)
+* [Icons & HUD](game-values/ig-icon/README.md)
   * [Pilot](game-values/ig-icon/pilot.md)
   * [Titans](game-values/ig-icon/titans.md)
-  * [Scoreboard](game-values/ig-icon/scoreboard.md)
+  * [Menu](game-values/ig-icon/menu/README.md)
+    * [Loadscreen](game-values/ig-icon/menu/loadscreen.md)
+    * [Private match](game-values/ig-icon/menu/private-match.md)
+    * [Scoreboard](game-values/ig-icon/menu/scoreboard.md)
 
 ## Models
 

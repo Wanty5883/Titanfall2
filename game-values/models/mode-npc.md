@@ -1,4 +1,4 @@
-# Mode - NPC
+# Model - NPC
 
 | Model name | Value | Note |
 | :--- | :--- | :--- |
