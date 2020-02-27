@@ -76,6 +76,8 @@
   * [Sound - Misc & Unknown](game-values/sound/sound-misc-and-unknown.md)
 * [Icon & HUD](game-values/ig-icon/README.md)
   * [Pilot](game-values/ig-icon/pilot.md)
+  * [Titans](game-values/ig-icon/titans.md)
+  * [Scoreboard](game-values/ig-icon/scoreboard.md)
 
 ## Models
 
