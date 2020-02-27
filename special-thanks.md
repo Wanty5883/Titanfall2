@@ -1,8 +1,12 @@
-# Special thanks
+# Contributors
 
-\*\*\*\*
+## Contributors
 
-\*\*\*\*
+**Wanty5883** - Maintainer and Owner
+
+**endigma** - Contributor
+
+## Special Thanks
 
 **Norkkom**, **Exrill**, **igb\_** for contributing to the wiki
 

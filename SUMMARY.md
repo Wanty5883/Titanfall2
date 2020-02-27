@@ -2,7 +2,7 @@
 
 * [Main page](README.md)
 * [Contact](contact.md)
-* [Special thanks](special-thanks.md)
+* [Contributors](special-thanks.md)
 
 ## How to start modding ?
 
