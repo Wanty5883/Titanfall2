@@ -2,7 +2,7 @@
 description: How to play around VPK without messing up everything
 ---
 
-# 2. How to backup, extract & repack
+# How to backup, extract & repack
 
 ## How to backup & extract VPK's properly ?
 
@@ -56,4 +56,6 @@ move "englishclient_mp_common.bsp.pak000_dir.vpk" "<ORIGINGAMES>\Titanfall2\vpk\
 ```
 
 That's the script for _`englishclient_mp_common.bsp.pak000_dir.vpk`_, it can be adapted to any other VPK you edit quite often. **Don't forget to add correctly the game directory by replacing** _`<ORIGINGAMES>`_ with e.g. `C:\Program Files\Origin\Library` This is the directory in which your origin games are downloaded. Not the directory containing Titanfall 2 files. \(Mine is `H:\Orishit\Games`\)
+
+{% page-ref page="modding-tools.md" %}
 

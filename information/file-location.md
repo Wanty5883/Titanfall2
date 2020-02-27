@@ -1,4 +1,4 @@
-# File location
+# File locations
 
 ## Pilot Weapon
 

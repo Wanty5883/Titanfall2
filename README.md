@@ -1,6 +1,7 @@
 # Main page
 
-[https://noskill.gitbook.io/titanfall2/](https://noskill.gitbook.io/titanfall2/) [https://wanty5883.gitbook.io/titanfall2](https://wanty5883.gitbook.io/titanfall2)
+[https://noskill.gitbook.io/titanfall2/](https://noskill.gitbook.io/titanfall2/)  
+[https://wanty5883.gitbook.io/titanfall2](https://wanty5883.gitbook.io/titanfall2)
 
 Welcome to this Titanfall 2 wiki ! Here is a first introduction to the different category of this wiki. Anyone is welcome to make suggestions for adding content / improving this wiki, suggestion are always welcome!
 

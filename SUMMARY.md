@@ -6,13 +6,13 @@
 
 ## How to start modding ?
 
-* [1. Modding introduction](how-to-start-modding/1.-modding-introduction.md)
-* [2. How to backup, extract & repack](how-to-start-modding/2.-how-to-backup-extract-and-repack.md)
-* [3. Modding tools](how-to-start-modding/modding-tools.md)
+* [Modding introduction](how-to-start-modding/modding-introduction.md)
+* [How to backup, extract & repack](how-to-start-modding/how-to-backup-extract-and-repack.md)
+* [Modding tools](how-to-start-modding/modding-tools.md)
 
 ## Information
 
-* [File location](information/file-location.md)
+* [File locations](information/file-location.md)
 * [Weapon config info](information/weapon-config-info.md)
 * [Crosshair modding](information/crosshair-modding.md)
 * [Color & Texture info](information/color-and-texture-info.md)
@@ -82,6 +82,7 @@
 ## Models
 
 * [Pilot class](models/pilot-class.md)
+* [Plastic Mode](models/plastic-mode.md)
 
 ## User Interface
 
