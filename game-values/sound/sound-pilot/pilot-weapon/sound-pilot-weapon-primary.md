@@ -8,6 +8,7 @@ description: Assault Rifles sound value
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
+| **Flatline** |  |  |
 | Flatline | Weapon\_Vinson\_Trigger |  |
 | Flatline | Vinson\_shell | Fire sound 1 |
 | Flatline | Weapon\_bulletCasings.Bounce | Fire sound 1 |
@@ -24,6 +25,7 @@ description: Assault Rifles sound value
 | Flatline | Weapon\_Vinson\_LoopEnd\_3P |  |
 | Flatline | Weapon\_Vinson\_LoopEnd\_NPC |  |
 | Flatline | Vinson\_LowAmmo\_Shot1 |  |
+| **G2A5** |  |  |
 | G2A5 | Weapon\_G2A4\_Fire\_1P |  |
 | G2A5 | Weapon\_G2A4\_Fire\_3P |  |
 | G2A5 | Weapon\_G2A4\_Fire\_NPC |  |
@@ -35,6 +37,7 @@ description: Assault Rifles sound value
 | G2A5 | G2A4\_LowAmmo\_Shot4 |  |
 | G2A5 | G2A4\_LowAmmo\_Shot5 |  |
 | G2A5 | G2A4\_LowAmmo\_Shot6 |  |
+| **Hemlok** |  |  |
 | Hemlok | hemlok\_dryfire | Dryfire sound |
 | Hemlok | Weapon\_Hemlok\_Trigger | Trigger sound |
 | Hemlok | Weapon\_Hemlok\_FirstShot\_1P |  |
@@ -45,6 +48,7 @@ description: Assault Rifles sound value
 | Hemlok | Hemlok\_LowAmmo\_Shot1 |  |
 | Hemlok | Hemlok\_LowAmmo\_Shot2 |  |
 | Hemlok | Hemlok\_LowAmmo\_Shot3 |  |
+| **R-201 / R-101** |  |  |
 | R-201 / R-101 | R101\_shell |  |
 | R-201 / R-101 | Weapon\_R101\_SecondShot\_1P |  |
 | R-201 / R-101 | Weapon\_R101\_SecondShot\_3P |  |

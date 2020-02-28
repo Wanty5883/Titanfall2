@@ -24,6 +24,12 @@ description: Ion FX value
 | Particule Accelerator | wpn\_mflash\_snp\_hmn\_smokepuff\_side\_FP | Cooldown FP |
 | Particule Accelerator | wpn\_mflash\_snp\_hmn\_smokepuff\_side | Cooldown |
 | Particule Accelerator | xo\_spark\_med | Burnout |
+| Particule Accelerator | P\_projectile\_TPA | Datamined value |
+| Particule Accelerator | TPA\_trail\_CH\_rope | Datamined value |
+| Particule Accelerator | TPA\_trail\_CH\_tail | Datamined value |
+| Particule Accelerator | TPA\_trail\_CH\_dlight | Datamined value |
+| Particule Accelerator | TPA\_trail\_CH\_streaks | Datamined value |
+| Particule Accelerator | TPA\_trail\_CH\_spark | Datamined value |
 | **Vortex Shield** |  |  |
 | Vortex Shield | P\_impact\_xo\_shield\_cp |  |
 | Vortex Shield | P\_impact\_exp\_med\_xo\_shield\_CP |  |
