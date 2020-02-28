@@ -25,5 +25,20 @@ description: Monarch FX value
 | Energy Syphon | P\_monarchBeam\_body\_titan | Vanguard energy body |
 | Energy Syphon | P\_emp\_body\_human | FX EMP body |
 | Energy Syphon | P\_emp\_body\_titan | FX EMP body |
-|  | weld\_spark\_01\_sparksfly | FX EMP reboot sparks |
+| Energy Syphon | weld\_spark\_01\_sparksfly | FX EMP reboot sparks |
+| Energy Syphon | mon\_charge\_CH\_core | Datamined value |
+| Energy Syphon | mon\_beam\_CH\_arcl\_SM | Datamined value |
+| Energy Syphon | mon\_beam\_CH\_core\_MD | Datamined value |
+| Energy Syphon | mon\_beam\_CH\_arc\_LG | Datamined value |
+| Energy Syphon | mon\_beam\_CH\_core\_LG | Datamined value |
+| Energy Syphon | mon\_beam\_CH\_dlight\_end | Datamined value |
+| Energy Syphon | monbeam\_flare\_CH\_streak | Datamined value |
+| Energy Syphon | mon\_beam\_CH\_laser | Datamined value |
+| Energy Syphon | monbeam\_flare\_CH\_glow | Datamined value |
+| Energy Syphon | mon\_charge\_CH\_spikes | Datamined value |
+| Energy Syphon | mon\_charge\_flare\_streak | Datamined value |
+| Energy Syphon | mon\_charge\_CH\_arcs | Datamined value |
+| Energy Syphon | mon\_charge\_CH\_dlight | Datamined value |
+| Energy Syphon | mon\_mflash\_CH\_dlight | Datamined value |
+| Energy Syphon | mon\_mflash\_v2\_CH\_arcs | Datamined value |
 
