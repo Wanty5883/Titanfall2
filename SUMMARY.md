@@ -12,8 +12,8 @@
 
 ## Information
 
-* [File locations](information/file-location.md)
-* [Weapon config info](information/weapon-config-info.md)
+* [Weapon config info](information/weapon-config-info/README.md)
+  * [Weapon config - File name](information/weapon-config-info/weapon-config-file-name.md)
 * [Crosshair modding](information/crosshair-modding.md)
 * [Color & Texture info](information/color-and-texture-info.md)
 
@@ -38,9 +38,9 @@
       * [Grenadier](game-values/fx/fx-pilot/fx-pilot-weapon/grenadier.md)
       * [Secondary & Pistols](game-values/fx/fx-pilot/fx-pilot-weapon/fx-pilot-secondary.md)
       * [Anti-Titan](game-values/fx/fx-pilot/fx-pilot-weapon/fx-pilot-anti-titan.md)
-      * [Ordnance](game-values/fx/fx-pilot/fx-pilot-weapon/fx-pilot-ordnance.md)
       * [Misc](game-values/fx/fx-pilot/fx-pilot-weapon/misc.md)
     * [FX - Pilot Ability](game-values/fx/fx-pilot/fx-pilot-ability.md)
+    * [FX - Pilot Ordnance](game-values/fx/fx-pilot/fx-pilot-ordnance.md)
   * [FX - Titans](game-values/fx/fx-titans/README.md)
     * [Ion](game-values/fx/fx-titans/ion.md)
     * [Tone](game-values/fx/fx-titans/tone.md)
@@ -51,10 +51,13 @@
     * [Legion](game-values/fx/fx-titans/legion.md)
     * [Arc Cannon](game-values/fx/fx-titans/arc-cannon.md)
   * [FX - Drone, Turret & Gunship](game-values/fx/fx-drone-turret-and-gunship.md)
-  * [FX - Light](game-values/fx/fx-light.md)
-  * [FX - Misc & Unknown](game-values/fx/fx-misc-and-unknown.md)
+  * [FX - Misc & Unknown](game-values/fx/fx-misc-and-unknown/README.md)
+    * [FX - Malta Gun](game-values/fx/fx-misc-and-unknown/fx-malta-gun.md)
+    * [Scan](game-values/fx/fx-misc-and-unknown/scan.md)
   * [FX - Raw Data](game-values/fx/fx-raw-data/README.md)
-    * [Tracers](game-values/fx/fx-raw-data/tracers.md)
+    * [FX - Light](game-values/fx/fx-raw-data/fx-light.md)
+    * [FX -Tracers](game-values/fx/fx-raw-data/fx-tracers.md)
+  * [FX - Example](game-values/fx/fx-example.md)
 * [Sound](game-values/sound/README.md)
   * [Sound - Pilot](game-values/sound/sound-pilot/README.md)
     * [Pilot Weapon](game-values/sound/sound-pilot/pilot-weapon/README.md)
@@ -89,7 +92,6 @@
 ## Models
 
 * [Pilot class](models/pilot-class.md)
-* [Plastic Mode](models/plastic-mode.md)
 
 ## User Interface
 
@@ -99,25 +101,27 @@
 
 * [Text modding r1\_language](text/text-modding-r1_language.md)
 
-## Tutorial
+## Mods & Tutorial
 
-* [Pilot](tutorial/pilot/README.md)
-  * [Charge rifle - Heat color effect](tutorial/pilot/charge-rifle-heat-color-effect.md)
-  * [LSTAR - Heat color](tutorial/pilot/lstar-heat-color.md)
-* [Titan](tutorial/titan/README.md)
-  * [Ion](tutorial/titan/ion/README.md)
-    * [Splitter rifle heat effect](tutorial/titan/ion/ion-splitter-rifle-heat-effect.md)
-    * [Vortex shield color](tutorial/titan/ion/ion-vortex-shield-color.md)
-  * [Legion](tutorial/titan/legion/README.md)
-    * [Power shot heat color](tutorial/titan/legion/legion-power-shot-heat-color.md)
-  * [Ronin](tutorial/titan/ronin/README.md)
-    * [Sword block color](tutorial/titan/ronin/ronin-sword-block-color.md)
-  * [Northstar](tutorial/titan/northstar/README.md)
-    * [Cable - Grapple & Tether Trap](tutorial/titan/northstar/cable-grapple-and-tether-trap.md)
-    * [Railgun heat color](tutorial/titan/northstar/northstar-railgun-heat-color.md)
-    * [Northstar - Gravity](tutorial/titan/northstar/northstar-gravity.md)
-    * [Northstar - Thermite](tutorial/titan/northstar/northstar-thermite.md)
-* [Misc](tutorial/misc/README.md)
-  * [Marvin - Chest screen](tutorial/misc/marvin-chest-screen.md)
-  * [Cable - Zipline](tutorial/misc/cable-zipline.md)
+* [Plastic Mode](mods-and-tutorial/plastic-mode.md)
+* [Specific](mods-and-tutorial/specific/README.md)
+  * [Misc](mods-and-tutorial/specific/misc/README.md)
+    * [Marvin - Chest screen](mods-and-tutorial/specific/misc/marvin-chest-screen.md)
+    * [Cable - Zipline](mods-and-tutorial/specific/misc/cable-zipline.md)
+  * [Titan](mods-and-tutorial/specific/titan/README.md)
+    * [Ion](mods-and-tutorial/specific/titan/ion/README.md)
+      * [Splitter rifle heat effect](mods-and-tutorial/specific/titan/ion/ion-splitter-rifle-heat-effect.md)
+      * [Vortex shield color](mods-and-tutorial/specific/titan/ion/ion-vortex-shield-color.md)
+    * [Legion](mods-and-tutorial/specific/titan/legion/README.md)
+      * [Power shot heat color](mods-and-tutorial/specific/titan/legion/legion-power-shot-heat-color.md)
+    * [Ronin](mods-and-tutorial/specific/titan/ronin/README.md)
+      * [Sword block color](mods-and-tutorial/specific/titan/ronin/ronin-sword-block-color.md)
+    * [Northstar](mods-and-tutorial/specific/titan/northstar/README.md)
+      * [Cable - Grapple & Tether Trap](mods-and-tutorial/specific/titan/northstar/cable-grapple-and-tether-trap.md)
+      * [Railgun heat color](mods-and-tutorial/specific/titan/northstar/northstar-railgun-heat-color.md)
+      * [Northstar - Gravity](mods-and-tutorial/specific/titan/northstar/northstar-gravity.md)
+      * [Northstar - Thermite](mods-and-tutorial/specific/titan/northstar/northstar-thermite.md)
+  * [Pilot](mods-and-tutorial/specific/pilot/README.md)
+    * [Charge rifle - Heat color effect](mods-and-tutorial/specific/pilot/charge-rifle-heat-color-effect.md)
+    * [LSTAR - Heat color](mods-and-tutorial/specific/pilot/lstar-heat-color.md)
 

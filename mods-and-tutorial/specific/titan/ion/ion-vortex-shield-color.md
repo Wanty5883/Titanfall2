@@ -13,7 +13,7 @@ Copy these file and paste them in an empty folder somewhere else:
 * englishclient\_mp\_common.bsp.pak000\_dir.vpk
 * client\_mp\_common.bsp.pak000\_000.vpk
 
-You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://wanty5883.gitbook.io/titanfall2/information/modding-tools)
+You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
 
 ## Unpacking
 
@@ -21,7 +21,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 > Origin Games\Titanfall2\vpk\englishclient\_mp\_common.bsp.pak000\_dir.vpk
 
-[How to extract VPK's properly ?](https://wanty5883.gitbook.io/titanfall2/how-to-start-modding/2.-how-to-backup-extract-and-repack)
+[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
 
 ## Editing
 
@@ -48,7 +48,7 @@ I wouldn’t recommend you use pure colour \(pure pink is 255 0 255 for example\
 
 ## Repacking
 
-[How to repack VPK files proprely ?](https://wanty5883.gitbook.io/titanfall2/how-to-start-modding/2.-how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)
+[How to repack VPK files proprely ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
 
 After following step by step the previous link
 
