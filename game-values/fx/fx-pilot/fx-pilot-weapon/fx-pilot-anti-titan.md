@@ -28,6 +28,27 @@ description: Anti-Titan weapon FX value
 | Charge Rifle | P\_wpn\_defender\_charge\_FP\_burn | Charge effect FP amped |
 | Charge Rifle | P\_wpn\_defender\_charge\_burn | Charge effect amped |
 | Charge Rifle | defender\_charge\_CH\_dlight | Charge effect |
+| Charge Rifle | defender\_beam\_CH\_rope\_smoke | Datamined value |
+| Charge Rifle | defender\_beam\_CH\_sparkle | Datamined value |
+| Charge Rifle | defender\_beam\_CH\_rope\_core | Datamined value |
+| Charge Rifle | defender\_beam\_CH\_rope\_arc | Datamined value |
+| Charge Rifle | defender\_beam\_CH\_arcs2 | Datamined value |
+| Charge Rifle | defender\_beam\_CH\_sparks | Datamined value |
+| Charge Rifle | P\_wpn\_defender\_charge\_FP | Datamined value |
+| Charge Rifle | defender\_charge\_CH\_spikes | Datamined value |
+| Charge Rifle | defender\_charge\_CH\_flare\_hoopFP | Datamined value |
+| Charge Rifle | defender\_charge\_CH\_flare\_starFP | Datamined value |
+| Charge Rifle | defender\_charge\_CH\_flare\_IrisFP | Datamined value |
+| Charge Rifle | defender\_charge\_CH\_dlight | Datamined value |
+| Charge Rifle | defender\_charge\_flare\_streak\_iris | Datamined value |
+| Charge Rifle | defender\_charge\_CH\_flare\_streak | Datamined value |
+| Charge Rifle | defender\_charge\_flare\_streak | Datamined value |
+| Charge Rifle | defender\_mflash\_CH\_arcs | Datamined value |
+| Charge Rifle | defender\_charge\_CH\_arcs\_battery | Datamined value |
+| Charge Rifle | defender\_charge\_CH\_arcs | Datamined value |
+| Charge Rifle | defender\_charge\_CH\_MDL | Datamined value |
+| Charge Rifle | P\_chargeTest\_CP1\_vec1 | Datamined value |
+| Charge Rifle | P\_chargeTest\_CP1\_vec0 | Datamined value |
 | **MGL** |  |  |
 | MGL | exp\_mgl | Impact effect |
 | MGL | wpn\_grenade\_frag\_mag | Projectile effect |
