@@ -6,11 +6,11 @@ description: Firestar FX value
 
 | Value | Note | Example |
 | :--- | :--- | :--- |
-| exp\_frag\_grenade | Impact |  |
-| P\_grenade\_thermite\_trail | Projectile effect |  |
-| P\_grenade\_thermite | Grenade FX |  |
-| wpn\_vortex\_projectile\_star\_FP | Vortex absorb FP | [Projectile](https://gfycat.com/fr/unsightlymindlessaardwolf-titanfall2-modding) |
-| wpn\_vortex\_projectile\_star | Vortex absorb | [Projectile](https://gfycat.com/fr/diligentshimmeringarchaeocete) |
+| exp\_frag\_grenade | Impact | [Tracer](https://gfycat.com/shockedmeanalabamamapturtle) |
+| P\_grenade\_thermite\_trail | Projectile effect | [Projectile](https://gfycat.com/fr/unsightlymindlessaardwolf-titanfall2-modding) |
+| P\_grenade\_thermite | Grenade FX | [Projectile](https://gfycat.com/fr/diligentshimmeringarchaeocete) |
+| wpn\_vortex\_projectile\_star\_FP | Vortex absorb FP |  |
+| wpn\_vortex\_projectile\_star | Vortex absorb |  |
 | thermite\_CH\_FLARE\_core | Datamined value |  |
 | thermite\_CH\_smoke | Datamined value |  |
 | thermite\_CH\_spark\_base | Datamined value |  |
