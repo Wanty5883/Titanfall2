@@ -2,7 +2,7 @@
 
 ## Preparation
 
-In thoose "guide" called premade I will consider that you know how to proprely setup / start modding your game. If it's not your case you must read the "General info", refer to this [link](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-introduction)
+In those "guide" called premade I will consider that you know how to proprely setup / start modding your game. If it's not your case you must read the "General info", refer to this [link](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-introduction)
 
 Any suggestion are welcome, you can submit your request / idea on NS Discord or even if you made your own premade weapon / set. You can reach me via [contact](https://noskill.gitbook.io/titanfall2/contact) details.
 
