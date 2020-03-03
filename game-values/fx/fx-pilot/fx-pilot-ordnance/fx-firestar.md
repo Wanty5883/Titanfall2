@@ -9,22 +9,21 @@ description: Firestar FX value
 | exp\_frag\_grenade | Impact | [Tracer](https://gfycat.com/shockedmeanalabamamapturtle) |
 | P\_grenade\_thermite\_trail | Projectile effect | [Projectile](https://gfycat.com/fr/unsightlymindlessaardwolf-titanfall2-modding) |
 | P\_grenade\_thermite | Grenade FX | [Projectile](https://gfycat.com/fr/diligentshimmeringarchaeocete) |
-| wpn\_vortex\_projectile\_star\_FP | Vortex absorb FP |  |
-| wpn\_vortex\_projectile\_star | Vortex absorb |  |
-| thermite\_CH\_FLARE\_core | Datamined value |  |
-| thermite\_CH\_smoke | Datamined value |  |
-| thermite\_CH\_spark\_base | Datamined value |  |
-| thermite\_CH\_FLARE\_streak | Datamined value |  |
-| thermite\_CH\_dlight | Datamined value |  |
-| thermite\_CH\_glow\_01 | Datamined value |  |
-| thermite\_CH\_smoke\_out | Datamined value |  |
-| thermite\_CH\_FLARE\_streak\_blur | Datamined value |  |
-| thermite\_CH\_sparks\_COL | Datamined value |  |
-| thermite\_CH\_decal | Datamined value |  |
-| thermite\_CH\_decal\_SCORCH | Datamined value |  |
-| thermite\_CH\_finger\_out | Datamined value |  |
-| thermite\_CH\_trail\_smoke | Datamined value |  |
-| thermite\_CH\_trail\_spark | Datamined value |  |
+| wpn\_vortex\_projectile\_star\_FP | Vortex absorb FP | \(invalid\) |
+| wpn\_vortex\_projectile\_star | Vortex absorb | \(invalid\) |
+| thermite\_CH\_FLARE\_core | Datamined value | [Tracer](https://gfycat.com/concreteactivegreatargus) |
+| thermite\_CH\_smoke | Datamined value | \(invalid\) |
+| thermite\_CH\_spark\_base | Firestar Spark | [Tracer](https://gfycat.com/ordinaryoblongbengaltiger) |
+| thermite\_CH\_FLARE\_streak | Datamined value | [Tracer](https://gfycat.com/emotionalsingleamericanbulldog) |
+| thermite\_CH\_dlight | Datamined value | [Projectile](https://gfycat.com/nextscholarlylarva) |
+| thermite\_CH\_glow\_01 | Datamined value | [Tracer](https://gfycat.com/frequentimmaculatecrayfish) |
+| thermite\_CH\_smoke\_out | Datamined value | [Tracer](https://gfycat.com/impracticalbettereastsiberianlaika) |
+| thermite\_CH\_FLARE\_streak\_blur | Datamined value | \(invalid\) |
+| thermite\_CH\_sparks\_COL | Datamined value | \(invalid\) |
+| thermite\_CH\_decal | Datamined value | \(invalid\) |
+| thermite\_CH\_finger\_out | Datamined value | [Tracer](https://gfycat.com/soggythoughtfulizuthrush) |
+| thermite\_CH\_trail\_smoke | Datamined value | [Muzzle-flash](https://gfycat.com/quarrelsomemedicalgermanspaniel) |
+| thermite\_CH\_trail\_spark | Datamined value | [Projectile](https://gfycat.com/potableenchantedbutterfly) |
 | thermite\_CH\_trail\_glow | Datamined value |  |
 | thermite\_CH\_trail\_decal | Datamined value |  |
 | therm\_exp\_FLARE\_core | Datamined value |  |
