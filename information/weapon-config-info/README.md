@@ -174,12 +174,31 @@ You can have different value between normal and amped mode on each weapon config
 {% tab title="Mods Args" %}
 | Argument | Value | Note |
 | :--- | :--- | :--- |
-|  |  |  |
-|  |  |  |
+| ammo | weapon\_ammo |  |
+| ammoFrac | weapon\_ammofrac |  |
+| chargeFrac | progress\_weapon\_charge\_frac |  |
+| clipAmmo | weapon\_ammo |  |
+| clipCount | weapon\_stockpileClipCount |  |
+| clipSize | weapon\_clipSize |  |
+| inCooldown | weapon\_is\_inCooldown |  |
+| isActive | weapon\_is\_active |  |
+| isAmped | weapon\_is\_amped |  |
+| isCooling | weapon\_is\_inCooldown |  |
+| isFiring | weapon\_is\_firing |  |
+| isInCooldown | weapon\_is\_inCooldown |  |
+| isReloading | weapon\_is\_reloading |  |
+| isReloading | weapon\_is\_reloading |  |
+| lastDryFireTime | weapon\_latest\_dryfire\_time |  |
+| lifetimeShots | weapon\_lifetime\_shots |  |
+| pchargeFrac | player\_chargeFrac |  |
+| proOwnedByPlayer | proscreen\_owner\_is\_player |  |
+| proValue | proscreen\_int0 |  |
+| readyFrac | progress\_ready\_to\_fire\_frac |  |
+| readyToFireFrac | progress\_ready\_to\_fire\_frac |  |
+| vis | player\_zoomfrac |  |
+| zoomFrac | player\_zoomfrac |  |
 {% endtab %}
 {% endtabs %}
-
-
 
 ## 
 
