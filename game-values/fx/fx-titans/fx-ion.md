@@ -4,7 +4,7 @@ description: Ion FX value
 
 # FX - Ion
 
-| Value | Note | Example |
+| Value | Note | Tracer |
 | :--- | :--- | :--- |
 | P\_ion\_moving\_proj |  |  |
 | **Laser Core** |  |  |
