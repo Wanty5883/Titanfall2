@@ -6,17 +6,17 @@ description: List of tools used in some Titanfall 2 modding process
 
 Here is a list of the third party software to use for modding Titanfall 2.
 
-## Titanfall files
+{% hint style="danger" %}
+#### Attention
 
-* Titanfall VPK Tool - [Download](https://dev.cra0kalo.com/?p=137)
-* VPK renamer / move - [Info here](https://github.com/Wanty5883/Titanfall2/wiki/General-Info#vpk-renamer--move)
-* Titanfall 2 weapon renamer - [Download](https://bitbucket.org/lunderdeamon/tf2renamer)
+Many of the tools below can be used to make modifications that will result in you being permanently banned from multiplayer Titanfall 2 servers. Use these tools as instructed, and at your own discretion to avoid these bans. 
 
-## Source Engine
+Neither the NoSkill community or the contributors to this wiki are responsible for your incorrect usage of these tools to make modifications that result in you being banned or you breaking your game.
+{% endhint %}
 
-* VIDE Valve Integrated Development Environment - [Info & Download](https://developer.valvesoftware.com/wiki/VIDE)
+## Other utilities
 
-## Graphics / animation / color
+### Graphics / animation / color
 
 * Paint.net - [Download](https://www.getpaint.net/)
   * [Gradient Mapping plug-in](https://forums.getpaint.net/topic/6265-gradient-mapping/)
@@ -26,6 +26,28 @@ Here is a list of the third party software to use for modding Titanfall 2.
   * [VTF plug-in](https://www.tophattwaffle.com/downloads/gimp-vtf-plugin/)
 * [RGB Tool converter](http://hewmc.blogspot.fr/2012/12/rgb-to-percentage-converter.html)
 * [GIF splitter](https://ezgif.com/split)
+
+### General
+
+* TextCrawler 3 - [Download](https://www.digitalvolcano.co.uk/tcdownloads.html)
+* Visual Studio Code - [Download](https://code.visualstudio.com/)
+* Atom Text - [Download](https://atom.io/)
+* Notepad++ - [Download](https://notepad-plus-plus.org/downloads/)
+
+### Driver editors
+
+* NVidia Profile Inspector - [Download](https://nvidia-inspector.en.lo4d.com/windows)
+* ATI Radeon Tray Tools - [Download](https://www.majorgeeks.com/files/details/ati_tray_tools.html)
+
+## Titanfall files
+
+* Titanfall VPK Tool - [Download](https://dev.cra0kalo.com/?p=137)
+* VPK renamer / move - [Info here](https://github.com/Wanty5883/Titanfall2/wiki/General-Info#vpk-renamer--move)
+* Titanfall 2 weapon renamer - [Download](https://bitbucket.org/lunderdeamon/tf2renamer)
+
+## Source Engine
+
+* VIDE Valve Integrated Development Environment - [Info & Download](https://developer.valvesoftware.com/wiki/VIDE)
 
 ### VTF & VMT
 
