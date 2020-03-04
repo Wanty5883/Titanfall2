@@ -10,8 +10,8 @@ description: Firestar FX value
 | exp\_frag\_grenade | Impact | [Tracer](https://gfycat.com/shockedmeanalabamamapturtle) |  |  |
 | P\_grenade\_thermite\_trail | Projectile effect |  | [Projectile](https://gfycat.com/fr/unsightlymindlessaardwolf-titanfall2-modding) |  |
 | P\_grenade\_thermite | Grenade FX |  | [Projectile](https://gfycat.com/fr/diligentshimmeringarchaeocete) |  |
-| wpn\_vortex\_projectile\_star\_FP | Vortex absorb FP | _invalid_ |  |  |
-| wpn\_vortex\_projectile\_star | Vortex absorb | _invalid_ |  |  |
+| wpn\_vortex\_projectile\_star\_FP | Vortex absorb FP | _invalid_ | _invalid_ |  |
+| wpn\_vortex\_projectile\_star | Vortex absorb | _invalid_ | _invalid_ |  |
 | thermite\_CH\_FLARE\_core | Datamined value | [Tracer](https://gfycat.com/concreteactivegreatargus) |  |  |
 | thermite\_CH\_smoke | Datamined value | _invalid_ |  |  |
 | thermite\_CH\_spark\_base | Firestar Spark | [Tracer](https://gfycat.com/ordinaryoblongbengaltiger) |  |  |
@@ -25,15 +25,15 @@ description: Firestar FX value
 | thermite\_CH\_finger\_out | Datamined value | [Tracer](https://gfycat.com/soggythoughtfulizuthrush) |  |  |
 | thermite\_CH\_trail\_smoke | Datamined value |  |  | [Muzzleflash](https://gfycat.com/quarrelsomemedicalgermanspaniel) |
 | thermite\_CH\_trail\_spark | Datamined value |  | [Projectile](https://gfycat.com/potableenchantedbutterfly) |  |
-| thermite\_CH\_trail\_glow | Datamined value |  |  |  |
-| thermite\_CH\_trail\_decal | Datamined value |  |  |  |
-| therm\_exp\_FLARE\_core | Datamined value |  |  |  |
-| therm\_exp\_CH\_sparks\_omni | Datamined value |  |  |  |
-| thermite\_CH\_finger\_up | Datamined value |  |  |  |
-| therm\_exp\_CH\_MDL | Datamined value |  |  |  |
-| therm\_exp\_CH\_refrac\_1 | Datamined value |  |  |  |
-| therm\_exp\_CH\_steam\_up | Datamined value |  |  |  |
-| therm\_exp\_CH\_smoke\_1 | Datamined value |  |  |  |
+| thermite\_CH\_trail\_glow | Datamined value | _invalid_ | \_\_ | _invalid_ |
+| thermite\_CH\_trail\_decal | Datamined value | _invalid_ |  |  |
+| therm\_exp\_FLARE\_core | Datamined value | _invalid_ | _invalid_ | _invalid_ |
+| therm\_exp\_CH\_sparks\_omni | Datamined value | \_\_ | _invalid_ | [Muzzleflash](https://gfycat.com/capitalwaryblackbird) |
+| thermite\_CH\_finger\_up | Datamined value | [Tracer](https://gfycat.com/verifiablespeedyblesbok) |  | [Muzzleflash](https://gfycat.com/verifiablespeedyblesbok) |
+| therm\_exp\_CH\_MDL | Datamined value | _invalid_ |  | _invalid_ |
+| therm\_exp\_CH\_refrac\_1 | Datamined value | [Tracer](https://gfycat.com/scarceunconsciousleafhopper) |  | [Muzzleflash](https://gfycat.com/scarceunconsciousleafhopper) |
+| therm\_exp\_CH\_steam\_up | Datamined value |  | _invalid_ | [Muzzleflash](https://gfycat.com/rectangularabandonedgraywolf) |
+| therm\_exp\_CH\_smoke\_1 | Datamined value | [Tracer](https://gfycat.com/tautclearcutiberianemeraldlizard) |  |  |
 | therm\_exp\_FLARE\_streak\_blur | Datamined value |  |  |  |
 | therm\_exp\_FLARE\_streak | Datamined value |  |  |  |
 | therm\_exp\_CH\_smoke\_out2 | Datamined value |  |  |  |
