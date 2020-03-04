@@ -97,30 +97,29 @@ Args or arguments can change how the crosshair is acting
 | Argument | Value | Note |
 | :--- | :--- | :--- |
 | adjustedSpread | weapon\_spread |  |
-| adsFrac  | player\_zoomFrac |  |
-| isSprinting  | player\_is\_sprinting |  |
-| isReloading  | weapon\_is\_reloading |  |
-| readyFrac  | progress\_ready\_to\_fire\_frac |  |
-| teamColor  | crosshair\_team\_color |  |
-| isAmped  | weapon\_is\_amped |  |
-| chargeFrac  | player\_chargeFrac |  |
-| crosshairMovementX  | crosshair\_movement\_x |  |
-| crosshairMovementY  | crosshair\_movement\_y |  |
-| isActive  | weapon\_is\_active |  |
-| clipAmmo  | weapon\_ammo |  |
-| chargeLevel  | player\_chargeLevel |  |
-| clipSize  | weapon\_clipSize |  |
-| isFiring  | weapon\_is\_firing |  |
-| chargeStartTime  | weapon\_script\_time\_0 |  |
-| chargeMaxTime  | eWeaponVar.custom\_float\_0 |  |
-| ammoFrac  | "progress\_grapple\_power" |  |
-| isGrappleInRange  | "grapple\_in\_range" |  |
-| ammoFrac  | "progress\_weapon\_clip\_ammo\_frac" |  |
-| dryfireTime  | "weapon\_latest\_dryfire\_time" |  |
-| dryfireTime  | "weapon\_latest\_dryfire\_time" |  |
-| regenRate  | "eWeaponVar.regen\_ammo\_refill\_rate" |  |
-| isLocked  | smartammo\_locked |  |
-| smartFov  | "eWeaponVar.smart\_ammo\_search\_angle" |  |
+| adsFrac | player\_zoomFrac |  |
+| ammoFrac | "progress\_weapon\_clip\_ammo\_frac" |  |
+| ammoFrac | "progress\_grapple\_power" |  |
+| chargeFrac | player\_chargeFrac |  |
+| chargeLevel | player\_chargeLevel |  |
+| chargeMaxTime | eWeaponVar.custom\_float\_0 |  |
+| chargeStartTime | weapon\_script\_time\_0 |  |
+| clipAmmo | weapon\_ammo |  |
+| clipSize | weapon\_clipSize |  |
+| crosshairMovementX | crosshair\_movement\_x |  |
+| crosshairMovementY | crosshair\_movement\_y |  |
+| dryfireTime | "weapon\_latest\_dryfire\_time" |  |
+| isActive | weapon\_is\_active |  |
+| isAmped | weapon\_is\_amped |  |
+| isFiring | weapon\_is\_firing |  |
+| isGrappleInRange | "grapple\_in\_range" |  |
+| isLocked | smartammo\_locked |  |
+| isReloading | weapon\_is\_reloading |  |
+| isSprinting | player\_is\_sprinting |  |
+| readyFrac | progress\_ready\_to\_fire\_frac |  |
+| regenRate | "eWeaponVar.regen\_ammo\_refill\_rate" |  |
+| smartFov | "eWeaponVar.smart\_ammo\_search\_angle" |  |
+| teamColor | crosshair\_team\_color |  |
 
 More argument information on this page
 

@@ -98,6 +98,14 @@ As you may noticed, for some weapon when you amp them \(amped weapon\) some effe
 This value define the impact animation when the bullet hit on players or walls. It can be added to weapon who don't already have this value. As I tested before, is not possible to combine multiple impact.  
 You can have different value between normal and amped mode on each weapon config file. Impact\_effect\_table accept other type of values, like tracers.
 
+You can have different value between normal and amped mode on each weapon config file. Find impact values in game values FX
+
+You can have different value between normal and amped mode on each weapon config file. Find impact values in game values FX
+
+{% page-ref page="../../game-values/fx/" %}
+
+{% page-ref page="../../game-values/fx/" %}
+
 ### b. tracer\_effect
 
 Tracer effect are for **hitscan weapon only**, this function does not effect projectile based weapon. However, there is some exeption about that. Find that code block to get where is the tracers code part.
@@ -109,36 +117,9 @@ Tracer effect are for **hitscan weapon only**, this function does not effect pro
 
 `tracer_effect` will effect the **overall game**, basically it will change the tracer particle of other player using the edited weapon \(this is client side of course\). `tracer_effect_first_person` will effect **you**. Depending of what you want to do, you can set different value between them. As I tested around, it could be very confusing or even have a bad impact on your game performance too many `tracer_effect` in too many different weapons. I personally rarely change it, I just change `tracer_effect_first_person` most of the time.
 
-### b. Tracer values
+{% page-ref page="../../game-values/fx/" %}
 
-| Value | Notes | e.g. |
-| :--- | :--- | :--- |
-| **Classic** |  |  |
-| P\_wpn\_tracer | Default AR | Carbine, G2A5 |
-| P\_wpn\_tracer\_BC | Default AR amped | Amped Carbine |
-| P\_wpn\_tracer\_pistol | Default pistol | Wingman |
-| P\_weapon\_tracers\_predator | Default Legion | Legion default fire mode |
-| P\_weapon\_tracers\_predator\_alt | White trail, longer duration | Legion fire while ADS |
-| weapon\_tracers\_shotgun | Leadwall |  |
-| weapon\_tracers\_xo16 | Default chaingun |  |
-| P\_wpn\_tracer\_sniper | Longbow DMR |  |
-| P\_wpn\_tracer\_sniper\_BC | Amped Longbow DMR |  |
-| **Electric** |  |  |
-| P\_wpn\_tracer\_pulse | Default electric |  |
-| P\_wpn\_tracer\_xo16\_elec | Chaingun electric |  |
-| **Beam** |  |  |
-| P\_wpn\_hand\_laser\_beam | Laser shot |  |
-| P\_wpn\_defender\_beam\_burn | Amped Charge rifle |  |
-| P\_wpn\_monarch\_beam\_v1 | Syphon default mode |  |
-| P\_wpn\_monarch\_beam\_v2 | Syphon varient |  |
-| wpn\_arc\_cannon\_beam | Arc Cannon |  |
-| wpn\_arc\_cannon\_beam\_mod | Arc Cannon |  |
-| **Unknown** |  |  |
-| weapon\_tracers\_vortex | Vortex shield |  |
-| weapon\_tracers\_vortex\_mod | Vortex shield |  |
-| P\_wpn\_tracer\_sniper | Not used by railgun | Railgun |
-| weapon\_tracers\_40mm | Have to test | Thermite launcher |
-| P\_wpn\_hand\_laser\_beam\_BC | Have to test | Monarch & laser shot |
+{% page-ref page="../../game-values/fx/" %}
 
 ### c. projectile\_trail\_effect
 
@@ -148,9 +129,55 @@ Projectile trail effect are for **projectile weapon only**, this function does n
 "projectile_trail_effect_0" 					"P_projectile_lstar"
 ```
 
-You can have different value between normal and amped mode on each weapon config file.
+You can have different value between normal and amped mode on each weapon config file. Find projectile value in game values FX
 
+You can have different value between normal and amped mode on each weapon config file. Find projectile value in game values FX
 
+{% page-ref page="../../game-values/fx/" %}
+
+{% page-ref page="../../game-values/fx/" %}
+
+## Arguments
+
+## Arguments
+
+{% tabs %}
+{% tab title="RUI\_CrosshairData Args" %}
+| Argument | Value | Note |
+| :--- | :--- | :--- |
+| adjustedSpread | weapon\_spread |  |
+| adsFrac | player\_zoomFrac |  |
+| ammoFrac | "progress\_weapon\_clip\_ammo\_frac" |  |
+| ammoFrac | "progress\_grapple\_power" |  |
+| chargeFrac | player\_chargeFrac |  |
+| chargeLevel | player\_chargeLevel |  |
+| chargeMaxTime | eWeaponVar.custom\_float\_0 |  |
+| chargeStartTime | weapon\_script\_time\_0 |  |
+| clipAmmo | weapon\_ammo |  |
+| clipSize | weapon\_clipSize |  |
+| crosshairMovementX | crosshair\_movement\_x |  |
+| crosshairMovementY | crosshair\_movement\_y |  |
+| dryfireTime | "weapon\_latest\_dryfire\_time" |  |
+| isActive | weapon\_is\_active |  |
+| isAmped | weapon\_is\_amped |  |
+| isFiring | weapon\_is\_firing |  |
+| isGrappleInRange | "grapple\_in\_range" |  |
+| isLocked | smartammo\_locked |  |
+| isReloading | weapon\_is\_reloading |  |
+| isSprinting | player\_is\_sprinting |  |
+| readyFrac | progress\_ready\_to\_fire\_frac |  |
+| regenRate | "eWeaponVar.regen\_ammo\_refill\_rate" |  |
+| smartFov | "eWeaponVar.smart\_ammo\_search\_angle" |  |
+| teamColor | crosshair\_team\_color |  |
+{% endtab %}
+
+{% tab title="Mods Args" %}
+| Argument | Value | Note |
+| :--- | :--- | :--- |
+|  |  |  |
+|  |  |  |
+{% endtab %}
+{% endtabs %}
 
 
 
