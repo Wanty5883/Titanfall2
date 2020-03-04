@@ -18,6 +18,7 @@
   * [Batch crosshair modding](information/crosshair-modding/batch-crosshair-modding.md)
   * [Crosshair example](information/crosshair-modding/crosshair-example.md)
 * [Color & Texture info](information/color-and-texture-info.md)
+* [Weapon Positioning](information/weapon-positioning.md)
 
 ## Game Values
 
