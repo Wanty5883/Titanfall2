@@ -10,6 +10,16 @@ Please send a message through the [NoSkill Discord](https://discord.gg/sEgmTKg) 
 
 ᵗᵒᵖ ᵗʸᵖᵒ ʰᵘⁿᵗᵉʳ ᵃⁿᵈ ᶜᵒⁿᵗʳᶦᵇᵘᵗᵒʳ ʷᶦˡˡ ᵍᵉᵗ ᵃ ˡᶦᵗᵗˡᵉ ʳᵉʷᵃʳᵈ
 
+{% hint style="danger" %}
+#### Attention
+
+Edits and modifications listed on this wiki may result in your account becoming permanently banned from multiplayer Titanfall 2 servers. Use these tools as instructed, and at your own discretion to avoid these bans. 
+
+For the most part these tweaks can be considered safe, but over time things may become disallowed or bannable.
+
+Neither the NoSkill community or the contributors to this wiki are responsible for your incorrect usage of these tools to make modifications that result in you being banned or you breaking your game.
+{% endhint %}
+
 ## Modding
 
 ![](.gitbook/assets/ttf2-modding.jpg)
