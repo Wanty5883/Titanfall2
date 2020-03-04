@@ -15,7 +15,7 @@ Copy these file and paste them in an empty folder somewhere else:
 * englishclient\_mp\_common.bsp.pak000\_dir.vpk
 * client\_mp\_common.bsp.pak000\_000.vpk
 
-You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://wanty5883.gitbook.io/titanfall2/information/modding-tools)
+You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
 
 ## Unpacking
 
@@ -23,7 +23,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 > Origin Games\Titanfall2\vpk\englishclient\_mp\_common.bsp.pak000\_dir.vpk
 
-[How to extract VPK's properly ?](https://wanty5883.gitbook.io/titanfall2/how-to-start-modding/2.-how-to-backup-extract-and-repack)
+[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
 
 ## Editing
 
@@ -31,7 +31,7 @@ Go to this location in your extracted folder
 
 > \scripts\weapons
 
-This folder containt the "config files" for the weapons. Edit those files at your own risk, if you get banned because you edit some important value don’t blame me.
+This folder contains the "config files" for the weapons. Edit those files at your own risk, if you get banned because you edit some important value don’t blame me.
 
 Find that code block to get where is the crosshair code part.
 
@@ -76,11 +76,11 @@ You can change the _`base_spread`_ value to change the based size of the crossha
 
 ### Crosshair value
 
-[Here](https://wanty5883.gitbook.io/titanfall2/information/weapon-config-info#ui-crosshair)
+[Here](https://noskill.gitbook.io/titanfall2/information/weapon-config-info#ui-crosshair)
 
 ### Config file name
 
-[Here](https://wanty5883.gitbook.io/titanfall2/information/weapon-config-info#file-location)
+[Here](https://noskill.gitbook.io/titanfall2/information/file-location)
 
 ### My sample
 
@@ -133,7 +133,7 @@ Here is a list of what I'm using personally. You can have a preview in the scree
 
 ## Repacking
 
-[How to repack VPK files proprely?](https://wanty5883.gitbook.io/titanfall2/how-to-start-modding/2.-how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)
+[How to repack VPK files proprely?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)
 
 After following step by step the previous link
 
