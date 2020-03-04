@@ -38,7 +38,7 @@ These changes do not reduce the visual fidelity of the game apart from reducing 
 
 ### AMD Cards
 
-_**I am unable to provide screenshots for this section, as I do not own an ATI/AMD/Radeon card to test on. Sorry for any inconvenience.**_
+_**We are unable to provide screenshots for this section, as we do not own an ATI/AMD/Radeon card to test on. Sorry for any inconvenience.**_
 
 1. Go to direct3d → settings → additional → texture lod adjustment
 2. Set to 10 \(or higher, higher value = worse game\)

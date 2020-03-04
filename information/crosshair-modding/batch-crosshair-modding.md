@@ -12,13 +12,13 @@ This guide requires that you understand the basics outlined in Modding introduct
 
 This guide also requires that you download a program called TextCrawler 3. Download link can be found [here](https://www.digitalvolcano.co.uk/tcdownloads.html). Any other application capable of making batch modifications based on regular expressions will also work.
 
-This guide is for Windows 10, and I will not provide support for other operating systems. Sorry.
+This guide is for Windows 10, and we will not provide extended support for other operating systems. Sorry.
 
 ## Guide
 
 ### Step 1. Isolation of files you'd like to modify
 
-Create a folder for yourself to perform these edits within, mine is called `CrosshairMods`. Place the config files for weapons you'd like to modify. I don't recommend setting titan weapons to all the same, as most of these have alternate states and etc not friendly to static, stock crosshairs. Once this folder is created and it contains your config files move on to the next step.
+Create a folder for yourself to perform these edits within, mine is called `CrosshairMods`. Place the config files for weapons you'd like to modify. We don't recommend setting titan weapons to all the same, as most of these have alternate states and etc not friendly to static, stock crosshairs. Once this folder is created and it contains your config files move on to the next step.
 
 ### Step 2. Open TextCrawler, and configure settings.
 
@@ -48,7 +48,7 @@ Open up a config, and verify that the change has gone through, and delete all th
 
 ## Footnotes
 
-If you screw something up by improperly using this program, your fault, not mine. If something in this guide is incorrect, message me on discord @endigma\#4426.
+If you screw something up by improperly using this program, your fault, not ours. If something in this guide is incorrect, message us on discord by tagging `@Frontier Militia`
 
 {% page-ref page="../../" %}
 
