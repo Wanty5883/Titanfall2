@@ -6,6 +6,7 @@ description: Firestar FX value
 
 | Value | Note | Tracer | Projectile | Muzzleflash |
 | :--- | :--- | :--- | :--- | :--- |
+| **Firestar** |  |  |  |  |
 | exp\_frag\_grenade | Impact | [Tracer](https://gfycat.com/shockedmeanalabamamapturtle) |  |  |
 | P\_grenade\_thermite\_trail | Projectile effect |  | [Projectile](https://gfycat.com/fr/unsightlymindlessaardwolf-titanfall2-modding) |  |
 | P\_grenade\_thermite | Grenade FX |  | [Projectile](https://gfycat.com/fr/diligentshimmeringarchaeocete) |  |
