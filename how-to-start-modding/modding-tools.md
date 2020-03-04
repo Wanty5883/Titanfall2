@@ -14,6 +14,16 @@ Neither the NoSkill community or the contributors to this wiki are responsible f
 
 ## Other utilities
 
+### General
+
+* Atom Text - [Download](https://atom.io/) _recommended_
+  * Syntax color .cfg - [Download](https://atom.io/packages/language-source-cfg)
+  * Syntax color .nut & .gnut - [Download](https://atom.io/packages/squirrel-language)
+  * Color picker - [Download](https://atom.io/packages/color-picker)
+* TextCrawler 3 - [Download](https://www.digitalvolcano.co.uk/tcdownloads.html)
+* Visual Studio Code - [Download](https://code.visualstudio.com/)
+* Notepad++ - [Download](https://notepad-plus-plus.org/downloads/)
+
 ### Graphics / animation / color editors
 
 * Paint.net - [Download](https://www.getpaint.net/)
@@ -25,27 +35,21 @@ Neither the NoSkill community or the contributors to this wiki are responsible f
 * [RGB Tool converter](http://hewmc.blogspot.fr/2012/12/rgb-to-percentage-converter.html)
 * [GIF splitter](https://ezgif.com/split)
 
-### General
-
-* TextCrawler 3 - [Download](https://www.digitalvolcano.co.uk/tcdownloads.html)
-* Visual Studio Code - [Download](https://code.visualstudio.com/)
-* Atom Text - [Download](https://atom.io/)
-* Notepad++ - [Download](https://notepad-plus-plus.org/downloads/)
-
 ### Driver editors
 
 * NVidia Profile Inspector - [Download](https://nvidia-inspector.en.lo4d.com/windows)
 * ATI Radeon Tray Tools - [Download](https://www.majorgeeks.com/files/details/ati_tray_tools.html)
 
-## Titanfall files
+## Source Engine
+
+* VIDE Valve Integrated Development Environment - [Info & Download](https://developer.valvesoftware.com/wiki/VIDE)
+
+### Titanfall files
 
 * Titanfall VPK Tool - [Download](https://dev.cra0kalo.com/?p=137)
 * VPK renamer / move - [Info here](https://github.com/Wanty5883/Titanfall2/wiki/General-Info#vpk-renamer--move)
 * Titanfall 2 weapon renamer - [Download](https://bitbucket.org/lunderdeamon/tf2renamer)
-
-## Source Engine
-
-* VIDE Valve Integrated Development Environment - [Info & Download](https://developer.valvesoftware.com/wiki/VIDE)
+* MSD \(Miles Sound Dumper\) - [Info ](https://github.com/Lyxica/Miles-10-Sound-Dumper)& [Download](https://github.com/Lyxica/Miles-10-Sound-Dumper/releases/tag/v1.0-tf2-beta1)
 
 ### VTF & VMT
 

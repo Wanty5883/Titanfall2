@@ -16,6 +16,7 @@
   * [Weapon config - File name](information/weapon-config-info/weapon-config-file-name.md)
 * [Crosshair modding](information/crosshair-modding/README.md)
   * [Batch crosshair modding](information/crosshair-modding/batch-crosshair-modding.md)
+  * [Crosshair example](information/crosshair-modding/crosshair-example.md)
 * [Color & Texture info](information/color-and-texture-info.md)
 
 ## Game Values
