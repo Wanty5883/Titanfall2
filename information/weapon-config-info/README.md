@@ -139,8 +139,6 @@ You can have different value between normal and amped mode on each weapon config
 
 ## Arguments
 
-## Arguments
-
 {% tabs %}
 {% tab title="RUI\_CrosshairData Args" %}
 | Argument | Value | Note |
@@ -186,7 +184,6 @@ You can have different value between normal and amped mode on each weapon config
 | isCooling | weapon\_is\_inCooldown |  |
 | isFiring | weapon\_is\_firing |  |
 | isInCooldown | weapon\_is\_inCooldown |  |
-| isReloading | weapon\_is\_reloading |  |
 | isReloading | weapon\_is\_reloading |  |
 | lastDryFireTime | weapon\_latest\_dryfire\_time |  |
 | lifetimeShots | weapon\_lifetime\_shots |  |
