@@ -16,7 +16,7 @@ Neither the NoSkill community or the contributors to this wiki are responsible f
 
 ## Other utilities
 
-### Graphics / animation / color
+### Graphics / animation / color editors
 
 * Paint.net - [Download](https://www.getpaint.net/)
   * [Gradient Mapping plug-in](https://forums.getpaint.net/topic/6265-gradient-mapping/)
