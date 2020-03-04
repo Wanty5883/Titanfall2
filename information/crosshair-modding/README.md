@@ -29,7 +29,9 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 Go to this location in your extracted folder
 
-> \scripts\weapons
+```text
+englishclient_mp_common.bsp.pak000_dir.vpk\scripts\weapons
+```
 
 This folder contains the "config files" for the weapons. Edit those files at your own risk, if you get banned because you edit some important value don’t blame me.
 
@@ -66,13 +68,27 @@ Crosshair_1
 }
 ```
 
-Don't copy paste the value from this example, use the one you have in the edited file! Note that is also important to change that value to the amount of crosshair you want to combine `active_crosshair_count "2"`.
+Don't copy paste the value from this example, use the one you have in the edited file!
+
+### active\_crosshair\_count
+
+```text
+active_crosshair_count "2"
+```
+
+This value set the amount of crosshair you would like to use at once. To use multiple crosshair at once, you need to change that value to the amount of `Crosshair_x` bracket you want to combine.
 
 You can change the _`base_spread`_ value to change the based size of the crosshair, this won't change the vector size but the distance between the center of the screen and the different parts of the crosshair. You can use positive or negative values
 
 ### Crosshair value
 
-[Here](https://noskill.gitbook.io/titanfall2/information/weapon-config-info#ui-crosshair)
+This values are the crosshair itself. They can be swaped to any other ui/crosshair value you can find in other config files. You can send me message if you find other one.
+
+Some crosshair are dynamics, like the charge rifle, frag grenade and some other crosshair which have animation. In some case changing to another dynamic crosshair will work fine, in other cases it won't. As an example my favorite one is using the charge rifle crosshair for the Northstar railgun. For an opposite example, the frag grenade crosshair to the CAR won't work well.
+
+### base\_spread
+
+This value set the based size of the crosshair, this won't change the vector size but the distance between the center of the screen and the different parts of the crosshair. You can use positive or negative values.
 
 ### RUI\_CrosshairData & Arguments
 
@@ -106,9 +122,15 @@ Args or arguments can change how the crosshair is acting
 | isLocked  | smartammo\_locked |  |
 | smartFov  | "eWeaponVar.smart\_ammo\_search\_angle" |  |
 
+More argument information on this page
+
+
+
 ### Config file name
 
-[Here](https://noskill.gitbook.io/titanfall2/information/file-location)
+List of the different weapon config files. Sometimes names are not the same as in game name.
+
+{% page-ref page="../weapon-config-info/weapon-config-file-name.md" %}
 
 ## Repacking
 
