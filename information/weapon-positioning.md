@@ -53,6 +53,8 @@ MP_BASE
 	{	"viewmodel_offset_hip" 						"x z y" 
 ```
 
+### Position Values
+
 The Standard value for each of the coordinates is "0". 
 
 A positive "X" value is going to move the gun to the right, a negative one to the left.
