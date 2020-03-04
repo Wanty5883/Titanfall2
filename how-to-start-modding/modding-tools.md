@@ -1,10 +1,8 @@
 ---
-description: List of tools used in some Titanfall 2 modding process
+description: Here is a list of third party software to use for modding Titanfall 2.
 ---
 
 # Modding tools
-
-Here is a list of the third party software to use for modding Titanfall 2.
 
 {% hint style="danger" %}
 #### Attention
@@ -55,7 +53,7 @@ Neither the NoSkill community or the contributors to this wiki are responsible f
   * VTFVer - [Download](http://cra0kalo.com/public/VTFVer.zip) _not needed anymore, VTFEdit support v7.5_
 * VTF Shell Extensions - [Info](https://developer.valvesoftware.com/wiki/VTF_Shell_Extensions) & [Download](https://www.wunderboy.org/valve-hl2source-sdk-tools/#vtf_shell)
 
-## 3D Model
+## 3D Models
 
 * Blender - [Download](https://www.blender.org/)
   * Blender Source Tool - [Download & info](https://developer.valvesoftware.com/wiki/Blender_Source_Tools)
