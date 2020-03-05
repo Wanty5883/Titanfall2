@@ -28,7 +28,7 @@ description: Firestar FX value
 | thermite\_CH\_trail\_glow | Datamined value | _invalid_ | \_\_ | _invalid_ |
 | thermite\_CH\_trail\_decal | Datamined value | _invalid_ |  |  |
 | therm\_exp\_FLARE\_core | Datamined value | _invalid_ | _invalid_ | _invalid_ |
-| therm\_exp\_CH\_sparks\_omni | Datamined value | \_\_ | _invalid_ | [Muzzleflash](https://gfycat.com/capitalwaryblackbird) |
+| therm\_exp\_CH\_sparks\_omni | Datamined value | \_\_ | _invalid_ | [Muzzleflash](https://gfycat.com/weeklyclosedirishsetter) |
 | thermite\_CH\_finger\_up | Datamined value | [Tracer](https://gfycat.com/verifiablespeedyblesbok) |  | [Muzzleflash](https://gfycat.com/verifiablespeedyblesbok) |
 | therm\_exp\_CH\_MDL | Datamined value | _invalid_ |  | _invalid_ |
 | therm\_exp\_CH\_refrac\_1 | Datamined value | [Tracer](https://gfycat.com/scarceunconsciousleafhopper) |  | [Muzzleflash](https://gfycat.com/scarceunconsciousleafhopper) |
