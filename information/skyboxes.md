@@ -77,9 +77,19 @@ The reason behind this not working is because the textures are not applied via a
 
 ### Examples
 
+Obviously this wasn't made to be the skybox for normal maps. So there are little errors all around the place.
+
 ![Glitch with &quot;mat\_sky\_color 0.5 0.5 0.5;mat\_sun\_color 0.5 0.5 0.5&quot;](../.gitbook/assets/desktop-screenshot-2020.03.04-18.35.11.54.png)
 
+Not that the old scene lights are still presents and might look a little out of place on some maps.
+
 ![Angel City with &quot;mat\_sky\_color 0 0 0; mat\_sun\_color 0 0 0&quot; ](../.gitbook/assets/desktop-screenshot-2020.03.04-18.47.58.92.png)
+
+Note that the entire surrounding city disappears. Similar effects might happen on other maps as well. 
+
+![Kodai with &quot;mat\_sky\_color 0.5 0.5 0.5;mat\_sun\_color 0.5 0.5 0.5&quot;](../.gitbook/assets/desktop-screenshot-2020.03.05-17.09.47.28.png)
+
+Note that the sky is an orange color on the north-east side of the map. This only applies to Kodai tho.
 
 ## Repacking
 
