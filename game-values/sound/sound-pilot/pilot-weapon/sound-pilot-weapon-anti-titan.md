@@ -8,12 +8,14 @@ description: Anti-Titan weapon sound value
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
+| **Archer** |  |  |
 | Archer | Weapon\_Archer\_Fire\_1P | Fire sound |
 | Archer | Weapon\_Archer\_Fire\_3P | Fire sound |
 | Archer | Weapon\_Archer\_Fire\_NPC |  |
 | Archer | weapon\_spectremortar\_fire | Fire sound |
 | Archer | Weapon\_Archer\_Seeking |  |
 | Archer | Weapon\_Archer\_LockOn |  |
+| **Charge Rifle** |  |  |
 | Charge Rifle | Weapon\_ChargeRifle\_Fire\_1P | Fire sound |
 | Charge Rifle | Weapon\_ChargeRifle\_Fire\_3P | Fire sound |
 | Charge Rifle | Weapon\_ChargeRifle\_Fire\_NPC | Fire sound |
@@ -26,6 +28,7 @@ description: Anti-Titan weapon sound value
 | Charge Rifle | Weapon\_ChargeRifle\_ADS\_In | ADS sound |
 | Charge Rifle | Weapon\_ChargeRifle\_ADS\_Out | ADS sound |
 | Charge Rifle | wpn\_pickup\_ATWeapon\_1P | Pickup sound |
+| **MGL** |  |  |
 | MGL | Weapon\_MGL\_Fire\_1P | Fire sound |
 | MGL | Weapon\_MGL\_Fire\_3P | Fire sound |
 | MGL | Weapon\_MGL\_Fire\_NPC | Fire sound |
@@ -35,9 +38,13 @@ description: Anti-Titan weapon sound value
 | MGL | Weapon\_MGL\_ADS\_In | ADS sound |
 | MGL | Weapon\_MGL\_ADS\_Out | ADS sound |
 | MGL | wpn\_pickup\_ATWeapon\_1P | Pickup sound |
-| Thunderbolt | Weapon\_Arc\_Ball\_Loop |  |
+| MGL | Explo\_MGL\_MagneticAttract | Flight SFX loop |
+| **Thunderbolt** |  |  |
+| Thunderbolt | Weapon\_Arc\_Ball\_Loop | Loop sound |
 | Thunderbolt | Weapon\_ArcLauncher\_Fire\_1P |  |
 | Thunderbolt | Weapon\_ArcLauncher\_Fire\_3P |  |
+| Thunderbolt | wpn\_thunderbolt\_ads\_in\_1p | ADS in |
+| Thunderbolt | wpn\_thunderbolt\_ads\_out\_1p | ADS out |
 
 ## 
 
