@@ -19,8 +19,6 @@
   * [Weapon Positioning](information/weapon-config-info/weapon-positioning.md)
   * [Weapon config - File name](information/weapon-config-info/weapon-config-file-name.md)
 * [Color & Texture info](information/color-and-texture-info.md)
-* [Maps - File Names](information/maps-file-names.md)
-* [Skyboxes](information/skyboxes.md)
 
 ## Game Values
 
@@ -128,6 +126,9 @@
 * [Text modding r1\_language](text/text-modding-r1_language.md)
 
 ## MAPS
+
+* [Maps - File Names](maps/maps-file-names.md)
+* [Skyboxes](maps/skyboxes.md)
 
 ## Mods
 
