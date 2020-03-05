@@ -38,7 +38,6 @@ description: Firestar FX value
 | therm\_exp\_FLARE\_streak | Datamined value |  |  |  |
 | therm\_exp\_CH\_smoke\_out2 | Datamined value |  |  |  |
 | Z\_decal\_test | Datamined value |  |  |  |
-| P\_grenade\_thermite\_trail | Datamined value |  |  |  |
 | therm\_trail\_icon | Datamined value |  |  |  |
 | therm\_trail\_icon\_noz | Datamined value |  |  |  |
 | therm\_trail\_smoke | Datamined value |  |  |  |
