@@ -125,6 +125,10 @@
 
 * [Text modding r1\_language](text/text-modding-r1_language.md)
 
+## MAPS
+
+* [Skyboxes](maps/skyboxes.md)
+
 ## Mods
 
 * [Plastic Mode](mods/plastic-mode.md)
