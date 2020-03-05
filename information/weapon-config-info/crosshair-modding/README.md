@@ -84,11 +84,11 @@ You can change the _`base_spread`_ value to change the based size of the crossha
 
 This values are the crosshair itself. They can be swapped to any other ui/crosshair value you can find in other config files. You can send me message if you find other one.
 
-![](../../.gitbook/assets/crosshair1.PNG)
+![](../../../.gitbook/assets/crosshair1.PNG)
 
-![](../../.gitbook/assets/crosshair2.PNG)
+![](../../../.gitbook/assets/crosshair2.PNG)
 
-![](../../.gitbook/assets/crosshair3.PNG)
+![](../../../.gitbook/assets/crosshair3.PNG)
 
 Some crosshair are dynamics, like the charge rifle, frag grenade and some other crosshair which have animation. In some case changing to another dynamic crosshair will work fine, in other cases it won't. As an example my favorite one is using the charge rifle crosshair for the Northstar railgun. For an opposite example, the frag grenade crosshair to the CAR won't work well.
 
@@ -135,7 +135,7 @@ More argument information on this page
 
 List of the different weapon config files. Sometimes names are not the same as in game name.
 
-{% page-ref page="../weapon-config-info/weapon-config-file-name.md" %}
+{% page-ref page="../weapon-config-file-name.md" %}
 
 ## Repacking
 

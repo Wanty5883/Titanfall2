@@ -65,11 +65,11 @@ A positive "Y" value is going to move the gun up, a negative one down.
 
 ### Examples
 
-![&quot;viewmodel\_offset\_hip&quot; 						&quot;-10 0 -3&quot;](../.gitbook/assets/another-kraber-edit.jpg)
+![&quot;viewmodel\_offset\_hip&quot; 						&quot;-10 0 -3&quot;](../../.gitbook/assets/another-kraber-edit.jpg)
 
-![&quot;viewmodel\_offset\_hip&quot; 						&quot;2 -2 -3&quot;](../.gitbook/assets/desktop-screenshot-2020.03.04-16.25.20.77.png)
+![&quot;viewmodel\_offset\_hip&quot; 						&quot;2 -2 -3&quot;](../../.gitbook/assets/desktop-screenshot-2020.03.04-16.25.20.77.png)
 
-![&quot;viewmodel\_offset\_hip&quot; 						&quot;-6.5 1 -4&quot;](../.gitbook/assets/desktop-screenshot-2020.03.04-16.47.10.40.png)
+![&quot;viewmodel\_offset\_hip&quot; 						&quot;-6.5 1 -4&quot;](../../.gitbook/assets/desktop-screenshot-2020.03.04-16.47.10.40.png)
 
 ## Repacking
 

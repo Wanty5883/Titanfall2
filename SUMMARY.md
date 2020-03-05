@@ -13,12 +13,13 @@
 ## Information
 
 * [Weapon config info](information/weapon-config-info/README.md)
+  * [Crosshair modding](information/weapon-config-info/crosshair-modding/README.md)
+    * [Batch crosshair modding](information/weapon-config-info/crosshair-modding/batch-crosshair-modding.md)
+    * [Crosshair example](information/weapon-config-info/crosshair-modding/crosshair-example.md)
+  * [Weapon Positioning](information/weapon-config-info/weapon-positioning.md)
   * [Weapon config - File name](information/weapon-config-info/weapon-config-file-name.md)
-* [Crosshair modding](information/crosshair-modding/README.md)
-  * [Batch crosshair modding](information/crosshair-modding/batch-crosshair-modding.md)
-  * [Crosshair example](information/crosshair-modding/crosshair-example.md)
 * [Color & Texture info](information/color-and-texture-info.md)
-* [Weapon Positioning](information/weapon-positioning.md)
+* [Skyboxes](information/skyboxes.md)
 
 ## Game Values
 
@@ -126,8 +127,6 @@
 * [Text modding r1\_language](text/text-modding-r1_language.md)
 
 ## MAPS
-
-* [Skyboxes](maps/skyboxes.md)
 
 ## Mods
 
