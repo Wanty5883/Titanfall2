@@ -1,5 +1,5 @@
 ---
-description: Guide to change  crosshair
+description: Guide to change crosshair icons
 ---
 
 # Crosshair modding
