@@ -1,5 +1,5 @@
 ---
-description: Here is a list of third party software to use for modding Titanfall 2.
+description: This is a list of third party software to use for modding Titanfall 2.
 ---
 
 # Modding tools
@@ -7,9 +7,9 @@ description: Here is a list of third party software to use for modding Titanfall
 {% hint style="danger" %}
 #### Attention
 
-Many of the tools below can be used to make modifications that will result in you being permanently banned from multiplayer Titanfall 2 servers. Use these tools as instructed, and at your own discretion to avoid these bans. 
+Many of the tools below can be used to make modifications that will result in you being permanently banned from Titanfall 2 multiplayer servers. Use these tools as instructed and at your own discretion to avoid these bans. 
 
-Neither the NoSkill community or the contributors to this wiki are responsible for your incorrect usage of these tools to make modifications that result in you being banned or you breaking your game.
+Neither the NoSkill community nor the contributors of this wiki are responsible for your incorrect usage of these tools to make modifications that result in you being banned or you breaking your game.
 {% endhint %}
 
 ## Other utilities

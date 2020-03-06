@@ -14,6 +14,6 @@ This is a good example how to **not** ask help:
 > JustaNub: Hey  
 > JustaNub: I don't find R97 crosshair
 
-**Just no.. Spend 5 more minutes reading you will find what you are looking for.**
+**Just no.. Spend 5 more minutes reading, you will find what you are looking for.**
 {% endhint %}
 

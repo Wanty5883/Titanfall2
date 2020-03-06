@@ -6,11 +6,11 @@ description: List of information for the weapon config files
 
 ## Introduction & Warning
 
-Massive amount of value and information. Check down bellow in `Game Values` category for more. But please read this in the first place.
+Massive amount of value and information. Check the `Game Values` category down below for more. But please read this before.
 
 > englishclient\_mp\_common.bsp.pak000\_dir.vpk\scripts\weapons
 
-This folder contains the "config files" for the weapons. This folder contain a lot of files, check **`Weapon config - File name`** for the full list of the different weapons in the game.
+This folder contains the "config files" for the weapons. This folder contains a lot of files, check **`Weapon config - File name`** for the full list of the different weapons in the game.
 
 {% page-ref page="weapon-config-file-name.md" %}
 
@@ -26,21 +26,21 @@ The weapon config files are stored in this location
 englishclient_mp_common.bsp.pak000_dir.vpk\scripts\weapons
 ```
 
-Other weapon config files are stored in other VPK but as for now I won't cover that part.
+Other weapon config files are stored in other VPKs but as of right now I won't cover that part.
 
 ## RUI\_CrosshairData
 
-Bracket where go the following values
+Bracket where the following values go
 
 ### active\_crosshair\_count
 
-This value set the amount of crosshair you would like to use at once. To use multiple crosshair at once, you need to duplication the all `Crosshair_1` bracket.
+This value sets the amount of crosshairs you would like to use at once. To use multiple crosshairs at once, you need to duplicate the `Crosshair_1` bracket.
 
 ### ui/crosshair
 
-This values are the crosshair itself. They can be swaped to any other ui/crosshair value you can find in other config files. You can send me message if you find other one.
+These values are the crosshair itself. They can be swapped to any other ui/crosshair value you can find in other config files. You can send me a message if you find other ones.
 
-Some crosshair are dynamics, like the charge rifle, frag grenade and couples of other crosshair that have animation. In some case changing to an other dynamic crosshair will work fine, in other cases it won't. As an example my favorite one is using the charge rifle crosshair for the Northstar railgun. For an opposite example, the frag grenade crosshair to the CAR won't work well.
+Some crosshairs are dynamic, like the charge rifle, frag grenade and a couple of other crosshairs that have animations. In some cases changing to another dynamic crosshair will work fine, in other cases it won't. As a working example: my favorite crosshair combo is using the charge rifle crosshair for the Northstar railgun. For a non working example: the frag grenade crosshair on the CAR won't work well.
 
 ![](../../.gitbook/assets/crosshair1.PNG)
 
@@ -50,15 +50,15 @@ Some crosshair are dynamics, like the charge rifle, frag grenade and couples of 
 
 ### base\_spread
 
-This value set the based size of the crosshair, this won't change the vector size but the distance between the center of the screen and the different parts of the crosshair. You can use positive or negative values.
+This value sets the base size of the crosshair, this won't change the vector size but the distance between the center of the screen and the different parts of the crosshair. You can use positive or negative values.
 
 ## Effects
 
 > englishclient\_mp\_common.bsp.pak000\_dir.vpk\scripts\weapons
 
-This folder containt the "config files" for the weapons. Edit those files at your own risk, if you get banned because you edit some important value don’t blame me.
+This folder contains the "config files" for the weapons. Edit those files at your own risk, if you get banned because you edit some important value don’t blame me.
 
-This guide will cover value bellow the comment `// Effects` in those files. This guide will be large and covert lot of different value, so for an easier navigation refer to the **table of content**. Here is the part of the file we are looking for
+This guide will cover value below the comment `// Effects` in those files. This guide will be large and covers a lot of different values, so for an easier navigation refer to the **table of content**. This is the part of the file we are looking for:
 
 ```text
 // Effects
@@ -79,7 +79,7 @@ This guide will cover value bellow the comment `// Effects` in those files. This
 "fx_muzzle_flash_attach"	  				"muzzle_flash"
 ```
 
-As you may noticed, for some weapon when you amp them \(amped weapon\) some effect change. Here what you should look For
+As you may noticed, for some weapons, when you amp them \(amped weapon\) some effects change. This is what you should look for:
 
 ```text
 {
@@ -95,45 +95,35 @@ As you may noticed, for some weapon when you amp them \(amped weapon\) some effe
 
 ### a. impact\_effect\_table
 
-This value define the impact animation when the bullet hit on players or walls. It can be added to weapon who don't already have this value. As I tested before, is not possible to combine multiple impact.  
-You can have different value between normal and amped mode on each weapon config file. Impact\_effect\_table accept other type of values, like tracers.
+This value defines the impact animation when the bullet hits players or walls. It can be added to weapons who don't  have this value already. As tested before, it is not possible to combine multiple impact animations.  
+You can have different values between normal and amped mode on each weapon config file. Impact\_effect\_table accepts other type of values, like tracers.
 
-You can have different value between normal and amped mode on each weapon config file. Find impact values in game values FX
-
-You can have different value between normal and amped mode on each weapon config file. Find impact values in game values FX
-
-{% page-ref page="../../game-values/fx/" %}
+You can have different values between normal and amped mode on each weapon config file. Find impact values in game values FX
 
 {% page-ref page="../../game-values/fx/" %}
 
 ### b. tracer\_effect
 
-Tracer effect are for **hitscan weapon only**, this function does not effect projectile based weapon. However, there is some exeption about that. Find that code block to get where is the tracers code part.
+Tracer effects are for **hitscan weapons only**, this function does not effect projectile based weapons. However, there are some exeptions. Find this code block to the tracers code part:
 
 ```text
 "tracer_effect"   							  "P_wpn_tracer"
 "tracer_effect_first_person"                    "P_wpn_tracer"
 ```
 
-`tracer_effect` will effect the **overall game**, basically it will change the tracer particle of other player using the edited weapon \(this is client side of course\). `tracer_effect_first_person` will effect **you**. Depending of what you want to do, you can set different value between them. As I tested around, it could be very confusing or even have a bad impact on your game performance too many `tracer_effect` in too many different weapons. I personally rarely change it, I just change `tracer_effect_first_person` most of the time.
-
-{% page-ref page="../../game-values/fx/" %}
+`tracer_effect` will effect the **overall game**, basically it will change the tracer particle of other players using the edited weapon \(this is client side of course\). `tracer_effect_first_person` will effect **you**. Depending of what you want to do, you can set different values between them. As tested, it could be very confusing or even have a bad impact on your game performance if there are too many `tracer_effect` on too many different weapons. I personally rarely change it, I just change `tracer_effect_first_person` most of the time.
 
 {% page-ref page="../../game-values/fx/" %}
 
 ### c. projectile\_trail\_effect
 
-Projectile trail effect are for **projectile weapon only**, this function does not effect hitscan based weapon. Find that code block to get where is the tracers code part.
+Projectile trail effects are for **projectile weapons only**, this function does not effect hitscan based weapons. Find this code block to get to the trail code part:
 
 ```text
 "projectile_trail_effect_0" 					"P_projectile_lstar"
 ```
 
-You can have different value between normal and amped mode on each weapon config file. Find projectile value in game values FX
-
-You can have different value between normal and amped mode on each weapon config file. Find projectile value in game values FX
-
-{% page-ref page="../../game-values/fx/" %}
+You can have different values between normal and amped mode on each weapon config file. Find projectile values in game values FX
 
 {% page-ref page="../../game-values/fx/" %}
 

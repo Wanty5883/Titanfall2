@@ -1,5 +1,5 @@
 ---
-description: People who have in the past or present contributed or managed this wiki.
+description: 'People who have, in the past or present, contributed to or managed this wiki.'
 ---
 
 # Contributors
@@ -13,6 +13,8 @@ description: People who have in the past or present contributed or managed this 
 **endigma** - Editor &  proofreader
 
 **MrCleansForeHead -** Modding researcher & editor
+
+**Phyr** - Modding researcher, editor & proofreader
 
 ## Special Thanks
 
