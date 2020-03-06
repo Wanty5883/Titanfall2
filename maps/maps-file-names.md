@@ -43,5 +43,15 @@ description: Names of the maps in game files.
 
 ## SP Maps
 
-**coming soon...**
+| **Campaign Mission**                                | File name |
+| :--- | :--- |
+| The Pilot's Gauntlet | englishclient\_sp\_training.bsp.pak000\_dir.vpk |
+| BT-7274 | englishclient\_sp\_crashsite.bsp.pak000\_dir.vpk |
+| Blood and Rust | englishclient\_sp\_sewers1.bsp.pak000\_dir.vpk |
+| Into the Abyss | englishclient\_sp\_boomtown.bsp.pak000\_dir.vpk englishclient\_sp\_boomtown\_end.bsp.pak000\_dir.vpk englishclient\_sp\_boomtown\_start.bsp.pak000\_dir.vpk |
+| Effect and Cause | englishclient\_sp\_hub\_timeshift.bsp.pak000\_dir.vpk englishclient\_sp\_timeshift\_spoke02.bsp.pak000\_dir.vpk |
+| The Beacon | englishclient\_sp\_beacon.bsp.pak000\_dir.vpk englishclient\_sp\_beacon\_spoke0.bsp.pak000\_dir.vpk |
+| Trial by Fire | englishclient\_sp\_s2s.bsp.pak000\_dir.vpk \(unsure\) |
+| The Ark | englishclient\_sp\_skyway\_v1.bsp.pak000\_dir.vpk \(unsure\) |
+| The Fold Weapon | englishclient\_sp\_tday.bsp.pak000\_dir.vpk \(unsure\) |
 

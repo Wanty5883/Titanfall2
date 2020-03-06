@@ -27,7 +27,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 ## Editing
 
-Go to this location in your extracted folder
+Navigate to this location in your extracted folder
 
 > \scripts\weapons
 
@@ -75,7 +75,7 @@ A positive "Y" value is going to move the gun up, a negative one down.
 
 [How to repack VPK files proprely?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)
 
-After following the previous link step by step:
+After closely following the previous link step by step:
 
 Rename pak000\_000.vpk _to_ **client\_mp\_common.bsp.pak000\_000.vpk**
 

@@ -23,7 +23,7 @@ You will need the Titanfall VPK Tool, the program which will allow you to open a
 
 ## Unpacking
 
-Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
+Now that these files have been backed up and everything is installed. Navigate to your game folder and open this file:
 
 > Origin Games\Titanfall2\vpk\englishclient\_mp\_\*mapname\*.bsp.pak000\_dir.vpk
 
@@ -31,7 +31,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 ## Editing
 
-Go to this location in your extracted folder
+Navigate to this location in your extracted folder
 
 > \models\vistas
 
@@ -41,11 +41,11 @@ The only working Skybox is the extraction scene named `planet_blue_sun.mdl` whic
 
 To swap skyboxes simply duplicate `planet_blue_sun.mdl` and rename the duplicate to the name of the skybox of the map. 
 
-![duplicate](../.gitbook/assets/step-1.PNG)
+![duplicate &quot;planet\_blue\_sun.mdl&quot;](../.gitbook/assets/step-1.PNG)
 
-![rename](../.gitbook/assets/step-2.PNG)
+![rename the duplicate](../.gitbook/assets/step-2.PNG)
 
-![delete original skybox](../.gitbook/assets/step-3.PNG)
+![delete the original skybox](../.gitbook/assets/step-3.PNG)
 
 #### Exceptions
 
@@ -57,11 +57,11 @@ Some maps feature an additional file in the directory.  Make sure not to swap th
 
 ![Don&apos;t touch &quot;angel\_city\_scrolling\_uv.mdl&quot;  ](../.gitbook/assets/exception-1.PNG)
 
-![&quot;timeshift\_warm\_se](../.gitbook/assets/exception-2.PNG)
+![Don&apos;t touch &quot;timeshift\_warm\_se.mdl&quot;](../.gitbook/assets/exception-2.PNG)
 
 
 
-#### What not to do
+#### What _**NOT**_ to do
 
 Removing the Files will result in the disappearing of the skybox.
 
@@ -95,20 +95,18 @@ Obviously this wasn't made to be the skybox for normal maps. So there are little
 
 ![Complex with &quot;mat\_sky\_color 0.5 0.5 0.5;mat\_sun\_color 0.5 0.5 0.5&quot;](../.gitbook/assets/desktop-screenshot-2020.03.05-17.20.31.33.png)
 
- 
-
 ## Repacking
 
 [How to repack VPK files proprely?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)
 
-After following the previous link step by step:
+After closely following the previous link step by step:
 
 Rename pak000\_000.vpk _to_ **client\_mp\_\*mapname\*.bsp.pak000\_000.vpk**
 
 Rename pak000\_dir.vpk _to_ **englishclient\_mp\_\*mapname\*.bsp.pak000\_dir.vpk**
 
 {% hint style="danger" %}
-Make sure not pay attention when renaming them because every map has it's own VPK.
+Make sure to pay attention when renaming them because every map has it's own VPK.
 {% endhint %}
 
 Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see the changed skybox!
