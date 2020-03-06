@@ -29,10 +29,12 @@ Neither the NoSkill community or the contributors to this wiki are responsible f
 * Paint.net - [Download](https://www.getpaint.net/)
   * [Gradient Mapping plug-in](https://forums.getpaint.net/topic/6265-gradient-mapping/)
   * [VTF plug-in](http://nemesis.thewavelength.net/index.php?p=50)
+  * [Animation Helper](https://pixelbyte.itch.io/paint-net-sprite-plugin)
 * Source VMT Color - [Download](https://dev.cra0kalo.com/?p=155)
 * GIMP - [Download](https://www.gimp.org/downloads/)
   * [VTF plug-in](https://www.tophattwaffle.com/downloads/gimp-vtf-plugin/)
 * [RGB Tool converter](http://hewmc.blogspot.fr/2012/12/rgb-to-percentage-converter.html)
+* Color Pick Windows - [Download & Info](https://pixelbyte.itch.io/color-pick)
 * [GIF splitter](https://ezgif.com/split)
 
 ### Driver editors
