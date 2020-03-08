@@ -23,7 +23,7 @@ description: Names of the maps in game files.
 | Exoplanet | englishclient\_mp\_thaw.bsp.pak000\_dir.vpk |
 | Forward Base Kodai | englishclient\_mp\_forwardbase\_kodai.bsp.pak000\_dir.vpk |
 | Glitch | englishclient\_mp\_glitch.bsp.pak000\_dir.vpk |
-| Homestead | englishclient\_mp\_rise.bsp.pak000\_dir.vpk |
+| Homestead | englishclient\_mp\_homestead.bsp.pak000\_dir.vpk |
 | Relic | englishclient\_mp\_relic02.bsp.pak000\_dir.vpk |
 | Rise | englishclient\_mp\_rise.bsp.pak000\_dir.vpk |
 | Wargames | englishclient\_mp\_wargames.bsp.pak000\_dir.vpk |
