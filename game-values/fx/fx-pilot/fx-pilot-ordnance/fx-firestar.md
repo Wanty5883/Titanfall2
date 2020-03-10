@@ -38,9 +38,9 @@ description: Firestar FX value
 | therm\_exp\_FLARE\_streak | Datamined value | _invalid_ | _invalid_ | _invalid_ |
 | therm\_exp\_CH\_smoke\_out2 | Datamined value | _invalid_ |  |  |
 | Z\_decal\_test | Datamined value | _invalid_ |  |  |
-| therm\_trail\_icon | Datamined value |  |  |  |
-| therm\_trail\_icon\_noz | Datamined value |  |  |  |
-| therm\_trail\_smoke | Datamined value |  |  |  |
-| therm\_trail\_smoke\_rope | Datamined value |  |  |  |
-| therm\_trail\_sparksheet | Datamined value |  |  |  |
+| therm\_trail\_icon | Datamined value | _invalid_ |  | _invalid_ |
+| therm\_trail\_icon\_noz | Datamined value |  | _invalid_ | _invalid_ |
+| therm\_trail\_smoke | Datamined value | _invalid_ | _invalid_ | _invalid_ |
+| therm\_trail\_smoke\_rope | Datamined value |  | _invalid_ | _invalid_ |
+| therm\_trail\_sparksheet | Datamined value |  | [Projectile](https://gfycat.com/giddytangiblehyracotherium) |  |
 
