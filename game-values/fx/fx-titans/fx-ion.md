@@ -32,7 +32,14 @@ description: Ion FX value
 | lasercannon\_endglow\_CH\_star | Datamined value |  |  |  |
 | lasercannon\_endglow\_CH\_streak\_blur | Datamined value |  |  |  |
 | **Laser Shot** |  |  |  |  |
-|  |  |  |  |  |
+| P\_wpn\_hand\_laser\_beam | Tracer |  |  |  |
+| P\_wpn\_hand\_laser\_beam\_BC | Tracer amped |  |  |  |
+| P\_handlaser\_charge | Charge |  |  |  |
+| muzzle\_flash | Charge attachement |  |  |  |
+| exp\_laser\_lite | Impact |  |  |  |
+| fx\_muzzle\_flash\_attach | Muzzleflash attachement |  |  |  |
+| P\_impact\_lstar\_default | Vortex absorb |  |  |  |
+| absorb | Vortex refire behavior |  |  |  |
 | **Laser Trip Wire** |  |  |  |  |
 | P\_impact\_exp\_arcball\_default | Airburst FX |  |  |  |
 | P\_wpn\_lasertrip\_beam | Beam FX |  |  |  |
