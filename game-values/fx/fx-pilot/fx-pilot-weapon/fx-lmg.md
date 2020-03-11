@@ -35,6 +35,14 @@ description: LMG FX value
 | lstar\_trail\_burn\_CH\_arc | Datamined value |  |
 | lstar\_trail\_burn\_CH\_streaks | Datamined value |  |
 | **Spitfire** |  |  |
+| P\_wpn\_tracer | Tracer |  |
+| P\_wpn\_tracer\_BC | Tracer amped |  |
+| wpn\_muzzleflash\_lmg\_FP | Muzzleflash FP |  |
+| wpn\_muzzleflash\_lmg | Muzzleflash |  |
+| muzzle\_flash | Muzzleflash attachement |  |
+| wpn\_shelleject\_rifle\_assault\_FP | Shell eject FP |  |
+| wpn\_shelleject\_rifle\_assault | Shell eject |  |
+| shell | Shell eject attachement |  |
 | wpn\_grenade\_frag\_mag |  |  |
 | wpn\_grenade\_frag\_mag\_burn | Amped |  |
 
