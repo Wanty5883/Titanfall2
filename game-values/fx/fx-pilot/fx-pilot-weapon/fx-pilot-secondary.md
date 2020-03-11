@@ -27,6 +27,19 @@ description: Secondary & Pistols FX value
 | SP\_lockon\_CH\_star | Datamined value |  |
 | SP\_lockon\_CH\_streak\_blur | Datamined value |  |
 | SP\_lockon\_CH\_streak | Datamined value |  |
+| **Wingman** |  |  |
+| P\_wpn\_tracer | Tracer |  |
+| P\_wpn\_tracer\_BC | Tracer amped |  |
+| wpn\_muzzleflash\_pistol\_FP | Muzzleflash FP |  |
+| wpn\_muzzleflash\_pistol | Muzzleflash |  |
+| wpn\_muzzleflash\_pistol\_elec\_FP | Muzzleflash FP amped |  |
+| wpn\_muzzleflash\_pistol\_elec | Muzzleflash amped |  |
+| muzzle\_flash | Muzzleflash attachement |  |
+| wpn\_vortex\_projectile\_rifle\_FP | Vortex absorb FP |  |
+| wpn\_vortex\_projectile\_rifle | Vortex absorb |  |
+| wpn\_shelleject\_pistol\_FP | Shell eject FP |  |
+| wpn\_shelleject\_pistol | Shell eject |  |
+| shell | Shell eject attachement |  |
 | **Wingman Elite** |  |  |
 | P\_wpn\_tracer | Tracer, not used |  |
 | P\_wpn\_tracer\_BC | Tracer amped |  |
