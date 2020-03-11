@@ -25,14 +25,18 @@ description: Ordnance FX value
 | P\_grenade\_arc\_proto\_first\_orange | Datamined value |  |
 | CH\_grenade\_arc\_proto\_path\_first\_orange | Datamined value |  |
 | **Electric Smoke** |  |  |
-| exp\_electric\_smoke\_grenade | Impact effect |  |
-| P\_wpn\_grenade\_smoke\_trail | Projectile effect |  |
+| exp\_electric\_smoke\_grenade | Impact |  |
+| P\_wpn\_grenade\_smoke\_trail | Projectile |  |
+| P\_wpn\_smk\_electric\_pilot | Smokescreen pilot |  |
+| P\_wpn\_smk\_electric\_pilot\_air | Smokescreen pilot air |  |
+| wpn\_vortex\_projectile\_frag\_FP | Vortex absorb FP |  |
+| wpn\_vortex\_projectile\_frag | Vortex absorb |  |
 | **Frag Grenade** |  |  |
-| bounce\_small | Bounce effect |  |
-| exp\_frag\_grenade | Impact effect | [Tracer](https://gfycat.com/fr/shockedmeanalabamamapturtle-titanfall2) |
-| wpn\_grenade\_frag | Projectile effect |  |
-| wpn\_vortex\_projectile\_frag\_FP | Vortex absorb effect |  |
-| wpn\_vortex\_projectile\_frag | Vortex absorb effect |  |
+| bounce\_small | Bounce |  |
+| exp\_frag\_grenade | Impact | [Tracer](https://gfycat.com/fr/shockedmeanalabamamapturtle-titanfall2) |
+| wpn\_grenade\_frag | Projectile |  |
+| wpn\_vortex\_projectile\_frag\_FP | Vortex absorb |  |
+| wpn\_vortex\_projectile\_frag | Vortex absorb |  |
 | **Hardcover** |  |  |
 | P\_pilot\_cover\_shield |  |  |
 | P\_pilot\_amped\_shield |  |  |
