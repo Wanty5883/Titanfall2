@@ -18,6 +18,8 @@
     * [Crosshair example](information/weapon-config-info/crosshair-modding/crosshair-example.md)
   * [Weapon Positioning](information/weapon-config-info/weapon-positioning.md)
   * [Weapon config - File name](information/weapon-config-info/weapon-config-file-name.md)
+* [Script info](information/script-info.md)
+* [Weapon script name](information/weapon-script-name.md)
 * [Color & Texture info](information/color-and-texture-info.md)
 
 ## Game Values
