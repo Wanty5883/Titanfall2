@@ -25,6 +25,7 @@
     * [Creating Animated Particles](information/textures/valve-texture-format-vtf/animated-particles.md)
     * [Modding Animated Particles - Wanty's method](information/textures/valve-texture-format-vtf/creating-animated-particles-wantys-method.md)
   * [Valve Material Type - VMT](information/textures/valve-material-type-vmt/README.md)
+    * [Shader](information/textures/valve-material-type-vmt/shader.md)
     * [Material Vector](information/textures/valve-material-type-vmt/material-vector.md)
     * [$basetexture](information/textures/valve-material-type-vmt/usdbasetexture.md)
     * [$reflectivity](information/textures/valve-material-type-vmt/usdreflectivity.md)
