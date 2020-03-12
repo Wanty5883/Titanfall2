@@ -357,3 +357,7 @@ Tightly packed interleaved high resolution image data in the format described in
 
 An example Steam independent implementation of the VTF image file format can be found in the LGPL C/C++ library [VTFLib](https://developer.valvesoftware.com/wiki/VTFLib).
 
+{% hint style="info" %}
+Source: [https://developer.valvesoftware.com/wiki/Valve\_Texture\_Format](https://developer.valvesoftware.com/wiki/Valve_Texture_Format)
+{% endhint %}
+
