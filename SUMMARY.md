@@ -20,18 +20,22 @@
   * [Weapon config - File name](information/weapon-config-info/weapon-config-file-name.md)
 * [Script info](information/script-info.md)
 * [Textures](information/textures/README.md)
-  * [Valve Texture Format - VTF](information/textures/valve-texture-format-vtf.md)
+  * [Valve Texture Format - VTF](information/textures/valve-texture-format-vtf/README.md)
+    * [Creating a Material](information/textures/valve-texture-format-vtf/creating-a-material.md)
+    * [Creating Animated Particles](information/textures/valve-texture-format-vtf/animated-particles.md)
   * [Valve Material Type - VMT](information/textures/valve-material-type-vmt/README.md)
     * [Material Vector](information/textures/valve-material-type-vmt/material-vector.md)
     * [$basetexture](information/textures/valve-material-type-vmt/usdbasetexture.md)
     * [$reflectivity](information/textures/valve-material-type-vmt/usdreflectivity.md)
+  * [Colors](information/textures/colors/README.md)
+    * [Color & Texture info](information/textures/colors/color-and-texture-info.md)
   * [Image File Format](information/textures/image-file-format/README.md)
     * [Truevision Graphics Adapter - TGA](information/textures/image-file-format/truevision-graphics-adapter-tga.md)
-  * [Animated Particles](information/textures/animated-particles.md)
-  * [MIP Mapping](information/textures/mip-mapping.md)
   * [Cube Mapping](information/textures/cube-mapping.md)
-  * [Colors](information/textures/colors.md)
-  * [Color & Texture info](information/textures/color-and-texture-info.md)
+  * [MIP Mapping](information/textures/mip-mapping.md)
+  * [Skybox Basics](information/textures/skybox-basics/README.md)
+    * [2D Skybox](information/textures/skybox-basics/2d-skybox.md)
+    * [3D Skybox](information/textures/skybox-basics/3d-skybox.md)
 
 ## Game Values
 
@@ -141,7 +145,7 @@
 ## MAPS
 
 * [Maps - File Names](maps/maps-file-names.md)
-* [Skyboxes](maps/skyboxes.md)
+* [Maps - Skyboxes](maps/skyboxes.md)
 
 ## Mods
 
