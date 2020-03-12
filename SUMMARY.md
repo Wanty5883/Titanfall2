@@ -4,7 +4,7 @@
 * [Contact](contact.md)
 * [Contributors](contributors.md)
 
-## How to start modding?
+## How to start VPK modding? <a id="how-to-start-modding"></a>
 
 * [Modding introduction](how-to-start-modding/modding-introduction.md)
 * [How to backup, extract & repack](how-to-start-modding/how-to-backup-extract-and-repack.md)
