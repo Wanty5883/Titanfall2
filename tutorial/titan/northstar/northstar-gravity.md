@@ -8,7 +8,7 @@ Any suggestion are welcome, you can submit your request / idea on NS Discord or 
 
 ### Demo
 
-[![Northstar - Gravity](https://github.com/Wanty5883/Titanfall2/raw/master/picture/northstar%20-%20gravity%20YT.PNG?raw=true)](https://www.youtube.com/watch?v=A2ke8bzzi30)
+{% embed url="https://www.youtube.com/watch?v=A2ke8bzzi30" %}
 
 ## Railgun
 

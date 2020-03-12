@@ -1,6 +1,6 @@
 # Valve Texture Format - VTF
 
-The **Valve Texture Format \(VTF\)** is the propietary texture format used by the Source engine. VTF files are generally referenced in a material instead of being accessed directly, which almlows re-use in different ways.
+The **Valve Texture Format \(VTF\)** is the propietary [texture ](./)format used by the [Source ](https://developer.valvesoftware.com/wiki/Source)engine. VTF files are generally referenced in a material instead of being accessed directly, which almlows re-use in different ways.
 
 VTF files can be created from TGA images using the Source SDK Tool VTEX, or from most common image formats with [third-party tools](../../how-to-start-modding/modding-tools.md#vtf-and-vmt). Both textures and materials are stored in subfolders of `game_dir/materials/`.
 
@@ -23,9 +23,11 @@ VTF 7.3 added an extensible "resource data" system. Anything can be added, but S
 * A **CRC** value, for detecting data corruption.
 * An **U/V** LOD control. This is the highest mipmap which should be loaded when game's Texture Detail setting is "High" \(`mat_picmip 0`\). An U LOD Control value of 11 selects the mipmap which is 2048 pixels \(211\) across.
 
-  **Note:**Since users are currently only presented with one texture detail setting above High, there is little point setting this value to anything except 50% or 100% of your texture's size.
+{% hint style="info" %}
+Since users are currently only presented with one texture detail setting above High, there is little point setting this value to anything except 50% or 100% of your texture's size.
+{% endhint %}
 
-* **Animated particle sheet** data.
+* \*\*\*\*[**Animated particle sheet**](animated-particles.md) data.
 * Expanded texture settings. This is a collection of 32 flags, none of which are in use by Valve. Unlike the built-in VTF flags these can be defined on a game-by-game basis.
 
 ## Image data formats

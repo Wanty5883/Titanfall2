@@ -45,8 +45,9 @@ Open the file _`lstar_heat_charge.vmt`_ and refer to the different info provided
 
 ### Example
 
-I made a little video that show off different heat color [here](https://www.youtube.com/watch?v=XskIpdwQg9s)  
-An other example in gif format [here](https://gfycat.com/fr/gifs/detail/fastspryaustrianpinscher)
+{% embed url="https://www.youtube.com/watch?v=XskIpdwQg9s" %}
+
+{% embed url="https://gfycat.com/fastspryaustrianpinscher" %}
 
 ## Repacking <a id="repacking"></a>
 

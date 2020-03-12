@@ -8,7 +8,7 @@ Any suggestion are welcome, you can submit your request / idea on NS Discord or 
 
 ### Demo
 
-[![Northstar - Gravity](https://github.com/Wanty5883/Titanfall2/raw/master/picture/northstar%20-%20thermite.PNG?raw=true)](https://youtu.be/oYTL5fdoAEo)
+{% embed url="https://www.youtube.com/watch?v=oYTL5fdoAEo" %}
 
 ## Railgun
 

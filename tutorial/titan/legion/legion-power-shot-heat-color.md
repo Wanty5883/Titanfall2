@@ -35,7 +35,7 @@ Open the file _`gatling_spin_glow.vmt`_ and find this string _`"$color2" "[1 1 1
 
 ### Example
 
-[Here](https://gfycat.com/ShallowEasyAmericanrobin) is a little example.
+{% embed url="https://gfycat.com/shalloweasyamericanrobin" %}
 
 ## Repacking
 

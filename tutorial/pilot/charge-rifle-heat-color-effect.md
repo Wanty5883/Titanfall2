@@ -45,7 +45,7 @@ Open the file _`defender_charge.vmt`_ and refer to the different info provided
 
 ### Example
 
-[Here](https://gfycat.com/SomberUnrulyCricket) little example.
+{% embed url="https://gfycat.com/somberunrulycricket" %}
 
 ## Repacking <a id="repacking"></a>
 

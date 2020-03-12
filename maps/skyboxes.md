@@ -81,6 +81,8 @@ Obviously this wasn't made to be the skybox for normal maps. So there are little
 
 **Note that the old scene lights are still presents and might look a little out of place on some maps.**
 
+{% embed url="https://gfycat.com/alldecisivefinwhale" %}
+
 ![Kodai with &quot;mat\_sky\_color 0.5 0.5 0.5;mat\_sun\_color 0.5 0.5 0.5&quot;](../.gitbook/assets/desktop-screenshot-2020.03.05-17.44.46.45.png)
 
 ![Glitch with&quot;mat\_sky\_color 0.5 0.5 0.5;mat\_sun\_color 0.5 0.5 0.5&quot;](../.gitbook/assets/desktop-screenshot-2020.03.05-17.46.24.61.png)

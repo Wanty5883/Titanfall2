@@ -35,7 +35,7 @@ Open the file _`titan_sword_block_fx.vmt`_ and find this string _`"$color2" "[1 
 
 ### Example
 
-[Here](https://gfycat.com/LivelyEqualDevilfish) is a little example.
+{% embed url="https://gfycat.com/livelyequaldevilfish" %}
 
 ## Repacking
 

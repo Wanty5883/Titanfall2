@@ -44,7 +44,7 @@ I wouldn’t recommend you use pure colour \(pure pink is 255 0 255 for example\
 
 ### Example
 
-[Here](https://gfycat.com/fr/gifs/detail/uniteddecimaleelelephant) is a little example.
+{% embed url="https://gfycat.com/uniteddecimaleelelephant" %}
 
 ## Repacking
 

@@ -92,7 +92,7 @@ $layercolor2 "[2 0 2]" //Pink
 
 ### Example
 
-[Here](https://gfycat.com/fr/gifs/detail/sickflashygermanshepherd)
+{% embed url="https://gfycat.com/sickflashygermanshepherd" %}
 
 ## Repacking <a id="repacking"></a>
 

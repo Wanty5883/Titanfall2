@@ -39,9 +39,9 @@ For editing Northstar railgun heat effect, go to this location.
 
 Open the file _`titan_sniper_charge_fx.vmt`_ and refer to the different info provided
 
-#### Northstar Railgun example
+#### Example
 
-[Here](https://gfycat.com/UnlawfulCompetentFairybluebird) a little example
+{% embed url="https://gfycat.com/unlawfulcompetentfairybluebird" %}
 
 ## Repacking <a id="repacking"></a>
 

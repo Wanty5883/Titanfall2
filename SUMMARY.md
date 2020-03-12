@@ -22,6 +22,8 @@
 * [Textures](information/textures/README.md)
   * [Valve Texture Format - VTF](information/textures/valve-texture-format-vtf.md)
   * [Valve Material Type - VMT](information/textures/valve-material-type-vmt.md)
+  * [Truevision Graphics Adapter - TGA](information/textures/truevision-graphics-adapter-tga.md)
+  * [Animated Particles](information/textures/animated-particles.md)
   * [Color & Texture info](information/textures/color-and-texture-info.md)
 
 ## Game Values
