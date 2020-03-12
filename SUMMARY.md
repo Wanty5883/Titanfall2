@@ -23,6 +23,7 @@
   * [Valve Texture Format - VTF](information/textures/valve-texture-format-vtf/README.md)
     * [Creating a Material](information/textures/valve-texture-format-vtf/creating-a-material.md)
     * [Creating Animated Particles](information/textures/valve-texture-format-vtf/animated-particles.md)
+    * [Modding Animated Particles - Wanty's method](information/textures/valve-texture-format-vtf/creating-animated-particles-wantys-method.md)
   * [Valve Material Type - VMT](information/textures/valve-material-type-vmt/README.md)
     * [Material Vector](information/textures/valve-material-type-vmt/material-vector.md)
     * [$basetexture](information/textures/valve-material-type-vmt/usdbasetexture.md)
