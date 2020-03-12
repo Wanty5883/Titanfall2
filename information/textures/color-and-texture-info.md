@@ -16,7 +16,7 @@ This parameter sets color for some textures, I should mention this isn't the cas
 $layercolor2      "[3 0 3]"
 ```
 
-_`$layercolor2`_ use rgb values but not 0 – 255. When you use brackets, Source interprets the values contained in the brackets as rgb in %. If you are not familiar with rgb values I recommend you take a look at [SourceVMTColor](https://wanty5883.gitbook.io/titanfall2/information/modding-tools), this tool make things lot easier. If you are familiar with rgb values 255 become 1 and 0 still 0. For example this pink \[255 0 255\] become \[1 0 1\] in percent. \[1 1 1\] is pure white and \[0 0 0\] black.
+_`$layercolor2`_ use rgb values but not 0 – 255. When you use brackets, Source interprets the values contained in the brackets as rgb in %. If you are not familiar with rgb values I recommend you take a look at [SourceVMTColor](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools#graphics-animation-color), this tool make things lot easier. If you are familiar with rgb values 255 become 1 and 0 still 0. For example this pink \[255 0 255\] become \[1 0 1\] in percent. \[1 1 1\] is pure white and \[0 0 0\] black.
 
 You can get more brightness using value up than 1. For heat color I would recommend to use value between 1 and 5. More is too much in game \(personal preference\).
 
