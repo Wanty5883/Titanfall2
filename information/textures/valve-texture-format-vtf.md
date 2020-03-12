@@ -10,7 +10,7 @@ VTF files can be created from TGA images using the Source SDK Tool VTEX, or from
 
 * An environment map is a six-faced **cube map**
 * A volumetric texture is a texture with depth, where each frame is a "layer" which are layered in the third dimension. So a 16x16x16 volumetric texture has 16 separate 16x16 textures stacked to give depth. This format is used internally by Source, and you shouldn't have any need to actually create one yourself.
-* For each frame and face, the VTF file contains both the basic original source-image data \(pixel map\) and a series of **mipmaps** used for rendering the texture over varying distances. Because each successive mipmap is exactly 1/2 the dimension \(height and width\) of the previous one, the source-image dimensions must be a multiple of 4. Although the source-image may be rectangular, square mipmaps are stored more efficiently in the VTF.
+* For each frame and face, the VTF file contains both the basic original source-image data \(pixel map\) and a series of [**mipmaps** ](mip-mapping.md)used for rendering the texture over varying distances. Because each successive mipmap is exactly 1/2 the dimension \(height and width\) of the previous one, the source-image dimensions must be a multiple of 4. Although the source-image may be rectangular, square mipmaps are stored more efficiently in the VTF.
 * Start frame \(for animations\)
 * **Bump map** scale
 * A **Reflectivity** value for use by **VRAD**

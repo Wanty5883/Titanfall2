@@ -24,6 +24,8 @@
   * [Valve Material Type - VMT](information/textures/valve-material-type-vmt.md)
   * [Truevision Graphics Adapter - TGA](information/textures/truevision-graphics-adapter-tga.md)
   * [Animated Particles](information/textures/animated-particles.md)
+  * [MIP Mapping](information/textures/mip-mapping.md)
+  * [Cube Mapping](information/textures/cube-mapping.md)
   * [Color & Texture info](information/textures/color-and-texture-info.md)
 
 ## Game Values
