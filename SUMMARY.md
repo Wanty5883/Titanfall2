@@ -21,11 +21,16 @@
 * [Script info](information/script-info.md)
 * [Textures](information/textures/README.md)
   * [Valve Texture Format - VTF](information/textures/valve-texture-format-vtf.md)
-  * [Valve Material Type - VMT](information/textures/valve-material-type-vmt.md)
-  * [Truevision Graphics Adapter - TGA](information/textures/truevision-graphics-adapter-tga.md)
+  * [Valve Material Type - VMT](information/textures/valve-material-type-vmt/README.md)
+    * [Material Vector](information/textures/valve-material-type-vmt/material-vector.md)
+    * [$basetexture](information/textures/valve-material-type-vmt/usdbasetexture.md)
+    * [$reflectivity](information/textures/valve-material-type-vmt/usdreflectivity.md)
+  * [Image File Format](information/textures/image-file-format/README.md)
+    * [Truevision Graphics Adapter - TGA](information/textures/image-file-format/truevision-graphics-adapter-tga.md)
   * [Animated Particles](information/textures/animated-particles.md)
   * [MIP Mapping](information/textures/mip-mapping.md)
   * [Cube Mapping](information/textures/cube-mapping.md)
+  * [Colors](information/textures/colors.md)
   * [Color & Texture info](information/textures/color-and-texture-info.md)
 
 ## Game Values
