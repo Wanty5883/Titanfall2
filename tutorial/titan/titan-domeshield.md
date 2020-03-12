@@ -71,7 +71,7 @@ If the texture is either too bright or too dark then you should try decreasing o
 
 ### Example
 
-![domeshield texture replaced with doge](.gitbook/assets/titanfall-2-screenshot-2020.03.11-19.41.56.68.png)
+![domeshield texture replaced with doge](../../.gitbook/assets/titanfall-2-screenshot-2020.03.11-19.41.56.68.png)
 
 ## Repacking
 

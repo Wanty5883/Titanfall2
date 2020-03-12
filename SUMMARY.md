@@ -143,6 +143,7 @@
   * [Charge rifle - Heat color effect](tutorial/pilot/charge-rifle-heat-color-effect.md)
   * [LSTAR - Heat color](tutorial/pilot/lstar-heat-color.md)
 * [Titan](tutorial/titan/README.md)
+  * [Titan Domeshield](tutorial/titan/titan-domeshield.md)
   * [Ion](tutorial/titan/ion/README.md)
     * [Splitter rifle heat effect](tutorial/titan/ion/ion-splitter-rifle-heat-effect.md)
     * [Vortex shield color](tutorial/titan/ion/ion-vortex-shield-color.md)
@@ -158,5 +159,4 @@
 * [Misc](tutorial/misc/README.md)
   * [Marvin - Chest screen](tutorial/misc/marvin-chest-screen.md)
   * [Cable - Zipline](tutorial/misc/cable-zipline.md)
-* [Titan Domeshield](titan-domeshield.md)
 
