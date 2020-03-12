@@ -19,9 +19,9 @@
   * [Weapon Positioning](information/weapon-config-info/weapon-positioning.md)
   * [Weapon config - File name](information/weapon-config-info/weapon-config-file-name.md)
 * [Script info](information/script-info.md)
-* [Weapon script name](information/weapon-script-name.md)
 * [Textures](information/textures/README.md)
   * [Valve Texture Format - VTF](information/textures/valve-texture-format-vtf.md)
+  * [Valve Material Type - VMT](information/textures/valve-material-type-vmt.md)
   * [Color & Texture info](information/textures/color-and-texture-info.md)
 
 ## Game Values
