@@ -15,7 +15,7 @@ Any image file can be used as a texture, so long as both of its dimensions \(hei
 Different classes of object have different standard resolutions \(e.g. character models' are very high\). Check Valve's choices in `source materials.gcf` with [GCFScape](https://developer.valvesoftware.com/wiki/GCFScape) if you are ever confused.![](https://developer.valvesoftware.com/w/images/c/cc/Note.png) ****
 
 {% hint style="info" %}
-**Note:**Texture source files should be saved in a lossless format like [TGA](../image-file-format/truevision-graphics-adapter-tga.md) pre-compile, to prevent unnecessary loss in quality.
+**Note:**Texture source files should be saved in a lossless format like [TGA](../../image-file-format/truevision-graphics-adapter-tga.md) pre-compile, to prevent unnecessary loss in quality.
 {% endhint %}
 
 ## **Converting the texture**
@@ -113,7 +113,7 @@ With a shader chosen you're onto parameters \(also called commands\). There are 
 * [`$basetexture`](../usdbasetexture.md)
 * [`$surfaceprop`](https://developer.valvesoftware.com/wiki/$surfaceprop)
 * [`$envmap`](https://developer.valvesoftware.com/wiki/$envmap)
-* [`$bumpmap`](https://developer.valvesoftware.com/wiki/$bumpmap)
+* [`$bumpmap`](../bump-map/usdbumpmap.md)
 * [`$detail`](https://developer.valvesoftware.com/wiki/$detail)
 * [`$selfillum`](https://developer.valvesoftware.com/wiki/$selfillum)
 * [`$model`](https://developer.valvesoftware.com/wiki/$model_%28VMT%29)
