@@ -2,7 +2,7 @@
 description: Shell eject FX values
 ---
 
-# FX -Shell Eject
+# FX - Shell Eject
 
 | FX Value | Note | Shell Eject |
 | :--- | :--- | :--- |
