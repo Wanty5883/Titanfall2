@@ -6,7 +6,7 @@ NoSkill Community [https://discord.gg/sEgmTKg](https://discord.gg/sEgmTKg) perma
 
 ## How to ask help
 
-The NoSkill discord is **not a support discord for modding** or for the ones **who don't read given information**. 
+The NoSkill discord is **not a support discord for modding** for the ones **who don't read given information**. 
 
 {% hint style="danger" %}
 This is a good example how to **not** ask help:
@@ -14,6 +14,15 @@ This is a good example how to **not** ask help:
 > JustaNub: Hey  
 > JustaNub: I don't find R97 crosshair
 
+> JustaNub: Hey  
+> JustaNub: I want this
+
 **Just no.. Spend 5 more minutes reading, you will find what you are looking for.**
 {% endhint %}
+
+{% hint style="warning" %}
+When you ask your question, display the fact that you made some research, explain with details, screenshots, videos if necessary. The more information you provide, the better it is!
+{% endhint %}
+
+Also make sure to make your message readable, use proper code block with syntax highlight is you share code, etc. This will help establish that you're not being a lazy sponge and wasting people's time. Better yet, display what you have learned from doing these things. We like answering questions for people who have demonstrated they can learn from the answers
 

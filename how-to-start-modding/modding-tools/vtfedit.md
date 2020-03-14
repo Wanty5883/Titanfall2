@@ -20,3 +20,7 @@ Other features include the ability to create [normal maps](https://developer.val
 
 ![](../../.gitbook/assets/vtfedit2.png)
 
+{% hint style="info" %}
+Source: [https://developer.valvesoftware.com/wiki/VTFEdit](https://developer.valvesoftware.com/wiki/VTFEdit)
+{% endhint %}
+
