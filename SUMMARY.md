@@ -160,6 +160,7 @@
   * [FX - Raw Data](game-values/fx/fx-raw-data/README.md)
     * [FX - Light](game-values/fx/fx-raw-data/fx-light.md)
     * [FX -Tracers](game-values/fx/fx-raw-data/fx-tracers.md)
+    * [FX -Shell Eject](game-values/fx/fx-raw-data/fx-shell-eject.md)
     * [FX - Projectile Plasma](game-values/fx/fx-raw-data/fx-projectile-plasma.md)
     * [FX - Reload](game-values/fx/fx-raw-data/fx-reload.md)
 * [Sound](game-values/sound/README.md)
