@@ -63,5 +63,5 @@ Make sure not to keep the VPK tool open while executing this script, as this wil
 
 **Don't forget to add the correct game directory by replacing** _`<ORIGINGAMES>`_ with e.g. `C:\Program Files\Origin\Library` This is the directory in which your origin games are downloaded. Not the directory containing Titanfall 2 files. \(Mine is `H:\Orishit\Games`\)
 
-{% page-ref page="modding-tools.md" %}
+{% page-ref page="modding-tools/" %}
 

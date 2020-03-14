@@ -8,7 +8,8 @@
 
 * [Modding introduction](how-to-start-modding/modding-introduction.md)
 * [How to backup, extract & repack](how-to-start-modding/how-to-backup-extract-and-repack.md)
-* [Modding tools](how-to-start-modding/modding-tools.md)
+* [Modding tools](how-to-start-modding/modding-tools/README.md)
+  * [VTFEdit](how-to-start-modding/modding-tools/vtfedit.md)
 
 ## Information
 
@@ -24,21 +25,22 @@
     * [Creating a Material](information/textures/valve-texture-format-vtf/creating-a-material.md)
     * [Creating Animated Particles](information/textures/valve-texture-format-vtf/animated-particles.md)
     * [Modding Animated Particles - Wanty's method](information/textures/valve-texture-format-vtf/creating-animated-particles-wantys-method.md)
-    * [Albedo](information/textures/valve-texture-format-vtf/albedo.md)
-  * [Valve Material Type - VMT](information/textures/valve-material-type-vmt/README.md)
-    * [Shader](information/textures/valve-material-type-vmt/shader.md)
-    * [Material Vector](information/textures/valve-material-type-vmt/material-vector.md)
-    * [$basetexture](information/textures/valve-material-type-vmt/usdbasetexture.md)
-    * [$reflectivity](information/textures/valve-material-type-vmt/usdreflectivity.md)
-  * [Colors](information/textures/colors/README.md)
-    * [Color & Texture info](information/textures/colors/color-and-texture-info.md)
+  * [Valve Material Type - VMT](information/textures/valve-material-type-vmt.md)
   * [Image File Format](information/textures/image-file-format/README.md)
     * [Truevision Graphics Adapter - TGA](information/textures/image-file-format/truevision-graphics-adapter-tga.md)
+  * [Colors](information/textures/colors/README.md)
+    * [Color & Texture info](information/textures/colors/color-and-texture-info.md)
+  * [Albedo](information/textures/albedo.md)
+  * [Bump map](information/textures/bump-map.md)
   * [Cube Mapping](information/textures/cube-mapping.md)
+  * [Material Vector](information/textures/material-vector.md)
   * [MIP Mapping](information/textures/mip-mapping.md)
+  * [Shader](information/textures/shader.md)
   * [Skybox Basics](information/textures/skybox-basics/README.md)
     * [2D Skybox](information/textures/skybox-basics/2d-skybox.md)
     * [3D Skybox](information/textures/skybox-basics/3d-skybox.md)
+  * [$reflectivity](information/textures/usdreflectivity.md)
+  * [$basetexture](information/textures/usdbasetexture.md)
 
 ## Game Values
 
