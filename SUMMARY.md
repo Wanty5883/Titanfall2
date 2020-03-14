@@ -24,6 +24,7 @@
     * [Creating a Material](information/textures/valve-texture-format-vtf/creating-a-material.md)
     * [Creating Animated Particles](information/textures/valve-texture-format-vtf/animated-particles.md)
     * [Modding Animated Particles - Wanty's method](information/textures/valve-texture-format-vtf/creating-animated-particles-wantys-method.md)
+    * [Albedo](information/textures/valve-texture-format-vtf/albedo.md)
   * [Valve Material Type - VMT](information/textures/valve-material-type-vmt/README.md)
     * [Shader](information/textures/valve-material-type-vmt/shader.md)
     * [Material Vector](information/textures/valve-material-type-vmt/material-vector.md)
