@@ -10,7 +10,8 @@
 * [How to backup, extract & repack](how-to-start-modding/how-to-backup-extract-and-repack.md)
 * [Modding tools](how-to-start-modding/modding-tools/README.md)
   * [VTFEdit](how-to-start-modding/modding-tools/vtfedit.md)
-  * [Vtex](how-to-start-modding/modding-tools/vtex.md)
+  * [Vtex](how-to-start-modding/modding-tools/vtex/README.md)
+    * [Vtex - Compile Parameters](how-to-start-modding/modding-tools/vtex/vtex-compile-parameters.md)
 
 ## Information
 
@@ -34,17 +35,47 @@
   * [$reflectivity](information/textures/usdreflectivity.md)
   * [$basetexture](information/textures/usdbasetexture.md)
 * [Image File Format](information/image-file-format/README.md)
-  * [TGA - Truevision Graphics Adapter](information/image-file-format/truevision-graphics-adapter-tga.md)
   * [PSD - Photoshop Document](information/image-file-format/psd-photoshop-document.md)
+  * [TGA - Truevision Graphics Adapter](information/image-file-format/truevision-graphics-adapter-tga.md)
+  * [TXT - Text file](information/image-file-format/txt-text-file.md)
 
 ## Modding
 
-* [Weapon config info](weapon-config-info/README.md)
-  * [Crosshair modding](weapon-config-info/crosshair-modding/README.md)
-    * [Batch crosshair modding](weapon-config-info/crosshair-modding/batch-crosshair-modding.md)
-    * [Crosshair example](weapon-config-info/crosshair-modding/crosshair-example.md)
-  * [Weapon Positioning](weapon-config-info/weapon-positioning.md)
-  * [Weapon config - File name](weapon-config-info/weapon-config-file-name.md)
+* [Weapon](modding/weapon-config-info/README.md)
+  * [File name - Weapon config](modding/weapon-config-info/weapon-config-file-name.md)
+  * [File name - Weapon script](modding/weapon-config-info/file-name-weapon-script.md)
+  * [Crosshair modding](modding/weapon-config-info/crosshair-modding/README.md)
+    * [Batch crosshair modding](modding/weapon-config-info/crosshair-modding/batch-crosshair-modding.md)
+    * [Crosshair example](modding/weapon-config-info/crosshair-modding/crosshair-example.md)
+  * [Weapon Positioning](modding/weapon-config-info/weapon-positioning.md)
+* [Pilots](modding/pilots/README.md)
+  * [Models - Pilot class](modding/pilots/pilot-class.md)
+  * [LSTAR - Heat color](modding/pilots/lstar-heat-color.md)
+  * [Charge rifle - Heat color effect](modding/pilots/charge-rifle-heat-color-effect.md)
+* [Titans](modding/titans/README.md)
+  * [Titan Domeshield](modding/titans/titan-domeshield.md)
+  * [Northstar](modding/titans/northstar/README.md)
+    * [Cable - Grapple & Tether Trap](modding/titans/northstar/cable-grapple-and-tether-trap.md)
+    * [Railgun heat color](modding/titans/northstar/northstar-railgun-heat-color.md)
+    * [Northstar - Gravity](modding/titans/northstar/northstar-gravity.md)
+    * [Northstar - Thermite](modding/titans/northstar/northstar-thermite.md)
+  * [Ronin](modding/titans/ronin/README.md)
+    * [Sword block color](modding/titans/ronin/ronin-sword-block-color.md)
+  * [Legion](modding/titans/legion/README.md)
+    * [Power shot heat color](modding/titans/legion/legion-power-shot-heat-color.md)
+  * [Ion](modding/titans/ion/README.md)
+    * [Splitter rifle heat effect](modding/titans/ion/ion-splitter-rifle-heat-effect.md)
+    * [Vortex shield color](modding/titans/ion/ion-vortex-shield-color.md)
+* [Maps](modding/maps/README.md)
+  * [Maps - Skyboxes](modding/maps/skyboxes.md)
+  * [Maps - File Names](modding/maps/maps-file-names.md)
+* [User Interface](modding/user-interface/README.md)
+  * [Text modding r1\_language](modding/user-interface/text-modding-r1_language.md)
+  * [Menus](modding/user-interface/menus/README.md)
+    * [Network - Menus](modding/user-interface/menus/network-menus.md)
+* [Misc](modding/misc/README.md)
+  * [Marvin - Chest screen](modding/misc/marvin-chest-screen.md)
+  * [Cable - Zipline](modding/misc/cable-zipline.md)
 
 ## Game Values
 
@@ -143,44 +174,7 @@
     * [Private match](game-values/ig-icon/menu/private-match.md)
     * [Scoreboard](game-values/ig-icon/menu/scoreboard.md)
 
-## User Interface
-
-* [Network - Menus](user-interface/network-menus.md)
-
-## Text
-
-* [Text modding r1\_language](text/text-modding-r1_language.md)
-
-## MAPS
-
-* [Maps - File Names](maps/maps-file-names.md)
-* [Maps - Skyboxes](maps/skyboxes.md)
-
 ## Mods
 
 * [Plastic Mode](mods/plastic-mode.md)
-
-## Tutorial
-
-* [Pilot](tutorial/pilot/README.md)
-  * [Models - Pilot class](tutorial/pilot/pilot-class.md)
-  * [Charge rifle - Heat color effect](tutorial/pilot/charge-rifle-heat-color-effect.md)
-  * [LSTAR - Heat color](tutorial/pilot/lstar-heat-color.md)
-* [Titan](tutorial/titan/README.md)
-  * [Titan Domeshield](tutorial/titan/titan-domeshield.md)
-  * [Ion](tutorial/titan/ion/README.md)
-    * [Splitter rifle heat effect](tutorial/titan/ion/ion-splitter-rifle-heat-effect.md)
-    * [Vortex shield color](tutorial/titan/ion/ion-vortex-shield-color.md)
-  * [Legion](tutorial/titan/legion/README.md)
-    * [Power shot heat color](tutorial/titan/legion/legion-power-shot-heat-color.md)
-  * [Ronin](tutorial/titan/ronin/README.md)
-    * [Sword block color](tutorial/titan/ronin/ronin-sword-block-color.md)
-  * [Northstar](tutorial/titan/northstar/README.md)
-    * [Cable - Grapple & Tether Trap](tutorial/titan/northstar/cable-grapple-and-tether-trap.md)
-    * [Railgun heat color](tutorial/titan/northstar/northstar-railgun-heat-color.md)
-    * [Northstar - Gravity](tutorial/titan/northstar/northstar-gravity.md)
-    * [Northstar - Thermite](tutorial/titan/northstar/northstar-thermite.md)
-* [Misc](tutorial/misc/README.md)
-  * [Marvin - Chest screen](tutorial/misc/marvin-chest-screen.md)
-  * [Cable - Zipline](tutorial/misc/cable-zipline.md)
 
