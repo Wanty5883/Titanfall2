@@ -10,24 +10,16 @@
 * [How to backup, extract & repack](how-to-start-modding/how-to-backup-extract-and-repack.md)
 * [Modding tools](how-to-start-modding/modding-tools/README.md)
   * [VTFEdit](how-to-start-modding/modding-tools/vtfedit.md)
+  * [Vtex](how-to-start-modding/modding-tools/vtex.md)
 
 ## Information
 
-* [Weapon config info](information/weapon-config-info/README.md)
-  * [Crosshair modding](information/weapon-config-info/crosshair-modding/README.md)
-    * [Batch crosshair modding](information/weapon-config-info/crosshair-modding/batch-crosshair-modding.md)
-    * [Crosshair example](information/weapon-config-info/crosshair-modding/crosshair-example.md)
-  * [Weapon Positioning](information/weapon-config-info/weapon-positioning.md)
-  * [Weapon config - File name](information/weapon-config-info/weapon-config-file-name.md)
-* [Script info](information/script-info.md)
 * [Textures](information/textures/README.md)
   * [Valve Texture Format - VTF](information/textures/valve-texture-format-vtf/README.md)
     * [Creating a Material](information/textures/valve-texture-format-vtf/creating-a-material.md)
     * [Creating Animated Particles](information/textures/valve-texture-format-vtf/animated-particles.md)
     * [Modding Animated Particles - Wanty's method](information/textures/valve-texture-format-vtf/creating-animated-particles-wantys-method.md)
   * [Valve Material Type - VMT](information/textures/valve-material-type-vmt.md)
-  * [Image File Format](information/textures/image-file-format/README.md)
-    * [Truevision Graphics Adapter - TGA](information/textures/image-file-format/truevision-graphics-adapter-tga.md)
   * [Colors](information/textures/colors/README.md)
     * [Color & Texture info](information/textures/colors/color-and-texture-info.md)
   * [Albedo](information/textures/albedo.md)
@@ -41,6 +33,18 @@
     * [3D Skybox](information/textures/skybox-basics/3d-skybox.md)
   * [$reflectivity](information/textures/usdreflectivity.md)
   * [$basetexture](information/textures/usdbasetexture.md)
+* [Image File Format](information/image-file-format/README.md)
+  * [TGA - Truevision Graphics Adapter](information/image-file-format/truevision-graphics-adapter-tga.md)
+  * [PSD - Photoshop Document](information/image-file-format/psd-photoshop-document.md)
+
+## Modding
+
+* [Weapon config info](weapon-config-info/README.md)
+  * [Crosshair modding](weapon-config-info/crosshair-modding/README.md)
+    * [Batch crosshair modding](weapon-config-info/crosshair-modding/batch-crosshair-modding.md)
+    * [Crosshair example](weapon-config-info/crosshair-modding/crosshair-example.md)
+  * [Weapon Positioning](weapon-config-info/weapon-positioning.md)
+  * [Weapon config - File name](weapon-config-info/weapon-config-file-name.md)
 
 ## Game Values
 
