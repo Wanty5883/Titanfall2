@@ -153,6 +153,7 @@
       * [FX - Beacon](game-values/fx/fx-misc-and-unknown/fx-env/fx-beacon.md)
       * [FX - Holo Map](game-values/fx/fx-misc-and-unknown/fx-env/fx-holo-map.md)
       * [FX - Orbital Strike](game-values/fx/fx-misc-and-unknown/fx-env/fx-orbital-strike.md)
+    * [FX - Harvester](game-values/fx/fx-misc-and-unknown/fx-harvester.md)
     * [FX - Skybox](game-values/fx/fx-misc-and-unknown/fx-skybox/README.md)
       * [FX - Skybox 1K](game-values/fx/fx-misc-and-unknown/fx-skybox/fx-skybox-1k.md)
       * [FX - Skybox Carrier](game-values/fx/fx-misc-and-unknown/fx-skybox/fx-skybox-carrier.md)
