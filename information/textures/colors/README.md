@@ -1,11 +1,11 @@
-# Colors
+# Texture & Colors
 
 ## RGB
 
-**RGB** stands for **r**ed, **g**reen, **b**lue. In a [TGA](../image-file-format/truevision-graphics-adapter-tga.md) or [VTF](../valve-texture-format-vtf/), each pixel of the image is defined by three [bytes](https://developer.valvesoftware.com/wiki/Byte) that define how much red, green, and blue light are added together to produce the color in that pixel. Textures can also have a fourth channel, called [alpha](https://developer.valvesoftware.com/wiki/Alpha), which can store other information for each pixel \(usually opacity\).
+**RGB** stands for **r**ed, **g**reen, **b**lue. In a [TGA](../../image-file-format/truevision-graphics-adapter-tga.md) or [VTF](../valve-texture-format-vtf/), each pixel of the image is defined by three [bytes](https://developer.valvesoftware.com/wiki/Byte) that define how much red, green, and blue light are added together to produce the color in that pixel. Textures can also have a fourth channel, called [alpha](https://developer.valvesoftware.com/wiki/Alpha), which can store other information for each pixel \(usually opacity\).
 
 * The three or four separate values for each color are called 'channels'. [Shaders](https://developer.valvesoftware.com/wiki/Shader) in Source can manipulate each channel individually to produce color effects.
-* Within [materials](../valve-material-type-vmt/), an RGB colour is a [material vector](../valve-material-type-vmt/material-vector.md).
+* Within [materials](../valve-material-type-vmt.md), an RGB colour is a [material vector](../material-vector.md).
 
 ### RGB Vec
 
