@@ -77,6 +77,14 @@ Color can be changed. If the texture is black then the color applied in your [ma
 ### Example
 
 {% tabs %}
+{% tab title="Fractal" %}
+{% embed url="https://gfycat.com/damagedcluelesscirriped" %}
+
+{% embed url="https://gfycat.com/farcavernousequestrian" caption="Fractal 01" %}
+
+{% embed url="https://gfycat.com/clumsywickedbonobo" caption="Fractal 02" %}
+{% endtab %}
+
 {% tab title="Alien Pulse" %}
 {% embed url="https://gfycat.com/alertaggravatingfly" caption="\"$basetexture\" & \"$Texture2\" edited" %}
 
@@ -85,10 +93,12 @@ Color can be changed. If the texture is black then the color applied in your [ma
 {% embed url="https://gfycat.com/glossyscaredekaltadeta" caption="\"$basetexture\" edited" %}
 {% endtab %}
 
-{% tab title="Blackrock" %}
+{% tab title="Others" %}
 {% embed url="https://gfycat.com/mellowklutzydavidstiger" %}
 {% endtab %}
 {% endtabs %}
+
+
 
 ## Repacking
 
