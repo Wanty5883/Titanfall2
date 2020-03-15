@@ -1,3 +1,7 @@
+---
+description: Guide to modify your pulse effect
+---
+
 # Pulse Effect
 
 ## Preparation
@@ -81,8 +85,8 @@ Color can be changed. If the texture is black then the color applied in your [ma
 {% embed url="https://gfycat.com/glossyscaredekaltadeta" caption="\"$basetexture\" edited" %}
 {% endtab %}
 
-{% tab title="Second Tab" %}
-
+{% tab title="Blackrock" %}
+{% embed url="https://gfycat.com/mellowklutzydavidstiger" %}
 {% endtab %}
 {% endtabs %}
 
