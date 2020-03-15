@@ -47,6 +47,7 @@
     * [Texture library](information/textures/colors/texture-library.md)
   * [Shader](information/textures/shader/README.md)
     * [$basetexture](information/textures/shader/usdbasetexture.md)
+    * [$color](information/textures/shader/usdcolor.md)
     * [$reflectivity](information/textures/shader/usdreflectivity.md)
     * [Material Flags](information/textures/shader/material-flags.md)
   * [Albedo](information/textures/albedo.md)
