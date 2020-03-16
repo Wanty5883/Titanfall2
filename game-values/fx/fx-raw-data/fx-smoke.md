@@ -41,6 +41,13 @@
 | smkScrn\_trail\_CH\_rope |  |  |
 | smkScrn\_trail\_CH\_rope |  |  |
 | smkScrn\_trail\_sparksheet |  |  |
-|  |  |  |
-|  |  |  |
+| **Elite Smoke Evade** |  |  |
+| P\_elite\_smoke\_evade |  |  |
+| elite\_flash |  |  |
+| elite\_flash\_noZ |  |  |
+| elite\_flash\_trail |  |  |
+| elite\_smoke\_ring\_ground |  |  |
+| elite\_smoke\_rise |  |  |
+| elite\_smoke\_streak\_ring |  |  |
+| elite\_smoke\_thick |  |  |
 

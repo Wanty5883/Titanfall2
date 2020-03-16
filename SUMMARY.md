@@ -148,6 +148,7 @@
     * [FX - Legion](game-values/fx/fx-titans/fx-legion.md)
   * [FX - NPC & Turret](game-values/fx/fx-drone-and-turret/README.md)
     * [FX - NPC](game-values/fx/fx-drone-and-turret/fx-npc/README.md)
+      * [FX - Drone](game-values/fx/fx-drone-and-turret/fx-npc/fx-drone.md)
       * [FX - Drone Cloak](game-values/fx/fx-drone-and-turret/fx-npc/fx-drone-cloak.md)
       * [FX - Drone Frag](game-values/fx/fx-drone-and-turret/fx-npc/fx-drone-frag.md)
       * [FX - MRVN](game-values/fx/fx-drone-and-turret/fx-npc/fx-mrvn.md)
