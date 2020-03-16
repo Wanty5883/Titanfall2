@@ -1,0 +1,62 @@
+# FX - HUD AR FX
+
+| FX Values | Notes | Examples |
+| :--- | :--- | :--- |
+| P\_ar\_call\_in\_beacon |  |  |
+| P\_ar\_call\_in\_beacon\_destroy |  |  |
+| ar\_air\_strike\_arrow\_foe |  |  |
+| ar\_air\_strike\_arrow\_friend |  |  |
+| ar\_airstrike\_reticle |  |  |
+| ar\_airstrike\_reticle\_CH\_arrow1 |  |  |
+| ar\_call\_beacon\_base\_CH\_end |  |  |
+| ar\_call\_beacon\_beam\_CH |  |  |
+| ar\_call\_beacon\_beam\_CH\_end |  |  |
+| ar\_call\_beacon\_beam\_blink\_CH |  |  |
+| ar\_call\_beacon\_flash\_CH |  |  |
+| ar\_call\_beacon\_flash\_CH\_end |  |  |
+| ar\_call\_beacon\_ring\_CH |  |  |
+| ar\_call\_beacon\_ring\_CH\_end |  |  |
+| ar\_call\_beacon\_trail\_hld\_CH |  |  |
+| ar\_call\_beacon\_trails\_CH |  |  |
+| ar\_call\_beacon\_trails\_CH\_end |  |  |
+| ar\_droppod\_impact |  |  |
+| ar\_incoming\_droppod\_foe |  |  |
+| ar\_incoming\_droppod\_friend |  |  |
+| ar\_item\_CH\_Dlight |  |  |
+| ar\_item\_CH\_ring |  |  |
+| ar\_item\_CP\_CH\_Dlight |  |  |
+| ar\_item\_CP\_CH\_ring |  |  |
+| ar\_item\_pickup |  |  |
+| ar\_item\_pickup\_CP |  |  |
+| ar\_loot |  |  |
+| ar\_loot\_loop |  |  |
+| ar\_loot\_zoom\_in |  |  |
+| ar\_loot\_zoom\_out |  |  |
+| ar\_operator\_target |  |  |
+| ar\_operator\_target\_idle |  |  |
+| ar\_orbital\_strike\_target |  |  |
+| ar\_reddot |  |  |
+| ar\_ring\_zoom |  |  |
+| ar\_ring\_zoom\_screenspace |  |  |
+| ar\_ring\_zoom\_target |  |  |
+| ar\_ring\_zoom\_target\_end |  |  |
+| ar\_rocket\_strike\_large\_foe |  |  |
+| ar\_rocket\_strike\_large\_friend |  |  |
+| ar\_rocket\_strike\_small\_foe |  |  |
+| ar\_rocket\_strike\_small\_friend |  |  |
+| ar\_rocket\_strike\_very\_small\_foe |  |  |
+| ar\_rocket\_strike\_very\_small\_friend |  |  |
+| ar\_target\_CP\_controlled |  |  |
+| ar\_titan\_droppoint |  |  |
+| droppod\_beam |  |  |
+| droppod\_beam\_ring |  |  |
+| droppod\_ping |  |  |
+| droppod\_ping\_flash |  |  |
+| droppod\_ringglow |  |  |
+| droppod\_target |  |  |
+| operator\_target\_base |  |  |
+| operator\_target\_beam |  |  |
+| operator\_target\_ping |  |  |
+| operator\_target\_ring |  |  |
+| operator\_target\_ring\_cp4 |  |  |
+
