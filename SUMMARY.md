@@ -142,6 +142,7 @@
     * [FX - Ronin](game-values/fx/fx-titans/fx-ronin.md)
     * [FX - Scorch](game-values/fx/fx-titans/fx-scorch/README.md)
       * [FX - Thermite Launcher](game-values/fx/fx-titans/fx-scorch/fx-thermite-launcher.md)
+      * [FX - Meteor First](game-values/fx/fx-titans/fx-scorch/fx-meteor-first.md)
     * [FX - Legion](game-values/fx/fx-titans/fx-legion.md)
   * [FX - Drone & Turret](game-values/fx/fx-drone-and-turret/README.md)
     * [FX - Mega Plasma Turret](game-values/fx/fx-drone-and-turret/fx-mega-plasma-turret.md)
