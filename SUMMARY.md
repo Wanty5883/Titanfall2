@@ -175,6 +175,7 @@
     * [FX - Dev](game-values/fx/fx-misc-and-unknown/fx-dev.md)
     * [FX - Scan](game-values/fx/fx-misc-and-unknown/fx-scan.md)
   * [FX - Raw Data](game-values/fx/fx-raw-data/README.md)
+    * [FX - EMP](game-values/fx/fx-raw-data/fx-emp.md)
     * [FX - Light](game-values/fx/fx-raw-data/fx-light.md)
     * [FX - Tracers](game-values/fx/fx-raw-data/fx-tracers.md)
     * [FX - Shell Eject](game-values/fx/fx-raw-data/fx-shell-eject.md)
