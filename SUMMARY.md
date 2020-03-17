@@ -233,6 +233,7 @@
     * [Models - Pilot Ability](game-values/models/pilot/models-pilot-ability.md)
     * [Models  - Pilot Weapons](game-values/models/pilot/models-pilot-weapons.md)
   * [Titan](game-values/models/titan.md)
+  * [Ticks](game-values/models/ticks.md)
   * [Model - Projectile](game-values/models/model-projectile.md)
   * [Model - NPC](game-values/models/mode-npc.md)
   * [Model - Frontier Defense](game-values/models/model-frontier-defense.md)
