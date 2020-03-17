@@ -67,6 +67,12 @@ Place both of the renamed files back into your game directory and then launch Ti
 
 > Origin Games\Titanfall2\vpk\
 
+## Results
+
+{% embed url="https://gfycat.com/regalshrilldaddylonglegs" %}
+
+
+
 
 
 
