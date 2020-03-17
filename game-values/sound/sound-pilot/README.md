@@ -4,16 +4,8 @@
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
-| Arc Tool | Weapon\_BatteryGun\_FireLoop\_1P | Loop sound |
-| Arc Tool | Weapon\_BatteryGun\_FireLoop\_3P | Loop sound |
-| Arc Tool | Weapon\_BatteryGun\_FireStart\_3P | Start sound |
-| Arc Tool | Weapon\_BatteryGun\_FireStop\_1P | End sound |
-| Arc Tool | Weapon\_BatteryGun\_Fire\_EnergyDrained\_1P |  |
-| Arc Tool | Weapon\_BatteryGun\_Fire\_EndWarning\_1P |  |
-| Arc Tool | Weapon\_BatteryGun\_CoolDownSizzle\_1P |  |
-| Arc Tool | Weapon\_BatteryGun\_CoolDownSizzle\_3P |  |
-| Arc Tool | ArcTool\_SmallPanel\_DeActivate |  |
-| Arc Tool | ArcTool\_SmallPanel\_Beep |  |
+|  |  |  |
+|  |  |  |
 | Base | pilotslide |  |
 | Base | Jumpjet\_Freefall\_Start\_1P | Star sound |
 | Base | Jumpjet\_Freefall\_Start\_3P |  |

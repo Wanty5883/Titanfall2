@@ -228,6 +228,7 @@
     * [Sound - Legion](game-values/sound/sound-titans/sound-legion.md)
   * [Drone, Turret & Gunship](game-values/sound/sound-drone-turret-and-gunship.md)
   * [Sound - Misc & Unknown](game-values/sound/sound-misc-and-unknown.md)
+  * [Sound - Arc Tool](game-values/sound/sound-arc-tool.md)
 * [Models](game-values/models/README.md)
   * [Pilot](game-values/models/pilot/README.md)
     * [Models - Pilot Ability](game-values/models/pilot/models-pilot-ability.md)
