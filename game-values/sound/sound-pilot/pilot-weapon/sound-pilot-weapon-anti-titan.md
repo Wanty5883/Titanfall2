@@ -45,7 +45,27 @@ description: Anti-Titan weapon sound value
 {% endtab %}
 
 {% tab title="Thunderbolt" %}
-
+| ID | Value | Note |
+| :--- | :--- | :--- |
+| 28130 | weapon\_arc\_ball\_loop |  |
+| 28131 | weapon\_arc\_ball\_tendril |  |
+| 28169 | weapon\_arclauncher\_fire\_1p |  |
+| 28170 | weapon\_arclauncher\_fire\_1p\_int |  |
+| 28171 | weapon\_arclauncher\_fire\_1p\_OLD |  |
+| 28172 | weapon\_arclauncher\_fire\_3p |  |
+| 28173 | weapon\_arclauncher\_fire\_3p\_enemy |  |
+| 28174 | weapon\_arclauncher\_fire\_3p\_enemy\_int |  |
+| 28175 | weapon\_arclauncher\_fire\_3p\_int |  |
+| 28176 | weapon\_arclauncher\_fire\_3p\_OLD |  |
+| 30084 | wpn\_ArcLauncher\_Reload\_ElecDischarge\_fr19\_1P |  |
+| 30085 | wpn\_ArcLauncher\_Reload\_Foley\_Pt01\_fr2\_1P |  |
+| 30086 | wpn\_ArcLauncher\_Reload\_Foley\_Pt02\_fr48\_1P |  |
+| 30087 | wpn\_ArcLauncher\_Reload\_Foley\_Pt03\_fr94\_1P |  |
+| 30088 | wpn\_ArcLauncher\_Reload\_Mech\_Pt01\_fr2\_1P |  |
+| 30089 | wpn\_ArcLauncher\_Reload\_Mech\_Pt02\_fr57\_1P |  |
+| 30090 | wpn\_ArcLauncher\_Reload\_Mech\_Pt03\_fr94\_1P |  |
+| 30322 | wpn\_Thunderbolt\_ADS\_In\_1P |  |
+| 30323 | wpn\_Thunderbolt\_ADS\_Out\_1P |  |
 {% endtab %}
 {% endtabs %}
 
@@ -70,12 +90,6 @@ description: Anti-Titan weapon sound value
 | MGL | Weapon\_MGL\_ADS\_Out | ADS sound |
 | MGL | wpn\_pickup\_ATWeapon\_1P | Pickup sound |
 | MGL | Explo\_MGL\_MagneticAttract | Flight SFX loop |
-| **Thunderbolt** |  |  |
-| Thunderbolt | Weapon\_Arc\_Ball\_Loop | Loop sound |
-| Thunderbolt | Weapon\_ArcLauncher\_Fire\_1P |  |
-| Thunderbolt | Weapon\_ArcLauncher\_Fire\_3P |  |
-| Thunderbolt | wpn\_thunderbolt\_ads\_in\_1p | ADS in |
-| Thunderbolt | wpn\_thunderbolt\_ads\_out\_1p | ADS out |
 
 ## 
 

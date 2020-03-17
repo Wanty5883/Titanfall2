@@ -81,89 +81,91 @@ description: SMG's sound value
 {% endtab %}
 
 {% tab title="R97" %}
-| Sound Values | Notes | Examples |
+
+
+| ID | Value | Note |
 | :--- | :--- | :--- |
-| r97\_ai\_wpnfire\_firstshot\_a |  |  |
-| r97\_ai\_wpnfire\_firstshot\_a\_coop |  |  |
-| r97\_ai\_wpnfire\_firstshot\_b |  |  |
-| r97\_ai\_wpnfire\_firstshot\_b\_coop |  |  |
-| r97\_ai\_wpnfire\_loop\_a |  |  |
-| r97\_ai\_wpnfire\_loop\_a\_coop |  |  |
-| r97\_ai\_wpnfire\_loop\_b |  |  |
-| r97\_ai\_wpnfire\_loop\_b\_coop |  |  |
-| r97\_ai\_wpnfire\_tail\_a |  |  |
-| r97\_ai\_wpnfire\_tail\_a\_coop |  |  |
-| r97\_ai\_wpnfire\_tail\_b |  |  |
-| r97\_ai\_wpnfire\_tail\_b\_coop |  |  |
-| r97\_lowammo\_shot1 |  |  |
-| weapon\_r97\_ads\_in |  |  |
-| weapon\_r97\_ads\_out |  |  |
-| weapon\_r97\_equip |  |  |
-| weapon\_r97\_fire\_first\_1p |  |  |
-| weapon\_r97\_fire\_first\_3p |  |  |
-| weapon\_r97\_fire\_first\_3p\_enemy |  |  |
-| weapon\_r97\_fire\_firstsuppressed\_1p |  |  |
-| weapon\_r97\_fire\_firstsuppressed\_3p |  |  |
-| weapon\_r97\_fire\_firstsuppressed\_3p\_enemy |  |  |
-| weapon\_r97\_fire\_last\_1p |  |  |
-| weapon\_r97\_fire\_last\_1p\_int |  |  |
-| weapon\_r97\_fire\_last\_3p |  |  |
-| weapon\_r97\_fire\_last\_3p\_bu1 |  |  |
-| weapon\_r97\_fire\_last\_3p\_enemy |  |  |
-| weapon\_r97\_fire\_last\_3p\_enemy\_int |  |  |
-| weapon\_r97\_fire\_last\_3p\_int |  |  |
-| weapon\_r97\_fire\_last\_3p\_int\_bu1 |  |  |
-| weapon\_r97\_fire\_last\_3p\_int\_enemy |  |  |
-| weapon\_r97\_fire\_lastsuppressed\_1p |  |  |
-| weapon\_r97\_fire\_lastsuppressed\_3p |  |  |
-| weapon\_r97\_fire\_lastsuppressed\_3p\_enemy |  |  |
-| weapon\_r97\_fire\_loop\_1p |  |  |
-| weapon\_r97\_fire\_loop\_3p |  |  |
-| weapon\_r97\_fire\_loop\_3p\_bu1 |  |  |
-| weapon\_r97\_fire\_loop\_3p\_enemy |  |  |
-| weapon\_r97\_fire\_loop\_3p\_enemy\_bu1 |  |  |
-| weapon\_r97\_fire\_loop\_3p\_enemy\_old |  |  |
-| weapon\_r97\_fire\_loopsuppressed\_1p |  |  |
-| weapon\_r97\_fire\_loopsuppressed\_3p |  |  |
-| weapon\_r97\_fire\_loopsuppressed\_3p\_enemy |  |  |
-| weapon\_r97\_loop\_3p\_npc\_a |  |  |
-| weapon\_r97\_raise |  |  |
-| weapon\_r97\_secondshot\_1p |  |  |
-| weapon\_r97\_secondshot\_1p\_int |  |  |
-| weapon\_r97\_secondshot\_1p\_intlg |  |  |
-| weapon\_r97\_secondshot\_1p\_intlg\_bu |  |  |
-| weapon\_r97\_secondshot\_1p\_intmed |  |  |
-| weapon\_r97\_secondshot\_1p\_intmed\_bu |  |  |
-| weapon\_r97\_secondshot\_1p\_intsm |  |  |
-| weapon\_r97\_secondshot\_1p\_intsm\_bu |  |  |
-| weapon\_r97\_secondshot\_3p |  |  |
-| weapon\_r97\_secondshot\_3p\_bu1 |  |  |
-| weapon\_r97\_secondshot\_3p\_enemy |  |  |
-| weapon\_r97\_secondshot\_3p\_enemy\_bu1 |  |  |
-| weapon\_r97\_secondshot\_3p\_enemy\_intlg |  |  |
-| weapon\_r97\_secondshot\_3p\_enemy\_intlg\_bu1 |  |  |
-| weapon\_r97\_secondshot\_3p\_enemy\_intmed |  |  |
-| weapon\_r97\_secondshot\_3p\_enemy\_intmed\_bu1 |  |  |
-| weapon\_r97\_secondshot\_3p\_enemy\_intsm |  |  |
-| weapon\_r97\_secondshot\_3p\_enemy\_intsm\_bu1 |  |  |
-| weapon\_r97\_secondshot\_3p\_enemy\_old |  |  |
-| weapon\_r97\_secondshot\_3p\_int |  |  |
-| weapon\_r97\_secondshot\_3p\_int\_enemy |  |  |
-| weapon\_r97\_secondshot\_3p\_intlg |  |  |
-| weapon\_r97\_secondshot\_3p\_intmed |  |  |
-| weapon\_r97\_secondshot\_3p\_intsm |  |  |
-| weapon\_r97\_secondshot\_npc |  |  |
-| weapon\_r97\_secondshot\_npc\_intlg |  |  |
-| weapon\_r97\_secondshot\_npc\_intmed |  |  |
-| weapon\_r97\_secondshot\_npc\_intsm |  |  |
-| weapon\_r97\_unequip |  |  |
-| wpn\_predator\_cannon\_reload\_tech\_fr97\_1p |  |  |
-| wpn\_predator\_cannon\_reload\_tech\_fr97\_3p |  |  |
-| wpn\_r97\_reload\_chargeback |  |  |
-| wpn\_r97\_reload\_chargeforward |  |  |
-| wpn\_r97\_reload\_handgrab |  |  |
-| wpn\_r97\_reload\_insertmag |  |  |
-| wpn\_r97\_reload\_pullmag |  |  |
+| 23496 | r97\_ai\_wpnfire\_firstshot\_a |  |
+| 23497 | r97\_ai\_wpnfire\_firstshot\_a\_coop |  |
+| 23498 | r97\_ai\_wpnfire\_firstshot\_b |  |
+| 23499 | r97\_ai\_wpnfire\_firstshot\_b\_coop |  |
+| 23500 | r97\_ai\_wpnfire\_loop\_a |  |
+| 23501 | r97\_ai\_wpnfire\_loop\_a\_coop |  |
+| 23502 | r97\_ai\_wpnfire\_loop\_b |  |
+| 23503 | r97\_ai\_wpnfire\_loop\_b\_coop |  |
+| 23504 | r97\_ai\_wpnfire\_tail\_a |  |
+| 23505 | r97\_ai\_wpnfire\_tail\_a\_coop |  |
+| 23506 | r97\_ai\_wpnfire\_tail\_b |  |
+| 23507 | r97\_ai\_wpnfire\_tail\_b\_coop |  |
+| 23508 | R97\_lowammo\_shot1 |  |
+| 29209 | weapon\_r97\_ads\_in |  |
+| 29210 | weapon\_r97\_ads\_out |  |
+| 29211 | weapon\_r97\_equip |  |
+| 29212 | weapon\_r97\_fire\_first\_1p |  |
+| 29213 | weapon\_r97\_fire\_first\_3p |  |
+| 29214 | weapon\_r97\_fire\_first\_3p\_enemy |  |
+| 29215 | weapon\_r97\_fire\_firstsuppressed\_1p |  |
+| 29216 | weapon\_r97\_fire\_firstsuppressed\_3p |  |
+| 29217 | weapon\_r97\_fire\_firstsuppressed\_3p\_enemy |  |
+| 29218 | weapon\_r97\_fire\_last\_1p |  |
+| 29219 | weapon\_r97\_fire\_last\_1p\_int |  |
+| 29220 | weapon\_r97\_fire\_last\_3p |  |
+| 29221 | weapon\_r97\_fire\_last\_3p\_BU1 |  |
+| 29222 | weapon\_r97\_fire\_last\_3p\_enemy |  |
+| 29223 | weapon\_r97\_fire\_last\_3p\_enemy\_int |  |
+| 29224 | weapon\_r97\_fire\_last\_3p\_int |  |
+| 29225 | weapon\_r97\_fire\_last\_3p\_int\_BU1 |  |
+| 29226 | weapon\_r97\_fire\_last\_3p\_int\_enemy |  |
+| 29227 | weapon\_r97\_fire\_lastsuppressed\_1p |  |
+| 29228 | weapon\_r97\_fire\_lastsuppressed\_3p |  |
+| 29229 | weapon\_r97\_fire\_lastsuppressed\_3p\_enemy |  |
+| 29230 | weapon\_r97\_fire\_loop\_1p |  |
+| 29231 | weapon\_r97\_fire\_loop\_3p |  |
+| 29232 | weapon\_r97\_fire\_loop\_3p\_BU1 |  |
+| 29233 | weapon\_r97\_fire\_loop\_3p\_enemy |  |
+| 29234 | weapon\_r97\_fire\_loop\_3p\_enemy\_BU1 |  |
+| 29235 | weapon\_r97\_fire\_loop\_3p\_enemy\_OLD |  |
+| 29236 | weapon\_r97\_fire\_loopsuppressed\_1p |  |
+| 29237 | weapon\_r97\_fire\_loopsuppressed\_3p |  |
+| 29238 | weapon\_r97\_fire\_loopsuppressed\_3p\_enemy |  |
+| 29239 | weapon\_r97\_loop\_3p\_npc\_a |  |
+| 29240 | weapon\_r97\_raise |  |
+| 29241 | weapon\_r97\_secondshot\_1p |  |
+| 29242 | weapon\_r97\_secondshot\_1p\_int |  |
+| 29243 | weapon\_r97\_secondshot\_1p\_intlg |  |
+| 29244 | weapon\_r97\_secondshot\_1p\_intlg\_BU |  |
+| 29245 | weapon\_r97\_secondshot\_1p\_intmed |  |
+| 29246 | weapon\_r97\_secondshot\_1p\_intmed\_BU |  |
+| 29247 | weapon\_r97\_secondshot\_1p\_intsm |  |
+| 29248 | weapon\_r97\_secondshot\_1p\_intsm\_BU |  |
+| 29249 | weapon\_r97\_secondshot\_3p |  |
+| 29250 | weapon\_r97\_secondshot\_3p\_BU1 |  |
+| 29251 | weapon\_r97\_secondshot\_3p\_enemy |  |
+| 29252 | weapon\_r97\_secondshot\_3p\_enemy\_BU1 |  |
+| 29253 | weapon\_r97\_secondshot\_3p\_enemy\_intlg |  |
+| 29254 | weapon\_r97\_secondshot\_3p\_enemy\_intlg\_BU1 |  |
+| 29255 | weapon\_r97\_secondshot\_3p\_enemy\_intmed |  |
+| 29256 | weapon\_r97\_secondshot\_3p\_enemy\_intmed\_BU1 |  |
+| 29257 | weapon\_r97\_secondshot\_3p\_enemy\_intsm |  |
+| 29258 | weapon\_r97\_secondshot\_3p\_enemy\_intsm\_BU1 |  |
+| 29259 | weapon\_r97\_secondshot\_3p\_enemy\_OLD |  |
+| 29260 | weapon\_r97\_secondshot\_3p\_int |  |
+| 29261 | weapon\_r97\_secondshot\_3p\_int\_enemy |  |
+| 29262 | weapon\_r97\_secondshot\_3p\_intlg |  |
+| 29263 | weapon\_r97\_secondshot\_3p\_intmed |  |
+| 29264 | weapon\_r97\_secondshot\_3p\_intsm |  |
+| 29265 | weapon\_r97\_secondshot\_npc |  |
+| 29266 | weapon\_r97\_secondshot\_npc\_intlg |  |
+| 29267 | weapon\_r97\_secondshot\_npc\_intmed |  |
+| 29268 | weapon\_r97\_secondshot\_npc\_intsm |  |
+| 29269 | weapon\_r97\_unequip |  |
+| 30288 | wpn\_predator\_cannon\_reload\_tech\_fr97\_1p |  |
+| 30289 | wpn\_predator\_cannon\_reload\_tech\_fr97\_3p |  |
+| 30290 | wpn\_r97\_reload\_chargeback |  |
+| 30291 | wpn\_r97\_reload\_chargeforward |  |
+| 30292 | wpn\_r97\_reload\_handgrab |  |
+| 30293 | wpn\_r97\_reload\_insertmag |  |
+| 30294 | wpn\_r97\_reload\_pullmag |  |
 {% endtab %}
 
 {% tab title="Volt" %}
