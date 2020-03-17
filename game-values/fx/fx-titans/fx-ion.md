@@ -120,6 +120,18 @@ description: Ion FX value
 | P\_wpn\_lasertrip\_base | FX all |  |  |  |
 | wpn\_grenade\_frag\_blue\_icon | FX friendly icon |  |  |  |
 | P\_impact\_exp\_XLG\_metal | Explode FX |  |  |  |
+|  |  |  |  |  |
+| LT\_base\_CH\_activate |  |  |  |  |
+| LT\_base\_CH\_dlight |  |  |  |  |
+| LT\_base\_CH\_elec |  |  |  |  |
+| LT\_base\_CH\_glow |  |  |  |  |
+| LT\_trail\_CH\_rope |  |  |  |  |
+| LT\_trail\_CH\_smoke |  |  |  |  |
+| P\_wpn\_laserTrip\_trail |  |  |  |  |
+| P\_wpn\_laserTrip\_trail\_OLG |  |  |  |  |
+| P\_wpn\_lasertrip\_base |  |  |  |  |
+| P\_wpn\_lasertrip\_beam |  |  |  |  |
+| texture\_offset |  |  |  |  |
 {% endtab %}
 
 {% tab title="Vortex Shield" %}
