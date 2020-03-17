@@ -6,6 +6,69 @@ description: SMG's sound value
 
 {% tabs %}
 {% tab title="Alternator" %}
+
+
+| ID | Value | Note |
+| :--- | :--- | :--- |
+| 352 | alternator\_lowammo\_shot1 |  |
+| 28089 | weapon\_alternator\_firstshot\_1p |  |
+| 28090 | weapon\_alternator\_loop\_1p |  |
+| 28091 | weapon\_alternator\_loop\_3p |  |
+| 28092 | weapon\_alternator\_loop\_3p\_enemy |  |
+| 28093 | weapon\_alternator\_loop\_3p\_enemy\_int |  |
+| 28094 | weapon\_alternator\_loop\_3p\_int |  |
+| 28095 | weapon\_alternator\_loop\_3p\_npc\_a |  |
+| 28096 | weapon\_alternator\_loop\_3p\_npc\_a\_int |  |
+| 28097 | weapon\_alternator\_loop\_3p\_OLD2 |  |
+| 28098 | weapon\_alternator\_loopend\_1p |  |
+| 28099 | weapon\_alternator\_loopend\_1p\_int |  |
+| 28100 | weapon\_alternator\_loopend\_3p |  |
+| 28101 | weapon\_alternator\_loopend\_3p\_enemy |  |
+| 28102 | weapon\_alternator\_loopend\_3p\_int |  |
+| 28103 | weapon\_alternator\_loopend\_npc |  |
+| 28104 | weapon\_alternator\_secondshot\_1p |  |
+| 28105 | weapon\_alternator\_secondshot\_1p\_intlg |  |
+| 28106 | weapon\_alternator\_secondshot\_1p\_intlg\_BU |  |
+| 28107 | weapon\_alternator\_secondshot\_1p\_intmed |  |
+| 28108 | weapon\_alternator\_secondshot\_1p\_intmed\_BU |  |
+| 28109 | weapon\_alternator\_secondshot\_1p\_intsm |  |
+| 28110 | weapon\_alternator\_secondshot\_1p\_intsm\_BU |  |
+| 28111 | weapon\_alternator\_secondshot\_3p |  |
+| 28112 | weapon\_alternator\_secondshot\_3p\_enemy |  |
+| 28113 | weapon\_alternator\_secondshot\_3p\_enemy\_intlg |  |
+| 28114 | weapon\_alternator\_secondshot\_3p\_enemy\_intmed |  |
+| 28115 | weapon\_alternator\_secondshot\_3p\_enemy\_intsm |  |
+| 28116 | weapon\_alternator\_secondshot\_3p\_intlg |  |
+| 28117 | weapon\_alternator\_secondshot\_3p\_intlg\_OLD2 |  |
+| 28118 | weapon\_alternator\_secondshot\_3p\_intmed |  |
+| 28119 | weapon\_alternator\_secondshot\_3p\_intmed\_OLD2 |  |
+| 28120 | weapon\_alternator\_secondshot\_3p\_intsm |  |
+| 28121 | weapon\_alternator\_secondshot\_3p\_intsm\_OLD2 |  |
+| 28122 | weapon\_alternator\_secondshot\_3p\_OLD2 |  |
+| 28123 | weapon\_alternator\_secondshot\_npc |  |
+| 28124 | weapon\_alternator\_secondshot\_npc\_intlg |  |
+| 28125 | weapon\_alternator\_secondshot\_npc\_intmed |  |
+| 28126 | weapon\_alternator\_secondshot\_npc\_intsm |  |
+| 28127 | weapon\_alternatorsmg\_fire\_3p |  |
+| 28128 | weapon\_alternatorsmg\_fire\_l\_1p |  |
+| 28129 | weapon\_alternatorsmg\_fire\_r\_1p |  |
+| 30065 | wpn\_alternator\_first\_pullout\_CLOTH\_fr00\_1p |  |
+| 30066 | wpn\_alternator\_first\_pullout\_FOLEY\_fr00\_1p |  |
+| 30067 | wpn\_alternator\_first\_pullout\_FOLEY\_fr26\_1p |  |
+| 30068 | wpn\_alternator\_first\_pullout\_MECH\_PullBolt\_fr08\_1p |  |
+| 30069 | wpn\_alternator\_reload\_CLOTH\_fr00\_1p |  |
+| 30070 | wpn\_alternator\_reload\_empty\_CLOTH\_fr00\_1p |  |
+| 30071 | wpn\_alternator\_reload\_empty\_CLOTH\_fr45\_1p |  |
+| 30072 | wpn\_alternator\_reload\_empty\_FOLEY\_fr28\_1p |  |
+| 30073 | wpn\_alternator\_reload\_empty\_FOLEY\_fr77\_1p |  |
+| 30074 | wpn\_alternator\_reload\_empty\_MECH\_ClipIn\_fr49\_1p |  |
+| 30075 | wpn\_alternator\_reload\_empty\_MECH\_ClipOut\_fr12\_1p |  |
+| 30076 | wpn\_alternator\_reload\_empty\_MECH\_PullBolt\_fr70\_1p |  |
+| 30077 | wpn\_alternator\_reload\_FOLEY\_fr32\_1p |  |
+| 30078 | wpn\_alternator\_reload\_FOLEY\_fr64\_1p |  |
+| 30079 | wpn\_alternator\_reload\_MECH\_ClipIn\_fr20\_1p |  |
+| 30080 | wpn\_alternator\_reload\_MECH\_ClipOut\_fr12\_1p |  |
+
 | Sound Values | Notes | Example |
 | :--- | :--- | :--- |
 | Weapon\_Hemlok\_Trigger |  |  |
