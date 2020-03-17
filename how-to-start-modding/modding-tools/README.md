@@ -12,11 +12,7 @@ Many of the tools below can be used to make modifications that will result in yo
 Neither the NoSkill community nor the contributors of this wiki are responsible for your incorrect usage of these tools to make modifications that result in you being banned or you breaking your game.
 {% endhint %}
 
-## 
-
 ## Source Engine
-
-* VIDE Valve Integrated Development Environment - [Info & Download](https://developer.valvesoftware.com/wiki/VIDE)
 
 ### Titanfall files
 
@@ -30,6 +26,22 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 * VTFEdit - [Download](http://nemesis.thewavelength.net/index.php?p=41)
   * VTFVer - [Download](http://cra0kalo.com/public/VTFVer.zip) _not needed anymore, VTFEdit support v7.5_
 * VTF Shell Extensions - [Info](https://developer.valvesoftware.com/wiki/VTF_Shell_Extensions) & [Download](https://www.wunderboy.org/valve-hl2source-sdk-tools/#vtf_shell)
+
+### BSP
+
+* [BSP Viewer](source/bsp/bsp-viewer.md) - view and export [GoldSrc](https://developer.valvesoftware.com/wiki/GoldSrc) maps
+* [BSP2MAP](source/bsp/bsp2map.md) - convert GoldSrc BSP maps to .map files
+* [BSPSource](https://developer.valvesoftware.com/wiki/BSPSource) - improved Source BSP decompiler based on VMEX
+* [EntEd](source/bsp/ented.md) - view and edit [entity](https://developer.valvesoftware.com/wiki/Entity) properties of a BSP
+* [Entspy](source/bsp/entspy.md) - view and edit [entity](https://developer.valvesoftware.com/wiki/Entity) properties of a BSP
+* [Map Analyst](source/bsp/map-analyst.md) - alternative to [Bspzip](source/bsp/bspzip.md) - embed custom content such as materials, models, textures into a BSP
+* [Packbsp](source/bsp/packbsp.md) - embed custom content such as materials, models, textures into a BSP
+* [Pakrat](source/bsp/pakrat.md) - GUI replacement for [Bspzip](source/bsp/bspzip.md)
+* [VBSP\_h4xed](https://developer.valvesoftware.com/wiki/VBSP_h4xed) - greatly increase maximum size of [visleaves](https://developer.valvesoftware.com/wiki/Visleaf).
+* [VIDE](source/bsp/vide.md) - Multi-purpose development suite with BSP packing and asset editing capabilities.
+* [VMEX](source/bsp/vmex.md) - Source BSP decompiler
+* [WinBSPC](source/bsp/winbspc.md) - GoldSrc BSP decompiler
+* [WinBSPZip](source/bsp/winbspzip.md) - GUI frontend for Bspzip
 
 ## Other utilities
 
@@ -55,6 +67,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 * [RGB Tool converter](http://hewmc.blogspot.fr/2012/12/rgb-to-percentage-converter.html)
 * Color Pick Windows - [Download & Info](https://pixelbyte.itch.io/color-pick)
 * [GIF splitter](https://ezgif.com/split)
+* [Rad Tools Bik](http://www.radgametools.com/bnkdown.htm)
 
 ### Driver editors
 
@@ -67,4 +80,8 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
   * Blender Source Tool - [Download & info](https://developer.valvesoftware.com/wiki/Blender_Source_Tools)
 * Crowbar - [Download & info](http://steamcommunity.com/groups/CrowbarTool)
 * Ninja Ripper v1.7.1 - [Download & info](https://gamebanana.com/tools/5638)
+
+
+
+You can't download one of those software ? Reach us! We probably have a backup
 
