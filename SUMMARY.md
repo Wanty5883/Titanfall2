@@ -195,6 +195,8 @@
       * [FX - HUD AR Ordinance](game-values/fx/fx-raw-data/fx-hud/fx-hud-ar-ordinance.md)
       * [FX - HUD AR Pings](game-values/fx/fx-raw-data/fx-hud/fx-hud-ar-pings.md)
       * [FX - HUD AR Titandroppoint](game-values/fx/fx-raw-data/fx-hud/fx-hud-ar-titandroppoint.md)
+    * [FX - Impact](game-values/fx/fx-raw-data/fx-impact/README.md)
+      * [FX - Impact FX EXP Cutom](game-values/fx/fx-raw-data/fx-impact/fx-impact-fx-exp-cutom.md)
     * [FX - Light](game-values/fx/fx-raw-data/fx-light.md)
     * [FX - Orbital Strike](game-values/fx/fx-raw-data/fx-orbital-strike.md)
     * [FX - Projectile Plasma](game-values/fx/fx-raw-data/fx-projectile-plasma.md)
