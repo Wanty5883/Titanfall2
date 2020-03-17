@@ -33,19 +33,6 @@ description: Monarch Beam FX value datamined
 | monImp\_CH\_dlight\_v2 | Datamined value |  |  |  |
 | P\_impact\_monarch\_beam\_titan | Datamined value |  |  |  |
 | P\_xo\_sparks\_monarch\_EXE | Datamined value |  |  |  |
-| **Handlaser** |  |  |  |  |
-| handlaser\_charge\_CH\_flare | Datamined value |  |  |  |
-| handlaser\_flare\_CH\_star | Datamined value |  |  |  |
-| handlaser\_flare\_CH\_streak\_blur | Datamined value |  |  |  |
-| handlaser\_flare\_CH\_streak | Datamined value |  |  |  |
-| handlaser\_flare\_CH\_glow | Datamined value |  |  |  |
-| handlaser\_charge\_pull | Datamined value |  |  |  |
-| P\_wpn\_hand\_laser\_beam\_BC | Datamined value |  |  |  |
-| handlaser\_beam\_CH\_rope\_smoke | Datamined value |  |  |  |
-| handlaser\_beam\_CH\_rope\_core | Datamined value |  |  |  |
-| handlaser\_beam\_CH\_rope\_arc\_old | Datamined value |  |  |  |
-| handlaser\_beam\_CH\_rope\_arc | Datamined value |  |  |  |
-| P\_handlaser\_charge | Datamined value |  |  |  |
-| handlaser\_charge\_CH\_dlight | Datamined value |  |  |  |
-| P\_wpn\_hand\_laser\_beam | Datamined value |  |  |  |
+| \*\*\*\* |  |  |  |  |
+|  |  |  |  |  |
 
