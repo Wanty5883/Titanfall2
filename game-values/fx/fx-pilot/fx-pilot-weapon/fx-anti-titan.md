@@ -49,25 +49,26 @@ description: Anti-Titan weapon FX value
 | defender\_charge\_CH\_MDL | Datamined value |  |  |
 | P\_chargeTest\_CP1\_vec1 | Datamined value |  |  |
 | P\_chargeTest\_CP1\_vec0 | Datamined value |  |  |
-| **MGL** |  |  |  |
-| exp\_mgl | Impact effect |  |  |
-| wpn\_grenade\_frag\_mag | Projectile effect |  |  |
-| wpn\_grenade\_frag\_mag\_burn | Projectile effect amped |  |  |
-| P\_wpn\_muzzleflash\_mgl\_FP\_FULL | Muzzleflash FP |  |  |
-| P\_wpn\_muzzleflash\_mgl\_FULL | Muzzleflash |  |  |
-| P\_wpn\_muzzleflash\_mgl\_FP\_burn | Muzzleflash FP amped |  |  |
-| P\_wpn\_muzzleflash\_mgl\_burn | Muzzleflash amped |  |  |
-| **Thunderbolt** |  |  |  |
-| P\_wpn\_arcball\_trail | Projectile effect |  |  |
-| P\_wpn\_arcball\_trail\_amp | Amped projectile |  |  |
-| exp\_arc\_ball | Impact |  |  |
-| P\_wpn\_mflash\_arcball\_FP | Muzzleflash FP |  |  |
-| P\_wpn\_mflash\_arcball | Muzzleflash |  |  |
-| P\_wpn\_mflash\_arcball\_FP\_amp | Muzzleflash FP amped |  |  |
-| P\_wpn\_mflash\_arcball\_amp | Muzzleflash amped |  |  |
-| arcball\_CH\_trail\_rope | Datamined value |  |  |
-| P\_wpn\_arcball\_flare | Datamined value |  |  |
-| acrball\_flare\_CH\_streak\_blur | Datamined value |  |  |
+| P\_impact\_exp\_defender\_default | Impact  |  |  |
+| gen\_def\_CH\_arcs\_MDL | Impact  |  |  |
+| gen\_def\_CH\_decal\_glow | Impact  |  |  |
+| gen\_def\_CH\_decal\_scorch | Impact  |  |  |
+| gen\_def\_CH\_dlight | Impact  |  |  |
+| gen\_def\_CH\_elec\_core | Impact  |  |  |
+| gen\_def\_CH\_elec\_edge | Impact  |  |  |
+| gen\_def\_CH\_elec\_rope | Impact  |  |  |
+| gen\_def\_CH\_refrac\_1 | Impact  |  |  |
+| gen\_def\_CH\_smoke\_1 | Impact  |  |  |
+| gen\_def\_CH\_smoke\_2 | Impact  |  |  |
+| gen\_def\_CH\_sparks\_large | Impact  |  |  |
+| gen\_def\_CH\_spike\_glow | Impact  |  |  |
+| gen\_def\_CH\_spikes | Impact  |  |  |
+| gen\_def\_CH\_steam\_out | Impact  |  |  |
+| gen\_def\_CH\_steam\_up | Impact  |  |  |
+| gen\_def\_FLARE\_core | Impact  |  |  |
+| gen\_def\_FLARE\_streak | Impact  |  |  |
+| gen\_def\_FLARE\_streak\_blur | Impact  |  |  |
+| tmp\_elec\_arcs | Datamined value |  |  |
 | acrball\_flare\_CH\_streak | Datamined value |  |  |
 | acrball\_flare\_CH\_glow | Datamined value |  |  |
 | acrball\_flare\_CH\_star | Datamined value |  |  |
@@ -90,4 +91,6 @@ description: Anti-Titan weapon FX value
 | arcball\_CH\_beam\_CH\_trail\_SM | Datamined value |  |  |
 | P\_wpn\_arcball\_beam | Datamined value |  |  |
 | aBall\_beam\_CH\_dlight\_end | Datamined value |  |  |
+
+
 
