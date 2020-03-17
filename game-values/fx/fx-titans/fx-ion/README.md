@@ -11,6 +11,10 @@ description: Ion FX value
 | P\_wpn\_lasercannon\_aim | Aim |  |  |  |
 | P\_lasercannon\_core | Core |  |  |  |
 | P\_handlaser\_charge | Muzzleflash |  |  |  |
+| P\_impact\_lasercannon\_default | Impact |  |  |  |
+| lasercannon\_imp\_CH\_decal | Impact |  |  |  |
+| lasercannon\_imp\_CH\_glow | Impact |  |  |  |
+| lasercannon\_imp\_CH\_sparks | Impact |  |  |  |
 | P\_lasercannon\_glow | Datamined value |  |  |  |
 | lasercannon\_glow\_CH\_star | Datamined value |  |  |  |
 | lasercannon\_glow\_CH\_streak\_blur | Datamined value |  |  |  |
