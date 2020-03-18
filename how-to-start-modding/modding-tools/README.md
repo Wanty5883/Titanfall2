@@ -14,12 +14,13 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 ## Source Engine
 
-### Titanfall files
+### Titanfall
 
 * Titanfall VPK Tool - [Download](https://dev.cra0kalo.com/?p=137)
 * VPK renamer / move - [Info here](../how-to-backup-extract-and-repack.md#vpk-rename-move-batch-script)
 * Titanfall 2 weapon renamer - [Download](https://bitbucket.org/lunderdeamon/tf2renamer)
 * MSD \(Miles Sound Dumper\) - [Info ](https://github.com/Lyxica/Miles-10-Sound-Dumper)& [Download](https://github.com/Lyxica/Miles-10-Sound-Dumper/releases/tag/v1.0-tf2-beta1)
+* No HUD toggle - [Download](https://www.moddb.com/games/titanfall-2/downloads/toggle-hud5)
 
 ### VTF & VMT
 
