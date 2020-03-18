@@ -228,6 +228,7 @@
     * [Sound - Legion](game-values/sound/sound-titans/sound-legion.md)
   * [Drone, Turret & Gunship](game-values/sound/sound-drone-turret-and-gunship.md)
   * [Sound - Misc & Unknown](game-values/sound/sound-misc-and-unknown/README.md)
+    * [Sound - Arc Cannon](game-values/sound/sound-misc-and-unknown/sound-arc-cannon.md)
     * [Sound - Arc Tool](game-values/sound/sound-misc-and-unknown/sound-arc-tool.md)
     * [Sound - Flamethrower](game-values/sound/sound-misc-and-unknown/sound-flamethrower.md)
     * [Sound - Triplethreat](game-values/sound/sound-misc-and-unknown/sound-triplethreat.md)
