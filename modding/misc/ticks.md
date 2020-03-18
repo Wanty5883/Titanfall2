@@ -53,6 +53,10 @@ You will then want to replace your files with the ones already there, once that 
 
 
 
+## Results
+
+{% embed url="https://gfycat.com/regalshrilldaddylonglegs" %}
+
 ## Repacking <a id="repacking"></a>
 
 ​[How to repack VPK files proprely ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
@@ -66,10 +70,6 @@ Rename pak000\_dir.vpk _to_ **englishclient\_mp\_common.bsp.pak000\_dir.vpk**
 Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see your new crosshair!
 
 > Origin Games\Titanfall2\vpk\
-
-## Results
-
-{% embed url="https://gfycat.com/regalshrilldaddylonglegs" %}
 
 
 
