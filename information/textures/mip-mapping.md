@@ -11,6 +11,11 @@ Each scaled texture, or MIP level, represents what the texture would look like a
 The main purpose of this technique is to maintain texture definition on surfaces further from the camera and to avoid unslightly [moiré patterns](http://en.wikipedia.org/wiki/moir%C3%A9_pattern) which can appear on surfaces, especially as they approach an angle parallel to the axis of the camera. Since the MIP maps are generated in advance, this technique trades a modest increase in texture memory usage to achieve a significant increase in visual quality, avoiding costly real-time calculations that might otherwise be used to solve the problem.
 
 {% hint style="info" %}
-Source: [https://developer.valvesoftware.com/wiki/MIP\_Mapping](https://developer.valvesoftware.com/wiki/MIP_Mapping)
+**Source:** [https://developer.valvesoftware.com/wiki/MIP\_Mapping](https://developer.valvesoftware.com/wiki/MIP_Mapping)  
+**Reference:** 
+
+* [Mipmap](http://en.wikipedia.org/wiki/Mipmap) - a Wikipedia article on the subject.
+* [Mip-Mapping in Direct3D](http://www.gamedev.net/reference/articles/article1233.asp) - a GameDev.net article.
+* [Texture Filtering](http://en.wikipedia.org/wiki/Texture_filtering) a Wikipedia article about common resampling and interpolation methods.
 {% endhint %}
 

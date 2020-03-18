@@ -174,9 +174,9 @@ description: LMG's sound value
 {% endtab %}
 
 {% tab title="Spitfire" %}
-ID
 
-| Value | Note |  |
+
+| ID | Value | Notes |
 | :--- | :--- | :--- |
 | 20934 | lmg\_lowammo\_shot1 |  |
 | 20935 | lmg\_shell |  |

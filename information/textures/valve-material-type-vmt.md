@@ -46,3 +46,7 @@ in non [SteamPipe](https://developer.valvesoftware.com/wiki/SteamPipe) source ga
 
 If you want to edit or view the code of Valve's material files you will first need to extract them from their [GCF](https://developer.valvesoftware.com/wiki/GCF) package with [GCFScape](https://developer.valvesoftware.com/wiki/GCFScape). They tend to be stored in GCFs with 'materials' in their name.
 
+{% hint style="info" %}
+Source: [https://developer.valvesoftware.com/wiki/Material](https://developer.valvesoftware.com/wiki/Material)
+{% endhint %}
+

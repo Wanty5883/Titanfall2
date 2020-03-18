@@ -73,7 +73,21 @@ projectile.SetProjectilTrailEffectIndex
 | EmitSoundOnEntityToEnemies |  |
 | EmitSoundAtPosition |  |
 | EmitSoundAtPositionExceptToPlayer |  |
+| EmitSoundOnEntityWithSeek |  |
 | FadeOutSoundOnEntity |  |
+| **Dialogue** |  |
+| PlayDialogue |  |
+| PlayBTDialogue |  |
+| PlayGabbyDialogue |  |
+| PlayDialogueForPlayer |  |
+| PlayDialogueOnEntity |  |
+| IsDialoguePlaying |  |
+| StopDialogue |  |
+| PlayerConversation |  |
+| StopConversation |  |
+| StopConversationNow |  |
+| AddConversationCallback |  |
+| PlayDialogueAndNotifyServer |  |
 {% endtab %}
 {% endtabs %}
 

@@ -4,7 +4,7 @@ description: $bumpmap is a material shader parameter available in all Source gam
 
 # $bumpmap
 
- **`$bumpmap`** is a [material](../valve-material-type-vmt.md) [shader](../shader.md) parameter available in all Source games. It specifies a [texture](../) that will provide three-dimensional lighting information for a material. The texture is a [bump map](./), but the process it is used for is called [normal mapping](http://en.wikipedia.org/wiki/Normal_mapping). The two terms are often used interchangeably, however.
+ **`$bumpmap`** is a [material](../valve-material-type-vmt.md) [shader](../shader/) parameter available in all Source games. It specifies a [texture](../) that will provide three-dimensional lighting information for a material. The texture is a [bump map](./), but the process it is used for is called [normal mapping](http://en.wikipedia.org/wiki/Normal_mapping). The two terms are often used interchangeably, however.
 
 {% hint style="danger" %}
 `$bumpmap` will disable [`prop_static`](https://developer.valvesoftware.com/wiki/Prop_static)'s per-vertex lighting in every Source game but [![&amp;lt;Counter-Strike: Global Offensive&amp;gt;](https://developer.valvesoftware.com/w/images/3/35/Csgo.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive). Not enough data is stored in the vertices for normal mapping, so the engine has no choice but to fall back.

@@ -43,6 +43,10 @@
 | 28528 | weapon\_firestar\_throw\_1p |  |
 | 28529 | weapon\_firestar\_throw\_3p |  |
 | 28530 | weapon\_firestar\_whoosh |  |
+| 19142 | explo\_thermitegrenade\_impact\_1p |  |
+| 19143 | explo\_thermitegrenade\_impact\_3p |  |
+| 29568 | weapon\_thermitegrenade\_pinpull |  |
+| 29569 | weapon\_thermitegrenade\_throw |  |
 {% endtab %}
 
 {% tab title="Frag Grenade" %}

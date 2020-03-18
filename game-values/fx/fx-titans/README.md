@@ -8,20 +8,6 @@ description: Titan FX value
 
 | FX name | Value | Note |
 | :--- | :--- | :--- |
-| Arc Ball | P\_impact\_exp\_emp\_med\_air |  |
-| Arc Ball | wpn\_arc\_cannon\_charge\_fp | Charge FP |
-| Arc Ball | wpn\_arc\_cannon\_charge | Charge |
-| Arc Ball | P\_wpn\_arcball\_beam |  |
-| Arc Cannon | wpn\_arc\_cannon\_electricity\_fp | Muzzleflash FP |
-| Arc Cannon | wpn\_arc\_cannon\_electricity | Muzzleflash |
-| Arc Cannon | impact\_arc\_cannon\_titan | Impact |
-| Arc Cannon | wpn\_arc\_cannon\_beam |  |
-| Arc Cannon | wpn\_arc\_cannon\_beam\_mod |  |
-| Arc Cannon | exp\_arc\_cannon |  |
-| Arc Cannon | wpn\_muzzleflash\_arc\_cannon\_fp | Muzzleflash |
-| Arc Cannon | wpn\_muzzleflash\_arc\_cannon | Muzzleflash |
-| Arc Cannon | impact\_arc\_cannon\_titan | Impact effect |
-| Arc Cannon | P\_emp\_body\_human | Impact effect |
 | Atlas | P\_titan\_core\_atlas\_blast | Blast effect |
 | Atlas | P\_titan\_core\_atlas\_charge | Blast charge |
 | Atlas | P\_titan\_doom\_stage\_1 | ParticleSystem |

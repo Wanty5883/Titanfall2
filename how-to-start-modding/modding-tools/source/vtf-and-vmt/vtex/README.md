@@ -74,7 +74,7 @@ This would create a new directory called "`sample`" in your `Half-Life 2/hl2/mat
 
 #### -shader
 
-You can use the `-shader <shadername>` command to have Vtex create a .VMT for the new material with the [shader](../../../../../information/textures/shader.md) specified. For example, to create a basic `LightmappedGeneric` material, use the `-shader` command like this:
+You can use the `-shader <shadername>` command to have Vtex create a .VMT for the new material with the [shader](../../../../../information/textures/shader/) specified. For example, to create a basic `LightmappedGeneric` material, use the `-shader` command like this:
 
 ```text
 "%sourcesdk%\bin\vtex" -shader LightmappedGeneric sample_material.tga

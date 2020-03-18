@@ -21,6 +21,7 @@
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
 | Meteor  | r2\_ui/menus/loadout\_icons/titan\_weapon/titan\_weapon\_thermite\_cannon |  |
+| Incendiary Trap | rui/menu/fd\_menu/upgrade\_scorch\_explosive\_barrells\_hud |  |
 
 ## Ronin
 

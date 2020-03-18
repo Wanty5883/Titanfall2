@@ -110,7 +110,7 @@ For a list of all documented shader parameters, see [Category:List of Shader Par
 
 With a shader chosen you're onto parameters \(also called commands\). There are hundreds of options for what to put in a material so this article will only cover the most common, which are accepted by more or less all shaders. They are:
 
-* [`$basetexture`](../usdbasetexture.md)
+* [`$basetexture`](../shader/usdbasetexture.md)
 * [`$surfaceprop`](https://developer.valvesoftware.com/wiki/$surfaceprop)
 * [`$envmap`](https://developer.valvesoftware.com/wiki/$envmap)
 * [`$bumpmap`](../bump-map/usdbumpmap.md)
