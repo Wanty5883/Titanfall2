@@ -4,51 +4,118 @@ description: Legion sound value
 
 # Sound - Legion
 
-|  |  |
-| :--- | :--- |
-|  |  |
-
 {% tabs %}
-{% tab title="Config & Script files" %}
-
-
-| Value | Note | Example |
+{% tab title="Predator Cannon" %}
+| ID | Value | Note |
 | :--- | :--- | :--- |
-| **Predator Cannon** |  |  |
-| Weapon\_Predator\_SecondShot\_1P | Fire sound |  |
-| Weapon\_Predator\_SecondShot\_3P | Fire sound |  |
-| weapon\_predator\_windup\_1p | Charge sound |  |
-| weapon\_predator\_windup\_3p | Charge sound |  |
-| weapon\_predator\_winddown\_1p | Unload sound |  |
-| weapon\_predator\_winddown\_3p | Unload sound |  |
-| Weapon\_Predator\_MotorLoop\_1P | Loop sound |  |
-| Weapon\_Predator\_MotorLoop\_3P | Loop sound |  |
-| wpn\_predator\_cannon\_ads\_in\_mech\_fr00\_1p | ADS in |  |
-| wpn\_predator\_cannon\_ads\_out\_mech\_fr00\_1p | ADS out |  |
-| **Power Shot** |  |  |
-| Weapon\_Predator\_Powershot\_ChargeUp\_1P | Charge sound |  |
-| Weapon\_Predator\_Powershot\_ChargeUp\_3P | Charge sound |  |
-| Weapon\_Predator\_Powershot\_ShortRange\_1P |  |  |
-| Weapon\_Predator\_Powershot\_ShortRange\_3P |  |  |
-| Weapon\_Predator\_Powershot\_LongRange\_1P |  |  |
-| Weapon\_Predator\_Powershot\_LongRange\_3P |  |  |
-| **Smart Core** |  |  |
-| Titan\_Legion\_Smart\_Core\_Activated\_1P |  |  |
-| Titan\_Legion\_Smart\_Core\_Activated\_3P |  |  |
-| diag\_gs\_titanLegion\_smartCoreUse3p | Dialog |  |
+| 23025 | predator\_lowammo\_shot1 |  |
+| 29061 | weapon\_predator\_fireloop\_1p |  |
+| 29062 | weapon\_predator\_fireloop\_1p\_int |  |
+| 29063 | weapon\_predator\_fireloop\_3p |  |
+| 29064 | weapon\_predator\_fireloop\_3p\_enemy |  |
+| 29065 | weapon\_predator\_fireloop\_3p\_npc\_a |  |
+| 29066 | weapon\_predator\_fireloop\_longrange\_1p |  |
+| 29067 | weapon\_predator\_fireloop\_longrange\_1p\_int |  |
+| 29068 | weapon\_predator\_fireloop\_longrange\_3p |  |
+| 29069 | weapon\_predator\_fireloop\_longrange\_3p\_enemy |  |
+| 29070 | weapon\_predator\_fireloop\_shortrange\_1p |  |
+| 29071 | weapon\_predator\_fireloop\_shortrange\_1p\_int |  |
+| 29072 | weapon\_predator\_fireloop\_shortrange\_3p |  |
+| 29073 | weapon\_predator\_fireloop\_shortrange\_3p\_enemy |  |
+| 29074 | weapon\_predator\_firstshot\_1p |  |
+| 29075 | weapon\_predator\_loopend\_1p |  |
+| 29076 | weapon\_predator\_motorloop\_1p |  |
+| 29077 | weapon\_predator\_motorloop\_3p |  |
+| 29078 | weapon\_predator\_motorloop\_3p\_enemy |  |
+| 29104 | weapon\_predator\_secondshot\_1p |  |
+| 29105 | weapon\_predator\_secondshot\_1p\_int |  |
+| 29106 | weapon\_predator\_secondshot\_3p |  |
+| 29107 | weapon\_predator\_secondshot\_3p\_enemy |  |
+| 29108 | weapon\_predator\_secondshot\_3p\_enemy\_int |  |
+| 29109 | weapon\_predator\_secondshot\_3p\_int |  |
+| 29110 | weapon\_predator\_shelldrops\_1p |  |
+| 29111 | weapon\_predator\_winddown\_1p |  |
+| 29112 | weapon\_predator\_winddown\_3p |  |
+| 29113 | weapon\_predator\_winddown\_3p\_enemy |  |
+| 29114 | weapon\_predator\_windup\_1p |  |
+| 29115 | weapon\_predator\_windup\_3p |  |
+| 29116 | weapon\_predator\_windup\_3p\_enemy |  |
+| 30267 | wpn\_predator\_cannon\_ads\_in\_mech\_fr00\_1p |  |
+| 30268 | wpn\_predator\_cannon\_ads\_out\_mech\_fr00\_1p |  |
+| 30269 | wpn\_predator\_cannon\_draw\_mech\_fr00\_1p |  |
+| 30270 | wpn\_predator\_cannon\_reload\_mech\_fr00\_1p |  |
+| 30271 | wpn\_predator\_cannon\_reload\_mech\_fr00\_3p |  |
+| 30272 | wpn\_predator\_cannon\_reload\_mech\_fr100\_1p |  |
+| 30273 | wpn\_predator\_cannon\_reload\_mech\_fr100\_3p |  |
+| 30274 | wpn\_predator\_cannon\_reload\_mech\_fr106\_1p |  |
+| 30275 | wpn\_predator\_cannon\_reload\_mech\_fr106\_3p |  |
+| 30276 | wpn\_predator\_cannon\_reload\_mech\_fr17\_1p |  |
+| 30277 | wpn\_predator\_cannon\_reload\_mech\_fr17\_3p |  |
+| 30278 | wpn\_predator\_cannon\_reload\_mech\_fr33\_1p |  |
+| 30279 | wpn\_predator\_cannon\_reload\_mech\_fr33\_3p |  |
+| 30280 | wpn\_predator\_cannon\_reload\_mech\_fr45\_1p |  |
+| 30281 | wpn\_predator\_cannon\_reload\_mech\_fr45\_3p |  |
+| 30282 | wpn\_predator\_cannon\_reload\_mech\_fr59\_1p |  |
+| 30283 | wpn\_predator\_cannon\_reload\_mech\_fr59\_3p |  |
+| 30284 | wpn\_predator\_cannon\_reload\_mech\_fr71\_1p |  |
+| 30285 | wpn\_predator\_cannon\_reload\_mech\_fr71\_3p |  |
+| 30286 | wpn\_predator\_cannon\_reload\_mech\_fr86\_1p |  |
+| 30287 | wpn\_predator\_cannon\_reload\_mech\_fr86\_3p |  |
+{% endtab %}
+
+{% tab title="Power Shot" %}
+| ID | Value | Note |
+| :--- | :--- | :--- |
+| 29083 | weapon\_predator\_powershot\_chargeup\_1p |  |
+| 29084 | weapon\_predator\_powershot\_chargeup\_3p |  |
+| 29085 | weapon\_predator\_powershot\_chargeup\_3p\_enemy |  |
+| 29086 | weapon\_predator\_powershot\_longrange\_1p |  |
+| 29087 | weapon\_predator\_powershot\_longrange\_1p\_int |  |
+| 29088 | weapon\_predator\_powershot\_longrange\_3p |  |
+| 29089 | weapon\_predator\_powershot\_longrange\_3p\_enemy |  |
+| 29090 | weapon\_predator\_powershot\_longrange\_3p\_int |  |
+| 29091 | weapon\_predator\_powershot\_longrange\_3p\_int\_enemy |  |
+| 29092 | weapon\_predator\_powershot\_shortrange\_1p |  |
+| 29093 | weapon\_predator\_powershot\_shortrange\_1p\_int |  |
+| 29094 | weapon\_predator\_powershot\_shortrange\_3p |  |
+| 29095 | weapon\_predator\_powershot\_shortrange\_3p\_enemy |  |
+| 29096 | weapon\_predator\_powershot\_shortrange\_3p\_int |  |
+| 29097 | weapon\_predator\_powershot\_shortrange\_3p\_int\_enemy |  |
+{% endtab %}
+
+{% tab title="Range Switch" %}
+| ID | Value | Note |
+| :--- | :--- | :--- |
+| 29098 | weapon\_predator\_rangeswitch\_tolong\_1p |  |
+| 29099 | weapon\_predator\_rangeswitch\_tolong\_3p |  |
+| 29100 | weapon\_predator\_rangeswitch\_tolong\_3p\_enemy |  |
+| 29101 | weapon\_predator\_rangeswitch\_toshort\_1p |  |
+| 29102 | weapon\_predator\_rangeswitch\_toshort\_3p |  |
+| 29103 | weapon\_predator\_rangeswitch\_toshort\_3p\_enemy |  |
 {% endtab %}
 
 {% tab title="Smart Core" %}
-| Value | Note | Example |
+| ID | Value | Note |
 | :--- | :--- | :--- |
-| titan\_legion\_smart\_core\_activated\_1p |  |  |
-| titan\_legion\_smart\_core\_activated\_3p |  |  |
-| titan\_legion\_smart\_core\_activated\_3p\_enemy |  |  |
-| titan\_legion\_smart\_core\_activeloop\_1p |  |  |
-| titan\_legion\_smart\_core\_deactivated\_1p |  |  |
-| titan\_legion\_smart\_core\_lockingon\_1p |  |  |
-| titan\_legion\_smart\_core\_target\_acquired\_1p |  |  |
-| titan\_legion\_smart\_core\_unlocked\_1p |  |  |
+| 27340 | Titan\_Legion\_Smart\_Core\_Activated\_1P |  |
+| 27341 | Titan\_Legion\_Smart\_Core\_Activated\_3P |  |
+| 27342 | Titan\_Legion\_Smart\_Core\_Activated\_3P\_enemy |  |
+| 27343 | Titan\_Legion\_Smart\_Core\_ActiveLoop\_1P |  |
+| 27344 | Titan\_Legion\_Smart\_Core\_Deactivated\_1P |  |
+| 27345 | Titan\_Legion\_Smart\_Core\_LockingOn\_1P |  |
+| 27346 | Titan\_Legion\_Smart\_Core\_Target\_Acquired\_1P |  |
+| 27347 | Titan\_Legion\_Smart\_Core\_Unlocked\_1P |  |
+{% endtab %}
+
+{% tab title="Shield" %}
+
+
+| ID | Value | Note |
+| :--- | :--- | :--- |
+| 29079 | weapon\_predator\_mountedshield\_start\_1p |  |
+| 29080 | weapon\_predator\_mountedshield\_start\_3p |  |
+| 29081 | weapon\_predator\_mountedshield\_stop\_1p |  |
+| 29082 | weapon\_predator\_mountedshield\_stop\_3p |  |
 {% endtab %}
 
 {% tab title="Embark" %}
@@ -117,24 +184,5 @@ description: Legion sound value
 | legion\_crouchdown\_1p |  |  |
 | legion\_crouchstand\_1p |  |  |
 {% endtab %}
-
-{% tab title="Execution" %}
-
-
-| Value | Note | Example |
-| :--- | :--- | :--- |
-| legion\_execution |  |  |
-| legion\_execution\_part\_01 |  |  |
-| legion\_execution\_part\_02 |  |  |
-| legion\_execution\_part\_03 |  |  |
-{% endtab %}
-
-{% tab title="" %}
-
-{% endtab %}
 {% endtabs %}
-
-|  |  |  |
-| :--- | :--- | :--- |
-|  |  |  |
 
