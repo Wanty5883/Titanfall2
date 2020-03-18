@@ -169,6 +169,35 @@ description: SMG's sound value
 {% endtab %}
 
 {% tab title="Volt" %}
+
+
+| ID | Value | Note |
+| :--- | :--- | :--- |
+| 30378 | wpn\_Volt\_FirstPullout\_foley\_fr01\_1p |  |
+| 30379 | wpn\_Volt\_FirstPullout\_foley\_GunRattle\_fr01\_1p |  |
+| 30380 | wpn\_Volt\_FirstPullout\_foley\_GunRattleGrab\_fr30\_1p |  |
+| 30381 | wpn\_Volt\_FirstPullout\_mech\_BoltAccuate\_fr21\_1p |  |
+| 30382 | wpn\_Volt\_FirstPullout\_mech\_BoltRelease\_fr18\_1p |  |
+| 30383 | wpn\_Volt\_reload\_foley\_LftArmMagIn\_fr01\_1p |  |
+| 30384 | wpn\_Volt\_reload\_foley\_LftArmMagPul\_fr45\_1p |  |
+| 30385 | wpn\_Volt\_reload\_mech\_BoltAccuate\_fr29\_1p |  |
+| 30386 | wpn\_Volt\_reload\_mech\_GunRattle\_fr01\_1p |  |
+| 30387 | wpn\_Volt\_reload\_mech\_GunRattleMagIn\_fr21\_1p |  |
+| 30388 | wpn\_Volt\_reload\_mech\_GunRattleMagIn\_fr54\_1p |  |
+| 30389 | wpn\_Volt\_reload\_mech\_MagOut\_fr16\_1p |  |
+| 30390 | wpn\_Volt\_reloadempty\_foley\_ArmLftMagSlide\_fr01\_1p |  |
+| 30391 | wpn\_Volt\_reloadempty\_foley\_ArmLftMagSlide\_fr34\_1p |  |
+| 30392 | wpn\_Volt\_reloadempty\_foley\_ArmLftPullMag\_fr65\_1p |  |
+| 30393 | wpn\_Volt\_reloadempty\_foley\_BoltPullSettle\_fr12\_1p |  |
+| 30394 | wpn\_Volt\_reloadempty\_mech\_BoltPullRelease\_fr58\_1p |  |
+| 30395 | wpn\_Volt\_reloadempty\_mech\_GunRattleMagIn\_fr34\_1p |  |
+| 30396 | wpn\_Volt\_reloadempty\_mech\_GunRattleMagIn\_fr42\_1p |  |
+| 30397 | wpn\_Volt\_reloadempty\_mech\_GunRattleMagIn\_fr49\_1p |  |
+| 30398 | wpn\_Volt\_reloadempty\_mech\_GunRattleMagOut\_fr04\_1p |  |
+| 30399 | wpn\_Volt\_reloadempty\_mech\_GunRattleSettle\_fr69\_1p |  |
+| 30400 | wpn\_Volt\_reloadempty\_mech\_MagIn\_fr29\_1p |  |
+| 30401 | wpn\_Volt\_reloadempty\_mech\_MagOut\_fr15\_1p |  |
+
 | **Volt** |  |  |
 | :--- | :--- | :--- |
 | Volt | hemlok\_dryfire | Dryfire |
