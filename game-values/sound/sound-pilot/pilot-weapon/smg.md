@@ -78,6 +78,96 @@ description: SMG's sound value
 
 {% tab title="CAR" %}
 
+
+| ID | Value | Note |
+| :--- | :--- | :--- |
+| 2074 | car\_lowammo\_shot1 |  |
+| 28204 | weapon\_car\_ads\_in |  |
+| 28205 | weapon\_car\_ads\_out |  |
+| 28206 | weapon\_car\_emptyreload\_boltback |  |
+| 28207 | weapon\_car\_emptyreload\_boltfront |  |
+| 28208 | weapon\_car\_emptyreload\_handrest |  |
+| 28209 | weapon\_car\_emptyreload\_maggrab |  |
+| 28210 | weapon\_car\_emptyreload\_maginsert |  |
+| 28211 | weapon\_car\_emptyreload\_magpull |  |
+| 28212 | weapon\_car\_equip |  |
+| 28213 | weapon\_car\_firstdraw |  |
+| 28214 | weapon\_car\_firstshot\_1p |  |
+| 28215 | weapon\_car\_firstshot\_1p\_int |  |
+| 28216 | weapon\_car\_firstshot\_3p\_BU1 |  |
+| 28217 | weapon\_car\_firstshot\_3p\_enemy |  |
+| 28218 | weapon\_car\_firstshot\_npc\_BU1 |  |
+| 28219 | weapon\_car\_firstshotsuppressed\_1p |  |
+| 28220 | weapon\_car\_firstshotsuppressed\_3p |  |
+| 28221 | weapon\_car\_firstshotsuppressed\_3p\_enemy |  |
+| 28222 | weapon\_car\_loop\_1p |  |
+| 28223 | weapon\_car\_loop\_3p |  |
+| 28224 | weapon\_car\_loop\_3p\_BU1 |  |
+| 28225 | weapon\_car\_loop\_3p\_enemy |  |
+| 28226 | weapon\_car\_loop\_3p\_enemy\_BU |  |
+| 28227 | weapon\_car\_loop\_3p\_enemy\_BU1 |  |
+| 28228 | weapon\_car\_loop\_3p\_npc |  |
+| 28229 | weapon\_car\_loop\_3p\_npc\_a |  |
+| 28230 | weapon\_car\_loop\_3p\_OLD2 |  |
+| 28231 | weapon\_car\_loop\_npc |  |
+| 28232 | weapon\_car\_loopend\_1p |  |
+| 28233 | weapon\_car\_loopend\_1p\_int |  |
+| 28234 | weapon\_car\_loopend\_1p\_OLD |  |
+| 28235 | weapon\_car\_loopend\_3p |  |
+| 28236 | weapon\_car\_loopend\_3p\_enemy |  |
+| 28237 | weapon\_car\_loopend\_3p\_int |  |
+| 28238 | weapon\_car\_loopend\_3p\_int\_enemy |  |
+| 28239 | weapon\_car\_loopend\_npc |  |
+| 28240 | weapon\_car\_loopend\_npc\_int |  |
+| 28241 | weapon\_car\_loopsuppressed\_1p |  |
+| 28242 | weapon\_car\_loopsuppressed\_3p |  |
+| 28243 | weapon\_car\_loopsuppressed\_3p\_enemy |  |
+| 28244 | weapon\_car\_loopsuppressedend\_1p |  |
+| 28245 | weapon\_car\_loopsuppressedend\_3p |  |
+| 28246 | weapon\_car\_loopsuppressedend\_3p\_enemy |  |
+| 28247 | weapon\_car\_raise |  |
+| 28248 | weapon\_car\_reload\_maggrab |  |
+| 28249 | weapon\_car\_reload\_maghandrest |  |
+| 28250 | weapon\_car\_reload\_maginsert |  |
+| 28251 | weapon\_car\_reload\_magpull |  |
+| 28252 | weapon\_car\_secondshot1\_npc |  |
+| 28253 | weapon\_car\_secondshot\_1p |  |
+| 28254 | weapon\_car\_secondshot\_1p\_BU |  |
+| 28255 | weapon\_car\_secondshot\_1p\_intlg |  |
+| 28256 | weapon\_car\_secondshot\_1p\_intlg\_BU |  |
+| 28257 | weapon\_car\_secondshot\_1p\_intmed |  |
+| 28258 | weapon\_car\_secondshot\_1p\_intmed\_BU |  |
+| 28259 | weapon\_car\_secondshot\_1p\_intsm |  |
+| 28260 | weapon\_car\_secondshot\_1p\_intsm\_BU |  |
+| 28261 | weapon\_car\_secondshot\_3p |  |
+| 28262 | weapon\_car\_secondshot\_3p\_BU1 |  |
+| 28263 | weapon\_car\_secondshot\_3p\_enemy |  |
+| 28264 | weapon\_car\_secondshot\_3p\_enemy\_BU |  |
+| 28265 | weapon\_car\_secondshot\_3p\_enemy\_BU1 |  |
+| 28266 | weapon\_car\_secondshot\_3p\_enemy\_intlg |  |
+| 28267 | weapon\_car\_secondshot\_3p\_enemy\_intlg\_BU1 |  |
+| 28268 | weapon\_car\_secondshot\_3p\_enemy\_intlg\_OLD2 |  |
+| 28269 | weapon\_car\_secondshot\_3p\_enemy\_intmed |  |
+| 28270 | weapon\_car\_secondshot\_3p\_enemy\_intmed\_BU1 |  |
+| 28271 | weapon\_car\_secondshot\_3p\_enemy\_intmed\_OLD2 |  |
+| 28272 | weapon\_car\_secondshot\_3p\_enemy\_intsm |  |
+| 28273 | weapon\_car\_secondshot\_3p\_enemy\_intsm\_BU1 |  |
+| 28274 | weapon\_car\_secondshot\_3p\_enemy\_intsm\_OLD2 |  |
+| 28275 | weapon\_car\_secondshot\_3p\_enemy\_OLD2 |  |
+| 28276 | weapon\_car\_secondshot\_3p\_int |  |
+| 28277 | weapon\_car\_secondshot\_3p\_int\_enemy |  |
+| 28278 | weapon\_car\_secondshot\_3p\_intlg |  |
+| 28279 | weapon\_car\_secondshot\_3p\_intlg\_OLD2 |  |
+| 28280 | weapon\_car\_secondshot\_3p\_intmed |  |
+| 28281 | weapon\_car\_secondshot\_3p\_intmed\_OLD2 |  |
+| 28282 | weapon\_car\_secondshot\_3p\_intsm |  |
+| 28283 | weapon\_car\_secondshot\_3p\_intsm\_OLD2 |  |
+| 28284 | weapon\_car\_secondshot\_3p\_OLD2 |  |
+| 28285 | weapon\_car\_secondshot\_npc |  |
+| 28286 | weapon\_car\_secondshot\_npc\_intlg |  |
+| 28287 | weapon\_car\_secondshot\_npc\_intmed |  |
+| 28288 | weapon\_car\_secondshot\_npc\_intsm |  |
+| 28289 | weapon\_car\_unequip |  |
 {% endtab %}
 
 {% tab title="R97" %}
