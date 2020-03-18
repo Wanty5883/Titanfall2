@@ -288,6 +288,61 @@ description: SMG's sound value
 | 30400 | wpn\_Volt\_reloadempty\_mech\_MagIn\_fr29\_1p |  |
 | 30401 | wpn\_Volt\_reloadempty\_mech\_MagOut\_fr15\_1p |  |
 
+| ID | Value | Note |
+| :--- | :--- | :--- |
+| 19596 | hemloksmg\_lowammo\_shot1 |  |
+| 28632 | weapon\_hemloksmg\_fire\_first\_1p |  |
+| 28633 | weapon\_hemloksmg\_fire\_first\_1p\_int |  |
+| 28634 | weapon\_hemloksmg\_fire\_first\_3p |  |
+| 28635 | weapon\_hemloksmg\_fire\_last\_1p |  |
+| 28636 | weapon\_hemloksmg\_fire\_last\_3p |  |
+| 28637 | weapon\_hemloksmg\_fire\_last\_3p\_enemy |  |
+| 28638 | weapon\_hemloksmg\_fire\_last\_npc |  |
+| 28639 | weapon\_hemloksmg\_fire\_loop\_1p |  |
+| 28640 | weapon\_hemloksmg\_fire\_loop\_1p\_OLD |  |
+| 28641 | weapon\_hemloksmg\_fire\_loop\_3p |  |
+| 28642 | weapon\_hemloksmg\_fire\_loop\_3p\_enemy |  |
+| 28643 | weapon\_hemloksmg\_fire\_loop\_3p\_OLD |  |
+| 28644 | weapon\_hemloksmg\_fire\_loop\_npc |  |
+| 28645 | weapon\_hemloksmg\_single\_1p |  |
+| 28646 | weapon\_hemloksmg\_single\_1p\_intlg |  |
+| 28647 | weapon\_hemloksmg\_single\_1p\_intmed |  |
+| 28648 | weapon\_hemloksmg\_single\_1p\_intsm |  |
+| 28649 | weapon\_hemloksmg\_single\_3p |  |
+| 28650 | weapon\_hemloksmg\_single\_3p\_enemy |  |
+| 28651 | weapon\_hemloksmg\_single\_3p\_enemy\_intlg |  |
+| 28652 | weapon\_hemloksmg\_single\_3p\_enemy\_intmed |  |
+| 28653 | weapon\_hemloksmg\_single\_3p\_enemy\_intsm |  |
+| 28654 | weapon\_hemloksmg\_single\_3p\_intlg |  |
+| 28655 | weapon\_hemloksmg\_single\_3p\_intmed |  |
+| 28656 | weapon\_hemloksmg\_single\_3p\_intsm |  |
+| 28657 | weapon\_hemloksmg\_single\_3p\_OLD |  |
+| 28658 | weapon\_hemloksmg\_single\_npc |  |
+| 28659 | weapon\_hemloksmg\_single\_npc\_intlg |  |
+| 28660 | weapon\_hemloksmg\_single\_npc\_intmed |  |
+| 28661 | weapon\_hemloksmg\_single\_npc\_intsm |  |
+| 30215 | wpn\_hemlokSMG\_br\_reload\_foley\_LftArmMagIn\_fr36\_1p |  |
+| 30216 | wpn\_hemlokSMG\_br\_reload\_foley\_LftArmMagPul\_fr08\_1p |  |
+| 30217 | wpn\_hemlokSMG\_br\_reload\_mech\_BoltAccuate\_fr33\_1p |  |
+| 30218 | wpn\_hemlokSMG\_br\_reload\_mech\_GunRattle\_fr01\_1p |  |
+| 30219 | wpn\_hemlokSMG\_br\_reload\_mech\_GunRattleGrab\_fr61\_1p |  |
+| 30220 | wpn\_hemlokSMG\_br\_reload\_mech\_GunRattleMagIn\_fr45\_1p |  |
+| 30221 | wpn\_hemlokSMG\_br\_reload\_mech\_MagPullSlide\_fr17\_1p |  |
+| 30222 | wpn\_hemlokSMG\_br\_reloadempty\_foley\_ArmLftMagSlide\_fr18\_1p |  |
+| 30223 | wpn\_hemlokSMG\_br\_reloadempty\_foley\_ArmLftPullMag\_fr02\_1p |  |
+| 30224 | wpn\_hemlokSMG\_br\_reloadempty\_mech\_BoltPullRelease\_fr59\_1p |  |
+| 30225 | wpn\_hemlokSMG\_br\_reloadempty\_mech\_BoltPullSettle\_fr40\_1p |  |
+| 30226 | wpn\_hemlokSMG\_br\_reloadempty\_mech\_GunRattleMagIn\_fr42\_1p |  |
+| 30227 | wpn\_hemlokSMG\_br\_reloadempty\_mech\_GunRattleMagOut\_fr03\_1p |  |
+| 30228 | wpn\_hemlokSMG\_br\_reloadempty\_mech\_GunRattleSettle\_fr75\_1p |  |
+| 30229 | wpn\_hemlokSMG\_br\_reloadempty\_mech\_MagIn\_fr31\_1p |  |
+| 30230 | wpn\_hemlokSMG\_br\_reloadempty\_mech\_MagOut\_fr09\_1p |  |
+| 30231 | wpn\_hemlokSMG\_reload\_mech\_br\_firstdraw\_BoltAccuate\_fr12\_1p |  |
+| 30232 | wpn\_hemlokSMG\_reload\_mech\_br\_firstdraw\_BoltRelease\_fr08\_1p |  |
+| 30233 | wpn\_hemlokSMG\_reload\_mech\_br\_firstdraw\_Foley\_fr01\_1p |  |
+| 30234 | wpn\_hemlokSMG\_reload\_mech\_br\_firstdraw\_GunRattle\_fr01\_1p |  |
+| 30235 | wpn\_hemlokSMG\_reload\_mech\_br\_firstdraw\_GunRattleGrab\_fr19\_1p |  |
+
 | **Volt** |  |  |
 | :--- | :--- | :--- |
 | Volt | hemlok\_dryfire | Dryfire |
