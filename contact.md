@@ -28,6 +28,6 @@ When you ask your question, display the fact that you made some research, explai
 {% endhint %}
 
 {% hint style="info" %}
-Also make sure to make your message readable, use proper code block with syntax highlight is you share code, etc. This will help establish that you're not being a lazy sponge and wasting people's time. Better yet, display what you have learned from doing these things. We like answering questions for people who have demonstrated they can learn from the answers
+Also make sure to make your message readable, use proper code block with syntax highlight is you share code, etc. This will help establish that you're not being a lazy sponge asking for spoon-feeding and wasting people's time. Better yet, display what you have learned from doing these things. We like answering questions for people who have demonstrated they can learn from the answers
 {% endhint %}
 
