@@ -4,6 +4,14 @@ description: Location of weapon config files.
 
 # File name - Weapon config
 
+## File location
+
+The default location of those files is
+
+```text
+englishclient_mp_common.bsp.pak000_dir.vpk\scripts\weapons
+```
+
 ## Pilot Weapon
 
 ### AR - Assault Rifle
@@ -88,13 +96,20 @@ description: Location of weapon config files.
 
 ## **Titan**
 
+| **Weapon name** | File name |
+| :--- | :--- |
+| Electric Smoke | mp\_titanability\_smoke.txt |
+| Nuke Ejection | mp\_titanability\_nuke\_eject.txt |
+| Quad Rocket | mp\_titanweapon\_rocketeer\_rocketstream.txt |
+
 ### **Ion**
 
 | Weapon name | File name |
 | :--- | :--- |
 | Particle Accelerator | mp\_titanweapon\_particle\_accelerator.txt |
-| Laser Core | mp\_titancore\_lasercannon.txt |
+| Laser Core | mp\_titancore\_laser\_cannon.txt |
 | Laser Shot | mp\_titanweapon\_laser\_lite.txt |
+| Laser Trip Wire | mp\_titanability\_laser\_trip.txt |
 
 ### **Tone**
 
@@ -102,7 +117,9 @@ description: Location of weapon config files.
 | :--- | :--- |
 | 40MM | mp\_titanweapon\_sticky\_40mm.txt |
 | Salvo Core | mp\_titancore\_salvo\_core.txt |
-| Salvo Rocket | mp\_titanweapon\_salvo\_rockets.txt |
+| Particle Wall | mp\_titanability\_particle\_wall.txt |
+| Rockets Barrage | mp\_titanweapon\_homing\_rockets.txt |
+| Sonar Pulse | mp\_titanability\_sonar\_pulse.txt |
 
 ### **Northstar**
 
@@ -110,13 +127,20 @@ description: Location of weapon config files.
 | :--- | :--- |
 | Railgun | mp\_titanweapon\_sniper.txt |
 | Cluster | mp\_titanweapon\_dumbfire\_rockets.txt |
+| Flightcore | mp\_titancore\_flight\_core.txt |
 | Flightcore | mp\_titanweapon\_flightcore\_rockets.txt |
+| Hover | mp\_titanability\_hover.txt |
+| Tether Trap | mp\_titanability\_tether\_trap.txt |
 
 ### **Monarch**
 
 | Weapon name | File name |
 | :--- | :--- |
-|  |  |
+| Amp Core | mp\_titancore\_amp\_core.txt |
+| Electric Smoke | mp\_titanability\_electric\_smoke.txt |
+| Multi Lock Rocket | mp\_titanweapon\_salvo\_rockets.txt |
+| Upgrade Core | mp\_titancore\_upgrade |
+| Rearm | mp\_titanability\_rearm.txt |
 
 ### **Ronin**
 
@@ -124,17 +148,35 @@ description: Location of weapon config files.
 | :--- | :--- |
 | Leadwall | mp\_titanweapon\_leadwall.txt |
 | Arc Wave | mp\_titanweapon\_arc\_wave.txt |
+| Sword Block | mp\_titanability\_basic\_block.txt |
+| Phase Dash | mp\_titanability\_phase\_dash.txt |
+| Sword Core | mp\_titancore\_shift\_core.txt |
+| Dash Core | mp\_titancore\_dash\_core.txt |
 
 ### **Scorch**
 
 | Weapon name | File name |
 | :--- | :--- |
-| Thermite Launcher | mp\_titanweapon\_meteor.txt |
+| Flame Core | mp\_titancore\_flame\_wave.txt |
+| Flame Shield | mp\_titanweapon\_heat\_shield |
 | Flame Wall | mp\_titanweapon\_flame\_wall.txt |
+| Incendiary Trap | mp\_titanability\_slow\_trap.txt |
+| Thermite Launcher | mp\_titanweapon\_meteor.txt |
 
 ### **Legion**
 
 | Weapon name | File name |
 | :--- | :--- |
+| Ammo Swap | mp\_titanability\_ammo\_swap.txt |
+| Gun Shield | mp\_titanability\_gun\_shield.txt |
 | Predator Cannon | mp\_titanweapon\_predator\_canon.txt |
+| Predator Cannon | mp\_titanweapon\_predator\_cannon\_siege.txt |
+| Power Shot | mp\_titanability\_power\_shot.txt |
+| Smart Core | mp\_titancore\_siege\_mode.txt |
+
+## Misc
+
+| Weapon name | File name |
+| :--- | :--- |
+| Orbital Strike | mp\_titanweapon\_orbital\_stike.txt |
 
