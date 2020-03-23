@@ -44,7 +44,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 | Weapon name | File name |
 | :--- | :--- |
-| Kraber |  |
+| Kraber | mp\_weapon\_sniper.nut |
 | Double Take |  |
 | Longbow DMR |  |
 
@@ -102,7 +102,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 | :--- | :--- |
 | Particle Accelerator |  |
 | Laser Core |  |
-| Laser Shot |  |
+| Laser Shot | mp\_titanweapon\_laser\_lite.nut |
 | Laser Trip Wire |  |
 
 ### **Tone**
@@ -117,7 +117,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 | Weapon name | File name |
 | :--- | :--- |
-| Railgun |  |
+| Railgun | mp\_titanweapon\_sniper.nut |
 | Cluster |  |
 | Flightcore |  |
 
