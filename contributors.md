@@ -6,7 +6,7 @@ description: 'People who have, in the past or present, contributed to or managed
 
 ## Contributors
 
-**Wanty5883** - Modding researcher, editor & Admin
+**Wanty5883** - Modding researcher, dataminer, editor & admin
 
 **DirectXeon** - Admin & graphic creator
 
@@ -15,6 +15,8 @@ description: 'People who have, in the past or present, contributed to or managed
 **MrCleansForeHead -** Modding researcher & editor
 
 **Phyr** - Modding researcher, editor & proofreader
+
+**Dinorush** - Dataminer, editor & proofreader
 
 ## Special Thanks
 
