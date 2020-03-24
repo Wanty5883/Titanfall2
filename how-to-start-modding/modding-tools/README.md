@@ -49,8 +49,8 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 ### File editor
 
 * Atom Text - [Download](https://atom.io/) _recommended_
-  * Syntax color .cfg - [Download](https://atom.io/packages/language-source-cfg)
-  * Syntax color .nut & .gnut - [Download](https://atom.io/packages/squirrel-language)
+  * Syntax color KeyValue - [Download](https://atom.io/packages/language-source-cfg)
+  * Syntax color Squirrel - [Download](https://atom.io/packages/squirrel-language)
   * Color picker - [Download](https://atom.io/packages/color-picker)
 * TextCrawler 3 - [Download](https://www.digitalvolcano.co.uk/tcdownloads.html)
 * Visual Studio Code - [Download](https://code.visualstudio.com/)
