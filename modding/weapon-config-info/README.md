@@ -6,10 +6,10 @@ description: List of information for the weapon config files
 
 ## Introduction & Warning
 
-Massive amount of value and information. This page will often refer to different pages.
+Massive amount of values and information. This page will often refer to different pages.
 
 {% hint style="danger" %}
-**Edit those files at your own risk.** If you get banned because you edit some important value it is your own fault. Do not experiment with values that are not client sided or mainly aesthetic.
+**Edit these files at your own risk.** If you get banned because you edited important values, it is your own fault. Do not experiment with values that are not client side or mainly aesthetic.
 {% endhint %}
 
 ## Config file
@@ -32,9 +32,9 @@ This folder contains the "config files" for the weapons. Check this page for the
 
 > englishclient\_mp\_common.bsp.pak000\_dir.vpk\scripts\weapons
 
-This folder contains the "config files" for the weapons. Edit those files at your own risk, if you get banned because you edit some important value don’t blame me.
+This folder contains the "config files" for the weapons. Edit these files at your own risk. If you get banned because you edited important values, don’t blame me.
 
-This guide will cover value below the comment `// Effects` in those files. This guide will be large and covers a lot of different values, so for an easier navigation refer to the **table of content**. This is the part of the file we are looking for:
+This guide will cover values below the comment `// Effects` in those files. It will be large and there are many different values, so for easier navigation refer to the **table of content**. This is the part of the file we are looking for:
 
 ```text
 // Effects
@@ -55,7 +55,7 @@ This guide will cover value below the comment `// Effects` in those files. This 
 "fx_muzzle_flash_attach"	  				"muzzle_flash"
 ```
 
-As you may noticed, for some weapons, when you amp them \(amped weapon\) some effects change. This is what you should look for:
+As you may noticed, some weapons have their effects changed when Amped. This is what you should look for:
 
 ```text
 {
@@ -71,35 +71,35 @@ As you may noticed, for some weapons, when you amp them \(amped weapon\) some ef
 
 #### impact\_effect\_table
 
-This value defines the impact animation when the bullet hits players or walls. It can be added to weapons who don't  have this value already. As tested before, it is not possible to combine multiple impact animations.  
-You can have different values between normal and amped mode on each weapon config file. Impact\_effect\_table accepts other type of values, like tracers.
+This value defines the impact animation when the bullet hits players or walls. It can be added to weapons that don't have this value already. From previous testing results, it is not possible to combine multiple impact animations.  
+Impact\_effect\_table accepts other types of values, like tracers.
 
-You can have different values between normal and amped mode on each weapon config file. Find impact values in game values FX
+You can have different values between the normal and amped modes on each weapon config file. Find impact values in game values FX:
 
 {% page-ref page="../../game-values/fx/" %}
 
 #### tracer\_effect
 
-Tracer effects are for **hitscan weapons only**, this function does not effect projectile based weapons. However, there are some exeptions. Find this code block to the tracers code part:
+Tracer effects are for **hitscan weapons only**, this function does not affect projectile based weapons. However, there are some exceptions. Find this code block to locate the tracer code part:
 
 ```text
 "tracer_effect"   							  "P_wpn_tracer"
 "tracer_effect_first_person"                    "P_wpn_tracer"
 ```
 
-`tracer_effect` will effect the **overall game**, basically it will change the tracer particle of other players using the edited weapon \(this is client side of course\). `tracer_effect_first_person` will effect **you**. Depending of what you want to do, you can set different values between them. As tested, it could be very confusing or even have a bad impact on your game performance if there are too many `tracer_effect` on too many different weapons. I personally rarely change it, I just change `tracer_effect_first_person` most of the time.
+`tracer_effect` will affect the **overall game**, in other words, it will change the tracer particle of other players using the edited weapon \(this is client side of course\). `tracer_effect_first_person` will effect **you**. You can set different values between them. From previous testing, it can be very confusing or even have a negative impact on your game performance if there are too many `tracer_effect` on too many different weapons. I personally rarely change it, I only change `tracer_effect_first_person` most of the time.
 
 {% page-ref page="../../game-values/fx/" %}
 
 #### projectile\_trail\_effect
 
-Projectile trail effects are for **projectile weapons only**, this function does not effect hitscan based weapons. Find this code block to get to the trail code part:
+Projectile trail effects are for **projectile weapons only**, this function does not affect hitscan weapons. Find this code block to locate the trail code part:
 
 ```text
 "projectile_trail_effect_0" 					"P_projectile_lstar"
 ```
 
-You can have different values between normal and amped mode on each weapon config file. Find projectile values in game values FX
+You can have different values between the normal and amped modes on each weapon config file. Find projectile values in game values FX:
 
 {% page-ref page="../../game-values/fx/" %}
 
