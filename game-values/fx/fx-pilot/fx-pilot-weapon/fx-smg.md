@@ -21,6 +21,31 @@ description: SMG FX value
 | shell\_1 | Shell eject attach |  |  |
 | wpn\_vortex\_projectile\_rifle\_FP | Vortex absorb FP |  |  |
 | wpn\_vortex\_projectile\_rifle | Vortex absorb |  |  |
+| P\_wpn\_muzzleflash\_alternator |  |  |  |
+| P\_wpn\_muzzleflash\_alternator\_FP |  |  |  |
+| P\_wpn\_muzzleflash\_alternator\_FP\_burn |  |  |  |
+| P\_wpn\_muzzleflash\_alternator\_burn |  |  |  |
+| wpn\_mflash\_alternator\_base |  |  |  |
+| wpn\_mflash\_alternator\_base\_FP |  |  |  |
+| wpn\_mflash\_alternator\_base\_FP\_burn |  |  |  |
+| wpn\_mflash\_alternator\_base\_burn |  |  |  |
+| wpn\_mflash\_alternator\_core |  |  |  |
+| wpn\_mflash\_alternator\_core\_FP |  |  |  |
+| wpn\_mflash\_alternator\_core\_FP\_burn |  |  |  |
+| wpn\_mflash\_alternator\_core\_burn |  |  |  |
+| wpn\_mflash\_alternator\_dlight |  |  |  |
+| wpn\_mflash\_alternator\_dlight\_FP |  |  |  |
+| wpn\_mflash\_alternator\_dlight\_FP\_burn |  |  |  |
+| wpn\_mflash\_alternator\_dlight\_burn |  |  |  |
+| wpn\_mflash\_alternator\_finger |  |  |  |
+| wpn\_mflash\_alternator\_finger\_FP |  |  |  |
+| wpn\_mflash\_alternator\_finger\_FP\_burn |  |  |  |
+| wpn\_mflash\_alternator\_smoke |  |  |  |
+| wpn\_mflash\_alternator\_smoke\_FP |  |  |  |
+| wpn\_mflash\_alternator\_smokefinger |  |  |  |
+| wpn\_mflash\_alternator\_smokefinger\_FP |  |  |  |
+| wpn\_mflash\_alternator\_sparks |  |  |  |
+| wpn\_mflash\_alternator\_sparks\_FP |  |  |  |
 | **CAR** |  |  |  |
 | P\_wpn\_tracer\_pistol | Tracer |  |  |
 | P\_wpn\_tracer\_BC | Tracer amped |  |  |
@@ -60,4 +85,11 @@ description: SMG FX value
 | wpn\_shelleject\_rifle\_assault\_FP | Shell eject FP |  |  |
 | wpn\_shelleject\_rifle\_assault | Shell eject |  |  |
 | shell | Shell eject attach |  |  |
+
+
+
+| FX Values | Notes | Examples |
+| :--- | :--- | :--- |
+|  |  |  |
+|  |  |  |
 
