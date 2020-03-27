@@ -4,6 +4,24 @@ description: Assault Rifle FX value
 
 # FX - Assault Rifle
 
+{% tabs %}
+{% tab title="Flatline" %}
+
+{% endtab %}
+
+{% tab title="G2A5" %}
+
+{% endtab %}
+
+{% tab title="Hemlok" %}
+
+{% endtab %}
+
+{% tab title="R101 Carbine" %}
+
+{% endtab %}
+{% endtabs %}
+
 | Value | Note | Tracer | Projectile | Muzzleflash |
 | :--- | :--- | :--- | :--- | :--- |
 | **G2A5** |  |  |  |  |
