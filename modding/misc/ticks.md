@@ -4,6 +4,10 @@ description: Change the look of your Multiplayer Ticks
 
 # Ticks - Model
 
+## Results
+
+{% embed url="https://gfycat.com/regalshrilldaddylonglegs" %}
+
 ## Preparation <a id="preparation"></a>
 
 In this guide you will have to edit vmt files. I would recommend you to use the software [VTFEdit](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools) to edit them. You can use text editor for that such as Atom, NotePad++, VIM and many other ones would work fine.
@@ -50,12 +54,6 @@ Once you have renamed the files of the Singleplayer drones, you will need to cop
 > models\weapons\sentry\_frag
 
 You will then want to replace your files with the ones already there, once that is done you can close out and proceed to the next step.
-
-
-
-## Results
-
-{% embed url="https://gfycat.com/regalshrilldaddylonglegs" %}
 
 ## Repacking <a id="repacking"></a>
 
