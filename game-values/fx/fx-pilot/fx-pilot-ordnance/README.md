@@ -41,6 +41,7 @@ description: Ordnance FX value
 | P\_pilot\_cover\_shield |  |  |
 | P\_pilot\_amped\_shield |  |  |
 | **Satchel** |  |  |
+| exp\_satchel | Explosion | [Impact](https://gfycat.com/understatedheavenlybluebreastedkookaburra) |
 | wpn\_laser\_blink |  |  |
 | wpn\_satchel\_clacker\_glow\_LG\_1 | Large |  |
 | wpn\_satchel\_clacker\_glow\_SM\_1 | Small |  |
