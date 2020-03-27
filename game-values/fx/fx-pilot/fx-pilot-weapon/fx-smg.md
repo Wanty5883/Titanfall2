@@ -86,10 +86,3 @@ description: SMG FX value
 | wpn\_shelleject\_rifle\_assault | Shell eject |  |  |
 | shell | Shell eject attach |  |  |
 
-
-
-| FX Values | Notes | Examples |
-| :--- | :--- | :--- |
-|  |  |  |
-|  |  |  |
-

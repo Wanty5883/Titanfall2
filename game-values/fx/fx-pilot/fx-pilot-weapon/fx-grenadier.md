@@ -53,6 +53,30 @@ description: Grenadier FX value
 | P\_wpn\_muzzleflash\_epg | Muzzleflash |  |
 | P\_wpn\_muzzleflash\_epg\_FP\_amp | Muzzleflash FP amped |  |
 | P\_wpn\_muzzleflash\_epg\_amp | Muzzleflash amped |  |
+| P\_wpn\_muzzleflash\_epg |  |  |
+| P\_wpn\_muzzleflash\_epg\_FP |  |  |
+| P\_wpn\_muzzleflash\_epg\_FP\_amp |  |  |
+| P\_wpn\_muzzleflash\_epg\_amp |  |  |
+| P\_wpn\_muzzleflash\_epg\_charge |  |  |
+| epg\_charge\_flare\_streak |  |  |
+| epg\_charge\_flare\_streak\_2 |  |  |
+| epg\_charge\_nrg |  |  |
+| epg\_charge\_nrg\_flash |  |  |
+| epg\_charge\_nrg\_loop |  |  |
+| epg\_muzz\_arc\_FP\_amp |  |  |
+| epg\_muzz\_arc\_amp |  |  |
+| epg\_muzz\_dlight |  |  |
+| epg\_muzz\_dlight\_FP |  |  |
+| epg\_muzz\_fire |  |  |
+| epg\_muzz\_fire\_FP |  |  |
+| epg\_muzz\_flash |  |  |
+| epg\_muzz\_flash\_FP |  |  |
+| epg\_muzz\_nrg |  |  |
+| epg\_muzz\_nrg\_FP |  |  |
+| epg\_muzz\_nrg\_FP\_amp |  |  |
+| epg\_muzz\_nrg\_amp |  |  |
+| epg\_muzz\_ring |  |  |
+| epg\_muzz\_ring\_FP |  |  |
 | **SMR** |  |  |
 | Rocket\_Smoke\_SMR | Projectile effect |  |
 | Rocket\_Smoke\_SMR\_burn | Amped projectile |  |
