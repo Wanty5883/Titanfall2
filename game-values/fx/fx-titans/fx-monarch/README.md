@@ -11,7 +11,7 @@ description: Monarch FX value
 | **Upgrade Core** |  |  |  |  |
 | P\_wpn\_lasercannon\_aim |  |  |  |  |
 | **Energy Syphon** |  |  |  |  |
-| P\_wpn\_monarch\_beam\_v1 | Tracer effect |  |  |  |
+| P\_wpn\_monarch\_beam\_v1 | Tracer effect | [Tracer](https://gfycat.com/hairyanimatedeidolonhelvum) |  |  |
 | P\_wpn\_monarch\_beam\_v2 | Tracer effect |  |  |  |
 | P\_wpn\_hand\_laser\_beam\_BC | Tracer effect |  |  |  |
 | P\_wpn\_monarch\_charge\_v1 | Charge effect |  |  |  |

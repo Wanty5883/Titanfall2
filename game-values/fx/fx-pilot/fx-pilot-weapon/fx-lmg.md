@@ -62,6 +62,32 @@ description: LMG FX value
 | lstar\_impact\_FLARE\_streak |  |  |
 | lstar\_impact\_FLARE\_streak\_blur |  |  |
 | lstar\_victim\_CH\_screen |  |  |
+| P\_lstar\_cooldown\_FP |  |  |
+| P\_lstar\_cooldown\_vent\_FP |  |  |
+| P\_lstar\_overheat\_FP |  |  |
+| P\_lstar\_overheat\_smoke\_FP |  |  |
+| P\_muz\_lstar |  |  |
+| P\_muz\_lstar\_FP |  |  |
+| P\_muz\_lstar\_FP\_burn |  |  |
+| P\_muz\_lstar\_burn |  |  |
+| lstar\_CD\_CH\_arcs |  |  |
+| lstar\_CD\_vent\_CH\_jet |  |  |
+| lstar\_oh\_FP\_CH\_arcs |  |  |
+| lstar\_oh\_FP\_CH\_smoke |  |  |
+| lstar\_oh\_barrel\_CH\_smoke1 |  |  |
+| lstar\_oh\_smoke\_CH\_rope |  |  |
+| lstar\_steam\_leak\_LG\_CH\_base |  |  |
+| muz\_lstar\_CH\_base |  |  |
+| muz\_lstar\_CH\_burn\_arc |  |  |
+| muz\_lstar\_CH\_core |  |  |
+| muz\_lstar\_CH\_dlight |  |  |
+| muz\_lstar\_CH\_refract |  |  |
+| muz\_lstar\_CH\_sparks |  |  |
+| muz\_lstar\_CH\_streaks |  |  |
+| muz\_lstar\_FP\_CH\_base |  |  |
+| muz\_lstar\_FP\_CH\_burn\_arc |  |  |
+| muz\_lstar\_FP\_CH\_dlight |  |  |
+| muz\_lstar\_FP\_CH\_sparks |  |  |
 {% endtab %}
 
 {% tab title="Spitfire" %}

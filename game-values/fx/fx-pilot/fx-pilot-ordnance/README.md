@@ -10,7 +10,7 @@ description: Ordnance FX value
 | :--- | :--- | :--- |
 | **Arc Grenade** |  |  |
 | bounce\_arc | Bounce effect |  |
-| exp\_emp | Impact effect |  |
+| exp\_emp | Impact effect | [Impact](https://gfycat.com/greedyfittingemu) |
 | wpn\_grenade\_frag\_blue | Projectile effect |  |
 | P\_impact\_exp\_emp\_med\_default | Vortex impact effect |  |
 | CH\_grenade\_arc\_proto\_particles | Datamined value |  |

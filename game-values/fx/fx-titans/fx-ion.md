@@ -87,7 +87,7 @@ description: Ion FX value
 | **FX Values** | Note | Tracer | Projectile | Impact |
 | :--- | :--- | :--- | :--- | :--- |
 | **Default values** |  |  |  |  |
-| P\_wpn\_hand\_laser\_beam | Tracer |  |  |  |
+| P\_wpn\_hand\_laser\_beam | Tracer | [Tracer](https://gfycat.com/specificuntimelyharvestmen) |  |  |
 | P\_wpn\_hand\_laser\_beam\_BC | Tracer amped |  |  |  |
 | P\_handlaser\_charge | Charge |  |  |  |
 | muzzle\_flash | Charge attachement |  |  |  |
