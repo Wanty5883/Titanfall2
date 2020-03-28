@@ -4,6 +4,8 @@ description: Ion FX value
 
 # FX - Ion
 
+## Weapons
+
 {% tabs %}
 {% tab title="Particle Accelerator" %}
 | FX Values | Notes | Tracer | Projectile | Muzzleflash |
@@ -164,6 +166,16 @@ description: Ion FX value
 | texture\_offset |  |  |  |  |
 {% endtab %}
 
+{% tab title="Misc" %}
+| FX Values | Notes | Tracer | Projectile |
+| :--- | :--- | :--- | :--- |
+| P\_ion\_moving\_proj |  |  |  |
+{% endtab %}
+{% endtabs %}
+
+## Vortex Shield
+
+{% tabs %}
 {% tab title="Vortex Shield" %}
 | **FX Values** | Notes | Tracer | Projectile | Impact |
 | :--- | :--- | :--- | :--- | :--- |
@@ -182,12 +194,205 @@ description: Ion FX value
 | wpn\_vortex\_shield\_impact\_mod |  |  |  |  |
 | P\_wpn\_mflash\_arcball\_FP\_amp | Muzzleflash |  |  |  |
 | P\_impact\_exp\_emp\_med\_air |  |  |  |  |
+| **Muzzleflash** |  |  |  |  |
+| wpn\_mflash\_vortex\_glow |  |  |  |  |
+| wpn\_mflash\_vortex\_refract |  |  |  |  |
+| wpn\_mflash\_vortex\_sparks |  |  |  |  |
+| wpn\_muzzleflash\_vortex |  |  |  |  |
+| wpn\_muzzleflash\_vortex\_FP |  |  |  |  |
+| wpn\_vortex\_bullets |  |  |  |  |
+| wpn\_vortex\_bullets\_FP |  |  |  |  |
+| wpn\_vortex\_charge\_glow |  |  |  |  |
+| wpn\_vortex\_charge\_glow\_muzzle |  |  |  |  |
+| wpn\_vortex\_charge\_ring |  |  |  |  |
+| wpn\_vortex\_charge\_streak |  |  |  |  |
+| wpn\_vortex\_charge\_trail |  |  |  |  |
+| wpn\_vortex\_charge\_trail\_old |  |  |  |  |
+| wpn\_vortex\_shield\_charging |  |  |  |  |
+| wpn\_vortex\_shield\_charging\_FP |  |  |  |  |
+| wpn\_vortex\_shield\_impact |  |  |  |  |
+| wpn\_vortex\_shield\_impact\_FP |  |  |  |  |
+| wpn\_vortex\_shield\_impact\_warp |  |  |  |  |
+| wpn\_vortex\_shield\_tracer\_spritetest |  |  |  |  |
+| wpn\_votex\_shield\_tracer |  |  |  |  |
+| wpn\_votex\_shield\_tracer\_FP |  |  |  |  |
+| wpn\_votex\_shield\_tracer\_backup |  |  |  |  |
 {% endtab %}
 
-{% tab title="Misc" %}
-| FX Values | Notes | Tracer | Projectile |
-| :--- | :--- | :--- | :--- |
-| P\_ion\_moving\_proj |  |  |  |
+{% tab title="Vortex Titan" %}
+| FX Values | Notes | Examples |
+| :--- | :--- | :--- |
+| **Muzzleflash** |  |  |
+| projectile\_SuperSpec\_CH\_glow |  |  |
+| wpn\_mflash\_vortex\_elec |  |  |
+| wpn\_mflash\_vortex\_elec\_2 |  |  |
+| wpn\_mflash\_vortex\_elec\_3 |  |  |
+| wpn\_mflash\_vortex\_glow\_titan |  |  |
+| wpn\_mflash\_vortex\_msh\_1 |  |  |
+| wpn\_mflash\_vortex\_refract\_titan |  |  |
+| wpn\_mflash\_vortex\_ring |  |  |
+| wpn\_mflash\_vortex\_sparks\_titan |  |  |
+| wpn\_muzzleflash\_vortex\_titan |  |  |
+| wpn\_muzzleflash\_vortex\_titan\_FP |  |  |
+| wpn\_vortex\_charge4\_glow\_titan |  |  |
+| wpn\_vortex\_charge4\_streak\_titan |  |  |
+| wpn\_vortex\_charge4\_trail\_titan |  |  |
+| wpn\_vortex\_charge\_glow\_titan |  |  |
+| wpn\_vortex\_charge\_glow\_titan\_copy |  |  |
+| wpn\_vortex\_charge\_ring\_titan |  |  |
+| wpn\_vortex\_charge\_streak\_titan |  |  |
+| wpn\_vortex\_charge\_streak\_titan\_copy |  |  |
+| wpn\_vortex\_charge\_trail\_titan |  |  |
+| wpn\_vortex\_charge\_trail\_titan\_copy |  |  |
+| wpn\_vortex\_charge\_trailarc\_titan |  |  |
+| wpn\_vortex\_projectile\_20mm |  |  |
+| wpn\_vortex\_projectile\_20mm\_FP |  |  |
+| wpn\_vortex\_projectile\_40mm |  |  |
+| wpn\_vortex\_projectile\_40mm\_FP |  |  |
+| wpn\_vortex\_projectile\_SMR |  |  |
+| wpn\_vortex\_projectile\_SMR\_FP |  |  |
+| wpn\_vortex\_projectile\_SuperSpec |  |  |
+| wpn\_vortex\_projectile\_SuperSpec\_FP |  |  |
+| wpn\_vortex\_projectile\_frag |  |  |
+| wpn\_vortex\_projectile\_frag\_FP |  |  |
+| wpn\_vortex\_projectile\_frag\_LG |  |  |
+| wpn\_vortex\_projectile\_frag\_LG\_FP |  |  |
+| wpn\_vortex\_projectile\_fragdrone |  |  |
+| wpn\_vortex\_projectile\_fragdrone\_FP |  |  |
+| wpn\_vortex\_projectile\_kunai |  |  |
+| wpn\_vortex\_projectile\_kunai\_FP |  |  |
+| wpn\_vortex\_projectile\_leadwall |  |  |
+| wpn\_vortex\_projectile\_leadwall\_FP |  |  |
+| wpn\_vortex\_projectile\_prox\_mine |  |  |
+| wpn\_vortex\_projectile\_prox\_mine\_FP |  |  |
+| wpn\_vortex\_projectile\_rifle |  |  |
+| wpn\_vortex\_projectile\_rifle\_FP |  |  |
+| wpn\_vortex\_projectile\_rocket |  |  |
+| wpn\_vortex\_projectile\_rocket\_FP |  |  |
+| wpn\_vortex\_projectile\_satchel |  |  |
+| wpn\_vortex\_projectile\_satchel\_FP |  |  |
+| wpn\_vortex\_projectile\_shotgun |  |  |
+| wpn\_vortex\_projectile\_shotgun\_FP |  |  |
+| wpn\_vortex\_projectile\_star |  |  |
+| wpn\_vortex\_projectile\_star\_FP |  |  |
+| wpn\_vortex\_projectile\_trip |  |  |
+| wpn\_vortex\_projectile\_trip\_FP |  |  |
+| wpn\_vortex\_shield\_charging4\_titan |  |  |
+| wpn\_vortex\_shield\_charging4\_titan\_FP |  |  |
+| wpn\_vortex\_shield\_charging\_titan |  |  |
+| wpn\_vortex\_shield\_charging\_titan\_FP |  |  |
+| wpn\_vortex\_shield\_impact\_refrac |  |  |
+| wpn\_vortex\_shield\_impact\_titan |  |  |
+| wpn\_vortex\_shield\_impact\_titan\_FP |  |  |
+| wpn\_vortex\_shield\_impact\_warp\_titan |  |  |
+| wpn\_vortex\_shield\_impact\_warp\_titan\_copy |  |  |
+{% endtab %}
+
+{% tab title="Vortex Titan Overcharge" %}
+| FX Values | Notes | Examples |
+| :--- | :--- | :--- |
+| **Muzzleflash** |  |  |
+| vortex\_OCharge\_exp |  |  |
+| vortex\_OCharge\_titan |  |  |
+| vortex\_OCharge\_titan\_CH\_bits |  |  |
+| vortex\_OCharge\_titan\_CH\_bodyarc |  |  |
+| vortex\_OCharge\_titan\_CH\_elec |  |  |
+{% endtab %}
+
+{% tab title="Vortex Titan Heat" %}
+| FX Values | Notes | Examples |
+| :--- | :--- | :--- |
+| **Muzzleflash** |  |  |
+| HS\_burn\_hmn\_CH\_fire |  |  |
+| HS\_burn\_hmn\_CH\_flash\_sheet |  |  |
+| HeatShield\_impact\_CH\_flash |  |  |
+| HeatShield\_impact\_CH\_ring |  |  |
+| P\_deathfx\_scorch\_burn |  |  |
+| P\_wpn\_HeatSheild\_burn\_human |  |  |
+| P\_wpn\_HeatSheild\_burn\_titan |  |  |
+| P\_wpn\_HeatShield |  |  |
+| P\_wpn\_HeatShield\_FP |  |  |
+| P\_wpn\_HeatShield\_impact |  |  |
+| dfx\_scorch\_CH\_arcs\_MDL |  |  |
+| dfx\_scorch\_CH\_flash\_sheet |  |  |
+| dfx\_scorch\_CH\_flash\_sheet\_BDY |  |  |
+| dfx\_scorch\_CH\_glow |  |  |
+| dfx\_scorch\_CH\_trails |  |  |
+| heatsheild\_CH\_MDL |  |  |
+| heatsheild\_CH\_MDL2 |  |  |
+| heatsheild\_CH\_MDL\_FP |  |  |
+| heatsheild\_CH\_glow |  |  |
+| heatsheild\_CH\_streak |  |  |
+| heatsheild\_CH\_streak\_FP |  |  |
+| heatshield\_CH\_dlight |  |  |
+| heatshield\_CH\_dlight\_FP |  |  |
+| vHeat\_CH\_refract |  |  |
+| vHeat\_CH\_refract\_FP |  |  |
+{% endtab %}
+
+{% tab title="Vortex Titan CP" %}
+| FX Values | Notes | Examples |
+| :--- | :--- | :--- |
+| **Muzzleflash** |  |  |
+| vortex\_CH\_streak |  |  |
+| vortex\_CH\_streak\_FP |  |  |
+| wpn\_mflash\_vortex\_elec\_2\_CP |  |  |
+| wpn\_mflash\_vortex\_elec\_3\_CP |  |  |
+| wpn\_mflash\_vortex\_glow\_titan\_CP |  |  |
+| wpn\_mflash\_vortex\_msh\_1\_CP |  |  |
+| wpn\_mflash\_vortex\_ring\_CP |  |  |
+| wpn\_mflash\_vortex\_sparks\_titan\_CP |  |  |
+| wpn\_muzzleflash\_vortex\_titan\_CP |  |  |
+| wpn\_muzzleflash\_vortex\_titan\_CP\_FP |  |  |
+| wpn\_vortex\_chargeCP\_glow\_titan |  |  |
+| wpn\_vortex\_chargeCP\_ring\_titan |  |  |
+| wpn\_vortex\_chargeCP\_ring\_titan\_2 |  |  |
+| wpn\_vortex\_chargeCP\_trail\_titan |  |  |
+| wpn\_vortex\_chargeCP\_trail\_titan\_2 |  |  |
+| wpn\_vortex\_charge\_hld\_msh\_1 |  |  |
+| wpn\_vortex\_charge\_hld\_msh\_1\_FP |  |  |
+| wpn\_vortex\_chargingCP\_titan |  |  |
+| wpn\_vortex\_chargingCP\_titan\_FP |  |  |
+| wpn\_vortex\_chargingCP\_titan\_FP\_replay |  |  |
+{% endtab %}
+
+{% tab title="Vortex Titan CP mod" %}
+| FX Values | Notes | Examples |
+| :--- | :--- | :--- |
+| **Muzzleflash** |  |  |
+| tracers\_vortex\_mod\_flash |  |  |
+| tracers\_vortex\_mod\_ring |  |  |
+| tracers\_vortex\_mod\_trail |  |  |
+| weapon\_tracers\_vortex\_mod |  |  |
+| weapon\_tracers\_vortex\_mod\_FP |  |  |
+| wpn\_mflash\_vortex\_elec\_2\_mod\_CP |  |  |
+| wpn\_mflash\_vortex\_elec\_3\_mod\_CP |  |  |
+| wpn\_mflash\_vortex\_glow\_mod\_CP |  |  |
+| wpn\_mflash\_vortex\_msh\_1\_mod\_CP |  |  |
+| wpn\_mflash\_vortex\_ring\_mod\_CP |  |  |
+| wpn\_mflash\_vortex\_sparks\_mod\_CP |  |  |
+| wpn\_muzzleflash\_vortex\_mod\_CP |  |  |
+| wpn\_muzzleflash\_vortex\_mod\_CP\_FP |  |  |
+| wpn\_vortex\_chargeCP\_elec\_C |  |  |
+| wpn\_vortex\_chargeCP\_elec\_P |  |  |
+| wpn\_vortex\_chargeCP\_glow\_mod |  |  |
+| wpn\_vortex\_chargeCP\_glow\_mod\_FP |  |  |
+| wpn\_vortex\_chargeCP\_ring\_mod\_2 |  |  |
+| wpn\_vortex\_chargeCP\_streak\_mod |  |  |
+| wpn\_vortex\_chargeCP\_trail\_1\_mod |  |  |
+| wpn\_vortex\_chargeCP\_trail\_2\_mod |  |  |
+| wpn\_vortex\_charge\_hld\_msh\_1\_mod |  |  |
+| wpn\_vortex\_charge\_hld\_msh\_1\_mod\_FP |  |  |
+| wpn\_vortex\_chargingCP\_mod |  |  |
+| wpn\_vortex\_chargingCP\_mod\_FP |  |  |
+| wpn\_vortex\_chargingCP\_mod\_FP\_replay |  |  |
+| wpn\_vortex\_shield\_impact\_mod |  |  |
+| wpn\_vortex\_shield\_impact\_mod\_FP |  |  |
+| wpn\_vortex\_shield\_impact\_ring\_mod |  |  |
+| wpn\_vortex\_shield\_impact\_ring\_mod\_FP |  |  |
+| wpn\_vortex\_shield\_impact\_spark\_mod |  |  |
+| wpn\_vortex\_shield\_impact\_warp\_mod |  |  |
+| wpn\_vortex\_shield\_impact\_warp\_mod\_FP |  |  |
 {% endtab %}
 {% endtabs %}
 
