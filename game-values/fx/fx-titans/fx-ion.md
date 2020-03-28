@@ -141,6 +141,37 @@ description: Ion FX value
 | P\_handlaser\_charge | Datamined value |  |  |  |
 | handlaser\_charge\_CH\_dlight | Datamined value |  |  |  |
 | P\_wpn\_hand\_laser\_beam | Datamined value |  |  |  |
+| **Impact** |  |  |  |  |
+| P\_impact\_exp\_laserlite\_AMP |  |  |  |  |
+| P\_impact\_exp\_laserlite\_default |  |  |  |  |
+| laserlite\_CH\_arcs\_MDL |  |  |  |  |
+| laserlite\_CH\_decal\_glow |  |  |  |  |
+| laserlite\_CH\_decal\_glow\_AMP |  |  |  |  |
+| laserlite\_CH\_decal\_scorch |  |  |  |  |
+| laserlite\_CH\_decal\_scorch\_AMP |  |  |  |  |
+| laserlite\_CH\_dlight |  |  |  |  |
+| laserlite\_CH\_dlight\_copy |  |  |  |  |
+| laserlite\_CH\_elec\_core |  |  |  |  |
+| laserlite\_CH\_elec\_edge |  |  |  |  |
+| laserlite\_CH\_refrac\_1 |  |  |  |  |
+| laserlite\_CH\_smoke\_1 |  |  |  |  |
+| laserlite\_CH\_smoke\_2 |  |  |  |  |
+| laserlite\_CH\_sparks\_core |  |  |  |  |
+| laserlite\_CH\_sparks\_core\_AMP |  |  |  |  |
+| laserlite\_CH\_sparks\_large |  |  |  |  |
+| laserlite\_CH\_sparks\_large\_AMP |  |  |  |  |
+| laserlite\_CH\_spike\_glow |  |  |  |  |
+| laserlite\_CH\_spike\_glow\_AMP |  |  |  |  |
+| laserlite\_CH\_spikes |  |  |  |  |
+| laserlite\_CH\_spikes\_AMP |  |  |  |  |
+| laserlite\_CH\_steam\_out |  |  |  |  |
+| laserlite\_CH\_steam\_up |  |  |  |  |
+| laserlite\_FLARE\_core |  |  |  |  |
+| laserlite\_FLARE\_core\_AMP |  |  |  |  |
+| laserlite\_FLARE\_streak |  |  |  |  |
+| laserlite\_FLARE\_streak\_AMP |  |  |  |  |
+| laserlite\_FLARE\_streak\_blur |  |  |  |  |
+| laserlite\_FLARE\_streak\_blur\_AMP |  |  |  |  |
 {% endtab %}
 
 {% tab title="Laser Trip Wire" %}
