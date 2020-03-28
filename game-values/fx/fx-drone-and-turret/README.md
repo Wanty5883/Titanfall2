@@ -38,25 +38,9 @@
 | Dropship | interior\_Dlight\_blue\_MED | Dlight blue |
 | Dropship | veh\_interior\_Dlight\_cockpit\_offset\_IMC | Dlight cockpit IMC |
 | Marvin | weld\_spark\_01\_sparksfly | Spark effect |
-| Mega Turret | wpn\_muzzleflash\_mega\_trrt |  |
-| Mega Turret | wpn\_shelleject\_40mm |  |
-| Mega Turret s2s | weapon\_tracers\_mega\_turret\_aa | Tracer effect |
-| Mega Turret s2s | refuel\_aa\_turret | Impact effect |
-| Mega Turret s2s | P\_muzzleflash\_MaltaGun | Cannon FX |
-| Mega Turret s2s | mflash\_maltagun\_tracer\_fake | Cannon FX light |
-| Mega Turret s2s Ion | P\_ion\_moving\_proj |  |
 | Gunship Launcher | wpn\_grenade\_TT\_activate | Mine ignition |
 | Gunship Launcher | tower\_light\_red | Mine trail |
 | Gunship Launcher | Rocket\_Smoke\_Large | Mine light |
-| Turret | runway\_light\_red | Red glow |
-| Turret | runway\_light\_blue | Blue glow |
-| Turret | xo\_health\_exhaust\_white\_1 | TagHealthFX |
-| Turret | xo\_damage\_exp\_2 | TagHealthFX |
-| Turret | P\_sup\_spec\_dam\_vent\_1 | TagHealthFX |
-| Turret | xo\_damage\_exp\_2 | TagHealthFX |
-| Turret | sup\_spec\_vent\_fire\_1 | TagHealthFX |
-| Turret | xo\_spark\_med | TagHealthFX |
-| Turret Anti-Titan | P\_anti\_titan\_shield\_3P | Shield wall FX |
 | Stalkers | P\_sparks\_dir\_MD\_LOOP |  |
 | Stalkers | P\_spectre\_dmg\_elec |  |
 | Stalkers | P\_spectre\_dmg\_fire |  |
