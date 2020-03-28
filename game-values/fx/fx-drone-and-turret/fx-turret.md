@@ -6,8 +6,6 @@ description: List of the different turrets FX values in the game.
 
 {% tabs %}
 {% tab title="Ion Turret" %}
-
-
 | Value | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |
 | **Ion Turret** |  |  |  |
@@ -21,9 +19,25 @@ description: List of the different turrets FX values in the game.
 | ion\_moving\_trail | Datamined value |  |  |
 {% endtab %}
 
+{% tab title="Laser Turret" %}
+| FX Values | Notes | Examples |
+| :--- | :--- | :--- |
+| **Muzzleflash** |  |  |
+| P\_muzzleflash\_laserturret |  |  |
+| P\_wpn\_laserturret\_charge |  |  |
+| tLaser\_charge\_CH\_arcs |  |  |
+| tLaser\_charge\_CH\_arcs\_battery |  |  |
+| tLaser\_charge\_CH\_dlight |  |  |
+| tLaser\_charge\_CH\_flare\_streak |  |  |
+| tLaser\_charge\_CH\_flare\_streakB |  |  |
+| tLaser\_flash\_CH\_core |  |  |
+| tLaser\_flash\_CH\_dlight |  |  |
+| tLaser\_flash\_CH\_flash |  |  |
+| tLaser\_flash\_CH\_inner |  |  |
+| tLasesr\_charge\_CH\_MDL |  |  |
+{% endtab %}
+
 {% tab title="Plasma Mega Turret" %}
-
-
 | Value | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |
 | **Trail effect** |  |  |  |
@@ -42,9 +56,31 @@ description: List of the different turrets FX values in the game.
 | muz\_turretplasma\_mega\_CH\_sparks |  |  |  |
 | muz\_turretplasma\_mega\_CH\_streaks |  |  |  |
 {% endtab %}
+
+{% tab title="Turret RedEye" %}
+| FX Values | Notes | Examples |
+| :--- | :--- | :--- |
+| **Muzzleflash** |  |  |
+| wpn\_mflash\_redeye\_base |  |  |
+| wpn\_mflash\_redeye\_core |  |  |
+| wpn\_mflash\_redeye\_smoke |  |  |
+| wpn\_mflash\_redeye\_sparks |  |  |
+| wpn\_muzzleflash\_redeye\_turret |  |  |
+{% endtab %}
+
+{% tab title="Turret Sentry" %}
+| FX Values | Notes | Examples |
+| :--- | :--- | :--- |
+| **Muzzleflash** |  |  |
+| mflash\_sentry\_CH\_base |  |  |
+| mflash\_sentry\_CH\_core |  |  |
+| mflash\_sentry\_CH\_dlight |  |  |
+| mflash\_sentry\_CH\_smoke |  |  |
+| mflash\_sentry\_CH\_sparks |  |  |
+| mflash\_sentry\_CH\_xo\_flash |  |  |
+| wpn\_muzzleflash\_sentry |  |  |
+{% endtab %}
 {% endtabs %}
-
-
 
 | Mega Turret | wpn\_muzzleflash\_mega\_trrt |  |
 | :--- | :--- | :--- |
