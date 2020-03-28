@@ -49,6 +49,36 @@ description: Ion FX value
 | accel\_impact\_FLARE\_core |  |  |  |  |
 | accel\_impact\_FLARE\_streak |  |  |  |  |
 | accel\_impact\_FLARE\_streak\_blur |  |  |  |  |
+| **Muzzleflash** |  |  |  |  |
+| P\_TPA\_barrel\_smoke\_FP |  |  |  |  |
+| P\_TPA\_batteryclose\_FP |  |  |  |  |
+| P\_TPA\_cooldown\_FP |  |  |  |  |
+| P\_TPA\_cooldown\_vent\_FP |  |  |  |  |
+| P\_TPA\_electricity |  |  |  |  |
+| P\_TPA\_electricity\_FP |  |  |  |  |
+| P\_TPA\_overheat\_FP |  |  |  |  |
+| P\_muz\_TPA |  |  |  |  |
+| P\_muz\_TPA\_FP |  |  |  |  |
+| P\_tpa\_vent\_battery\_FP |  |  |  |  |
+| muz\_tpa\_CH\_base |  |  |  |  |
+| muz\_tpa\_CH\_core |  |  |  |  |
+| muz\_tpa\_CH\_dlight |  |  |  |  |
+| muz\_tpa\_CH\_refract |  |  |  |  |
+| muz\_tpa\_CH\_sparks |  |  |  |  |
+| muz\_tpa\_CH\_streaks |  |  |  |  |
+| muz\_tpa\_FP\_CH\_arcRing |  |  |  |  |
+| muz\_tpa\_FP\_CH\_base |  |  |  |  |
+| muz\_tpa\_FP\_CH\_dlight |  |  |  |  |
+| muz\_tpa\_FP\_CH\_sparks |  |  |  |  |
+| tpa\_CD\_CH\_arcs |  |  |  |  |
+| tpa\_CD\_vent\_CH\_jet |  |  |  |  |
+| tpa\_batteryclose\_FP\_CH\_puff |  |  |  |  |
+| tpa\_electricity\_CH\_dlight |  |  |  |  |
+| tpa\_oh\_FP\_CH\_arcs |  |  |  |  |
+| tpa\_oh\_FP\_CH\_smoke |  |  |  |  |
+| tpa\_oh\_barrel\_CH\_smoke1 |  |  |  |  |
+| tpa\_oh\_smoke\_CH\_rope |  |  |  |  |
+| tpa\_steam\_leak\_LG\_CH\_base |  |  |  |  |
 {% endtab %}
 
 {% tab title="Laser Core" %}
