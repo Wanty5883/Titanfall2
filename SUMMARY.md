@@ -171,6 +171,7 @@
       * [FX - Room Intro](game-values/fx/fx-misc-and-unknown/fx-skyway/fx-room-intro.md)
     * [FX - Dev](game-values/fx/fx-misc-and-unknown/fx-dev/README.md)
       * [FX - Bug Repro](game-values/fx/fx-misc-and-unknown/fx-dev/fx-bug-repro.md)
+    * [FX - Droppod](game-values/fx/fx-misc-and-unknown/fx-droppod.md)
     * [FX - Scan](game-values/fx/fx-misc-and-unknown/fx-scan.md)
   * [FX - Raw Data](game-values/fx/fx-raw-data/README.md)
     * [FX - EMP](game-values/fx/fx-raw-data/fx-emp.md)
