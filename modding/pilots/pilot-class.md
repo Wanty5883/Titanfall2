@@ -31,6 +31,10 @@ To change pilot class models go to this directory:
 
 > models\humans\pilots
 
+If you want to change the look of the arms, you can go to:
+
+> models\weapons\arms
+
 To change the pilot class you want, first off find the file linked to this class. Then choose the class you want and duplicate them. Then just rename the duplicated files into the name of the class you wanted to change.
 
 The files in the folder have different name who correspond to those pilot classes:
