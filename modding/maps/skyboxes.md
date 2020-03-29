@@ -77,7 +77,7 @@ The reason behind this not working is because the textures are not applied via a
 
 Obviously this wasn't made to be the skybox for normal maps. So there are little errors all around the place.
 
-**Note that the old scene lights are still presents and might look a little out of place on some maps.**
+**Note that the old scene lights are still present and might look a little out of place on some maps.**
 
 {% embed url="https://gfycat.com/alldecisivefinwhale" %}
 
