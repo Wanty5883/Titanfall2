@@ -68,7 +68,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 * [RGB Tool converter](http://hewmc.blogspot.fr/2012/12/rgb-to-percentage-converter.html)
 * Color Pick Windows - [Download & Info](https://pixelbyte.itch.io/color-pick)
 * [GIF splitter](https://ezgif.com/split)
-* [Rad Tools Bik](http://www.radgametools.com/bnkdown.htm)
+* [Rad Tools Bik](http://www.radgametools.com/bnkdown.htm) \(needs [Quicktime 7.6](https://support.apple.com/downloads/quicktime)\)
 
 ### Driver editors
 

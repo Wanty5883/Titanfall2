@@ -104,6 +104,7 @@
 * [User Interface](modding/user-interface/README.md)
   * [Text modding r1\_language](modding/user-interface/text-modding-r1_language.md)
   * [Menus](modding/user-interface/menus/README.md)
+    * [Menu Background](modding/user-interface/menus/menu-background.md)
     * [Network - Menus](modding/user-interface/menus/network-menus.md)
 * [Misc](modding/misc/README.md)
   * [Cable - Zipline](modding/misc/cable-zipline.md)
