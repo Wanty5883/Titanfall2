@@ -81,6 +81,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
   * Blender Source Tool - [Download & info](https://developer.valvesoftware.com/wiki/Blender_Source_Tools)
 * Crowbar - [Download & info](http://steamcommunity.com/groups/CrowbarTool)
 * Ninja Ripper v1.7.1 - [Download & info](https://gamebanana.com/tools/5638)
+* McSimp's [Titanfall Map Exporter](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/tools/TitanfallMapExporter.py)
 
 
 

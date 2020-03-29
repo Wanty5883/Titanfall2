@@ -111,6 +111,7 @@
   * [Marvin - Chest screen](modding/misc/marvin-chest-screen.md)
   * [Pulse Effect](modding/misc/pulse-effect.md)
   * [Ticks - Model](modding/misc/ticks.md)
+* [Exporting Maps](modding/exporting-maps.md)
 
 ## Game Values
 
