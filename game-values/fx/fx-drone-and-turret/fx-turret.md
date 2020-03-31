@@ -38,23 +38,23 @@ description: List of the different turrets FX values in the game.
 {% endtab %}
 
 {% tab title="Plasma Mega Turret" %}
-| Value | Note | Tracer | Projectile |
-| :--- | :--- | :--- | :--- |
-| **Trail effect** |  |  |  |
-| P\_projectile\_turretplasma\_mega | Datamined value |  |  |
-| turretplasma\_mega\_trail\_CH\_rope | Datamined value |  |  |
-| turretplasma\_mega\_trail\_CH\_tail | Datamined value |  |  |
-| turretplasma\_mega\_trail\_CH\_dlight | Datamined value |  |  |
-| turretplasma\_mega\_trail\_CH\_streaks | Datamined value |  |  |
-| turretplasma\_mega\_trail\_CH\_spark | Datamined value |  |  |
-| **Muzzleflash** |  |  |  |
-| P\_muz\_turretplasma\_mega |  |  |  |
-| muz\_turretplasma\_mega\_CH\_base |  |  |  |
-| muz\_turretplasma\_mega\_CH\_core |  |  |  |
-| muz\_turretplasma\_mega\_CH\_dlight |  |  |  |
-| muz\_turretplasma\_mega\_CH\_refract |  |  |  |
-| muz\_turretplasma\_mega\_CH\_sparks |  |  |  |
-| muz\_turretplasma\_mega\_CH\_streaks |  |  |  |
+| Value | Note | Example |
+| :--- | :--- | :--- |
+| **Trail effect** |  |  |
+| P\_projectile\_turretplasma\_mega | Datamined value | [Projectile](https://gfycat.com/bitterhelpfulcamel) |
+| turretplasma\_mega\_trail\_CH\_rope | Datamined value |  |
+| turretplasma\_mega\_trail\_CH\_tail | Datamined value |  |
+| turretplasma\_mega\_trail\_CH\_dlight | Datamined value |  |
+| turretplasma\_mega\_trail\_CH\_streaks | Datamined value |  |
+| turretplasma\_mega\_trail\_CH\_spark | Datamined value |  |
+| **Muzzleflash** |  |  |
+| P\_muz\_turretplasma\_mega |  | [Muzzleflash](https://gfycat.com/poshoilyadder) |
+| muz\_turretplasma\_mega\_CH\_base |  |  |
+| muz\_turretplasma\_mega\_CH\_core |  |  |
+| muz\_turretplasma\_mega\_CH\_dlight |  |  |
+| muz\_turretplasma\_mega\_CH\_refract |  |  |
+| muz\_turretplasma\_mega\_CH\_sparks |  |  |
+| muz\_turretplasma\_mega\_CH\_streaks |  |  |
 {% endtab %}
 
 {% tab title="Turret RedEye" %}
