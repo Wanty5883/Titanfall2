@@ -63,7 +63,7 @@
 | sw\_shdr\_rckt\_proj\_beam |  |  |
 {% endtab %}
 
-{% tab title="Emec FX R2" %}
+{% tab title="Elec FX R2" %}
 
 
 | FX Values | Notes | Examples |
