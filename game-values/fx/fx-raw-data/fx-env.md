@@ -91,7 +91,7 @@
 
 | FX Values | Notes | Examples |
 | :--- | :--- | :--- |
-| P\_elec\_arc\_LG\_1 |  |  |
+| P\_elec\_arc\_LG\_1 |  | N/A |
 | P\_elec\_arc\_loop\_1 |  |  |
 | P\_elec\_arc\_loop\_LG\_1 |  |  |
 | elec\_arc\_loop\_1\_RT |  |  |

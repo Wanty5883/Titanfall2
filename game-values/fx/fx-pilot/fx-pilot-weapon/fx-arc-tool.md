@@ -7,7 +7,7 @@ description: 'Other pilot weapon FX, such as Arc Tool'
 | Value | Note | Example |
 | :--- | :--- | :--- |
 | **Arc Tool** |  |  |
-| P\_charge\_tool\_charge\_FP | Charge FP |  |
+| P\_charge\_tool\_charge\_FP | Charge first person | [Charge Effect](https://gfycat.com/complicatedwindingemperorshrimp) |
 | P\_elec\_arc\_loop\_LG\_1 |  |  |
 | acl\_light\_red |  |  |
 | acl\_light\_green |  |  |
