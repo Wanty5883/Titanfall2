@@ -77,6 +77,28 @@ description: Tone FX value
 | impact\_water\_40mm\_CH\_splash |  |  |
 | impact\_water\_40mm\_CH\_surface |  |  |
 | ricochet\_sparks\_40mm |  |  |
+| **Muzzleflash** |  |  |
+| wpn\_mflash\_40mm\_base |  |  |
+| wpn\_mflash\_40mm\_base\_FP |  |  |
+| wpn\_mflash\_40mm\_core |  |  |
+| wpn\_mflash\_40mm\_core\_FP |  |  |
+| wpn\_mflash\_40mm\_dlight |  |  |
+| wpn\_mflash\_40mm\_dlight\_FP |  |  |
+| wpn\_mflash\_40mm\_glow |  |  |
+| wpn\_mflash\_40mm\_glow\_FP |  |  |
+| wpn\_mflash\_40mm\_smoke |  |  |
+| wpn\_mflash\_40mm\_smoke\_FP |  |  |
+| wpn\_mflash\_40mm\_smoke\_L\_cloud\_FP |  |  |
+| wpn\_mflash\_40mm\_smoke\_side |  |  |
+| wpn\_mflash\_40mm\_smoke\_side\_FP |  |  |
+| wpn\_mflash\_40mm\_smokepuff |  |  |
+| wpn\_mflash\_40mm\_smokepuff\_FP |  |  |
+| wpn\_mflash\_40mm\_sparksBAK |  |  |
+| wpn\_mflash\_40mm\_sparks\_FP |  |  |
+| wpn\_mflash\_40mm\_sparks\_side |  |  |
+| wpn\_mflash\_40mm\_sparks\_side\_FP |  |  |
+| wpn\_muzzleflash\_40mm |  |  |
+| wpn\_muzzleflash\_40mm\_FP |  |  |
 {% endtab %}
 
 {% tab title="Salvo Core" %}
