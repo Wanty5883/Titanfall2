@@ -103,6 +103,29 @@ description: LMG FX value
 | shell | Shell eject attachement |  |
 | wpn\_grenade\_frag\_mag |  |  |
 | wpn\_grenade\_frag\_mag\_burn | Amped |  |
+| **Muzzleflash** |  |  |
+| wpn\_mflash\_lmg\_base |  |  |
+| wpn\_mflash\_lmg\_base\_FP |  |  |
+| wpn\_mflash\_lmg\_core |  |  |
+| wpn\_mflash\_lmg\_dlight |  |  |
+| wpn\_mflash\_lmg\_dlight\_FP |  |  |
+| wpn\_mflash\_lmg\_finger\_BL |  |  |
+| wpn\_mflash\_lmg\_finger\_BL\_FP |  |  |
+| wpn\_mflash\_lmg\_finger\_BR |  |  |
+| wpn\_mflash\_lmg\_finger\_BR\_FP |  |  |
+| wpn\_mflash\_lmg\_finger\_TL |  |  |
+| wpn\_mflash\_lmg\_finger\_TL\_FP |  |  |
+| wpn\_mflash\_lmg\_finger\_TR |  |  |
+| wpn\_mflash\_lmg\_finger\_TR\_FP |  |  |
+| wpn\_mflash\_lmg\_smoke |  |  |
+| wpn\_mflash\_lmg\_smoke\_2 |  |  |
+| wpn\_mflash\_lmg\_smoke\_FP |  |  |
+| wpn\_mflash\_lmg\_smoke\_FP\_2 |  |  |
+| wpn\_mflash\_lmg\_sparks |  |  |
+| wpn\_mflash\_lmg\_sparks1 |  |  |
+| wpn\_mflash\_lmg\_sparks\_FP |  |  |
+| wpn\_muzzleflash\_lmg |  |  |
+| wpn\_muzzleflash\_lmg\_FP |  |  |
 {% endtab %}
 {% endtabs %}
 
