@@ -37,6 +37,21 @@ description: List of the different turrets FX values in the game.
 | tLasesr\_charge\_CH\_MDL |  |  |
 {% endtab %}
 
+{% tab title="Mega Turret" %}
+| FX Value | Note | Example |
+| :--- | :--- | :--- |
+| **Muzzleflash** |  |  |
+| wpn\_muzzleflash\_mega\_trrt |  |  |
+| wpn\_mflash\_mega\_trrt\_base |  |  |
+| wpn\_mflash\_mega\_trrt\_smoke |  |  |
+| wpn\_mflash\_mega\_trrt\_vlcty |  |  |
+| wpn\_mflash\_mega\_trrt\_core |  |  |
+| wpn\_mflash\_mega\_trrt\_vlcty2 |  |  |
+| wpn\_mflash\_mega\_trrt\_sparks |  |  |
+| wpn\_mflash\_mega\_trrt\_finger2 |  |  |
+| wpn\_mflash\_mega\_trrt\_finger1 |  |  |
+{% endtab %}
+
 {% tab title="Plasma Mega Turret" %}
 | Value | Note | Example |
 | :--- | :--- | :--- |
