@@ -20,6 +20,38 @@ description: Anti-Titan weapon FX value
 | P\_wpn\_muzzleflash\_law | Muzzleflash |  |
 | P\_wpn\_muzzleflash\_law\_fp\_burn | Amped muzzleflash FP amped |  |
 | P\_wpn\_muzzleflash\_law\_burn | Amped muzzleflash |  |
+| **Muzzleflash** |  |  |
+| P\_wpn\_muzzleflash\_law |  |  |
+| P\_wpn\_muzzleflash\_law\_burn |  |  |
+| P\_wpn\_muzzleflash\_law\_fp |  |  |
+| P\_wpn\_muzzleflash\_law\_fp\_burn |  |  |
+| P\_wpn\_muzzleflash\_law\_rear |  |  |
+| wpn\_mflash\_law\_base |  |  |
+| wpn\_mflash\_law\_base\_FP |  |  |
+| wpn\_mflash\_law\_base\_FP\_burn |  |  |
+| wpn\_mflash\_law\_base\_burn |  |  |
+| wpn\_mflash\_law\_base\_rear |  |  |
+| wpn\_mflash\_law\_cloud\_FP |  |  |
+| wpn\_mflash\_law\_core |  |  |
+| wpn\_mflash\_law\_core\_FP |  |  |
+| wpn\_mflash\_law\_core\_burn |  |  |
+| wpn\_mflash\_law\_elec |  |  |
+| wpn\_mflash\_law\_elec\_FP |  |  |
+| wpn\_mflash\_law\_elec\_mdl |  |  |
+| wpn\_mflash\_law\_flash\_FP\_burn |  |  |
+| wpn\_mflash\_law\_front\_spark\_burn |  |  |
+| wpn\_mflash\_law\_rear\_spark\_1 |  |  |
+| wpn\_mflash\_law\_rear\_spark\_2 |  |  |
+| wpn\_mflash\_law\_smoke |  |  |
+| wpn\_mflash\_law\_smoke\_2 |  |  |
+| wpn\_mflash\_law\_smoke\_2\_FP |  |  |
+| wpn\_mflash\_law\_smoke\_2\_linger |  |  |
+| wpn\_mflash\_law\_smoke\_2\_linger\_FP |  |  |
+| wpn\_mflash\_law\_smoke\_FP |  |  |
+| wpn\_mflash\_law\_smoke\_rear |  |  |
+| wpn\_mflash\_law\_smoke\_ring |  |  |
+| wpn\_mflash\_law\_smoke\_ring\_FP |  |  |
+| wpn\_mflash\_law\_smoke\_side |  |  |
 {% endtab %}
 
 {% tab title="Charge Rifle" %}
