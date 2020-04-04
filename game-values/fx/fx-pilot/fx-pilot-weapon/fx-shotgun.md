@@ -20,6 +20,46 @@ description: Shotgun FX value
 | P\_wpn\_muz\_shotgun\_amp\_FP | Muzzleflash FP amped |  |
 | P\_wpn\_muz\_shotgun\_amp | Muzzleflash amped |  |
 | wpn\_tracer\_CH\_smoke\_shotgun | Datamined value |  |
+| **Muzzleflash** |  |  |
+| P\_wpn\_muz\_shotgun\_amp |  |  |
+| P\_wpn\_muz\_shotgun\_amp\_FP |  |  |
+| mflash\_shotgun\_FULL |  |  |
+| mflash\_shotgun\_base |  |  |
+| mflash\_shotgun\_base\_FP |  |  |
+| mflash\_shotgun\_base\_amp |  |  |
+| mflash\_shotgun\_base\_amp\_FP |  |  |
+| mflash\_shotgun\_core |  |  |
+| mflash\_shotgun\_core\_FP |  |  |
+| mflash\_shotgun\_core\_amp |  |  |
+| mflash\_shotgun\_dlight |  |  |
+| mflash\_shotgun\_dlight\_FP |  |  |
+| mflash\_shotgun\_dlight\_amp |  |  |
+| mflash\_shotgun\_elec\_arc\_amp\_FP |  |  |
+| mflash\_shotgun\_elec\_rope\_amp\_FP |  |  |
+| mflash\_shotgun\_elec\_rope\_linger\_amp |  |  |
+| mflash\_shotgun\_fp\_FULL |  |  |
+| mflash\_shotgun\_smoke |  |  |
+| mflash\_shotgun\_smoke\_FP |  |  |
+| mflash\_shotgun\_smoke\_amp |  |  |
+| mflash\_shotgun\_smoke\_amp\_FP |  |  |
+| mflash\_shotgun\_smokering\_FP |  |  |
+| mflash\_shotgun\_spark\_glow |  |  |
+| mflash\_shotgun\_spark\_glow\_FP |  |  |
+| mflash\_shotgun\_spark\_glow\_amp |  |  |
+| mflash\_shotgun\_spark\_glow\_amp\_FP |  |  |
+| mflash\_shotgun\_sparkle |  |  |
+| mflash\_shotgun\_sparkle\_FP |  |  |
+| mflash\_shotgun\_sparkle\_amp |  |  |
+| mflash\_shotgun\_sparkle\_amp\_FP |  |  |
+| mflash\_shotgun\_sparks |  |  |
+| mflash\_shotgun\_sparks\_2 |  |  |
+| mflash\_shotgun\_sparks\_2\_FP |  |  |
+| mflash\_shotgun\_sparks\_2\_amp\_FP |  |  |
+| mflash\_shotgun\_sparks\_FP |  |  |
+| mflash\_shotgun\_sparks\_amp\_FP |  |  |
+| mflash\_shotgun\_sparks\_amp\_FP2 |  |  |
+| mflash\_shotgun\_sparks\_elec\_amp |  |  |
+| mflash\_shotgun\_sparks\_elec\_amp\_FP |  |  |
 {% endtab %}
 
 {% tab title="Mastiff" %}

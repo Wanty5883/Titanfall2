@@ -4,6 +4,8 @@ description: SMG FX value
 
 # FX - SMG
 
+
+
 | Value | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |
 | **Alternator** |  |  |  |
