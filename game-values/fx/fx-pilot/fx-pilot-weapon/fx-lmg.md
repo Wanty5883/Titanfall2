@@ -14,6 +14,33 @@ description: LMG FX value
 | P\_wpn\_tracer\_BC | Tracer amped |  |
 | P\_mflash\_pulse\_LMG\_FP | Muzzleflash FP |  |
 | P\_mflash\_pulse\_LMG | Muzzleflash |  |
+| **Muzzleflash** |  |  |
+| P\_mflash\_pulse\_LMG |  |  |
+| P\_mflash\_pulse\_LMG\_FP |  |  |
+| mflash\_pulse\_LMG\_FP\_arc |  |  |
+| mflash\_pulse\_LMG\_FP\_base |  |  |
+| mflash\_pulse\_LMG\_FP\_baseBG |  |  |
+| mflash\_pulse\_LMG\_FP\_core |  |  |
+| mflash\_pulse\_LMG\_FP\_dlight |  |  |
+| mflash\_pulse\_LMG\_FP\_rope |  |  |
+| mflash\_pulse\_LMG\_FP\_smoke |  |  |
+| mflash\_pulse\_LMG\_FP\_sparks |  |  |
+| mflash\_pulse\_LMG\_base |  |  |
+| mflash\_pulse\_LMG\_baseBG |  |  |
+| mflash\_pulse\_LMG\_core |  |  |
+| mflash\_pulse\_LMG\_dlight |  |  |
+| mflash\_pulse\_LMG\_finger2 |  |  |
+| mflash\_pulse\_LMG\_finger\_BL |  |  |
+| mflash\_pulse\_LMG\_finger\_BL\_FP |  |  |
+| mflash\_pulse\_LMG\_finger\_BR |  |  |
+| mflash\_pulse\_LMG\_finger\_BR\_FP |  |  |
+| mflash\_pulse\_LMG\_finger\_TL |  |  |
+| mflash\_pulse\_LMG\_finger\_TL\_FP |  |  |
+| mflash\_pulse\_LMG\_finger\_TR |  |  |
+| mflash\_pulse\_LMG\_finger\_TR\_FP |  |  |
+| mflash\_pulse\_LMG\_smoke |  |  |
+| mflash\_pulse\_LMG\_sparks |  |  |
+| mflash\_pulse\_LMG\_sparks1 |  |  |
 {% endtab %}
 
 {% tab title="LSTAR" %}
