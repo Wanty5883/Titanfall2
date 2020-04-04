@@ -118,6 +118,26 @@ description: Anti-Titan weapon FX value
 | P\_wpn\_muzzleflash\_mgl\_FULL | Muzzleflash |  |
 | P\_wpn\_muzzleflash\_mgl\_FP\_burn | Muzzleflash FP amped |  |
 | P\_wpn\_muzzleflash\_mgl\_burn | Muzzleflash amped |  |
+| **Muzzleflash** |  |  |
+| P\_wpn\_muzzleflash\_mgl\_FP\_FULL |  |  |
+| P\_wpn\_muzzleflash\_mgl\_FP\_burn |  |  |
+| P\_wpn\_muzzleflash\_mgl\_FULL |  |  |
+| P\_wpn\_muzzleflash\_mgl\_burn |  |  |
+| wpn\_mflash\_mgl\_barrel\_01 |  |  |
+| wpn\_mflash\_mgl\_base |  |  |
+| wpn\_mflash\_mgl\_base\_FP |  |  |
+| wpn\_mflash\_mgl\_base\_FP\_burn |  |  |
+| wpn\_mflash\_mgl\_base\_burn |  |  |
+| wpn\_mflash\_mgl\_core |  |  |
+| wpn\_mflash\_mgl\_dlight |  |  |
+| wpn\_mflash\_mgl\_dlight\_FP |  |  |
+| wpn\_mflash\_mgl\_smoke |  |  |
+| wpn\_mflash\_mgl\_smoke\_FP |  |  |
+| wpn\_mflash\_mgl\_smoke\_L\_cloud\_FP |  |  |
+| wpn\_mflash\_mgl\_smoke\_ring |  |  |
+| wpn\_mflash\_mgl\_smoke\_ring\_FP |  |  |
+| wpn\_mflash\_mgl\_smoke\_side |  |  |
+| wpn\_mflash\_mgl\_smoke\_trail\_FP |  |  |
 {% endtab %}
 
 {% tab title="Thunderbolt" %}
