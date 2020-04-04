@@ -115,6 +115,45 @@ description: Sniper FX value
 | kraber\_tracer | Datamined value |  |
 | kraber\_tracer\_elec | Datamined value |  |
 | kraber\_tracer\_arc | Datamined value |  |
+| **Muzzleflash** |  |  |
+| mflash\_snp\_hmn\_burn\_arc |  |  |
+| mflash\_snp\_hmn\_burn\_arc\_FP |  |  |
+| mflash\_snp\_krab\_burn\_arc |  |  |
+| mflash\_snp\_krab\_burn\_arc\_FP |  |  |
+| wpn\_mflash\_snp\_hmn\_base |  |  |
+| wpn\_mflash\_snp\_hmn\_base\_FP |  |  |
+| wpn\_mflash\_snp\_hmn\_base\_FP\_burn |  |  |
+| wpn\_mflash\_snp\_hmn\_base\_burn |  |  |
+| wpn\_mflash\_snp\_hmn\_core |  |  |
+| wpn\_mflash\_snp\_hmn\_core\_FP |  |  |
+| wpn\_mflash\_snp\_hmn\_core\_FP\_burn |  |  |
+| wpn\_mflash\_snp\_hmn\_core\_burn |  |  |
+| wpn\_mflash\_snp\_hmn\_core\_side |  |  |
+| wpn\_mflash\_snp\_hmn\_core\_side\_FP |  |  |
+| wpn\_mflash\_snp\_hmn\_dlight |  |  |
+| wpn\_mflash\_snp\_hmn\_dlight\_FP\_burn |  |  |
+| wpn\_mflash\_snp\_hmn\_dlight\_burn |  |  |
+| wpn\_mflash\_snp\_hmn\_rope\_FP\_burn |  |  |
+| wpn\_mflash\_snp\_hmn\_rope\_burn |  |  |
+| wpn\_mflash\_snp\_hmn\_smoke |  |  |
+| wpn\_mflash\_snp\_hmn\_smoke\_FP |  |  |
+| wpn\_mflash\_snp\_hmn\_smoke\_FP\_burn |  |  |
+| wpn\_mflash\_snp\_hmn\_smoke\_L\_cloud\_FP |  |  |
+| wpn\_mflash\_snp\_hmn\_smoke\_burn |  |  |
+| wpn\_mflash\_snp\_hmn\_smoke\_side |  |  |
+| wpn\_mflash\_snp\_hmn\_smoke\_side\_FP |  |  |
+| wpn\_mflash\_snp\_hmn\_smokepuff\_side |  |  |
+| wpn\_mflash\_snp\_hmn\_smokepuff\_side\_FP |  |  |
+| wpn\_mflash\_snp\_hmn\_sparksBAK |  |  |
+| wpn\_mflash\_snp\_hmn\_sparks\_FP |  |  |
+| wpn\_mflash\_snp\_hmn\_sparks\_side |  |  |
+| wpn\_mflash\_snp\_hmn\_sparks\_side\_FP |  |  |
+| wpn\_muzzleflash\_snp\_hmn |  |  |
+| wpn\_muzzleflash\_snp\_hmn\_FP |  |  |
+| wpn\_muzzleflash\_snp\_hmn\_FP\_burn |  |  |
+| wpn\_muzzleflash\_snp\_hmn\_burn |  |  |
+| wpn\_muzzleflash\_snp\_krab\_FP\_burn |  |  |
+| wpn\_muzzleflash\_snp\_krab\_burn |  |  |
 {% endtab %}
 {% endtabs %}
 
