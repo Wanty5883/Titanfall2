@@ -21,6 +21,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 * Titanfall 2 weapon renamer - [Download](https://bitbucket.org/lunderdeamon/tf2renamer)
 * MSD \(Miles Sound Dumper\) - [Info ](https://github.com/Lyxica/Miles-10-Sound-Dumper)& [Download](https://github.com/Lyxica/Miles-10-Sound-Dumper/releases/tag/v1.0-tf2-beta1)
 * No HUD toggle - [Download](https://www.moddb.com/games/titanfall-2/downloads/toggle-hud5)
+* McSimp's [Titanfall Map Exporter](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/tools/TitanfallMapExporter.py)
 
 ### VTF & VMT
 
@@ -81,7 +82,6 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
   * Blender Source Tool - [Download & info](https://developer.valvesoftware.com/wiki/Blender_Source_Tools)
 * Crowbar - [Download & info](http://steamcommunity.com/groups/CrowbarTool)
 * Ninja Ripper v1.7.1 - [Download & info](https://gamebanana.com/tools/5638)
-* McSimp's [Titanfall Map Exporter](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/tools/TitanfallMapExporter.py)
 
 
 
