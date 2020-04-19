@@ -233,7 +233,7 @@
     * [Models - Pilot Ability](game-values/models/pilot/models-pilot-ability.md)
     * [Models  - Pilot Weapons](game-values/models/pilot/models-pilot-weapons.md)
   * [Titan](game-values/models/titan.md)
-  * [Model - Projectile](game-values/models/model-projectile.md)
+  * [Models - Beacon](game-values/models/models-beacon.md)
   * [Model - NPC](game-values/models/mode-npc.md)
   * [Model - Frontier Defense](game-values/models/model-frontier-defense.md)
 * [Icons & HUD](game-values/ig-icon/README.md)

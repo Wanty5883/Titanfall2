@@ -15,38 +15,24 @@ description: Extra information about skyboxes models
     <tr>
       <td style="text-align:left">planet_blue_sun.mdl</td>
       <td style="text-align:left">
-        <p>&quot;models\vistas\planet\planet_blue_sun&quot;</p>
-        <p>&quot;models\vistas\planet\planet_blue_sun_top&quot;</p>
+        <p>models\vistas\planet\planet_blue_sun</p>
+        <p>models\vistas\planet\planet_blue_sun_top</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">wargames_se.mdl</td>
       <td style="text-align:left">
-        <p>&quot;models/vistas/angel_city/color_gradate_pan_sets&quot;
+        <p>models/vistas/angel_city/color_gradate_pan_sets</p>
+        <p>models/vistas/wargames/wargame_grid</p>
+        <p>models/vistas/wargames/wargame_grid_pulse</p>
+        <p>models/vistas/wargames/wargame_light_beam</p>
+        <p>models\vistas\wargames\wargame_se_airbase</p>
+        <p>models\vistas\wargames\wargame_se_airbase_alpha</p>
+        <p>models\vistas\wargames\wargame_se_angelcity</p>
+        <p>models\vistas\wargames\wargame_se_citylights
           <br />
         </p>
-        <p>&quot;models/vistas/wargames/wargame_grid&quot;
-          <br />
-        </p>
-        <p>&quot;models/vistas/wargames/wargame_grid_pulse&quot;
-          <br />
-        </p>
-        <p>&quot;models/vistas/wargames/wargame_light_beam&quot;
-          <br />
-        </p>
-        <p>&quot;models\vistas\wargames\wargame_se_airbase&quot;
-          <br />
-        </p>
-        <p>&quot;models\vistas\wargames\wargame_se_airbase_alpha&quot;
-          <br />
-        </p>
-        <p>&quot;models\vistas\wargames\wargame_se_angelcity&quot;
-          <br />
-        </p>
-        <p>&quot;models\vistas\wargames\wargame_se_citylights&quot;
-          <br />
-        </p>
-        <p>&quot;models\vistas\wargames\wargame_sun&quot;</p>
+        <p>models\vistas\wargames\wargame_sun</p>
       </td>
     </tr>
   </tbody>
