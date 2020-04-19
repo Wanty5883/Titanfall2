@@ -1,4 +1,4 @@
-# Models - Beacon
+# Model - Beacon
 
 | File name | Material |
 | :--- | :--- |
