@@ -228,6 +228,7 @@
     * [Sound - Flamethrower](game-values/sound/sound-misc-and-unknown/sound-flamethrower.md)
     * [Sound - Triplethreat](game-values/sound/sound-misc-and-unknown/sound-triplethreat.md)
 * [Models](game-values/models/README.md)
+  * [Model - Skyboxes](game-values/models/model-skyboxes.md)
   * [Pilot](game-values/models/pilot/README.md)
     * [Models - Pilot Ability](game-values/models/pilot/models-pilot-ability.md)
     * [Models  - Pilot Weapons](game-values/models/pilot/models-pilot-weapons.md)
