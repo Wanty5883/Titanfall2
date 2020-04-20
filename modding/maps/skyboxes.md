@@ -12,8 +12,8 @@ Navigate to your folder and find this VPK file:
 
 Copy these files and paste them into an empty folder somewhere else:
 
-* englishclient\_mp\_\*mapname\*.bsp.pak000\_dir.vpk
-* client\_mp\_\*mapname\*.bsp.pak000\_000.vpk
+* englishclient\_mp\_**mapname**.bsp.pak000\_dir.vpk
+* client\_mp\_**mapname**.bsp.pak000\_000.vpk
 
 {% hint style="danger" %}
 Make sure to make a Backup of every single Map you edit, Since every map has it's own VPK.

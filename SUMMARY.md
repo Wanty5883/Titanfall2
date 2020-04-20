@@ -100,6 +100,7 @@
     * [Vortex shield color](modding/titans/ion/ion-vortex-shield-color.md)
 * [Maps](modding/maps/README.md)
   * [Maps - Skyboxes](modding/maps/skyboxes.md)
+  * [Maps - Cube Map](modding/maps/maps-cube-map.md)
   * [Maps - File Names](modding/maps/maps-file-names.md)
 * [User Interface](modding/user-interface/README.md)
   * [Text modding r1\_language](modding/user-interface/text-modding-r1_language.md)
