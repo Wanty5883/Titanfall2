@@ -34,8 +34,8 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 * [BSP Viewer](source/bsp/bsp-viewer.md) - view and export [GoldSrc](https://developer.valvesoftware.com/wiki/GoldSrc) maps
 * [BSP2MAP](source/bsp/bsp2map.md) - convert GoldSrc BSP maps to .map files
 * [BSPSource](https://developer.valvesoftware.com/wiki/BSPSource) - improved Source BSP decompiler based on VMEX
-* [EntEd](source/bsp/ented.md) - view and edit [entity](https://developer.valvesoftware.com/wiki/Entity) properties of a BSP
-* [Entspy](source/bsp/entspy.md) - view and edit [entity](https://developer.valvesoftware.com/wiki/Entity) properties of a BSP
+* [EntEd](source/bsp/ented.md) - view and edit entity properties of a BSP
+* [Entspy](source/bsp/entspy.md) - view and edit entity properties of a BSP
 * [Map Analyst](source/bsp/map-analyst.md) - alternative to [Bspzip](source/bsp/bspzip.md) - embed custom content such as materials, models, textures into a BSP
 * [Packbsp](source/bsp/packbsp.md) - embed custom content such as materials, models, textures into a BSP
 * [Pakrat](source/bsp/pakrat.md) - GUI replacement for [Bspzip](source/bsp/bspzip.md)
@@ -71,6 +71,11 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 * [GIF splitter](https://ezgif.com/split)
 * [Rad Tools Bik](http://www.radgametools.com/bnkdown.htm) \(needs [Quicktime 7.6](https://support.apple.com/downloads/quicktime)\)
 
+### Archives
+
+* WinRAR - [Download](https://www.win-rar.com/download.html?L=10)
+* 7zip - [Info & Download](https://www.7-zip.org/)
+
 ### Driver editors
 
 * NVidia Profile Inspector - [Download](https://nvidia-inspector.en.lo4d.com/windows)
@@ -86,4 +91,6 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 
 You can't download one of those software ? Reach us! We probably have a backup
+
+{% page-ref page="../../contact.md" %}
 

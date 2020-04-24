@@ -253,4 +253,5 @@
 ## Mods
 
 * [Plastic Mode](mods/plastic-mode.md)
+* [No-HUD Mod](mods/no_hud_mod.md)
 
