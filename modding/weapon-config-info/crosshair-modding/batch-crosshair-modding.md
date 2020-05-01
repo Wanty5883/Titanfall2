@@ -24,7 +24,7 @@ Create a folder for yourself to perform these edits within, mine is called `Cros
 
 ### Step 2. Open TextCrawler, and configure settings.
 
-![](../../../.gitbook/assets/image%20%284%29.png)
+![](../../../.gitbook/assets/image%20%287%29.png)
 
 This step consists of 5 parts, listed below.
 
@@ -36,7 +36,7 @@ This step consists of 5 parts, listed below.
 
 ### Step 3. Verify settings are working correctly
 
-![](../../../.gitbook/assets/image%20%283%29.png)
+![](../../../.gitbook/assets/image%20%286%29.png)
 
 If all is done correctly, you should see a list of your configs appear with the crosshair settings within them highlighted. Make sure that all of your configs have the "Matches" column value of 1. If this is not the case you will have to manually modify as these configs have multiple overlaid crosshairs.
 

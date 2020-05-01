@@ -12,11 +12,11 @@ Texture listed here are only texture made by the community.
 
 {% tabs %}
 {% tab title="Fractal Texture" %}
-![Fractal 01](../../../.gitbook/assets/fractal01.png)
+![Fractal 01](../.gitbook/assets/fractal01.png)
 
-![Fractal 02](../../../.gitbook/assets/fractal02.png)
+![Fractal 02](../.gitbook/assets/fractal02.png)
 
-![Fractal 02](../../../.gitbook/assets/fractal02_w.png)
+![Fractal 02](../.gitbook/assets/fractal02_w.png)
 {% endtab %}
 {% endtabs %}
 
