@@ -21,11 +21,11 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 * Titanfall 2 weapon renamer - [Download](https://bitbucket.org/lunderdeamon/tf2renamer)
 * MSD \(Miles Sound Dumper\) - [Info ](https://github.com/Lyxica/Miles-10-Sound-Dumper)& [Download](https://github.com/Lyxica/Miles-10-Sound-Dumper/releases/tag/v1.0-tf2-beta1)
 * No HUD toggle - [Download](https://www.moddb.com/games/titanfall-2/downloads/toggle-hud5)
-* McSimp's [Titanfall Map Exporter](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/tools/TitanfallMapExporter.py)
+* Titanfall Map Exporter - [Download](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/tools/TitanfallMapExporter.py)
 
 ### VTF & VMT
 
-* VTFEdit - [Download](http://nemesis.thewavelength.net/index.php?p=41)
+* VTFEdit - [Download](this-content-is-no-longer-available.md)
   * VTFVer - [Download](http://cra0kalo.com/public/VTFVer.zip) _not needed anymore, VTFEdit support v7.5_
 * VTF Shell Extensions - [Info](https://developer.valvesoftware.com/wiki/VTF_Shell_Extensions) & [Download](https://www.wunderboy.org/valve-hl2source-sdk-tools/#vtf_shell)
 
@@ -61,7 +61,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 * Paint.net - [Download](https://www.getpaint.net/)
   * [Gradient Mapping plug-in](https://forums.getpaint.net/topic/6265-gradient-mapping/)
-  * [VTF plug-in](http://nemesis.thewavelength.net/index.php?p=50)
+  * [VTF plug-in](this-content-is-no-longer-available.md)
   * [Animation Helper](https://pixelbyte.itch.io/paint-net-sprite-plugin)
 * Source VMT Color - [Download](https://dev.cra0kalo.com/?p=155)
 * GIMP - [Download](https://www.gimp.org/downloads/)

@@ -4,6 +4,8 @@
 
 NoSkill Community [https://discord.gg/sEgmTKg](https://discord.gg/sEgmTKg) permanent & public link.
 
+{% embed url="https://discord.gg/sEgmTKg" %}
+
 ## How to ask help
 
 The NoSkill discord is **not a support discord for modding** for the ones **who don't read given information**. 

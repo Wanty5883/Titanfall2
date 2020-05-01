@@ -9,6 +9,7 @@
 * [Modding introduction](how-to-start-modding/modding-introduction.md)
 * [How to backup, extract & repack](how-to-start-modding/how-to-backup-extract-and-repack.md)
 * [Modding tools](how-to-start-modding/modding-tools/README.md)
+  * [This content is no longer available](how-to-start-modding/modding-tools/this-content-is-no-longer-available.md)
   * [Source](how-to-start-modding/modding-tools/source/README.md)
     * [Game Directory](how-to-start-modding/modding-tools/source/game-directory.md)
     * [BSP](how-to-start-modding/modding-tools/source/bsp/README.md)

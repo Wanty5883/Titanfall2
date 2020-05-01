@@ -18,6 +18,8 @@ description: 'People who have, in the past or present, contributed to or managed
 
 **Dinorush** - Dataminer, editor & proofreader
 
+**McSimp's** - For making the Titanfall Map Exporter tool
+
 ## Special Thanks
 
 **Norkkom**, **Exrill**, **igb\_** for providing information to the wiki 
