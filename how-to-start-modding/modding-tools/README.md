@@ -85,6 +85,8 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 * Blender - [Download](https://www.blender.org/)
   * Blender Source Tool - [Download & info](https://developer.valvesoftware.com/wiki/Blender_Source_Tools)
+  * Blender VMT - [Download & info](https://github.com/lasa01/blender-vmt)
+  * io import VMF & VMT - [Download & info](https://github.com/lasa01/io_import_vmf)
 * Crowbar - [Download & info](http://steamcommunity.com/groups/CrowbarTool)
 * Ninja Ripper v1.7.1 - [Download & info](https://gamebanana.com/tools/5638)
 
