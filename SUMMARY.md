@@ -109,6 +109,7 @@
     * [Menu Background](modding/user-interface/menus/menu-background.md)
     * [Network - Menus](modding/user-interface/menus/network-menus.md)
     * [Settings](modding/user-interface/menus/settings/README.md)
+      * [Controls](modding/user-interface/menus/settings/controls.md)
       * [Key Bindings](modding/user-interface/menus/settings/key-bindings.md)
 * [Misc](modding/misc/README.md)
   * [Cable - Zipline](modding/misc/cable-zipline.md)
