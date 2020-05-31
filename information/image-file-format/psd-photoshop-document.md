@@ -125,7 +125,9 @@ The image pixel data is contained in the Image Data section of the file. Arrange
       <td style="text-align:left">The image data. Planar order = RRR GGG BBB, etc.</td>
     </tr>
   </tbody>
-</table>{% hint style="info" %}
+</table>
+
+{% hint style="info" %}
 Source: [https://wiki.fileformat.com/image/psd/](https://wiki.fileformat.com/image/psd/)  
 Reference:
 

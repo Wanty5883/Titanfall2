@@ -218,7 +218,9 @@ Several titan weapons and abilities have their values spread across multiple fil
       <td style="text-align:left">mp_titanweapon_predator_cannon.txt</td>
     </tr>
   </tbody>
-</table>### **Monarch**
+</table>
+
+### **Monarch**
 
 | Weapon name | File name |
 | :--- | :--- |

@@ -215,7 +215,9 @@ Several weapons and abilities have their values or critical functions spread acr
       <td style="text-align:left">mp_titancore_siege_mode.nut</td>
     </tr>
   </tbody>
-</table>### **Monarch**
+</table>
+
+### **Monarch**
 
 | Weapon name | File name |
 | :--- | :--- |
@@ -262,3 +264,4 @@ Methods used by numerous different weapons.
     </tr>
   </tbody>
 </table>
+

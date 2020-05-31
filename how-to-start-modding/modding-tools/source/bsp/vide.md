@@ -55,7 +55,9 @@ Any and all custom content must be packed into the level with VIDE; otherwise, e
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left">
@@ -95,7 +97,9 @@ Any and all custom content must be packed into the level with VIDE; otherwise, e
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left">
@@ -184,7 +188,9 @@ Any and all custom content must be packed into the level with VIDE; otherwise, e
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left">
@@ -225,7 +231,9 @@ Any and all custom content must be packed into the level with VIDE; otherwise, e
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left">
@@ -291,7 +299,9 @@ Any and all custom content must be packed into the level with VIDE; otherwise, e
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left">
@@ -345,7 +355,9 @@ Any and all custom content must be packed into the level with VIDE; otherwise, e
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left">
@@ -359,7 +371,9 @@ Any and all custom content must be packed into the level with VIDE; otherwise, e
     </tr>
   </thead>
   <tbody></tbody>
-</table>{% hint style="info" %}
+</table>
+
+{% hint style="info" %}
 Reference:
 
 * [http://www.riintouge.com/VIDE/](http://www.riintouge.com/VIDE/)

@@ -106,6 +106,7 @@
 * [User Interface](modding/user-interface/README.md)
   * [Text modding r1\_language](modding/user-interface/text-modding-r1_language.md)
   * [Menus](modding/user-interface/menus/README.md)
+    * [Whats new and Spotlight](modding/user-interface/menus/whats-new-and-spotlight.md)
     * [Menu Background](modding/user-interface/menus/menu-background.md)
     * [Network - Menus](modding/user-interface/menus/network-menus.md)
     * [Settings](modding/user-interface/menus/settings/README.md)
