@@ -72,6 +72,12 @@ You are now done making a custom cubemap. You now need to replace it with the va
 Making backup of the original texture is very handy !
 {% endhint %}
 
+## Skybox list
+
+{% hint style="info" %}
+Here is some ready to use skyboxes: [Skybox list](https://github.com/Wanty5883/Titanfall2/tree/master/picture/skyboxes)
+{% endhint %}
+
 ## Repacking
 
 [How to repack VPK files proprely?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)
