@@ -31,7 +31,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 To edit the following weapon heat effect you need to find their .vmt files. Further in this guide you will find the different file locations and details about what modifications can be done.
 
-You can edit the heat color, [here](https://wanty5883.gitbook.io/titanfall2/information/color-and-texture-info#usdlayercolor) more information about color and how to edit the way you like.
+You can edit the heat color, [here](https://noskill.gitbook.io/titanfall2/information/textures/colors/color-and-texture-info#usdlayercolor) more information about color and how to edit the way you like.
 
 You can change the heat effect texture to any other texture in the game. Some texture would work, some wouldn't look good and some other texture would just not work. More info [here](https://wanty5883.gitbook.io/titanfall2/information/color-and-texture-info#usdtexture2-and-usdbasetexture) how to edit the texture value.
 
