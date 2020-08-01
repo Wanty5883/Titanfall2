@@ -121,7 +121,7 @@ When converting your texture:
 
 ### **In Vtex**
 
-1. Save your normal map as a [TGA](../../image-file-format/truevision-graphics-adapter-tga.md). Give it a name that ends in \_normal. The \_normal at the end of the name will affect how [Vtex](https://developer.valvesoftware.com/wiki/Vtex) converts it. For the brick wall example, we would name the file `brickwall_normal.tga`.
+1. Save your normal map as a [TGA](../../file-format/truevision-graphics-adapter-tga.md). Give it a name that ends in \_normal. The \_normal at the end of the name will affect how [Vtex](https://developer.valvesoftware.com/wiki/Vtex) converts it. For the brick wall example, we would name the file `brickwall_normal.tga`.
 2. Add `nocompress 1` and `normal 1` to &lt;texture filename&gt;.txt in the same folder as your texture, then compile.
 
 #### Implementation

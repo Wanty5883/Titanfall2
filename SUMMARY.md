@@ -66,11 +66,11 @@
 * [Programming](information/programming/README.md)
   * [KeyValues](information/programming/keyvalues/README.md)
     * [Gameinfo.txt](information/programming/keyvalues/gameinfo.txt.md)
-* [Image File Format](information/image-file-format/README.md)
-  * [PSD - Photoshop Document](information/image-file-format/psd-photoshop-document.md)
-  * [TGA - Truevision Graphics Adapter](information/image-file-format/truevision-graphics-adapter-tga.md)
-  * [TXT - Text file](information/image-file-format/txt-text-file.md)
-  * [VPK - Valve Pak file](information/image-file-format/vpk-valve-pak-file.md)
+* [File Format](information/file-format/README.md)
+  * [PSD - Photoshop Document](information/file-format/psd-photoshop-document.md)
+  * [TGA - Truevision Graphics Adapter](information/file-format/truevision-graphics-adapter-tga.md)
+  * [TXT - Text file](information/file-format/txt-text-file.md)
+  * [VPK - Valve Pak file](information/file-format/vpk-valve-pak-file.md)
 
 ## Modding
 
