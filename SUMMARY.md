@@ -75,13 +75,13 @@
 ## Modding
 
 * [Weapon](modding/weapon-config-info/README.md)
-  * [Weapon FOV Modding](modding/weapon-config-info/weapon-fov-modding.md)
   * [File name - Weapon config](modding/weapon-config-info/weapon-config-file-name.md)
   * [File name - Weapon script](modding/weapon-config-info/file-name-weapon-script.md)
   * [Crosshair modding](modding/weapon-config-info/crosshair-modding/README.md)
     * [Batch crosshair modding](modding/weapon-config-info/crosshair-modding/batch-crosshair-modding.md)
     * [Crosshair example](modding/weapon-config-info/crosshair-modding/crosshair-example.md)
   * [Weapon Positioning](modding/weapon-config-info/weapon-positioning.md)
+  * [Weapon FOV](modding/weapon-config-info/weapon-fov.md)
 * [Pilots](modding/pilots/README.md)
   * [Models - Pilot class](modding/pilots/pilot-class.md)
   * [LSTAR - Heat color](modding/pilots/lstar-heat-color.md)
