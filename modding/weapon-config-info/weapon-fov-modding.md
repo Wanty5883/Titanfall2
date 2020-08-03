@@ -108,7 +108,7 @@ We then multiply that number \(cl\_fovScale\) by whatever number we chose for ou
 
 All we need to do here is in put the FOV number we just acquired from our previous calculation, in my example I got 87.99
 
-![](../../.gitbook/assets/mspaint_emdvxagox7.png)
+![Make sure you leave FOV Type on Hdeg 4:3](../../.gitbook/assets/mspaint_emdvxagox7.png)
 
 Now scroll down and you will be greeted with your converted fov calculations:
 
