@@ -75,6 +75,7 @@
 ## Modding
 
 * [Weapon](modding/weapon-config-info/README.md)
+  * [Weapon FOV Modding](modding/weapon-config-info/weapon-fov-modding.md)
   * [File name - Weapon config](modding/weapon-config-info/weapon-config-file-name.md)
   * [File name - Weapon script](modding/weapon-config-info/file-name-weapon-script.md)
   * [Crosshair modding](modding/weapon-config-info/crosshair-modding/README.md)
