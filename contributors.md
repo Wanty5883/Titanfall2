@@ -38,6 +38,8 @@ description: >-
 
 **RocKiT** - for helping in modeling
 
+**Amos** - for modding research
+
 **Norkkom**, **Exrill**, **igb\_** for providing information to the wiki 
 
 **Noobie** for helping in modding research
