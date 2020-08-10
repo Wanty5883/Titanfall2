@@ -62,7 +62,6 @@
   * [Skybox Basics](information/textures/skybox-basics/README.md)
     * [2D Skybox](information/textures/skybox-basics/2d-skybox.md)
     * [3D Skybox](information/textures/skybox-basics/3d-skybox.md)
-* [Texture library](information/texture-library.md)
 * [Programming](information/programming/README.md)
   * [KeyValues](information/programming/keyvalues/README.md)
     * [Gameinfo.txt](information/programming/keyvalues/gameinfo.txt.md)
@@ -71,6 +70,10 @@
   * [TGA - Truevision Graphics Adapter](information/file-format/truevision-graphics-adapter-tga.md)
   * [TXT - Text file](information/file-format/txt-text-file.md)
   * [VPK - Valve Pak file](information/file-format/vpk-valve-pak-file.md)
+
+## r2 Ripping
+
+* [Exporting Maps](r2-ripping/exporting-maps.md)
 
 ## Modding
 
@@ -118,7 +121,6 @@
   * [Marvin - Chest screen](modding/misc/marvin-chest-screen.md)
   * [Pulse Effect](modding/misc/pulse-effect.md)
   * [Ticks - Model](modding/misc/ticks.md)
-* [Exporting Maps](modding/exporting-maps.md)
 
 ## Game Values
 
@@ -261,4 +263,8 @@
 
 * [Plastic Mode](mods/plastic-mode.md)
 * [No-HUD Mod](mods/no_hud_mod.md)
+
+## Assets
+
+* [Texture library](assets/texture-library.md)
 

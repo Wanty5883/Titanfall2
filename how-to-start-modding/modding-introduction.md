@@ -12,11 +12,13 @@ Before getting into Titanfall 2 modding, you should backup any [VPK ](../informa
 In this guide, the location of each [VPK ](../information/file-format/vpk-valve-pak-file.md)file will be listed at the beginning of the page.
 {% endhint %}
 
-This Gitbook repo will be updated over time as we get new information about what's possible around Titanfall 2 modding. You can check the [NoSkill Community Discord server](https://discordapp.com/invite/sEgmTKg) where update notifications are posted each time new content is added to the wiki. Join our Discord server to say hi, ask questions, report typos, mistakes or ask to contribute to the wiki.
+This Gitbook repo will be updated over time as we get new information about Titanfall 2 modding, datamining, reverse engineering and game ripping. You can check the [NoSkill Community Discord server](https://discordapp.com/invite/sEgmTKg) where update notifications are posted each time new content is added to the wiki. Join our Discord server to say hi, ask questions, report typos, mistakes or ask to contribute to the wiki.
 
 {% hint style="warning" %}
-The Discord server **is not a support server for vpk modding**.
+Check contact page for more informations
 {% endhint %}
+
+{% page-ref page="../contact.md" %}
 
 ## Notes
 
