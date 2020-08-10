@@ -74,6 +74,7 @@
 ## r2 Ripping
 
 * [Exporting Maps](r2-ripping/exporting-maps.md)
+* [Exporting Models](r2-ripping/model-ripping.md)
 
 ## Modding
 
