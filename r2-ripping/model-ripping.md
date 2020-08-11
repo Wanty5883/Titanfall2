@@ -6,33 +6,36 @@ description: How To Rip Game Models With Textures into blender
 
 ## Required Software
 
-You Will Need:   
 [Blender  
 ](https://www.blender.org/)[Blender Source Tools ](http://steamreview.org/BlenderSourceTools/) - For Importing Models Into Blender  
 [Legion](https://wiki.modme.co/wiki/apps/Legion.html) - Texture Extraction Tool  
-[Crowbar](https://github.com/ZeqMacaw/Crowbar/releases/tag/v0.68) - Source Engine Model Decompiler\)   
+[Crowbar](https://github.com/ZeqMacaw/Crowbar/releases/tag/v0.68) - Source Engine Model Decompiler  
 [Titanfall 2 Vpk Extractor](https://dev.cra0kalo.com/?p=137) - For Getting The Models  
 [S / G Shader](https://drive.google.com/file/d/1g6dRd1F5XMba43-6NPd0b4gy2GHN04YA/view) - For Linking Textures
 
 {% hint style="info" %}
- You'll need an extractor which can extract .7z files for Crowbar
+ You'll need an extractor which can extract .7z files for Crowbar. You can find more about that in the archive softwares in the [tool page](../how-to-start-modding/modding-tools/#archives).
 {% endhint %}
 
 ## Getting The Models
 
-First, we need to actually obtain the models. You can do this by extracting this VPK file you can learn how to extract VPKs here
+First, we need to actually obtain the models. You can do this by extracting this VPK file you can learn how to extract VPKs
+
+{% page-ref page="../how-to-start-modding/how-to-backup-extract-and-repack.md" %}
+
+For the most part, models can be found in the common vpk. But you will find other models in the other vpk from Titanfall 2.
 
 ```text
 "Titanfall2\vpk\englishclient_mp_common.bsp.pak000_dir.vpk"
 ```
 
-Next, you need to find the model you want. For This Example i will choose the CAR SMG model, which is located here
+Next, you need to find the model you want. In this guide, as an example, the CAR SMG will be chosen. Which is located here
 
 ```text
 ExtractedVPK\models\weapons\car101
 ```
 
-However, we cant just straight import this into blender, we will need to decompile it using crowbar. So first, extract crowbar using your extractor of choice, and load up crowbar.exe 
+However, we can't just straight import this into blender, we will need to decompile the model using crowbar. So first, extract crowbar using your archive software of choice, and load up `crowbar.exe` 
 
 ![Copy these settings here, with the filepath to your model and click decompile](../.gitbook/assets/crowbar-settings.png)
 
@@ -46,7 +49,7 @@ Once you've decompiled the model into the folder of your choice, we need to open
 
 ## Importing The Models
 
-Next, we need to import the models using blender source tools. This can easily be done by clicking on File, import, and importing the .qc file as shown
+Next, we need to import the models using blender source tools. This can easily be done by clicking on `File > import`, and importing the `.qc` file as shown
 
 ![](../.gitbook/assets/importing-the-model.gif)
 

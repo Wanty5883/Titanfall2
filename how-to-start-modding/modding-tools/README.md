@@ -22,6 +22,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 * MSD \(Miles Sound Dumper\) - [Info ](https://github.com/Lyxica/Miles-10-Sound-Dumper)& [Download](https://github.com/Lyxica/Miles-10-Sound-Dumper/releases/tag/v1.0-tf2-beta1)
 * No HUD toggle - [Download](https://www.moddb.com/games/titanfall-2/downloads/toggle-hud5)
 * Titanfall Map Exporter - [Info ](../../r2-ripping/exporting-maps.md)& [Download](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/tools/TitanfallMapExporter.py)
+* Legion - [Info and Download](https://wiki.modme.co/wiki/apps/Legion.html)
 
 ### VTF & VMT
 
