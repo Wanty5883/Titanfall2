@@ -46,7 +46,11 @@ Rename pak000\_dir.vpk _to_ **englishclient\_mp\_common.bsp.pak000\_dir.vpk**
 
 ## **VPK rename / move batch script**
 
-Bored of renaming / moving VPK files back to game directory? There is a little batch script you can use !
+{% hint style="success" %}
+Bored of renaming / moving VPK files back to game directory?
+{% endhint %}
+
+There is a little batch script you can use !
 
 ```bash
 ren "pak000_000.vpk" "client_mp_common.bsp.pak000_000.vpk"
