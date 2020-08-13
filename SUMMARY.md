@@ -88,6 +88,7 @@
   * [Weapon FOV](modding/weapon-config-info/weapon-fov.md)
 * [Pilots](modding/pilots/README.md)
   * [Models - Pilot class](modding/pilots/pilot-class.md)
+  * [Charge Rifle - Arc Rifle](modding/pilots/charge-rifle-arc-rifle.md)
   * [LSTAR - Heat color](modding/pilots/lstar-heat-color.md)
   * [Charge rifle - Heat color effect](modding/pilots/charge-rifle-heat-color-effect.md)
 * [Titans](modding/titans/README.md)
