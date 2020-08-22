@@ -69,6 +69,14 @@ Finally, we can begin to texture our model, this is perhaps the most tedious ste
 
 ![Change your workspace from layout, to shading. ](../.gitbook/assets/shading-workspace.png)
 
+![Press File / Append](../.gitbook/assets/append-me.png)
+
+![Select your SG\_Shader blend file](../.gitbook/assets/sg-shader.png)
+
+![Select The Nodetree folder, and then the S/G shader](../.gitbook/assets/nodetree.png)
+
+
+
 ![Delete / Import the nodes as shown](../.gitbook/assets/removing-adding-nodes.gif)
 
 ![Set your legion settings to these here](../.gitbook/assets/legion-settings.png)
