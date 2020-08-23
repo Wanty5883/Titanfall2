@@ -111,6 +111,7 @@
   * [Maps - File Names](modding/maps/maps-file-names.md)
 * [User Interface](modding/user-interface/README.md)
   * [Text modding r1\_language](modding/user-interface/text-modding-r1_language.md)
+  * [Scoreboard colors](modding/user-interface/scoreboard-colors.md)
   * [Menus](modding/user-interface/menus/README.md)
     * [Pause Menu Blur](modding/user-interface/menus/pause-menu-blur.md)
     * [Menu Background](modding/user-interface/menus/menu-background.md)
