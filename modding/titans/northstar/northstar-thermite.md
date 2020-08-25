@@ -108,8 +108,8 @@ Find and replace the following values in your file. **Note:** Do not copy paste 
 "fx_muzzle_flash_world"					"P_wpn_HeatSheild_burn_titan"
 "fx_muzzle_flash_attach"				"muzzle_flash_2"
 
-"fx_muzzle_flash2_view"					"wpn_mflash_xo_rocket_shoulder_FP"
-"fx_muzzle_flash2_world"				"P_muzzleflash_predator"
+"fx_muzzle_flash2_view"					"P_wpn_HeatSheild_burn_titan"
+"fx_muzzle_flash2_world"				"P_wpn_HeatSheild_burn_titan"
 "fx_muzzle_flash2_attach"				"muzzle_flash"
 ```
 

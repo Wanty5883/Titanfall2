@@ -32,7 +32,7 @@ Thoose value change the railgun projectile to a blue one for regular shot and to
 "projectile_trail_effect_2"				"P_wpn_grenade_gravity"
 ```
 
-Thoose value change the muzzle flash to an electric one. _note:_ muzzle flash apply when you shoot, this is not the vortex effect when you charge the railgun.
+Those values change the muzzle flash to an electric one. _note:_ muzzle flash apply when you shoot, this is not the vortex effect when you charge the railgun.
 
 ```text
 "fx_muzzle_flash_view"					"wpn_muzzleflash_arc_cannon_fp"
@@ -115,8 +115,8 @@ This will change the muzzle flash to an electric one.
 "fx_muzzle_flash_world"					"wpn_muzzleflash_arc_cannon_fp"
 "fx_muzzle_flash_attach"				"muzzle_flash_2"
 
-"fx_muzzle_flash2_view"					"P_elec_screen"
-"fx_muzzle_flash2_world"				"P_elec_screen"
+"fx_muzzle_flash2_view"					"wpn_muzzleflash_arc_cannon_fp"
+"fx_muzzle_flash2_world"				"wpn_muzzleflash_arc_cannon_fp"
 "fx_muzzle_flash2_attach"				"muzzle_flash"
 ```
 
