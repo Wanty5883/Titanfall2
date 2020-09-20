@@ -30,6 +30,8 @@ description: >-
 
 ## Special Thanks
 
+\*\*\*\*[**cra0kalo** ](https://github.com/cra0kalo)- for making the VPK tool
+
 \*\*\*\*[**McSimp's** ](https://github.com/McSimp)- for making the Titanfall Map Exporter tool
 
 **p0358** - for helping in modding research and reverse engineering

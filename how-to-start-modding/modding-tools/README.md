@@ -16,7 +16,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 ### Titanfall
 
-* Titanfall VPK Tool - [Download](https://dev.cra0kalo.com/?p=137)
+* Titanfall VPK Tool - [Download](http://cra0kalo.com/public/Titanfall_VPKTool3.4_Portable.zip)
 * VPK renamer / move - [Info here](../how-to-backup-extract-and-repack.md#vpk-rename-move-batch-script)
 * Titanfall 2 weapon renamer - [Download](https://bitbucket.org/lunderdeamon/tf2renamer)
 * MSD \(Miles Sound Dumper\) - [Info ](https://github.com/Lyxica/Miles-10-Sound-Dumper)& [Download](https://github.com/Lyxica/Miles-10-Sound-Dumper/releases/tag/v1.0-tf2-beta1)
