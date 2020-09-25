@@ -23,7 +23,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 > Origin Games\Titanfall2\vpk\englishclient\_mp\_common.bsp.pak000\_dir.vpk
 
-​[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
+​[How to extract VPK's properly?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 
 ## Editing
 
@@ -37,19 +37,21 @@ If you want to change the look of the arms, you can go to:
 
 To change the pilot class you want, first off find the file linked to this class. Then choose the class you want and duplicate them. Then just rename the duplicated files into the name of the class you wanted to change.
 
-The files in the folder have different name who correspond to those pilot classes:
+The files in the folder have different names that correspond to their pilot classes:
 
-* pilot\_jester = Stim
-* pilot\_medium\_stalker = Holo
+* pilot\_light\_jester = Stim
+* pilot\_light\_ged = Phase Shift
+* pilot\_medium\_stalker = Holo Pilot
 * pilot\_medium\_reaper = Pulse Blade
 * pilot\_medium\_geist = Grapple
-* pilot\_heavy\_roog = A-wall
+* pilot\_heavy\_roog = A-Wall
+* pilot\_heavy\_drex = Cloak
 
-The _f_ & _m_ at the end of the files are about female and male version of each pilot classes.
+The _f_ & _m_ at the end of the files correspond to the _female_ and _male_ versions of each pilot class.
 
 ## Repacking <a id="repacking"></a>
 
-​[How to repack VPK files proprely ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)​
+​[How to repack VPK files properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)​
 
 After following step by step the previous link
 
