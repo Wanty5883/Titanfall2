@@ -26,6 +26,10 @@ After the extraction is complete, open the folder where you extracted your files
 **Only extract** [**VPK** ](../information/file-format/vpk-valve-pak-file.md)**files from the game directory. If you try to extract** [**VPK** ](../information/file-format/vpk-valve-pak-file.md)**files from your backup folder errors are caused!**
 {% endhint %}
 
+{% hint style="warning" %}
+Make sure to use version 3.3 or 3.4 of the VPK tool. You may have unwanted behavior with previous version of the tool.
+{% endhint %}
+
 ## **How to repack VPK files properly ?**
 
 Open the repacker tool inside the Titanfall VPK Tool. You have 2 ways to do that, click on the _`Repack VPK`_ icon, or go in _`Tools > Repacker`_. Once the tool opened, give as first directory your extracted folder
