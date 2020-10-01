@@ -137,7 +137,7 @@ More argument information on this page
 
 List of the different weapon config files. Sometimes names are not the same as in game name.
 
-{% page-ref page="../weapon-config-file-name.md" %}
+{% page-ref page="../../../game-values/file-location/weapon-config-file-name.md" %}
 
 ## Repacking
 

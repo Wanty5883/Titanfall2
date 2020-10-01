@@ -22,7 +22,7 @@ Massive amount of values and information. This page will often refer to differen
 
 This folder contains the "config files" for the weapons. Check this page for their names
 
-{% page-ref page="weapon-config-file-name.md" %}
+{% page-ref page="../../game-values/file-location/weapon-config-file-name.md" %}
 
 ### Crosshair
 
@@ -171,7 +171,7 @@ You can have different values between the normal and amped modes on each weapon 
 
 This folder contains the "scripts files" for the weapons. Check this page for their names
 
-{% page-ref page="file-name-weapon-script.md" %}
+{% page-ref page="../../game-values/file-location/file-name-weapon-script.md" %}
 
 ## 
 

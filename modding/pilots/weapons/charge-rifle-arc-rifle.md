@@ -14,7 +14,7 @@ description: >-
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
 
-{% page-ref page="../../how-to-start-modding/how-to-backup-extract-and-repack.md" %}
+{% page-ref page="../../../how-to-start-modding/how-to-backup-extract-and-repack.md" %}
 
 ## Introduction
 
@@ -64,5 +64,5 @@ That's it ! You are done with it. Now it should work as intended as shown in the
 
 ### Repacking
 
-{% page-ref page="../../how-to-start-modding/how-to-backup-extract-and-repack.md" %}
+{% page-ref page="../../../how-to-start-modding/how-to-backup-extract-and-repack.md" %}
 

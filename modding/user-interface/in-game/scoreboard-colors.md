@@ -33,7 +33,7 @@ All colors on the scoreboard are stored in one file, `sh_consts.gnut`. The file 
 
 Colors of individual elements are stored as a vector variable which is made out of 3 integer variables that accept the values from 0 to 255; each of the integers corresponds to a certain amount of one of the basic [rgb colors ](https://noskill.gitbook.io/titanfall2/information/textures/colors#rgb)\(red, green or blue\). In simpler terms, you'll be changing the color by changing the amount of red, green and blue it has; 0 means no color at all \(black\) and 255 means the maximum.
 
-{% page-ref page="../../information/textures/colors/" %}
+{% page-ref page="../../../information/textures/colors/" %}
 
 ### Enemy's color
 
@@ -47,7 +47,7 @@ global const int ENEMY_B =
 
 Example, values used were R=200 G=0 B=0:
 
-![Note that the Badge color also changed](../../.gitbook/assets/enemies.png)
+![Note that the Badge color also changed](../../../.gitbook/assets/enemies.png)
 
 ### Team's color
 
@@ -61,7 +61,7 @@ global const int FRIENDLY_B =
 
 Example, values used were R=0 G=255 B=50:
 
-![Note that the Badge color also changed](../../.gitbook/assets/team.png)
+![Note that the Badge color also changed](../../../.gitbook/assets/team.png)
 
 ### Party's color
 
@@ -75,7 +75,7 @@ global const int PARTY_B =
 
 Example, values used were R=255 G=111 B=0:
 
-![](../../.gitbook/assets/party.png)
+![](../../../.gitbook/assets/party.png)
 
 ### Your name's color
 
@@ -89,7 +89,7 @@ global const int LOCAL_B =
 
 Example, values used were R=255 G=50 B=255:
 
-![](../../.gitbook/assets/local.png)
+![](../../../.gitbook/assets/local.png)
 
 ## Repacking <a id="repacking"></a>
 

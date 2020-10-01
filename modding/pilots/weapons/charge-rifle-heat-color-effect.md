@@ -2,7 +2,7 @@
 description: Charge rifle heat color effect guide
 ---
 
-# Charge rifle - Heat color effect
+# Charge rifle - Heat color
 
 ## Preparation <a id="preparation"></a>
 
