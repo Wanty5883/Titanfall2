@@ -107,7 +107,8 @@
 * [Maps](modding/maps/README.md)
   * [Maps - Skyboxes](modding/maps/skyboxes.md)
   * [Maps - Cube Map](modding/maps/maps-cube-map.md)
-  * [Maps - File Names](modding/maps/maps-file-names.md)
+  * [War Games](modding/maps/war-games/README.md)
+    * [Holographic wall color](modding/maps/war-games/holographic-wall-color.md)
 * [User Interface](modding/user-interface/README.md)
   * [Text modding r1\_language](modding/user-interface/text-modding-r1_language.md)
   * [In Game](modding/user-interface/in-game/README.md)
@@ -129,6 +130,7 @@
 ## Game Values
 
 * [File Location](game-values/file-location/README.md)
+  * [VPK](game-values/file-location/vpk-file-names.md)
   * [File name - Weapon config](game-values/file-location/weapon-config-file-name.md)
   * [File name - Weapon script](game-values/file-location/file-name-weapon-script.md)
   * [Models](game-values/file-location/models/README.md)
