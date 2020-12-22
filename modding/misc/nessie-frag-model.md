@@ -1,8 +1,8 @@
 ---
-description: Guide to edit Zipline texture
+description: Turn your frag grenades or any ordinance into Nessie's
 ---
 
-# Cable - Zipline
+# Nessie- Frag Model
 
 ## Preparation <a id="preparation"></a>
 
@@ -29,13 +29,25 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 ## Editing
 
-To edit grapple and tether trap cable color, go to this location
+You can now open the folder you created that contains the extracted VPK and head to this directory:
 
-> materials\cable
+> "extracted folder name"\scripts\weapons
 
-Open the file _`cable_col.vtf`_ with VTFEdit. Editing this texture file will change cable color of grapple hook and tether trap.
+Once you reach this point you can open a text file named:
 
-[How to edit animated texture color](https://noskill.gitbook.io/titanfall2/information/color-and-texture-info#how-to-edit-animated-texture-color)
+> mp\_weapon\_frag\_grenade.txt
+>
+> -Note: You don't have to use the frag grenade. You can use other ordinances if you wish.
+
+Scroll down to the section named **//Models**, with 3 subsections named **"Viewmodel"** **"playermodel"** and **"Projectilemodel",** You leave these alone and only change the scripts to the right of them.
+
+You can now replace **all** the model names from: 
+
+**"models/weapons/grenades/ptpov\_frag\_grenade.mdl",  "models/weapons/grenades/m20\_f\_grenade.mdl", "models/weapons/grenades/m20\_f\_grenade\_projectile.mdl"**
+
+to:
+
+**"models/nessy\_doll.mdl"**
 
 ## Repacking <a id="repacking"></a>
 
@@ -50,4 +62,30 @@ Rename pak000\_dir.vpk _to_ **englishclient\_mp\_common.bsp.pak000\_dir.vpk**
 Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see your new crosshair!
 
 > Origin Games\Titanfall2\vpk\
+
+## Result
+
+eh...ill do it later ;\)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -122,6 +122,7 @@
       * [Controls](modding/user-interface/menus/settings/controls.md)
       * [Key Bindings](modding/user-interface/menus/settings/key-bindings.md)
 * [Misc](modding/misc/README.md)
+  * [Nessie- Frag Model](modding/misc/nessie-frag-model.md)
   * [Cable - Zipline](modding/misc/cable-zipline.md)
   * [Marvin - Chest screen](modding/misc/marvin-chest-screen.md)
   * [Pulse Effect](modding/misc/pulse-effect.md)
