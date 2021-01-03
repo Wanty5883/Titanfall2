@@ -21,9 +21,9 @@ description: Tone sound value
 | 40MM | TitanBubbleShield.Explosive.BulletImpact\_3P\_vs\_3P | Impact |
 | Sonar Pulse | Titan\_Tone\_SonarLock\_Fired\_ShoulderPod\_1P | Fire FP |
 | Sonar Pulse | Titan\_Tone\_SonarLock\_Fired\_ShoulderPod\_3P | Fire |
-| Particule Wall | ShieldWall\_Deploy | Deploy |
-| Particule Wall | TitanShieldWall.Explosive.BulletImpact\_1P\_vs\_3P |  |
-| Particule Wall | TitanShieldWall.Explosive.BulletImpact\_3P\_vs\_3P |  |
+| Particle Wall | ShieldWall\_Deploy | Deploy |
+| Particle Wall | TitanShieldWall.Explosive.BulletImpact\_1P\_vs\_3P |  |
+| Particle Wall | TitanShieldWall.Explosive.BulletImpact\_3P\_vs\_3P |  |
 | Salvo Core | ShoulderRocket\_Salvo\_Fire\_1P | Fire FP |
 | Salvo Core | ShoulderRocket\_Salvo\_Fire\_3P | Fire |
 | Salvo Core | weapon\_coreability\_salvo\_fire\_chargeup\_1p | Charge FP |
