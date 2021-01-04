@@ -22,7 +22,7 @@ Make sure to make a Backup of every single Map you edit, Since every map has it'
 
 You will need the Titanfall VPK Tool, a program which allows you to open and repack Titanfall VPK files. It can be found in the Modding Tools page
 
-{% page-ref page="../../how-to-start-modding/modding-tools/" %}
+{% page-ref page="../../how-to-start-modding/modding-introduction/modding-tools/" %}
 
 ## Unpacking
 
@@ -30,7 +30,7 @@ Now that these files have been backed up and everything is installed. Navigate t
 
 `Origin Games\Titanfall2\vpk\englishclient_mp_`**`<<mapname>>`**`.bsp.pak000_dir.vpk`
 
-{% page-ref page="../../how-to-start-modding/how-to-backup-extract-and-repack.md" %}
+{% page-ref page="../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
 
 ## Editing
 
@@ -106,7 +106,7 @@ Obviously this wasn't made to be the skybox for normal maps. So there are little
 
 ## Repacking
 
-{% page-ref page="../../how-to-start-modding/how-to-backup-extract-and-repack.md" %}
+{% page-ref page="../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
 
 After closely following the previous link step by step:
 

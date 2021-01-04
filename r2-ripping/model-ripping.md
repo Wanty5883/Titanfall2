@@ -14,14 +14,14 @@ description: How To Rip Game Models With Textures into blender
 [S / G Shader](https://drive.google.com/file/d/1g6dRd1F5XMba43-6NPd0b4gy2GHN04YA/view) - For Linking Textures
 
 {% hint style="info" %}
- You'll need an extractor which can extract .7z files for Crowbar. You can find more about that in the archive softwares in the [tool page](../how-to-start-modding/modding-tools/#archives).
+ You'll need an extractor which can extract .7z files for Crowbar. You can find more about that in the archive softwares in the [tool page](../how-to-start-modding/modding-introduction/modding-tools/#archives).
 {% endhint %}
 
 ## Getting The Models
 
 First, we need to actually obtain the models. You can do this by extracting this VPK file you can learn how to extract VPKs
 
-{% page-ref page="../how-to-start-modding/how-to-backup-extract-and-repack.md" %}
+{% page-ref page="../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
 
 For the most part, models can be found in the common vpk. But you will find other models in the other vpk from Titanfall 2.
 

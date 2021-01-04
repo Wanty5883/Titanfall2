@@ -10,8 +10,8 @@ description: Removing the whats new and spotlight sections for a cleaner menu
 
 You will need the:
 
-* [Titanfall VPK Tool](../../../how-to-start-modding/modding-tools/)
-* [VPK renamer / move \(Optional\)](../../../how-to-start-modding/modding-tools/)
+* [Titanfall VPK Tool](../../../how-to-start-modding/modding-introduction/modding-tools/)
+* [VPK renamer / move \(Optional\)](../../../how-to-start-modding/modding-introduction/modding-tools/)
 
 ## Whats New
 

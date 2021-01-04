@@ -12,7 +12,7 @@ description: Modding guide to change color of the holographic walls around the m
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
 
-{% page-ref page="../../../how-to-start-modding/how-to-backup-extract-and-repack.md" %}
+{% page-ref page="../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
 
 ## Editing <a id="editing"></a>
 
@@ -42,5 +42,5 @@ Open the file `holo_map_grid_light_blue.vmt` and / or `holo_map_grid_orange.vmt`
 
 ## Repacking
 
-{% page-ref page="../../../how-to-start-modding/how-to-backup-extract-and-repack.md" %}
+{% page-ref page="../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
 

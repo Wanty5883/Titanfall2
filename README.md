@@ -28,5 +28,5 @@ Before getting into Titanfall 2 modding, you must read the "[Modding introductio
 
 You **must read** this first page if you never modded Titanfall 2.
 
-{% page-ref page="how-to-start-modding/modding-introduction.md" %}
+{% page-ref page="how-to-start-modding/modding-introduction/" %}
 

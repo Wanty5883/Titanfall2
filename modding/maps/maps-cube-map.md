@@ -39,7 +39,7 @@ Navigate to this location in your extracted folder
 
 > \materials\skies
 
-This folder contains the texture for the cubemap. The file we are looking for are `.vtf` files. Once you did open them you can view the different faces of the cubemap by using the face parameters in [VTFedit](../../how-to-start-modding/modding-tools/#vtf-and-vmt).
+This folder contains the texture for the cubemap. The file we are looking for are `.vtf` files. Once you did open them you can view the different faces of the cubemap by using the face parameters in [VTFedit](../../how-to-start-modding/modding-introduction/modding-tools/#vtf-and-vmt).
 
 ![](../../.gitbook/assets/image%20%282%29.png)
 
