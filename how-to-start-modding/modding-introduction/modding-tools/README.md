@@ -26,7 +26,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 ### VTF & VMT
 
-* VTFEdit - [Download](this-content-is-no-longer-available.md)
+* VTFEdit - [Download]()
   * VTFVer - [Download](http://cra0kalo.com/public/VTFVer.zip) _not needed anymore, VTFEdit support v7.5_
 * VTF Shell Extensions - [Info](https://developer.valvesoftware.com/wiki/VTF_Shell_Extensions) & [Download](https://www.wunderboy.org/valve-hl2source-sdk-tools/#vtf_shell)
 
@@ -62,7 +62,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 * Paint.net - [Download](https://www.getpaint.net/)
   * [Gradient Mapping plug-in](https://forums.getpaint.net/topic/6265-gradient-mapping/)
-  * [VTF plug-in](this-content-is-no-longer-available.md)
+  * [VTF plug-in]()
   * [Animation Helper](https://pixelbyte.itch.io/paint-net-sprite-plugin)
 * Source VMT Color - [Download](https://dev.cra0kalo.com/?p=155)
 * GIMP - [Download](https://www.gimp.org/downloads/)
