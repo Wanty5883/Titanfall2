@@ -6,16 +6,18 @@ description: How To Rip Game Models With Textures into blender
 
 ## Required Software
 
-[Blender  
-](https://www.blender.org/)[Blender Source Tools ](http://steamreview.org/BlenderSourceTools/) - For Importing Models Into Blender  
-[Legion](https://wiki.modme.co/wiki/apps/Legion.html) - Texture Extraction Tool  
-[Crowbar](https://github.com/ZeqMacaw/Crowbar/releases/tag/v0.68) - Source Engine Model Decompiler  
-[Titanfall 2 Vpk Extractor](https://dev.cra0kalo.com/?p=137) - For Getting The Models  
-[S / G Shader](https://drive.google.com/file/d/1g6dRd1F5XMba43-6NPd0b4gy2GHN04YA/view) - For Linking Textures
+* Blender
+  * Blender Source Tool - For importing models into blender
+  * S/G Shader - For linking textures
+* Legion - RPAK ripping tool
+* Crowbar - Source Engine model tool
+* Titanfall VPK Tool - Titanfall VPK tool
 
 {% hint style="info" %}
- You'll need an extractor which can extract .7z files for Crowbar. You can find more about that in the archive softwares in the [tool page](../how-to-start-modding/modding-introduction/modding-tools/#archives).
+Check down bellow for the tools page where all the link are provided
 {% endhint %}
+
+{% page-ref page="../how-to-start-modding/modding-introduction/modding-tools/" %}
 
 ## Getting The Models
 

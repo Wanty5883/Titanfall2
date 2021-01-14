@@ -16,7 +16,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 ### Titanfall
 
-* Titanfall VPK Tool - [Download](http://cra0kalo.com/public/Titanfall_VPKTool3.4_Portable.zip)
+* Titanfall VPK Tool - [Download](https://github.com/Wanty5883/Titanfall2/blob/master/tools/Titanfall_VPKTool3.4_Portable.zip)
 * VPK renamer / move - [Info here](../how-to-backup-extract-and-repack.md#vpk-rename-move-batch-script)
 * Titanfall 2 weapon renamer - [Download](https://bitbucket.org/lunderdeamon/tf2renamer)
 * MSD \(Miles Sound Dumper\) - [Info ](https://github.com/Lyxica/Miles-10-Sound-Dumper)& [Download](https://github.com/Lyxica/Miles-10-Sound-Dumper/releases/tag/v1.0-tf2-beta1)
@@ -26,25 +26,9 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 ### VTF & VMT
 
-* VTFEdit - [Download]()
+* VTFEdit - [Download](https://github.com/Wanty5883/Titanfall2/blob/master/tools/vtfedit133.zip)
   * VTFVer - [Download](http://cra0kalo.com/public/VTFVer.zip) _not needed anymore, VTFEdit support v7.5_
 * VTF Shell Extensions - [Info](https://developer.valvesoftware.com/wiki/VTF_Shell_Extensions) & [Download](https://www.wunderboy.org/valve-hl2source-sdk-tools/#vtf_shell)
-
-### BSP
-
-* [BSP Viewer](source/bsp/bsp-viewer.md) - view and export [GoldSrc](https://developer.valvesoftware.com/wiki/GoldSrc) maps
-* [BSP2MAP](source/bsp/bsp2map.md) - convert GoldSrc BSP maps to .map files
-* [BSPSource](https://developer.valvesoftware.com/wiki/BSPSource) - improved Source BSP decompiler based on VMEX
-* [EntEd](source/bsp/ented.md) - view and edit entity properties of a BSP
-* [Entspy](source/bsp/entspy.md) - view and edit entity properties of a BSP
-* [Map Analyst](source/bsp/map-analyst.md) - alternative to [Bspzip](source/bsp/bspzip.md) - embed custom content such as materials, models, textures into a BSP
-* [Packbsp](source/bsp/packbsp.md) - embed custom content such as materials, models, textures into a BSP
-* [Pakrat](source/bsp/pakrat.md) - GUI replacement for [Bspzip](source/bsp/bspzip.md)
-* [VBSP\_h4xed](https://developer.valvesoftware.com/wiki/VBSP_h4xed) - greatly increase maximum size of [visleaves](https://developer.valvesoftware.com/wiki/Visleaf).
-* [VIDE](source/bsp/vide.md) - Multi-purpose development suite with BSP packing and asset editing capabilities.
-* [VMEX](source/bsp/vmex.md) - Source BSP decompiler
-* [WinBSPC](source/bsp/winbspc.md) - GoldSrc BSP decompiler
-* [WinBSPZip](source/bsp/winbspzip.md) - GUI frontend for Bspzip
 
 ## Other utilities
 
@@ -62,7 +46,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 * Paint.net - [Download](https://www.getpaint.net/)
   * [Gradient Mapping plug-in](https://forums.getpaint.net/topic/6265-gradient-mapping/)
-  * [VTF plug-in]()
+  * [VTF plug-in](https://github.com/Wanty5883/Titanfall2/blob/master/tools/pdnvtfplugin111.zip)
   * [Animation Helper](https://pixelbyte.itch.io/paint-net-sprite-plugin)
 * Source VMT Color - [Download](https://dev.cra0kalo.com/?p=155)
 * GIMP - [Download](https://www.gimp.org/downloads/)
@@ -85,15 +69,19 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 ## 3D Models
 
 * Blender - [Download](https://www.blender.org/)
-  * Blender Source Tool - [Download & info](https://developer.valvesoftware.com/wiki/Blender_Source_Tools)
+  * Blender Source Tool - [Download & info](https://steamreview.org/BlenderSourceTools/)
   * Blender VMT - [Download & info](https://github.com/lasa01/blender-vmt)
   * io import VMF & VMT - [Download & info](https://github.com/lasa01/io_import_vmf)
+  * S/G Shader - [Download](https://github.com/Wanty5883/Titanfall2/blob/master/tools/SG_Shader.blend)
 * Crowbar - [Download & info](http://steamcommunity.com/groups/CrowbarTool)
-* Ninja Ripper v1.7.1 - [Download & info](https://gamebanana.com/tools/5638)
+* Ninja Ripper v1.7.1 - [Download & info](https://cgig.ru/ninjaripper/)
 
 
 
-You can't download one of those software ? Reach us! We probably have a backup
+{% hint style="warning" %}
+You can't download one of those software ? Reach us! We probably have a backup  
+_Check in the contact page_
+{% endhint %}
 
 {% page-ref page="../../../contact.md" %}
 
