@@ -16,17 +16,27 @@ You will need the Titanfall VPK Tool, the program which will allow you to open a
 
 ## Editing <a id="editing"></a>
 
-To edit the following color effect you need to find their .vmt files. Further in this guide you will find the different file locations and details about what modifications can be done.
+To edit the following color effect you need to find their `.vmt` files. Further in this guide you will find the different file locations and details about what modifications can be done.
 
-You can edit the heat color, [here](https://noskill.gitbook.io/titanfall2/information/textures/colors/color-and-texture-info#usdlayercolor) more information about color and how to edit the way you like.
+In the page linked down bellow you will find additionnal information to modify the material and texture files.
 
-You can change the heat effect texture to any other texture in the game. Some texture would work, some wouldn't look good and some other texture would just not work. More info [here](https://wanty5883.gitbook.io/titanfall2/information/color-and-texture-info#usdtexture2-and-usdbasetexture) how to edit the texture value.
+{% page-ref page="../../../information/textures/colors/color-and-texture-info.md" %}
 
-Navigate to this location in your extracted folder
+Navigate to this location in your extracted folder.
 
 > materials\world\utility
 
-Open the file `holo_map_grid_light_blue.vmt` and / or `holo_map_grid_orange.vmt` and refer to the different info provided
+Open the file `holo_map_grid_light_blue.vmt` and / or `holo_map_grid_orange.vmt` and refer to the different information provided.
+
+As both files are meterial files, [changing the color](https://noskill.gitbook.io/titanfall2/information/textures/colors/color-and-texture-info#usdlayercolor) is quite straight forward.
+
+In the examples down bellow, this color values are being used.
+
+```text
+"$color2" "[3 0 1.65]"
+```
+
+This material files leave quite a lot of possibilities, you could change the texture itself, use multiple layer, rotate the texture, play a gif, etc. Feel free to mess with it and share your results in our Discord community.
 
 ### Examples
 
