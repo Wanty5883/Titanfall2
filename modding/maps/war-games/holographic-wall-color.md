@@ -71,5 +71,5 @@ These material files leave quite lot of possibilities, you could replace texture
 
 {% page-ref page="../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
 
-This guide will be updated with making walls transparent, semi transparent, RGB and other texture things if there is interest shown in the Discord community.
+This guide will be updated with making the walls transparent, clear, changing colors, putting any picture on them, playing a gif, etc. if there is interest shown in the Discord community.
 
