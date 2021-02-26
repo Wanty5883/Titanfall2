@@ -127,6 +127,7 @@
   * [Cable - Zipline](modding/misc/cable-zipline.md)
   * [Marvin - Chest screen](modding/misc/marvin-chest-screen.md)
   * [Pulse Effect](modding/misc/pulse-effect.md)
+  * [Sonar Detected](modding/misc/sonar-detected.md)
   * [Ticks - Model](modding/misc/ticks.md)
   * [Nessie- Frag Model](modding/misc/nessie-frag-model.md)
 
