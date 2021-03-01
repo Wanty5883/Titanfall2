@@ -5,7 +5,7 @@ description: Guide to swap pilot models
 # Models - Pilot class
 
 {% hint style="danger" %}
-Note: Changing models may result in broken animations or even crashes.  
+Note: Changing pilot models may result in broken animations or even crashes.  
   
  However, changing arm models works perfectly fine on any tactical.
 {% endhint %}
