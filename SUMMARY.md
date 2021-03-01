@@ -72,11 +72,6 @@
   * [TXT - Text file](information/file-format/txt-text-file.md)
   * [VPK - Valve Pak file](information/file-format/vpk-valve-pak-file.md)
 
-## Exporting Assets <a id="r2-ripping"></a>
-
-* [Exporting Maps](r2-ripping/exporting-maps.md)
-* [Exporting Models](r2-ripping/model-ripping.md)
-
 ## Modding
 
 * [Weapon](modding/weapon-config-info/README.md)
@@ -277,6 +272,11 @@
 
 * [Plastic Mode](mods/plastic-mode.md)
 * [No-HUD Mod](mods/no_hud_mod.md)
+
+## Exporting Assets <a id="r2-ripping"></a>
+
+* [Exporting Maps](r2-ripping/exporting-maps.md)
+* [Exporting Models](r2-ripping/model-ripping.md)
 
 ## Assets
 

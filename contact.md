@@ -6,14 +6,14 @@ NoSkill Community [https://discord.gg/sEgmTKg](https://discord.gg/sEgmTKg) perma
 
 {% embed url="https://discord.gg/sEgmTKg" %}
 
-## How to ask help
+## How to ask for help
 
 We do like helping other people through our Discord server, however, please make the difference between asking for help and asking for support. Do not take this help for granted, we are not chatbots neither being paid for the service.
 
 The NoSkill discord is **not a support discord for modding** for the ones **who don't read given information**. 
 
 {% hint style="warning" %}
-This is a good example how to **not** ask help:
+This is a good example of how to **not** ask for help:
 
 > JustaNub: Hey  
 > JustaNub: I don't find R97 crosshair
@@ -24,7 +24,7 @@ This is a good example how to **not** ask help:
 > JustaNub: Hey  
 > JustaNub: Can you give me your VPK files ?
 
-**Just no.. Spend 5 more minutes reading, you will find what you are looking for.**
+**Just no... Spend 5 more minutes reading, you will find what you are looking for.** 
 {% endhint %}
 
 {% hint style="danger" %}
