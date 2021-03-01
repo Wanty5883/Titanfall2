@@ -85,6 +85,7 @@
     * [Crosshair example](modding/weapon-config-info/crosshair-modding/crosshair-example.md)
   * [Weapon Positioning](modding/weapon-config-info/weapon-positioning.md)
   * [Weapon FOV](modding/weapon-config-info/weapon-fov.md)
+  * [Hipfire zoom](modding/weapon-config-info/hipfire-zoom.md)
   * [Pilots](modding/weapon-config-info/weapons/README.md)
     * [Charge Rifle - Arc Rifle](modding/weapon-config-info/weapons/charge-rifle-arc-rifle.md)
     * [Charge rifle - Heat color](modding/weapon-config-info/weapons/charge-rifle-heat-color-effect.md)
