@@ -34,6 +34,8 @@ bind "MOUSE4" fovtoggle
 		alias "fov2" "cl_fovScale 1.6875; alias fovtoggle fov1"
 ```
 
+Note that `cl_fovScale` values below 1.0 will default to 1.0.
+
 I bound my FOV toggle to "MOUSE4", you can bind it to any button you'd like.  
   
 This will toggle between`cl_fovScale 1.6875 (118.125 FOV)`and `cl_fovScale 1.0 (70 FOV).`  
