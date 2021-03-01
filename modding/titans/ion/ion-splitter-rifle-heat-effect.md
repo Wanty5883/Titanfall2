@@ -1,4 +1,4 @@
-# Splitter rifle heat effect
+# Splitter Rifle - Heat effect
 
 ## Preparation
 

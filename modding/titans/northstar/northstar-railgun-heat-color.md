@@ -1,4 +1,4 @@
-# Railgun heat color
+# Railgun - Heat color
 
 ## Preparation <a id="preparation"></a>
 
