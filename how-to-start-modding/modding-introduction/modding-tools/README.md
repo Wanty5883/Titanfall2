@@ -32,15 +32,15 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 ## Other utilities
 
-### File editor
+### Text editors \(code editors\)
 
 * Atom Text - [Download](https://atom.io/) _recommended_
   * Syntax color KeyValue - [Download](https://atom.io/packages/language-source-cfg)
   * Syntax color Squirrel - [Download](https://atom.io/packages/squirrel-language)
   * Color picker - [Download](https://atom.io/packages/color-picker)
-* TextCrawler 3 - [Download](https://www.digitalvolcano.co.uk/tcdownloads.html)
 * Visual Studio Code - [Download](https://code.visualstudio.com/)
 * Notepad++ - [Download](https://notepad-plus-plus.org/downloads/)
+* TextCrawler 3 - [Download](https://www.digitalvolcano.co.uk/tcdownloads.html)
 
 ### Graphics / animation / color editors
 
@@ -58,7 +58,6 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 ### Archives
 
-* WinRAR - [Download](https://www.win-rar.com/download.html?L=10)
 * 7zip - [Info & Download](https://www.7-zip.org/)
 
 ### Driver editors
