@@ -10,8 +10,6 @@ description: Change the look of your Multiplayer Ticks
 
 ## Preparation <a id="preparation"></a>
 
-In this guide you will have to edit vmt files. I would recommend you to use the software [VTFEdit](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools) to edit them. You can use text editor for that such as Atom, NotePad++, VIM and many other ones would work fine.
-
 Navigate to your folder and find this VPK file:
 
 > Origin Games\Titanfall2\vpk\

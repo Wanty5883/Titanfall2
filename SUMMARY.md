@@ -75,6 +75,7 @@
 ## Modding
 
 * [Weapon](modding/weapon-config-info/README.md)
+  * [Weapon effects](modding/weapon-config-info/weapon-effects.md)
   * [Crosshair modding](modding/weapon-config-info/crosshair-modding/README.md)
     * [Batch crosshair modding](modding/weapon-config-info/crosshair-modding/batch-crosshair-modding.md)
     * [Crosshair example](modding/weapon-config-info/crosshair-modding/crosshair-example.md)
