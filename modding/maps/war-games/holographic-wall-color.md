@@ -8,7 +8,7 @@ description: >-
 
 ## Preparation
 
-You will need the Titanfall VPK Tool and VTFEEdit.
+For this guide you will need a VPK tool and a text editor.
 
 {% page-ref page="../../../how-to-start-modding/modding-introduction/modding-tools/" %}
 
