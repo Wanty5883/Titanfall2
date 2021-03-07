@@ -6,13 +6,17 @@ description: >-
 
 # Holographic wall color
 
+## Preparation
+
+You will need the Titanfall VPK Tool and VTFEEdit.
+
+{% page-ref page="../../../how-to-start-modding/modding-introduction/modding-tools/" %}
+
 ## Used VPK
 
 {% hint style="success" %}
 * englishclient\_mp\_wargames.bsp.pak000\_dir.vpk
 {% endhint %}
-
-You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
 
 ## Extracting
 
