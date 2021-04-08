@@ -37,17 +37,18 @@ and use CTRL+F to search for **void function LoopLobbyMusic()**.
 
 Place this under **string soundAlias**: 
 ```cpp
- 	int musicLenght
-	musiclenght = GetConVarInt("sp_deathtips_tip6")
-	while(true);
+	int musicLenght;
+	while(true)
 	{
+		musicLenght = GetConVarInt("sp_deathtips_tip6")
 		GetLocalClientPlayer().ClientCommand("lobbymusic")
-		wait musicLenght
+		wait musicLenght;
 	}
 ```
 The final product should look like this:
 
-![kuva](https://user-images.githubusercontent.com/36992687/113929087-488fcf80-97f8-11eb-86fa-756d5bc7e9e9.png)
+![kuva](https://user-images.githubusercontent.com/36992687/113990112-cdf79c00-9859-11eb-8d7e-272c66755bfd.png)
+
 
 After editing the file save it and move to the next step.
 
@@ -61,7 +62,7 @@ start by creating a file named **autoexec.cfg** in:
 
 After creating the file open it with Notepad and paste the following in the file:
 ```cpp
-alias lobbymusic "playvideo lobbymusic1 1 1 1; sp_deathtips_tip6 LENGHT"
+alias lobbymusic "playvideo lobbymusic 1 1 1; sp_deathtips_tip5 LENGHT"
 ```
 and replace **LENGHT** with the lenght of your music in seconds.
 
