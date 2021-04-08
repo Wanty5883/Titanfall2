@@ -94,6 +94,6 @@ Rename pak000\_000.vpk _to_ **client\_mp\_common.bsp.pak000\_000.vpk**
 
 Rename pak000\_dir.vpk _to_ **englishclient\_mp\_common.bsp.pak000\_dir.vpk**
 
-Place both of the renamed files back into your game directory and then launch Titanfall 2 and open multiplayer. You should be able to hear yout music.
+Place both of the renamed files back into your game directory and then launch Titanfall 2 and open multiplayer. You should be able to hear your music.
 
 > Origin Games\Titanfall2\vpk\
