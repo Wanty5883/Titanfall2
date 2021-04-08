@@ -65,19 +65,13 @@ alias lobbymusic "playvideo lobbymusic1 1 1 1; sp_deathtips_tip6 LENGHT"
 ```
 and replace **LENGHT** with the lenght of your music in seconds.
 
-After saving add **+exec autoexec.cfg** to your launch options for  titanfall on whatever platform you use.
-
-**Origin:**
+After saving add **+exec autoexec.cfg** to your launch options for titanfall on Origin.
 
 ![kuva](https://user-images.githubusercontent.com/36992687/113929456-c18f2700-97f8-11eb-905d-f6041442c4a8.png)
 
-**Steam:**
-
-TBA, i don't own titanfall2 on steam.
-
 ## Converting music <a id="converting"></a>
 
-To use custon sounds in titanfall 2 wew need to use a workaround and play them as video instead.
+To use custom sounds in titanfall 2 we need to use a workaround and play them as video instead.
 Use RAD Tools to convert a music video to a .bik video. The music HAS to be as a video for it to work.
 
 Open RAD Tools and navigate to the location of your downloaded video. Select the video and press the **BINK IT!** button. In the menu that opens name the sound to **lobbymusic.bik** and press the **Bink** button on the right side of the window. 
