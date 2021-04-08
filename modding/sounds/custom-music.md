@@ -81,7 +81,9 @@ After binking the video move the new **lobbymusic.bik** to
 > Origin Games\Titanfall2\r2\media
 
 {% hint style="danger" %}
-Remember to change LENGHT in the autoexec to the lenght of your video for proper looping.  
+Remember to change LENGHT in the autoexec to the lenght of your video for proper looping.
+
+Remember to turn down the original lobby music in the settings.
 {% endhint %}
 
 ## Repacking <a id="repacking"></a>
