@@ -4,7 +4,11 @@ description: Guide on changing the kill sound.
 
 # Sounds - Kill sound
 
-  
+{% hint style="danger" %}
+
+Too many sounds playing at once may cause stutter. Make your sound as short as possible to prevent multikills from causing stutter.
+
+{% endhint %}
 
 ## Preparation <a id="preparation"></a>
 
@@ -60,6 +64,11 @@ After creating the file open it with Notepad and paste the following in the file
 ```cpp
 alias killsound "playvideo killsound 1 1 1; playvideo killsound 1 1 1"
 ```
+{% hint style="info" %}
+
+Playing the sound twice is intentional, this amplifies its volume.
+
+{% endhint %}
 
 After saving add **+exec autoexec.cfg** to your launch options for  titanfall in Origin.
 
