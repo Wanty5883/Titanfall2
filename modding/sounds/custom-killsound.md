@@ -10,6 +10,12 @@ Too many sounds playing at once may cause stutter. Make your sound as short as p
 
 {% endhint %}
 
+Example of killsound:
+
+https://user-images.githubusercontent.com/36992687/113990683-6261fe80-985a-11eb-89b0-9b770a62a227.mp4
+
+Download killsound used [here.](https://github.com/hedelmasalaatti/Titanfall2/blob/master/modding/sounds/killsound.bik?raw=true)
+
 ## Preparation <a id="preparation"></a>
 
 Navigate to your folder and find this folder:
