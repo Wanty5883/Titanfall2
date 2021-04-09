@@ -1,5 +1,5 @@
 ---
-description: Guide on changing the kill sound.
+description: Guide on changing the killsound.
 ---
 
 # Killsound
@@ -7,12 +7,6 @@ description: Guide on changing the kill sound.
 {% hint style="danger" %}
 Too many sounds playing at once may cause stutter. Make your sound as short as possible to prevent multikills from causing stutter.
 {% endhint %}
-
-Example of killsound:
-
-[https://user-images.githubusercontent.com/36992687/113990683-6261fe80-985a-11eb-89b0-9b770a62a227.mp4](https://user-images.githubusercontent.com/36992687/113990683-6261fe80-985a-11eb-89b0-9b770a62a227.mp4)
-
-Download killsound used [here.](https://github.com/hedelmasalaatti/Titanfall2/blob/master/modding/sounds/killsound.bik?raw=true)
 
 ## Preparation <a id="preparation"></a>
 
@@ -41,9 +35,9 @@ To add a killsound edit this file using Notepad:
 
 > EXTRACTED-VPK\scripts\vscripts\client\cl\_obituary.gnut
 
-and use CTRL+F to search for **victimString = Localize\( "\#OBIT\_PLAYER\_STRING", victimInfo.displayName \)**.
+and use `CTRL+F` to search for `string victimString` on line 255.
 
-Place this under **victimString = Localize\( "\#OBIT\_PLAYER\_STRING", victimInfo.displayName \)**:
+Place this under `string victimString`
 
 ```cpp
     if(attacker == GetLocalClientPlayer())
@@ -54,7 +48,16 @@ Place this under **victimString = Localize\( "\#OBIT\_PLAYER\_STRING", victimInf
 
 The final product should look like this:
 
-![Notepad Screenshot](https://user-images.githubusercontent.com/36992687/113983257-5ffba680-9852-11eb-8e7c-5e7fdbe624b6.png)
+```cpp
+	string attackerString
+	string weaponString
+	string victimString
+	
+	if(attacker == GetLocalClientPlayer())
+	{
+		GetLocalClientPlayer().ClientCommand("killsound")
+	}
+```
 
 After editing the file save it and move to the next step.
 
@@ -76,13 +79,14 @@ alias killsound "playvideo killsound 1 1 1; playvideo killsound 1 1 1"
 Playing the sound twice is intentional, this amplifies its volume.
 {% endhint %}
 
-After saving add **+exec autoexec.cfg** to your launch options for titanfall in Origin.
+After saving add: **`+exec autoexec.cfg`** to your launch options for Titanfall in Origin.  
 
-![Origin launch options](https://user-images.githubusercontent.com/36992687/113929456-c18f2700-97f8-11eb-905d-f6041442c4a8.png)
+
+![Origin launch options](../../.gitbook/assets/kuva.png)
 
 ## Converting sounds <a id="converting"></a>
 
-To use custom sounds in titanfall 2 we need to use a workaround and play them as video instead. Use RAD Tools to convert a video with sound to a .bik video. The sound HAS to be in a video for it to work.
+To use custom sounds in Titanfall 2 we need to use a workaround and play them as video instead. Use RAD Tools to convert a video with sound to a .bik video. The sound HAS to be a video for it to work.
 
 Open RAD Tools and navigate to the location of your downloaded video. Select the video and press the **BINK IT!** button. In the menu that opens name the sound to **killsound.bik** and press the **Bink** button on the right side of the window.
 

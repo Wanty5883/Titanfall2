@@ -1,5 +1,5 @@
 ---
-description: Guide to changing the lobby music.
+description: Guide on changing the lobby music.
 ---
 
 # Lobby music
@@ -31,9 +31,9 @@ To add custom music open this file using Notepad:
 
 > EXTRACTED-VPK\scripts\vscripts\client\cl\_music.gnut
 
-and use CTRL+F to search for **void function LoopLobbyMusic\(\)**.
+and use CTRL+F to search for `void function LoopLobbyMusic()`
 
-Place this under **string soundAlias**:
+Place this under `string soundAlias`:
 
 ```cpp
     int musicLenght;
@@ -47,7 +47,57 @@ Place this under **string soundAlias**:
 
 The final product should look like this:
 
-![kuva](https://user-images.githubusercontent.com/36992687/113990112-cdf79c00-9859-11eb-8d7e-272c66755bfd.png)
+```cpp
+void function LoopLobbyMusic()
+{
+	string soundAlias
+	int musicLenght;
+	while(true)
+	{
+		musicLenght = GetConVarInt("sp_deathtips_tip5")
+		GetLocalClientPlayer().ClientCommand("lobbymusic")
+		wait musicLenght;
+	}	
+	
+	bool classicMusicAvailable = !IsItemLocked( GetLocalClientPlayer(), "classic_music" )
+
+	if ( GetConVarBool( "sound_classic_music" ) && classicMusicAvailable )
+		soundAlias = "music_lobby_ambient_classic"
+	else
+		soundAlias = "music_lobby_ambient"
+
+	if ( file.currentMusicPlaying == soundAlias )
+		return
+
+	clGlobal.levelEnt.Signal( "MusicPlayed" )
+	clGlobal.levelEnt.EndSignal( "MusicPlayed" )
+	clGlobal.levelEnt.EndSignal( "MusicStopped" )
+
+	entity player = GetLocalClientPlayer()
+	OnThreadEnd(
+	function() : ( player )
+		{
+			if ( IsValid( player ) && file.currentMusicPlaying != "" )
+				FadeOutSoundOnEntity( player, file.currentMusicPlaying, DEFAULT_FADE_TIME )
+		}
+	)
+
+	file.currentMusicPlaying = soundAlias
+
+	while ( true )
+	{
+		wait 2.0 //Hack. Make music restarting in lobbies slightly less bad.
+
+		player = GetLocalClientPlayer()
+		if ( !IsValid( player ) )
+			return
+
+		var soundHandle = EmitSoundOnEntity( player, soundAlias )
+
+		WaitSignal( soundHandle, "OnSoundFinished" )
+	}
+}
+```
 
 After editing the file save it and move to the next step.
 
@@ -65,26 +115,26 @@ After creating the file open it with Notepad and paste the following in the file
 alias lobbymusic "playvideo lobbymusic 1 1 1; sp_deathtips_tip5 LENGHT"
 ```
 
-and replace **LENGHT** with the lenght of your music in seconds.
+and replace `LENGHT` with the lenght of your music in seconds.
 
-After saving add **+exec autoexec.cfg** to your launch options for titanfall on Origin.
+After saving add `+exec autoexec.cfg` to your launch options for titanfall on Origin.
 
-![kuva](https://user-images.githubusercontent.com/36992687/113929456-c18f2700-97f8-11eb-905d-f6041442c4a8.png)
+![Origin launch options](../../.gitbook/assets/kuva%20%281%29.png)
 
 ## Converting music <a id="converting"></a>
 
-To use custom sounds in titanfall 2 we need to use a workaround and play them as video instead. Use RAD Tools to convert a music video to a .bik video. The music HAS to be as a video for it to work.
+To use custom sounds in Titanfall 2 we need to use a workaround and play them as video instead. Use RAD Tools to convert a music video to a .bik video. The music HAS to be as a video for it to work.
 
 Open RAD Tools and navigate to the location of your downloaded video. Select the video and press the **BINK IT!** button. In the menu that opens name the sound to **lobbymusic.bik** and press the **Bink** button on the right side of the window.
 
-After binking the video move the new **lobbymusic.bik** to
+After compressing the video using RAD Tools move the new **lobbymusic.bik** to
 
 > Origin Games\Titanfall2\r2\media
 
 {% hint style="danger" %}
 Remember to change LENGHT in the autoexec to the lenght of your video for proper looping. 
 
-You can turn down the original lobby music in the settings.
+You can turn down the original lobby music in the ingame settings.
 {% endhint %}
 
 
