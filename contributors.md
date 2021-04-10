@@ -8,40 +8,40 @@ description: 这个名单展示了曾经或仍在对这个维基和社区有贡�
 
 | 名字 | 说明 |
 | :--- | :--- |
-| \*\*\*\*[**DirectXeon**](https://leonbenkovic.com/)\*\*\*\* | 管理员&平面设计师 |
-| \*\*\*\*[**Wanty**](https://github.com/Wanty5883)\*\*\*\* | 管理员&主要编辑 |
+| \*\*\*\*[**DirectXeon**](https://leonbenkovic.com/)\*\*\*\* | 管理员和平面设计师 |
+| \*\*\*\*[**Wanty**](https://github.com/Wanty5883)\*\*\*\* | 管理员和主要编辑 |
 
 ## 参与者 / 编辑
 
 | 名字 | 说明 |
 | :--- | :--- |
 | **CSLeader** | 3D建模 |
-| **Dinorush** | Datamining & proofreading |
-| **Dr.GetGood** | 修改研究 |
-| **EladMLG** | 修改研究 |
-| **Jules** | 修改研究 |
-| **ModernGXI** | 修改研究 |
-| **MrCleansForeHead** | 修改研究 |
-| **Phyr** | 修改研究 |
-| **S2ymi** | 修改研究 |
-| **Taskinoz** | 修改研究 |
+| **Dinorush** | 数据挖掘与校对 |
+| **Dr.GetGood** | 数据研究 |
+| **EladMLG** | 数据研究 |
+| **Jules** | 数据研究 |
+| **ModernGXI** | 数据研究 |
+| **MrCleansForeHead** | 数据研究 |
+| **Phyr** | 数据研究 |
+| **S2ymi** | 数据研究 |
+| **Taskinoz** | 数据研究 |
 
 ## 特别感谢
 
 | 名字 | 说明 |
 | :--- | :--- |
-| **Amos** | Reverse engineering & modding research |
-| [**BobTheBob**](https://github.com/BobTheBob9) | Reverse engineering & modding research |
-| [**cra0kalo**](https://github.com/cra0kalo) | Titanfall VPK Tool |
-| **Exrill** | Modding research |
-| **Grimmers** | Proofreading |
-| [**MOM-2236**](https://github.com/mom-2236/) | Modding research |
-| [**McSimp's**](https://github.com/McSimp) | Titanfall Map Exporter tool |
-| **Noobie** | Modding research |
-| **Norkkom** | Modding research |
-| **p0358** | Reverse engineering & modding research |
-| **RocKiT** | 3D modeling |
-| **True Inferno** | Modding research |
-| **igb\_** | Modding research |
-| **Whiskers** | Modding research |
+| **Amos** | 逆向工程数据研究 |
+| [**BobTheBob**](https://github.com/BobTheBob9) | 逆向工程和数据研究 |
+| [**cra0kalo**](https://github.com/cra0kalo) | 泰坦陨落VPK工具 |
+| **Exrill** | 数据研究 |
+| **Grimmers** | 数据校对 |
+| [**MOM-2236**](https://github.com/mom-2236/) | 数据研究 |
+| [**McSimp's**](https://github.com/McSimp) | 泰坦陨落地图导出工具 |
+| **Noobie** | 数据研究 |
+| **Norkkom** | 数据研究 |
+| **p0358** | 逆向工程和数据研究 |
+| **RocKiT** | 3D建模 |
+| **True Inferno** | 数据研究 |
+| **igb\_** | 数据研究 |
+| **Whiskers** | 数据研究 |
 
