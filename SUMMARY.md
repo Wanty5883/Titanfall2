@@ -1,13 +1,13 @@
 # Table of contents
 
 * [主页](README.md)
-* [Contact](contact.md)
+* [联系我们](contact.md)
 * [Contributors](contributors.md)
 
 ## Wiki 101 - How to start ? <a id="how-to-start-modding"></a>
 
-* [Modding introduction](how-to-start-modding/modding-introduction/README.md)
-  * [How to backup, extract & repack](how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
+* [修改教程](how-to-start-modding/modding-introduction/README.md)
+  * [如何备份，解包和重新打包](how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
   * [Modding tools](how-to-start-modding/modding-introduction/modding-tools/README.md)
     * [Source](how-to-start-modding/modding-introduction/modding-tools/source/README.md)
       * [Game Directory](how-to-start-modding/modding-introduction/modding-tools/source/game-directory.md)

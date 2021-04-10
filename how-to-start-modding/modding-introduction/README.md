@@ -2,7 +2,7 @@
 description: A first step to learning how to mod Titanfall 2 properly
 ---
 
-# Modding introduction
+# 修改教程
 
 ## First step
 

@@ -1,4 +1,4 @@
-# Contact
+# 联系我们
 
 ## Our community discord server
 

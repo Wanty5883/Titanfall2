@@ -2,7 +2,7 @@
 description: How to play around with VPKs without messing everything up
 ---
 
-# How to backup, extract & repack
+# 如何备份，解包和重新打包
 
 ## How to backup & extract VPK's properly?
 
