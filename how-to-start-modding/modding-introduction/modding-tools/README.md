@@ -5,81 +5,81 @@ description: 这是一个用于修改《泰坦陨落2》的第三方软件列表
 # 修改工具
 
 {% hint style="danger" %}
-#### Attention
+#### 警告
 
-Many of the tools below can be used to make modifications that will result in you being permanently banned from Titanfall 2 multiplayer servers. Use these tools as instructed and at your own discretion to avoid these bans. 
+以下的许多工具都允许你进行修改操作，这可能导致你被《泰坦陨落2》多人服务器永久封禁。请按照说明使用这些工具，并自行判断来避免账号封禁。 
 
-Neither the NoSkill community nor the contributors of this wiki are responsible for your incorrect usage of these tools to make modifications that result in you being banned or you breaking your game.
+无论是NoSkill社区还是本维基的参与者都不会对你不正当地使用工具而导致账号封禁或游戏损坏的行为负责。
 {% endhint %}
 
-## Source Engine
+## 源引擎
 
-### Titanfall
+### 泰坦陨落
 
-* Titanfall VPK Tool - [Download](https://github.com/Wanty5883/Titanfall2/blob/master/tools/Titanfall_VPKTool3.4_Portable.zip)
-* VPK renamer / move - [Info here](../how-to-backup-extract-and-repack.md#vpk-rename-move-batch-script)
-* Titanfall 2 weapon renamer - [Download](https://bitbucket.org/lunderdeamon/tf2renamer)
-* MSD \(Miles Sound Dumper\) - [Info ](https://github.com/Lyxica/Miles-10-Sound-Dumper)& [Download](https://github.com/Lyxica/Miles-10-Sound-Dumper/releases/tag/v1.0-tf2-beta1)
-* No HUD toggle - [Download](https://www.moddb.com/games/titanfall-2/downloads/toggle-hud5)
-* Titanfall Map Exporter - [Info ](../../../r2-ripping/exporting-maps.md)& [Download](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/tools/TitanfallMapExporter.py)
-* Legion - [Info and Download](https://wiki.modme.co/wiki/apps/Legion.html)
+* Titanfall VPK Tool - [资源下载](https://github.com/Wanty5883/Titanfall2/blob/master/tools/Titanfall_VPKTool3.4_Portable.zip)
+* VPK renamer / move - [查看信息](../how-to-backup-extract-and-repack.md#vpk-rename-move-batch-script)
+* Titanfall 2 weapon renamer - [资源下载](https://bitbucket.org/lunderdeamon/tf2renamer)
+* MSD \(Miles Sound Dumper\) - [查看信息 ](https://github.com/Lyxica/Miles-10-Sound-Dumper)& [资源下载](https://github.com/Lyxica/Miles-10-Sound-Dumper/releases/tag/v1.0-tf2-beta1)
+* No HUD toggle - [资源下载](https://www.moddb.com/games/titanfall-2/downloads/toggle-hud5)
+* Titanfall Map Exporter - [查看信息 ](../../../r2-ripping/exporting-maps.md)& [资源下载](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/tools/TitanfallMapExporter.py)
+* Legion - [查看信息并下载资源](https://wiki.modme.co/wiki/apps/Legion.html)
 
-### VTF & VMT
+### VTF和VMT
 
-* VTFEdit - [Download](https://github.com/Wanty5883/Titanfall2/blob/master/tools/vtfedit133.zip)
-  * VTFVer - [Download](http://cra0kalo.com/public/VTFVer.zip) _not needed anymore, VTFEdit support v7.5_
-* VTF Shell Extensions - [Info](https://developer.valvesoftware.com/wiki/VTF_Shell_Extensions) & [Download](https://www.wunderboy.org/valve-hl2source-sdk-tools/#vtf_shell)
+* VTFEdit - [资源下载](https://github.com/Wanty5883/Titanfall2/blob/master/tools/vtfedit133.zip)
+  * VTFVer - [资源下载](http://cra0kalo.com/public/VTFVer.zip) _这个工具不再需要了 ，VFEdit支持v7.5_
+* VTF Shell Extensions - [查看信息](https://developer.valvesoftware.com/wiki/VTF_Shell_Extensions) & [资源下载](https://www.wunderboy.org/valve-hl2source-sdk-tools/#vtf_shell)
 
-## Other utilities
+## 其他公用工具
 
-### Text editors \(code editors\)
+### 文本编辑器 \(代码编辑器\)
 
-* Atom Text - [Download](https://atom.io/) _recommended_
-  * Syntax color KeyValue - [Download](https://atom.io/packages/language-source-cfg)
-  * Syntax color Squirrel - [Download](https://atom.io/packages/squirrel-language)
-  * Color picker - [Download](https://atom.io/packages/color-picker)
-* Visual Studio Code - [Download](https://code.visualstudio.com/)
-* Notepad++ - [Download](https://notepad-plus-plus.org/downloads/)
-* TextCrawler 3 - [Download](https://www.digitalvolcano.co.uk/tcdownloads.html)
+* Atom Text - [资源下载](https://atom.io/) _推荐工具_
+  * Syntax color KeyValue - [资源下载](https://atom.io/packages/language-source-cfg)
+  * Syntax color Squirrel - [资源下载](https://atom.io/packages/squirrel-language)
+  * Color picker - [资源下载](https://atom.io/packages/color-picker)
+* Visual Studio Code - [资源下载](https://code.visualstudio.com/)
+* Notepad++ - [资源下载](https://notepad-plus-plus.org/downloads/)
+* TextCrawler 3 - [资源下载](https://www.digitalvolcano.co.uk/tcdownloads.html)
 
-### Graphics / animation / color editors
+### 图形/动画/颜色编辑器
 
-* Paint.net - [Download](https://www.getpaint.net/)
+* Paint.net - [资源下载](https://www.getpaint.net/)
   * [Gradient Mapping plug-in](https://forums.getpaint.net/topic/6265-gradient-mapping/)
   * [VTF plug-in](https://github.com/Wanty5883/Titanfall2/blob/master/tools/pdnvtfplugin111.zip)
   * [Animation Helper](https://pixelbyte.itch.io/paint-net-sprite-plugin)
-* Source VMT Color - [Download](https://dev.cra0kalo.com/?p=155)
-* GIMP - [Download](https://www.gimp.org/downloads/)
+* Source VMT Color - [资源下载](https://dev.cra0kalo.com/?p=155)
+* GIMP - [资源下载](https://www.gimp.org/downloads/)
   * [VTF plug-in](https://www.tophattwaffle.com/downloads/gimp-vtf-plugin/)
 * [RGB Tool converter](http://hewmc.blogspot.fr/2012/12/rgb-to-percentage-converter.html)
-* Color Pick Windows - [Download & Info](https://pixelbyte.itch.io/color-pick)
+* Color Pick Windows - [查看信息并下载资源](https://pixelbyte.itch.io/color-pick)
 * [GIF splitter](https://ezgif.com/split)
-* [Rad Tools Bik](http://www.radgametools.com/bnkdown.htm) \(needs [Quicktime 7.6](https://support.apple.com/downloads/quicktime)\)
+* [Rad Tools Bik](http://www.radgametools.com/bnkdown.htm) \(需要 [Quicktime 7.6](https://support.apple.com/downloads/quicktime)\)
 
-### Archives
+### 解压软件
 
-* 7zip - [Info & Download](https://www.7-zip.org/)
+* 7zip - [查看信息并下载资源](https://www.7-zip.org/)
 
-### Driver editors
+### 驱动程序编辑器
 
-* NVidia Profile Inspector - [Download](https://nvidia-inspector.en.lo4d.com/windows)
-* ATI Radeon Tray Tools - [Download](https://www.majorgeeks.com/files/details/ati_tray_tools.html)
+* NVidia Profile Inspector - [资源下载](https://nvidia-inspector.en.lo4d.com/windows)
+* ATI Radeon Tray Tools - [资源下载](https://www.majorgeeks.com/files/details/ati_tray_tools.html)
 
-## 3D Models
+## 3D模型
 
-* Blender - [Download](https://www.blender.org/)
-  * Blender Source Tool - [Download & info](https://steamreview.org/BlenderSourceTools/)
-  * Blender VMT - [Download & info](https://github.com/lasa01/blender-vmt)
-  * io import VMF & VMT - [Download & info](https://github.com/lasa01/io_import_vmf)
-  * S/G Shader - [Download](https://github.com/Wanty5883/Titanfall2/blob/master/tools/SG_Shader.blend)
-* Crowbar - [Download & info](http://steamcommunity.com/groups/CrowbarTool)
-* Ninja Ripper v1.7.1 - [Download & info](https://cgig.ru/ninjaripper/)
+* Blender - [资源下载](https://www.blender.org/)
+  * Blender Source Tool - [查看信息并下载资源](https://steamreview.org/BlenderSourceTools/)
+  * Blender VMT - [查看信息并下载资源](https://github.com/lasa01/blender-vmt)
+  * io import VMF & VMT - [查看信息并下载资源](https://github.com/lasa01/io_import_vmf)
+  * S/G Shader - [资源下载](https://github.com/Wanty5883/Titanfall2/blob/master/tools/SG_Shader.blend)
+* Crowbar - [查看信息并下载资源](http://steamcommunity.com/groups/CrowbarTool)
+* Ninja Ripper v1.7.1 - [查看信息并下载资源](https://cgig.ru/ninjaripper/)
 
 
 
 {% hint style="warning" %}
-You can't download one of those software ? Reach us! We probably have a backup  
-_Check in the contact page_
+你不能下载这些软件吗？请联系我们！我们可能会有备份  
+_请点击下面的页面_
 {% endhint %}
 
 {% page-ref page="../../../contact.md" %}
