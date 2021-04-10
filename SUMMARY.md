@@ -34,7 +34,7 @@
           * [Vtex - Compile Parameters](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtex/vtex-compile-parameters.md)
           * [Vtex - Troubleshooting](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtex/vtex-troubleshooting.md)
 
-## Information
+## 信息 <a id="information"></a>
 
 * [Textures](information/textures/README.md)
   * [Valve Texture Format - VTF](information/textures/valve-texture-format-vtf/README.md)
@@ -72,7 +72,7 @@
   * [TXT - Text file](information/file-format/txt-text-file.md)
   * [VPK - Valve Pak file](information/file-format/vpk-valve-pak-file.md)
 
-## Modding
+## 修改 <a id="modding"></a>
 
 * [Weapon](modding/weapon-config-info/README.md)
   * [Weapon effects](modding/weapon-config-info/weapon-effects.md)

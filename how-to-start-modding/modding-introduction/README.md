@@ -4,7 +4,7 @@ description: 学习如何正确的修改《泰坦陨落2》的第一步
 
 # 修改指南
 
-## First step
+## 第一步
 
 Before getting into Titanfall 2 modding, you should backup any [VPK ](../../information/file-format/vpk-valve-pak-file.md)files that you will get into, if you mess up or your [VPK ](../../information/file-format/vpk-valve-pak-file.md)files get corrupted you don't need to download or repair your game from Origin because you will learn how to make a backup
 
