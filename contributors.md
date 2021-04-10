@@ -1,36 +1,34 @@
 ---
-description: >-
-  People who have, in the past or present, contributed to or managed this wiki &
-  modding community.
+description: 这个名单展示了曾经或仍在对这个维基和社区有贡献或是管理的人们。
 ---
 
 # 感谢名单
 
-## Admins / Main Editors
+## 管理员 / 主要编辑
 
-| Name | Description |
+| 名字 | 说明 |
 | :--- | :--- |
-| \*\*\*\*[**DirectXeon**](https://leonbenkovic.com/)\*\*\*\* | Admin & graphic designer |
-| \*\*\*\*[**Wanty**](https://github.com/Wanty5883)\*\*\*\* | Admin & main editor |
+| \*\*\*\*[**DirectXeon**](https://leonbenkovic.com/)\*\*\*\* | 管理员&平面设计师 |
+| \*\*\*\*[**Wanty**](https://github.com/Wanty5883)\*\*\*\* | 管理员&主要编辑 |
 
-## Contributors / Editors
+## 参与者 / 编辑
 
-| Name | Description |
+| 名字 | 说明 |
 | :--- | :--- |
-| **CSLeader** | 3D modeling |
+| **CSLeader** | 3D建模 |
 | **Dinorush** | Datamining & proofreading |
-| **Dr.GetGood** | Modding research |
-| **EladMLG** | Modding research |
-| **Jules** | Modding research |
-| **ModernGXI** | Modding research |
-| **MrCleansForeHead** | Modding research |
-| **Phyr** | Modding research |
-| **S2ymi** | Modding research |
-| **Taskinoz** | Modding research |
+| **Dr.GetGood** | 修改研究 |
+| **EladMLG** | 修改研究 |
+| **Jules** | 修改研究 |
+| **ModernGXI** | 修改研究 |
+| **MrCleansForeHead** | 修改研究 |
+| **Phyr** | 修改研究 |
+| **S2ymi** | 修改研究 |
+| **Taskinoz** | 修改研究 |
 
-## Special Thanks
+## 特别感谢
 
-| Name | Description |
+| 名字 | 说明 |
 | :--- | :--- |
 | **Amos** | Reverse engineering & modding research |
 | [**BobTheBob**](https://github.com/BobTheBob9) | Reverse engineering & modding research |
