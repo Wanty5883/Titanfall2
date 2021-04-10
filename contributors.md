@@ -4,7 +4,7 @@ description: >-
   modding community.
 ---
 
-# Contributors
+# 感谢名单
 
 ## Admins / Main Editors
 

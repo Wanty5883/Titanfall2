@@ -24,7 +24,7 @@
 
 ![](.gitbook/assets/ttf2-modding.jpg)
 
-在开始修改《泰坦陨落2》之前，您必须阅读 "[修改教程](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction)" 页面开始一个好的起点。O在此内容中，你需要按照教程中的步骤来学习如何通过简单而又适当的方式去修改《泰坦陨落2》。 
+在开始修改《泰坦陨落2》之前，您必须阅读 "[修改指南](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction)" 页面开始一个好的起点。O在此内容中，你需要按照教程中的步骤来学习如何通过简单而又适当的方式去修改《泰坦陨落2》。 
 
 如果您没有修改过《泰坦陨落2》的经验，请**仔细阅读**下面的文章。
 
