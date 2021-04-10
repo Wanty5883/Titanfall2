@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Main page](README.md)
+* [主页](README.md)
 * [Contact](contact.md)
 * [Contributors](contributors.md)
 

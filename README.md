@@ -1,12 +1,12 @@
-# Main page
+# 主页
 
-**Link to the wiki:** [**https://noskill.gitbook.io/titanfall2/**](https://noskill.gitbook.io/titanfall2/)\*\*\*\*
+**维基链接:** [**https://noskill.gitbook.io/titanfall2/**](https://noskill.gitbook.io/titanfall2/)\*\*\*\*
 
-Welcome to the NoSkill Titanfall 2 wiki! This is the first introduction to the different categories of this wiki. Anyone is welcome to make suggestions for adding content / improving this wiki, suggestions are always welcome!
+欢迎来到NoSkill泰坦陨落2维基! This is the first introduction to the different categories of this wiki. 我们乐于接受任何人对添加维基内容或改进维基提出建议，欢迎您随时提出建议！
 
-Track wiki updates on the NoSkill Community Discord server where news are posted as soon as any updates are made on the wiki.
+请关注NoSkill社区的Discord服务器。每当维基的内容发生变化时，将会在此服务器中发布通知。
 
-Please send a message on the [NoSkill Discord](https://discord.gg/sEgmTKg) server if you notice anything wrong in the wiki. You can mention wiki editors and contributors via a mention of `@Frontier Militia` in the `#titanfall` channel. This will tag editors, contributors and admins to look into your suggestion/issue. 
+如果[如果 NoSkill Discord](https://discord.com/invite/sEgmTKg) 服务器if you notice anything wrong in the wiki. You can mention wiki editors and contributors via a mention of `@Frontier Militia` in the `#titanfall` channel. This will tag editors, contributors and admins to look into your suggestion/issue. 
 
 ᵗᵒᵖ ᵗʸᵖᵒ ʰᵘⁿᵗᵉʳ ᵃⁿᵈ ᶜᵒⁿᵗʳᶦᵇᵘᵗᵒʳ ʷᶦˡˡ ᵍᵉᵗ ᵃ ˡᶦᵗᵗˡᵉ ʳᵉʷᵃʳᵈ
 
