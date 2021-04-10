@@ -4,7 +4,7 @@ description: 如何在不把事情搞砸的情况下玩转VPK
 
 # 如何备份，解包和重新打包
 
-## How to backup & extract VPK's properly?
+## 如何正确地备份和提取VPK？
 
 When you are about to extract [VPK ](../../information/file-format/vpk-valve-pak-file.md)files, you need a directory where the files will be extracted to from the selected [VPK](../../information/file-format/vpk-valve-pak-file.md). This folder **should not** be inside your game directory. I would recommend for you to create a folder with an easy name like `Titanfall 2 modding` in this path: `C:\Users\<username>\Documents` 
 
@@ -30,7 +30,7 @@ After the extraction is complete, open the folder where you extracted your files
 Make sure to use version 3.3 or 3.4 of the VPK tool. You may have unwanted behavior with previous version of the tool.
 {% endhint %}
 
-## **How to repack VPK files properly?**
+## **如何正确地重新打包VPK？**
 
 Open the repacker tool inside the Titanfall VPK Tool. You have 2 ways to do that, click on the _`Repack VPK`_ icon, or go in _`Tools > Repacker`_. Once the tool opened, give as first directory your extracted folder
 
@@ -44,17 +44,17 @@ Leave the VPK file name as is, then click _`Build VPK`_. Once the VPK file has b
 
 **e.g.**
 
-Rename pak000\_000.vpk _to_ **client\_mp\_common.bsp.pak000\_000.vpk**
+把 pak000\_000.vpk _重命名为_ **client\_mp\_common.bsp.pak000\_000.vpk**
 
-Rename pak000\_dir.vpk _to_ **englishclient\_mp\_common.bsp.pak000\_dir.vpk**
+把 pak000\_dir.vpk _重命名为_ **englishclient\_mp\_common.bsp.pak000\_dir.vpk**
 
-## **VPK rename / move batch script**
+## VPK重命名/移动批处理脚本
 
 {% hint style="success" %}
-Bored of renaming / moving VPK files back to game directory?
+厌倦了手动重命名/移动VPK文件回到游戏目录？
 {% endhint %}
 
-There is a little batch script you can use!
+这里有一个小小的批处理脚本可供你使用！
 
 ```bash
 ren "pak000_000.vpk" "client_mp_common.bsp.pak000_000.vpk"
@@ -63,10 +63,10 @@ move "client_mp_common.bsp.pak000_000.vpk" "<ORIGINGAMES>\Titanfall2\vpk\client_
 move "englishclient_mp_common.bsp.pak000_dir.vpk" "<ORIGINGAMES>\Titanfall2\vpk\englishclient_mp_common.bsp.pak000_dir.vpk"
 ```
 
-That's the script for _`englishclient_mp_common.bsp.pak000_dir.vpk`_, it can be adapted to any other VPKs you edit quite often. 
+这是 _`englishclient_mp_common.bsp.pak000_dir.vpk`_的脚本，它也可以替换为你经常修改的任何其他VPK文件。 
 
 {% hint style="danger" %}
-Make sure not to keep the VPK tool open while executing this script, as this will cause an error.
+执行此脚本时，请确保VPK工具没有处于运行状态，因为这将导致程序错误。
 {% endhint %}
 
 **Don't forget to add the correct game directory by replacing** _`<ORIGINGAMES>`_ with e.g. `C:\Program Files\Origin\Library` This is the directory in which your origin games are downloaded. Not the directory containing Titanfall 2 files. \(Mine is `H:\Orishit\Games`\)
