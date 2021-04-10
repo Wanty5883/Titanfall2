@@ -1,8 +1,8 @@
 ---
-description: This is a list of third party software to use for modding Titanfall 2.
+description: 这是一个用于修改《泰坦陨落2》的第三方软件列表 。
 ---
 
-# Modding tools
+# 修改工具
 
 {% hint style="danger" %}
 #### Attention

@@ -1,5 +1,5 @@
 ---
-description: A first step to learning how to mod Titanfall 2 properly
+description: 学习如何正确的修改《泰坦陨落2》的第一步
 ---
 
 # 修改指南

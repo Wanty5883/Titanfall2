@@ -4,12 +4,12 @@
 * [联系我们](contact.md)
 * [感谢名单](contributors.md)
 
-## Wiki 101 - How to start ? <a id="how-to-start-modding"></a>
+## 维基101 - 如何开始? <a id="how-to-start-modding"></a>
 
 * [修改指南](how-to-start-modding/modding-introduction/README.md)
   * [如何备份，解包和重新打包](how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
-  * [Modding tools](how-to-start-modding/modding-introduction/modding-tools/README.md)
-    * [Source](how-to-start-modding/modding-introduction/modding-tools/source/README.md)
+  * [修改工具](how-to-start-modding/modding-introduction/modding-tools/README.md)
+    * [资源](how-to-start-modding/modding-introduction/modding-tools/source/README.md)
       * [Game Directory](how-to-start-modding/modding-introduction/modding-tools/source/game-directory.md)
       * [BSP](how-to-start-modding/modding-introduction/modding-tools/source/bsp/README.md)
         * [BSPSource](how-to-start-modding/modding-introduction/modding-tools/source/bsp/bspsource.md)
