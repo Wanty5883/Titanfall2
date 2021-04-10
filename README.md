@@ -11,16 +11,16 @@
 ᵗᵒᵖ ᵗʸᵖᵒ ʰᵘⁿᵗᵉʳ ᵃⁿᵈ ᶜᵒⁿᵗʳᶦᵇᵘᵗᵒʳ ʷᶦˡˡ ᵍᵉᵗ ᵃ ˡᶦᵗᵗˡᵉ ʳᵉʷᵃʳᵈ
 
 {% hint style="danger" %}
-#### Attention
+#### 警告
 
-Edits and modifications listed on this wiki may result in your account becoming permanently banned from multiplayer Titanfall 2 servers. Use these tools as instructed, and at your own discretion to avoid these bans. 
+基于此维基上的任何编辑或修改操作均有可能导致您的账号被泰坦陨落2多人服务器永久封禁。请按照说明来使用这些工具，并根据自己的判断来避免账号封禁。 
 
-For the most part these tweaks can be considered safe, but over time things may become disallowed or bannable.
+在大多数情况下，这些修改操作都是安全的。但是随着时间的推移，部分修改操作可能不再被允许或是直接导致账号封禁。
 
-Neither the NoSkill community or the contributors to this wiki are responsible for your incorrect usage of these tools to make modifications that result in you being banned or you breaking your game.
+无论是NoSkill社区还是本维基的参与者都不会对你不正当地使用工具而导致账号封禁或游戏损坏的行为负责。
 {% endhint %}
 
-## Modding
+## 关于修改
 
 ![](.gitbook/assets/ttf2-modding.jpg)
 
