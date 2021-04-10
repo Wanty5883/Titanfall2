@@ -2,11 +2,11 @@
 
 **维基链接:** [**https://noskill.gitbook.io/titanfall2/**](https://noskill.gitbook.io/titanfall2/)\*\*\*\*
 
-欢迎来到NoSkill泰坦陨落2维基! This is the first introduction to the different categories of this wiki. 我们乐于接受任何人对添加维基内容或改进维基提出建议，欢迎您随时提出建议！
+欢迎来到NoSkill泰坦陨落2维基！这是本维基不同分类中的第一个介绍。我们乐于接受任何人对添加维基内容或改进维基提出建议，欢迎您随时提出建议！
 
 请关注NoSkill社区的Discord服务器。每当维基的内容发生变化时，将会在此服务器中发布通知。
 
-如果[如果 NoSkill Discord](https://discord.com/invite/sEgmTKg) 服务器if you notice anything wrong in the wiki. You can mention wiki editors and contributors via a mention of `@Frontier Militia` in the `#titanfall` channel. This will tag editors, contributors and admins to look into your suggestion/issue. 
+如果您在维基中发现任何错误，请在[NoSkill Discord](https://discord.com/invite/sEgmTKg)服务器中发送有关消息。 您可以在`#titanfall`频道中 `@Frontier Militia`  来通知维基的编辑和参与者。这将会提醒维基的编辑/参与者/管理员去查看您的建议或问题。
 
 ᵗᵒᵖ ᵗʸᵖᵒ ʰᵘⁿᵗᵉʳ ᵃⁿᵈ ᶜᵒⁿᵗʳᶦᵇᵘᵗᵒʳ ʷᶦˡˡ ᵍᵉᵗ ᵃ ˡᶦᵗᵗˡᵉ ʳᵉʷᵃʳᵈ
 
