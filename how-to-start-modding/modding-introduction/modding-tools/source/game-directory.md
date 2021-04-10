@@ -4,7 +4,7 @@ description: >-
   making MODs and content for the Source Engine.
 ---
 
-# Game Directory
+# 游戏目录
 
 Setting up a proper game development environment is critically important when making MODs and content for the Source Engine. The most important aspect of the game environment is determining the location of the game directory. This document explains what the game directory is, and how it is used.
 

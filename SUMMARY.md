@@ -10,7 +10,7 @@
   * [如何备份，解包和重新打包](how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
   * [修改工具](how-to-start-modding/modding-introduction/modding-tools/README.md)
     * [资源](how-to-start-modding/modding-introduction/modding-tools/source/README.md)
-      * [Game Directory](how-to-start-modding/modding-introduction/modding-tools/source/game-directory.md)
+      * [游戏目录](how-to-start-modding/modding-introduction/modding-tools/source/game-directory.md)
       * [BSP](how-to-start-modding/modding-introduction/modding-tools/source/bsp/README.md)
         * [BSPSource](how-to-start-modding/modding-introduction/modding-tools/source/bsp/bspsource.md)
         * [BSP Viewer](how-to-start-modding/modding-introduction/modding-tools/source/bsp/bsp-viewer.md)
