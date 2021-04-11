@@ -1,18 +1,16 @@
 ---
-description: >-
-  Setting up a proper game development environment is critically important when
-  making MODs and content for the Source Engine.
+description: 在为起源引擎制作Mod和增添内容时，正确的设置一个游戏开发环境是至关重要的。
 ---
 
 # 游戏目录
 
-Setting up a proper game development environment is critically important when making MODs and content for the Source Engine. The most important aspect of the game environment is determining the location of the game directory. This document explains what the game directory is, and how it is used.
+在为起源引擎制作Mod和增添内容时，正确的设置一个游戏开发环境是至关重要的。设置游戏环境时最重要的是确定游戏目录的位置。本文档解释了什么是游戏目录，以及如何使用它。
 
-## What is the game directory?
+## 什么是游戏目录？
 
-The **game directory** is the folder that the tools refer to when they are looking for a game's content. For example, the Hammer Editor needs to know where it can find your materials so it can display them. `Studiomdl` will compile a model, but it needs to know where to place the compiled model files. `Vrad.exe` will light a map, but it needs to know where to find prop models so it can load them and determine how they block light. None of the SDK tools will run unless they can find your game directory.
+**游戏目录**是相关工具在查找游戏内容时所引用的文件夹。例如：Hammer Editor需要知道在哪里可以找到材质文件，以便可以显示它们。 `Studiomdl`将编译生成模型，但是它需要知道将编译后的模型文件放在何处。 `Vrad.exe` 将照亮地图，但它需要知道在哪里可以找到道具模型，以便它可以加载道具模型并确定如何遮挡光线。没有SDK工具可以脱离你的游戏目录而运行。
 
-Examples of the game directory for the core Source games:
+主要的起源引擎游戏目录举例：
 
 | [Half-Life 2](https://developer.valvesoftware.com/wiki/Half-Life_2) | `C:\Program Files\Steam\SteamApps\Common\Half-Life 2\hl2` |
 | :--- | :--- |
