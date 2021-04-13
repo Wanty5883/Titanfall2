@@ -17,19 +17,19 @@ description: 在为起源引擎制作Mod和增添内容时，正确的设置一�
 | [Counter-Strike: Source](https://developer.valvesoftware.com/wiki/Counter-Strike:_Source) | `C:\Program Files\Steam\SteamApps\Common\counter-strike source\cstrike` |
 | [Half-Life 2: Deathmatch](https://developer.valvesoftware.com/wiki/Half-Life_2:_Deathmatch) | `C:\Program Files\Steam\SteamApps\Common\half-life 2 deathmatch\hl2mp` |
 
-In the following examples, we're going to refer to the game directory as `C:\Program Files\Steam\SteamApps\sourcemods\MyMod\Blasters`. This would be the case if you selected **Create a Mod** in the SDK launcher, entered `C:\Program Files\Steam\SteamApps\sourcemods\MyMod` as the directory, and entered `Blasters` as the mod name.
+ 假设你在SDK Launcher中选择**Create a Mod**，并输入`C:\Program Files\Steam\SteamApps\sourcemods\MyMod` 作为目录，然后输入 `Blasters` 作为Mod名称。则在下面的示例中，我们所提到的游戏目录为 `C:\Program Files\Steam\SteamApps\sourcemods\MyMod\Blasters`。
 
-One way to determine the game directory of your game is to look for a file called `GameInfo.txt`. If you find the GameInfo.txt file, then the directory it sits in is the game directory. In the example above, if you had created `C:\Program Files\Steam\SteamApps\sourcemods\MyMod\Blasters`, there would be a file on your hard drive called `C:\Program Files\Steam\SteamApps\sourcemods\MyMod\Blasters\GameInfo.txt`. Once you've found the game directory, you need to tell the SDK tools where that directory is.
+其中一种确定游戏目录的方法是查找文件名为 `GameInfo.txt`的文本文件。GameInfo.txt文件所在的目录就是你所需要的游戏目录。在上文之中，如果你创建了 `C:\Program Files\Steam\SteamApps\sourcemods\MyMod\Blasters`，则在你的游戏目录之中会存在这个文本文件`C:\Program Files\Steam\SteamApps\sourcemods\MyMod\Blasters\GameInfo.txt`. 在你找到游戏目录后，你需要告诉SDK工具该目录的位置。
 
-For information on how `GameInfo.txt` can be created for your own MOD, and how the contents are used, see [GameInfo.txt File Structure](https://developer.valvesoftware.com/wiki/The_GameInfo.txt_File_Structure).
+想要了解自己Mod的`GameInfo.txt` 是如何生成的，亦或是其中的内容如何被使用？请参阅[GameInfo.txt File Structure](https://developer.valvesoftware.com/wiki/The_GameInfo.txt_File_Structure).
 
-## Setting the current game directory
+## 设置正确的游戏目录
 
-The active game directory is set so that all the tools know how to find the game content without having to specify it each time. The **Current Game** drop-down list on the Source SDK Launcher is the primary way to set the active game directory.
+设置有效的游戏目录，以便于所有工具都知道如何查找游戏内容，而不必每次使用时都需要重新指定它。使用Source SDK Launcher中**Current Game**的下拉列表是设置有效游戏目录的主要方法。
 
-### Using the Source SDK Launcher to set the game directory
+### 使用Source SDK Launcher来设置游戏目录
 
-To set the active game directory with the Source SDK Launcher:
+要使用Source SDK Launcher设置有效的游戏目录，请执行以下操作：
 
 1. Double-click **Source SDK** from the Steam **Play Games** Menu.
 2. Next you must choose the correct **Current Game** from the Source SDK Launcher.
