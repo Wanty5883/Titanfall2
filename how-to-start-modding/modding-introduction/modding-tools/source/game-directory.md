@@ -31,21 +31,21 @@ description: 在为起源引擎制作Mod和增添内容时，正确的设置一�
 
 要使用Source SDK Launcher设置有效的游戏目录，请执行以下操作：
 
-1. Double-click **Source SDK** from the Steam **Play Games** Menu.
-2. Next you must choose the correct **Current Game** from the Source SDK Launcher.
-3. Now launch one of the SDK tools, such as the **Hammer Editor**, by double-clicking it.
+1. 在Steam中双击打开**Source SDK**。\(库-&gt;工具\)
+2. 接下来，您必须从Source SDK Launcher中选择正确的**当前游戏**。
+3. 现在双击打开一个SDK工具，比如**Hammer Editor**。
 
 ![](../../../../.gitbook/assets/game_config_set.png)
 
 
 
-### Using VConfig to set the game directory
+### 使用VConfig去设置游戏目录
 
-The **VConfig** application can also be used to set the active game directory. It provides a similar function to setting the **Current Game** in the **SDK Launcher**.
+**VConfig**程序也可以用来设置正确的游戏目录。它提供了一个类似于在**Source SDK Launcher**中设置**当前游戏**的功能。
 
-The `vconfig.exe` application is found in the `\sourcesdk\bin` directory.
+ `vconfig.exe` 程序位于 `\sourcesdk\bin`目录中.。
 
-For example, if you installed Steam at `C:\Program Files\Steam`, **VConfig** would be found here:
+假设你把Steam安装在 `C:\Program Files\Steam`, **VConfig**则可以在以下目录中找到:
 
 ```text
 C:\Program Files\Steam\SteamApps\Common\sourcesdk\bin\vconfig.exe
