@@ -5,7 +5,7 @@ description: >-
   lead you to the guide you need.
 ---
 
-# Weapon
+# 武器
 
 ## Weapon Effects
 

@@ -1,4 +1,4 @@
-# Crosshair example
+# 准星样例
 
 {% tabs %}
 {% tab title="Wanty\'s crosshair" %}

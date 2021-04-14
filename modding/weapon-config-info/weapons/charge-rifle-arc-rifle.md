@@ -4,9 +4,9 @@ description: >-
   content of the game.
 ---
 
-# Charge Rifle - Arc Rifle
+# 电能步枪 - Arc Rifle
 
-## Used VPK
+## 使用的VPK文件
 
 {% hint style="success" %}
 * englishclient\_mp\_common.bsp.pak000\_dir.vpk
@@ -16,15 +16,15 @@ You will need the Titanfall VPK Tool, the program which will allow you to open a
 
 {% page-ref page="../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
 
-## Introduction
+## 介绍
 
 As custom models are not _yet_ possible in Titanfall, we still can change models with already existing models within the game. However this method have some restrictions about animations. Animations might give really weird results.
 
 For this guide, it works as intended with the charge rifle.
 
-## Editing
+## 编辑
 
-### Get the Arc Tool model
+### 取得Arc Tool模型
 
 In the first place you need to get your hands on the arc tool model. You will need to extract the model from this VPK
 
@@ -38,7 +38,7 @@ With the VPK tool you do not need to extract the entire archive, you can just ex
 \models\weapons\arc_tool_sp\ptpov_arc_tool_sp.mdl
 ```
 
-### Swapping the models
+### 替换模型
 
 Once you have the desired model, return to your extracted Common VPK
 
@@ -56,13 +56,13 @@ You can also do the same process with those two files: `w_defender.mdl` `w_defen
 
 That's it ! You are done with it. Now it should work as intended as shown in the examples down bellow
 
-### Examples
+### 样例
 
 {% embed url="https://gfycat.com/cloudyshinyflies" %}
 
 {% embed url="https://gfycat.com/alldecisivefinwhale" %}
 
-### Repacking
+### 重新打包
 
 {% page-ref page="../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
 

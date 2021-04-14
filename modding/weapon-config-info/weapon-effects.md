@@ -1,23 +1,23 @@
 ---
-description: Modify the visual aspect of your weapon
+description: 修改武器的视觉效果
 ---
 
-# Weapon effects
+# 武器特效
 
-## Preparation <a id="preparation"></a>
+## 前期准备 <a id="preparation"></a>
 
-Navigate to your folder and find this VPK file:
+导向至以下目录并找到所需VPK文件:
 
 > Origin Games\Titanfall2\vpk\
 
-Copy these file and paste them in an empty folder somewhere else:
+复制粘贴下面的文件到其他空的文件夹之中:
 
 * englishclient\_mp\_common.bsp.pak000\_dir.vpk
 * client\_mp\_common.bsp.pak000\_000.vpk
 
-You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
+你将会用到Titanfall VPK Tool来打开和重新打包《泰坦陨落2》VPK 文件。 [工具链接](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
 
-## Unpacking <a id="unpacking"></a>
+## 解包 <a id="unpacking"></a>
 
 Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
 
@@ -25,7 +25,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 ​[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
 
-### Effects
+### 特效
 
 > englishclient\_mp\_common.bsp.pak000\_dir.vpk\scripts\weapons
 

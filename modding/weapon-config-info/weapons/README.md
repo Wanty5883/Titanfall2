@@ -2,5 +2,5 @@
 description: List of modding guides for Pilot weapons
 ---
 
-# Special/Unique weapon mods
+# 特殊/独特武器修改
 

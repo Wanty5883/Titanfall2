@@ -2,9 +2,9 @@
 description: Charge rifle heat color effect guide
 ---
 
-# Charge rifle - Heat color
+# 电能步枪 - Heat color
 
-## Preparation <a id="preparation"></a>
+## 前期准备 <a id="preparation"></a>
 
 In this guide you will have to edit vmt files. I would recommend you to use the software [VTFEdit](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools) to edit them. You can use text editor for that such as Atom, NotePad++, VIM and many other ones would work fine.
 
@@ -19,7 +19,7 @@ Copy these file and paste them in an empty folder somewhere else:
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
 
-## Unpacking <a id="unpacking"></a>
+## 解包 <a id="unpacking"></a>
 
 Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
 
@@ -27,7 +27,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 ​[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 
-## Editing <a id="editing"></a>
+## 编辑 <a id="editing"></a>
 
 To edit the following weapon heat effect you need to find their .vmt files. Further in this guide you will find the different file locations and details about what modifications can be done.
 
@@ -43,11 +43,11 @@ For editing charge rifle heat effect, go to this location
 
 Open the file _`defender_charge.vmt`_ and refer to the different info provided
 
-### Example
+### 样例
 
 {% embed url="https://gfycat.com/somberunrulycricket" %}
 
-## Repacking <a id="repacking"></a>
+## 重新打包 <a id="repacking"></a>
 
 ​[How to repack VPK files proprely ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 

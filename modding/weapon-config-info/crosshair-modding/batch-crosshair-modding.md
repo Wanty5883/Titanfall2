@@ -2,7 +2,7 @@
 description: How to change pretty much all of your weapons to the same crosshair at once.
 ---
 
-# Batch crosshair modding
+# 批量修改准星
 
 ## Prerequisites
 

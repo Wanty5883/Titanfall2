@@ -1,10 +1,10 @@
 ---
-description: Position of the weapon on screen
+description: 武器在屏幕上的位置
 ---
 
-# Weapon Positioning
+# 武器定位
 
-## Preparation
+## 前期准备
 
 Navigate to your folder and find this VPK file:
 
@@ -17,7 +17,7 @@ Copy these files and paste them into an empty folder somewhere else:
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
 
-## Unpacking
+## 解包
 
 Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
 
@@ -25,7 +25,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 [How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
 
-## Editing
+## 编辑
 
 Navigate to this location in your extracted folder
 
@@ -53,7 +53,7 @@ MP_BASE
 	{	"viewmodel_offset_hip" 						"x z y" 
 ```
 
-### Position Values
+### 位置数值
 
 The Standard value for each of the coordinates is "0". 
 
@@ -63,7 +63,7 @@ A positive "Z" value is going to move the gun Forwards, a negative one backwards
 
 A positive "Y" value is going to move the gun up, a negative one down. 
 
-### Examples
+### 样例
 
 ![&quot;viewmodel\_offset\_hip&quot; 						&quot;-10 0 -3&quot;](../../.gitbook/assets/another-kraber-edit.jpg)
 
@@ -71,7 +71,7 @@ A positive "Y" value is going to move the gun up, a negative one down.
 
 ![&quot;viewmodel\_offset\_hip&quot; 						&quot;-6.5 1 -4&quot;](../../.gitbook/assets/desktop-screenshot-2020.03.04-16.47.10.40.png)
 
-## Repacking
+## 重新打包
 
 [How to repack VPK files proprely?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)
 

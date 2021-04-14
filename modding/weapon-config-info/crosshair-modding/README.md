@@ -1,10 +1,10 @@
 ---
-description: Guide to change crosshair icons
+description: 准星图标修改指南
 ---
 
-# Crosshair modding
+# 准星修改
 
-## Preparation
+## 前期准备
 
 Navigate to your folder and find this VPK file:
 
@@ -17,7 +17,7 @@ Copy these file and paste them in an empty folder somewhere else:
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
 
-## Unpacking
+## 解包
 
 Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
 
@@ -25,7 +25,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 [How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
 
-## Editing
+## 编辑
 
 Go to this location in your extracted folder
 
@@ -133,13 +133,13 @@ More argument information on this page
 
 {% page-ref page="../" %}
 
-### Config file name
+### Config文件名
 
 List of the different weapon config files. Sometimes names are not the same as in game name.
 
 {% page-ref page="../../../game-values/file-location/weapon-config-file-name.md" %}
 
-## Repacking
+## 重新打包
 
 [How to repack VPK files proprely?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)
 

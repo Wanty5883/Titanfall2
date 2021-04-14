@@ -1,4 +1,4 @@
-# Weapon FOV
+# 武器FOV
 
 ## Used VPK
 

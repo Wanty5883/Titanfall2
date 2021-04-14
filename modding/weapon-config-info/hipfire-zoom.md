@@ -2,9 +2,9 @@
 description: Change your FOV with the click of a button.
 ---
 
-# Hipfire zoom
+# 瞄准FOV
 
-## Preparation
+## 前期准备
 
 In this guide you will have to edit a config file, otherwise known as `.cfg` file. Please be aware that you will need to create an `autoexec.cfg`file in `Origin Games\Titanfall2\r2\cfg\` if you do not have one.  
   
@@ -18,12 +18,12 @@ Open it in your text editor of choice.
 You can use a different name for your config file, but you will need to use a command to execute it.
 {% endhint %}
 
-## Introduction
+## 介绍
 
 Source Engine games handle magnification when aiming down sights by changing the FOV to a smaller number, which creates the effect of magnification.   
 This guide will teach you how to apply this effect to your hipfire view. We can achieve this by binding a key to cycle between multiple FOVs.
 
-## Editing
+## 编辑
 
 Open your `autoexec.cfg` in your text editor and type in the following lines.
 
@@ -54,7 +54,7 @@ bind "MOUSE4" fovtoggle
 
 This will ensure that the mouse movement is not magnified and feels the same as it would when zoomed out.
 
-## Examples
+## 样例
 
 {% embed url="https://gfycat.com/vaguedazzlingbackswimmer" %}
 
