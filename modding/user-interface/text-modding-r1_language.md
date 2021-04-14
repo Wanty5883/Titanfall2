@@ -6,13 +6,13 @@ description: 游戏文本修改指南
 
 ## 前期准备
 
-在本指南中，你需要去修改文本内容。只需使用一个文本编辑器即可，例如：Atom, NotePad++, VIM。（只要是功能正常的文本编辑器就可以了，系统自带的也行）
+在本指南中，你需要去修改文本内容。只需使用一个文本编辑器即可，例如：Atom, NotePad++, VIM。（只要是功能正常的文本编辑器都可以，系统自带的也行）
 
 {% hint style="warning" %}
 这个指南的内容很多，请参阅右边的目录以快速跳转至您要查找的内容。.
 {% endhint %}
 
-因为文件存在很多数据，如果您希望改进指南的内容，随时可以[联系我们](https://noskill.gitbook.io/titanfall2/v/chinese/contact)。
+因为文件中存在很多数据，如果您希望改进指南的内容，随时可以[联系我们](https://noskill.gitbook.io/titanfall2/v/chinese/contact)。
 
 进入你的游戏目录并找到此VPK文件夹:
 
