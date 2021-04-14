@@ -51,7 +51,7 @@ description: 在为起源引擎制作Mod和增添内容时，正确的设置一�
 C:\Program Files\Steam\SteamApps\Common\sourcesdk\bin\vconfig.exe
 ```
 
-To set your active game directory with VConfig:
+要使用VConfig来设置正确的游戏目录，请按照以下步骤操作：
 
 1. Double-click the `vconfig.exe` application.
 2. Next you must choose the correct **Current Game** from the drop-down list.
