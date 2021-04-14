@@ -2,7 +2,7 @@
 description: How To Rip Game Models With Textures into blender
 ---
 
-# Exporting Models
+# 导出模型
 
 ## Required Software
 

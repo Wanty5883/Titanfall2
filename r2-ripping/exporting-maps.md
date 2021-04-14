@@ -2,7 +2,7 @@
 description: Extract the 3D map model from the Titanfall 2 VPK's
 ---
 
-# Exporting Maps
+# 导出地图
 
 ### Tools
 

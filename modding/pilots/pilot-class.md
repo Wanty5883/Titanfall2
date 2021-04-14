@@ -1,8 +1,8 @@
 ---
-description: Guide to swap pilot models
+description: 替换铁驭模型指南
 ---
 
-# Models - Pilot class
+# 模型-铁驭类
 
 {% hint style="danger" %}
 Note: Changing pilot models may result in broken animations or even crashes.  
@@ -10,7 +10,7 @@ Note: Changing pilot models may result in broken animations or even crashes.
  However, changing arm models works perfectly fine on any tactical.
 {% endhint %}
 
-## Preparation <a id="preparation"></a>
+## 前期准备 <a id="preparation"></a>
 
 Navigate to your folder and find this VPK file:
 
@@ -23,7 +23,7 @@ Copy these file and paste them in an empty folder somewhere else:
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
 
-## Unpacking <a id="unpacking"></a>
+## 解包 <a id="unpacking"></a>
 
 Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
 
@@ -31,7 +31,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 ​[How to extract VPK's properly?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 
-## Editing
+## 编辑
 
 To change pilot class models go to this directory:
 
@@ -55,7 +55,7 @@ The files in the folder have different names that correspond to their pilot clas
 
 The _f_ & _m_ at the end of the files correspond to the _female_ and _male_ versions of each pilot class.
 
-## Repacking <a id="repacking"></a>
+## 重新打包 <a id="repacking"></a>
 
 ​[How to repack VPK files properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)​
 

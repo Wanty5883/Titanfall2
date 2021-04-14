@@ -4,13 +4,13 @@ description: >-
   performance improvements.
 ---
 
-# Plastic Mode
+# 低配模式
 
-## Prerequisites
+## 前提条件
 
 This tweak requires [NVIDIA inspector](https://nvidia-inspector.en.lo4d.com/windows) \(NVIDIA GPU\) or [ATI Tray Tools](http://www.majorgeeks.com/files/details/ati_tray_tools.html) \(AMD GPU\). For performance tweaking you may also want a code editor such as [VS Code](https://code.visualstudio.com/) or [Notepad++](https://notepad-plus-plus.org/downloads/).
 
-## Minimalistic Tweaks
+## 极简模式修改
 
 These changes do not reduce the visual fidelity of the game apart from reducing the LOD. This makes the game look sort of plastic and flat, but doesn't reduce visibility or anything.
 
@@ -18,7 +18,7 @@ These changes do not reduce the visual fidelity of the game apart from reducing 
 
 ![Captain Tai Plastimosa in action, penetrating your soul with his transparent eyeballs.](../.gitbook/assets/image.png)
 
-### NVIDIA Cards
+### NVIDIA显卡
 
 #### **Step 1.** Open `NVidiaProfileInspectorDmW.exe` and select "Titanfall 2" from the dropdown.
 
@@ -36,7 +36,7 @@ These changes do not reduce the visual fidelity of the game apart from reducing 
 
 #### Step 5. Launch Titanfall 2 and enjoy plastimosa mode!
 
-### AMD Cards
+### AMD显卡
 
 _**We are unable to provide screenshots for this section, as we do not own an ATI/AMD/Radeon card to test on. Sorry for any inconvenience.**_
 
@@ -44,7 +44,7 @@ _**We are unable to provide screenshots for this section, as we do not own an AT
 2. Set to 10 \(or higher, higher value = worse game\)
 3. Launch Titanfall 2 and enjoy plastimosa mode!
 
-## Performance Tweaks
+## 性能修改
 
 These tweaks make your game look like utter shit, to be used in combination with the above options, or independently.
 

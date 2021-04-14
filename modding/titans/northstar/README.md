@@ -1,2 +1,2 @@
-# Northstar
+# 北极星
 

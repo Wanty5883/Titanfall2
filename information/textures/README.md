@@ -1,4 +1,4 @@
-# Textures
+# 纹理
 
 A **texture** is a two-dimensional [raster](http://en.wikipedia.org/wiki/Raster_graphics) image in the context of a game engine. Textures in Source are stored in the [Valve Texture Format](valve-texture-format-vtf/), and with a very few exceptions are only accessed through an intermediate [material](https://developer.valvesoftware.com/wiki/Material).
 

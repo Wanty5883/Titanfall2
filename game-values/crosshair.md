@@ -1,2 +1,2 @@
-# Crosshair
+# 准星
 
