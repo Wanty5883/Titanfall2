@@ -7,37 +7,37 @@ description: >-
 
 # 武器
 
-## Weapon Effects
+## 武器特效
 
 Modify the visual aspect of your weapon. This will modify what effect your weapon makes, This includes what your muzzle flash looks like to what the bullet projectile looks like as well. 
 
 {% page-ref page="weapon-effects.md" %}
 
-## Crosshair modding
+## 准星修改
 
 This guide will show you how to change what your crosshair looks like. 
 
 {% page-ref page="crosshair-modding/" %}
 
-## Weapon positioning 
+## 武器定位
 
 This guide will show you how to change what the position of your weapon is on screen. This means your weapon can be moved to the center of the screen doom style or even making the gun left handed, It's all up to your tastes.
 
 {% page-ref page="weapon-positioning.md" %}
 
-## Weapon FOV
+## 武器FOV
 
 Guide to changing the weapon viewmodel fov
 
 {% page-ref page="weapon-fov.md" %}
 
-## Hipfire Zoom
+## 瞄准FOV
 
 How to create a zoom effect while hipfiring.
 
 {% page-ref page="hipfire-zoom.md" %}
 
-## Special/Unique weapon mods
+## 特殊/独特武器修改
 
 These mods are restricted only to these weapons and won't apply to any others, this guide will show you how to mod them.
 
@@ -51,11 +51,11 @@ These mods are restricted only to these weapons and won't apply to any others, t
 
 
 
-## Arguments
+## 参数
 
 {% tabs %}
 {% tab title="RUI\_CrosshairData Args" %}
-| Argument | Value | Note |
+| 参数 | Value | Note |
 | :--- | :--- | :--- |
 | adjustedSpread | weapon\_spread |  |
 | adsFrac | player\_zoomFrac |  |
