@@ -66,10 +66,10 @@ move "englishclient_mp_common.bsp.pak000_dir.vpk" "<ORIGINGAMES>\Titanfall2\vpk\
 这是 _`englishclient_mp_common.bsp.pak000_dir.vpk`_的脚本，它也可以替换为你经常修改的任何其他VPK文件。 
 
 {% hint style="danger" %}
-执行此脚本时，请确保VPK工具没有处于运行状态，因为这将导致程序错误。
+在运行此脚本时，请你确保你的VPK工具没有处于运行状态，因为这将导致程序错误。
 {% endhint %}
 
-**不要忘记用正确的游戏目录去替换**_`<ORIGINGAMES>`_ 。例如： `C:\Program Files\Origin\Library` 这是Origin平台下载游戏的目录，而不是包含《泰坦陨落2》游戏的目录。 \(比如我Origin游戏的目录是`H:\Orishit\Games`\)
+**不要忘记用正确的游戏目录去替换掉**_`<ORIGINGAMES>`_ 。例如： `C:\Program Files\Origin\Library` 这是Origin平台下载游戏的目录（注意，是Origin下载的目录），而不是包含《泰坦陨落2》游戏的目录。 \(比如我Origin游戏的目录是`H:\Orishit\Games`\)
 
 {% page-ref page="modding-tools/" %}
 
