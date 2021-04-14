@@ -56,7 +56,7 @@ description: 游戏文本修改指南
 
 **泰坦弹射信息**
 
-_`COCKPIT_EJECT_PROMPT`_和 _`OCKPIT_EJECT_CONFIRMED`_这两个数据的数值是出现在泰坦主界面上的。其他的啧是主界面下方红色条中的信息。
+_`COCKPIT_EJECT_PROMPT`_和 _`OCKPIT_EJECT_CONFIRMED`_这两个数据的数值是出现在泰坦主界面上的。其他的则是主界面下方红色条中的信息。
 
 若要修改泰坦弹射信息，请查找以下代码块：
 
