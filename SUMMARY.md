@@ -108,10 +108,10 @@
   * [War Games](modding/maps/war-games/README.md)
     * [Holographic wall color](modding/maps/war-games/holographic-wall-color.md)
 * [用户界面](modding/user-interface/README.md)
-  * [Text modding r1\_language](modding/user-interface/text-modding-r1_language.md)
-  * [In Game](modding/user-interface/in-game/README.md)
+  * [游戏文本修改-r1\_language](modding/user-interface/text-modding-r1_language.md)
+  * [游戏中](modding/user-interface/in-game/README.md)
     * [Scoreboard colors](modding/user-interface/in-game/scoreboard-colors.md)
-  * [Menus](modding/user-interface/menus/README.md)
+  * [菜单](modding/user-interface/menus/README.md)
     * [Pause Menu Blur](modding/user-interface/menus/pause-menu-blur.md)
     * [Menu Background](modding/user-interface/menus/menu-background.md)
     * [Network - Menus](modding/user-interface/menus/network-menus.md)
@@ -263,7 +263,7 @@
     * [Sound - Arc Tool](game-values/sound/sound-misc-and-unknown/sound-arc-tool.md)
     * [Sound - Flamethrower](game-values/sound/sound-misc-and-unknown/sound-flamethrower.md)
     * [Sound - Triplethreat](game-values/sound/sound-misc-and-unknown/sound-triplethreat.md)
-* [图标和抬头显示](game-values/ig-icon/README.md)
+* [图标和HUD](game-values/ig-icon/README.md)
   * [铁驭](game-values/ig-icon/pilot.md)
   * [泰坦](game-values/ig-icon/titans.md)
   * [菜单](game-values/ig-icon/menu/README.md)
@@ -274,7 +274,7 @@
 ## 修改样例 <a id="mods"></a>
 
 * [低配模式](mods/plastic-mode.md)
-* [无抬头显示修改](mods/no_hud_mod.md)
+* [无HUD修改](mods/no_hud_mod.md)
 
 ## 导出资源 <a id="r2-ripping"></a>
 

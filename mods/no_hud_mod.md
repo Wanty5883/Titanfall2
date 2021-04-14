@@ -2,7 +2,7 @@
 description: 'Installation, removal and settings of the No-HUD mod'
 ---
 
-# 无抬头显示修改
+# 无HUD修改
 
 ## Preparation
 

@@ -1,64 +1,64 @@
 ---
-description: Guide to change in game text
+description: 游戏文本修改指南
 ---
 
-# Text modding r1\_language
+# 游戏文本修改-r1\_language
 
-## Preparation
+## 前期准备
 
-In this guide you will have to edit text. Simply use a text editor for that such as Atom, NotePad++, VIM and many other ones would work fine.
+在本指南中，你需要去修改文本内容。只需使用一个文本编辑器即可，例如：Atom, NotePad++, VIM。（只要是功能正常的文本编辑器就可以了，系统自带的也行）
 
 {% hint style="warning" %}
-This guide will be large. Refer to the **table of contents** to find what you are looking for.
+这个指南的内容很多，请参阅右边的目录以快速跳转至您要查找的内容。.
 {% endhint %}
 
-Since there is a lot of value, feel free to offer your help to improve this guide check [contact](https://noskill.gitbook.io/titanfall2/contact).
+因为文件存在很多数据，如果您希望改进指南的内容，随时可以[联系我们](https://noskill.gitbook.io/titanfall2/v/chinese/contact)。
 
-Navigate to your folder and find this VPK file:
+进入你的游戏目录并找到此VPK文件夹:
 
 > Origin Games\Titanfall2\vpk\
 
-Copy these file and paste them in an empty folder somewhere else:
+复制粘贴下面列出的文件到其他空的文件夹之中:
 
 * englishclient\_frontend.bsp.pak000\_dir.vpk
 * client\_frontend.bsp.pak000\_000.vpk
 
-You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
+你将会用到Titanfall VPK Tool，这个软件允许你查看并重新打包《泰坦陨落2》VPK文件。 [下载链接](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/modding-tools)​
 
-## Unpacking <a id="unpacking"></a>
+## 解包 <a id="unpacking"></a>
 
-Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
+现在，这些文件已经备份完毕并且所有东西都已经准备就绪了。在软件中进入游戏目录，并打开下面的这个文件:
 
 > Origin Games\Titanfall2\vpk\englishclient\_frontend.bsp.pak000\_dir.vpk
 
-​[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
+​[如何正确的提取VPK文件？](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack)​
 
-## Editing
+## 编辑
 
-To edit text, go to this location
+若想修改游戏文本，请先进入下面的这个文件夹之中
 
 > englishclient\_frontend.bsp.pak000\_dir.vpk\resource
 
-To edit most of the text in the game, you need to edit r1 txt file. Depending of your set game language \(in Origin\) you have to edit the right r1 file. **e.g.** If your game language is english, then you edit the file _`r1_english.txt`_.
+想要编辑游戏中的大部分文本，你需要去编辑r1文本文件。 根据您设置的游戏语言（在Origin中），选择正确的r1文本文件进行编辑。**例如：**如果你的游戏语言是英语，那么你要编辑文件是_`r1_english.txt`_。（中文是_`r1_tchinese.txt`_）
 
-Open the file _`r1_english.txt`_ and search for code block that are listed down bellow to the right text you want to edit. I won't cover all the content of this file, if you want to change some text that are not listed in this guide, you should note what you seen on your screen and use the function _search_on this file. Any suggestion are welcome ! Check [contact](https://noskill.gitbook.io/titanfall2/contact) for that
+打开_`r1_english.txt`_文件并根据你所需要修改的游戏文本来搜索下面列出的代码块。 指南中并未涵盖此文件的所有内容。如果你想修改在本指南中未列出的某些文本，请留意文本文件中的内容，并善用文本编辑器中的搜索功能。欢迎你随时提出建议！这里是[联系方式](https://noskill.gitbook.io/titanfall2/v/chinese/contact)
 
-### Chat
+### 聊天
 
-**Chat prefixes**
+**聊天前缀**
 
 ```text
 "HUD_CHAT_TEAM_PREFIX"						"[TEAM]"
 "HUD_CHAT_DEAD_PREFIX"						"[DEAD]"
 ```
 
-### Titan
+### 泰坦
 
-**Titan eject message**
+**泰坦弹射信息**
 
-The value _`COCKPIT_EJECT_PROMPT`_ & _`COCKPIT_EJECT_CONFIRMED`_ are the messages appearing on the Titan's main screen. The other ones are the message in the red bar bellow the main screen.
+_`COCKPIT_EJECT_PROMPT`_和 _`OCKPIT_EJECT_CONFIRMED`_这两个数据的数值是出现在泰坦主界面上的。其他的啧是主界面下方红色条中的信息。
 
-To edit titan ejecting message find the following code block
+若要修改泰坦弹射信息，请查找以下代码块：
 
 ```text
 "COCKPIT_EJECT_PROMPT"                          "SELF_DESTRUCT:"
@@ -84,9 +84,9 @@ To edit titan ejecting message find the following code block
 "COCKPIT_EJECT_RARE_9"                          "Drop and burn 'em up."
 ```
 
-**Titan HUD**
+**泰坦HUD**
 
-Those value set the text that show up in middle of your screen. Not the one close to the core meter.
+这些数值设置的是显示在屏幕中间的游戏文本。（而不是泰坦核心值旁边的）
 
 ```text
 "HUD_EJECT"                                     "[Eject]"
@@ -99,11 +99,11 @@ Those value set the text that show up in middle of your screen. Not the one clos
 "HUD_TITAN_DISEMBARK"                           "Hold %use% to disembark"
 ```
 
-**Titan core Meter**
+**泰坦核心值**
 
-Those value set the text around the core meter.
+这些数值用于设置泰坦核心值周围的游戏文本。
 
-It's important that you leave the values like _`%s1`_, _\`\`1%$rui/hud/titan\_core%`0+%s1`3%%\`_, _\`3%%\`_untouched.
+请不要更改这些数据：_`%s1`_, _\`\`1%$rui/hud/titan\_core%`0+%s1`3%%\`_, _\`3%%\`_
 
 ```text
 "CORE_READY"                                "CORE READY"
@@ -120,13 +120,13 @@ It's important that you leave the values like _`%s1`_, _\`\`1%$rui/hud/titan\_co
 "TITAN_EARNED_AMOUNT_COMPACT"                "`1%$rui/hud/titanfall_marker_arrow_progress%`0%s1`3%%"
 ```
 
-### Kill feed
+### 击杀效果
 
-Kill feed is the text zone where you see all the text in the down right of your screen.
+击杀效果是你在屏幕右下角看到的所有文本。
 
-**Player connection**
+**玩家连接**
 
-It's important that you leave the value _`%s1`_ untouched.
+请不要更改这个数据：_`%s1`_ 
 
 ```text
 "MP_PLAYER_CONNECTED"                          "%s1 has entered the game"
@@ -134,7 +134,7 @@ It's important that you leave the value _`%s1`_ untouched.
 "MP_SOMEONE_DISCONNECTED"                      "A player has left the game"
 ```
 
-**Death types**
+**死亡类型**
 
 ```text
 "DEATH_BUBBLE_SHIELD"						"Dome Shield"
@@ -148,7 +148,7 @@ It's important that you leave the value _`%s1`_ untouched.
 
 ### LSTAR
 
-Down bellow, code block that set the text in the little LSTAR screen.
+下面的代码块是用来设置LSTAR小屏幕中的文本。
 
 ```text
 "LSTAR_AMPED"                                  "AMPED"
@@ -160,18 +160,18 @@ Down bellow, code block that set the text in the little LSTAR screen.
 "LSTAR_DEPLETE"                                "depleted"
 ```
 
-### Gamemode
+### 游戏模式
 
-As I tested, those value are common to any gamemode if you have a respawn time set.
+正如我所测试过的。如果你有重生时间，这些数值在任何游戏模式中都是通用的。
 
 ```text
 "GAMEMODE_RESPAWNING_IN_N"					"Respawning in: `1%s1"
 "GAMEMODE_DEPLOYING_IN_N"				 	"Deploying in: `1%s1"
 ```
 
-**Capture the flag**
+**夺旗模式**
 
-Those value set the text for the different state of the flags through the wall.
+这些数值用于设置旗帜不同状态下的透视显示。
 
 ```text
 "GAMEMODE_FLAG_DEFEND"								"DEFEND"
@@ -188,7 +188,7 @@ Those value set the text for the different state of the flags through the wall.
 "GAMEMODE_FLAG_YOU"								   "You have the Flag"
 ```
 
-Those value set the text for the different action on the flag made by players.
+这些数值用于设置其他玩家对旗帜不同行为的文本。
 
 ```text
 "GAMEMODE_PLAYER_HAS_FRIENDLY_FLAG"					"%s1 has our flag!"
@@ -210,7 +210,7 @@ Those value set the text for the different action on the flag made by players.
 "GAMEMODE_PLAYER_DROPPED_FLAG_RUI"					"Dropped the Flag"
 ```
 
-Those value set the text for the different action you did on the flag.
+这些数值用于设置你对旗帜不同行为的文本。
 
 ```text
 "GAMEMODE_YOU_PICKED_UP_THE_FLAG_RUI"				"Picked up the Flag"
@@ -223,7 +223,7 @@ Those value set the text for the different action you did on the flag.
 
 **Amped Hardpoint**
 
-Those value set the text while inside a point.
+这些数值用于设置在据点时的文本。
 
 ```text
 "HUD_SECURED"										"SECURED"
@@ -236,11 +236,11 @@ Those value set the text while inside a point.
 "HUD_LOSING_ARROWS_DOWN"							 "%s1 LOSING"
 ```
 
-**Marked for death**
+**死亡标志**
 
-Those values set the text for marked kilss. It's important that you leave the values like _`%s1`_, _`3%%`_untouched.
+这些数值用于设置死亡标志的文本。请不要更改这些数据例如： _`%s1`_, _`3%%`_
 
-For more mark for death text value, with the function search look for _`MARKED_FOR_DEATH`_.
+若想修改其他关于死亡标记的数值，请在文本编辑器中搜索： _`MARKED_FOR_DEATH`_.
 
 ```text
 "GAMEMODE_MARKED_FOR_DEATH_KILLED"			"%s1 killed %s2"
@@ -251,38 +251,38 @@ For more mark for death text value, with the function search look for _`MARKED_F
 "GAMEMODE_MARKED_ENEMY_MARKED_DIED"			"%s1 died"
 ```
 
-### First strike
+### 首杀
 
-Set the text about first strike.
+用于设置关于首杀的文本。
 
 ```text
 "EVENTNOTIFY_FIRST_STRIKE_FRIENDLY"					"First Strike! %s1 killed %s2"
 "EVENTNOTIFY_FIRST_STRIKE_ENEMY"					"First Strike! %s1 killed %s2"
 ```
 
-### Out of map
+### 脱离地图范围
 
 ```text
 "OUT_OF_BOUNDS_WARNING"    "RETURN TO THE BATTLE!"
 ```
 
-### Server error
+### 服务器错误
 
 ```text
 "CLIENT_DELTA_BUFFER_OVERFLOW"    "Server error - client desynchronization"
 ```
 
-## Repacking <a id="repacking"></a>
+## 重新打包 <a id="repacking"></a>
 
-​[How to repack VPK files proprely ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
+​[如何正确的重新打包VPK文件？](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack)​
 
-After following step by step the previous link
+在按步骤完成了上方链接的内容之后：
 
-Rename pak000\_000.vpk _to_ **client\_frontend.bsp.pak000\_000.vpk**
+重命名pak000\_000.vpk为**client\_frontend.bsp.pak000\_000.vpk**
 
-Rename pak000\_dir.vpk _to_ **englishclient\_frontend.bsp.pak000\_dir.vpk**
+重命名pak000\_dir.vpk为**englishclient\_frontend.bsp.pak000\_dir.vpk**
 
-Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see your new crosshair!
+将两个重命名完成的文件放回下面所示的文件夹之中并覆盖文件，然后启动《泰坦陨落2》。你就能看见修改后游戏文本了！
 
 > Origin Games\Titanfall2\vpk\
 
