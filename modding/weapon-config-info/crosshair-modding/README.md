@@ -84,7 +84,7 @@ active_crosshair_count "2"
 
 这些数值就是准星本身。你可以将它们替换为在其他配置文件中找到的任何其他ui/crosshair数值 。如果你找到了新的准星，你可以发消息给我。
 
-有些准星是动态的，比如冲锋枪、破片手榴弹和其他一些有动画效果的准星。在某些情况下，改为动态准星可以正常使用，在其他情况下则不行。. As a working example: my favorite crosshair combo is using the charge rifle crosshair for the Northstar railgun. For a non working example: the frag grenade crosshair on the CAR won't work well.
+有些准星是动态的，比如冲锋枪、破片手榴弹和其他一些有动画效果的准星。在某些情况下，改为动态准星可以正常使用，在其他情况下则不行。举个正常使用的例子：我最喜欢的准星组合是在北极星的电浆磁轨炮上使用冲锋枪的准星。一个不起作用的例子：在CAR上使用破片手榴弹的准星则不能正常使用。
 
 ![](../../../.gitbook/assets/crosshair1.PNG)
 
