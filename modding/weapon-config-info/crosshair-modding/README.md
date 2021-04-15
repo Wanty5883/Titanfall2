@@ -6,36 +6,36 @@ description: 准星图标修改指南
 
 ## 前期准备
 
-Navigate to your folder and find this VPK file:
+进入以下目录并找到所需的VPK文件：
 
 > Origin Games\Titanfall2\vpk\
 
-Copy these file and paste them in an empty folder somewhere else:
+复制粘贴下面的文件到其他空的文件夹之中:
 
 * englishclient\_mp\_common.bsp.pak000\_dir.vpk
 * client\_mp\_common.bsp.pak000\_000.vpk
 
-You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
+你将会用到Titanfall VPK Tool来打开和重新打包《泰坦陨落2》VPK 文件。[工具链接](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/modding-tools)
 
 ## 解包
 
-Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
+现在，这些文件已经备份完毕并且所有东西都已准备就绪。在软件中进入游戏目录并打开这个文件：
 
 > Origin Games\Titanfall2\vpk\englishclient\_mp\_common.bsp.pak000\_dir.vpk
 
-[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
+[如何正确地解包VPK文件？](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack)
 
 ## 编辑
 
-Go to this location in your extracted folder
+进入解压文件夹中下面的目录：
 
 ```text
 englishclient_mp_common.bsp.pak000_dir.vpk\scripts\weapons
 ```
 
-This folder contains the "config files" for the weapons. Edit those files at your own risk, if you get banned because you edit some important value don’t blame me.
+这个文件夹包含所有武器的"配置文件"，修改文件所产生的风险由你自己承担。如果因为你修改核心数值而导致的账号封禁，别把责任归咎于我。
 
-Find that code block to get where is the crosshair code part.
+查找下面的代码块来得到准星代码部分的位置。
 
 ```text
 active_crosshair_count                      “1”
@@ -44,9 +44,9 @@ rui_crosshair_index                         “0”
 RUI_CrosshairData
 ```
 
-From this part to the bottom of the _`RUI_CrosshairData`_ bracket that's the part that we will edit together ! \(finally getting into the interesting part !\)
+从这部分到_`RUI_CrosshairData`_ 括号的底部都是我们将要修改的地方！\(终于到有意思的地方了！\)
 
-To change the crosshair, you have to change the _`ui`_ with the one you want. You can find the value for the different crosshair in the game down bellow.
+想要修改准星，你需要去把_`ui`_ 成你想要的。You can find the value for the different crosshair in the game down bellow.
 
 For example, change
 
