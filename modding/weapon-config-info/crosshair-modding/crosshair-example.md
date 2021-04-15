@@ -1,8 +1,8 @@
 # 准星样例
 
 {% tabs %}
-{% tab title="Wanty\'s crosshair" %}
-\(outdated\)
+{% tab title="Wanty使用的准星" %}
+\(已过期\)
 
 | Weapon | Crosshair1 | Speard | Crosshair2 | Speard | Crosshair3 | Spread |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
