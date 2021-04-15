@@ -133,7 +133,7 @@ More argument information on this page
 
 {% page-ref page="../" %}
 
-### 配置文件名
+### 配置文件名称
 
 不同武器配置文件的列表，有时候名字和游戏名字不一样。.
 
@@ -143,13 +143,13 @@ More argument information on this page
 
 [如何正确地重新打包VPK文件？](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack#ru-he-zheng-que-di-zhong-xin-da-bao-vpk)
 
-After following step by step the previous link
+在按步骤完成了上方链接的内容之后：
 
-Rename pak000\_000.vpk _to_ **client\_mp\_common.bsp.pak000\_000.vpk**
+重命名pak000\_000.vpk为**client\_mp\_common.bsp.pak000\_000.vpk**
 
-Rename pak000\_dir.vpk _to_ **englishclient\_mp\_common.bsp.pak000\_dir.vpk**
+重命名pak000\_dir.vpk为**englishclient\_mp\_common.bsp.pak000\_dir.vpk**
 
-Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see your new crosshair!
+将两个重命名完成的文件放回下面所示的文件夹之中并覆盖文件，然后启动《泰坦陨落2》。你就能看见你的新准星了！
 
 > Origin Games\Titanfall2\vpk\
 
