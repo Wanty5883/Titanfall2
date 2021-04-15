@@ -260,7 +260,7 @@ _`COCKPIT_EJECT_PROMPT`_和 _`OCKPIT_EJECT_CONFIRMED`_这两个数据的数值�
 "EVENTNOTIFY_FIRST_STRIKE_ENEMY"					"First Strike! %s1 killed %s2"
 ```
 
-### 脱离地图范围
+### 超出地图范围
 
 ```text
 "OUT_OF_BOUNDS_WARNING"    "RETURN TO THE BATTLE!"
