@@ -2,7 +2,7 @@
 description: Guide on changing the lobby music.
 ---
 
-# Lobby music
+# 大厅背景音乐
 
 ## Preparation <a id="preparation"></a>
 

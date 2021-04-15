@@ -2,7 +2,7 @@
 description: Add additional settings and toggles to the Controls menu
 ---
 
-# Controls
+# 控制
 
 ![The Titanfall 2 Controls settings menu with the added sv\_cheats highlighted](../../../../.gitbook/assets/snapshot0014.jpg)
 

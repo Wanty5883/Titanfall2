@@ -2,7 +2,7 @@
 description: How to change the blur in the single player pause menu
 ---
 
-# Pause Menu Blur
+# 暂停菜单模糊
 
 The blur you can see in the background of the pause menu is controlled by a couple of ConVars
 

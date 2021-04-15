@@ -1,8 +1,8 @@
 ---
-description: Step by step guide to edit cube map
+description: 编辑立体地图的步骤指南
 ---
 
-# Maps - Cube Map
+# 地图-立体地图
 
 ## Preparation
 

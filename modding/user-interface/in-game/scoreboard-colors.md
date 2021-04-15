@@ -1,4 +1,4 @@
-# Scoreboard colors
+# 计分板背景
 
 ## Preparation
 

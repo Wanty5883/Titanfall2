@@ -2,7 +2,7 @@
 description: Add additional custom key bindings to the Key Bindings menu
 ---
 
-# Key Bindings
+# 按键设置
 
 ![Edited Key Bindings menu with Titanfall 2 speedrunning section](../../../../.gitbook/assets/snapshot0015.jpg)
 

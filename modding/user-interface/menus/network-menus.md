@@ -2,7 +2,7 @@
 description: Guide to edit network menus details and color
 ---
 
-# Network - Menus
+# 网路-菜单
 
 ## Preparation
 

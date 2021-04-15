@@ -2,7 +2,7 @@
 description: Guide on changing the killsound.
 ---
 
-# Killsound
+# 击杀音效
 
 {% hint style="danger" %}
 Too many sounds playing at once may cause stutter. Make your sound as short as possible to prevent multikills from causing stutter.

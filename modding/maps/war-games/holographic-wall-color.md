@@ -4,7 +4,7 @@ description: >-
   map
 ---
 
-# Holographic wall color
+# 全息墙颜色
 
 ## Preparation
 

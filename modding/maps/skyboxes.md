@@ -2,7 +2,7 @@
 description: Change the Skybox of different maps
 ---
 
-# Maps - Skyboxes
+# 地图-天空背景
 
 ## Preparation
 

@@ -2,7 +2,7 @@
 description: Modifying the main menu and startup videos
 ---
 
-# Menu Background
+# 主菜单背景
 
 For this tutorial you will need **Rad Video Tools** which you can find on the [Modding Tools](../../../how-to-start-modding/modding-introduction/modding-tools/) page as well as **Quicktime 7.6** for Windows \(this will help to convert your video the bik format\).
 
