@@ -39,7 +39,7 @@ description: 游戏文本修改指南
 
 > englishclient\_frontend.bsp.pak000\_dir.vpk\resource
 
-想要编辑游戏中的大部分文本，你需要去编辑r1文本文件。 根据您设置的游戏语言（在Origin中），选择正确的r1文本文件进行编辑。**例如：**如果你的游戏语言是英语，那么你要编辑文件是_`r1_english.txt`_。（中文是_`r1_tchinese.txt`_）
+想要编辑游戏中的大部分文本，你需要去编辑r1文本文件。 根据你设置的游戏语言（在Origin中），选择正确的r1文本文件进行编辑。**例如：**如果你的游戏语言是英语，那么你要编辑文件是_`r1_english.txt`_。（中文是_`r1_tchinese.txt`_）
 
 打开_`r1_english.txt`_文件并根据你所需要修改的游戏文本来搜索下面列出的代码块。 指南中并未涵盖此文件的所有内容。如果你想修改在本指南中未列出的某些文本，请留意文本文件中的内容，并善用文本编辑器中的搜索功能。欢迎你随时提出建议！这里是[联系方式](https://noskill.gitbook.io/titanfall2/v/chinese/contact)
 
