@@ -1,4 +1,4 @@
-# Loadscreen
+# 加载界面
 
 | Loadscreen name | Value | Note |
 | :--- | :--- | :--- |

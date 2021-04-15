@@ -1,6 +1,6 @@
-# Scoreboard
+# 计分板
 
-## File Location
+## 文件位置
 
 ```text
 englishclient_frontend.bsp.pak000_dir.vpk\scripts\vscripts\sh_scoreboard.gnut
