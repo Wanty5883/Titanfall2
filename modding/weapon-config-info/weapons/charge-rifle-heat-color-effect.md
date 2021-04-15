@@ -2,7 +2,7 @@
 description: Charge rifle heat color effect guide
 ---
 
-# 电能步枪 - Heat color
+# 电能步枪-蓄力颜色
 
 ## 前期准备 <a id="preparation"></a>
 

@@ -1,4 +1,4 @@
-# Northstar - Thermite
+# 北极星-铝热剂特效
 
 ## Preparation
 

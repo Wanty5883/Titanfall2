@@ -1,4 +1,4 @@
-# Northstar - Gravity
+# 北极星-重力特效
 
 ## Preparation
 

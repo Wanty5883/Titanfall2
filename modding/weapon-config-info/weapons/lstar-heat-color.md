@@ -2,7 +2,7 @@
 description: LSTAR heat effect guide
 ---
 
-# LSTAR - Heat color
+# LSTAR-蓄力颜色
 
 ## 前期准备 <a id="preparation"></a>
 

@@ -1,4 +1,4 @@
-# Railgun - Heat color
+# 电浆磁轨炮-蓄力颜色
 
 ## Preparation <a id="preparation"></a>
 
