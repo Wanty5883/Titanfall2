@@ -6,7 +6,7 @@ description: 修改武器的视觉效果
 
 ## 前期准备 <a id="preparation"></a>
 
-导向至以下目录并找到所需VPK文件:
+进入以下目录并找到所需的VPK文件:
 
 > Origin Games\Titanfall2\vpk\
 
@@ -19,19 +19,19 @@ description: 修改武器的视觉效果
 
 ## 解包 <a id="unpacking"></a>
 
-Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
+现在，这些文件已经备份完毕并且所有东西都已准备就绪。在软件中进入游戏目录并打开这个文件：
 
 > Origin Games\Titanfall2\vpk\englishclient\_mp\_common.bsp.pak000\_dir.vpk
 
-​[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
+​[如何正确地解包VPK文件？](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack)
 
 ### 特效
 
 > englishclient\_mp\_common.bsp.pak000\_dir.vpk\scripts\weapons
 
-This folder contains the "config files" for the weapons. Edit these files at your own risk. If you get banned because you edited important values, don’t blame me.
+这个文件夹包含所有武器的"配置文件"，修改文件所产生的风险由你自己承担。如果因为你修改核心数值而导致的账号封禁，别把责任归咎于我。
 
-This guide will cover values below the comment `// Effects` in those files. It will be large and there are many different values, so for easier navigation refer to the **table of contents**. This is the part of the file we are looking for:
+本指南将会介绍这些文件中注释 `// Effects`对应的数值， 它包含很多的内容和各种不同的数值。为了更快找到你所需要的东西，请参阅**目录**。这是我们要在文件中查找的一部分内容：
 
 ```text
 // Effects
