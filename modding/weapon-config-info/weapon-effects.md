@@ -52,7 +52,7 @@ description: 修改武器的视觉效果
 "fx_muzzle_flash_attach"	  				"muzzle_flash"
 ```
 
-As you may have noticed, some weapons have their effects changed when Amped. This is what you should look for:
+正如你所见到的，部分武器的效果在穿过A盾后会发生变化。 这是你应该查找的部分，例如：
 
 ```text
 {
@@ -68,8 +68,8 @@ As you may have noticed, some weapons have their effects changed when Amped. Thi
 
 #### impact\_effect\_table
 
-This value defines the impact animation when the bullet hits players or walls. It can be added to weapons that don't have this value already. From previous testing results, it is not possible to combine multiple impact animations.  
-Impact\_effect\_table accepts other types of values, like tracers.
+这个值用于定义子弹击中玩家或墙壁时的碰撞动画，它可以被添加到那些没有这个数值的武器上。根据以前的测试结果，无法同时组合多个碰撞动画。  
+Impact\_effect\_table接受其他类型的数值，例如tracers。
 
 You can have different values between the normal and amped modes on each weapon config file. Find impact values in game values FX:
 
@@ -84,7 +84,7 @@ Tracer effects are for **hitscan weapons only**, this function does not affect p
 "tracer_effect_first_person"                    "P_wpn_tracer"
 ```
 
-`tracer_effect` will affect the **overall game**, in other words, it will change the tracer particle of other players using the edited weapon \(this is client side of course\). `tracer_effect_first_person` will effect **you**. You can set different values between them. From previous testing, it can be very confusing or even have a negative impact on your game performance if there are too many `tracer_effect` on too many different weapons. I personally rarely change it, I only change `tracer_effect_first_person` most of the time.
+`tracer_effect` 将会影响到**整个游戏**。换句话来说，它会改变其他玩家使用被修改武器时的tracer particle效果 \(修改效果只有你可见\)。`tracer_effect_first_person`则只会影响到你自己。你可以为这两个数据设置不同的数值。从以前的测试结果来看，如果在太多不同的武器上有太多的`tracer_effect` 可能会非常混乱，甚至会降低游戏性能。就我个人而言，我很少修改它；即便修改了，大多数时候我也只修改 `tracer_effect_first_person` 。
 
 {% page-ref page="../../game-values/fx/" %}
 
