@@ -1,4 +1,4 @@
-# Power shot heat color
+# Power shot蓄力颜色
 
 ## Preparation
 

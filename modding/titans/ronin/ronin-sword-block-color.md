@@ -1,4 +1,4 @@
-# Sword block color
+# 剑封颜色
 
 ## Preparation
 
