@@ -2,7 +2,7 @@
 description: Titan FX value
 ---
 
-# FX - Titans
+# FX-泰坦
 
 ## Titan
 

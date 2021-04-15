@@ -1,8 +1,8 @@
 ---
-description: LMG's sound value
+description: 轻机枪声音数据
 ---
 
-# LMG
+# 轻机枪
 
 {% tabs %}
 {% tab title="Devotion" %}

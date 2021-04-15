@@ -1,8 +1,8 @@
 ---
-description: Legion sound value
+description: 军团声音数据
 ---
 
-# Sound - Legion
+# 声音-军团
 
 {% tabs %}
 {% tab title="Predator Cannon" %}

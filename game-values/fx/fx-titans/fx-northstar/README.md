@@ -2,7 +2,7 @@
 description: Northstar FX value
 ---
 
-# FX - Northstar
+# FX-北极星
 
 
 

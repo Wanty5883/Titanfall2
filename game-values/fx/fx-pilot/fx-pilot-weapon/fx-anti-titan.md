@@ -2,7 +2,7 @@
 description: Anti-Titan weapon FX value
 ---
 
-# FX - Anti-Titan
+# FX-反泰坦武器
 
 {% tabs %}
 {% tab title="Archer" %}

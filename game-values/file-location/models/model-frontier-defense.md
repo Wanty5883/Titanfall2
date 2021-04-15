@@ -1,4 +1,4 @@
-# Model - Frontier Defense
+# 模型-边境防御
 
 | Model name | Value | Note |
 | :--- | :--- | :--- |

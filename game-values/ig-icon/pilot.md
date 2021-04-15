@@ -1,10 +1,10 @@
 ---
-description: Pilot related icon value
+description: 铁驭相关的图标数据
 ---
 
 # 铁驭
 
-## Pilot Abilities
+## 铁驭能力
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
@@ -25,14 +25,14 @@ description: Pilot related icon value
 | Stim | rui/pilot\_loadout/tactical/pilot\_tactical\_stim |  |
 | ?? | rui/menu/boosts/boost\_icon\_core\_overload | FD content ? |
 
-## **Pilot Ordnance**
+## **铁驭投掷物**
 
 | **Icon name** | Value | Note |
 | :--- | :--- | :--- |
 | Electric Smoke | rui/pilot\_loadout/ordnance/electric\_smoke\_menu |  |
 | Electric Smoke | rui/pilot\_loadout/ordnance/electric\_smoke |  |
 
-## Pilot Weapons
+## 铁驭武器
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
@@ -43,14 +43,14 @@ description: Pilot related icon value
 | Arc Tool | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_arc\_tool |  |
 | Melee | rui/hud/common/melee\_icon |  |
 
-### Assault Rifle
+### 突击步枪
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
 | Hemlok | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_hemlok |  |
 | R-201 | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_r102 |  |
 
-### SMG
+### 冲锋枪
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
@@ -59,20 +59,20 @@ description: Pilot related icon value
 | R-97 | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_r97n |  |
 | Volt | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_volt |  |
 
-### LMG
+### 轻机枪
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
 | Devotion | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_esaw |  |
 | LSTAR | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_lstar |  |
 
-### Sniper Rifle
+### 狙击步枪
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
 | Kraber | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_kraber |  |
 
-### Shotgun
+### 散弹枪
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
@@ -94,7 +94,7 @@ description: Pilot related icon value
 | Smart Pistol | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_smartpistol |  |
 | Wingman Elite | r2\_ui/menus/loadout\_icons/primary\_weapon/primary\_wingman\_elite |  |
 
-### Anti-Titan
+### 反泰坦武器
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |

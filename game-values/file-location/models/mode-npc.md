@@ -1,4 +1,4 @@
-# Model - NPC
+# 模型-NPC
 
 | Model name | Value | Note |
 | :--- | :--- | :--- |

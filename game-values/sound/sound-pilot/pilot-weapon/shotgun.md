@@ -1,8 +1,8 @@
 ---
-description: Shotgun sound value
+description: 散弹枪声音数据
 ---
 
-# Shotgun
+# 散弹枪
 
 {% tabs %}
 {% tab title="EVA8" %}

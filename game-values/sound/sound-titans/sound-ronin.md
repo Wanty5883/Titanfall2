@@ -1,8 +1,8 @@
 ---
-description: Ronin sound value
+description: 浪人声音数据
 ---
 
-# Sound - Ronin
+# 声音-浪人
 
 {% tabs %}
 {% tab title="Arc Wave" %}

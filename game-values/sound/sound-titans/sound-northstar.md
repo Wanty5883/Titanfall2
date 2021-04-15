@@ -1,8 +1,8 @@
 ---
-description: Northstar sound value
+description: 北极星声音数据
 ---
 
-# Sound - Northstar
+# 声音-北极星
 
 {% tabs %}
 {% tab title="Railgun" %}

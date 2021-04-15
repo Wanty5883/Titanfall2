@@ -1,8 +1,8 @@
 ---
-description: Sniper rifle sound values
+description: 狙击步枪声音数据
 ---
 
-# Sniper
+# 狙击步枪
 
 {% tabs %}
 {% tab title="DMR" %}

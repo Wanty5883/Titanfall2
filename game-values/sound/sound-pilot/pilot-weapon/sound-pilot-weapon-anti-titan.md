@@ -1,8 +1,8 @@
 ---
-description: Anti-Titan weapon sound value
+description: 反泰坦武器声音数据
 ---
 
-# Anti-Titan
+# 反泰坦武器
 
 {% tabs %}
 {% tab title="Archer" %}

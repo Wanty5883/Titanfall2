@@ -1,8 +1,8 @@
 ---
-description: SMG's sound value
+description: 冲锋枪声音数据
 ---
 
-# SMG
+# 冲锋枪
 
 {% tabs %}
 {% tab title="Alternator" %}

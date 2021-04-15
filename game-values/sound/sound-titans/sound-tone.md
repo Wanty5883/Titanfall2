@@ -1,8 +1,8 @@
 ---
-description: Tone sound value
+description: 强力声音数据
 ---
 
-# Sound - Tone
+# 声音-强力
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |

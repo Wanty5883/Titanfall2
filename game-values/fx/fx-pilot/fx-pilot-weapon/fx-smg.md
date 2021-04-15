@@ -2,7 +2,7 @@
 description: SMG FX value
 ---
 
-# FX - SMG
+# FX-冲锋枪
 
 {% tabs %}
 {% tab title="SMG" %}

@@ -2,7 +2,7 @@
 description: Shotgun FX value
 ---
 
-# FX - Shotgun
+# FX-散弹枪
 
 {% tabs %}
 {% tab title="EVA8" %}

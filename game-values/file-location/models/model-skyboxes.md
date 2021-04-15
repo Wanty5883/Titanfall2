@@ -2,7 +2,7 @@
 description: Extra information about skyboxes models
 ---
 
-# Model - Skyboxes
+# 模型-天空背景
 
 <table>
   <thead>

@@ -1,8 +1,8 @@
 ---
-description: Scorch sound value
+description: 烈焰声音数据
 ---
 
-# Sound - Scorch
+# 声音-烈焰
 
 {% tabs %}
 {% tab title="Flame Core" %}

@@ -1,8 +1,8 @@
 ---
-description: Assault Rifles sound value
+description: 突击步枪声音数据
 ---
 
-# Assault Rifle
+# 突击步枪
 
 {% tabs %}
 {% tab title="Flatline" %}

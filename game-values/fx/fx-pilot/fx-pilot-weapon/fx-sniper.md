@@ -2,7 +2,7 @@
 description: Sniper FX value
 ---
 
-# FX - Sniper
+# FX-狙击步枪
 
 {% tabs %}
 {% tab title="DMR" %}

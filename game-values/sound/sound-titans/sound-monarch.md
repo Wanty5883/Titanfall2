@@ -1,8 +1,8 @@
 ---
-description: Monarch sound value
+description: 帝王声音数据
 ---
 
-# Sound - Monarch
+# 声音-帝王
 
 {% tabs %}
 {% tab title="Chaingun" %}

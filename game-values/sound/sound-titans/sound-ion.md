@@ -1,8 +1,8 @@
 ---
-description: Ion sound value
+description: 离子声音数据
 ---
 
-# Sound - Ion
+# 声音-离子
 
 {% tabs %}
 {% tab title="Particle Accelerator" %}

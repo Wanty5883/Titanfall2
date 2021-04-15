@@ -2,7 +2,7 @@
 description: Ion FX value
 ---
 
-# FX - Ion
+# FX-离子
 
 ## Weapons
 

@@ -1,6 +1,6 @@
-# FX - Pilot Ability
+# FX-铁驭能力
 
-## Pilot Ability
+## 铁驭能力
 
 | Value | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |

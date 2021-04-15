@@ -2,7 +2,7 @@
 description: Legion FX value
 ---
 
-# FX - Legion
+# FX-军团
 
 | Value | Note | Tracer | Projectile | Muzzleflash |
 | :--- | :--- | :--- | :--- | :--- |

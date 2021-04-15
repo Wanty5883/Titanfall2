@@ -2,7 +2,7 @@
 description: Tone FX value
 ---
 
-# FX - Tone
+# FX-强力
 
 
 

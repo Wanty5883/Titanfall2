@@ -2,7 +2,7 @@
 description: Scorch FX value
 ---
 
-# FX - Scorch
+# FX-烈焰
 
 | Value | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |

@@ -2,7 +2,7 @@
 description: Ordnance FX value
 ---
 
-# FX - Pilot Ordnance
+# FX-铁驭投掷物
 
 {% tabs %}
 {% tab title="Arc Grenade" %}

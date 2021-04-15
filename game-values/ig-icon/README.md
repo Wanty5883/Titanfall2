@@ -6,13 +6,13 @@
 | :--- |
 
 
-### Drones, Turret & Gunship
+### 无人机、炮台和舰艇
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
 | Turret Mega Fort War | r2\_ui/menus/loadout\_icons/anti\_titan/at\_defenderc |  |
 
-### Gamemode
+### 游戏模式
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
@@ -22,9 +22,9 @@
 | Bomb | r2\_ui/hud/gametype\_icons/bomb/bomb\_marker\_friendly |  |
 | Bomb | r2\_ui/hud/gametype\_icons/bomb/bomb\_marker\_enemy |  |
 
-## Menus Icon
+## 菜单图标
 
-### Challenge
+### 挑战模式
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |

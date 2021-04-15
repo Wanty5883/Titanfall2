@@ -1,13 +1,13 @@
 # 泰坦
 
-## Ion
+## 离子
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
 | Laser Shot | rui/titan\_loadout/ordnance/concussive\_shot\_short |  |
 | Laser Shot | rui/titan\_loadout/ordnance/concussive\_shot\_long |  |
 
-## Northstar
+## 北极星
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
@@ -16,21 +16,21 @@
 | Cluster Missile | rui/menu/fd\_menu/upgrade\_northstar\_twin\_cluster\_hud | FD content |
 | Railgun | r2\_ui/menus/loadout\_icons/titan\_weapon/titan\_weapon\_railgun |  |
 
-## Scorch
+## 烈焰
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
 | Meteor  | r2\_ui/menus/loadout\_icons/titan\_weapon/titan\_weapon\_thermite\_cannon |  |
 | Incendiary Trap | rui/menu/fd\_menu/upgrade\_scorch\_explosive\_barrells\_hud |  |
 
-## Ronin
+## 浪人
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
 | Sword Block | rui/titan\_loadout/defensive/titan\_defensive\_sword\_block\_menu |  |
 | Sword Block | rui/titan\_loadout/defensive/titan\_defensive\_sword\_block |  |
 
-## Misc
+## 杂项
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
