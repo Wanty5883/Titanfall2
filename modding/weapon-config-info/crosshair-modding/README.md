@@ -46,15 +46,15 @@ RUI_CrosshairData
 
 从这部分到_`RUI_CrosshairData`_ 括号的底部都是我们将要修改的地方！\(终于到有意思的地方了！\)
 
-想要修改准星，你需要去把_`ui`_ 成你想要的。You can find the value for the different crosshair in the game down bellow.
+若要修改准星，你需要把_`ui`_ 改成你想要的；你可以在下文中找到不同的准星数值。
 
-For example, change
+例如：
 
-_`ui/crosshair_tri`_ to _`ui/crosshair_alternator`_
+把_`ui/crosshair_tri`_改成_`ui/crosshair_alternator`_
 
 That will change the classic AR / SMG \(used on R201, CAR, R97...\) to the Alternator crosshair.
 
-Is possible to combine multiple crosshair at the same time, for that you need to duplicate _`Crosshair_1`_ bracket and is value inside like this example
+可以同时组合多个不同的准星；你需要复制_`Crosshair_1`_括号内的内容，并且里面的数值就像下面的例子一样。
 
 ```text
 Crosshair_1
@@ -68,7 +68,7 @@ Crosshair_1
 }
 ```
 
-Don't copy paste the value from this example, use the one you have in the edited file!
+不要复制粘贴上面例子中的数值，请使用你正在编辑的文件中的值！
 
 ### active\_crosshair\_count
 
@@ -76,13 +76,13 @@ Don't copy paste the value from this example, use the one you have in the edited
 active_crosshair_count "2"
 ```
 
-This value set the amount of crosshair you would like to use at once. To use multiple crosshair at once, you need to change that value to the amount of `Crosshair_x` bracket you want to combine.
+这个数值用于设置你同时使用的准星数量。要同时使用多个准星，你需要修改这个数值为你在 `Crosshair_x`括号内融合的准星总数。
 
-You can change the _`base_spread`_ value to change the based size of the crosshair, this won't change the vector size but the distance between the center of the screen and the different parts of the crosshair. You can use positive or negative values
+你可以修改_`base_spread`_这个数值来改变准星的基础大小。这不会影响武器的实际扩散，而是更改了屏幕中心和准星不同部分之间的距离。（可以使用正值或负值）
 
 ### ui/crosshair
 
-These values are the crosshair itself. They can be swapped to any other ui/crosshair value you can find in other config files. You can send me a message if you find other ones.
+这些数值就是准星本身。你可以将它们替换为在其他配置文件中找到的任何其他ui/crosshair数值 。You can send me a message if you find other ones.
 
 Some crosshairs are dynamic, like the charge rifle, frag grenade and a couple of other crosshairs that have animations. In some cases changing to another dynamic crosshair will work fine, in other cases it won't. As a working example: my favorite crosshair combo is using the charge rifle crosshair for the Northstar railgun. For a non working example: the frag grenade crosshair on the CAR won't work well.
 
