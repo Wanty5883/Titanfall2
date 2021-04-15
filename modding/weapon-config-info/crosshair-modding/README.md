@@ -96,7 +96,7 @@ Some crosshair are dynamics, like the charge rifle, frag grenade and some other 
 
 ### base\_spread
 
-This value set the based size of the crosshair, this won't change the vector size but the distance between the center of the screen and the different parts of the crosshair. You can use positive or negative values.
+这个数值用于修改准星的基础大小。这不会影响武器的实际扩散，而是更改了屏幕中心和准星不同部分之间的距离。（可以使用正值或负值）
 
 ### RUI\_CrosshairData & Arguments
 
@@ -133,15 +133,15 @@ More argument information on this page
 
 {% page-ref page="../" %}
 
-### Config文件名
+### 配置文件名
 
-List of the different weapon config files. Sometimes names are not the same as in game name.
+不同武器配置文件的列表，有时候名字和游戏名字不一样。.
 
 {% page-ref page="../../../game-values/file-location/weapon-config-file-name.md" %}
 
 ## 重新打包
 
-[How to repack VPK files proprely?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)
+[如何正确地重新打包VPK文件？](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack#ru-he-zheng-que-di-zhong-xin-da-bao-vpk)
 
 After following step by step the previous link
 

@@ -274,7 +274,7 @@ _`COCKPIT_EJECT_PROMPT`_和 _`OCKPIT_EJECT_CONFIRMED`_这两个数据的数值�
 
 ## 重新打包 <a id="repacking"></a>
 
-​[如何正确的重新打包VPK文件？](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack)​
+​[如何正确的重新打包VPK文件？](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack#ru-he-zheng-que-di-zhong-xin-da-bao-vpk)​
 
 在按步骤完成了上方链接的内容之后：
 
