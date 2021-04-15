@@ -50,7 +50,7 @@ Open up a config, and verify that the change has gone through, and delete all th
 
 ## 脚注
 
-如果你不恰当地使用这个程序把事情搞砸了，那是你的问题，不是我们的问题。如果本指南有任何错误，请在Discord服务器中标记`@Frontier Militia`来提醒我们查看并关注您的建议。
+如果你错误地使用这个软件把事情搞砸了，那是你的问题，不是我们的问题。如果本指南有任何错误，请在Discord服务器中标记`@Frontier Militia`来提醒我们查看并关注您的建议。
 
 {% page-ref page="../../../" %}
 
