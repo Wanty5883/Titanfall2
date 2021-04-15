@@ -1,4 +1,4 @@
-# Splitter Rifle - Heat effect
+# Splitter Rifle-蓄力颜色
 
 ## Preparation
 

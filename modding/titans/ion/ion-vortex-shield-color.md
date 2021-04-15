@@ -1,4 +1,4 @@
-# Vortex shield color
+# 漩涡防护罩颜色
 
 ## Preparation
 
