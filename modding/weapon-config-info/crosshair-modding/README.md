@@ -52,7 +52,7 @@ RUI_CrosshairData
 
 把_`ui/crosshair_tri`_改成_`ui/crosshair_alternator`_
 
-That will change the classic AR / SMG \(used on R201, CAR, R97...\) to the Alternator crosshair.
+它会把经典的步枪/冲锋枪准星\(在R201, CAR, R97等等上面使用的\) 改为转换者的准星。
 
 可以同时组合多个不同的准星；你需要复制_`Crosshair_1`_括号内的内容，并且里面的数值就像下面的例子一样。
 
