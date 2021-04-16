@@ -6,47 +6,47 @@ description: 武器在屏幕上的位置
 
 ## 前期准备
 
-Navigate to your folder and find this VPK file:
+进入以下目录并找到所需的VPK文件:
 
 > Origin Games\Titanfall2\vpk\
 
-Copy these files and paste them into an empty folder somewhere else:
+复制粘贴下面的文件到其他空的文件夹之中:
 
 * englishclient\_mp\_common.bsp.pak000\_dir.vpk
 * client\_mp\_common.bsp.pak000\_000.vpk
 
-You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
+你将会用到Titanfall VPK Tool来打开和重新打包《泰坦陨落2》VPK 文件。​[工具链接](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/modding-tools)
 
 ## 解包
 
-Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
+现在，这些文件已经备份完毕并且所有东西都已准备就绪。在软件中进入游戏目录并打开这个文件：
 
 > Origin Games\Titanfall2\vpk\englishclient\_mp\_common.bsp.pak000\_dir.vpk
 
-[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
+[如何正确地解包VPK文件？](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack)
 
 ## 编辑
 
-Navigate to this location in your extracted folder
+进入以下的解包目录
 
 > \scripts\weapons
 
-This folder contains the "config files" for the weapons. Edit those files at your own risk, if you get banned because you edit some important value don’t blame me.
+这个文件夹包含所有武器的"配置文件"，修改文件所产生的风险由你自己承担。如果因为你修改核心数值而导致的账号封禁，别把责任归咎于我。
 
-Find this part of code in the file:
+在文件中找到这部分代码：
 
 ```text
 MP_BASE
 	{
 ```
 
-You want to add the following command in there:
+要在其中添加以下命令：
 
 ```text
 "viewmodel_offset_hip" 						"x z y"
 ```
 
-So it should look like this: 
+所以它应该是这样的：
 
 ```text
 MP_BASE
@@ -55,13 +55,13 @@ MP_BASE
 
 ### 位置数值
 
-The Standard value for each of the coordinates is "0". 
+每个坐标的标准值为“0”。
 
-A positive "X" value is going to move the gun to the right, a negative one to the left.
+“X”值为正会使武器移到右边，为负则移到左边。
 
-A positive "Z" value is going to move the gun Forwards, a negative one backwards.
+“Z”值为正会使武器向前移动，为负则向后移动。
 
-A positive "Y" value is going to move the gun up, a negative one down. 
+“Y”值为正会使武器向上移动，为负则向下移动。
 
 ### 样例
 
@@ -73,15 +73,15 @@ A positive "Y" value is going to move the gun up, a negative one down.
 
 ## 重新打包
 
-[How to repack VPK files proprely?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)
+[如何正确地重新打包VPK文件？](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack#ru-he-zheng-que-di-zhong-xin-da-bao-vpk)
 
-After closely following the previous link step by step:
+在按步骤完成了上方链接的内容之后：
 
-Rename pak000\_000.vpk _to_ **client\_mp\_common.bsp.pak000\_000.vpk**
+重命名pak000\_000.vpk为**client\_mp\_common.bsp.pak000\_000.vpk**
 
-Rename pak000\_dir.vpk _to_ **englishclient\_mp\_common.bsp.pak000\_dir.vpk**
+重命名pak000\_dir.vpk为**englishclient\_mp\_common.bsp.pak000\_dir.vpk**
 
-Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see your new weapon position!
+将两个重命名完成的文件放回下面所示的文件夹之中并覆盖文件，然后启动《泰坦陨落2》。你就能看见修改后武器定位了！
 
 > Origin Games\Titanfall2\vpk\
 
