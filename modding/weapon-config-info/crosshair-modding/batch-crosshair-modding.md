@@ -20,33 +20,33 @@ description: 如何一次性将几乎所有的武器换成同样的准星。
 
 ### 第一步. 单独放置要修改的文件
 
-Create a folder for yourself to perform these edits within, mine is called `CrosshairMods`. Place the config files for weapons you'd like to modify. We don't recommend setting titan weapons to all the same, as most of these have alternate states and etc not friendly to static, stock crosshairs. Once this folder is created and it contains your config files move on to the next step.
+自己新建一个文件夹来放置你想要修改的武器配置文件，我自己用的文件夹叫`CrosshairMods`。我们不推荐将泰坦武器全部状态设为相同的准星，因为其中的大多数都有替换的状态，对静态的、 stock的准星不友好。在文件夹创建及配置武器放置就绪之后进行下一步。
 
 ### 第二步. 打开TextCrawler，然后修改设置。
 
 ![](../../../.gitbook/assets/image%20%284%29%20%281%29.png)
 
-This step consists of 5 parts, listed below.
+这个步骤分为五个部分，如下面所示：
 
-1. Slap the path to that folder containing configs you made before into this box
-2. Select the "Regular Expression" tab.
-3. Change the "Rex Ex:" box to `ui/crosshair_\w+` this filters for all strings beginning with `ui/crosshair_` and stops the selection at the end of the "word" \(section of text with no spaces\)
-4. Set the "Replace:" box to the full id of the crosshair you would like to make your base.
-5. Click "Find"
+1. 将包含之前创建的配置文件夹的路径放入此框中；
+2. 选择"Regular Expression" 选项卡；
+3. 将"Rex Ex:"改为`ui/crosshair_\w+` ，这个选项用于筛选以`ui/crosshair_`开头的所有字符串，并在以"word"（不带空格的文本部分）的末尾停止筛选；
+4. 将"Replace:"框设置为要要作为修改基础的准星的完整id；
+5. 单击"Find"。
 
 ### 第三步. 检验设置是否正常工作
 
 ![](../../../.gitbook/assets/image%20%283%29.png)
 
-If all is done correctly, you should see a list of your configs appear with the crosshair settings within them highlighted. Make sure that all of your configs have the "Matches" column value of 1. If this is not the case you will have to manually modify as these configs have multiple overlaid crosshairs.
+如果所有的操作都准确无误，你应该会看到一个配置文件列表，其中突出显示了准星设置。确保所有配置文件的"Matches"列值为1。如果是不同的数值，你需要手动修改配置文件；因为这表明这些配置文件拥有多个组合的准星。
 
 ### 第四步.批量更改配置文件
 
-If all is to your satisfaction, click the "Replace" button, and confirm your choice in the popup.
+如果一切结果都如你所愿，点击"Replace"按钮，并在弹出窗口中确认选择。
 
 ### 第五步. 清理文件夹和配置文件
 
-Open up a config, and verify that the change has gone through, and delete all the `.bak` files created during your edit. Once finished, move all of your configs back into your scripts/weapons folder and repack.
+随便打开一个武器配置文件，检验修改是否完成，并删除在修改过程中创建的所有.bak文件。在全部完成之后，将所有的配置文件移回scripts/weapons文件夹并重新打包VPK文件。
 
 ## 脚注
 
