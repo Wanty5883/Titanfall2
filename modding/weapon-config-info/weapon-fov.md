@@ -81,12 +81,12 @@ hcog
 
 ## 如何换算
 
-In order to determine exactly what your true horizontal FOV will be when ADS, we can use this formula:
+为了准确地确定右键瞄准时你的实际水平视野，我们可以使用以下公式：
 
-Take your `cl_fovScale`value and multiply it by the variable you choose for your `"zoom_fov"`. If you don't know your `cl_fovScale`, then you can determine that by dividing your hip fire FOV by 70. For this example we will use 110 FOV. 
+使用你 `cl_fovScale`的数值乘以你在 `"zoom_fov"`中设置的数值。如果你不知道你的`cl_fovScale`，那你可以通过将腰射视野除以70来确定。 对于下面的例子，我们将使用110视野。
 
 {% hint style="info" %}
-**110/70 = 1.5714** &lt;---- this number is our cl\_fovScale \(when fov is set to 110\)
+**110/70 = 1.5714** &lt;---- 这个数值就是我们的cl\_fovScale \(当视野设为110时\)
 {% endhint %}
 
 We then multiply that number \(cl\_fovScale\) by whatever number we chose for our zoom\_fov variable. In this example we will use "56", as that's what I currently have it set to for my Wingman Elite. 
