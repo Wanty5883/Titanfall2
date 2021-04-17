@@ -2,7 +2,7 @@
 description: Change your FOV with the click of a button.
 ---
 
-# 瞄准FOV
+# 一键更换武器FOV
 
 ## 前期准备
 

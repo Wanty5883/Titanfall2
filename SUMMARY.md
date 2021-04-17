@@ -81,7 +81,7 @@
     * [准星样例](modding/weapon-config-info/crosshair-modding/crosshair-example.md)
   * [武器定位](modding/weapon-config-info/weapon-positioning.md)
   * [武器FOV](modding/weapon-config-info/weapon-fov.md)
-  * [瞄准FOV](modding/weapon-config-info/hipfire-zoom.md)
+  * [一键更换武器FOV](modding/weapon-config-info/hipfire-zoom.md)
   * [特殊/独特武器修改](modding/weapon-config-info/weapons/README.md)
     * [电能步枪 - Arc Rifle](modding/weapon-config-info/weapons/charge-rifle-arc-rifle.md)
     * [电能步枪-蓄力颜色](modding/weapon-config-info/weapons/charge-rifle-heat-color-effect.md)
