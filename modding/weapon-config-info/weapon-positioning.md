@@ -27,7 +27,7 @@ description: 武器在屏幕上的位置
 
 ## 编辑
 
-进入以下的解包目录
+进入下面的解包目录
 
 > \scripts\weapons
 

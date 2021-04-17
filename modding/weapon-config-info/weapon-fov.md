@@ -1,46 +1,46 @@
-# 武器FOV
+# 武器视野
 
-## Used VPK
+## 用到的VPK
 
 {% hint style="success" %}
 * englishclient\_mp\_common.bsp.pak000\_dir.vpk
 {% endhint %}
 
-You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
+你将会用到Titanfall VPK Tool来打开和重新打包《泰坦陨落2》VPK 文件。 [工具链接](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/modding-tools)
 
 {% page-ref page="../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
 
-## Introduction
+## 介绍
 
-The way Titanfall 2 and other Source Engine games handles magnification when "aiming down sights" is by changing the FOV to a smaller number, which gives the effect of magnification. This guide will teach you how to modify the FOV when ADS with any weapon. We will do this by modifying the `"zoom_fov"` variable that each weapon/scope has. 
+《泰坦陨落2》和其他起源引擎游戏处理武器瞄准放大的效果时（即右键瞄准），是通过改变武器视野为一个较小的数字来达到放大的效果。本指南将会指导你修改任何武器右键放大时的视野，我们将通过修改每个weapon/scope的 `"zoom_fov"` 变量来实现这一点。
 
-## Editing
+## 编辑
 
-Navigate to this location in your extracted folder
+进入下面的解包文件夹：
 
 > \scripts\weapons
 
-This folder contains the "config files" for the weapons. Edit those files at your own risk, if you get banned because you edit some important value don’t blame anyone.
+这个文件夹包含所有武器的"配置文件"，修改文件所产生的风险由你自己承担。如果因为你修改核心数值而导致的账号封禁，别把责任归咎于我。
 
-Find this part of code in the file:
+在文件中找到这部分代码：
 
 ```text
 	// Behavior
 ```
 
-In this section, find the line called `"zoom_fov"`this is the variable we will be changing in order to get the desired zoom for our weapon when we ADS. Look for the number in quotations, like this:
+在这一节中，找到名为`"zoom_fov"`的行；这是我们将要修改的变量，以便在使用武器右键瞄准时，变为所需要的缩放。在代码行中查找如下所示的数字：
 
 ```text
 "zoom_fov"                                        "35"
 ```
 
-This is the default variable for `"zoom_fov"`  with the Wingman Elite. So when `"zoom_fov"` is set to `"35"`, this gives us a true horizontal FOV of 69.51, when our base hip fire FOV is set to 110. 
+这是Wingman Elite的`"zoom_fov"` 默认变量值。 所以当 `"zoom_fov"` 设置为 `"35"`,且基础腰射视野设为110时，我们所得到的实际的水平视野为69.51。
 
 {% hint style="danger" %}
- The horizontal FOV of your weapon when zoomed in will depend on your base hip fire fov.
+ 放大时武器的水平视野取决于你的腰射视野设置。
 {% endhint %}
 
-As a basis of understanding, the lower the variable for `"zoom_fov"` is set to, the more your weapon will zoom in when ADS. Therefore, the higher the variable is set to, the weapon will zoom in less. The max variable you can input is `"70"`. When `"zoom_fov"` is set to `"70"`, your weapon will not zoom in at all, and will remain at your hip fire FOV. 
+作为基础知识， 变量`"zoom_fov"` 的值设置得越低，你的武器在右键瞄准时放大的幅度就越大；变量的值设置得越高，放大的幅度就越小。您可以修改的变量最大值是 `"70"`。 当 `"zoom_fov"` 设为 `"70"`时，你的武器视野将不会再次放大，并且时刻保持为腰射视野。
 
 You can also have different Zoom FOVs for different scopes on each weapon. To do this, find the `Mods` section for the weapon you are editing. We will use HCOG on Wingman Elite as example, look for something like this:
 
@@ -79,7 +79,7 @@ hcog
 
 The variable you chose to input for your `zoom_fov`for each scope should be different, so that you can equip a different scope at any time in game, and thus get your desired zoom. 
 
-## How to calculate
+## 如何换算
 
 In order to determine exactly what your true horizontal FOV will be when ADS, we can use this formula:
 
@@ -109,11 +109,11 @@ Now scroll down and you will be greeted with your converted fov calculations:
 
 The green number next to Actual HFOV is your true horizontal FOV when zoomed in with a weapon.
 
-## Repacking
+## 重新打包
 
 {% page-ref page="../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
 
-### Misc Notes
+### 杂项注释
 
 The in game slider for FOV is wrong. When fov is set to 110, your `cl_fovScale` remains at 1.55, which means your horizontal fov is actually 108.5, instead of 110. To always ensure that you're playing on the correct fov. Take the number you wish to have for your horizontal fov and divide it by 70. Using 110 as an example 110/70 = 1.5714. We then need to change the `cl_fovScale` variable in order to actually have 110 fov in game. To do this, go to 
 

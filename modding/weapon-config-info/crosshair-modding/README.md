@@ -27,7 +27,7 @@ description: 准星图标修改指南
 
 ## 编辑
 
-进入解压文件夹中下面的目录：
+进入解包文件夹中下面的目录：
 
 ```text
 englishclient_mp_common.bsp.pak000_dir.vpk\scripts\weapons

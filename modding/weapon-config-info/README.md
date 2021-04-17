@@ -35,7 +35,7 @@ Guide to changing the weapon viewmodel fov
 
 How to create a zoom effect while hipfiring.
 
-{% page-ref page="hipfire-zoom.md" %}
+{% page-ref page="weapon-fov-1.md" %}
 
 ## 特殊/独特武器修改
 
