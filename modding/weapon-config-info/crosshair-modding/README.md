@@ -92,7 +92,7 @@ active_crosshair_count "2"
 
 ![](../../../.gitbook/assets/crosshair3.PNG)
 
-Some crosshair are dynamics, like the charge rifle, frag grenade and some other crosshair which have animation. In some case changing to another dynamic crosshair will work fine, in other cases it won't. As an example my favorite one is using the charge rifle crosshair for the Northstar railgun. For an opposite example, the frag grenade crosshair to the CAR won't work well.
+
 
 ### base\_spread
 

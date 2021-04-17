@@ -12,7 +12,7 @@
 
 ## 介绍
 
-《泰坦陨落2》和其他起源引擎游戏处理武器瞄准放大的效果时（即右键瞄准），是通过改变武器视野为一个较小的数字来达到放大的效果。本指南将会指导你修改任何武器右键放大时的视野，我们将通过修改每个weapon/scope的 `"zoom_fov"` 变量来实现这一点。
+《泰坦陨落2》和其他起源引擎游戏处理武器瞄准放大的效果时（即右键瞄准），是通过改变武器视野为一个较小的数字来达到放大的效果。本指南将会指导你修改任何武器右键放大时的视野，我们将通过修改每个武器/瞄准镜的 `"zoom_fov"` 变量来实现这一点。
 
 ## 编辑
 
@@ -34,7 +34,7 @@
 "zoom_fov"                                        "35"
 ```
 
-这是Wingman Elite的`"zoom_fov"` 默认变量值。 所以当 `"zoom_fov"` 设置为 `"35"`,且基础腰射视野设为110时，我们所得到的实际的水平视野为69.51。
+这是小帮手精英`"zoom_fov"` 的默认变量值。 所以当 `"zoom_fov"` 设置为 `"35"`,且基础腰射视野设为110时，我们所得到的实际的水平视野为69.51。
 
 {% hint style="danger" %}
  放大时武器的水平视野取决于你的腰射视野设置。
@@ -42,7 +42,7 @@
 
 作为基础知识， 变量`"zoom_fov"` 的值设置得越低，你的武器在右键瞄准时放大的幅度就越大；变量的值设置得越高，放大的幅度就越小。您可以修改的变量最大值是 `"70"`。 当 `"zoom_fov"` 设为 `"70"`时，你的武器视野将不会再次放大，并且时刻保持为腰射视野。
 
-You can also have different Zoom FOVs for different scopes on each weapon. To do this, find the `Mods` section for the weapon you are editing. We will use HCOG on Wingman Elite as example, look for something like this:
+你也可以对每件武器不同的瞄准镜设置不同的放大视野。为此，找到你正在编辑的武器的 `Mods` 部分。我们将使用小帮手精英上的HCOG镜作为例子，查找如下内容：
 
 ```text
 hcog
@@ -59,7 +59,7 @@ hcog
 		}
 ```
 
-Now add the line `"zoom_fov"` to the section, followed by a few spaces and then a number in quotation marks like this:
+现在将代码行 `"zoom_fov"` 添加到这一节之中，后面加上几个空格，然后在英文状态的双引号中添加一个数字，如下所示：
 
 ```text
 hcog
@@ -77,7 +77,7 @@ hcog
 		}
 ```
 
-The variable you chose to input for your `zoom_fov`for each scope should be different, so that you can equip a different scope at any time in game, and thus get your desired zoom. 
+你为每个瞄准镜设置变量`zoom_fov`的数值应该是互不相同的。这样你就可以在游戏中随时装备不同的瞄准镜，从而获得所需要的武器视野缩放。
 
 ## 如何换算
 
