@@ -119,5 +119,5 @@ Actual HFOV旁边的绿色数字是就用武器放大时的实际水平视野。
 
 > \Documents\Respawn\Titanfall2\profile
 
-然后打开 `profile.cfg`。按"Ctrl + F" 来查找 `cl_fovScale` 然后将其设置为1.5714或任何你获取的正确变量的数值，保存文件。下次你打开游戏时，你的FOV就是你所需要的。重要提醒：在游戏中再次更改FOV将需要你重新进行此项更改。
+然后打开 `profile.cfg`。按"Ctrl + F" 来查找 `cl_fovScale` 然后将其设置为1.5714或任何你获取的正确变量的数值，保存文件。下次你打开游戏时，你的FOV就是你所需要的。重要提醒：在游戏中再次更改FOV后，将需要你重新进行此项更改。
 
