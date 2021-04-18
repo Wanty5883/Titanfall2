@@ -89,25 +89,25 @@ hcog
 **110/70 = 1.5714** &lt;---- 这个数值就是我们的cl\_fovScale \(当视野设为110时\)
 {% endhint %}
 
-We then multiply that number \(cl\_fovScale\) by whatever number we chose for our zoom\_fov variable. In this example we will use "56", as that's what I currently have it set to for my Wingman Elite. 
+然后我们将这个数字 \(cl\_fovScale\) 乘以我们为zoom\_fov中设置的数值。在这个例子中，我们将使用“56”，因为这是我目前为我的小帮手精英所设置的。
 
 {% hint style="info" %}
-1.5714 x 56 = **87.99** &lt;---- this number is your horizontal FOV in 4:3 aspect ratio
+1.5714 x 56 = **87.99** &lt;---- 这个数字是你在4:3屏幕比例中的水平视野。
 {% endhint %}
 
-4:3 aspect ration is what Source Engine uses to calculate our actual horizontal FOV. Now we need to convert this number to 16:9, which will give us our _true_ horizontal fov. For this, you can just use a tool like [mouse-sensitivity.com](https://www.mouse-sensitivity.com/). Select Titanfall 2, and by default, the calculator should look like this:
+4:3屏幕比例是起源引擎用于计算我们实际水平视野的依据。 现在我们需要把这个屏幕比例转换成16:9，这将是我们实际使用的水平视野。为此，您可以使用 [mouse-sensitivity.com](https://www.mouse-sensitivity.com/)网站来计算。选择Titanfall 2，在默认情况下，计算器如下所示：
 
 ![](../../.gitbook/assets/image%20%286%29.png)
 
-All we need to do here is in put the FOV number we just acquired from our previous calculation, in my example I got 87.99
+我们需要做的就是把刚才计算得到的视野值放进去。在上面的例子中，我得到了87.99
 
-![Make sure you leave FOV type on &quot;Hdeg 4:3&quot;](../../.gitbook/assets/mspaint_emdvxagox7.png)
+![&#x4E00;&#x5B9A;&#x8981;&#x628A;FOV Type&#x8BBE;&#x7F6E;&#x4E3A;&#x201C;Hdeg 4:3&#x201D;](../../.gitbook/assets/mspaint_emdvxagox7.png)
 
-Now scroll down and you will be greeted with your converted fov calculations:
+现在鼠标向下滚动，你将看到转换后的视野计算：
 
 ![](../../.gitbook/assets/mspaint_fapoueshho.png)
 
-The green number next to Actual HFOV is your true horizontal FOV when zoomed in with a weapon.
+Actual HFOV旁边的绿色数字是就用武器放大时的实际水平视野。
 
 ## 重新打包
 
@@ -115,9 +115,9 @@ The green number next to Actual HFOV is your true horizontal FOV when zoomed in 
 
 ### 杂项注释
 
-The in game slider for FOV is wrong. When fov is set to 110, your `cl_fovScale` remains at 1.55, which means your horizontal fov is actually 108.5, instead of 110. To always ensure that you're playing on the correct fov. Take the number you wish to have for your horizontal fov and divide it by 70. Using 110 as an example 110/70 = 1.5714. We then need to change the `cl_fovScale` variable in order to actually have 110 fov in game. To do this, go to 
+游戏内FOV的滑块有误。 当fov设置为110时，你的 `cl_fovScale` 保持在1.55，这意味着你的水平fov实际上是108.5，而不是110。要想确保你的FOV正确，需要把你想要的水平FOV的数字除以70。 以110为例110/70=1.5714。然后我们需要改变 `cl_fovScale` 变量，以便在游戏中实际拥有110的FOV。要执行此转换操作，请进入以下目录：
 
 > \Documents\Respawn\Titanfall2\profile
 
-And open up `profile.cfg`. Ctrl + F to find `cl_fovScale` and then set it to 1.5714 or whatever number you used to get the correct variable. Save it, and next time you're in game you will have the correct fov. Reminder: changing your fov again in game will require you to redo this change. 
+然后打开 `profile.cfg`。按"Ctrl + F" 来查找 `cl_fovScale` 然后将其设置为1.5714或任何你获取的正确变量的数值，保存文件。下次你打开游戏时，你的FOV就是你所需要的。重要提醒：在游戏中再次更改FOV将需要你重新进行此项更改。
 
