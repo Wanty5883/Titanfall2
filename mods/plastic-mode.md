@@ -8,52 +8,52 @@ description: >-
 
 ## 前提条件
 
-This tweak requires [NVIDIA inspector](https://nvidia-inspector.en.lo4d.com/windows) \(NVIDIA GPU\) or [ATI Tray Tools](http://www.majorgeeks.com/files/details/ati_tray_tools.html) \(AMD GPU\). For performance tweaking you may also want a code editor such as [VS Code](https://code.visualstudio.com/) or [Notepad++](https://notepad-plus-plus.org/downloads/).
+此处调整需要 [NVIDIA inspector](https://nvidia-inspector.en.lo4d.com/windows) \(NVIDIA GPU\) 或是 [ATI Tray Tools](http://www.majorgeeks.com/files/details/ati_tray_tools.html) \(AMD GPU\)。对于性能调整部分，您可能还需要一个代码编辑器，例如 [VS Code](https://code.visualstudio.com/) 或是 [Notepad++](https://notepad-plus-plus.org/downloads/).
 
 ## 极简模式修改
 
-These changes do not reduce the visual fidelity of the game apart from reducing the LOD. This makes the game look sort of plastic and flat, but doesn't reduce visibility or anything.
+这些修改除了降低模型的多细节层次外，不会降低游戏视觉的真实度。这会使游戏看起来有点像塑料和平面，但不会降低能见度或其他任何东西。（如下图所示）
 
-![Screenshot of &quot;Plastimosa Mode&quot;](https://blobs.gitbook.com/assets%2F-M0m8qtRgPSU-hMNzaem%2F-M0mkXNQZkvEZMHIAa60%2F-M0ncvrKWsQkq-sgtgOf%2Fimage.png?alt=media&token=87c12de8-0094-484a-a3b8-7dae93d4a8a1)
+![&quot;&#x4F4E;&#x914D;&#x6A21;&#x5F0F;&quot;&#x622A;&#x56FE;](https://blobs.gitbook.com/assets%2F-M0m8qtRgPSU-hMNzaem%2F-M0mkXNQZkvEZMHIAa60%2F-M0ncvrKWsQkq-sgtgOf%2Fimage.png?alt=media&token=87c12de8-0094-484a-a3b8-7dae93d4a8a1)
 
-![Captain Tai Plastimosa in action, penetrating your soul with his transparent eyeballs.](../.gitbook/assets/image.png)
+![&#x62C9;&#x65AF;&#x63D0;&#x6469;&#x6C99;&#x4E0A;&#x5C09;&#x5728;&#x548C;&#x4F60;&#x4EA4;&#x6D41;&#xFF0C;&#x7528;&#x4ED6;&#x900F;&#x660E;&#x7684;&#x773C;&#x7403;&#x7A7F;&#x900F;&#x4F60;&#x7684;&#x7075;&#x9B42;](../.gitbook/assets/image.png)
 
 ### NVIDIA显卡
 
-#### **Step 1.** Open `NVidiaProfileInspectorDmW.exe` and select "Titanfall 2" from the dropdown.
+#### **第一步.** 打开`NVidiaProfileInspectorDmW.exe` 软件\([工具链接](https://github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW/releases)\)，然后从下拉菜单中选择《泰坦陨落2 》；
 
 ![](https://blobs.gitbook.com/assets%2F-M0m8qtRgPSU-hMNzaem%2F-M0mkXNQZkvEZMHIAa60%2F-M0ndXim-Hpq7JQyxT25%2Fimage.png?alt=media&token=d4feba4e-3d35-4050-acc7-2930d18daf01)
 
-#### Step 2. set "Antialiasing - Transparency Supersampling" to `0x00000008 AA_MODE_REPLAY_MODE_ALL` 
+#### 第二步. 设置"Antialiasing - Transparency Supersampling" 为 `0x00000008 AA_MODE_REPLAY_MODE_ALL` ；
 
 ![](../.gitbook/assets/image-1.png)
 
-#### Step 3. Change "Texture filtering - LOD bias \(DX\)" and "Texture filtering - LOD Bias \(OGL\)" to `0x00000078`.
+#### 第三步. 修改 "Texture filtering - LOD bias \(DX\)" 和 "Texture filtering - LOD Bias \(OGL\)" 为 `0x00000078`；
 
 ![](../.gitbook/assets/image-2.png)
 
-#### Step 4. Press the "Apply changes" button.
+#### 第四步. 单击Apply changes"按钮；
 
-#### Step 5. Launch Titanfall 2 and enjoy plastimosa mode!
+#### 第五步. 打开《泰坦陨落2》游戏，然后享受低配模式!
 
 ### AMD显卡
 
-_**We are unable to provide screenshots for this section, as we do not own an ATI/AMD/Radeon card to test on. Sorry for any inconvenience.**_
+_**我们无法提供此部分的屏幕截图，因为我们没有可供测试的ATI/AMD/Radeon卡。很抱歉给您带来的不便。**_ 
 
-1. Go to direct3d → settings → additional → texture lod adjustment
-2. Set to 10 \(or higher, higher value = worse game\)
-3. Launch Titanfall 2 and enjoy plastimosa mode!
+1. 进入到： direct3d → settings → additional → texture lod adjustment
+2. 设置为10 \(或者更高的数值，数值越高，游戏画面越低\)
+3. 打开《泰坦陨落2》游戏，然后享受低配模式!
 
 ## 性能修改
 
-These tweaks make your game look like utter shit, to be used in combination with the above options, or independently.
+T这些调整会使你的游戏看起来像一坨糊，与上述选项结合使用，亦或是单独使用。
 
-#### Config tweaks
+#### 配置文件调整
 
-In `C:\Users\<user>\Documents\Respawn\Titanfall2\local` you will find a file titled `videoconfig.txt`. This is where the tweaks below must be made. Find and replace each of these parameters within this file, or copy them from the modified one below. 
+在 `C:\Users\<user>\Documents\Respawn\Titanfall2\local` 目录中，你可以找到名为 `videoconfig.txt`的文件。下面所示部分必须修改；查找并替换此文件中的每个参数，或从下面修改的参数中复制它们。
 
 {% hint style="warning" %}
-**DO NOT COPY THE COMMENTS**
+不要复制后面的吐槽（//及后面的内容）
 {% endhint %}
 
 ```c
@@ -70,9 +70,9 @@ In `C:\Users\<user>\Documents\Respawn\Titanfall2\local` you will find a file tit
 }
 ```
 
-Do not use these tweaks in combination with V-sync or AA methods other than TSAA. This will cause stuttering.
+不要将这些微调与V-sync或AA方法（TSAA除外）结合使用，这会导致错误。.
 
-## Sources and credits
+## 来源和文章
 
 [Titanfall 2 on low-end PCs](http://www.neogaf.com/forum/showthread.php?t=1306327)
 
