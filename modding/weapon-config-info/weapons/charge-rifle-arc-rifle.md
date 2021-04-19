@@ -1,7 +1,5 @@
 ---
-description: >-
-  A guide to change the charge rifle for the arc tool from the single player
-  content of the game.
+description: 修改电能步枪变为单机剧情中电弧枪的指南。
 ---
 
 # 电能步枪-电弧枪
@@ -12,27 +10,27 @@ description: >-
 * englishclient\_mp\_common.bsp.pak000\_dir.vpk
 {% endhint %}
 
-You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
+你将会用到Titanfall VPK Tool来打开和重新打包《泰坦陨落2》VPK 文件。 [工具链接](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/modding-tools)
 
 {% page-ref page="../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
 
 ## 介绍
 
-As custom models are not _yet_ possible in Titanfall, we still can change models with already existing models within the game. However this method have some restrictions about animations. Animations might give really weird results.
+As 虽然自定义模型在泰坦陨落中还不能实现，但我们仍然可以使用游戏中已有的模型去替换模型。但是这种方法对枪械动画有一定的要求，不兼容的动画可能会产生非常奇怪的效果。
 
-For this guide, it works as intended with the charge rifle.
+对于本指南来说，它与电能步枪的预期效果相同。
 
 ## 编辑
 
 ### 取得电弧枪模型
 
-In the first place you need to get your hands on the arc tool model. You will need to extract the model from this VPK
+首先，你需要取得单机内容中的电弧枪模型；您需要从这个VPK中提取模型：
 
 {% hint style="info" %}
 * englishclient\_sp\_beacon.bsp.pak000\_dir.vpk
 {% endhint %}
 
-With the VPK tool you do not need to extract the entire archive, you can just extract the file you are looking for. Which you will find at this location
+在本次使用VPK工具中，你不需要提取全部文件出来。只需提取你所需要的文件即可，你可以在以下路径中找到相关文件：
 
 ```text
 \models\weapons\arc_tool_sp\ptpov_arc_tool_sp.mdl
@@ -40,7 +38,7 @@ With the VPK tool you do not need to extract the entire archive, you can just ex
 
 ### 替换模型
 
-Once you have the desired model, return to your extracted Common VPK
+一旦你找到了电弧枪所需的模型，返回到你提取的Common VPK\(即下面的VPK\)目录中
 
 {% hint style="success" %}
 * englishclient\_mp\_common.bsp.pak000\_dir.vpk
