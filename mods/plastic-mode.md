@@ -1,14 +1,12 @@
 ---
-description: >-
-  Reduce the LOD of textures in Titanfall 2 for aesthetic, visibility or
-  performance improvements.
+description: 减少《泰坦陨落2》中纹理的多细节层次以明显改善性能，或是改变画面风格
 ---
 
 # 低配模式
 
 ## 前提条件
 
-此处调整需要 [NVIDIA inspector](https://nvidia-inspector.en.lo4d.com/windows) \(NVIDIA GPU\) 或是 [ATI Tray Tools](http://www.majorgeeks.com/files/details/ati_tray_tools.html) \(AMD GPU\)。对于性能调整部分，您可能还需要一个代码编辑器，例如 [VS Code](https://code.visualstudio.com/) 或是 [Notepad++](https://notepad-plus-plus.org/downloads/).
+此处调整需要 [NVIDIA inspector](https://nvidia-inspector.en.lo4d.com/windows) \(NVIDIA GPU\) 或是 [ATI Tray Tools](http://www.majorgeeks.com/files/details/ati_tray_tools.html) \(AMD GPU\)。对于性能调整部分，您可能还需要一个代码编辑器，例如 [VS Code](https://code.visualstudio.com/) 或是 [Notepad++](https://notepad-plus-plus.org/downloads/).（系统自带的记事本也行）
 
 ## 极简模式修改
 
@@ -20,7 +18,7 @@ description: >-
 
 ### NVIDIA显卡
 
-#### **第一步.** 打开`NVidiaProfileInspectorDmW.exe` 软件\([工具链接](https://github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW/releases)\)，然后从下拉菜单中选择《泰坦陨落2 》；
+#### **第一步.** 打开`NVidiaProfileInspectorDmW.exe` 软件\([工具链接](https://github.com/DeadManWalkingTO/NVidiaProfileInspectorDmW/releases)\)，然后从下拉菜单中选择"Titanfall 2"；
 
 ![](https://blobs.gitbook.com/assets%2F-M0m8qtRgPSU-hMNzaem%2F-M0mkXNQZkvEZMHIAa60%2F-M0ndXim-Hpq7JQyxT25%2Fimage.png?alt=media&token=d4feba4e-3d35-4050-acc7-2930d18daf01)
 
@@ -32,9 +30,9 @@ description: >-
 
 ![](../.gitbook/assets/image-2.png)
 
-#### 第四步. 单击"Apply changes"按钮；
+#### 第四步. 单击右边的"Apply changes"按钮；
 
-#### 第五步. 打开《泰坦陨落2》游戏，然后享受低配模式!
+#### 第五步. 打开《泰坦陨落2》游戏，然后尽情享受低配模式!
 
 ### AMD显卡
 
@@ -42,11 +40,11 @@ _**我们无法提供此部分的屏幕截图，因为我们没有可供测试�
 
 1. 进入到： direct3d → settings → additional → texture lod adjustment
 2. 设置为10 \(或者更高的数值，数值越高，游戏画面越低\)
-3. 打开《泰坦陨落2》游戏，然后享受低配模式!
+3. 打开《泰坦陨落2》游戏，然后尽情享受低配模式!
 
 ## 性能修改
 
-这些调整会使你的游戏看起来像一坨糊，与上述选项结合使用，亦或是单独使用。
+这些调整会使你的游戏看起来和像素3D游戏一样，与上述选项结合使用，亦或是单独使用。
 
 #### 配置文件调整
 
@@ -70,7 +68,7 @@ _**我们无法提供此部分的屏幕截图，因为我们没有可供测试�
 }
 ```
 
-不要将这些微调与V-sync或AA方法（TSAA除外）结合使用，这会导致错误。.
+不要将这些修改与"垂直同步"和 \*\*AA抗锯齿\(TSAA除外\)一起使用，这样会导致部分修改失效。修改完成后不要随意改变画质选项，这样会导致对应修改失效或一部分修改全失效。\(如果失效了重新调一遍就可以了，备份是好文明:D\).
 
 ## 来源和文章
 
