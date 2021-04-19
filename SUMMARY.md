@@ -75,7 +75,7 @@
 ## 修改 <a id="modding"></a>
 
 * [武器](modding/weapon-config-info/README.md)
-  * [武器特效](modding/weapon-config-info/weapon-effects.md)
+  * [武器效果](modding/weapon-config-info/weapon-effects.md)
   * [准星修改](modding/weapon-config-info/crosshair-modding/README.md)
     * [批量修改准星](modding/weapon-config-info/crosshair-modding/batch-crosshair-modding.md)
     * [准星样例](modding/weapon-config-info/crosshair-modding/crosshair-example.md)

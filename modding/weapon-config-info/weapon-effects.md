@@ -2,7 +2,7 @@
 description: 修改武器的视觉效果
 ---
 
-# 武器特效
+# 武器效果
 
 ## 前期准备 <a id="preparation"></a>
 
