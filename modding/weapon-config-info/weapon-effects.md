@@ -90,7 +90,7 @@ Impact\_effect\_table接受其他类型的数值，例如tracers。
 
 #### projectile\_trail\_effect
 
-Projectile trail effects are for **projectile weapons only**, this function does not affect hitscan weapons. Find this code block to locate the trail code part:
+抛物线轨迹效果**仅适用于抛物线弹道武器**，此功能不影响直线弹道武器。查找以下代码块来定位轨迹效果的代码部分：
 
 ```text
 "projectile_trail_effect_0" 					"P_projectile_lstar"
