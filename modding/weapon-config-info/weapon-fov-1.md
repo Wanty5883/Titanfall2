@@ -1,12 +1,12 @@
 ---
-description: Change your FOV with the click of a button.
+description: 一键更换你的武器视野
 ---
 
 # 一键更换武器视野
 
 ## 前期准备
 
-In this guide you will have to edit a config file, otherwise known as `.cfg` file. Please be aware that you will need to create an `autoexec.cfg`file in `Origin Games\Titanfall2\r2\cfg\` if you do not have one.  
+在本指南中，您需要去编辑一个配置文件，即 `.cfg` 文件。请注意，如果你没有 `autoexec.cfg`文件在`Origin Games\Titanfall2\r2\cfg\` 目录中，你需要手动去新建一个同名文件。  
   
 Navigate to your folder and find your `autoexec.cfg` file: 
 
