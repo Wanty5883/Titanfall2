@@ -4,7 +4,7 @@ description: >-
   content of the game.
 ---
 
-# 电能步枪 - Arc Rifle
+# 电能步枪-电弧枪
 
 ## 使用的VPK文件
 
@@ -24,7 +24,7 @@ For this guide, it works as intended with the charge rifle.
 
 ## 编辑
 
-### 取得Arc Tool模型
+### 取得电弧枪模型
 
 In the first place you need to get your hands on the arc tool model. You will need to extract the model from this VPK
 

@@ -83,7 +83,7 @@
   * [武器视野](modding/weapon-config-info/weapon-fov.md)
   * [一键更换武器视野](modding/weapon-config-info/weapon-fov-1.md)
   * [特殊/独特武器修改](modding/weapon-config-info/weapons/README.md)
-    * [电能步枪 - Arc Rifle](modding/weapon-config-info/weapons/charge-rifle-arc-rifle.md)
+    * [电能步枪-电弧枪](modding/weapon-config-info/weapons/charge-rifle-arc-rifle.md)
     * [电能步枪-蓄力颜色](modding/weapon-config-info/weapons/charge-rifle-heat-color-effect.md)
     * [LSTAR-蓄力颜色](modding/weapon-config-info/weapons/lstar-heat-color.md)
 * [铁驭](modding/pilots/README.md)
