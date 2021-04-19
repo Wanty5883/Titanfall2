@@ -2,7 +2,7 @@
 description: 'Other pilot weapon FX, such as Arc Tool'
 ---
 
-# FX - Arc Tool
+# FX-电弧枪
 
 | Value | Note | Example |
 | :--- | :--- | :--- |
