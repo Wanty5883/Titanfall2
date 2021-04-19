@@ -71,20 +71,20 @@ description: 修改武器的视觉效果
 这个值用于定义子弹击中玩家或墙壁时的碰撞动画，它可以被添加到那些没有这个数值的武器上。根据以前的测试结果，无法同时组合多个碰撞动画。  
 Impact\_effect\_table接受其他类型的数值，例如tracers。
 
-You can have different values between the normal and amped modes on each weapon config file. Find impact values in game values FX:
+在每个武器配置文件的正常模式和右键瞄准模式之间可以有不同的值。在游戏数值的FX中查找有影响的值：
 
 {% page-ref page="../../game-values/fx/" %}
 
 #### tracer\_effect
 
-Tracer effects are for **hitscan weapons only**, this function does not affect projectile based weapons. However, there are some exceptions. Find this code block to locate the tracer code part:
+子弹弹道追踪效果**仅适用于直线弹道武器**，此功能不会影响到抛物线弹道武器射弹武器。不过，也有一些例外。查找以下代码块来定位跟踪效果的代码部分：
 
 ```text
 "tracer_effect"   							  "P_wpn_tracer"
 "tracer_effect_first_person"                    "P_wpn_tracer"
 ```
 
-`tracer_effect` 将会影响到**整个游戏**。换句话来说，它会改变其他玩家使用被修改武器时的tracer particle效果 \(修改效果只有你可见\)。`tracer_effect_first_person`则只会影响到你自己。你可以为这两个数据设置不同的数值。从以前的测试结果来看，如果在太多不同的武器上有太多的`tracer_effect` 可能会非常混乱，甚至会降低游戏性能。就我个人而言，我很少修改它；即便修改了，大多数时候我也只修改 `tracer_effect_first_person` 。
+`tracer_effect` 将会影响到**整个游戏**。换句话来说，它会改变其他玩家使用被修改武器时的示踪粒子效果 \(修改效果只有你可见\)。`tracer_effect_first_person`则只会影响到你自己。你可以为这两个数据设置不同的数值。从以前的测试结果来看，如果在太多不同的武器上有太多的`tracer_effect` 可能会导致整个战场非常混乱，甚至会降低游戏性能。就我个人而言，我很少修改它；即便修改了，大多数时候我也只修改 `tracer_effect_first_person` 。
 
 {% page-ref page="../../game-values/fx/" %}
 
@@ -96,7 +96,7 @@ Projectile trail effects are for **projectile weapons only**, this function does
 "projectile_trail_effect_0" 					"P_projectile_lstar"
 ```
 
-You can have different values between the normal and amped modes on each weapon config file. Find projectile values in game values FX:
+在每个武器配置文件的正常模式和右键瞄准模式之间可以有不同的值。在游戏数值的FX中查找有影响的值：
 
 {% page-ref page="../../game-values/fx/" %}
 
