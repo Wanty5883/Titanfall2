@@ -38,21 +38,21 @@ As 虽然自定义模型在泰坦陨落中还不能实现，但我们仍然可�
 
 ### 替换模型
 
-一旦你找到了电弧枪所需的模型，返回到你提取的Common VPK\(即下面的VPK\)目录中
+一旦你找到了电弧枪所需的模型，返回到你提取的Common VPK\(即下面的VPK文件\)目录中
 
 {% hint style="success" %}
 * englishclient\_mp\_common.bsp.pak000\_dir.vpk
 {% endhint %}
 
-Navigate to this location in your extracted folder
+进入到解包文件夹中下面的位置：
 
 > \models\weapons\defender
 
-This folder contains the models for the charge rifle, otherwise called defender internally. Now you have to rename `ptpov_arc_tool_sp.mdl` into `ptpov_defender.mdl`. Obviously you want to delete or rename the original file.
+这个文件夹包含电能步枪的模型。现在你需要重命名`ptpov_arc_tool_sp.mdl` 为 `ptpov_defender.mdl`。 显然，你需要删除/重命名/备份原始文件。
 
-You can also do the same process with those two files: `w_defender.mdl` `w_defender_stow.mdl` with `w_arc_tool_sp.mdl` from the arc tool folder.
+你还可以对这两个文件进行相同的操作： `w_defender.mdl` `w_defender_stow.mdl` 和源自电弧枪文件目录的 `w_arc_tool_sp.mdl` 进行替换。
 
-That's it ! You are done with it. Now it should work as intended as shown in the examples down bellow
+就是这样！你已经完成了替换的操作，现在它应该可以像下面所示的例子那样使用
 
 ### 样例
 
