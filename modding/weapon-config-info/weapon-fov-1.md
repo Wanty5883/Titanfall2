@@ -6,16 +6,16 @@ description: 一键更换你的武器视野
 
 ## 前期准备
 
-在本指南中，您需要去编辑一个配置文件，即 `.cfg` 文件。请注意，如果你没有 `autoexec.cfg`文件在`Origin Games\Titanfall2\r2\cfg\` 目录中，你需要手动去新建一个同名文件。  
+在本指南中，您需要去编辑一个配置文件，即 `.cfg` 文件。请注意：如果你没有 `autoexec.cfg`文件在`Origin Games\Titanfall2\r2\cfg\` 目录中，你需要手动去新建一个同名文件。  
   
-Navigate to your folder and find your `autoexec.cfg` file: 
+进入以下文件目录，并查找 `autoexec.cfg` 文件：
 
 > Origin Games\Titanfall2\r2\cfg\
 
-Open it in your text editor of choice.
+使用你的文本编辑器打开它。
 
 {% hint style="info" %}
-You can use a different name for your config file, but you will need to use a command to execute it.
+您也可以为配置文件使用其他的名称，但需要使用命令来执行它。
 {% endhint %}
 
 ## 介绍
@@ -60,16 +60,16 @@ This will ensure that the mouse movement is not magnified and feels the same as 
 
 {% embed url="https://gfycat.com/sizzlingunfitasiansmallclawedotter" %}
 
-![EVA-8 zoomed in \(70 FOV\)](../../.gitbook/assets/titanfall2_pcjd3nma5s.jpg)
+![EVA-8&#x653E;&#x5927; \(70 FOV\)](../../.gitbook/assets/titanfall2_pcjd3nma5s.jpg)
 
-![EVA-8 zoomed out \(118.125 FOV\)](../../.gitbook/assets/titanfall2_gsvomi4dfk.jpg)
+![EVA-8&#x7F29;&#x5C0F;\(118.125 FOV\)](../../.gitbook/assets/titanfall2_gsvomi4dfk.jpg)
 
-![HCOG Ranger zoomed in \(70 FOV\)](../../.gitbook/assets/titanfall2_myp3treoft.jpg)
+![HCOG&#x7784;&#x51C6;&#x955C;&#x653E;&#x5927;\(70 FOV\)](../../.gitbook/assets/titanfall2_myp3treoft.jpg)
 
-![HCOG Ranger zoomed out \(118.125 FOV\)](../../.gitbook/assets/titanfall2_dmtalqxcbr.jpg)
+![HCOG&#x7784;&#x51C6;&#x955C;&#x7F29;&#x5C0F; \(118.125 FOV\)](../../.gitbook/assets/titanfall2_dmtalqxcbr.jpg)
 
 {% hint style="info" %}
-**Resources:**
+**资源：**
 
 * [https://developer.valvesoftware.com/wiki/Field\_of\_View](https://developer.valvesoftware.com/wiki/Field_of_View)
 * [https://en.wikipedia.org/wiki/Frustum](https://en.wikipedia.org/wiki/Frustum)
