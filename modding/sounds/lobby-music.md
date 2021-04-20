@@ -112,7 +112,7 @@ start by creating a file named **autoexec.cfg** in:
 After creating the file open it with Notepad and paste the following in the file:
 
 ```cpp
-alias lobbymusic "playvideo lobbymusic 1 1 1; sp_deathtips_tip5 LENGHT"
+alias lobbymusic "stopvideos; playvideo lobbymusic 1 1 1; sp_deathtips_tip5 LENGHT"
 ```
 
 and replace `LENGHT` with the lenght of your music in seconds.
