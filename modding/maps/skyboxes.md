@@ -40,7 +40,7 @@ Navigate to this location in your extracted folder
 
 This folder contains the models for the skyboxes and scene elements. Edit those files at your own risk.
 
-{% page-ref page="../../information/textures/skybox-basics/" %}
+{% page-ref page="../../documentation/textures/skybox-basics/" %}
 
 The only working Skybox is the extraction scene named `planet_blue_sun.mdl` which is present in every `\models\vistas` directory \(except live fire maps, excluding deck\). Because it is mandatory for the successful extraction phase process of every map.  
 
@@ -75,12 +75,12 @@ Removing the Files will result in the disappearing of the skybox.
 {% endhint %}
 
 {% hint style="danger" %}
-Renaming other [skyboxes ](../../information/textures/skybox-basics/)to the existing ones of the map and replacing them leads to the textures not loading in, since they are applied via a script, which is not in the VPK itself. 
+Renaming other [skyboxes ](../../documentation/textures/skybox-basics/)to the existing ones of the map and replacing them leads to the textures not loading in, since they are applied via a script, which is not in the VPK itself. 
 
 ![Kodai Skybox on Glitch](../../.gitbook/assets/desktop-screenshot-2020.03.01-17.07.41.44.png)
 {% endhint %}
 
-The reason behind this not working is because the textures are not applied via a VPK. Every map has a different VPK. Textures that are not normally on the map stay missing because the script applying them does not apply them there. Once we figured out how to edit `.rpak` files changing actual [skyboxes ](../../information/textures/skybox-basics/)becomes a possibility. 
+The reason behind this not working is because the textures are not applied via a VPK. Every map has a different VPK. Textures that are not normally on the map stay missing because the script applying them does not apply them there. Once we figured out how to edit `.rpak` files changing actual [skyboxes ](../../documentation/textures/skybox-basics/)becomes a possibility. 
 
 ## Examples
 
@@ -118,9 +118,9 @@ Rename `pak000_dir.vpk` _to_ **`englishclient_mp_` `<<mapname>>`** **`.bsp.pak00
 Make sure to pay attention when renaming them because every map has it's own VPK.
 {% endhint %}
 
-Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see the changed [skybox](../../information/textures/skybox-basics/)!
+Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see the changed [skybox](../../documentation/textures/skybox-basics/)!
 
 > Origin Games\Titanfall2\vpk\
 
-{% page-ref page="../../information/textures/skybox-basics/" %}
+{% page-ref page="../../documentation/textures/skybox-basics/" %}
 

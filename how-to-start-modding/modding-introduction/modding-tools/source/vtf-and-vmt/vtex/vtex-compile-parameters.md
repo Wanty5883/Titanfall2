@@ -2,7 +2,7 @@
 
 [Vtex](./) can accept a list of additional compile parameters during its execution. These parameters are optional, but sometimes necessary to get a good result.
 
-The list is written in the form of a simple text \(.txt\) document with the same name as the [targa \(.tga\)](../../../../../../information/file-format/truevision-graphics-adapter-tga.md) image to compile, and it should be put in the same folder as it, namely in the `SteamApps/common/gamefolder/materialsrc/` folder, where gamefolder is the game folder of the current game \(`cstrike`/`dod`/`hl2`/`hl2mp`\).
+The list is written in the form of a simple text \(.txt\) document with the same name as the [targa \(.tga\)](../../../../../../documentation/file-format/truevision-graphics-adapter-tga.md) image to compile, and it should be put in the same folder as it, namely in the `SteamApps/common/gamefolder/materialsrc/` folder, where gamefolder is the game folder of the current game \(`cstrike`/`dod`/`hl2`/`hl2mp`\).
 
 Example usage from one of the files for the console background:
 
@@ -162,7 +162,7 @@ To do: What does this do??
 
 ### skybox
 
-Used for compiling [skyboxes](../../../../../../information/textures/skybox-basics/). This assures the edges match between each facet.
+Used for compiling [skyboxes](../../../../../../documentation/textures/skybox-basics/). This assures the edges match between each facet.
 
 ### spheremap\_negz
 
@@ -180,7 +180,7 @@ To do: Are these functional?
 
 ### ssbump
 
-Used for [self-shadowing bump maps](../../../../../../information/textures/bump-map/usdssbump.md)\($ssbump\).
+Used for [self-shadowing bump maps](../../../../../../documentation/textures/bump-map/usdssbump.md)\($ssbump\).
 
 {% hint style="info" %}
  **Note:**Automatically applies when the texture name ends with `_height-ssbump`
@@ -210,7 +210,7 @@ Creates a volumetric texture.
 
 ### Using .psd 'file info' parameters
 
-Textures compiled from [.psd files](../../../../../../information/file-format/psd-photoshop-document.md) can have command line parameters saved into the [.psd](../../../../../../information/file-format/psd-photoshop-document.md) directly. To do this, use the 'File Info' menu in Photoshop and add your [Vtex ](./)commands into the "description" text field. These parameters will get evaluated by [Vtex ](./)when the [.psd file](../../../../../../information/file-format/psd-photoshop-document.md) is compiled.
+Textures compiled from [.psd files](../../../../../../documentation/file-format/psd-photoshop-document.md) can have command line parameters saved into the [.psd](../../../../../../documentation/file-format/psd-photoshop-document.md) directly. To do this, use the 'File Info' menu in Photoshop and add your [Vtex ](./)commands into the "description" text field. These parameters will get evaluated by [Vtex ](./)when the [.psd file](../../../../../../documentation/file-format/psd-photoshop-document.md) is compiled.
 
 Here's an example of usage for creating a flashlight that won't tile:
 

@@ -2,7 +2,7 @@
 description: Location of weapon config files.
 ---
 
-# File name - Weapon config
+# Weapon config
 
 ## File location
 

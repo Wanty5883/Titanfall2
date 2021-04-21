@@ -18,7 +18,7 @@ Other features include the ability to create [normal maps](https://developer.val
 
 ## See also
 
-{% page-ref page="../../../../../information/textures/valve-texture-format-vtf/creating-a-material.md" %}
+{% page-ref page="../../../../../documentation/textures/valve-texture-format-vtf/creating-a-material.md" %}
 
 ![](../../../../../.gitbook/assets/vtfedit1.png)
 

@@ -34,7 +34,7 @@ Editing this texture will have impact on other effect in the game.
 
 It is recommended to create a new texture so it is possible to make custom effect for specific part of the game.
 
-Choose a texture, you can check [here](../../assets/texture-library.md). With your chosen texture, compile it with [VTFEdit](../../how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtfedit.md). For consistency the [`.vtf`](../../information/textures/valve-texture-format-vtf/) file will be renamed as`dome.vtf`.
+Choose a texture, you can check [here](../../assets/texture-library.md). With your chosen texture, compile it with [VTFEdit](../../how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtfedit.md). For consistency the [`.vtf`](../../documentation/textures/valve-texture-format-vtf/) file will be renamed as`dome.vtf`.
 
 For the parameters you can apply the same as the original texture or you can make your own and test things around! Feel free to send us your results on our Discord server. We might add what you obtained in the wiki! ![](../../.gitbook/assets/08c0a077780263f3df97613e58e71744.svg) 
 
@@ -51,7 +51,7 @@ Open the `xo_shield_edgedetect.vmt` file and locate these lines, they are what y
 "$Texture2" "effects\black"
 ```
 
-Change `black` to whatever you named your [`.vtf`](../../information/textures/valve-texture-format-vtf/) file, in this case dome.
+Change `black` to whatever you named your [`.vtf`](../../documentation/textures/valve-texture-format-vtf/) file, in this case dome.
 
 ```text
 "$basetexture" "effects\dome"
@@ -59,7 +59,7 @@ Change `black` to whatever you named your [`.vtf`](../../information/textures/va
 ```
 
 {% hint style="info" %}
-Color can be changed. If the texture is black then the color applied in your [material file](../../information/textures/valve-material-type-vmt.md) will be accurate. If the texture is not black, then the color won't be accurate as the starting point is no longer the set color. Find more information on this [page](../../information/textures/colors/) about colors in material files.
+Color can be changed. If the texture is black then the color applied in your [material file](../../documentation/textures/valve-material-type-vmt.md) will be accurate. If the texture is not black, then the color won't be accurate as the starting point is no longer the set color. Find more information on this [page](../../documentation/textures/colors/) about colors in material files.
 {% endhint %}
 
 ### Example

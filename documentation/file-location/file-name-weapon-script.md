@@ -2,7 +2,7 @@
 description: Location of weapons script files.
 ---
 
-# File name - Weapon script
+# Weapon script
 
 ## File location
 

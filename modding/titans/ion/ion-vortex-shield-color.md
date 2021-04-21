@@ -38,7 +38,7 @@ const VORTEX_SPHERE_COLOR_CHARGE_EMPTY              = <200, 80, 80>     // red
 const VORTEX_SPHERE_COLOR_PAS_ION_VORTEX            = <115, 174, 255>   // blue
 ```
 
-The color code is [rgb ](../../../information/textures/colors/#rgb)0 – 255. The value FULL, MED and EMPTY are the different energy states of Ion. The last one \(PAS\_ION\_VORTEX\) is for amped vortex shield tier, if you are using this tier on your Ion, this line will overwrite FULL.
+The color code is [rgb ](../../../documentation/textures/colors/#rgb)0 – 255. The value FULL, MED and EMPTY are the different energy states of Ion. The last one \(PAS\_ION\_VORTEX\) is for amped vortex shield tier, if you are using this tier on your Ion, this line will overwrite FULL.
 
 It is not recommend you use pure color \(pure pink is 255 0 255 for example\) they are too bright and would be difficult to see through. It is recommended to reduce the value between 170 to 200 instead of 255. You can change the different energy states to the same color, but you won’t know the amount of energy on an enemy Ion vortex shield anymore. I personally use pink, purple then original red.
 

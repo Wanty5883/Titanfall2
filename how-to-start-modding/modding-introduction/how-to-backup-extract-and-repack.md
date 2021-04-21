@@ -6,7 +6,7 @@ description: How to play around with VPKs without messing everything up
 
 ## How to backup & extract VPK's properly?
 
-When you are about to extract [VPK ](../../information/file-format/vpk-valve-pak-file.md)files, you need a directory where the files will be extracted to from the selected [VPK](../../information/file-format/vpk-valve-pak-file.md). This folder **should not** be inside your game directory. I would recommend for you to create a folder with an easy name like `Titanfall 2 modding` in this path: `C:\Users\<username>\Documents` 
+When you are about to extract [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)files, you need a directory where the files will be extracted to from the selected [VPK](../../documentation/file-format/vpk-valve-pak-file.md). This folder **should not** be inside your game directory. I would recommend for you to create a folder with an easy name like `Titanfall 2 modding` in this path: `C:\Users\<username>\Documents` 
 
 ```text
 C:\Users\<username>\Documents\Titanfall 2 modding
@@ -18,12 +18,12 @@ Once you have created this folder I recommend creating a subfolder called `"Back
 C:\Users\<username>\Documents\Titanfall 2 Modding\backup
 ```
 
-Open the Titanfall VPK Tool and press `CTRL+O`. Navigate to your game folder and open the right file \(based on the guide you are reading\). Once you loaded the [VPK ](../../information/file-format/vpk-valve-pak-file.md)into the tool, click on the menu icon called _`Extract All`_. I personally put those files in a folder with the same name as the extracted [VPK](../../information/file-format/vpk-valve-pak-file.md), this makes it way easier to manage when you extract files from different VPK's.
+Open the Titanfall VPK Tool and press `CTRL+O`. Navigate to your game folder and open the right file \(based on the guide you are reading\). Once you loaded the [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)into the tool, click on the menu icon called _`Extract All`_. I personally put those files in a folder with the same name as the extracted [VPK](../../documentation/file-format/vpk-valve-pak-file.md), this makes it way easier to manage when you extract files from different VPK's.
 
 After the extraction is complete, open the folder where you extracted your files to and delete the _`extracted_logs`_ folder.
 
 {% hint style="warning" %}
-**Only extract** [**VPK** ](../../information/file-format/vpk-valve-pak-file.md)**files from the game directory. If you try to extract** [**VPK** ](../../information/file-format/vpk-valve-pak-file.md)**files from your backup folder errors are caused!**
+**Only extract** [**VPK** ](../../documentation/file-format/vpk-valve-pak-file.md)**files from the game directory. If you try to extract** [**VPK** ](../../documentation/file-format/vpk-valve-pak-file.md)**files from your backup folder errors are caused!**
 {% endhint %}
 
 {% hint style="warning" %}

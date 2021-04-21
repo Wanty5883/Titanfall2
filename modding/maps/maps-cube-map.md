@@ -96,7 +96,7 @@ Rename pak000\_dir.vpk _to_ **englishclient\_mp\_\*mapname\*.bsp.pak000\_dir.vpk
 Make sure to pay attention when renaming them because every map has it's own VPK.
 {% endhint %}
 
-Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see the changed [skybox](../../information/textures/skybox-basics/)!
+Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see the changed [skybox](../../documentation/textures/skybox-basics/)!
 
 > Origin Games\Titanfall2\vpk\
 

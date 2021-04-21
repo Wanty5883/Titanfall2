@@ -2,7 +2,7 @@
 description: 'VPK archive names, e.g. names of the maps in game files.'
 ---
 
-# VPK
+# VPK list
 
 ## Location
 

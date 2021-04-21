@@ -45,7 +45,7 @@ To edit colors simply change the values of `"$color2"`. For more details on chan
 
 These material files leave quite lot of possibilities, you could replace textures the walls use, make them transparent, clear, changing colors, put any picture on them, play a gif, etc. In the page linked down bellow you will find additional information to modify the material and texture files. Feel free to experiment with it and share your results in our Discord community.
 
-{% page-ref page="../../../information/textures/colors/color-and-texture-info.md" %}
+{% page-ref page="../../../documentation/textures/colors/color-and-texture-info.md" %}
 
 ### Examples
 

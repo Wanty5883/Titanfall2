@@ -33,7 +33,7 @@ All colors on the scoreboard are stored in one file, `sh_consts.gnut`. The file 
 
 Colors of individual elements are stored as a vector variable which is made out of 3 integer variables that accept the values from 0 to 255; each of the integers corresponds to a certain amount of one of the basic [rgb colors ](https://noskill.gitbook.io/titanfall2/information/textures/colors#rgb)\(red, green or blue\). In simpler terms, you'll be changing the color by changing the amount of red, green and blue it has; 0 means no color at all \(black\) and 255 means the maximum.
 
-{% page-ref page="../../../information/textures/colors/" %}
+{% page-ref page="../../../documentation/textures/colors/" %}
 
 ### Enemy's color
 

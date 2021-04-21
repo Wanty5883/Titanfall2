@@ -7,9 +7,9 @@ description: >-
 
 # VIDE
 
-The **Valve Integrated Development Environment** \(commonly referred to by its acronym **VIDE**\) is a third party freeware software distribution used by Source developers. It is commonly used by mapmakers to pack custom content \([textures](../../../../../information/textures/), [models](https://developer.valvesoftware.com/wiki/Models), [soundscapes](https://developer.valvesoftware.com/wiki/Soundscapes)\) into their levels.
+The **Valve Integrated Development Environment** \(commonly referred to by its acronym **VIDE**\) is a third party freeware software distribution used by Source developers. It is commonly used by mapmakers to pack custom content \([textures](../../../../../documentation/textures/), [models](https://developer.valvesoftware.com/wiki/Models), [soundscapes](https://developer.valvesoftware.com/wiki/Soundscapes)\) into their levels.
 
-Any and all custom content must be packed into the level with VIDE; otherwise, external users of your map will see [missing content](../../../../../information/textures/missing-content.md) textures in place of the custom textures only you see on your end.
+Any and all custom content must be packed into the level with VIDE; otherwise, external users of your map will see [missing content](../../../../../documentation/textures/missing-content.md) textures in place of the custom textures only you see on your end.
 
 ## Features
 
