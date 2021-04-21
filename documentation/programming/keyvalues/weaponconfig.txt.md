@@ -8,14 +8,14 @@ description: >-
 
 ## Introduction
 
-The so called weapon config files are in a text file format, so it can easily be read and edited. The format of the content is known as [Source **KeyValues**](./).
+The so called weapon config files are in a text file format, so they can easily be read and edited. The format of the content is known as [Source **KeyValues**](./).
 
 Beside being a general source of information, this page will be used as a reference point of documentation for the different aspects and uses of the weapon config files. Either by modding guides or other documentation pages.
 
 ## Variables \(key\) index
 
-Down bellow is embedded a table used as an index. All \(known\) variables are splitted in different tabs \(Models, Effects, Sounds, etc.\) with categories per tabs.  
-Each tabs will have it's own header so it can easily be browsed in the contents table. The different categories will also have their sub headers.
+Down below is embedded a table used as an index. All \(known\) variables are split in different tabs \(Models, Effects, Sounds, etc.\) with categories per tab.  
+Each tab will have its own header so it can easily be browsed in the contents table. The different categories will also have their own sub headers.
 
 {% embed url="https://docs.google.com/spreadsheets/d/1wzCDQn8xuszQHWP2Uf5Ip9lu32YLurqF5X3fBYB62K8" %}
 
@@ -23,15 +23,15 @@ Each tabs will have it's own header so it can easily be browsed in the contents 
 
 ## Effects \(FX\)
 
-Effects, which will be mentioned as FX. Is one of the end application of the Particle System in Source Engine. For a basic approach, FX are a conjunction of textures \(2D graphic elements\) and different kind of parameters to create the illusion of 3D visual effects. Such as explosions, clouds, trails, etc.
+Effects, which will be mentioned as FX, is one of the end applications of the Particle System in Source Engine. For a basic approach, FX are a conjunction of textures \(2D graphic elements\) and different kind of parameter to create the illusion of 3D visual effects, such as explosions, clouds, trails, etc.
 
 {% hint style="info" %}
-At this time, there isn't an in depth reference page for the Particle System and their pcf files. The page will be included here and hyperkinked on keywords. If you would like to help, please contact us.
+At this time, there isn't an in depth reference page for the Particle System and their pcf files. The page will be included here and hyperlinked on keywords. If you would like to help, please contact us.
 {% endhint %}
 
 A different sub header will be made for the different category of variables used in the purpose of FX. The complete list of variables can be viewed from the [index table](weaponconfig.txt.md#variables-key-index) in the **Effect \(FX\)** tab.
 
-By the very nature of config files, the usage of FX can be restrictive. As they are easier to edit \(the config files\) but at the cost of possibilities. With that said, for anything that cannot be done from the config file, vscript files open more possibilities.
+By the very nature of config files, the usage of FX can be restrictive, as they are easier to edit \(the config files\) but at the cost of possibilities. With that said, for anything that cannot be done from the config file, vscript files open more possibilities.
 
 While looking at pre-existing files, the FX variables will often be around the comment:
 
@@ -41,18 +41,18 @@ While looking at pre-existing files, the FX variables will often be around the c
 
 In KeyValues format, a comment is defined by a double forward slash, everything after will not be interpreted by the engine \(Source Engine\). This method is very useful to leave annotations, default values, etc. Thus making your file easier to read and / or easier to modify over time.
 
-Note that the variables does not need to be after effect the comment.  
+Note that the variables do not need to be after the `// Effect` comment.  
 You can learn more about the KeyValues format here
 
 {% page-ref page="./" %}
 
 ### Bullet - Hitscan
 
-The FX for hitscan bullets are known as tracer effects. They will behave as intended for hitscan based wepaons but will not work properly on projectile based weapons.
+The FX for hitscan bullets are known as tracer effects. They will behave as intended for hitscan based weapons but will not work properly on projectile based weapons.
 
-The tracers FX will change the esthetics of your bullets. Either for the bullet itself or the trail it does leave behind \(the bullet itself being the leading graphical element as it move in one direction\)  
+The tracers FX will change the aesthetics of your bullets, either for the bullet itself or the trail it leaves behind \(the bullet itself being the leading graphical element as it moves in one direction\)  
 Combination are of course possible, but not from the weapon config file. _\(refer to the mentions under the main FX header\)_  
-Different "kind" of bullets can be achived \(energy, electric, fire, high velocity, etc.\)
+Different "kinds" of bullets can be achieved \(energy, electric, fire, high velocity, etc.\)
 
 * **tracer\_effect** will set an FX to the given weapon from other entities \(players & NPC's\)
 * **tracer\_effect\_first\_person** will set an FX only from your uses of the weapon
@@ -110,7 +110,13 @@ In the table down bellow you will find an index with previews \(partially\) of t
 
 {% embed url="https://docs.google.com/spreadsheets/d/1QM3bJSek\_\_ttMRjxTx1IjkV4OVq3mdeaAdDVOUVAtqg" caption="Icons index" %}
 
+{% hint style="info" %}
+Reference:
 
+* [https://developer.valvesoftware.com/wiki/Particle\_System\_Overview](https://developer.valvesoftware.com/wiki/Particle_System_Overview)
+* [https://developer.valvesoftware.com/wiki/Particles\_In\_Code](https://developer.valvesoftware.com/wiki/Particles_In_Code)
+* [https://steamcommunity.com/sharedfiles/filedetails/?id=530493383](https://steamcommunity.com/sharedfiles/filedetails/?id=530493383)
+{% endhint %}
 
 
 
