@@ -4,14 +4,18 @@
 
 In this guide you will have to edit vmt and vtf files. I would recommend to use the software [VTFEdit](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools) to edit them.To edit vmt files you can use any text editor such as Atom, NotePad++, VIM and many more, however you need [VTFEdit](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools) and an image editing software for the vtf files. Alternatively you can use VTF plugins for photo editing software such as Gimp, Photoshop and many more.
 
-Navigate to your VPK folder and find the following VPK files:
+Locate your game folder and find this folder if you are on Origin:
 
 > Origin Games\Titanfall2\vpk\
 
-Copy these files and paste them into an empty folder somewhere else:
+Or this folder if you are on Steam:
 
-* englishclient\_mp\_common.bsp.pak000\_dir.vpk
-* client\_mp\_common.bsp.pak000\_000.vpk
+> Steam\steamapps\common\Titanfall2\vpk\
+
+Copy these files and paste them in a backup folder somewhere else:
+
+* `englishclient_mp_common.bsp.pak000_dir.vpk`
+* `client_mp_common.bsp.pak000_000.vpk`
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. You can find that [here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools).
 
@@ -21,15 +25,15 @@ Now that your files have been backed up and everything is installed, navigate to
 
 > Origin Games\Titanfall2\vpk\englishclient\_mp\_common.bsp.pak000\_dir.vpk
 
-​[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
+​[How to extract VPK's properly?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
 
 ## Editing
 
-To edit the texture of the doomshield go to this location.
+To edit the texture of the domeshield go to this location.
 
 > \materials\effects\
 
-The texture used for doomshield is `black.vtf`, you can either change this texture or create a new one.  
+The texture used for domeshield is `black.vtf`, you can either change this texture or create a new one.  
 Editing this texture will have impact on other effect in the game.
 
 It is recommended to create a new texture so it is possible to make custom effect for specific part of the game.
@@ -40,7 +44,7 @@ For the parameters you can apply the same as the original texture or you can mak
 
 ### Applying the texture
 
-To change the texture of the doomshield to the one just created, go to this location.
+To change the texture of the domeshield to the one just created, go to this location.
 
 > materials\models\fx\
 
@@ -68,15 +72,13 @@ Color can be changed. If the texture is black then the color applied in your [ma
 
 ## Repacking
 
-​[How to repack VPK files proprely ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
+​[How to repack VPK files properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 
 After following the previous link closely:
 
-Rename pak000\_000.vpk _to_ **client\_mp\_common.bsp.pak000\_000.vpk**
+Rename `pak000_000.vpk` _to_ `client_mp_common.bsp.pak000_000.vpk`
 
-Rename pak000\_dir.vpk _to_ **englishclient\_mp\_common.bsp.pak000\_dir.vpk**
+Rename `pak000_dir.vpk` _to_ `englishclient_mp_common.bsp.pak000_dir.vpk`
 
 Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see your new domeshield texture!
-
-> Origin Games\Titanfall2\vpk\
 

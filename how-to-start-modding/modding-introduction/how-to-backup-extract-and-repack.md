@@ -12,18 +12,18 @@ When you are about to extract [VPK ](../../documentation/file-format/vpk-valve-p
 C:\Users\<username>\Documents\Titanfall 2 modding
 ```
 
-Once you have created this folder I recommend creating a subfolder called `"Backup"` dedicated for, guess what.. backups. \(Yey!\)
+Once you have created this folder I recommend creating a sub-folder called `"Backup"` dedicated for, you guessed it: backups. \(Yay!\)
 
 ```text
 C:\Users\<username>\Documents\Titanfall 2 Modding\backup
 ```
 
-Open the Titanfall VPK Tool and press `CTRL+O`. Navigate to your game folder and open the right file \(based on the guide you are reading\). Once you loaded the [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)into the tool, click on the menu icon called _`Extract All`_. I personally put those files in a folder with the same name as the extracted [VPK](../../documentation/file-format/vpk-valve-pak-file.md), this makes it way easier to manage when you extract files from different VPK's.
+Open the Titanfall VPK Tool and press `CTRL+O`. Navigate to your game folder and open the right file \(based on the guide you are reading\). Once you have loaded the [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)into the tool, click on the menu icon called _`Extract All`_. I personally put those files in a folder with the same name as the extracted [VPK](../../documentation/file-format/vpk-valve-pak-file.md), this makes it way easier to manage when you extract files from different VPK's.
 
 After the extraction is complete, open the folder where you extracted your files to and delete the _`extracted_logs`_ folder.
 
 {% hint style="warning" %}
-**Only extract** [**VPK** ](../../documentation/file-format/vpk-valve-pak-file.md)**files from the game directory. If you try to extract** [**VPK** ](../../documentation/file-format/vpk-valve-pak-file.md)**files from your backup folder errors are caused!**
+**Only extract** [**VPK** ](../../documentation/file-format/vpk-valve-pak-file.md)**files from the game directory. If you try to extract** [**VPK** ](../../documentation/file-format/vpk-valve-pak-file.md)**files from anywhere else, errors are caused!**
 {% endhint %}
 
 {% hint style="warning" %}
@@ -32,7 +32,7 @@ Make sure to use version 3.3 or 3.4 of the VPK tool. You may have unwanted behav
 
 ## **How to repack VPK files properly?**
 
-Open the repacker tool inside the Titanfall VPK Tool. You have 2 ways to do that, click on the _`Repack VPK`_ icon, or go in _`Tools > Repacker`_. Once the tool opened, give as first directory your extracted folder
+Open the repacking tool inside the Titanfall VPK Tool. You have 2 ways to do that, click on the _`Repack VPK`_ icon, or go in _`Tools > Repacker`_. Once the tool opened, give as first directory your extracted folder
 
 > e.g. C:\Users\YourSessionName\Documents\Titanfall\_2\_modding\Extracted\englishclient\_mp\_common.bsp.pak000\_dir.vpk
 
@@ -44,9 +44,9 @@ Leave the VPK file name as is, then click _`Build VPK`_. Once the VPK file has b
 
 **e.g.**
 
-Rename pak000\_000.vpk _to_ **client\_mp\_common.bsp.pak000\_000.vpk**
+Rename `pak000_000.vpk` _to_ `client_mp_common.bsp.pak000_000.vpk`
 
-Rename pak000\_dir.vpk _to_ **englishclient\_mp\_common.bsp.pak000\_dir.vpk**
+Rename `pak000_dir.vpk` _to_ `englishclient_mp_common.bsp.pak000_dir.vpk`
 
 ## **VPK rename / move batch script**
 

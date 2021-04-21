@@ -15,14 +15,14 @@ In this guide, the location of each [VPK ](../../documentation/file-format/vpk-v
 This Gitbook repo will be updated over time as we get new information about Titanfall 2 modding, datamining, reverse engineering and game ripping. You can check the [NoSkill Community Discord server](https://discordapp.com/invite/sEgmTKg) where update notifications are posted each time new content is added to the wiki. Join our Discord server to say hi, ask questions, report typos, mistakes or ask to contribute to the wiki.
 
 {% hint style="warning" %}
-Check contact page for more informations
+Check contact page for more information.
 {% endhint %}
 
 {% page-ref page="../../contact.md" %}
 
 ## Notes
 
-As a side note, in this wiki we will refer to some tools to do certain processes. Check out the "[Modding tools](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)" page. This page is linked to anyways when tools are mentioned in other guides.
+As a side note, in this wiki we will refer to some tools to do certain processes. Check out the "[Modding tools](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)" page. This page is linked to when tools are mentioned in other guides.
 
 {% page-ref page="how-to-backup-extract-and-repack.md" %}
 

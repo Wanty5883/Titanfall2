@@ -2,7 +2,7 @@
 
 ## Preparation
 
-In thoose "guide" called premade I will consider that you know how to proprely setup / start modding your game. If it's not your case you must read the "General info", refer to this [link](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-introduction)
+In those "guide" called premade I will consider that you know how to properly setup / start modding your game. If it's not your case you must read the "General info", refer to this [link](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-introduction)
 
 Any suggestion are welcome, you can submit your request / idea on NS Discord or even if you made your own premade weapon / set. You can reach me via [contact](https://noskill.gitbook.io/titanfall2/contact) details.
 
@@ -14,7 +14,7 @@ Any suggestion are welcome, you can submit your request / idea on NS Discord or 
 
 ### Editing
 
-To get this railgun, you will need to edit one text files. No specific software exept your text editor.
+To get this railgun, you will need to edit one text files. No specific software except your text editor.
 
 Go to this location
 
@@ -93,7 +93,7 @@ RUI_CrosshairData
 
 ### Editing
 
-To get this flight core, you will need to edit one text files. No specific software exept your text editor.
+To get this flight core, you will need to edit one text files. No specific software except your text editor.
 
 For the first file you need to edit, go to this location
 
@@ -158,7 +158,7 @@ RUI_CrosshairData
 
 ## Cluster missile
 
-To get this cluster missle, you will need to edit one text files. No specific software exept your text editor.
+To get this cluster missile, you will need to edit one text files. No specific software except your text editor.
 
 Go to this location
 
@@ -168,7 +168,7 @@ Open the file `mp_titanweapon_dumbfire_rockets.txt` with your text editor.
 
 Find and replace the following values in your file. **Note:** Do not copy paste this entire code block into your original file, replace string by string or you might resolve with a none working file.
 
-This will change the cluster icon to the one from Frontier Defense. The cluster missile animation will change to the twin cluter tier mod from Frontier Defense.
+This will change the cluster icon to the one from Frontier Defense. The cluster missile animation will change to the twin cluster tier mod from Frontier Defense.
 
 ```text
 "hud_icon"		"rui/menu/fd_menu/upgrade_northstar_twin_cluster_hud"
@@ -181,7 +181,7 @@ This will change the cluster icon to the one from Frontier Defense. The cluster 
 
 ## Tether trap
 
-To get this cluster missle, you will need to edit one text files. No specific software exept your text editor.
+To get this cluster missile, you will need to edit one text files. No specific software except your text editor.
 
 Go to this location
 

@@ -3,7 +3,7 @@
 ## Used VPK
 
 {% hint style="success" %}
-* englishclient\_mp\_common.bsp.pak000\_dir.vpk
+* `englishclient_mp_common.bsp.pak000_dir.vpk`
 {% endhint %}
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)

@@ -210,7 +210,7 @@ This change the tether trap icon HUD to the one used in Frontier Defense.
 "hud_icon"			"rui/menu/fd_menu/upgrade_northstar_explosive_trap_hud"
 ```
 
-Thoose values make the tether trap this electric effect.
+Those values make the tether trap this electric effect.
 
 ```text
 "impact_effect_table"				"P_wpn_arcTrap"

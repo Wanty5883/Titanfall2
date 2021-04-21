@@ -6,14 +6,18 @@ description: Modify the visual aspect of your weapon
 
 ## Preparation <a id="preparation"></a>
 
-Navigate to your folder and find this VPK file:
+Locate your game folder and find this folder if you are on Origin:
 
 > Origin Games\Titanfall2\vpk\
 
-Copy these file and paste them in an empty folder somewhere else:
+Or this folder if you are on Steam:
 
-* englishclient\_mp\_common.bsp.pak000\_dir.vpk
-* client\_mp\_common.bsp.pak000\_000.vpk
+> Steam\steamapps\common\Titanfall2\vpk\
+
+Copy these files and paste them in a backup folder somewhere else:
+
+* `englishclient_mp_common.bsp.pak000_dir.vpk`
+* `client_mp_common.bsp.pak000_000.vpk`
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
 

@@ -12,6 +12,10 @@ Navigate to your folder and find your `autoexec.cfg` file:
 
 > Origin Games\Titanfall2\r2\cfg\
 
+Or:
+
+> Steam\steamapps\common\Titanfall2\r2\cfg\
+
 Open it in your text editor of choice.
 
 {% hint style="info" %}

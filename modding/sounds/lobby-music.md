@@ -6,14 +6,18 @@ description: Guide on changing the lobby music.
 
 ## Preparation <a id="preparation"></a>
 
-Navigate to your folder and find this folder:
+Locate your game folder and find this folder if you are on Origin:
 
 > Origin Games\Titanfall2\vpk\
 
-Copy these file and paste them in an empty folder somewhere else:
+Or this folder if you are on Steam:
 
-* englishclient\_mp\_common.bsp.pak000\_dir.vpk
-* client\_mp\_common.bsp.pak000\_000.vpk
+> Steam\steamapps\common\Titanfall2\vpk\
+
+Copy these files and paste them in a backup folder somewhere else:
+
+* `englishclient_mp_common.bsp.pak000_dir.vpk`
+* `client_mp_common.bsp.pak000_000.vpk`
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files and RAD Tools Bik, which lets you convert videos to the BIK format, both found [here.](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
 
@@ -145,11 +149,9 @@ You can turn down the original lobby music in the ingame settings.
 
 After following step by step the previous link
 
-Rename pak000\_000.vpk _to_ **client\_mp\_common.bsp.pak000\_000.vpk**
+Rename `pak000_000.vpk` _to_ `client_mp_common.bsp.pak000_000.vpk`
 
-Rename pak000\_dir.vpk _to_ **englishclient\_mp\_common.bsp.pak000\_dir.vpk**
+Rename `pak000_dir.vpk` _to_ `englishclient_mp_common.bsp.pak000_dir.vpk`
 
 Place both of the renamed files back into your game directory and then launch Titanfall 2 and open multiplayer. You should be able to hear your music.
-
-> Origin Games\Titanfall2\vpk\
 

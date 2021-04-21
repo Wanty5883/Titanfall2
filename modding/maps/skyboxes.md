@@ -6,11 +6,15 @@ description: Change the Skybox of different maps
 
 ## Preparation
 
-Navigate to your folder and find this VPK file:
+Locate your game folder and find this folder if you are on Origin:
 
 > Origin Games\Titanfall2\vpk\
 
-Copy these files and paste them into an empty folder somewhere else:
+Or this folder if you are on Steam:
+
+> Steam\steamapps\common\Titanfall2\vpk\
+
+Copy these files and paste them in a backup folder somewhere else:
 
 `englishclient_mp_`**`<<mapname>>`**`.bsp.pak000_dir.vpk`
 
@@ -119,8 +123,6 @@ Make sure to pay attention when renaming them because every map has it's own VPK
 {% endhint %}
 
 Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see the changed [skybox](../../documentation/textures/skybox-basics/)!
-
-> Origin Games\Titanfall2\vpk\
 
 {% page-ref page="../../documentation/textures/skybox-basics/" %}
 

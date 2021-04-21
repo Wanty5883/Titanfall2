@@ -9,7 +9,7 @@ description: >-
 ## Used VPK
 
 {% hint style="success" %}
-* englishclient\_mp\_common.bsp.pak000\_dir.vpk
+* `englishclient_mp_common.bsp.pak000_dir.vpk`
 {% endhint %}
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
@@ -29,7 +29,7 @@ For this guide, it works as intended with the charge rifle.
 In the first place you need to get your hands on the arc tool model. You will need to extract the model from this VPK
 
 {% hint style="info" %}
-* englishclient\_sp\_beacon.bsp.pak000\_dir.vpk
+* `englishclient_sp_beacon.bsp.pak000_dir.vpk`
 {% endhint %}
 
 With the VPK tool you do not need to extract the entire archive, you can just extract the file you are looking for. Which you will find at this location
@@ -43,7 +43,7 @@ With the VPK tool you do not need to extract the entire archive, you can just ex
 Once you have the desired model, return to your extracted Common VPK
 
 {% hint style="success" %}
-* englishclient\_mp\_common.bsp.pak000\_dir.vpk
+* `englishclient_mp_common.bsp.pak000_dir.vpk`
 {% endhint %}
 
 Navigate to this location in your extracted folder

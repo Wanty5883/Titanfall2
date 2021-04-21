@@ -8,14 +8,18 @@ description: Guide to edit network menus details and color
 
 In this guide you will have to edit res files. You can use text editor for that such as Atom, NotePad++, VIM and many other ones would work fine.
 
-Navigate to your folder and find this VPK file:
+Locate your game folder and find this folder if you are on Origin:
 
 > Origin Games\Titanfall2\vpk\
 
-Copy these file and paste them in an empty folder somewhere else:
+Or this folder if you are on Steam:
 
-* englishclient\_frontend.bsp.pak000\_dir.vpk
-* client\_frontend.bsp.pak000\_000.vpk
+> Steam\steamapps\common\Titanfall2\vpk\
+
+Copy these files and paste them in a backup folder somewhere else:
+
+* `englishclient_frontend.bsp.pak000_dir.vpk`
+* `client_frontend.bsp.pak000_000.vpk`
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
 
@@ -25,7 +29,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 > Origin Games\Titanfall2\vpk\englishclient\_frontend.bsp.pak000\_dir.vpk
 
-​[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
+​[How to extract VPK's properly?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 
 ## Editing
 
@@ -754,15 +758,13 @@ For now, set the value \*`visible 1`\*show it, but both those stats show 0, I gu
 
 ## Repacking <a id="repacking"></a>
 
-​[How to repack VPK files proprely ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)​
+​[How to repack VPK files properly?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)​
 
 After following step by step the previous link
 
-Rename pak000\_000.vpk _to_ **client\_frontend.bsp.pak000\_000.vpk**
+Rename `pak000_000.vpk` _to_ `client_frontend.bsp.pak000_000.vpk`
 
-Rename pak000\_dir.vpk _to_ **englishclient\_frontend.bsp.pak000\_dir.vpk**
+Rename `pak000_dir.vpk` _to_ `englishclient_frontend.bsp.pak000_dir.vpk`
 
-Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see your new crosshair!
-
-> Origin Games\Titanfall2\vpk\
+Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see your changes!
 

@@ -4,14 +4,18 @@
 
 In this guide you will have to edit text. Simply use a text editor for that such as Atom, NotePad++, VIM or one that you prefer.
 
-Navigate to this directory:
+Locate your game folder and find this folder if you are on Origin:
 
 > Origin Games\Titanfall2\vpk\
 
-Copy these file and paste them in an empty folder somewhere else:
+Or this folder if you are on Steam:
 
-* englishclient\_frontend.bsp.pak000\_dir.vpk
-* client\_frontend.bsp.pak000\_000.vpk
+> Steam\steamapps\common\Titanfall2\vpk\
+
+Copy these files and paste them in a backup folder somewhere else:
+
+* `englishclient_frontend.bsp.pak000_dir.vpk`
+* `client_frontend.bsp.pak000_000.vpk`
 
 For the next step you'll need the [Titanfall VPK Tool](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools), a program which allows you to open and repack Titanfall VPK files. 
 
@@ -95,8 +99,8 @@ Example, values used were R=255 G=50 B=255:
 
 After following [this guide](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack), rename:
 
-* **pak000\_000.vpk** to **client\_frontend.bsp.pak000\_000.vpk**
-* **pak000\_dir.vpk** to **englishclient\_frontend.bsp.pak000\_dir.vpk**
+* `pak000_000.vpk` to `client_frontend.bsp.pak000_000.vpk`
+* `pak000_dir.vpk` to `englishclient_frontend.bsp.pak000_dir.vpk`
 
 Then place both of the renamed files back into your game's vpk folder. After starting the game you should be able to see the changes you've made.
 

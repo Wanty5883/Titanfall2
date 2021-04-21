@@ -6,14 +6,18 @@ description: Step by step guide to edit cube map
 
 ## Preparation
 
-Navigate to your folder and find this VPK file:
+Locate your game folder and find this folder if you are on Origin:
 
 > Origin Games\Titanfall2\vpk\
 
-Copy these files and paste them into an empty folder somewhere else:
+Or this folder if you are on Steam:
 
-* englishclient\_mp\_**mapname**.bsp.pak000\_dir.vpk
-* client\_mp\_**mapname**.bsp.pak000\_000.vpk
+> Steam\steamapps\common\Titanfall2\vpk\
+
+Copy these files and paste them in a backup folder somewhere else:
+
+* `englishclient_mp_mapname.bsp.pak000_dir.vpk`
+* `client_mp_mapname.bsp.pak000_000.vpk`
 
 {% hint style="info" %}
 Check the [list of VPK archives](https://noskill.gitbook.io/titanfall2/game-values/file-location/vpk-file-names), their names can be confusing
@@ -84,19 +88,17 @@ Here is some ready to use skyboxes: [Skybox list](https://github.com/Wanty5883/T
 
 ## Repacking
 
-[How to repack VPK files proprely?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)
+[How to repack VPK files properly?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)
 
 After closely following the previous link step by step:
 
-Rename pak000\_000.vpk _to_ **client\_mp\_\*mapname\*.bsp.pak000\_000.vpk**
+Rename `pak000_000.vpk` _to_ `client_mp_*mapname*.bsp.pak000_000.vpk`
 
-Rename pak000\_dir.vpk _to_ **englishclient\_mp\_\*mapname\*.bsp.pak000\_dir.vpk**
+Rename `pak000_dir.vpk` _to_ `englishclient_mp_*mapname*.bsp.pak000_dir.vpk`
 
 {% hint style="danger" %}
 Make sure to pay attention when renaming them because every map has it's own VPK.
 {% endhint %}
 
 Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see the changed [skybox](../../documentation/textures/skybox-basics/)!
-
-> Origin Games\Titanfall2\vpk\
 
