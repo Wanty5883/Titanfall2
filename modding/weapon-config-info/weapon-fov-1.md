@@ -20,12 +20,12 @@ description: 一键更换你的武器视野
 
 ## 介绍
 
-Source Engine games handle magnification when aiming down sights by changing the FOV to a smaller number, which creates the effect of magnification.   
-This guide will teach you how to apply this effect to your hipfire view. We can achieve this by binding a key to cycle between multiple FOVs.
+起源引擎游戏处理放大时，通过将瞄准镜的视野改变为一个较小的数字，来达到放大的效果。  
+本指南将教你如何将此效果应用于腰射视图，我们可以通过绑定一个按键来在不同视野之间循环切换来实现这一点。
 
 ## 编辑
 
-Open your `autoexec.cfg` in your text editor and type in the following lines.
+在文本编辑器中打开你的 `autoexec.cfg` 并键入下面的代码行：
 
 ```text
 bind "MOUSE4" fovtoggle
@@ -34,16 +34,16 @@ bind "MOUSE4" fovtoggle
 		alias "fov2" "cl_fovScale 1.6875; alias fovtoggle fov1"
 ```
 
-Note that `cl_fovScale` values below 1.0 will default to 1.0.
+请注意，低于1.0的 `cl_fovScale` 数值将会默认设为1.0。
 
-I bound my FOV toggle to "MOUSE4", you can bind it to any button you'd like.  
+我把视野切换开关绑定到了“MOUSE4”，你可以把它绑定到任何你喜欢的按键上。  
   
-This will toggle between`cl_fovScale 1.6875 (118.125 FOV)`and `cl_fovScale 1.0 (70 FOV).`  
-However you will not have sensitivity scaling so when zooming in your mouse movement, much like your image, will be magnified.  
+上面的代码行表示视野将在`cl_fovScale 1.6875 (118.125 FOV)`和 `cl_fovScale 1.0 (70 FOV)`  
+之间切换。然而，在你移动鼠标时切换视野的同时，鼠标的灵敏度没有随着一起切换。正如你所想到的，将被放大。  
   
-To have your sensitivity scale properly with your zoom you will need to divide your sensitivity value by the amount that you are zooming in \(in my case that value is `1.6875 / 1.0 = 1.6875`\), in this case the zoomed in sensitivity is `3.848 / 1.6875 = 2.2802962963`.  
+要使鼠标灵敏度与视野缩放比例对应匹配，需要将鼠标灵敏度值除以视野放大的数值（在我的设置中，该比例值为 `1.6875 / 1.0 = 1.6875`\)，在上面比例值的情况下，放大后鼠标的灵敏度应为`3.848 / 1.6875 = 2.2802962963`.  
   
-Now add the proper sensitivity values to `"fov1"` and `"fov2"`
+现在将恰当的鼠标灵敏度值添加到 `"fov1"` 和 `"fov2"`之中
 
 ```text
 bind "MOUSE4" fovtoggle
@@ -52,7 +52,7 @@ bind "MOUSE4" fovtoggle
 		alias "fov2" "cl_fovScale 1.6875; alias fovtoggle fov1; m_sensitivity 3.848"
 ```
 
-This will ensure that the mouse movement is not magnified and feels the same as it would when zoomed out.
+这将确保鼠标移动时不会被放大，并且感觉与缩小时相同。
 
 ## 样例
 
