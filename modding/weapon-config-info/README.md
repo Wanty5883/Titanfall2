@@ -20,25 +20,25 @@ description: >-
 
 ## 武器定位
 
-This guide will show you how to change what the position of your weapon is on screen. This means your weapon can be moved to the center of the screen doom style or even making the gun left handed, It's all up to your tastes.
+本指南将向你展示如何更改武器在屏幕上的位置。这意味着你的武器可以使用移动到屏幕中心的末日风，甚至使枪在左手边，这一切都取决于你的喜好。
 
 {% page-ref page="weapon-positioning.md" %}
 
-## 武器FOV
+## 武器视野
 
-Guide to changing the weapon viewmodel fov
+更改武器视图模型视野指南
 
 {% page-ref page="weapon-fov.md" %}
 
-## 瞄准FOV
+## 一键更换武器视野
 
-How to create a zoom effect while hipfiring.
+如何在腰射时使用缩放效果。
 
 {% page-ref page="weapon-fov-1.md" %}
 
 ## 特殊/独特武器修改
 
-These mods are restricted only to these weapons and won't apply to any others, this guide will show you how to mod them.
+这些修改只限于文章中的武器，不适用于其他武器；本指南将告诉你如何修改它们。
 
 {% page-ref page="weapons/" %}
 
