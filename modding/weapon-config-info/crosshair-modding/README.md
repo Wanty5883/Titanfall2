@@ -137,7 +137,7 @@ More argument information on this page
 
 不同武器配置文件的列表，有时候名字和游戏名字不一样。.
 
-{% page-ref page="../../../game-values/file-location/weapon-config-file-name.md" %}
+{% page-ref page="../../../information/file-location/weapon-config-file-name.md" %}
 
 ## 重新打包
 
