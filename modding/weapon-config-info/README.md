@@ -1,21 +1,20 @@
 ---
 description: >-
-  This weapons page will lead you to modding every aspect of your Pilot Weapon,
-  from making your gun blind you to making your gun not exist this page will
-  lead you to the guide you need.
+  这个武器页面用于引导你修改铁驭武器的方方面面， from making your gun blind you to making your gun not
+  exist 这个页面将引导你至所需的指南。
 ---
 
 # 武器
 
-## 武器特效
+## 武器效果
 
-Modify the visual aspect of your weapon. This will modify what effect your weapon makes, This includes what your muzzle flash looks like to what the bullet projectile looks like as well. 
+修改武器的视觉效果。这将改变你的武器所产生的各种效果，包括你的枪焰和弹道。
 
 {% page-ref page="weapon-effects.md" %}
 
 ## 准星修改
 
-This guide will show you how to change what your crosshair looks like. 
+本指南将向你展示如何更改准星显示。 
 
 {% page-ref page="crosshair-modding/" %}
 
