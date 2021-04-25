@@ -6,7 +6,7 @@ description: A first step to learning how to mod Titanfall 2 properly
 
 ## First step
 
-Before getting into Titanfall 2 modding, you should backup any [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)files that you will get into, if you mess up or your [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)files get corrupted you don't need to download or repair your game from Origin because you will learn how to make a backup
+Before getting into Titanfall 2 modding, you should backup any [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)files that you will get into, if you mess up or your [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)files get corrupted you don't need to download or repair your game from Origin or Steam, so you should learn how to make a backup.
 
 {% hint style="info" %}
 In this guide, the location of each [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)file will be listed at the beginning of the page.

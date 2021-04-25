@@ -78,7 +78,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 
 {% hint style="warning" %}
-You can't download one of those software ? Reach us! We probably have a backup  
+Can't download one of those software ? Contact us! We probably have a backup.  
 _Check in the contact page_
 {% endhint %}
 

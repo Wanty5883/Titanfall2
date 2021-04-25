@@ -11,7 +11,7 @@ Some of its features are:
 * Much more!
 
 {% hint style="info" %}
- **Note:**Decompiling maps may not always result in accurate builds. Some properties, such as keyvalues and texture settings, may not match those of the original map. A common example \(bug\) are misplaced [areaportals](https://developer.valvesoftware.com/wiki/Areaportal).
+ **Note:** Decompiling maps may not always result in accurate builds. Some properties, such as keyvalues and texture settings, may not match those of the original map. A common example \(bug\) are misplaced [areaportals](https://developer.valvesoftware.com/wiki/Areaportal).
 {% endhint %}
 
 {% hint style="info" %}

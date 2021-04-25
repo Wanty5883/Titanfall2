@@ -6,7 +6,7 @@ description: How to play around with VPKs without messing everything up
 
 ## How to backup & extract VPK's properly?
 
-When you are about to extract [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)files, you need a directory where the files will be extracted to from the selected [VPK](../../documentation/file-format/vpk-valve-pak-file.md). This folder **should not** be inside your game directory. I would recommend for you to create a folder with an easy name like `Titanfall 2 modding` in this path: `C:\Users\<username>\Documents` 
+When you are about to extract [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)files, you need a directory where the files will be extracted to from the selected [VPK](../../documentation/file-format/vpk-valve-pak-file.md). This folder **should not** be inside your game directory. I would recommend for you to create a folder with an easy name like `Titanfall 2 modding` in this path: `C:\Users\<username>\Documents`
 
 ```text
 C:\Users\<username>\Documents\Titanfall 2 modding
@@ -32,7 +32,7 @@ Make sure to use version 3.3 or 3.4 of the VPK tool. You may have unwanted behav
 
 ## **How to repack VPK files properly?**
 
-Open the repacking tool inside the Titanfall VPK Tool. You have 2 ways to do that, click on the _`Repack VPK`_ icon, or go in _`Tools > Repacker`_. Once the tool opened, give as first directory your extracted folder
+Open the repacking tool inside the Titanfall VPK Tool. You have 2 ways to do that, click on the _`Repack VPK`_ icon, or go in _`Tools > Repacker`_. Once the tool opened, give as first directory your extracted folder:
 
 > e.g. C:\Users\YourSessionName\Documents\Titanfall\_2\_modding\Extracted\englishclient\_mp\_common.bsp.pak000\_dir.vpk
 

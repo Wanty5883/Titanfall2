@@ -8,7 +8,7 @@ NoSkill Community [https://discord.gg/sEgmTKg](https://discord.gg/sEgmTKg) perma
 
 ## How to ask for help
 
-We do like helping other people through our Discord server, however, please make the difference between asking for help and asking for support. Do not take this help for granted, we are not chatbots neither being paid for the service.
+We like helping other people through our Discord server, however, please know the difference between asking for help and asking for support. Do not take this help for granted, we are not chatbots nor are we being paid for this service.
 
 The NoSkill discord is **not a support discord for modding** for the ones **who don't read given information**. 
 
