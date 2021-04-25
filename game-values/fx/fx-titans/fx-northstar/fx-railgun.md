@@ -2,7 +2,7 @@
 description: Norhtstar datamined FX values. Dediceted page as there is too many values
 ---
 
-# FX - Railgun
+# 特效-电浆轨道炮
 
 | Value | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |

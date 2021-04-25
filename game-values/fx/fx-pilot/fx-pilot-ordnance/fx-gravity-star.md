@@ -2,7 +2,7 @@
 description: Gravity Star FX value
 ---
 
-# FX - Gravity Star
+# 特效-重力星
 
 | Value | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |

@@ -2,7 +2,7 @@
 description: Monarch FX value
 ---
 
-# FX-帝王
+# 特效-帝王
 
 | Value | Note | Tracer | Projectile | Muzzleflash |
 | :--- | :--- | :--- | :--- | :--- |

@@ -2,7 +2,7 @@
 description: Monarch Beam FX value datamined
 ---
 
-# FX - Monarch Beam
+# 特效-Monarch Beam
 
 | Value | Note | Tracer | Projectile | Muzzleflash |
 | :--- | :--- | :--- | :--- | :--- |

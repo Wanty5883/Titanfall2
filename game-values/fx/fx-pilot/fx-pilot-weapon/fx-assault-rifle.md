@@ -2,7 +2,7 @@
 description: Assault Rifle FX value
 ---
 
-# FX-突击步枪
+# 特效-突击步枪
 
 {% tabs %}
 {% tab title="Flatline" %}

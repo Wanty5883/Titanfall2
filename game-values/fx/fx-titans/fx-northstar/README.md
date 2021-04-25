@@ -2,7 +2,7 @@
 description: Northstar FX value
 ---
 
-# FX-北极星
+# 特效-北极星
 
 
 

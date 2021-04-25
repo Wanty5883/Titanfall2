@@ -2,7 +2,7 @@
 description: Sniper FX value
 ---
 
-# FX-狙击步枪
+# 特效-狙击步枪
 
 {% tabs %}
 {% tab title="DMR" %}

@@ -2,7 +2,7 @@
 description: Thermite Launcher FX values
 ---
 
-# FX - Thermite Launcher
+# 特效-铝热剂发射器
 
 | Value | Note | Tracer | Projectile | Muzzleflash |
 | :--- | :--- | :--- | :--- | :--- |

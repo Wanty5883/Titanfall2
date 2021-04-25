@@ -2,7 +2,7 @@
 description: FX Firewall FX values.
 ---
 
-# FX - Firewall
+# 特效-火墙
 
 | FX Value | Notes | Example |
 | :--- | :--- | :--- |

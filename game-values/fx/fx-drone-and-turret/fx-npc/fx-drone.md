@@ -2,7 +2,7 @@
 description: Drone FX values
 ---
 
-# FX - Drone
+# 特效-无人机
 
 | FX Values | Notes | Examples |
 | :--- | :--- | :--- |

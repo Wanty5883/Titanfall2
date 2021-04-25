@@ -2,7 +2,7 @@
 description: Ronin FX value
 ---
 
-# FX-浪人
+# 特效-浪人
 
 {% tabs %}
 {% tab title="Leadwall" %}

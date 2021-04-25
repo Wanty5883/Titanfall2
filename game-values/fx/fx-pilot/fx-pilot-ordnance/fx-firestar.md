@@ -2,7 +2,7 @@
 description: Firestar FX value
 ---
 
-# FX - Firestar
+# 特效-飞火星
 
 | Value | Note | Tracer | Projectile | Muzzleflash |
 | :--- | :--- | :--- | :--- | :--- |

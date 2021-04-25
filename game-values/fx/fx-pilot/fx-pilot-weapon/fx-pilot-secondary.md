@@ -2,7 +2,7 @@
 description: Secondary & Pistols FX value
 ---
 
-# FX-副手武器和手枪
+# 特效-副手武器和手枪
 
 {% tabs %}
 {% tab title="Pistol" %}

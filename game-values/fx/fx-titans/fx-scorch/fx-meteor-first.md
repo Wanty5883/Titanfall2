@@ -1,4 +1,4 @@
-# FX - Meteor First
+# 特效-Meteor First
 
 | FX Value | Notes | Example |
 | :--- | :--- | :--- |

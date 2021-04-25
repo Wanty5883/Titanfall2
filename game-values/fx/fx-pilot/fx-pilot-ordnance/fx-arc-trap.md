@@ -2,7 +2,7 @@
 description: 'Arc Trap FX values, ordnance from Frontier Defense'
 ---
 
-# FX - Arc Trap
+# 特效-电弧手雷
 
 | Value | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |

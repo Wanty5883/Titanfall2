@@ -2,7 +2,7 @@
 description: Grenadier FX value
 ---
 
-# FX-榴弹发射器
+# 特效-榴弹发射器
 
 {% tabs %}
 {% tab title="Cold War" %}

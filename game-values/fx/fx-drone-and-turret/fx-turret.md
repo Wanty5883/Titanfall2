@@ -2,7 +2,7 @@
 description: List of the different turrets FX values in the game.
 ---
 
-# FX - Turret
+# 特效-炮台
 
 {% tabs %}
 {% tab title="Ion Turret" %}

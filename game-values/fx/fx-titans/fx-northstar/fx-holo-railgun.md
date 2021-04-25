@@ -1,4 +1,4 @@
-# FX - Holo Railgun
+# 特效- Holo Railgun
 
 
 

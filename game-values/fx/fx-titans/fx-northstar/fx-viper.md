@@ -2,7 +2,7 @@
 description: Viper FX values
 ---
 
-# FX - Viper
+# 特效-毒蛇
 
 | Value | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |

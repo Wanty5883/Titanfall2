@@ -2,7 +2,7 @@
 description: SMG FX value
 ---
 
-# FX-冲锋枪
+# 特效-冲锋枪
 
 {% tabs %}
 {% tab title="SMG" %}

@@ -1,8 +1,8 @@
 ---
-description: FX & SFX uses
+description: 用到的特效
 ---
 
-# FX
+# 特效
 
 ## Action
 

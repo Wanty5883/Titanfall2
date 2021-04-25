@@ -2,7 +2,7 @@
 description: LMG FX value
 ---
 
-# FX-轻机枪
+# 特效-轻机枪
 
 {% tabs %}
 {% tab title="Devotion" %}
