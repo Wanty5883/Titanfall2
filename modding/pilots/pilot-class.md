@@ -45,13 +45,13 @@ To change the pilot class you want, first off find the file linked to this class
 
 The files in the folder have different names that correspond to their pilot classes:
 
-* pilot\_light\_jester = Stim
-* pilot\_light\_ged = Phase Shift
-* pilot\_medium\_stalker = Holo Pilot
-* pilot\_medium\_reaper = Pulse Blade
-* pilot\_medium\_geist = Grapple
-* pilot\_heavy\_roog = A-Wall
-* pilot\_heavy\_drex = Cloak
+* pilot\_light\_jester = 激素
+* pilot\_light\_ged = 相位转移
+* pilot\_medium\_stalker = 幻影铁驭
+* pilot\_medium\_reaper = 脉冲刀
+* pilot\_medium\_geist = 钩爪
+* pilot\_heavy\_roog = A盾
+* pilot\_heavy\_drex = 隐身
 
 The _f_ & _m_ at the end of the files correspond to the _female_ and _male_ versions of each pilot class.
 
