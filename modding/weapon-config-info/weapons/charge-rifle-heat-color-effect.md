@@ -29,7 +29,7 @@ description: 电能步枪蓄力颜色修改指南
 
 ## 编辑 <a id="editing"></a>
 
-要编辑电能步枪的蓄力颜色，你需要找到武器的.vmt文件。在本指南中，你将进一步了解不同的文件位置以及可以进行哪些修改的详细信息。
+要编辑以下武器的蓄力颜色，你需要找到武器的.vmt文件。在本指南中，你将进一步了解不同的文件位置以及可以进行哪些修改的详细信息。
 
 You can edit the heat color, [here](https://noskill.gitbook.io/titanfall2/information/textures/colors/color-and-texture-info#usdlayercolor) more information about color and how to edit the way you like.
 
