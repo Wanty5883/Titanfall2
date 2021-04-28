@@ -5,67 +5,67 @@ description: 替换铁驭模型指南
 # 模型-铁驭类
 
 {% hint style="danger" %}
-Note: Changing pilot models may result in broken animations or even crashes.  
+注意：更改铁驭模型可能会破坏其动画甚至游戏崩溃。  
   
- However, changing arm models works perfectly fine on any tactical.
+ 然而，只改变手臂模型在任何情况下都能正常工作。
 {% endhint %}
 
 ## 前期准备 <a id="preparation"></a>
 
-Navigate to your folder and find this VPK file:
+进入以下目录并找到所需的VPK文件:
 
 > Origin Games\Titanfall2\vpk\
 
-Copy these file and paste them in an empty folder somewhere else:
+复制粘贴下面的文件到其他空的文件夹之中:
 
 * englishclient\_mp\_common.bsp.pak000\_dir.vpk
 * client\_mp\_common.bsp.pak000\_000.vpk
 
-You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
+你将会用到Titanfall VPK Tool来打开和重新打包《泰坦陨落2》VPK 文件。 [工具链接](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/modding-tools)​
 
 ## 解包 <a id="unpacking"></a>
 
-Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
+现在，这些文件已经备份完毕并且所有东西都已准备就绪。在软件中进入游戏目录并打开这个文件：
 
 > Origin Games\Titanfall2\vpk\englishclient\_mp\_common.bsp.pak000\_dir.vpk
 
-​[How to extract VPK's properly?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
+​[如何正确地解包VPK文件？](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack)​
 
 ## 编辑
 
-To change pilot class models go to this directory:
+要更改铁驭类模型，请进入以下文件目录：
 
 > models\humans\pilots
 
-If you want to change the look of the arms, you can go to:
+如果要更改手臂模型，可以转到以下文件目录：
 
 > models\weapons\arms
 
-To change the pilot class you want, first off find the file linked to this class. Then choose the class you want and duplicate them. Then just rename the duplicated files into the name of the class you wanted to change.
+要更改所需的铁驭类型，首先查找链接到此类型的文件。然后选择你想要的类型并复制它们。然后将复制的文件重命名为您想要更改的类型的名称。
 
-The files in the folder have different names that correspond to their pilot classes:
+文件夹中的文件具有与其铁驭类型相对应的不同名称：
 
-* pilot\_light\_jester = 激素
-* pilot\_light\_ged = 相位转移
+* pilot\_light\_jester = 兴奋剂铁驭
+* pilot\_light\_ged = 相位铁驭
 * pilot\_medium\_stalker = 幻影铁驭
-* pilot\_medium\_reaper = 脉冲刀
-* pilot\_medium\_geist = 钩爪
-* pilot\_heavy\_roog = A盾
-* pilot\_heavy\_drex = 隐身
+* pilot\_medium\_reaper = 脉冲刀铁驭
+* pilot\_medium\_geist = 钩爪铁驭
+* pilot\_heavy\_roog = A盾铁驭
+* pilot\_heavy\_drex = 隐身铁驭
 
-The _f_ & _m_ at the end of the files correspond to the _female_ and _male_ versions of each pilot class.
+文件末尾的_f_ & _m_ 对应每个铁驭类型的女性和男性版本。
 
 ## 重新打包 <a id="repacking"></a>
 
-​[How to repack VPK files properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)​
+​[如何正确地重新打包VPK文件？](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack#ru-he-zheng-que-di-zhong-xin-da-bao-vpk)​
 
-After following step by step the previous link
+在按步骤完成了上方链接的内容之后：
 
-Rename pak000\_000.vpk _to_ **client\_mp\_common.bsp.pak000\_000.vpk**
+把pak000\_000.vpk重命名为**client\_mp\_common.bsp.pak000\_000.vpk**
 
-Rename pak000\_dir.vpk _to_ **englishclient\_mp\_common.bsp.pak000\_dir.vpk**
+把pak000\_dir.vpk重命名为**englishclient\_mp\_common.bsp.pak000\_dir.vpk**
 
-Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see your new crosshair!
+将两个重命名完成的文件放回下面所示的文件夹之中并覆盖文件，然后启动《泰坦陨落2》。你就能看见修改后铁驭模型了！
 
 > Origin Games\Titanfall2\vpk\
 
