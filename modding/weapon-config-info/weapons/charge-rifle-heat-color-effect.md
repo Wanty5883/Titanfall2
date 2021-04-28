@@ -1,35 +1,35 @@
 ---
-description: Charge rifle heat color effect guide
+description: 电能步枪蓄力颜色修改指南
 ---
 
 # 电能步枪-蓄力颜色
 
 ## 前期准备 <a id="preparation"></a>
 
-In this guide you will have to edit vmt files. I would recommend you to use the software [VTFEdit](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools) to edit them. You can use text editor for that such as Atom, NotePad++, VIM and many other ones would work fine.
+在本指南中你需要修改vmt文件。我推荐你使用[VTFEdit](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)来编辑文件。 你需要使用文本编辑器，例如Atom, NotePad++, VIM。（系统自带的记事本也行）
 
-Navigate to your folder and find this VPK file:
+进入以下目录并找到所需的VPK文件:
 
 > Origin Games\Titanfall2\vpk\
 
-Copy these file and paste them in an empty folder somewhere else:
+复制粘贴下面的文件到其他空的文件夹之中:
 
 * englishclient\_mp\_common.bsp.pak000\_dir.vpk
 * client\_mp\_common.bsp.pak000\_000.vpk
 
-You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
+你将会用到Titanfall VPK Tool来打开和重新打包《泰坦陨落2》VPK 文件。 [工具链接](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
 
 ## 解包 <a id="unpacking"></a>
 
-Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
+现在，这些文件已经备份完毕并且所有东西都已准备就绪。在软件中进入游戏目录并打开这个文件：
 
 > Origin Games\Titanfall2\vpk\englishclient\_mp\_common.bsp.pak000\_dir.vpk
 
-​[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
+​[如何正确地解包VPK文件？](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 
 ## 编辑 <a id="editing"></a>
 
-To edit the following weapon heat effect you need to find their .vmt files. Further in this guide you will find the different file locations and details about what modifications can be done.
+要编辑电能步枪的蓄力颜色，你需要找到武器的.vmt文件。在本指南中，你将进一步了解不同的文件位置以及可以进行哪些修改的详细信息。
 
 You can edit the heat color, [here](https://noskill.gitbook.io/titanfall2/information/textures/colors/color-and-texture-info#usdlayercolor) more information about color and how to edit the way you like.
 
