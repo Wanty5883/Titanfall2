@@ -6,7 +6,22 @@ description: 'VPK archive names, e.g. names of the maps in game files.'
 
 ## Location
 
-> Origin Games\Titanfall2\vpk
+```text
+Titanfall2\vpk
+```
+
+{% hint style="info" %}
+If you have difficulties finding your game files, check the FAQ page.
+{% endhint %}
+
+{% page-ref page="../../how-to-start-modding/faq.md" %}
+
+## General purpose
+
+| Name | File name |
+| :--- | :--- |
+| Common | englishclient\_mp\_common.bsp.pak000\_dir.vpk |
+| Frontend | englishclient\_frontend.bsp.pak000\_dir.vpk |
 
 ## MP Maps
 

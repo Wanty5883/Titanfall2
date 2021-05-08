@@ -11,8 +11,6 @@ description: >-
 
 Modify the visual aspect of your weapon. This will modify what effect your weapon makes, This includes what your muzzle flash looks like to what the bullet projectile looks like as well. 
 
-{% page-ref page="weapon-effects.md" %}
-
 ## Crosshair modding
 
 This guide will show you how to change what your crosshair looks like. 

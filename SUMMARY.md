@@ -33,6 +33,7 @@
         * [Vtex](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtex/README.md)
           * [Vtex - Compile Parameters](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtex/vtex-compile-parameters.md)
           * [Vtex - Troubleshooting](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtex/vtex-troubleshooting.md)
+* [FAQ](how-to-start-modding/faq.md)
 
 ## Documentation
 
@@ -94,7 +95,6 @@
 ## Modding
 
 * [Weapon](modding/weapon-config-info/README.md)
-  * [Weapon effects](modding/weapon-config-info/weapon-effects.md)
   * [Crosshair modding](modding/weapon-config-info/crosshair-modding/README.md)
     * [Batch crosshair modding](modding/weapon-config-info/crosshair-modding/batch-crosshair-modding.md)
     * [Crosshair example](modding/weapon-config-info/crosshair-modding/crosshair-example.md)
@@ -152,6 +152,7 @@
 ## Script Values <a id="game-values"></a>
 
 * [Crosshair](game-values/crosshair.md)
+* [Effect \(FX\)](game-values/effect-fx.md)
 * [FX](game-values/fx/README.md)
   * [FX - Pilot](game-values/fx/fx-pilot/README.md)
     * [FX - Pilot Weapon](game-values/fx/fx-pilot/fx-pilot-weapon/README.md)
@@ -264,13 +265,11 @@
     * [Sound - Arc Tool](game-values/sound/sound-misc-and-unknown/sound-arc-tool.md)
     * [Sound - Flamethrower](game-values/sound/sound-misc-and-unknown/sound-flamethrower.md)
     * [Sound - Triplethreat](game-values/sound/sound-misc-and-unknown/sound-triplethreat.md)
-* [Icons & HUD](game-values/ig-icon/README.md)
-  * [Pilot](game-values/ig-icon/pilot.md)
-  * [Titans](game-values/ig-icon/titans.md)
-  * [Menu](game-values/ig-icon/menu/README.md)
-    * [Loadscreen](game-values/ig-icon/menu/loadscreen.md)
-    * [Private match](game-values/ig-icon/menu/private-match.md)
-    * [Scoreboard](game-values/ig-icon/menu/scoreboard.md)
+* [UI & HUD](game-values/ui-and-hud/README.md)
+  * [Menu](game-values/ui-and-hud/menu/README.md)
+    * [Loadscreen](game-values/ui-and-hud/menu/loadscreen.md)
+    * [Private match](game-values/ui-and-hud/menu/private-match.md)
+    * [Scoreboard](game-values/ui-and-hud/menu/scoreboard.md)
 
 ## Mods
 
