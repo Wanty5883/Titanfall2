@@ -2,7 +2,7 @@
 description: Turn your frag grenades or any ordinance into Nessie's
 ---
 
-# Nessie- Frag Model
+# 尼斯湖水怪模型
 
 ## Preparation <a id="preparation"></a>
 

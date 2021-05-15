@@ -2,7 +2,7 @@
 description: Guide to edit texture on Marvin chest screen
 ---
 
-# Marvin - Chest screen
+# 马文机器人-胸部显示屏
 
 ## Preparation <a id="preparation"></a>
 

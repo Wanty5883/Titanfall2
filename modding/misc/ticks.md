@@ -2,7 +2,7 @@
 description: Change the look of your Multiplayer Ticks
 ---
 
-# Ticks - Model
+# 模型-炸蛛
 
 ## Results
 

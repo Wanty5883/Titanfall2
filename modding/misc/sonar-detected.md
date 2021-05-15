@@ -4,7 +4,7 @@ description: >-
   while being detected
 ---
 
-# Sonar Detected
+# 被声呐探测到的效果
 
 ## Preparation
 

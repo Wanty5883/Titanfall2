@@ -142,12 +142,12 @@
   * [大厅背景音乐](modding/sounds/lobby-music.md)
 * [杂项](modding/misc/README.md)
   * [移除太阳效果](modding/misc/yi-chu-tai-yang-xiao-guo.md)
-  * [Cable - Zipline](modding/misc/cable-zipline.md)
-  * [Marvin - Chest screen](modding/misc/marvin-chest-screen.md)
-  * [Pulse Effect](modding/misc/pulse-effect.md)
-  * [Sonar Detected](modding/misc/sonar-detected.md)
-  * [Ticks - Model](modding/misc/ticks.md)
-  * [Nessie- Frag Model](modding/misc/nessie-frag-model.md)
+  * [电缆-滑索](modding/misc/cable-zipline.md)
+  * [马文机器人-胸部显示屏](modding/misc/marvin-chest-screen.md)
+  * [脉冲刀范围特效](modding/misc/pulse-effect.md)
+  * [被声呐探测到的效果](modding/misc/sonar-detected.md)
+  * [模型-炸蛛](modding/misc/ticks.md)
+  * [尼斯湖水怪模型](modding/misc/nessie-frag-model.md)
 
 ## 脚本数据 <a id="game-values"></a>
 

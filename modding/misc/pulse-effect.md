@@ -2,7 +2,7 @@
 description: Guide to modify your pulse effect
 ---
 
-# Pulse Effect
+# 脉冲刀范围特效
 
 ## Preparation
 

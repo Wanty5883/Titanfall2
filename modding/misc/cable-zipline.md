@@ -2,7 +2,7 @@
 description: Guide to edit Zipline texture
 ---
 
-# Cable - Zipline
+# 电缆-滑索
 
 ## Preparation <a id="preparation"></a>
 
