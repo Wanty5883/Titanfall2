@@ -141,6 +141,7 @@
   * [击杀音效](modding/sounds/killsound.md)
   * [大厅背景音乐](modding/sounds/lobby-music.md)
 * [杂项](modding/misc/README.md)
+  * [移除太阳效果](modding/misc/yi-chu-tai-yang-xiao-guo.md)
   * [Cable - Zipline](modding/misc/cable-zipline.md)
   * [Marvin - Chest screen](modding/misc/marvin-chest-screen.md)
   * [Pulse Effect](modding/misc/pulse-effect.md)
