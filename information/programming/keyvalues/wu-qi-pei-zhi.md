@@ -27,7 +27,7 @@ Each tab will have its own header so it can easily be browsed in the contents ta
 
 ## 特效\(FX\)
 
-Effects, which will be mentioned as FX, is one of the end applications of the Particle System in Source Engine. For a basic approach, FX are a conjunction of textures \(2D graphic elements\) and different kind of parameter to create the illusion of 3D visual effects, such as explosions, clouds, trails, etc.
+特效是粒子系统在起源引擎中的最终应用之一。 作为一种基础方法，FX是纹理（2D图形元素）和不同类型参数的结合，用以创建拥有3D视觉效果的产物，如爆炸、云、轨迹等。
 
 {% hint style="info" %}
 At this time, there isn't an in depth reference page for the Particle System and their pcf files. The page will be included here and hyperlinked on keywords. If you would like to help, please contact us.
