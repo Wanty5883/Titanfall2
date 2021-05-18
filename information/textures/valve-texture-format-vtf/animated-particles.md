@@ -5,7 +5,7 @@ description: >-
   mksheet.exe and vtex tools.
 ---
 
-# Creating Animated Particles
+# 创建动画粒子
 
 Particles are animated by using a material comprised of a collection of materials all built together into a "sheet". This is accomplished by using the **mksheet.exe** and **vtex** tools.
 

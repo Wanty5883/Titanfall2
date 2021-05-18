@@ -5,7 +5,7 @@ description: >-
   and landscapes, such as distant mountains or b
 ---
 
-# Skybox Basics
+# 基础天空盒
 
 Skyboxes are solutions intended to make maps look bigger than they are. They are typically used to display sky, along with distant, unreachable areas and landscapes, such as distant mountains or buildings
 

@@ -1,4 +1,4 @@
-# MIP Mapping
+# Mip映射
 
 **MIP mapping** \(also sometimes spelled as mipmapping\) is a technique where an original high-resolution texture map is scaled and filtered into multiple resolutions within the texture file. MIP maps can be automatically generated from the original texture, but may also be individually painted or adjusted by the texture artist. Typically each subsequent MIP level is half the size of the previous, which guarantees that the complete texture \(the original and its MIP maps\) is no greater than 1.5 times the original texture.
 

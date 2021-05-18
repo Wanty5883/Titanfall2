@@ -5,7 +5,7 @@ description: >-
   lighting.
 ---
 
-# Bump map
+# 凹凸贴图
 
 Textures often called **Bump Maps**, or **Normal Maps** are used to simulate three-dimensional details on a two-dimensional surface by manipulating its lighting.
 

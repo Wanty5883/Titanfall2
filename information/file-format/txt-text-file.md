@@ -4,7 +4,7 @@ description: >-
   in the form of lines.
 ---
 
-# TXT - Text file
+# TXT-文本文件
 
 A file with .txt extension represents a text document that contains plain text in the form of lines. Paragraphs in a text document are recognized by carriage returns and are use for better arrangements of file contents. A standard text document can be opened in any text editor or word processing application on different operating systems. All the text contained in such a file is in human-readable format and represented by sequence of characters.
 

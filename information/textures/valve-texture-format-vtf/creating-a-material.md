@@ -4,7 +4,7 @@ description: >-
   including the creation of the material's texture.
 ---
 
-# Creating a Material
+# 创建材质
 
 This tutorial is a step-by-step guide to creating a brand new [material](../valve-material-type-vmt.md), including the creation of the material's [texture](./).
 

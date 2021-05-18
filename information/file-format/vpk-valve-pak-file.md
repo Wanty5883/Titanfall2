@@ -2,7 +2,7 @@
 description: VPK (Valve Pak) files are uncompressed archives used to package game content.
 ---
 
-# VPK - Valve Pak file
+# VPK-Valve包文件
 
  **VPK** \(Valve Pak\) files are uncompressed archives used to package game content. Valve's post-[GCF](https://developer.valvesoftware.com/wiki/GCF) games store [materials](../textures/valve-material-type-vmt.md), [models](https://developer.valvesoftware.com/wiki/MDL), [particles](https://developer.valvesoftware.com/wiki/Particles), [choreography scenes](https://developer.valvesoftware.com/wiki/VCD) and many other file types in VPK files.  
 VPKs are also used to distribute mods via the the `addoninstaller` tool that ships with some games, such as [Left 4 Dead 2](https://developer.valvesoftware.com/wiki/Left_4_Dead_2).

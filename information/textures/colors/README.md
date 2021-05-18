@@ -1,4 +1,4 @@
-# Texture & Colors
+# 纹理和颜色
 
 ## RGB
 

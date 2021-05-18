@@ -1,4 +1,4 @@
-# Valve Texture Format - VTF
+# Valve纹理格式-VTF
 
 **Valve Texture Format \(VTF\)** 是起源引擎专用的纹理格式。 VTF 文件通常作为一个独立的材料被引用，而不是直接调用，这样可以允许它以多种方式重复利用。
 

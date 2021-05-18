@@ -4,7 +4,7 @@ description: >-
   brush faces to simulate lighting.
 ---
 
-# Lightmap
+# 光照贴图
 
 A lightmap is a generated [texture](./) applied [additively](https://en.wikipedia.org/wiki/Additive_color) to [LightmappedGeneric ](https://developer.valvesoftware.com/wiki/LightmappedGeneric)[brush ](https://developer.valvesoftware.com/wiki/Brush)faces to simulate lighting. The color values in the surface's [albedo](albedo.md) are multiplied by the color values in its lightmap.  
 Lightmaps are created by [VRAD ](https://developer.valvesoftware.com/wiki/VRAD)each time a map is compiled. They are static and cannot change, though it is possible to switch lightmap 'pages" on and off \(see [Naming Lights](https://developer.valvesoftware.com/wiki/Naming_Lights)\).

@@ -1,4 +1,4 @@
-# Cube Mapping
+# 立方环境映射
 
 ## Cube Mapping
 

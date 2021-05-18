@@ -4,7 +4,7 @@ description: >-
   for graphics designing and development.
 ---
 
-# PSD - Photoshop Document
+# PSD-Photoshop文档
 
 PSD, Photoshop Document, represents Adobe Photoshop's native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other Photoshop-specific elements. Photoshop files have default extension as .PSD and has a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.
 

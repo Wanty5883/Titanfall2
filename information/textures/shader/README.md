@@ -4,7 +4,7 @@ description: >-
   should be drawn. Source uses shaders for everything in the 3D world.
 ---
 
-# Shader
+# 着色器
 
 A shader is software which runs on a graphics card to determine how an object should be drawn. Source uses shaders for everything in the 3D world.
 

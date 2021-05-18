@@ -1,4 +1,4 @@
-# Color & Texture info
+# 颜色和纹理信息
 
 ## VMT & VTF
 

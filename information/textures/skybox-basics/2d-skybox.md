@@ -5,7 +5,7 @@ description: >-
   model).
 ---
 
-# 2D Skybox
+# 2D天空盒
 
 A 2D skybox is a [skybox](./) that lacks geometrical depth, consisting only of a skybox texture \(without using the [sky\_camera](https://developer.valvesoftware.com/wiki/Sky_camera) entity to display a 3D miniature model\).
 

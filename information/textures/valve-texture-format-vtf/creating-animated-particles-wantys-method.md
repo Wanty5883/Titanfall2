@@ -1,4 +1,4 @@
-# Modding Animated Particles - Wanty's method
+# 修改动画粒子-Wanty的方法
 
 ToDo
 

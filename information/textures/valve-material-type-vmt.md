@@ -1,4 +1,4 @@
-# Valve Material Type - VMT
+# Valve材质类型-VMT
 
 A **material** is a `.vmt` \("Valve Material Type"\) text file that defines a two-dimensional surface. It contains all of the information needed for Source to simulate the surface visually, aurally, and physically.
 

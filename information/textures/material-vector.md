@@ -4,7 +4,7 @@ description: >-
   They most often represent a RGB color.
 ---
 
-# Material Vector
+# 矢量材质
 
 A **material vector** is a collection of values used with some [material](valve-material-type-vmt.md) commands. They most often represent a [RGB](colors/#rgb) color.
 

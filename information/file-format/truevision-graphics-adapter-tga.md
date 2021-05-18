@@ -1,4 +1,4 @@
-# TGA - Truevision Graphics Adapter
+# TGA-Truevision图像文件
 
 **Truevision Graphics Adapter** \(**TGA**\), commonly referred to as "targa" \(Truevision Advanced Raster Graphics Adapter\), is a non-proprietary image format from Truevision that is favoured by [Valve](https://developer.valvesoftware.com/wiki/Valve). The file extension for targas is `.tga`. It is the base format for [Valve Texture Files \(.vtf\)](../textures/valve-texture-format-vtf/), and used to store images used by the [Steam client](https://developer.valvesoftware.com/wiki/Category:Steam).
 

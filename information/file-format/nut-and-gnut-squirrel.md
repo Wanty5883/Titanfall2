@@ -1,4 +1,4 @@
-# NUT & GNUT - Squirrel
+# NUT & GNUT-Squirrel游戏语言
 
 ## About Squirrel
 

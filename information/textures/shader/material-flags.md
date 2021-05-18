@@ -2,7 +2,7 @@
 description: Material $flags and $flags2 parameters control how the material is rendered.
 ---
 
-# Material Flags
+# 材质标志
 
 Material `$flags` and `$flags2` parameters control how the material is rendered. `$flag` can be changed in real-time to allow changes in rendering, but `$flags2` is read-only and assists the engine or other code in using the material correctly. Enumerations found in [https://github.com/ValveSoftware/source-sdk-2013/blob/master/mp/src/public/materialsystem/imaterial.h](https://github.com/ValveSoftware/source-sdk-2013/blob/master/mp/src/public/materialsystem/imaterial.h)
 
