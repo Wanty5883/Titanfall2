@@ -4,7 +4,7 @@ description: >-
   resources, scripts, materials, VGUI elements, and more.
 ---
 
-# KeyValues
+# 关键值
 
 ## File Format
 

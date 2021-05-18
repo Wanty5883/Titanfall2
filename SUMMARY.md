@@ -62,8 +62,9 @@
     * [2D Skybox](information/textures/skybox-basics/2d-skybox.md)
     * [3D Skybox](information/textures/skybox-basics/3d-skybox.md)
 * [脚本](information/programming/README.md)
-  * [KeyValues](information/programming/keyvalues/README.md)
+  * [关键值](information/programming/keyvalues/README.md)
     * [Gameinfo.txt](information/programming/keyvalues/gameinfo.txt.md)
+    * [武器配置](information/programming/keyvalues/wu-qi-pei-zhi.md)
   * [VScript](information/programming/vscript.md)
 * [文件格式](information/file-format/README.md)
   * [NUT & GNUT - Squirrel](information/file-format/nut-and-gnut-squirrel.md)
@@ -152,7 +153,7 @@
 ## 脚本数据 <a id="game-values"></a>
 
 * [准星](game-values/crosshair.md)
-* [特效（对应数据）](game-values/te-xiao-dui-ying-shu-ju.md)
+* [特效（对应数据）](game-values/effect-fx.md)
 * [特效](game-values/fx/README.md)
   * [特效-铁驭](game-values/fx/fx-pilot/README.md)
     * [特效-铁驭武器](game-values/fx/fx-pilot/fx-pilot-weapon/README.md)
