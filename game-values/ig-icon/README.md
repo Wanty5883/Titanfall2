@@ -16,13 +16,13 @@
 
 ### 无人机、炮塔和炮舰
 
-| Icon name | Value | Note |
+| 图标名称 | 数值 | 备注 |
 | :--- | :--- | :--- |
 | Turret Mega Fort War | r2\_ui/menus/loadout\_icons/anti\_titan/at\_defenderc |  |
 
 ### 游戏模式
 
-| Icon name | Value | Note |
+| 图标名称 | 数值 | 备注 |
 | :--- | :--- | :--- |
 | Bomb | r2\_ui/hud/gametype\_icons/bomb/bomb\_neutral\_bg |  |
 | Bomb | r2\_ui/hud/gametype\_icons/bomb/bomb\_neutral |  |
@@ -34,7 +34,7 @@
 
 ### 挑战
 
-| Icon name | Value | Note |
+| 图标名称 | 数值 | 备注 |
 | :--- | :--- | :--- |
 |  | ui/menu/challenge\_icons/grunt |  |
 |  | ui/menu/challenge\_icons/marvin |  |
