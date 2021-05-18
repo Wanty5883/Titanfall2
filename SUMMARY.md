@@ -267,8 +267,6 @@
     * [Sound - Flamethrower](game-values/sound/sound-misc-and-unknown/sound-flamethrower.md)
     * [Sound - Triplethreat](game-values/sound/sound-misc-and-unknown/sound-triplethreat.md)
 * [图标和HUD](game-values/ig-icon/README.md)
-  * [铁驭](game-values/ig-icon/pilot.md)
-  * [泰坦](game-values/ig-icon/titans.md)
   * [菜单](game-values/ig-icon/menu/README.md)
     * [加载界面](game-values/ig-icon/menu/loadscreen.md)
     * [私人比赛](game-values/ig-icon/menu/private-match.md)
