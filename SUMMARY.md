@@ -57,7 +57,7 @@
   * [光照贴图](information/textures/lightmap.md)
   * [矢量材质](information/textures/material-vector.md)
   * [Mip映射](information/textures/mip-mapping.md)
-  * [内容缺失](information/textures/missing-content.md)
+  * [内容丢失](information/textures/missing-content.md)
   * [基础天空盒](information/textures/skybox-basics/README.md)
     * [2D天空盒](information/textures/skybox-basics/2d-skybox.md)
     * [3D天空盒](information/textures/skybox-basics/3d-skybox.md)

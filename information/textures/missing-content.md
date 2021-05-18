@@ -1,4 +1,4 @@
-# 内容缺失
+# 内容丢失
 
 When distributing a map or mod, care must be taken to ensure that any custom content \(sounds, materials, textures, models, etc.\) is also distributed, or else players will have an unintended experience.
 
