@@ -2,17 +2,27 @@
 
 ## 
 
-|  |
-| :--- |
+## Pilot & Titan icons
+
+{% embed url="https://docs.google.com/spreadsheets/d/1QM3bJSek\_\_ttMRjxTx1IjkV4OVq3mdeaAdDVOUVAtqg" caption="Pilot & Titan icons" %}
+
+## Crosshairs
+
+{% embed url="https://docs.google.com/spreadsheets/d/1QJmuxFfM5a86y\_JtuYsQpsM16o6oNnj5Dvdyl0c2eso/edit?usp=sharing" %}
+
+## Backgrounds
+
+{% embed url="https://docs.google.com/spreadsheets/d/1-gXXTZL9BM0GlfOx-AHILHTW9cLJGIHLs1Xp6xxdXOU" %}
 
 
-### 无人机、炮台和舰艇
+
+### Drones, Turret & Gunship
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
 | Turret Mega Fort War | r2\_ui/menus/loadout\_icons/anti\_titan/at\_defenderc |  |
 
-### 游戏模式
+### Gamemode
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
@@ -22,9 +32,9 @@
 | Bomb | r2\_ui/hud/gametype\_icons/bomb/bomb\_marker\_friendly |  |
 | Bomb | r2\_ui/hud/gametype\_icons/bomb/bomb\_marker\_enemy |  |
 
-## 菜单图标
+## Menus Icon
 
-### 挑战模式
+### Challenge
 
 | Icon name | Value | Note |
 | :--- | :--- | :--- |
@@ -62,4 +72,8 @@
 |  | ui/menu/challenge\_icons/titan\_execution |  |
 |  | ui/menu/challenge\_icons/critical\_hit |  |
 |  | ui/menu/challenge\_icons/first\_strike |  |
+
+|  |
+| :--- |
+
 
