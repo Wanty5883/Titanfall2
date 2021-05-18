@@ -16,7 +16,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 ### 突击步枪
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | R-201 Carbine | N/A |
 | R-101 Carbine | N/A |
@@ -26,7 +26,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 ### **冲锋枪**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | CAR | N/A |
 | Alternator | mp\_weapon\_alternator\_smg.nut |
@@ -35,7 +35,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 ### **轻机枪**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | Spitfire | mp\_weapon\_lmg.nut |
 | L-STAR | mp\_weapon\_lstar.nut |
@@ -43,7 +43,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 ### **狙击步枪**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | Kraber | mp\_weapon\_sniper.nut |
 | Double Take | mp\_weapon\_doubletake.nut |
@@ -51,14 +51,14 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 ### **散弹枪**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | EVA-8 Auto | mp\_weapon\_shotgun.nut |
 | Mastiff | mp\_weapon\_mastiff.nut |
 
 ### **榴弹枪**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | Sidewinder SMR | mp\_weapon\_smr.nut |
 | EPG | N/A |
@@ -67,7 +67,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 ### **手枪**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | P2016 | N/A |
 | RE-45 Auto | N/A |
@@ -78,7 +78,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 ### **反泰坦**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | Charge Rifle | mp\_weapon\_defender.nut |
 | MGL | mp\_weapon\_mgl.nut |
@@ -90,7 +90,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 ### **投掷物**
 
-| Ordnance name | File name |
+| 投掷物名称 | 文件名称 |
 | :--- | :--- |
 | **Base Grenade** | \_grenade.nut |
 | Frag Grenade | N/A |
@@ -102,7 +102,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 ### 铁驭技能
 
-| Tactical name | File name |
+| 技能名称 | 文件名称 |
 | :--- | :--- |
 | Cloak | mp\_ability\_cloak.nut |
 | Pulse Blade | mp\_weapon\_grenade\_sonar.nut |
@@ -116,7 +116,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 ### **离子**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | Splitter Rifle | mp\_titanweapon\_particle\_accelerator.nut |
 | Laser Shot | mp\_titanweapon\_laser\_lite.nut |
@@ -127,7 +127,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 ### **烈焰**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | Thermite Launcher | mp\_titanweapon\_meteor.nut |
 | Flame Wall | mp\_titanweapon\_flame\_wall.nut |
@@ -140,7 +140,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 ### **北极星**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | Plasma Railgun | mp\_titanweapon\_sniper.nut |
 | • Projectile File | mp\_projectile\_titanweapon\_sniper.nut |
@@ -155,7 +155,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 ### **浪人**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | Leadwall | mp\_titanweapon\_leadwall.nut |
 | Arc Wave | mp\_titanweapon\_arc\_wave.nut |
@@ -165,7 +165,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 ### **强力**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | 40MM | mp\_titanweapon\_40mm.nut |
 | Tracking Rockets | mp\_titanweapon\_tracker\_rockets.nut |
@@ -178,8 +178,8 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Weapon name</th>
-      <th style="text-align:left">File name</th>
+      <th style="text-align:left">&#x6B66;&#x5668;&#x540D;&#x79F0;</th>
+      <th style="text-align:left">&#x6587;&#x4EF6;&#x540D;&#x79F0;</th>
     </tr>
   </thead>
   <tbody>
@@ -215,7 +215,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 ### **帝王**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | XO-16 | mp\_titanweapon\_xo16.nut |
 | Rocket Salvo | mp\_titanweapon\_salvo\_rockets.nut |
@@ -231,9 +231,9 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Method name</th>
-      <th style="text-align:left">Weapon names</th>
-      <th style="text-align:left">File name</th>
+      <th style="text-align:left">&#x65B9;&#x6CD5;&#x540D;&#x79F0;</th>
+      <th style="text-align:left">&#x6B66;&#x5668;&#x540D;&#x79F0;</th>
+      <th style="text-align:left">&#x6587;&#x4EF6;&#x540D;&#x79F0;</th>
     </tr>
   </thead>
   <tbody>
