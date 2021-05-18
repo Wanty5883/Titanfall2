@@ -1,20 +1,20 @@
 # 武器脚本
 
-## File location
+## 文件位置
 
-The default location of those files is
+这些文件的默认位置是：
 
 ```text
 englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 ```
 
-## Formatting
+## 规范
 
-Several weapons and abilities have their values or critical functions spread across multiple files. For these, subsequent files will be represented by a • in the name field, along with a description, method name and/or variable name. Due to the length of certain variable and method names, the name field may instead contain a string you can search for to find the values/methods quickly, indicated by "quotation marks".
+一些武器/技能的值或关键功能分布在多个文件之中。对于这些文件，后续文件将在“文件名称”字段中用“•”表示，并带有说明、方法名称和变量名称。由于某些变量和方法名称的长度，名称字段可能包含一个字符串，您可以搜索该字符串以快速查找值/方法，并用“引号”表示。
 
-## Pilot
+## 铁驭
 
-### Assault Rifle
+### 突击步枪
 
 | Weapon name | File name |
 | :--- | :--- |
@@ -24,7 +24,7 @@ Several weapons and abilities have their values or critical functions spread acr
 | V-47 Flatline | N/A |
 | G2A5 | N/A |
 
-### **Submachine Gun**
+### **冲锋枪**
 
 | Weapon name | File name |
 | :--- | :--- |
@@ -33,7 +33,7 @@ Several weapons and abilities have their values or critical functions spread acr
 | Volt | N/A |
 | R-97 | N/A |
 
-### **Light Machine Gun**
+### **轻机枪**
 
 | Weapon name | File name |
 | :--- | :--- |
@@ -41,7 +41,7 @@ Several weapons and abilities have their values or critical functions spread acr
 | L-STAR | mp\_weapon\_lstar.nut |
 | Devotion | N/A |
 
-### **Sniper**
+### **狙击步枪**
 
 | Weapon name | File name |
 | :--- | :--- |
@@ -49,14 +49,14 @@ Several weapons and abilities have their values or critical functions spread acr
 | Double Take | mp\_weapon\_doubletake.nut |
 | Longbow DMR | mp\_weapon\_dmr.nut |
 
-### **Shotgun**
+### **散弹枪**
 
 | Weapon name | File name |
 | :--- | :--- |
 | EVA-8 Auto | mp\_weapon\_shotgun.nut |
 | Mastiff | mp\_weapon\_mastiff.nut |
 
-### **Grenadier**
+### **榴弹枪**
 
 | Weapon name | File name |
 | :--- | :--- |
@@ -65,7 +65,7 @@ Several weapons and abilities have their values or critical functions spread acr
 | Softball | mp\_weapon\_softball.nut |
 | EM-4 Cold War | N/A |
 
-### **Pistol**
+### **手枪**
 
 | Weapon name | File name |
 | :--- | :--- |
@@ -76,7 +76,7 @@ Several weapons and abilities have their values or critical functions spread acr
 | Mozambique | mp\_weapon\_shotgun\_pistol.nut |
 | Smart Pistol | mp\_weapon\_smart\_pistol.nut |
 
-### **Anti-Titan**
+### **反泰坦**
 
 | Weapon name | File name |
 | :--- | :--- |
@@ -88,7 +88,7 @@ Several weapons and abilities have their values or critical functions spread acr
 | • Values: "ball" | \scripts\vscripts\\_settings.nut |
 | Archer | mp\_weapon\_rocket\_launcher.nut |
 
-### **Ordnance**
+### **投掷物**
 
 | Ordnance name | File name |
 | :--- | :--- |
@@ -100,7 +100,7 @@ Several weapons and abilities have their values or critical functions spread acr
 | Electric Smoke | mp\_weapon\_grenade\_electric\_smoke.nut |
 | Satchel | mp\_weapon\_satchel.nut |
 
-### Tactical
+### 铁驭技能
 
 | Tactical name | File name |
 | :--- | :--- |
@@ -112,9 +112,9 @@ Several weapons and abilities have their values or critical functions spread acr
 | Phase Shift | mp\_ability\_shifter.nut |
 | Holopilot | mp\_ability\_holopilot.nut |
 
-## **Titan**
+## **泰坦**
 
-### **Ion**
+### **离子**
 
 | Weapon name | File name |
 | :--- | :--- |
@@ -125,7 +125,7 @@ Several weapons and abilities have their values or critical functions spread acr
 | • Base Scripts | \_vortex.nut |
 | Laser Core | mp\_titancore\_lasercannon.nut |
 
-### **Scorch**
+### **烈焰**
 
 | Weapon name | File name |
 | :--- | :--- |
@@ -138,7 +138,7 @@ Several weapons and abilities have their values or critical functions spread acr
 | Flame Core | mp\_titancore\_flame\_wave.nut |
 | • Scr. Earth: CreateThermiteWallSegment | mp\_titanweapon\_flame\_wall.nut |
 
-### **Northstar**
+### **北极星**
 
 | Weapon name | File name |
 | :--- | :--- |
@@ -153,7 +153,7 @@ Several weapons and abilities have their values or critical functions spread acr
 | Flight Core | mp\_titancore\_flight\_core.nut |
 | • Core Weapon | mp\_titanweapon\_flightcore\_rockets.nut |
 
-### **Ronin**
+### **浪人**
 
 | Weapon name | File name |
 | :--- | :--- |
@@ -163,7 +163,7 @@ Several weapons and abilities have their values or critical functions spread acr
 | Sword Block | mp\_titanability\_basic\_block.nut |
 | Sword Core | mp\_titancore\_shift\_core.nut |
 
-### **Tone**
+### **强力**
 
 | Weapon name | File name |
 | :--- | :--- |
@@ -173,7 +173,7 @@ Several weapons and abilities have their values or critical functions spread acr
 | Particle Wall | mp\_titanability\_particle\_wall.nut |
 | Salvo Core | mp\_titanweapon\_salvo\_core.nut |
 
-### **Legion**
+### **军团**
 
 <table>
   <thead>
@@ -213,7 +213,7 @@ Several weapons and abilities have their values or critical functions spread acr
   </tbody>
 </table>
 
-### **Monarch**
+### **帝王**
 
 | Weapon name | File name |
 | :--- | :--- |
@@ -224,9 +224,9 @@ Several weapons and abilities have their values or critical functions spread acr
 | Energy Siphon | mp\_titanweapon\_stun\_laser.nut |
 | Upgrade Core | mp\_titancore\_upgrade.nut |
 
-## Common Scripts
+## 常用脚本
 
-Methods used by numerous different weapons.
+许多不同武器所使用的方法。
 
 <table>
   <thead>

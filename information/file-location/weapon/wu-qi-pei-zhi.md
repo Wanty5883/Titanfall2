@@ -1,22 +1,22 @@
 # 武器配置
 
-## File location
+## 文件位置
 
-The default location of those files is
+这些文件的默认位置是：
 
 ```text
 englishclient_mp_common.bsp.pak000_dir.vpk\scripts\weapons
 ```
 
-## Formatting
+## 规范
 
-Several titan weapons and abilities have their values spread across multiple files. For these, subsequent files will be represented by a • in the name field and a short description of how the additional file relates to the weapon/ability. If it is an ability that modifies a weapon by adding an attachment to it, the name field will instead show the {Attachment Name} within the additional file, using curly braces to indicate that it is an attachment. The attachments do not have these curly braces in the files themselves.
+一些泰坦武器和技能的值分布在多个文件中。对于这些数据，随后的文件将在名称字段中用一个“•”表示，并简要说明附加文件与武器/能力的关系。如果它是一种通过添加附件来修改武器的能力，名称字段将显示附加文件中的{attachment name}，使用大括号表示它是附件。附件本身没有这些大括号。
 
-## Pilot
+## 铁驭
 
-### Assault Rifle
+### 突击步枪
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | R-201 ****Carbine |  mp\_weapon\_rspn101.txt |
 | R-101 Carbine | mp\_weapon\_rspn101\_og.txt |
@@ -24,50 +24,50 @@ Several titan weapons and abilities have their values spread across multiple fil
 | V-47 Flatline | mp\_weapon\_vinson.txt |
 | G2A5 | mp\_weapon\_g2.txt |
 
-### **Submachine Gun**
+### **冲锋枪**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | CAR | mp\_weapon\_car.txt |
 | Alternator | mp\_weapon\_alternator\_smg.txt |
 | Volt | mp\_weapon\_hemlok\_smg.txt |
 | R-97 | mp\_weapon\_r97.txt |
 
-### **Light Machine Gun**
+### **轻机枪**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | Spitfire | mp\_weapon\_lmg.txt |
 | L-STAR | mp\_weapon\_lstar.txt |
 | Devotion | mp\_weapon\_esaw.txt |
 
-### **Sniper**
+### **狙击步枪**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | Kraber | mp\_weapon\_sniper.txt |
 | Double Take | mp\_weapon\_doubletake.txt |
 | Longbow DMR | mp\_weapon\_dmr.txt |
 
-### **Shotgun**
+### **散弹枪**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | EVA-8 Auto | mp\_weapon\_shotgun.txt |
 | Mastiff | mp\_weapon\_mastiff.txt |
 
-### **Grenadier**
+### **榴弹枪**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | Sidewinder SMR | mp\_weapon\_smr.txt |
 | EPG | mp\_weapon\_epg.txt |
 | Softball | mp\_weapon\_softball.txt |
 | EM-4 Cold War | mp\_weapon\_pulse\_lmg.txt |
 
-### **Pistol**
+### **手枪**
 
-| Weapon name | File name |
+| 武器名称 | File name |
 | :--- | :--- |
 | P2016 | mp\_weapon\_semipistol.txt |
 | RE-45 Auto | mp\_weapon\_autopistol.txt |
@@ -76,18 +76,18 @@ Several titan weapons and abilities have their values spread across multiple fil
 | Mozambique | mp\_weapon\_shotgun\_pistol.txt |
 | Smart Pistol | mp\_weapon\_smart\_pistol.txt |
 
-### **Anti-Titan**
+### **反泰坦**
 
-| Weapon name | File name |
+| 武器名称 | File name |
 | :--- | :--- |
 | Charge Rifle | mp\_weapon\_defender.txt |
 | MGL | mp\_weapon\_mgl.txt |
 | LG-97 Thunderbolt | mp\_weapon\_arc\_launcher.txt |
 | Archer | mp\_weapon\_rocket\_launcher.txt |
 
-### **Ordnance**
+### **投掷物**
 
-| Ordnance name | File name |
+| 投掷物名称 | File name |
 | :--- | :--- |
 | Frag Grenade | mp\_weapon\_frag\_grenade.txt |
 | Arc Grenade | mp\_weapon\_grenade\_emp.txt |
@@ -96,9 +96,9 @@ Several titan weapons and abilities have their values spread across multiple fil
 | Electric Smoke | mp\_weapon\_grenade\_electric\_smoke.txt |
 | Satchel | mp\_weapon\_satchel.txt |
 
-### Tactical
+### 铁驭技能
 
-| Tactical name | File name |
+| 技能名称 | File name |
 | :--- | :--- |
 | Cloak | mp\_ability\_cloak.txt |
 | Pulse Blade | mp\_weapon\_grenade\_sonar.txt |
@@ -109,18 +109,18 @@ Several titan weapons and abilities have their values spread across multiple fil
 | Phase Shift | mp\_ability\_shifter.txt |
 | Holopilot | mp\_ability\_holopilot.txt |
 
-## **Titan**
+## **泰坦**
 
-| **Weapon name** | File name |
+| 武器名称 | File name |
 | :--- | :--- |
 | Ability Electric Smoke | mp\_titanability\_smoke.txt |
 | Global Electric Smoke | mp\_titanability\_electric\_smoke.txt |
 | Nuke Ejection | mp\_titanability\_nuke\_eject.txt |
 | Quad Rocket | mp\_titanweapon\_rocketeer\_rocketstream.txt |
 
-### **Ion**
+### **离子**
 
-| Weapon name | File name |
+| 武器名称 | File name |
 | :--- | :--- |
 | Splitter Rifle | mp\_titanweapon\_particle\_accelerator.txt |
 | Laser Shot | mp\_titanweapon\_laser\_lite.txt |
@@ -129,9 +129,9 @@ Several titan weapons and abilities have their values spread across multiple fil
 | • Base Class | mp\_titanweapon\_vortex\_shield.txt |
 | Laser Core | mp\_titancore\_laser\_cannon.txt |
 
-### **Scorch**
+### **烈焰**
 
-| Weapon name | File name |
+| 武器名称 | File name |
 | :--- | :--- |
 | Thermite Launcher | mp\_titanweapon\_meteor.txt |
 | Flame Wall | mp\_titanweapon\_flame\_wall.txt |
@@ -139,9 +139,9 @@ Several titan weapons and abilities have their values spread across multiple fil
 | Thermal Shield | mp\_titanweapon\_heat\_shield.txt |
 | Flame Core | mp\_titancore\_flame\_wave.txt |
 
-### **Northstar**
+### **北极星**
 
-| Weapon name | File name |
+| 武器名称 | File name |
 | :--- | :--- |
 | Plasma Railgun | mp\_titanweapon\_sniper.txt |
 | Cluster Missile | mp\_titanweapon\_dumbfire\_rockets.txt |
@@ -150,9 +150,9 @@ Several titan weapons and abilities have their values spread across multiple fil
 | Flight Core | mp\_titancore\_flight\_core.txt |
 | • Core Weapon | mp\_titanweapon\_flightcore\_rockets.txt |
 
-### **Ronin**
+### **浪人**
 
-| Weapon name | File name |
+| 武器名称 | File name |
 | :--- | :--- |
 | Leadwall | mp\_titanweapon\_leadwall.txt |
 | Arc Wave | mp\_titanweapon\_arc\_wave.txt |
@@ -161,9 +161,9 @@ Several titan weapons and abilities have their values spread across multiple fil
 | Sword Core | mp\_titancore\_shift\_core.txt |
 | • {super\_charged} | mp\_titan\_sword.txt |
 
-### **Tone**
+### **强力**
 
-| Weapon name | File name |
+| 武器名称 | File name |
 | :--- | :--- |
 | 40MM | mp\_titanweapon\_sticky\_40mm.txt |
 | Tracking Rockets | mp\_titanweapon\_tracker\_rockets.txt |
@@ -172,12 +172,12 @@ Several titan weapons and abilities have their values spread across multiple fil
 | Particle Wall | mp\_titanability\_particle\_wall.txt |
 | Salvo Core | mp\_titancore\_salvo\_core.txt |
 
-### **Legion**
+### **军团**
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Weapon name</th>
+      <th style="text-align:left">&#x6B66;&#x5668;&#x540D;&#x79F0;</th>
       <th style="text-align:left">File name</th>
     </tr>
   </thead>
@@ -216,9 +216,9 @@ Several titan weapons and abilities have their values spread across multiple fil
   </tbody>
 </table>
 
-### **Monarch**
+### **帝王**
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | XO-16 | mp\_titanweapon\_xo16\_vanguard.txt |
 | Rocket Salvo | mp\_titanweapon\_salvo\_rockets.txt |
@@ -227,9 +227,9 @@ Several titan weapons and abilities have their values spread across multiple fil
 | Energy Siphon | mp\_titanweapon\_stun\_laser.txt |
 | Upgrade Core | mp\_titancore\_upgrade.txt |
 
-## Misc
+## 杂项
 
-| Weapon name | File name |
+| 武器名称 | 文件名称 |
 | :--- | :--- |
 | Orbital Strike | mp\_titanweapon\_orbital\_stike.txt |
 
