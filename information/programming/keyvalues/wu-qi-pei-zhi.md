@@ -1,12 +1,12 @@
 # 武器配置
 
-## Introduction
+## 介绍
 
 The so called weapon config files are in a text file format, so they can easily be read and edited. The format of the content is known as [Source **KeyValues**](./).
 
 Beside being a general source of information, this page will be used as a reference point of documentation for the different aspects and uses of the weapon config files. Either by modding guides or other documentation pages.
 
-### File location
+### 文件位置
 
 Weapon config files can be found in this folder relative to your VPK.
 
@@ -16,16 +16,16 @@ Weapon config files can be found in this folder relative to your VPK.
 
 The VPK of your choice will depend of the context of your modding. If it is for multiplayer or for single player. For multiplayer purpose it will be the "Common" VPK and for other than multiplayer you will need to modify each VPK archives for their respective levels.
 
-## Index - Variables \(keys\) 
+## 主页-变量\(关键值\) 
 
 Down below is embedded a table used as an index. All \(known\) variables are split in different tabs \(Models, Effects, Sounds, etc.\) with categories per tab.  
 Each tab will have its own header so it can easily be browsed in the contents table. The different categories will also have their own sub headers.
 
 {% embed url="https://docs.google.com/spreadsheets/d/1wzCDQn8xuszQHWP2Uf5Ip9lu32YLurqF5X3fBYB62K8" %}
 
-## Models & Animation
+## 模型和动画
 
-## Effects \(FX\)
+## 特效\(FX\)
 
 Effects, which will be mentioned as FX, is one of the end applications of the Particle System in Source Engine. For a basic approach, FX are a conjunction of textures \(2D graphic elements\) and different kind of parameter to create the illusion of 3D visual effects, such as explosions, clouds, trails, etc.
 
@@ -124,7 +124,7 @@ true
 
 ### 
 
-### Bullet - Hitscan
+### 弹药-直线弹道追踪
 
 The FX for hitscan bullets are known as tracer effects. They will behave as intended for hitscan based weapons but will not work properly on projectile based weapons.
 
@@ -140,14 +140,14 @@ Different "kinds" of bullets can be achieved \(energy, electric, fire, high velo
 While modding with large quantities of FX, it is recommended to primarily focus on first person variables, thus having a lower impact on performance and being less confusing.
 
 {% tabs %}
-{% tab title="Format" %}
+{% tab title="格式" %}
 ```text
 "tracer_effect_first_person"    <FX Value>
 "tracer_effect"   							<FX Value>
 ```
 {% endtab %}
 
-{% tab title="Example" %}
+{% tab title="例子" %}
 ```
 "tracer_effect_first_person"    "P_wpn_tracer"
 "tracer_effect"   							"P_wpn_tracer"
@@ -159,7 +159,7 @@ While modding with large quantities of FX, it is recommended to primarily focus 
 Tracer variables are known to not work very well with FX that are used for projectiles originally. However this is not a golden rule. Trying different kind of FX values can lead to very interesting results. Feel free to play around with them.
 {% endhint %}
 
-### Bullet - Projectile
+### 弹药-抛物线弹道追踪
 
 The FX for projectile bullets are known as projectile trail effects. They will behave as intended for projectile based weapons but will not work properly on hitscan based weapons.
 
@@ -180,7 +180,7 @@ Note that some weapons can have the use of. Very few of them can use it, if you 
 {% endhint %}
 
 {% tabs %}
-{% tab title="Format" %}
+{% tab title="格式" %}
 ```text
 "projectile_trail_effect_0"      <FX Value>
 "projectile_trail_effect_1"      <FX Value>
@@ -189,7 +189,7 @@ Note that some weapons can have the use of. Very few of them can use it, if you 
 ```
 {% endtab %}
 
-{% tab title="Example" %}
+{% tab title="例子" %}
 ```
 "projectile_trail_effect_0"      "weapon_kraber_projectile"
 "projectile_trail_effect_1"      "P_titan_sniper1"
@@ -199,7 +199,7 @@ Note that some weapons can have the use of. Very few of them can use it, if you 
 {% endtab %}
 {% endtabs %}
 
-### Bullet - Laser
+### 弹药-镭射核心
 
 The FX for lasers are known as sustained laser effects. With the weapon config file, this category is used only for Ion's laser core. It is unlikely to get those variables to work on other weapons, to achieve similar / equivalent effects on other weapons this will have to be done from weapon script files.
 
@@ -220,7 +220,7 @@ Combination are of course possible, but not from the weapon config file. _\(refe
 * **sustained\_laser\_impact\_effect** will set an FX for the laser impact.
 
 {% tabs %}
-{% tab title="Format" %}
+{% tab title="格式" %}
 ```text
 "sustained_laser_attachment"        <ATTACHMENT>
 "sustained_laser_effect_1p"         <FX Value>
@@ -230,7 +230,7 @@ Combination are of course possible, but not from the weapon config file. _\(refe
 ```
 {% endtab %}
 
-{% tab title="Example" %}
+{% tab title="例子" %}
 ```
 "sustained_laser_attachment"        "muzzle_flash"
 "sustained_laser_effect_1p"					"P_wpn_lasercannon_FP"
@@ -241,7 +241,7 @@ Combination are of course possible, but not from the weapon config file. _\(refe
 {% endtab %}
 {% endtabs %}
 
-### Bullet - Impact
+### 弹药-冲击效果
 
 Those variables defines the impact animation when the bullet, laser, projectile, etc. hit a surface or an entity \(player, titans, NPC's, etc.\)
 
@@ -252,13 +252,13 @@ The variables can be added to weapons that do not have it originally. It should 
 You also can have different values between normal and amped modes on each weapon config files.
 
 {% tabs %}
-{% tab title="Format" %}
+{% tab title="格式" %}
 ```text
 "impact_effect_table" 							<FX Value>
 ```
 {% endtab %}
 
-{% tab title="Example" %}
+{% tab title="例子" %}
 ```
 "impact_effect_table" 							"exp_defender"
 ```
@@ -267,10 +267,10 @@ You also can have different values between normal and amped modes on each weapon
 
 
 
-### Charge
+### 蓄能效果
 
 {% tabs %}
-{% tab title="Format" %}
+{% tab title="格式" %}
 ```text
 "charge_effect_1p"                    <FX Value>
 "charge_effect_3p"                    <FX Value>
@@ -282,7 +282,7 @@ You also can have different values between normal and amped modes on each weapon
 ```
 {% endtab %}
 
-{% tab title="Example" %}
+{% tab title="例子" %}
 ```
 "charge_effect_1p"                    "P_wpn_defender_charge_FP"
 "charge_effect_3p"                    "P_wpn_defender_charge"
@@ -298,7 +298,7 @@ You also can have different values between normal and amped modes on each weapon
 ### Ignition
 
 {% tabs %}
-{% tab title="Plain Text" %}
+{% tab title="格式" %}
 ```text
 "ignition_effect"                     <Attachment>
 "pre_ignition_impact_effect_table"    <FX Value>
@@ -306,7 +306,7 @@ You also can have different values between normal and amped modes on each weapon
 ```
 {% endtab %}
 
-{% tab title="Example" %}
+{% tab title="例子" %}
 ```
 "ignition_effect"                     "MissileAirBurst"
 "pre_ignition_impact_effect_table"    "exp_smr"
@@ -315,12 +315,12 @@ You also can have different values between normal and amped modes on each weapon
 {% endtab %}
 {% endtabs %}
 
-### Muzzle Flash
+### 枪焰
 
 {% embed url="https://gfycat.com/piercingbountifullemming" %}
 
 {% tabs %}
-{% tab title="Format" %}
+{% tab title="格式" %}
 ```text
 "fx_muzzle_flash_attach"            <Attachment>
 "fx_muzzle_flash_attach_scoped"     <Attachment>
@@ -332,7 +332,7 @@ You also can have different values between normal and amped modes on each weapon
 ```
 {% endtab %}
 
-{% tab title="Example" %}
+{% tab title="例子" %}
 ```
 "fx_muzzle_flash_attach"            "muzzle_flash_suppressor_sq"
 "fx_muzzle_flash_attach_scoped"     "muzzle_flash_scoped"
@@ -348,7 +348,7 @@ You also can have different values between normal and amped modes on each weapon
 ### Shell
 
 {% tabs %}
-{% tab title="Format" %}
+{% tab title="格式" %}
 ```text
 "fx_shell_eject_attach"            <Attachment>
 "fx_shell_eject_attach_scoped"     <Attachment>
@@ -360,7 +360,7 @@ You also can have different values between normal and amped modes on each weapon
 ```
 {% endtab %}
 
-{% tab title="Example" %}
+{% tab title="例子" %}
 ```
 "fx_shell_eject_attach"            "shell"
 "fx_shell_eject_attach_scoped"     "shell_scoped"
@@ -376,7 +376,7 @@ You also can have different values between normal and amped modes on each weapon
 ### Vortex Shield
 
 {% tabs %}
-{% tab title="Format" %}
+{% tab title="格式" %}
 ```text
 "vortex_absorb_effect"                <FX Value>
 "vortex_absorb_effect_third_person"   <FX Value>
@@ -384,7 +384,7 @@ You also can have different values between normal and amped modes on each weapon
 ```
 {% endtab %}
 
-{% tab title="Example" %}
+{% tab title="例子" %}
 ```
 "vortex_absorb_effect"                "wpn_vortex_projectile_SuperSpec_FP"
 "vortex_absorb_effect_third_person"   "wpn_vortex_projectile_SuperSpec"
@@ -395,7 +395,7 @@ You also can have different values between normal and amped modes on each weapon
 
 ### 
 
-## UI & Menu
+## 图标和菜单
 
 UI elements \(basically graphical elements\) are indexed in this page
 
@@ -421,16 +421,16 @@ In the table down bellow you will find an index with previews \(partially\) of t
 
 {% embed url="https://docs.google.com/spreadsheets/d/1QM3bJSek\_\_ttMRjxTx1IjkV4OVq3mdeaAdDVOUVAtqg" caption="Icons index" %}
 
-### Crosshairs
+### 准星
 
 {% hint style="danger" %}
-TODO
+施工中
 {% endhint %}
 
 ### HUD
 
 {% tabs %}
-{% tab title="Format" %}
+{% tab title="格式" %}
 ```text
 "enable_hud_alert"                        <Boolean int>
 "grenade_arc_impact_indicator_effect"     TODO
@@ -448,7 +448,7 @@ TODO
 ```
 {% endtab %}
 
-{% tab title="Example" %}
+{% tab title="例子" %}
 ```
 "enable_hud_alert"                        "0"
 "grenade_arc_impact_indicator_effect"     "grenade_arc_impact_proto_orange"
@@ -468,13 +468,13 @@ TODO
 {% endtabs %}
 
 {% hint style="danger" %}
-TODO
+施工中
 {% endhint %}
 
-### Menu
+### 菜单
 
 {% tabs %}
-{% tab title="Format" %}
+{% tab title="格式" %}
 ```text
 "menu_anim_class"    <Anim Class>
 "menu_category"      <Category>
@@ -486,7 +486,7 @@ TODO
 ```
 {% endtab %}
 
-{% tab title="Example" %}
+{% tab title="例子" %}
 ```
 "menu_anim_class"    "custom"
 "menu_category"      "special"
@@ -500,16 +500,16 @@ TODO
 {% endtabs %}
 
 {% hint style="danger" %}
-TODO
+施工中
 {% endhint %}
 
-### Text
+### 文本
 
 {% hint style="danger" %}
-TODO
+施工中
 {% endhint %}
 
-## References & Sources
+## 参考资料及来源
 
 {% hint style="info" %}
 * [https://developer.valvesoftware.com/wiki/Particle\_System\_Overview](https://developer.valvesoftware.com/wiki/Particle_System_Overview)

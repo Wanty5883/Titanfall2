@@ -155,7 +155,7 @@
 ## 脚本数据 <a id="game-values"></a>
 
 * [准星](game-values/crosshair.md)
-* [特效（对应数据）](game-values/effect-fx.md)
+* [特效（FX）](game-values/effect-fx.md)
 * [特效](game-values/fx/README.md)
   * [特效-铁驭](game-values/fx/fx-pilot/README.md)
     * [特效-铁驭武器](game-values/fx/fx-pilot/fx-pilot-weapon/README.md)
