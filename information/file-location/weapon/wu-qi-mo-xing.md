@@ -102,8 +102,8 @@ englishclient_mp_common.bsp.pak000_dir.vpk\models\weapons\at_rifle
 | 天女散花 | titan\_triple\_threat |
 | 分裂枪 | titan\_particle\_accelerator |
 | 猎杀者机炮 | titan\_predator |
-| Railgun | atpov\_titan\_sniper\_rifle |
-| Railgun | titan\_sniper\_rifle |
+| 电浆磁轨炮 | atpov\_titan\_sniper\_rifle |
+| 电浆磁轨炮 | titan\_sniper\_rifle |
 | T-203铝热剂发射器 | titan\_thermite\_launcher |
 | XO-16 | xotbr16 |
 
