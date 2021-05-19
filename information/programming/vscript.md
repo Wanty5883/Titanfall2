@@ -7,7 +7,7 @@ description: >-
 
 # VScript
 
-## File Format
+## 文件格式
 
 **VScript**, introduced in Left 4 Dead 2, is a virtual machine for scripting that acts as an abstract binding layer between the Source engine and external scripts. 
 

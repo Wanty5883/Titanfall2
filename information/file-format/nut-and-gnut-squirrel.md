@@ -1,6 +1,6 @@
 # NUT & GNUT-Squirrel游戏语言
 
-## About Squirrel
+## 关于Squirrel
 
 Squirrel is a programming language similar to Lua, but uses a C like syntax. In Source Squirrel is used as one of the scripting languages in the VScript scripting system.
 
@@ -8,7 +8,7 @@ Squirrel is a programming language similar to Lua, but uses a C like syntax. In 
 This explains a version of Squirrel suspected to be modified by Respawn. To learn about Squirrel for other, non-Respawn games, check [Squirrel - Valve Developer Community](https://developer.valvesoftware.com/wiki/Squirrel).
 {% endhint %}
 
-### Variables
+### 变量
 
 A Varaible can be declared by specifying it's type, then it's name, an equals sign, then it's value, like so:
 
@@ -22,11 +22,11 @@ Then, it can be used by typing it's name.
 printt(x);
 ```
 
-### Data Types
+### 数据类型
 
 There are multiple base data types for Squirrel, and some data types from source.
 
-| Data Type | Description |
+| 数据类型 | 解释 |
 | :--- | :--- |
 | bool | A boolean value, true or false. |
 | int |  |
@@ -37,7 +37,7 @@ There are multiple base data types for Squirrel, and some data types from source
 | var | Can contain anything, but cannot be used as input to functions with input types that are not 'var'. |
 | entity | Is used for anything in the game world, except UI, which should use var, as their type is unknown. |
 
-### Functions and Globalization
+### 函数和Globalization
 
 Functions are the primary way to execute code. All code that is not a variable deceleration must be inside a function.
 
@@ -58,7 +58,7 @@ void function Mod_SetMaxHealth(int newMaxHealth) {
 }
 ```
 
-### Structs
+### 结构体
 
 Structs are used either as a class alternative or for grouping variables in a singleton method.
 

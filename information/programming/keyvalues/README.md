@@ -6,11 +6,11 @@ description: >-
 
 # 关键值
 
-## File Format
+## 文件格式
 
 The KeyValues format is used in the Source engine to store meta data for resources, scripts, materials, VGUI elements, and more. The KeyValues.h header in the Source SDK code defines the file format in the following manner
 
-### About KeyValues Text File Format:
+### 关于关键值的文本文件格式：
 
 * It has 3 control characters **{**, **}** and **"**. Names and values may be quoted or not. The quote **"** character must not be used within name or values, only for quoting whole tokens. You may use escape sequences while parsing and add within a quoted token a **\"** to add quotes within your name or token.
 * When using Escape Sequences, the parser must know that by setting **KeyValues::UsesEscapeSequences\( true \)**, which is off by default.
@@ -94,13 +94,13 @@ bool CUtlBuffer::EatCPPComment()
 * You can use conditional statements that will be ignored if non true, this will work on any key value and its children. If you prepend a key value statement with a `[$X360]` token or a `[$WIN32]` token it will be ignored depending on the platform in use. Since we have the source code for the keyvalues parser, you might be able to create your own conditional statements.
 * Each token can be up to 1024 characters long \(including null-termination, and double quotes, that will leave room for 1021 actual characters\). Note that some functions in the KeyValues class will not handle strings with over 256 characters correctly. Searching for a key name over 256 characters containing a '/' causes a buffer overrun on the stack in the `KeyValues::FindKey` function.
 
-## Definition
+## 定义
 
 **The KeyValues class** handles data buffer input, file input, and file output.
 
 A KeyValue is defined recursively as a named key either with a value or children. All keys have names set to them and a search can be performed by the names. If a KeyValue is a parent key, it contains other KeyValues.
 
-### Value Types
+### 数值类型
 
 {% hint style="info" %}
  **Note:**The KeyValue type gets set automatically when a set value function \(i.e. `SetFloat`\) is called.
@@ -114,7 +114,7 @@ A KeyValue is defined recursively as a named key either with a value or children
 * `TYPE_WSTRING`
 * `TYPE_COLOR`
 
-### Example
+### 例子
 
 ```text
 "ParentKey1"
@@ -127,7 +127,7 @@ A KeyValue is defined recursively as a named key either with a value or children
 }
 ```
 
-## Important Notes
+## 重要提示
 
 * It is important to note that you must include filesystem.h. Not doing this will result in the inability to reliably call LoadFromFile and SaveToFile. Symptoms are crashes in datastore.dll or a fail-state.
 * SaveToFile will not save any keyvalues whose value string is empty, although these can be loaded without any problems.
@@ -164,7 +164,7 @@ When you do this in debug build, you should get told how many leaks you get when
 
 Although this modification can remove all leaked memory, it should not be relied on to take care of them. Some memory leaks are caused by the engine, so this is a last resort for those kinds of leaks.
 
-### Example
+### 举例
 
 ```text
 ComboBox *pCombo = new ComboBox(...);
@@ -173,7 +173,7 @@ pCombo->AddItem("Text", new KeyValues("UserData", "Key", "Value"));
 
 It's important to note that if you were to follow what is called by the AddItem function, you would see that the UserData KeyValues are copied, rather than used directly. Copying KeyValues is a common source of confusion of how your KeyValues objects are used, so make sure to follow where they go. If you are unsure, you could try calling the `deleteThis` function and see if the same functionality as before still exists.
 
-### Fix
+### 修复
 
 ```text
 ComboBox *pCombo = new ComboBox(...);
@@ -182,7 +182,7 @@ pCombo->AddItem("Text", kv);
 kv->deleteThis();
 ```
 
-## What not to do
+## 不该做什么
 
 ```text
 ComboBox *pCombo = new ComboBox(...);
@@ -196,11 +196,11 @@ pButton->SetCommand(kv);
 kv->deleteThis();
 ```
 
-## Useful Traverses
+## 有用的循环
 
 The following loops are contained in the following function: `void Traverse(KeyValues *pKV);`
 
-### All Subkeys
+### 所有子键
 
 ```text
 for ( KeyValues *sub = pKV->GetFirstSubKey(); sub; sub = sub->GetNextKey() )
@@ -215,7 +215,7 @@ if(sub->GetFirstSubKey())
 }
 ```
 
-### All Values
+### 所有数值
 
 ```text
 for ( KeyValues *sub = pKV->GetFirstValue(); sub; sub = sub->GetNextValue() )

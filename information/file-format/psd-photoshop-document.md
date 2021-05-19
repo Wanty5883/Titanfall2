@@ -8,7 +8,7 @@ description: >-
 
 PSD, Photoshop Document, represents Adobe Photoshop's native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other Photoshop-specific elements. Photoshop files have default extension as .PSD and has a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.
 
-## File Format Specifications
+## 文件格式规范
 
 Data in a PSD file is stored in big endian byte order. This implies swapping the short and long integers when reading or writing on Windows platform. The Photoshop file format is divided into five major parts. It has many length markers that can be used to move from one section to the next. The length markers are usually padded with bytes to round to the nearest 2 or 4 byte interval. The five major parts are:
 
@@ -25,7 +25,7 @@ For conformance, data should be written to all these fields in the section, as P
 * A 4-byte length field, representing the number of characters in the string \(not bytes\).
 * The string of Unicode values, two bytes per character.
 
-## File Header
+## 文件头
 
 The file header contains the basic properties of the image.
 
@@ -40,7 +40,7 @@ The file header contains the basic properties of the image.
 | 2 | Depth: the number of bits per channel. Supported values are 1, 8, 16 and 32. |
 | 2 | The color mode of the file. Supported values are: Bitmap = 0; Grayscale = 1; Indexed = 2; RGB = 3; CMYK = 4; Multichannel = 7; Duotone = 8; Lab = 9. |
 
-## Color Mode Data Section
+## 颜色模式数据部分
 
 The color mode data section is structured as follows:
 
@@ -51,7 +51,7 @@ The color mode data section is structured as follows:
 
 Color mode data is available only for indexed color and duotone as defined by the mode field in the File Header section. For all other modes, this section is represented by 4-byte zeroed values. For Indexed color images, the length is 768 and the color data contains the color table for the image, in non-interleaved order. For Duotone images, color data contains the duotone specification \(the format of which is not documented\). Other applications that read Photoshop files can treat a duotone image as a gray image, and just preserve the contents of the duotone information when reading and writing the file.
 
-## Image Resources Section
+## 图像资源部分
 
 The third section of the file contains image resources. It starts with a length field, followed by a series of resource blocks.
 
@@ -72,7 +72,7 @@ Image resources are used to store non-pixel data associated with images such as 
 
 Image resources use several standard ID numbers.
 
-## Layer and Mask Information
+## 图层和遮罩信息
 
 The fourth section of a Photoshop file contains information about layers and masks such as number of layers, channels in the layers, blending ranges, adjustment layer keys, effects layers, and mask parameters. If there are no layers or masks, this section is represented by zeroed 4-byte field. Special attention needs to be paid to the length of sections while reading this section due to the zeroed values. The arrangement of Layer and Mask section is as follow:
 
@@ -83,7 +83,7 @@ The fourth section of a Photoshop file contains information about layers and mas
 | Variable | Global layer mask info |
 | Variable | Series of tagged blocks containing various types of data. |
 
-### **Layer Info**
+### **图层信息**
 
 The following table shows the high-level organization of the layer information.
 
@@ -94,7 +94,7 @@ The following table shows the high-level organization of the layer information.
 | Variable | Information about each layer. See Layer records describes the structure of this information for each layer. |
 | Variable | Channel image data. Contains one or more image data records for each layer. The layers are in the same order as in the layer information  |
 
-## Image Data
+## 图像数据
 
 The image pixel data is contained in the Image Data section of the file. Arrangement of data in Image Data section is in planar order i.e. first all the red data, then all the green data, etc. Each plane is stored in scan-line order, with no pad bytes, The image data section is arrange in a format as shown in the following table.
 

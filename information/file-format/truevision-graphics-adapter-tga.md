@@ -6,17 +6,17 @@ The format stores the basic RGB \(red, green, blue\) channels with 8 bit precisi
 
 Most Textures in Source start life as **TGAs** which are edited and adjusted with any suitable [image editor](../../how-to-start-modding/modding-introduction/modding-tools/#graphics-animation-color-editors). The TGA is then compiled into the Valve Texture Format \([VTF](../textures/valve-texture-format-vtf/)\) using [Vtex](https://developer.valvesoftware.com/wiki/Vtex).exe \(or a third-party tool such as [VTFEdit](../../how-to-start-modding/modding-introduction/modding-tools/#vtf-and-vmt)\) to participate in the [Material System](https://developer.valvesoftware.com/wiki/Material_System).
 
-## History
+## 历史
 
 The TGA file format was originally defined and specified by [AT&T](https://en.wikipedia.org/wiki/AT%26T_Corporation) EPICenter with feedback from Island Graphics Inc in 1984. AT&T EPICenter was an internal spin-off of AT&T created to market new technologies AT&T had developed for color [frame buffers](https://en.wikipedia.org/wiki/Framebuffer). What later became Truevision was the result of a leveraged employee buyout from AT&T in 1987.
 
-## Technical details
+## 技术细节
 
 All values are [little-endian](https://en.wikipedia.org/wiki/Endianness); field and subfield numbers are per Version 2.0 of the specification.
 
 Version 2 added the extension area and footer. The developer area exists to store application-specific information.
 
-### Header
+### 头部
 
 | Field no. | Length | Field name | Description |
 | :--- | :--- | :--- | :--- |
@@ -26,13 +26,13 @@ Version 2 added the extension area and footer. The developer area exists to stor
 | 4 | 5 bytes | Color map specification | Describes the color map |
 | 5 | 10 bytes | Image specification | Image dimensions and format |
 
-**Image ID length \(field 1\)**
+**图像ID长度 \(field 1\)**
 
 0–255 The number of bytes that the image ID field consists of. The image ID field can contain any information, but it is common for it to contain the date and time the image was created or a serial number.
 
 As of version 2.0 of the TGA spec, the date and time the image was created is catered for in the extension area.
 
-**Color map type \(field 2\)**
+**颜色映射类型\(field 2\)**
 
 has the value:
 
@@ -41,7 +41,7 @@ has the value:
 * 2–127 reserved by Truevision
 * 128–255 available for developer use
 
-**Image type \(field 3\)**
+**图像类型\(field 3\)**
 
 is enumerated in the lower three bits, with the fourth bit as a flag for RLE. Some possible values are:
 
@@ -53,7 +53,7 @@ is enumerated in the lower three bits, with the fourth bit as a flag for RLE. So
 * 10 run-length encoded true-color image
 * 11 run-length encoded black-and-white \(grayscale\) image
 
-**Color map specification \(field 4\)**
+**彩色地图规格\(field 4\)**
 
 has three subfields:
 
@@ -63,7 +63,7 @@ has three subfields:
 
 In case that not the entire color map is actually used by the image, a non-zero first entry index allows to store only a required part of the color map in the file.
 
-**Image specification \(field 5\)**
+**图像规格\(field 5\)**
 
 has six subfields:
 
@@ -74,7 +74,7 @@ has six subfields:
 * Pixel depth \(1 byte\): bits per pixel
 * Image descriptor \(1 byte\): bits 3-0 give the alpha channel depth, bits 5-4 give direction
 
-### Image and color map data
+### 图像和彩色地图数据
 
 | Field no. | Length | Field | Description |
 | :--- | :--- | :--- | :--- |
@@ -82,7 +82,7 @@ has six subfields:
 | 7 | From color map specification field | Color map data | Look-up table containing color map data |
 | 8 | From image specification field | Image data | Stored according to the image descriptor |
 
-### Developer area \(optional\)
+### 开发版本 \(可选\)
 
 Version 1.0 of the TGA specification was very basic, and many developers had a need to store more information, and so opted to add on extra sections to their files, specific to their application only.
 
@@ -90,7 +90,7 @@ In Version 2.0 of the specification, these application-specific enhancements/ext
 
 If a TGA decoder cannot interpret the information in the developer area, it will generally ignore it, since it is assumed to have been created by a different application. It is recommended that developers build logic into their applications to determine whether the data in the developer area is compatible with the application; one step towards this is to check the software ID in the file footer.
 
-#### Extension area \(optional\)
+#### 扩展区\(可选\)
 
 | Field no. | Length | Field | Description |
 | :--- | :--- | :--- | :--- |
@@ -110,7 +110,7 @@ If a TGA decoder cannot interpret the information in the developer area, it will
 | 23 | 4 bytes | Scan line offset | Number of bytes from the beginning of the file to the scan lines table if present |
 | 24 | 1 byte | Attributes type | Specifies the alpha channel |
 
-### File footer \(optional\)
+### 文件页脚 \(可选\)
 
 If a TGA file contains a footer, it is likely to be a TGA version 2 file. The footer is the final 26 bytes of the file, of which the last 18 are constant.
 
@@ -122,7 +122,7 @@ If a TGA file contains a footer, it is likely to be a TGA version 2 file. The fo
 | 31 | 1 byte |  | Contains "." |
 | 32 | 1 byte |  | Contains NULL |
 
-### Specification discrepancies
+### 规格差异
 
 The older version of the TGA file format specification taken from the Appendix C of the Truevision Technical Guide states that run-length encoded \(RLE\) packets may cross scan lines: "For the run length packet, the header is followed by a single color value, which is assumed to be repeated the number of times specified in the header. The packet **may cross scan lines** \(begin on one line and end on the next\)".
 
@@ -130,9 +130,9 @@ However, page 24 of the TGA v2.0 specification states the exact opposite: "Run-l
 
 Consequently TGA readers need to be able to handle RLE data packets that cross scan lines since this was part of the original specification. However, when saving \(creating\) TGA files it will be necessary to limit RLE data packets to scanline boundaries in order to be compliant with the newer v2.0 TGA specification.
 
-## Targa for [Vtex](https://developer.valvesoftware.com/wiki/Vtex)
+##  [Vtex](https://developer.valvesoftware.com/wiki/Vtex)的目标
 
-### Valid format
+### 有效格式
 
 For a targa image to be recognized as valid by Vtex, it must meet the following criteria:
 
@@ -142,7 +142,7 @@ For a targa image to be recognized as valid by Vtex, it must meet the following 
 * The height and width doesn't need to be the same - 64x128, 256x512 works fine - but square images are preferred by the Source engine, so use them whenever possible, even when it doesn't seem like the best way to go.
 * RLE compression is optional, but should be avoided due to occasional conversion troubles.
 
-### Scale
+### 比例尺
 
 The default texture scale in Hammer is `0.25`. This means that 1 texture pixel = 0.25 [map units](https://developer.valvesoftware.com/wiki/Dimensions) in Hammer and in game, or a 512x512 texture covers 128x128 map units \(equivalent to 8x8 feet or 2.4x2.4 meters\).
 
@@ -168,7 +168,7 @@ The default texture scale in Hammer is `0.25`. This means that 1 texture pixel =
 
 **Note:**3D Skybox scale is 1/16th of map scale, so textures for 3D skybox surfaces should be designed accordingly.
 
-### Save location
+### 保存目录
 
 Remember that Vtex is only able to locate targa images located inside the `/materialsrc/` folder of the current game, so you may want to save it there directly to spare you the trouble of having to move it there later.
 

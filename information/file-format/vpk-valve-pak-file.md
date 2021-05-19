@@ -7,7 +7,7 @@ description: VPK (Valve Pak) files are uncompressed archives used to package gam
  **VPK** \(Valve Pak\) files are uncompressed archives used to package game content. Valve's post-[GCF](https://developer.valvesoftware.com/wiki/GCF) games store [materials](../textures/valve-material-type-vmt.md), [models](https://developer.valvesoftware.com/wiki/MDL), [particles](https://developer.valvesoftware.com/wiki/Particles), [choreography scenes](https://developer.valvesoftware.com/wiki/VCD) and many other file types in VPK files.  
 VPKs are also used to distribute mods via the the `addoninstaller` tool that ships with some games, such as [Left 4 Dead 2](https://developer.valvesoftware.com/wiki/Left_4_Dead_2).
 
-## Creation
+## 创建
 
 VPKs can be created with the [command line](https://developer.valvesoftware.com/wiki/Command_line) tool `vpk.exe`.
 
@@ -25,7 +25,7 @@ The tool can be located in the bin folders for most Source games, such as the on
 
  For servers installed using [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD), it is located in the server's bin\ directory. On Linux, it is named vpk\_linux32 instead of vpk.exe.
 
-### Linux / Unix
+### Linux / Unix系统
 
 On Linux / Unix clients, the vpk file can be found replacing "`C:\Program Files (x86)\Steam\SteamApps\common`" for "`~/.steam/steam/SteamApps/common/`". However, it is named `vpk_linux32` instead of `vpk.exe`.
 
@@ -53,21 +53,21 @@ LD_LIBRARY_PATH="${VALVE_LIB_DIR}:${LD_LIBRARY_PATH}" "${VPK_LINUX}" "${@}"
 **Note:** The "`${@}`" is for drag-and-drop with \*.desktop files and arguments when using the `vpk` command via console.
 {% endhint %}
 
-### Windows
+### Windows系统
 
 On Windows, a shortcut \(\*.lnk\) linked to the `vpk.exe` file in the `bin` folder can be created instead, making it so that you can drag-and-drop folders onto the shortcut and get a \*.vpk file in return, and vice-versa.A easily-created shortcut named "vpk" can be left in the `custom` folder, making packaging folders into vpk's and vice-versa \(while also debugging your custom files\) a lot easier instead of having to do it from the command prompt.
 
-## Commands
+## 命令
 
-### Usage
+### 用法
 
 `vpk [options] <command> <command arguments...>vpk [options] <directory>vpk [options] <vpkfile>`
 
-### Example
+### 例子
 
 `vpk -?`Lists all of the help info, list of available arguments, and info about each argument.
 
-### Create VPK/Add Files
+### 创建VPK/添加文件
 
 #### `vpk <dirname>`
 
@@ -101,7 +101,7 @@ Create VPK from directory structure.
 **Note:**This is invoked when a directory is dragged onto the VPK tool.
 {% endhint %}
 
-### Extract Files
+### 提取文件
 
 #### `vpk x <vpkfile> <filename1> <filename2> ...`
 
@@ -115,7 +115,7 @@ Extract all files from VPK.
 **Note:**This is invoked when a .VPK file is dragged onto the VPK tool.
 {% endhint %}
 
-### Display VPK Info
+### 显示VPK信息
 
 #### `vpk l <vpkfile>`
 
@@ -125,13 +125,13 @@ List contents of VPK.
 
 List Detailed contents of VPK.
 
-### VPK Integrity/Security
+### VPK完整性/安全性
 
 #### `vpk checksig <vpkfile>`
 
 Verify signature of specified VPK file. Requires -k to specify key file to use.
 
-### Misc.
+### 杂项
 
 #### `vpk generate_keypair <keybasename>`
 
@@ -141,7 +141,7 @@ Generate public/private key file. Output files will be named &lt;keybasename&gt;
 **Note:**Remember: your private key should be kept private.
 {% endhint %}
 
-### Options
+### 设置
 
 {% hint style="info" %}
 **Tip:**Please note the case of these options. A capital letter is different than a lowercase letter.
@@ -190,17 +190,17 @@ With commands 'a' or 'k': Sign VPK with specified private key.
 
 With commands 'a' or 'k': Public key that will be distributed and used by third parties to verify signatures.With command 'checksig': Check signature using specified key file.
 
-## Examples
+## 例子
 
 Listed below are some examples of using the tool and what they will do.
 
-### Making custom vpks for a mod
+### 为MOD定制VOK
 
 Content must be a subdirectory under sound/materials/models in the root dir of your VPK, or else they won't appear in hammer. IE your sounds should be located in sound/foo/thisIsASound.wav in your custom vpk, models under models/, materials under materials/, ect.
 
 VPKs must be mounted in gameinfo.txt.
 
-### Creating A Key Value File and VPK
+### 创建键值文件和VPK
 
 1. Create a folder with the correct directory structure and files that you wish to use such as `mymod/resource/ui/<file.res>`2. Use the command line in a prompt or a bat:`vpk generate_keypair <name>vpk -M -k <name>.publickey.vdf -K <name>.privatekey.vdf "C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\bin\mymod"`3. In the folder where the vpk tool is located there will now be a public key vdf, a private key vdf, a vpk named mymod\_000 and a vpk named mymod\_dir.
 
@@ -210,7 +210,7 @@ VPKs must be mounted in gameinfo.txt.
 
 * You must distribute your mod with both the mymod\_dir and mymod\_000 vpks for the keyvalue to work.
 
-## Response File
+## 响应文件
 
 A "response file" contains a list of files to be added to a VPK. Paths are relative to the current directory of the `vpk` tool.
 
@@ -243,7 +243,7 @@ subprocess.call([vpk_path, "-M", "a", "pak01", "@" + response_path])
 
 [![\[Portal 2\]](https://developer.valvesoftware.com/w/images/7/77/Portal2-16px.png)](https://developer.valvesoftware.com/wiki/Portal_2) To handle this process for portal 2 you can also use the [P2 Multichunk Tool](https://developer.valvesoftware.com/wiki/P2_Multichunk_Tool), to automate the response file creation and the creation of the vpk files.
 
-#### Excluded files
+#### 排除的文件格式
 
 Executable and archive files are discarded by the VPK tool:
 
