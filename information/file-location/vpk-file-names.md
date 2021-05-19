@@ -1,5 +1,5 @@
 ---
-description: 'VPK archive names, e.g. names of the maps in game files.'
+description: VPK档案名称，例如游戏文件中的地图名称。
 ---
 
 # VPK
