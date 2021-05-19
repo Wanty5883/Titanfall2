@@ -1,10 +1,10 @@
-# Model - Fixtures
+# 模型- Fixtures
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">File</th>
-      <th style="text-align:left">Material</th>
+      <th style="text-align:left">&#x6587;&#x4EF6;</th>
+      <th style="text-align:left">&#x6750;&#x8D28;</th>
     </tr>
   </thead>
   <tbody>

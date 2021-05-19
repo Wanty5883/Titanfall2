@@ -1,6 +1,6 @@
-# Model - Containers
+# 模型-容器
 
-| File name | Material |
+| 文件名 | 材质 |
 | :--- | :--- |
 | pelican\_case\_large\_drabgreen.mdl | models\containers\pelican\_case\_large\_drabGreen |
 | plastic\_pallet\_02.mdl | models\containers\plastic\_pallet\_02 |
