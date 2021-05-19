@@ -4,11 +4,11 @@ description: 'VPK archive names, e.g. names of the maps in game files.'
 
 # VPK
 
-## Location
+## 文件位置
 
 > Origin Games\Titanfall2\vpk
 
-## MP Maps
+## 多人地图
 
 | Map Name | File name |
 | :--- | :--- |
@@ -28,7 +28,7 @@ description: 'VPK archive names, e.g. names of the maps in game files.'
 | Rise | englishclient\_mp\_rise.bsp.pak000\_dir.vpk |
 | Wargames | englishclient\_mp\_wargames.bsp.pak000\_dir.vpk |
 
-## LF Maps
+## LF模式地图
 
 | Map Name | File name |
 | :--- | :--- |
@@ -39,7 +39,7 @@ description: 'VPK archive names, e.g. names of the maps in game files.'
 | Traffic | englishclient\_mp\_lf\_traffic.bsp.pak000\_dir.vpk |
 | Uma | englishclient\_mp\_lf\_uma.bsp.pak000\_dir.vpk |
 
-## SP Maps
+## 单人模式地图
 
 | **Campaign Mission**                                | File name |
 | :--- | :--- |
