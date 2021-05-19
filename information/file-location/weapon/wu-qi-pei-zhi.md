@@ -143,34 +143,34 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\weapons
 
 | 武器名称 | File name |
 | :--- | :--- |
-| Plasma Railgun | mp\_titanweapon\_sniper.txt |
-| Cluster Missile | mp\_titanweapon\_dumbfire\_rockets.txt |
-| VTOL Hover | mp\_titanability\_hover.txt |
-| Tether Trap | mp\_titanability\_tether\_trap.txt |
-| Flight Core | mp\_titancore\_flight\_core.txt |
+| 电浆磁轨炮 | mp\_titanweapon\_sniper.txt |
+| 集束飞弹 | mp\_titanweapon\_dumbfire\_rockets.txt |
+| 悬浮 | mp\_titanability\_hover.txt |
+| 拌索陷阱 | mp\_titanability\_tether\_trap.txt |
+| 飞行核心 | mp\_titancore\_flight\_core.txt |
 | • Core Weapon | mp\_titanweapon\_flightcore\_rockets.txt |
 
 ### **浪人**
 
 | 武器名称 | File name |
 | :--- | :--- |
-| Leadwall | mp\_titanweapon\_leadwall.txt |
-| Arc Wave | mp\_titanweapon\_arc\_wave.txt |
-| Phase Dash | mp\_titanability\_phase\_dash.txt |
-| Sword Block | mp\_titanability\_basic\_block.txt |
-| Sword Core | mp\_titancore\_shift\_core.txt |
+| 天女散花 | mp\_titanweapon\_leadwall.txt |
+| 电弧波 | mp\_titanweapon\_arc\_wave.txt |
+| 相位冲刺 | mp\_titanability\_phase\_dash.txt |
+| 剑封锁 | mp\_titanability\_basic\_block.txt |
+| 剑核心 | mp\_titancore\_shift\_core.txt |
 | • {super\_charged} | mp\_titan\_sword.txt |
 
 ### **强力**
 
 | 武器名称 | File name |
 | :--- | :--- |
-| 40MM | mp\_titanweapon\_sticky\_40mm.txt |
-| Tracking Rockets | mp\_titanweapon\_tracker\_rockets.txt |
+| 40MM追踪机炮 | mp\_titanweapon\_sticky\_40mm.txt |
+| 追踪火箭 | mp\_titanweapon\_tracker\_rockets.txt |
 | • Base Class | mp\_titanweapon\_salvo\_rockets.txt |
-| Sonar Pulse | mp\_titanability\_sonar\_pulse.txt |
-| Particle Wall | mp\_titanability\_particle\_wall.txt |
-| Salvo Core | mp\_titancore\_salvo\_core.txt |
+| 声呐锁定 | mp\_titanability\_sonar\_pulse.txt |
+| 粒子屏障 | mp\_titanability\_particle\_wall.txt |
+| 火箭核心 | mp\_titancore\_salvo\_core.txt |
 
 ### **军团**
 
@@ -183,11 +183,11 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\weapons
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Predator Cannon</td>
+      <td style="text-align:left">&#x730E;&#x6740;&#x8005;&#x673A;&#x70AE;</td>
       <td style="text-align:left">mp_titanweapon_predator_cannon.txt</td>
     </tr>
     <tr>
-      <td style="text-align:left">Power Shot</td>
+      <td style="text-align:left">&#x5F3A;&#x5927;&#x706B;&#x529B;</td>
       <td style="text-align:left">mp_titanability_power_shot.txt</td>
     </tr>
     <tr>
@@ -198,15 +198,15 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\weapons
       <td style="text-align:left">mp_titanweapon_predator_cannon.txt</td>
     </tr>
     <tr>
-      <td style="text-align:left">Mode Switch</td>
+      <td style="text-align:left">&#x8FD1;/&#x8FDC;&#x7A0B;&#x6A21;&#x5F0F;&#x5207;&#x6362;</td>
       <td style="text-align:left">mp_titanability_ammo_swap.txt</td>
     </tr>
     <tr>
-      <td style="text-align:left">Gun Shield</td>
+      <td style="text-align:left">&#x67AA;&#x76FE;</td>
       <td style="text-align:left">mp_titanability_gun_shield.txt</td>
     </tr>
     <tr>
-      <td style="text-align:left">Smart Core</td>
+      <td style="text-align:left">&#x667A;&#x6167;&#x6838;&#x5FC3;</td>
       <td style="text-align:left">mp_titancore_siege_mode.txt</td>
     </tr>
     <tr>
@@ -221,15 +221,15 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\weapons
 | 武器名称 | 文件名称 |
 | :--- | :--- |
 | XO-16 | mp\_titanweapon\_xo16\_vanguard.txt |
-| Rocket Salvo | mp\_titanweapon\_salvo\_rockets.txt |
-| Multi Target Missiles | mp\_titanweapon\_shoulder\_rockets.txt |
-| Rearm | mp\_titanability\_rearm.txt |
-| Energy Siphon | mp\_titanweapon\_stun\_laser.txt |
-| Upgrade Core | mp\_titancore\_upgrade.txt |
+| 火箭弹群 | mp\_titanweapon\_salvo\_rockets.txt |
+| 多目标飞弹 | mp\_titanweapon\_shoulder\_rockets.txt |
+| 武装 | mp\_titanability\_rearm.txt |
+| 能量吸收 | mp\_titanweapon\_stun\_laser.txt |
+| 升级核心 | mp\_titancore\_upgrade.txt |
 
 ## 杂项
 
 | 武器名称 | 文件名称 |
 | :--- | :--- |
-| Orbital Strike | mp\_titanweapon\_orbital\_stike.txt |
+| 轨道打击 | mp\_titanweapon\_orbital\_stike.txt |
 
