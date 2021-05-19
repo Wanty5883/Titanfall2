@@ -18,10 +18,10 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\weapons
 
 | 武器名称 | 文件名称 |
 | :--- | :--- |
-| R-201 ****Carbine |  mp\_weapon\_rspn101.txt |
-| R-101 Carbine | mp\_weapon\_rspn101\_og.txt |
-| Hemlock BF-R | mp\_weapon\_hemlock.txt |
-| V-47 Flatline | mp\_weapon\_vinson.txt |
+| R-201卡宾枪 |  mp\_weapon\_rspn101.txt |
+| R-101卡宾枪 | mp\_weapon\_rspn101\_og.txt |
+| 汗洛BF-R | mp\_weapon\_hemlock.txt |
+| V-47平行步枪 | mp\_weapon\_vinson.txt |
 | G2A5 | mp\_weapon\_g2.txt |
 
 ### **冲锋枪**
@@ -29,85 +29,85 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\weapons
 | 武器名称 | 文件名称 |
 | :--- | :--- |
 | CAR | mp\_weapon\_car.txt |
-| Alternator | mp\_weapon\_alternator\_smg.txt |
-| Volt | mp\_weapon\_hemlok\_smg.txt |
+| 转换者冲锋枪 | mp\_weapon\_alternator\_smg.txt |
+| 电能冲锋枪 | mp\_weapon\_hemlok\_smg.txt |
 | R-97 | mp\_weapon\_r97.txt |
 
 ### **轻机枪**
 
 | 武器名称 | 文件名称 |
 | :--- | :--- |
-| Spitfire | mp\_weapon\_lmg.txt |
+| 喷火枪 | mp\_weapon\_lmg.txt |
 | L-STAR | mp\_weapon\_lstar.txt |
-| Devotion | mp\_weapon\_esaw.txt |
+| X-55专注冲锋枪 | mp\_weapon\_esaw.txt |
 
 ### **狙击步枪**
 
 | 武器名称 | 文件名称 |
 | :--- | :--- |
-| Kraber | mp\_weapon\_sniper.txt |
-| Double Take | mp\_weapon\_doubletake.txt |
-| Longbow DMR | mp\_weapon\_dmr.txt |
+| 克莱博-AP狙击步枪 | mp\_weapon\_sniper.txt |
+| D-2双发狙击步枪 | mp\_weapon\_doubletake.txt |
+| 长弓DMR | mp\_weapon\_dmr.txt |
 
 ### **散弹枪**
 
 | 武器名称 | 文件名称 |
 | :--- | :--- |
-| EVA-8 Auto | mp\_weapon\_shotgun.txt |
-| Mastiff | mp\_weapon\_mastiff.txt |
+| EVA-8自动 | mp\_weapon\_shotgun.txt |
+| 獒犬散弹枪 | mp\_weapon\_mastiff.txt |
 
 ### **榴弹枪**
 
 | 武器名称 | 文件名称 |
 | :--- | :--- |
-| Sidewinder SMR | mp\_weapon\_smr.txt |
-| EPG | mp\_weapon\_epg.txt |
-| Softball | mp\_weapon\_softball.txt |
-| EM-4 Cold War | mp\_weapon\_pulse\_lmg.txt |
+| 响尾蛇飞弹 | mp\_weapon\_smr.txt |
+| 能源炮-1 | mp\_weapon\_epg.txt |
+| R-6P垒球榴弹枪 | mp\_weapon\_softball.txt |
+| EM-4冷战榴弹枪 | mp\_weapon\_pulse\_lmg.txt |
 
 ### **手枪**
 
 | 武器名称 | File name |
 | :--- | :--- |
-| P2016 | mp\_weapon\_semipistol.txt |
-| RE-45 Auto | mp\_weapon\_autopistol.txt |
-| B3 Wingman | mp\_weapon\_wingman.txt |
-| Wingman Elite | mp\_weapon\_wingman\_n.txt |
-| Mozambique | mp\_weapon\_shotgun\_pistol.txt |
-| Smart Pistol | mp\_weapon\_smart\_pistol.txt |
+| 汉蒙P2016 | mp\_weapon\_semipistol.txt |
+| RE-45自动 | mp\_weapon\_autopistol.txt |
+| B3小帮手 | mp\_weapon\_wingman.txt |
+| 小帮手精英 | mp\_weapon\_wingman\_n.txt |
+| SA-3莫桑比克 | mp\_weapon\_shotgun\_pistol.txt |
+| 智慧手枪 | mp\_weapon\_smart\_pistol.txt |
 
 ### **反泰坦**
 
 | 武器名称 | File name |
 | :--- | :--- |
-| Charge Rifle | mp\_weapon\_defender.txt |
-| MGL | mp\_weapon\_mgl.txt |
-| LG-97 Thunderbolt | mp\_weapon\_arc\_launcher.txt |
-| Archer | mp\_weapon\_rocket\_launcher.txt |
+| 电能步枪 | mp\_weapon\_defender.txt |
+| 磁能榴弹发射器 | mp\_weapon\_mgl.txt |
+| LG-97雷电炮 | mp\_weapon\_arc\_launcher.txt |
+| 射手飞弹 | mp\_weapon\_rocket\_launcher.txt |
 
 ### **投掷物**
 
 | 投掷物名称 | File name |
 | :--- | :--- |
-| Frag Grenade | mp\_weapon\_frag\_grenade.txt |
-| Arc Grenade | mp\_weapon\_grenade\_emp.txt |
-| Firestar | mp\_weapon\_thermite\_grenade.txt |
-| Gravity Star | mp\_weapon\_grenade\_gravity.txt |
-| Electric Smoke | mp\_weapon\_grenade\_electric\_smoke.txt |
-| Satchel | mp\_weapon\_satchel.txt |
+| 破片手榴弹 | mp\_weapon\_frag\_grenade.txt |
+| 电弧手榴弹 | mp\_weapon\_grenade\_emp.txt |
+| 飞火星 | mp\_weapon\_thermite\_grenade.txt |
+| 重力星 | mp\_weapon\_grenade\_gravity.txt |
+| 电子烟雾手榴弹 | mp\_weapon\_grenade\_electric\_smoke.txt |
+| 炸药包 | mp\_weapon\_satchel.txt |
 
 ### 铁驭技能
 
 | 技能名称 | File name |
 | :--- | :--- |
-| Cloak | mp\_ability\_cloak.txt |
-| Pulse Blade | mp\_weapon\_grenade\_sonar.txt |
-| Grapple | mp\_ability\_grapple.txt |
+| 隐形 | mp\_ability\_cloak.txt |
+| 脉冲刀 | mp\_weapon\_grenade\_sonar.txt |
+| 钩爪 | mp\_ability\_grapple.txt |
 | • Values | scripts\players\mp\pilot\_base.set |
-| Stim | mp\_ability\_heal.txt |
-| A-Wall | mp\_weapon\_deployable\_cover.txt |
-| Phase Shift | mp\_ability\_shifter.txt |
-| Holopilot | mp\_ability\_holopilot.txt |
+| 兴奋剂 | mp\_ability\_heal.txt |
+| A盾 | mp\_weapon\_deployable\_cover.txt |
+| 相位转移 | mp\_ability\_shifter.txt |
+| 幻影 | mp\_ability\_holopilot.txt |
 
 ## **泰坦**
 
@@ -115,14 +115,14 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\weapons
 | :--- | :--- |
 | Ability Electric Smoke | mp\_titanability\_smoke.txt |
 | Global Electric Smoke | mp\_titanability\_electric\_smoke.txt |
-| Nuke Ejection | mp\_titanability\_nuke\_eject.txt |
-| Quad Rocket | mp\_titanweapon\_rocketeer\_rocketstream.txt |
+| 核能弹射 | mp\_titanability\_nuke\_eject.txt |
+| 四段火箭 | mp\_titanweapon\_rocketeer\_rocketstream.txt |
 
 ### **离子**
 
 | 武器名称 | File name |
 | :--- | :--- |
-| Splitter Rifle | mp\_titanweapon\_particle\_accelerator.txt |
+| 分裂枪 | mp\_titanweapon\_particle\_accelerator.txt |
 | Laser Shot | mp\_titanweapon\_laser\_lite.txt |
 | Tripwire | mp\_titanability\_laser\_trip.txt |
 | Vortex Shield | mp\_titanweapon\_vortex\_shield\_ion.txt |

@@ -61,8 +61,8 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 | 武器名称 | 文件名称 |
 | :--- | :--- |
 | 响尾蛇飞弹 | mp\_weapon\_smr.nut |
-| R-6P垒球榴弹枪 | N/A |
-| Softball | mp\_weapon\_softball.nut |
+| 能源炮-1 | N/A |
+| R-6P垒球榴弹枪 | mp\_weapon\_softball.nut |
 | EM-4冷战榴弹枪 | N/A |
 
 ### **手枪**
