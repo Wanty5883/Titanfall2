@@ -18,10 +18,10 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 | 武器名称 | 文件名称 |
 | :--- | :--- |
-| R-201 Carbine | N/A |
-| R-101 Carbine | N/A |
-| Hemlock BF-R | N/A |
-| V-47 Flatline | N/A |
+| R-201卡宾枪 | N/A |
+| R-101卡宾枪 | N/A |
+| 汗洛BF-R | N/A |
+| V-47平行步枪 | N/A |
 | G2A5 | N/A |
 
 ### **冲锋枪**
@@ -29,76 +29,76 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 | 武器名称 | 文件名称 |
 | :--- | :--- |
 | CAR | N/A |
-| Alternator | mp\_weapon\_alternator\_smg.nut |
-| Volt | N/A |
+| 转换者冲锋枪 | mp\_weapon\_alternator\_smg.nut |
+| 电能冲锋枪 | N/A |
 | R-97 | N/A |
 
 ### **轻机枪**
 
 | 武器名称 | 文件名称 |
 | :--- | :--- |
-| Spitfire | mp\_weapon\_lmg.nut |
+| 喷火枪 | mp\_weapon\_lmg.nut |
 | L-STAR | mp\_weapon\_lstar.nut |
-| Devotion | N/A |
+| X-55专注冲锋枪 | N/A |
 
 ### **狙击步枪**
 
 | 武器名称 | 文件名称 |
 | :--- | :--- |
-| Kraber | mp\_weapon\_sniper.nut |
-| Double Take | mp\_weapon\_doubletake.nut |
-| Longbow DMR | mp\_weapon\_dmr.nut |
+| 克莱博-AP狙击步枪 | mp\_weapon\_sniper.nut |
+| D-2双发狙击步枪 | mp\_weapon\_doubletake.nut |
+| 长弓DMR | mp\_weapon\_dmr.nut |
 
 ### **散弹枪**
 
 | 武器名称 | 文件名称 |
 | :--- | :--- |
-| EVA-8 Auto | mp\_weapon\_shotgun.nut |
-| Mastiff | mp\_weapon\_mastiff.nut |
+| EVA-8自动 | mp\_weapon\_shotgun.nut |
+| 獒犬散弹枪 | mp\_weapon\_mastiff.nut |
 
 ### **榴弹枪**
 
 | 武器名称 | 文件名称 |
 | :--- | :--- |
-| Sidewinder SMR | mp\_weapon\_smr.nut |
-| EPG | N/A |
+| 响尾蛇飞弹 | mp\_weapon\_smr.nut |
+| R-6P垒球榴弹枪 | N/A |
 | Softball | mp\_weapon\_softball.nut |
-| EM-4 Cold War | N/A |
+| EM-4冷战榴弹枪 | N/A |
 
 ### **手枪**
 
 | 武器名称 | 文件名称 |
 | :--- | :--- |
-| P2016 | N/A |
-| RE-45 Auto | N/A |
-| B3 Wingman | N/A |
-| Wingman Elite | N/A |
-| Mozambique | mp\_weapon\_shotgun\_pistol.nut |
-| Smart Pistol | mp\_weapon\_smart\_pistol.nut |
+| 汉蒙P2016 | N/A |
+| RE-45自动 | N/A |
+| B3小帮手 | N/A |
+| 小帮手精英 | N/A |
+| SA-3莫桑比克 | mp\_weapon\_shotgun\_pistol.nut |
+| 智慧手枪 | mp\_weapon\_smart\_pistol.nut |
 
 ### **反泰坦**
 
 | 武器名称 | 文件名称 |
 | :--- | :--- |
-| Charge Rifle | mp\_weapon\_defender.nut |
-| MGL | mp\_weapon\_mgl.nut |
+| 电能步枪 | mp\_weapon\_defender.nut |
+| 磁能榴弹发射器 | mp\_weapon\_mgl.nut |
 | • Base Projectile | \_grenade.nut |
-| LG-97 Thunderbolt | mp\_weapon\_arc\_launcher.nut |
+| LG-97雷电炮 | mp\_weapon\_arc\_launcher.nut |
 | • FireArcBall | mp\_titanweapon\_arc\_ball.nut |
 | • Values: "ball" | \scripts\vscripts\\_settings.nut |
-| Archer | mp\_weapon\_rocket\_launcher.nut |
+| 射手飞弹 | mp\_weapon\_rocket\_launcher.nut |
 
 ### **投掷物**
 
 | 投掷物名称 | 文件名称 |
 | :--- | :--- |
 | **Base Grenade** | \_grenade.nut |
-| Frag Grenade | N/A |
-| Arc Grenade | mp\_weapon\_grenade\_emp.nut |
-| Firestar | mp\_weapon\_thermite\_grenade.nut |
-| Gravity Star | mp\_weapon\_grenade\_gravity.nut |
-| Electric Smoke | mp\_weapon\_grenade\_electric\_smoke.nut |
-| Satchel | mp\_weapon\_satchel.nut |
+| 破片手榴弹 | N/A |
+| 电弧手榴弹 | mp\_weapon\_grenade\_emp.nut |
+| 飞火星 | mp\_weapon\_thermite\_grenade.nut |
+| 重力星 | mp\_weapon\_grenade\_gravity.nut |
+| 电子烟雾手榴弹 | mp\_weapon\_grenade\_electric\_smoke.nut |
+| 炸药包 | mp\_weapon\_satchel.nut |
 
 ### 铁驭技能
 
