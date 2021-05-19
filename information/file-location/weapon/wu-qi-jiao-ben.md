@@ -104,13 +104,13 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 
 | 技能名称 | 文件名称 |
 | :--- | :--- |
-| Cloak | mp\_ability\_cloak.nut |
-| Pulse Blade | mp\_weapon\_grenade\_sonar.nut |
-| Grapple | mp\_ability\_grapple.nut |
-| Stim | mp\_ability\_heal.nut |
-| A-Wall | mp\_weapon\_deployable\_cover.nut |
-| Phase Shift | mp\_ability\_shifter.nut |
-| Holopilot | mp\_ability\_holopilot.nut |
+| 隐形 | mp\_ability\_cloak.nut |
+| 脉冲刀 | mp\_weapon\_grenade\_sonar.nut |
+| 钩爪 | mp\_ability\_grapple.nut |
+| 兴奋剂 | mp\_ability\_heal.nut |
+| A盾 | mp\_weapon\_deployable\_cover.nut |
+| 相位转移 | mp\_ability\_shifter.nut |
+| 幻影 | mp\_ability\_holopilot.nut |
 
 ## **泰坦**
 
