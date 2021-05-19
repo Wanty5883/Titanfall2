@@ -1,5 +1,5 @@
 ---
-description: Extra information about skyboxes models
+description: 有关天空盒模型的附加信息
 ---
 
 # 模型-天空背景
@@ -7,8 +7,8 @@ description: Extra information about skyboxes models
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">File name</th>
-      <th style="text-align:left">Material</th>
+      <th style="text-align:left">&#x6587;&#x4EF6;&#x540D;</th>
+      <th style="text-align:left">&#x6750;&#x8D28;</th>
     </tr>
   </thead>
   <tbody>

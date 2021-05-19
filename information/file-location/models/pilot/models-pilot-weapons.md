@@ -1,6 +1,6 @@
 # 模型-铁驭武器
 
-## Assault Rifle
+## 突击步枪
 
 | Model name | Value | Note |
 | :--- | :--- | :--- |
