@@ -123,21 +123,21 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\weapons
 | 武器名称 | File name |
 | :--- | :--- |
 | 分裂枪 | mp\_titanweapon\_particle\_accelerator.txt |
-| Laser Shot | mp\_titanweapon\_laser\_lite.txt |
-| Tripwire | mp\_titanability\_laser\_trip.txt |
-| Vortex Shield | mp\_titanweapon\_vortex\_shield\_ion.txt |
+| 镭射炮 | mp\_titanweapon\_laser\_lite.txt |
+| 拌线 | mp\_titanability\_laser\_trip.txt |
+| 涡流防护罩 | mp\_titanweapon\_vortex\_shield\_ion.txt |
 | • Base Class | mp\_titanweapon\_vortex\_shield.txt |
-| Laser Core | mp\_titancore\_laser\_cannon.txt |
+| 镭射核心 | mp\_titancore\_laser\_cannon.txt |
 
 ### **烈焰**
 
 | 武器名称 | File name |
 | :--- | :--- |
-| Thermite Launcher | mp\_titanweapon\_meteor.txt |
-| Flame Wall | mp\_titanweapon\_flame\_wall.txt |
-| Incendiary Trap | mp\_titanability\_slow\_trap.txt |
-| Thermal Shield | mp\_titanweapon\_heat\_shield.txt |
-| Flame Core | mp\_titancore\_flame\_wave.txt |
+| T-203铝热剂发射器 | mp\_titanweapon\_meteor.txt |
+| 火墙 | mp\_titanweapon\_flame\_wall.txt |
+| 燃烧陷阱 | mp\_titanability\_slow\_trap.txt |
+| 热能护罩 | mp\_titanweapon\_heat\_shield.txt |
+| 火焰核心 | mp\_titancore\_flame\_wave.txt |
 
 ### **北极星**
 
