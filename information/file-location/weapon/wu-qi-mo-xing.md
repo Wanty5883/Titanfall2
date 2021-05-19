@@ -26,71 +26,71 @@ englishclient_mp_common.bsp.pak000_dir.vpk\models\weapons\at_rifle
 | 武器名称 | 文件夹名称 |
 | :--- | :--- |
 | R-201卡宾枪 | rspn101 |
-| R-101 Carbine | r101\_sfp |
-| Hemlock BF-R | m1a1\_hemlok |
-| V-47 Flatline | vinson |
+| R-101卡宾枪 | r101\_sfp |
+| 汗洛BF-R | m1a1\_hemlok |
+| V-47平行步枪 | vinson |
 | G2A5 | g2 |
 
 ### **冲锋枪**
 
 | 武器名称 | 文件夹名称 |
 | :--- | :--- |
-| Alternator | alternator\_smg |
+| 转换者冲锋枪 | alternator\_smg |
 | CAR | car101 |
 | R-97 | r97 |
-| Volt | hemlok\_smg |
+| 电能冲锋枪 | hemlok\_smg |
 
 ### **轻机枪**
 
 | 武器名称 | 文件夹名称 |
 | :--- | :--- |
-| Devotion | hemlock\_br |
+| X-55专注冲锋枪 | hemlock\_br |
 | L-STAR | lstar |
-| Spitfire | lmg\_hemlok |
+| 喷火枪 | lmg\_hemlok |
 
 ### **狙击步枪**
 
 | 武器名称 | 文件夹名称 |
 | :--- | :--- |
-| Double Take | doubletake |
-| Kraber | at\_rifle |
-| Longbow DMR | rspn101\_dmr |
+| D-2双发狙击步枪 | doubletake |
+| 克莱博-AP狙击步枪 | at\_rifle |
+| 长弓DMR | rspn101\_dmr |
 
 ### **散弹枪**
 
 | 武器名称 | 文件夹名称 |
 | :--- | :--- |
-| EVA-8 Auto | w1128 |
-| Mastiff | mastiff\_stgn |
+| EVA-8自动 | w1128 |
+| 獒犬散弹枪 | mastiff\_stgn |
 
 ### **榴弹枪**
 
 | 武器名称 | 文件夹名称 |
 | :--- | :--- |
-| Cold War EM-4 | pulse\_lmg |
-| EPG | epg |
-| Sidewinder SMR | auto\_rocket\_launcher\_arl |
-| Softball | softball\_at |
+| EM-4冷战榴弹枪 | pulse\_lmg |
+| 能源炮-1 | epg |
+| 响尾蛇飞弹 | auto\_rocket\_launcher\_arl |
+| R-6P垒球榴弹枪 | softball\_at |
 
 ### **手枪**
 
 | 武器名称 | 文件夹名称 |
 | :--- | :--- |
-| Mozambique | pstl\_sa3 |
-| P2016 | p2011 |
-| RE-45 Auto | p2011\_auto |
-| Smart Pistol | p2011sp |
-| Wingman B3 | b3wing |
-| Wingman Elite | wingman\_elite |
+| SA-3莫桑比克 | pstl\_sa3 |
+| 汉蒙P2016 | p2011 |
+| RE-45自动 | p2011\_auto |
+| 智慧手枪 | p2011sp |
+| B3小帮手 | b3wing |
+| 小帮手精英 | wingman\_elite |
 
 ### **反泰坦武器**
 
 | 武器名称 | 文件夹名称 |
 | :--- | :--- |
-| Archer | shoulder\_rocket\_sram |
-| Charge Rifle | defender |
-| MGL | mgl\_at |
-| Thunderbolt LG-97 | arc\_launcher |
+| 射手飞弹 | shoulder\_rocket\_sram |
+| 电能步枪 | defender |
+| 磁能榴弹发射器 | mgl\_at |
+| LG-97雷电炮 | arc\_launcher |
 
 ## 泰坦
 
@@ -98,12 +98,12 @@ englishclient_mp_common.bsp.pak000_dir.vpk\models\weapons\at_rifle
 
 | 武器名称 | 文件夹名称 |
 | :--- | :--- |
-| 40MM | thr\_40mm |
-| Leadwall | titan\_triple\_threat |
-| Particle Accelerator | titan\_particle\_accelerator |
-| Predator Cannon | titan\_predator |
+| 40MM追踪机炮 | thr\_40mm |
+| 天女散花 | titan\_triple\_threat |
+| 分裂枪 | titan\_particle\_accelerator |
+| 猎杀者机炮 | titan\_predator |
 | Railgun | atpov\_titan\_sniper\_rifle |
 | Railgun | titan\_sniper\_rifle |
-| Thermite Cannon | titan\_thermite\_launcher |
+| T-203铝热剂发射器 | titan\_thermite\_launcher |
 | XO-16 | xotbr16 |
 
