@@ -2,43 +2,43 @@
 
 **Valve Texture Format \(VTF\)** 是起源引擎专用的纹理格式。 VTF 文件通常作为一个独立的材料被引用，而不是直接调用，这样可以允许它以多种方式重复利用。
 
-VTF files can be created from TGA images using the Source SDK Tool VTEX, or from most common image formats with [third-party tools](../../../how-to-start-modding/modding-introduction/modding-tools/#vtf-and-vmt). Both textures and materials are stored in subfolders of `game_dir/materials/`.
+VTF文件可以用Source SDK Tool VTEX由TGA图像或者其他有第三方软件辅助的常见图像格式创建。纹理和材质都储存在子文件夹 `game_dir/materials/`.
 
-## Storage capabilities
+## 存储内容
 
- The VTF image format can store either a flat texture, an environment map, or a volumetric texture. Each of these can have multiple frames.
+ VTF格式的图像可以存储平面纹理（flat texture），环境映射（environment map）或者体积纹理（volumetric texture）。每一种都可以以拥有多个坐标系。 
 
-* An environment map is a six-faced [cube map](../cube-mapping.md).
-* A volumetric texture is a texture with depth, where each frame is a "layer" which are layered in the third dimension. So a 16x16x16 volumetric texture has 16 separate 16x16 textures stacked to give depth. This format is used internally by Source, and you shouldn't have any need to actually create one yourself.
-* For each frame and face, the VTF file contains both the basic original source-image data \(pixel map\) and a series of [**mipmaps** ](../mip-mapping.md)used for rendering the texture over varying distances. Because each successive mipmap is exactly 1/2 the dimension \(height and width\) of the previous one, the source-image dimensions must be a multiple of 4. Although the source-image may be rectangular, square mipmaps are stored more efficiently in the VTF.
-* Start frame \(for animations\)
-* **Bump map** scale
-* A **Reflectivity** value for use by **VRAD**
-* A very low resolution copy of the VTF for color sampling by the engine.
+* 环境映射是一个六面立方体映射。
+* 体积纹理是一种有深度的纹理，其中的每一帧都是在三维中分层的一个“层”。 所以一个16\*16\*16的体积纹理由16层独立的16\*16的纹理堆叠而成，这样可以赋予纹理深度。这种格式在Source Engine内部被使用，并不需要你自己去创建一个。
+* 对于每一帧和每一面，VTF文件既包含基本的原始源图像数据 \(像素图\)，也包含一系列用于在不同距离上渲染纹理的**mipmap（ 一种电脑图形图像技术，用于在三维图像的二维代替物中达到立体感效应）** 。因为每一个连续的mipmap恰好是前一个mipmap尺寸（高度和宽度）的1/2，源图像尺寸就必须是4的倍数。尽管源图像可能是矩形的，但是方形的mipmap在VTF中的储存效率更高。
+* 开始帧（start frame）：用于动画
+* **凹凸贴图（bump map）**的规模
+* **VRAD（一个命令行工具，让静态和预编译的光照通过**[**光线传递**](http://en.wikipedia.org/wiki/Radiosity_%283D_computer_graphics%29)**算法在世界范围内反弹）**使用的反射率值。
+* 一个用于引擎颜色采样，分辨率非常低的VTF副本。
 
-### Resources
+### 资源
 
-VTF 7.3 added an extensible "resource data" system. Anything can be added, but Source will recognise only the following:
+VTF 7.3 增加了一个可扩展的 “资源数据（resource data）“系统。 任何内容都可以被添加，但是引擎只会识别以下内容：
 
-* A **CRC** value, for detecting data corruption.
-* An **U/V** LOD control. This is the highest mipmap which should be loaded when game's Texture Detail setting is "High" \(`mat_picmip 0`\). An U LOD Control value of 11 selects the mipmap which is 2048 pixels \(211\) across.
+* 用于检测数据是否损坏的CRC（Cyclic Redundancy Check 循环冗余校验）值。
+* **U/V** LOD（Level Of Details 多层次细节） 控制。当游戏纹理细节被设置为“高”\(`mat_picmip 0`\)时，加载细节度最高的mipmap。一个值为11的U LOD 控制值选择的对应mipmap像素为2048（2^11）
 
 {% hint style="info" %}
-Since users are currently only presented with one texture detail setting above High, there is little point setting this value to anything except 50% or 100% of your texture's size.
+因为目前用户选项中只有一个选项是高于”高“的纹理细节设置，所以除了%50或%100的纹理大小之外，这个调试的意义不大。
 {% endhint %}
 
-* \*\*\*\*[**Animated particle sheet**](animated-particles.md) data.
-* Expanded texture settings. This is a collection of 32 flags, none of which are in use by Valve. Unlike the built-in VTF flags these can be defined on a game-by-game basis.
+* \*\*\*\*[**动画粒子表（Animated particle sheet）**](https://noskill.gitbook.io/titanfall2/documentation/textures/valve-texture-format-vtf/animated-particles)数据。
+* 扩展纹理设置。这是一个包含32个旗标（flag）的集合 。其中没有一个被Valve用到。与内置的VTF旗标不同，我们可以根据游戏自身来定义这些内容。
 
-## Image data formats
+## 图像数据格式
 
-The VTF image format can store image data in a variety of formats. Some formats were meant for the engine, some only as an interim format for conversions. The uncompressed formats are not lossy and the compressed \(DXT\) formats are.
+VTF格式可以存储多种格式的图像数据。有些格式是为引擎所准备的，有些只是作为转换的过渡格式。未压缩的（uncompressed）格式是无损的，而压缩的（compressed）格式是有损的\(比如说DXT\)
 
-![](https://developer.valvesoftware.com/w/images/c/cc/Note.png) **Note:**The VTF format can actually store many more formats than those listed below -- consult your engine branch's `public/bitmap/imageformat.h` to see exactly what it supports. However, these formats are not GUARANTEED to work and their enum values are prone to being shuffled around between engine branches.
+![](https://developer.valvesoftware.com/w/images/c/cc/Note.png)**注解:**VTF格式实际上可以存储的格式包括但不限于下面列出的格式 -- 具体请查询你的引擎分支资料`public/bitmap/imageformat.h` 来获知哪些格式是被支持的。然而，这些格式不能保证一定能在引擎中正确工作，它们的枚举值很容易在引擎分支间被打乱。
 
-### Image data format table
+### 图像数据格式表
 
-| Format | Red Bits | Green Bits | Blue Bits | Alpha Bits | Total Bits | Compresses | Supported | Comments |
+| Format  | Red Bits | Green Bits | Blue Bits | Alpha Bits | Total Bits | Compresses | Supported | Comments |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
 | A8 | 0 | 0 | 0 | 8 | 8 | False | True |  |
 | ABGR8888 | 8 | 8 | 8 | 8 | 32 | False | True | Uncompressed texture with alpha |
@@ -68,40 +68,40 @@ The VTF image format can store image data in a variety of formats. Some formats 
 | UVLX8888 | N/A | N/A | N/A | N/A | 32 | False | True |  |
 | UVWQ8888 | N/A | N/A | N/A | N/A | 32 | False | True |  |
 
-**HDR compression**
+**HDR（High Dynamic Range Imaging 高动态范围图像） 压缩**
 
-HDR textures can be stored in compressed form using the BGRA8888 format.
+HDR纹理可以用BGRA8888格式以压缩形式储存。
 
-The formula to convert these colors back to integer HDR is:
+将压缩颜色转换回HDR整数值的公式是：
 
 `RGB = RGB * (A * 16)`
 
-and for floating point HDR:
+对于浮点HDR公式则是：
 
 `RGB = (RGB * (A * 16)) / 262144`
 
-### Choosing an image format
+### 选择一个图像格式
 
-Though the VTF image format provides support for a wide range of image data formats, there are only a handful of image data formats you are likely to use. These formats and their criteria are described below:
+尽管VTF提供了对多种图像数据格式的支持，但您一般使用的图像数据格式只有下列少数几种：
 
-* **BGR888:** use this format for textures with no alpha channel and very fine gradients \(i.e. normal maps or light halos\).
-* **BGRA8888:** use this format for textures with an alpha channel and very fine gradients \(i.e. normal maps or light halos\). It can also be used to produce Very High quality textures.
-* **DXT1:** use this format for typical textures with no alpha channel. \(Also known as BC1.\)
-  * **Note:** DXT1 supports 1 bit of alpha precision. **However**, any areas of 0 alpha will be fully black. This functionality is therefore best used for textures using $alphatest.
-* **DXT3:** **DXT5 should almost always be used over DXT3**, but DXT3 is acceptable \(not necessarily better\) for textures with an alpha channel with sharp gradients. \(Also known as BC2.\)
-* **DXT5:** use this format for typical textures with an alpha channel. \(Also known as BC3\).
-* **I8:** use this format for black and white textures with no alpha channel and very fine gradients \(i.e. light halos\).
-* **IA88:** use this format for black and white textures with an alpha channel and very fine gradients \(i.e. smoke or light halos\).
-* **RGBA16161616F:** use this format for **HDR** textures.
-* **UV88:** use this format for **DuDv** maps.
+* **BGR888:** 这种格式的纹理没有alpha通道，有着非常细微的梯度（即法线贴图（normal maps）或者光晕）。
+* **BGRA8888:** 这种格式的纹理有alpha通道和非常细微的梯度（即法线贴图（normal maps）或者光晕）。它也可以用来生产非常高质量的纹理。
+* **DXT1:** 一种非常典型的纹理格式，没有alpha通道 \(也被称为BC1\)。
+  * **注解：** DXT1支持1位alpha精度。然而，任何alpha值为0的区域将是全黑的。因此，这个功能最好在使用[$alphatest](https://developer.valvesoftware.com/wiki/$alphatest)语句时使用。
+* **DXT3:** **DXT5一般都作为DXT3的上位选择，**但是DXT3也是可以接受的\(不一定更好\) ，这是一种带alpha通道和尖锐梯度的纹理 \(也被称为BC2\)。
+* **DXT5:** 一种带有alpha通道的经典纹理格式 \(也被称为BC3\)。
+* **I8:** 没有alpha通道，梯度非常细微的黑白纹理格式\(即光晕\).
+* **IA88:** 有alpha通道，梯度非常细微的黑白纹理格式\(即光晕或者烟雾\)
+* **RGBA16161616F: HDR**纹理格式.
+* **UV88:** [**Du/Dv 映射（Du/dv\_map）**](https://developer.valvesoftware.com/wiki/Du/dv_map)的纹理格式.
 
-Find technical details on the various DXT compression formats here and here.
+在很多地方你都能找到各种关于DXT压缩格式的技术细节。
 
-## Image flags
+## 图像旗标
 
-**Tip:**Most shader settings are configured as material parameters, not texture flags.
+**提示:**大多数着色器都被默认配置为材质参数，而不是纹理旗标。
 
-A VTF file can contain the following flags \(version 7.5\):
+一个VTF文件可以包含以下旗标 \(version 7.5\):
 
 | Flag |  **Value** |  **Comment** |
 | :--- | :--- | :--- |
@@ -138,21 +138,21 @@ A VTF file can contain the following flags \(version 7.5\):
 | SSBump | 0x8000000 |  Texture is a **SSBump**. \(SSB\) |
 | Border | 0x20000000 | Clamp to border colour on all texture coordinates |
 
-## File format
+## 文件格式
 
-The VTF image format is described as follows.
+VTF图像格式介绍如下：
 
-### VTF layout
+### VTF 布局设计
 
 {% tabs %}
 {% tab title="Version 7.2" %}
-1. VTF Header
-2. VTF Low Resolution Image Data
-3. For Each Mipmap \(Smallest to Largest\)
-   * For Each Frame \(First to Last\)
-     * For Each Face \(First to Last\)
-       * For Each Z Slice \(Min to Max; Varies with Mipmap\)
-         * VTF High Resolution Image Data
+1. VTF 数据头（Header）
+2. VTF 低分辨率图像数据（Low Resolution Image Data）
+3. 对应的Mipmap \(从最小到最大\)
+   * 对应的帧 \(从首个到最后一个\)
+     * 对应的 \(从首个到最后一个\)
+       * 对应的 Z 切片\(Z Slice；最小到最大;；随着Mipmap变化\)
+         * VTF 高分辨率图像数据（High Resolution Image Data）
 {% endtab %}
 
 {% tab title="Version 7.3 +" %}
@@ -168,7 +168,7 @@ The VTF image format is described as follows.
 {% endtab %}
 {% endtabs %}
 
-### VTF enumerations
+### VTF 列举（enumerations）
 
 ```text
 enum
@@ -254,7 +254,7 @@ enum CompiledVtfFlags
 };
 ```
 
-### VTF header
+### VTF 数据头（header）
 
 ```text
 typedef struct tagVTFHEADER
@@ -287,7 +287,7 @@ typedef struct tagVTFHEADER
 } VTFHEADER;
 ```
 
-### VTF Resource Entry
+### VTF 资源条目（Resource Entry）
 
 ```text
 struct ResourceEntryInfo {
@@ -297,7 +297,7 @@ struct ResourceEntryInfo {
 };
 ```
 
-#### Tags
+#### 标签（Tags）
 
 ```text
 { '\x01', '\0', '\0' } - Low-res (thumbnail) image data.
@@ -309,57 +309,57 @@ struct ResourceEntryInfo {
 { 'K', 'V', 'D' } - Arbitrary KeyValues data.
 ```
 
-### VTF lo-res image data
+### VTF 低分辨率图像数据
 
-Tightly packed low resolution image data in the format described in the header. The low resolution image data is always stored in the DXT1 compressed image format. Its dimensions are that of the largest mipmap with a width or height that does not exceed 16 pixels. i.e. for a 256x256 pixel VTF: 16x16, for a 256x64 pixel VTF: 16x4, for a 1x32 pixel VTF: 1x16, for a 4x4 pixel VTF: 4x4.
+低分辨率图像被在文件的头数据中所描述的格式紧密包装。 低分辨率图像数据通常以DXT1压缩图像格式存储。其尺寸最大即是宽度和高度不超过16像素的mipmap尺寸。比如说对于一个 256x256 像素的 VTF是16x16,；对于一个256x64 像素的VTF是 16x4；1x32 像素的VTF是: 1x16,； 4x4 像素的VTF是 4x4，以此类推。
 
-### VTF hi-res image data
+### VTF 高分辨率图像数据
 
-Tightly packed interleaved high resolution image data in the format described in the header. Common image formats include DXT1, DXT5, BGR888, BGRA8888 and UV88. All dimensions must be a multiple of 4.
+高分辨率图像被在文件的头数据中所描述的格式紧密包装。 通用的数据格式包含 DXT1, DXT5, BGR888, BGRA8888 和UV88。所有维度都必须是4的倍数。
 
-### Version history
+### 历史版本
 
-**To do:** Address game-specific compatibility issues
+**目的:解决游戏特定的兼容性问题**
 
 #### **v7.5**
 
-* Released July 19th, 2010 as part of **Alien Swarm**
-* Bitwise equivalent to v7.4.
-* Redefines and revises two texture flags.
-* Spheremaps now officially redundant.
-* Most changes internal to the VTF creation process with VTEX, e.g. [MipMap ](../mip-mapping.md)fading, Alpha decay and XBox360 formats.
+* 发布于July 19th, 2010 ，作为 **Alien Swarm 异星虫群** 的一部分
+* 同于 v7.4.
+* 重定义并修改了两个纹理旗标
+* 球形地图正式归为冗余信息
+* VTF内部创建过程的大部分更改都是使用VTEX， 比如说： Mipmap衰减（[MipMap ](../mip-mapping.md)fading）, alpha衰减（Alpha decay） 和  XBox360 格式.
 
 #### **v7.4**
 
-* Released October 10th, 2007 as part of [The Orange Box](http://en.wikipedia.org/wiki/The_Orange_Box).
-* Bitwise equivalent to v7.3.
-* Addresses issues related to how gamma-correction is performed on textures for TV-output on XBOX 360 combined with hunting down OS Paged Pool Memory.
+* 发布于October 10th, 2007 作为[半条命2橙盒版](https://en.wikipedia.org/wiki/The_Orange_Box)的一部分。
+* 同于 v7.3.
+* 解决有关伽马校正在XBOX360电视输出纹理执行结合系统内存分页池的问题。
 
 #### **v7.3**
 
-* Added an extensible resource orientated structure.
-* Added CRC, Texture LOD Control and Sheet resources, along with backwards compatible Image and Low Resolution Image resources.
-* Added several vendor specific depth-stencil formats \(for internal engine use\), along with normal map formats and linear uncompressed formats.
-* Released September 18th, 2007 as part of the [Team Fortress 2](https://developer.valvesoftware.com/wiki/Team_Fortress_2) beta.
+* 添加了一个可扩展的面向资源的结构。
+* 增加了CRC，纹理的LOD控制，列表资源以及向后兼容的图像和低分辨率图像资源。
+* 添加了几种定制化的深度模板格式\(供内部引擎使用\)，以及法线贴图格式和线性未压缩格式。
+* 发布于September 18th, 2007 作为 [军团要塞](https://developer.valvesoftware.com/wiki/Team_Fortress_2)2 beta测试的一部分.
 
 #### **v7.2**
 
-* Added volumetric texture support.
-* Released September 23rd, 2005 as a [Steam](https://developer.valvesoftware.com/wiki/Steam) engine update.
+* 增加了体积纹理支持。
+* 发布于September 23rd, 2005 作为[Steam](https://developer.valvesoftware.com/wiki/Steam)引擎升级的一部分。
 
 #### **v7.1**
 
-* Added spheremap support to environment maps. \(This was intended for DirectX 6 support which was later cut.\)
+* 为环境映射增加了球形地图支持\(这是为了支持DirectX 6，后来被砍掉了\)。
 
 #### **v7.0**
 
-* Initial release. \(Internal release only, however, some v7.0 textures made it to the published title.\)
+* 最初发布的版本 \(只在内部发布，然而，一些v7.0纹理被公开发表了\)。
 
-#### Implementation
+#### 执行（Implementation）
 
-An example Steam independent implementation of the VTF image file format can be found in the LGPL C/C++ library [VTFLib](https://developer.valvesoftware.com/wiki/VTFLib).
+一个独立于Steam实现的VTF图像文件格式的例子可以在LGPL C/ c++库的[VTFLib](https://developer.valvesoftware.com/wiki/VTFLib)中找到。
 
 {% hint style="info" %}
-Source: [https://developer.valvesoftware.com/wiki/Valve\_Texture\_Format](https://developer.valvesoftware.com/wiki/Valve_Texture_Format)
+Source开发者文档链接: [https://developer.valvesoftware.com/wiki/Valve\_Texture\_Format](https://developer.valvesoftware.com/wiki/Valve_Texture_Format)
 {% endhint %}
 
