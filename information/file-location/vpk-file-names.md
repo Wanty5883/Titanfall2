@@ -28,7 +28,7 @@ description: VPK档案名称，例如游戏文件中的地图名称。
 | 崛起 | englishclient\_mp\_rise.bsp.pak000\_dir.vpk |
 | 战争游戏 | englishclient\_mp\_wargames.bsp.pak000\_dir.vpk |
 
-## LF模式地图
+## 烈火战场模式地图
 
 | Map Name | File name |
 | :--- | :--- |

@@ -25,7 +25,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\models\weapons\at_rifle
 
 | 武器名称 | 文件夹名称 |
 | :--- | :--- |
-| R-201 ****Carbine | rspn101 |
+| R-201卡宾枪 | rspn101 |
 | R-101 Carbine | r101\_sfp |
 | Hemlock BF-R | m1a1\_hemlok |
 | V-47 Flatline | vinson |
