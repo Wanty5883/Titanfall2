@@ -68,7 +68,7 @@ description: 本教程将会教你从头开始一步一步地创建一个全新�
 
 当您点击OK时，输入的文件将会进行格式转换（越大的图像转换时间越长，需要使用者耐心等待大），转换完成后，对应的VTF将会出现。现在剩下要做的就是使用窗口左侧的复选框列表中的选项配置纹理。请参阅 [Valve Texture Format image\_flags](./#image-flags) 来获取进一步的信息。
 
-Finally, save the file somewhere under your game or mod's  `\materials` folder.
+最后，请把文件保存到你游戏或者mod下  `\materials` 文件夹的某一个位置。
 
 ## 创建一个材质（Materials）
 
