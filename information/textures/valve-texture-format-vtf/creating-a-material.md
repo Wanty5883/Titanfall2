@@ -100,7 +100,7 @@ LightmappedGeneric
 }
 ```
 
-有很多的[着色器](https://developer.valvesoftware.com/wiki/Shader)可供选择，但是大多数的材质都会选择[`LightmappedGeneric`](https://developer.valvesoftware.com/wiki/LightmappedGeneric) \([笔刷](https://developer.valvesoftware.com/wiki/Brush)\)，[`VertexLitGeneric`](https://developer.valvesoftware.com/wiki/VertexLitGeneric) \([模型](https://developer.valvesoftware.com/wiki/Model)\)[`UnlitGeneric`](https://developer.valvesoftware.com/wiki/UnlitGeneric)`（`通常用于[UI](https://developer.valvesoftware.com/wiki/VGUI2)材料，偶尔用于[工具材料](https://developer.valvesoftware.com/wiki/Tool_texture)）三者之一，。hich is used for [UI](https://developer.valvesoftware.com/wiki/VGUI2) materials and the occasional [tool texture](https://developer.valvesoftware.com/wiki/Tool_texture).
+有很多的[着色器](https://developer.valvesoftware.com/wiki/Shader)可供选择，但是大多数的材质都会选择[`LightmappedGeneric`](https://developer.valvesoftware.com/wiki/LightmappedGeneric) \([笔刷](https://developer.valvesoftware.com/wiki/Brush)\)，[`VertexLitGeneric`](https://developer.valvesoftware.com/wiki/VertexLitGeneric) \([模型](https://developer.valvesoftware.com/wiki/Model)\)[`UnlitGeneric`](https://developer.valvesoftware.com/wiki/UnlitGeneric)（通常用于[UI](https://developer.valvesoftware.com/wiki/VGUI2)材料，偶尔用于[工具材料](https://developer.valvesoftware.com/wiki/Tool_texture)）三者之一。
 
 ### Parameters
 
