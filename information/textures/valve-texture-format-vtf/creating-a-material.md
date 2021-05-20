@@ -72,12 +72,12 @@ Finally, save the file somewhere under your game or mod's  `\materials` folder.
 
 ## 创建一个材质（Materials）
 
-起源引擎并不会直接访问纹理。所有的纹理都要通过一个[材质](https://noskill.gitbook.io/titanfall2/v/chinese/information/textures/valve-material-type-vmt)进行配置之后才会被调用。[material](../valve-material-type-vmt.md).
+起源引擎并不会直接访问纹理。所有的纹理都要通过一个[材质](https://noskill.gitbook.io/titanfall2/v/chinese/information/textures/valve-material-type-vmt)进行配置之后才会被调用。
 
-[Materials](../valve-material-type-vmt.md) are script files that can be created in any text editor, but it's recommended that you use one of the [software listed](../../../how-to-start-modding/modding-introduction/modding-tools/#general) in conjunction with the community-made [syntax highlighting rules](https://developer.valvesoftware.com/wiki/Notepad%2B%2B_VDF_languages). For your material to be detected, **you must save it under your game or mod's**  **`\materials` folder with the extension `.vmt`**.
+[材料](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-Ma9GJZ1h2Li9XAhpICO/v/chinese/information/textures/valve-material-type-vmt/@drafts)是可以在任何文本编辑器中创建的脚本文件，但建议您结合在[编辑软件](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-Ma9GJZ1h2Li9XAhpICO/v/chinese/how-to-start-modding/modding-introduction/modding-tools#general/@drafts)页面中用[高亮语法规则](https://developer.valvesoftware.com/wiki/Notepad%2B%2B_VDF_languages)列出的软件之一进行编辑。为了让你的材质被检测到， **你必须把它以`.vmt`格式保存在你的游戏或mod下的** **`\materials` 文件夹中** .
 
 {% hint style="info" %}
- **Note:** If you are creating materials and textures exclusively for a map for a existing mod, consider using  [BSPZIP](https://developer.valvesoftware.com/wiki/BSPZIP)\[Packbsp](https://developer.valvesoftware.com/wiki/Packbsp)\[Pakrat](https://developer.valvesoftware.com/wiki/Pakrat)\[Compile Pal](https://developer.valvesoftware.com/wiki/Compile_Pal) to package the material and texture files within the map file itself. This will avoid them ever becoming lost.
+ **注解：**如果你正在为一个现有的mod制作贴图材质或纹理，可以考虑使用[BSPZIP](https://developer.valvesoftware.com/wiki/BSPZIP)\[Packbsp](https://developer.valvesoftware.com/wiki/Packbsp)\[Pakrat](https://developer.valvesoftware.com/wiki/Pakrat)\[Compile Pal](https://developer.valvesoftware.com/wiki/Compile_Pal) 等软件来将材质和纹理文件打包到贴图文件中。
 {% endhint %}
 
 ### Syntax
