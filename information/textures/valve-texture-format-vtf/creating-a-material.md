@@ -102,11 +102,11 @@ LightmappedGeneric
 
 有很多的[着色器](https://developer.valvesoftware.com/wiki/Shader)可供选择，但是大多数的材质都会选择[`LightmappedGeneric`](https://developer.valvesoftware.com/wiki/LightmappedGeneric) \([笔刷](https://developer.valvesoftware.com/wiki/Brush)\)，[`VertexLitGeneric`](https://developer.valvesoftware.com/wiki/VertexLitGeneric) \([模型](https://developer.valvesoftware.com/wiki/Model)\)[`UnlitGeneric`](https://developer.valvesoftware.com/wiki/UnlitGeneric)（通常用于[UI](https://developer.valvesoftware.com/wiki/VGUI2)材料，偶尔用于[工具材料](https://developer.valvesoftware.com/wiki/Tool_texture)）三者之一。
 
-### Parameters
+### 参数
 
-For a list of all documented shader parameters, see [Category:List of Shader Parameters](https://developer.valvesoftware.com/wiki/Category:List_of_Shader_Parameters).
+如果需要所有的着色器参数说明，请参照[分类：着色器参数列表](https://developer.valvesoftware.com/wiki/Category:List_of_Shader_Parameters)
 
-With a shader chosen you're onto parameters \(also called commands\). There are hundreds of options for what to put in a material so this article will only cover the most common, which are accepted by more or less all shaders. They are:
+选择一个着色器后，你将要调配参数\(也称为命令\)。材质参数有数百种选择，本文只讨论最常见的，或多或少被所有着色器所接受的的参数。它们是:
 
 * [`$basetexture`](../shader/usdbasetexture.md)
 * [`$surfaceprop`](https://developer.valvesoftware.com/wiki/$surfaceprop)
@@ -117,19 +117,21 @@ With a shader chosen you're onto parameters \(also called commands\). There are 
 * [`$model`](https://developer.valvesoftware.com/wiki/$model_%28VMT%29)
 
 {% hint style="info" %}
- **Tip:** If you ever need to use a space or tab character in a parameter value, you must wrap the while value with "quote marks". You'll often see absolutely everything wrapped like this - save yourself some typing, as that's unnecessary.
+ **提示：**如果需要在参数值中使用空格或制表符，则必须用"引号"将参数值括起来。您经常会看到所有的参数都是这样用引号括起来的，这样可以提高可读性—当然你可以选择不加，因为这不是必须的。
 {% endhint %}
 
 {% hint style="info" %}
- **Tip:** To refresh materials in-game - use this console command: `mat_reloadallmaterials`, this will reload every single material. It's recommended to use this command to prevent game from freezing and some other weird artifacts: `mat_reloadmaterial "vmt_name without .vmt"`. Example: `mat_reloadmaterial "monitor_screen"`. Mat\_reloadtextures is presented too.
+ **提示：**你可以用控制台命令 `mat_reloadallmaterials` 来刷新材质在游戏中的预览，这会重加载游戏里的所有材质。这里建议使用这个命令来防止游戏被冻结和其他的一些奇怪现象发生： `mat_reloadmaterial "vmt_name without .vmt"`。
+
+例子：`mat_reloadmaterial "monitor_screen"`。 Mat\_reloadtextures的语法与这个相同。
 {% endhint %}
 
-## Source & reference
+## 参考文献
 
 {% hint style="info" %}
-Source: [https://developer.valvesoftware.com/wiki/Creating\_a\_Material](https://developer.valvesoftware.com/wiki/Creating_a_Material)
+源文章连接： [https://developer.valvesoftware.com/wiki/Creating\_a\_Material](https://developer.valvesoftware.com/wiki/Creating_a_Material)
 
-Reference: [https://en.wikipedia.org/wiki/Level\_of\_detail](https://en.wikipedia.org/wiki/Level_of_detail)
+引用：[https://en.wikipedia.org/wiki/Level\_of\_detail](https://en.wikipedia.org/wiki/Level_of_detail)
 {% endhint %}
 
 
