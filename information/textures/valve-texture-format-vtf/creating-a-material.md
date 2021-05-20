@@ -20,9 +20,9 @@ description: 本教程将会教你从头开始一步一步地创建一个全新�
 
 纹理必须转换为[Valve Texture Format \(VTF\)](./)格式才能让起源引擎使用。v设提供了[VTEX](https://developer.valvesoftware.com/wiki/Vtex)作为转换工具。这是一个有很多限制的命令行工具，所以第三方工具VTFEdit是更好的选择： 它提供了一个图形用户界面，允许使用者直接更改纹理的属性而无需从头重新编译它，并兼容各种图像格式，还可以直接每个纹理创建脚本文件。当然，在一些情况下你还是需要使用VTEX的，但只有很少一部分（比如说一些动态纹理和[spritesheet技术](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-Ma932GRGVfjjlaaoa1C/v/chinese/information/textures/valve-texture-format-vtf/animated-particles/@drafts)）。
 
-Also, if you have textures that use transparency, it is recommended that you save in TIFF format before importing to VTFEdit as PNG transparency tends to have problems. \(There are VTF plug-ins that let you save to the format directly from [Photoshop](../../../how-to-start-modding/modding-introduction/modding-tools/#graphics-animation-color-editors), [GIMP ](../../../how-to-start-modding/modding-introduction/modding-tools/#graphics-animation-color-editors)and [Paint.net](../../../how-to-start-modding/modding-introduction/modding-tools/#graphics-animation-color-editors), but this tutorial will not cover them as not everyone uses those tools\).
+此外，如果您有需要使用透明度的纹理，建议您在导入到VTFEdit之前保存为TIFF格式，因为PNG的透明度往往容易出现一些问题（有一些VTF插件可以让您直接从Photoshop、GIMP和Paint.net保存为vtf格式，但是本教程并不会介绍它们，因为不是每个人能够使用这些工具）。
 
-To import your texture with VTFEdit, use  `File > Import` or press **Ctrl+I**. Select your image and you will be presented with the import screen:
+要在VTFEdit中导入纹理， 请选择 `File > Import` 或者使用Ctrl+I快捷键。然后，选择你需要的图像，导入选项窗口就会弹出：
 
 ![](../../../.gitbook/assets/vtfedit_importoptions.png)
 
