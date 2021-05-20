@@ -80,9 +80,9 @@ Finally, save the file somewhere under your game or mod's  `\materials` folder.
  **注解：**如果你正在为一个现有的mod制作贴图材质或纹理，可以考虑使用[BSPZIP](https://developer.valvesoftware.com/wiki/BSPZIP)\[Packbsp](https://developer.valvesoftware.com/wiki/Packbsp)\[Pakrat](https://developer.valvesoftware.com/wiki/Pakrat)\[Compile Pal](https://developer.valvesoftware.com/wiki/Compile_Pal) 等软件来将材质和纹理文件打包到贴图文件中。
 {% endhint %}
 
-### Syntax
+### 语法
 
-A material file looks like this:
+一个材质文件的语法格式应该看起来像这样：
 
 ```text
 <shader>
@@ -100,7 +100,7 @@ LightmappedGeneric
 }
 ```
 
-There are many [shaders](https://developer.valvesoftware.com/wiki/Shader) to choose from, but most materials will use either [`LightmappedGeneric`](https://developer.valvesoftware.com/wiki/LightmappedGeneric) \([brushes](https://developer.valvesoftware.com/wiki/Brush)\) or [`VertexLitGeneric`](https://developer.valvesoftware.com/wiki/VertexLitGeneric) \([models](https://developer.valvesoftware.com/wiki/Model)\). The third most common shader is [`UnlitGeneric`](https://developer.valvesoftware.com/wiki/UnlitGeneric), which is used for [UI](https://developer.valvesoftware.com/wiki/VGUI2) materials and the occasional [tool texture](https://developer.valvesoftware.com/wiki/Tool_texture).
+有很多的[着色器](https://developer.valvesoftware.com/wiki/Shader)可供选择，但是大多数的材质都会选择[`LightmappedGeneric`](https://developer.valvesoftware.com/wiki/LightmappedGeneric) \([笔刷](https://developer.valvesoftware.com/wiki/Brush)\)，[`VertexLitGeneric`](https://developer.valvesoftware.com/wiki/VertexLitGeneric) \([模型](https://developer.valvesoftware.com/wiki/Model)\)[`UnlitGeneric`](https://developer.valvesoftware.com/wiki/UnlitGeneric)`（`三者之一，通常用于[UI](https://developer.valvesoftware.com/wiki/VGUI2)材料，偶尔用于[工具材料](https://developer.valvesoftware.com/wiki/Tool_texture)）。hich is used for [UI](https://developer.valvesoftware.com/wiki/VGUI2) materials and the occasional [tool texture](https://developer.valvesoftware.com/wiki/Tool_texture).
 
 ### Parameters
 
