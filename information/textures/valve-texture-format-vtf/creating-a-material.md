@@ -28,7 +28,7 @@ description: 本教程将会教你从头开始一步一步地创建一个全新�
 
 ### 通用设定
 
-There settings are the most important. There are three:
+以下的这三个参数最为重要：
 
 * 法线格式
   * 如果纹理是不透明的，请使用颜色/压缩（color/compression）格式。
