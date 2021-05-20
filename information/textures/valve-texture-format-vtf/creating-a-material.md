@@ -36,13 +36,13 @@ There settings are the most important. There are three:
   * 如果纹理有alpha通道，应该使用颜色/压缩（color/compression）格式。
 * 纹理类型
 
-  * 导入多个图像意味着这些图像将会作为动画/[立方体](../cube-mapping.md)贴图面/深度切片来使用。
+  * 导入多个图像意味着这些图像将会作为动画/[立方体贴图面](https://app.gitbook.com/@noskill/s/titanfall2/v/chinese/information/textures/cube-mapping/@drafts)/深度切片来使用。
 
-  If you're making a plain and simple world texture you won't need to change any of these. If you're making a texture with fine gradient detail however, you'll need to choose a[ non-lossy compression mode](./#choosing-an-image-format).
+  如果你正在制作一个简单的世界纹理，你不需要改变任何上述参数。 但是，如果你在制作一个有着细微斜面细节的纹理，你需要选择一个[非有损压缩格式](https://noskill.gitbook.io/titanfall2/v/chinese/information/textures/valve-texture-format-vtf#choosing-an-image-format)。
 
-### Mipmap settings
+### Mipmap设置
 
-[Mipmaps](../mip-mapping.md) are low-resolution versions of a texture that swap in when a surface is far away from the camera. They greatly reduce the amount of texture resizing needed, improving both performance and image quality. Mips are required for texture [LOD ](https://en.wikipedia.org/wiki/Level_of_detail)to work.
+[Mipmaps](../mip-mapping.md)是纹理的低分辨率版本，当纹理表面远离相机时引擎会进行切换以节省资源。它们极大地减少了纹理所需调用的数量，提高了性能和图像质量。纹理 [LOD ](https://en.wikipedia.org/wiki/Level_of_detail)需要Mips才能工作。
 
 {% hint style="info" %}
  **Tip:**Textures that will appear in the 3D world should have [mipmaps](../mip-mapping.md). To conserve memory, textures that will only be used in a 2D interface should not.
