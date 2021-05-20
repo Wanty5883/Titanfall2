@@ -1,26 +1,24 @@
 ---
-description: >-
-  This tutorial is a step-by-step guide to creating a brand new material,
-  including the creation of the material's texture.
+description: 本教程将会教你从头开始一步一步地创建一个全新的材质，并创建材质的纹理文件。
 ---
 
 # 创建材质
 
-This tutorial is a step-by-step guide to creating a brand new [material](../valve-material-type-vmt.md), including the creation of the material's [texture](./).
+本教程将会教你从头开始一步一步地创建一个全新的[材质](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-Ma932GRGVfjjlaaoa1C/v/chinese/information/textures/valve-material-type-vmt/@merged)，并创建材质的[纹理文件](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-Ma932GRGVfjjlaaoa1C/v/chinese/information/textures/valve-texture-format-vtf/@merged)。
 
-## Creating a texture
+## 创建一个材质
 
-Any image file can be used as a texture, so long as both of its dimensions \(height and width\) are a power of two: 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048 and so on. To decide which to use, examine existing textures that fill the same role as yours. Higher resolutions lower performance but make an image sharper when viewed up close.
+任何图像文件都可以作为纹理，只要它的尺寸\(高度和宽度\)都是2的幂：2，4，8，16，32，64，128，256，512，1024，2048等等。要决定新建纹理的参数设置，请先检查在游戏中正在使用的对应纹理。更高的分辨率的纹理会降低性能，但当你近距离观察时，显示的图像会更清晰。
 
-Different classes of object have different standard resolutions \(e.g. character models' are very high\). Check Valve's choices in `source materials.gcf` with [GCFScape](https://developer.valvesoftware.com/wiki/GCFScape) if you are ever confused.![](https://developer.valvesoftware.com/w/images/c/cc/Note.png) ****
+不同类型的对象拥有不同的标准分辨率（例如：角色模型的标准分辨率就非常高）。如果你不清楚的话请用 [GCFScape](https://developer.valvesoftware.com/wiki/GCFScape) 查看 `source materials.gcf`中v社的标准设置![](https://developer.valvesoftware.com/w/images/c/cc/Note.png) ****
 
 {% hint style="info" %}
-**Note:**Texture source files should be saved in a lossless format like [TGA](../../file-format/truevision-graphics-adapter-tga.md) pre-compile, to prevent unnecessary loss in quality.
+**注解：**纹理源文件应该保存为（例如[TGA](../../file-format/truevision-graphics-adapter-tga.md)预编译）这种无损格式以防不必要的纹理质量损失
 {% endhint %}
 
-## **Converting the texture**
+## **转换纹理**
 
-Textures must be converted to the [Valve Texture Format \(VTF\)](./) before Source can  use them. The tool Valve provides for this is [VTEX](https://developer.valvesoftware.com/wiki/Vtex). It's a [command line](https://developer.valvesoftware.com/wiki/Command_line) tool with quite a few limitations, so the third-party tool [VTFEdit](../../../how-to-start-modding/modding-introduction/modding-tools/#vtf-and-vmt) is preferable: it provides a graphical user interface, allows you to change a texture's properties without re-compiling it from scratch, accepts a wide range of image formats, and doesn't require the creation of script files for each and every texture. There are a handful of situations where you'll need to fall back on VTEX... but only a handful \(Animate texture with [spritesheet technique](animated-particles.md)\).
+纹理必须转换为[Valve Texture Format \(VTF\)](./)格式才能让起源引擎使用。v设提供了[VTEX](https://developer.valvesoftware.com/wiki/Vtex)作为转换工具。这是一个有很多限制的命令行工具，所以第三方工具VTFEdit是更好的选择： 它提供了一个图形用户界面，允许使用者直接更改纹理的属性而无需从头重新编译它，并兼容各种图像格式，还可以直接每个纹理创建脚本文件。当然，在一些情况下你还是需要使用VTEX的，但只有很少一部分（比如说一些动态纹理和[spritesheet技术](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-Ma932GRGVfjjlaaoa1C/v/chinese/information/textures/valve-texture-format-vtf/animated-particles/@drafts)）。
 
 Also, if you have textures that use transparency, it is recommended that you save in TIFF format before importing to VTFEdit as PNG transparency tends to have problems. \(There are VTF plug-ins that let you save to the format directly from [Photoshop](../../../how-to-start-modding/modding-introduction/modding-tools/#graphics-animation-color-editors), [GIMP ](../../../how-to-start-modding/modding-introduction/modding-tools/#graphics-animation-color-editors)and [Paint.net](../../../how-to-start-modding/modding-introduction/modding-tools/#graphics-animation-color-editors), but this tutorial will not cover them as not everyone uses those tools\).
 
