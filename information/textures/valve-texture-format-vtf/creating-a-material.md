@@ -42,27 +42,27 @@ There settings are the most important. There are three:
 
 ### Mipmap设置
 
-[Mipmaps](../mip-mapping.md)是纹理的低分辨率版本，当纹理表面远离相机时引擎会进行切换以节省资源。它们极大地减少了纹理所需调用的数量，提高了性能和图像质量。纹理 [LOD ](https://en.wikipedia.org/wiki/Level_of_detail)需要Mips才能工作。
+[Mipmaps](../mip-mapping.md)是纹理的低分辨率版本，当纹理表面远离相机时引擎会进行切换以节省资源。它们极大地减少了纹理所需调用的数量，提高了性能和图像质量。纹理 [LOD](https://en.wikipedia.org/wiki/Level_of_detail)需要Mips才能工作。
 
 {% hint style="info" %}
- **Tip:**Textures that will appear in the 3D world should have [mipmaps](../mip-mapping.md). To conserve memory, textures that will only be used in a 2D interface should not.
+ **提示：**在3D世界出现的纹理需要拥有[mipmaps](../mip-mapping.md)。为了节约内存，在2D世界中使用的纹理尽量不要使用[mipmaps](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-Ma9BRdwf8qrjFOuXmGJ/v/chinese/information/textures/mip-mapping/@drafts)。
 {% endhint %}
 
-The following images demonstrate the various [mipmap ](../mip-mapping.md)filters available in [VTFEdit](../../../how-to-start-modding/modding-introduction/modding-tools/#vtf-and-vmt):
+下列图片展示了各种在 [VTFEdit](../../../how-to-start-modding/modding-introduction/modding-tools/#vtf-and-vmt)可以使用的[mipmap](../mip-mapping.md)滤镜：
 
-![Sharpen filters](../../../.gitbook/assets/vtf_sharpen_filters.jpg)
+![&#x9510;&#x5316;&#x6EE4;&#x955C;](../../../.gitbook/assets/vtf_sharpen_filters.jpg)
 
-![Mip filters \#1](../../../.gitbook/assets/vtf_mipmap_filters1.jpg)
+![Mip&#x6EE4;&#x955C; \#1](../../../.gitbook/assets/vtf_mipmap_filters1.jpg)
 
-![Mip filters \#2](../../../.gitbook/assets/vtf_mipmap_filters2.jpg)
+![Mip&#x6EE4;&#x955C; \#2](../../../.gitbook/assets/vtf_mipmap_filters2.jpg)
 
-![Mip filters \#3](../../../.gitbook/assets/vtf_mipmap_filters3.jpg)
+![Mip&#x6EE4;&#x955C; \#3](../../../.gitbook/assets/vtf_mipmap_filters3.jpg)
 
-![Mip filters \#4](../../../.gitbook/assets/vtf_mipmap_filters4.jpg)
+![Mip&#x6EE4;&#x955C; \#4](../../../.gitbook/assets/vtf_mipmap_filters4.jpg)
 
-### Normal map settings
+### 法线贴图设置
 
-These \(mis-labelled\) settings allow you to automatically generate a [bump map](https://developer.valvesoftware.com/wiki/Bump_map) from your input image. You'll want to do this properly with an image editor for the material you ship, but the automated option is there is you want quick results or a base to work from.
+这些（mis-labelled） 设置允许你用你输入的图像自动生成一个[凹凸贴图](https://developer.valvesoftware.com/wiki/Bump_map)。 You'll want to do this properly with an image editor for the material you ship, but the automated option is there is you want quick results or a base to work from.
 
 ## Configuring & saving
 
