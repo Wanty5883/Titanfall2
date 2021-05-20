@@ -62,17 +62,17 @@ There settings are the most important. There are three:
 
 ### 法线贴图设置
 
-这些（mis-labelled） 设置允许你用你输入的图像自动生成一个[凹凸贴图](https://developer.valvesoftware.com/wiki/Bump_map)。 You'll want to do this properly with an image editor for the material you ship, but the automated option is there is you want quick results or a base to work from.
+这些（mis-labelled） 设置允许你用你输入的图像自动生成一个[凹凸贴图](https://developer.valvesoftware.com/wiki/Bump_map)。你可能想用图像编辑功能来快速完成设计，但是自动生成选项只能生成一个非常基础的贴图。
 
-## Configuring & saving
+## 配置&保存
 
-When you hit OK the input file is converted \(there may be quite a lengthy pause for large images\) and the output VTF appears. Now all that is left is configuring the texture with the options in the checkbox list on the left-hand side of the screen. See [Valve Texture Format image\_flags](./#image-flags) for descriptions of each.
+当您点击OK时，输入的文件将会进行格式转换（越大的图像转换时间越长，需要使用者耐心等待大），转换完成后，对应的VTF将会出现。现在剩下要做的就是使用窗口左侧的复选框列表中的选项配置纹理。请参阅 [Valve Texture Format image\_flags](./#image-flags) 来获取进一步的信息。
 
 Finally, save the file somewhere under your game or mod's  `\materials` folder.
 
-## Creating a material
+## 创建一个材质（Materials）
 
-Source doesn't access textures directly. Everything goes through a [material](../valve-material-type-vmt.md).
+起源引擎并不会直接访问纹理。所有的纹理都要通过一个[材质](https://noskill.gitbook.io/titanfall2/v/chinese/information/textures/valve-material-type-vmt)进行配置之后才会被调用。[material](../valve-material-type-vmt.md).
 
 [Materials](../valve-material-type-vmt.md) are script files that can be created in any text editor, but it's recommended that you use one of the [software listed](../../../how-to-start-modding/modding-introduction/modding-tools/#general) in conjunction with the community-made [syntax highlighting rules](https://developer.valvesoftware.com/wiki/Notepad%2B%2B_VDF_languages). For your material to be detected, **you must save it under your game or mod's**  **`\materials` folder with the extension `.vmt`**.
 
