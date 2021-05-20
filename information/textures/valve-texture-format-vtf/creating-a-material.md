@@ -129,8 +129,10 @@ LightmappedGeneric
 ## 参考文献
 
 {% hint style="info" %}
-源文章连接： [https://developer.valvesoftware.com/wiki/Creating\_a\_Material](https://developer.valvesoftware.com/wiki/Creating_a_Material)
+源文章链接：[https://developer.valvesoftware.com/wiki/Creating\_a\_Material](https://developer.valvesoftware.com/wiki/Creating_a_Material)
+{% endhint %}
 
+{% hint style="info" %}
 引用：[https://en.wikipedia.org/wiki/Level\_of\_detail](https://en.wikipedia.org/wiki/Level_of_detail)
 {% endhint %}
 
