@@ -26,17 +26,17 @@ description: 本教程将会教你从头开始一步一步地创建一个全新�
 
 ![](../../../.gitbook/assets/vtfedit_importoptions.png)
 
-### General settings
+### 通用设定
 
 There settings are the most important. There are three:
 
-* Normal format
-  * The color/compression format that should be used if the texture is opaque.
-* Alpha format
-  * The color/compression format that should be used if the texture has an alpha channel.
-* Texture type
+* 法线格式
+  * 如果纹理是不透明的，请使用颜色/压缩（color/compression）格式。
+* Alpha格式
+  * 如果纹理有alpha通道，应该使用颜色/压缩（color/compression）格式。
+* 纹理类型
 
-  * If you imported more than one image, this determines what they will be used as \(animation frames/[cubemap ](../cube-mapping.md)faces/depth slices\).
+  * 导入多个图像意味着这些图像将会作为动画/[立方体](../cube-mapping.md)贴图面/深度切片来使用。
 
   If you're making a plain and simple world texture you won't need to change any of these. If you're making a texture with fine gradient detail however, you'll need to choose a[ non-lossy compression mode](./#choosing-an-image-format).
 
