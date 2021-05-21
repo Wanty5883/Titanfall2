@@ -1,23 +1,20 @@
 ---
-description: >-
-  BSPZIP is a command-line tool that allows arbitrary files to be embedded
-  within a BSP. When the map is being loaded the files will be mounted as if
-  they were present in the game's real content folders
+description: BSPZIP 是一个命令行文件，它允许你在BSP中嵌入任意文件。当地图被加载时，对应添加的文件也会被加载，相当于把文件添加到了游戏的实际文件夹。
 ---
 
 # BSPZIP
 
-**BSPZIP** is a [command-line](https://developer.valvesoftware.com/wiki/Command-line) tool that allows arbitrary files to be embedded within a [BSP](https://developer.valvesoftware.com/wiki/BSP). When the map is being loaded the files will be mounted as if they were present in the game's real content folders.
+**BSPZIP** 是一个[命令行工具](https://developer.valvesoftware.com/wiki/Command-line)，它允许你在[BSP](https://developer.valvesoftware.com/wiki/BSP)中嵌入任意文件。当地图被加载时，对应添加的文件也会被加载，相当于把文件添加到了游戏的实际文件夹。
 
 {% hint style="info" %}
-**Tip:**Several [GUI utilities](https://developer.valvesoftware.com/wiki/BSPZIP#GUIs_.2F_Replacements) have been created that may be more convenient than using BSPZIP directly.
+**提示：**用一些 [GUI工具](https://developer.valvesoftware.com/wiki/BSPZIP#GUIs_.2F_Replacements)创建可能比直接用BSPZIP要来的方便。
 {% endhint %}
 
 {% hint style="info" %}
-**Tip:**Embedded content can be examined with archive tools that support .zip by opening the BSP file.
+**提示：**可以通过支持.zip的解包工具打开BSP并查看里面的内容。
 {% endhint %}
 
-While it is usually a good idea to BSPZIP content, there are times when it can cause problems and other times when it won't work at all \(e.g. for [Maplist Thumbnails](https://developer.valvesoftware.com/wiki/Maplist_Thumbnails)\). When this happens a [resource list](https://developer.valvesoftware.com/wiki/Resource_list) can be used instead.
+虽然拿BSPZIP解包是可行的，但是有时候它会出现问题，或者根本不起作用 （比如说：[地图列表缩略图](https://developer.valvesoftware.com/wiki/Maplist_Thumbnails)）。当这种情况发生时，可以用[资源列表](https://developer.valvesoftware.com/wiki/Resource_list)代替
 
 ## Usage
 
