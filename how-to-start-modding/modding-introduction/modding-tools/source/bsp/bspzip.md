@@ -16,30 +16,30 @@ description: BSPZIP 是一个命令行文件，它允许你在BSP中嵌入任意
 
 虽然拿BSPZIP解包是可行的，但是有时候它会出现问题，或者根本不起作用 （比如说：[地图列表缩略图](https://developer.valvesoftware.com/wiki/Maplist_Thumbnails)）。当这种情况发生时，可以用[资源列表](https://developer.valvesoftware.com/wiki/Resource_list)代替
 
-## Usage
+## 使用
 
 {% hint style="info" %}
-**Note:**Remember to set the appropriate [VPROJECT](https://developer.valvesoftware.com/wiki/VPROJECT) before starting to use the tool.
+**注解：**别忘了在使用工具之前设置适当的[VPROJECT](https://developer.valvesoftware.com/wiki/VPROJECT)。。
 {% endhint %}
 
-BSPZIP is found at `"common\<gamename>\<gamefolder>\bin\bspzip.exe"`. It performs several functions:
+BSPZIP可以在`"common\<gamename>\<gamefolder>\bin\bspzip.exe"`路径中被发现。它具有以下的功能：
 
-### Adding a list of files
+### 添加一个文件列表
 
-The most common function. There are two related commands:
+这是最常见的功能。这里有两个相关的命令：
 
 ```text
 -addlist <input bsp> <file list> <output bsp>
 -addorupdatelist <input bsp> <file list> <output bsp>
 ```
 
-Include file extensions. The former command packs all files in the list, the latter \(untested, Orange Box only\) packs only those that have changed since the last operation.
+这些命令包含文件的扩展名。前一个命令负责打包列表中所有的文件，后一个命令（未测试，暂时仅限半条命2橙盒版）只打包自上次操作以来更改的文件。
 
 {% hint style="info" %}
- **Tip:**The input and output files can be the same.
+ **提示：**输入和输出的文件可能会相同。
 {% endhint %}
 
-The 'file list' is a .txt file containing this pattern:
+‘file list’（文件列表）是一个包含以下语句的.txt文件：
 
 ```text
 internal_path\file1
@@ -49,20 +49,20 @@ external_path\file2
 ...
 ```
 
-* Internal paths \('relative paths'\) are the location the file will take within the BSP, e.g. `materials/metal/new_steel.vmt`.
-* External paths \('full paths'\) are the location of the file to be packed, e.g. `C:\Users\Public\our_maps\materials\metal\new_steel.vmt`.
+* 内部路径（Internal paths  '相关路径'）是文件在BSP中的路径，比如说： `materials/metal/new_steel.vmt。`
+* 外部路径（External paths '全部路径'）是要打包的文件的路径，比如说： `C:\Users\Public\our_maps\materials\metal\new_steel.vmt`.
 
-### Adding a single file
+### 添加单个文件
 
-The same principle as above, but without a file list.
+与上面的原理相同，但是没有文件列表：
 
 ```text
 -addfile <input bsp> <internal path> <external path> <output bsp>
 ```
 
-### Viewing and extracting files
+### 查看和导出文件
 
-If you have an archive tool installed that is able to look inside BSPs it's better to use that. If you don't, these are the commands you need:
+如果你安装了一个可以查看bsp内部文件的工具，那么你最好选择使用此工具。如果你还是选择使用BSPZIP，你可能需要以下的一些命令：
 
 ```text
 -extract <bsp file> <output.zip>
@@ -70,9 +70,9 @@ If you have an archive tool installed that is able to look inside BSPs it's bett
 -dir <bsp file>
 ```
 
-### Handling cubemaps
+### 处理立方体贴图（cubemap）
 
-Should be self-evident:
+同上，不用多说：
 
 ```text
 -extractcubemaps <bsp file> <output folder>
@@ -80,32 +80,32 @@ Should be self-evident:
 ```
 
 {% hint style="danger" %}
--deletecubemaps actually deletes all .vtf files in the .bsp - handle with caution!
+-deletecubemaps 命令一般用来删除.bsp中所有的.vtf 文件 -  请谨慎使用！
 {% endhint %}
 
-## Testing
+## 测试
 
-There are situations where files won't be loaded from BSP files correctly. As time goes on they become fewer in number, but it's always worth checking regardless. The easiest way to do so is moving all of the embedded content out of the game's folders -- or even better, not storing it there in the first place.
+一些情况下，文件是无法从BSP中被加载的。随着时间的推移和技术的进步，它们的数量将会越来越少。当然，无论如何，使用前测试一下总是没有坏处的。最简单的方法就是将所有bsp内的文件移出游戏文件夹 ，更棒的方法是不再将其存储在原此位置。
 
-## Repacking
+## 重新打包
 
-Repacking allows you to compress your map to save hard drive space and download times. To repack a map and compress it, these commands are used:
+重新打包可以使你压缩你的地图，以节省硬盘驱动器的空间和下载时间。你可以通过以下命令来重打包或者压缩地图：
 
 ```text
 -repack -compress <bsp file>
 ```
 
-To uncompress repacked maps, run the same command but ommit the `-compress` command:
+要解压缩重打包的地图，你需要在执行一遍同样命令的情况下，再提交`-compress` 命令：
 
 ```text
 -repack <bsp file>
 ```
 
 {% hint style="danger" %}
- Repacked maps won't work in [Source Filmmaker](https://developer.valvesoftware.com/wiki/Source_Filmmaker) and will crash the program on load!
+ 在[Source Filmmaker](https://developer.valvesoftware.com/wiki/Source_Filmmaker)中重新打包的地图不会正常工作并且会引起程序的崩溃！
 {% endhint %}
 
 {% hint style="info" %}
-Source: [https://developer.valvesoftware.com/wiki/BSPZIP](https://developer.valvesoftware.com/wiki/BSPZIP)
+源文档连接： [https://developer.valvesoftware.com/wiki/BSPZIP](https://developer.valvesoftware.com/wiki/BSPZIP)
 {% endhint %}
 
