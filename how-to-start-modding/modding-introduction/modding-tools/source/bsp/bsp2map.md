@@ -1,20 +1,20 @@
 ---
-description: BSP2MAP is a decompiler for GoldSrc maps written by Skyler 'Zipster' York.
+description: BSP2MAP是一个由Skyler 'Zipster' York完成的GoldSource金源引擎的反编译器
 ---
 
 # BSP2MAP
 
-**BSP2MAP** is a decompiler for [GoldSrc](https://developer.valvesoftware.com/wiki/GoldSrc) maps written by Skyler 'Zipster' York. It converts the [BSP](https://developer.valvesoftware.com/wiki/BSP) files into .[MAP](https://developer.valvesoftware.com/w/index.php?title=Map_%28file_format%29&action=edit&redlink=1) format, which can then be loaded into [Hammer Editor](https://developer.valvesoftware.com/wiki/Hammer_Editor). Unfortunately, Goldsource maps do not store enough information for brushwork, so the geometry has to be recreated using the polygons. BSP2MAP hollows out all brush-based entities with a thickness of one unit as a preventive measure to stealing/copying maps.
+**BSP2MAP** 是一个由Skyler 'Zipster' York完成的[GoldSrc](https://developer.valvesoftware.com/wiki/GoldSrc)金源引擎的反编译器。它可以将[.bsp](https://developer.valvesoftware.com/wiki/BSP)格式转换为[.map](https://developer.valvesoftware.com/wiki/BSP)格式，由此可以加载到[Hammer编辑器](https://developer.valvesoftware.com/wiki/Hammer_Editor)中。 不幸的是，金源引擎的地图并不能够储存足够的地图绘制信息，所以几何体必须借由多边形来创建。BSP2MAP将所有基于画笔的实体掏空，并赋予其一个单位厚度，以此来复制并导出金源引擎中的地图。
 
 {% hint style="danger" %}
-This decompiler should not be used, it does not do a great job compared to [WinBSPC](https://developer.valvesoftware.com/wiki/WinBSPC), a more accurate GoldSrc decompiler. A comparison can be seen below.
+最好不要使用这个反编译器，它的效率和精确度都没有另一个反编译器[WinBSPC](https://developer.valvesoftware.com/wiki/WinBSPC)要来的好。下面是一个对比：
 {% endhint %}
 
-![BSP2MAP&apos;s attempt to decompile HL crossfire.](../../../../../.gitbook/assets/crossfire_bsp2map.png)
+![BSP2MAP &#x5C1D;&#x8BD5;&#x53CD;&#x7F16;&#x8BD1;&#x7684; HL crossfire.](../../../../../.gitbook/assets/crossfire_bsp2map.png)
 
-![WinBSPC&apos;s attempt to decompile HL crossfire.](../../../../../.gitbook/assets/crossfire_winbspc.png)
+![WinBSPC&apos;s &#x5C1D;&#x8BD5;&#x53CD;&#x7F16;&#x8BD1;&#x7684; HL crossfire.](../../../../../.gitbook/assets/crossfire_winbspc.png)
 
 {% hint style="info" %}
-Source: [https://developer.valvesoftware.com/wiki/BSP2MAP](https://developer.valvesoftware.com/wiki/BSP2MAP)
+原文章链接： [https://developer.valvesoftware.com/wiki/BSP2MAP](https://developer.valvesoftware.com/wiki/BSP2MAP)
 {% endhint %}
 
