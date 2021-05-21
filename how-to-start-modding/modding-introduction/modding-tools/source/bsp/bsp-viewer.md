@@ -1,8 +1,10 @@
 # BSP Viewer
 
-**BSP Viewer** is a utility by [Nem](https://developer.valvesoftware.com/wiki/User:Nem) that allows you to view and export [Goldsource](https://developer.valvesoftware.com/wiki/Goldsource) maps. Goldsource maps do not contain as much information about brushwork as [Source](https://developer.valvesoftware.com/wiki/Source) maps do, so Nem chose to construct a brush for every polygon on the map by creating a 1 unit thick wall.
+**BSP Viewer** 是[Nem](https://developer.valvesoftware.com/wiki/User:Nem)的一个应用程序，允许您查看并导出[Goldsource（金源引擎）](https://developer.valvesoftware.com/wiki/Goldsource)地图。Goldsource地图不像[Source](https://developer.valvesoftware.com/wiki/Source)地图包含那么多关于笔刷绘制的信息，所以Nem选择为地图上的每个多边形创建一个1单位厚的实体墙。
 
 {% hint style="info" %}
-Source: [https://developer.valvesoftware.com/wiki/BSP\_Viewer](https://developer.valvesoftware.com/wiki/BSP_Viewer)
+源文章链接：[https://developer.valvesoftware.com/wiki/BSP\_Viewer](https://developer.valvesoftware.com/wiki/BSP_Viewer)
 {% endhint %}
+
+
 
