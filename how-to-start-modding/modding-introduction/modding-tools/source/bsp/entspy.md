@@ -1,14 +1,13 @@
 ---
-description: Entspy is a tool that can view and edit the entity properties of a BSP file.
+description: Entspy是一个可以查看和编辑BSP文件实体属性的工具。
 ---
 
 # Entspy
 
-**Entspy** is a tool that can view and edit the [entity](https://developer.valvesoftware.com/wiki/Entity) properties of a [BSP](https://developer.valvesoftware.com/wiki/BSP) file.  
-The program is useful for tweaking small entity properties without compile the map again.  
-The latest version of the program is version 0.8, released at the 2nd October 2005.
+**Entspy**是一个可以查看和编辑[BSP](https://developer.valvesoftware.com/wiki/BSP)文件[实体](https://developer.valvesoftware.com/wiki/Entity)属性的工具。该工具对于调整较小实体的属性很有用，而且无需再次编译地图。  
+该程序的最后一个版本是v0.8，发布于2nd October 2005。
 
-![The Entspy interface.](../../../../../.gitbook/assets/entspy1.gif)
+![Entspy &#x754C;&#x9762;](../../../../../.gitbook/assets/entspy1.gif)
 
 ## Adding spawnpoints to a map
 
