@@ -1,28 +1,28 @@
 # 北极星-重力特效
 
-## Preparation
+## 前期准备
 
-In those "guide" called premade I will consider that you know how to proprely setup / start modding your game. If it's not your case you must read the "General info", refer to this [link](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-introduction)
+在前面这么多指南的积累下，我们认为你学会了如何设置/开始修改你的游戏。如果你是特殊情况（直接跳到这个页面），你需要去了解“基础信息”。[参考链接](https://noskill.gitbook.io/titanfall2/v/chinese/how-to-start-modding/modding-introduction)
 
-Any suggestion are welcome, you can submit your request / idea on NS Discord or even if you made your own premade weapon / set. You can reach me via [contact](https://noskill.gitbook.io/titanfall2/contact) details.
+Any欢迎您提出任何建议，您可以在NS的Discord服务器中提交您的请求/意见。即使是您自己制作的武器/设置，你也可以通过[联系方式](https://noskill.gitbook.io/titanfall2/v/chinese/contact)联系我们。 
 
-### Demo
+### 录像
 
 {% embed url="https://www.youtube.com/watch?v=A2ke8bzzi30" %}
 
-## Railgun
+## 电浆磁轨炮
 
-### Editing
+### 编辑
 
-To get this railgun, you will need to edit one text files. No specific software exept your text editor.
+为了得到视频中电浆轨道炮的效果，你需要去编辑一个文本文件。除了你自己用的文本编辑器，没有其他特定的软件。
 
-Go to this location
+进入以下目录：
 
 > englishclient\_mp\_common.bsp.pak000\_dir.vpk\scripts\weapons
 
-Open the file `mp_titanweapon_sniper.txt` with your text editor.
+用你的文本编辑器打开 `mp_titanweapon_sniper.txt` 这个文件
 
-Find and replace the following values in your file. **Note:** Do not copy paste this entire code block into your original file, replace string by string or you might resolve with a none working file.
+在文件中查找并替换以下数值。**注意**：不要将整个代码块复制粘贴到原始文件中，用字符串替换字符串，否则可能会导致游戏不能正常解析文件。
 
 Thoose value change the railgun projectile to a blue one for regular shot and to gravity vortex for the full charged shots.
 
@@ -49,7 +49,7 @@ This list of value change the charge effect and sound of the railgun. I change t
 "charge_effect_3p"					"P_wpn_grenade_gravity"
 ```
 
-### Crosshair
+### 准星
 
 Here is the crosshair I'm using on the railgun
 
@@ -94,9 +94,9 @@ RUI_CrosshairData
 }
 ```
 
-## Flight core
+## 飞行核心
 
-### Editing
+### 编辑
 
 To get this flight core, you will need to edit one text files. No specific software exept your text editor.
 
@@ -135,7 +135,7 @@ Changed the core sound to a soft "energy" one \(that point is purely personnal t
 "fire_sound_2"					"Weapon_bulletCasings.Bounce"
 ```
 
-### Crosshair
+### 准星
 
 ```text
 active_crosshair_count				"1"
@@ -167,7 +167,7 @@ RUI_CrosshairData
 }
 ```
 
-## Cluster missile
+## 集束飞弹
 
 To get this cluster missle, you will need to edit one text files. No specific software exept your text editor.
 
@@ -192,7 +192,7 @@ This change the cluster missile projectile to the gravity vortex, which is the t
 "projectile_trail_effect_0"			"P_wpn_grenade_gravity"
 ```
 
-## Tether trap
+## 绊索陷阱
 
 To get this tether trap effect, you will need to edit one text files. No specific software exept your text editor.
 

@@ -148,7 +148,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\vscripts\weapons
 | • Projectile File | mp\_projectile\_cluster\_rocket.nut |
 | • Methods: "ClusterR" | \_weapon\_utility.nut |
 | 悬浮 | mp\_titanability\_hover.nut |
-| 拌索陷阱 | mp\_titanability\_tether\_trap.nut |
+| 绊索陷阱 | mp\_titanability\_tether\_trap.nut |
 | • Tether Projectile | mp\_weapon\_tether.nut |
 | 飞行核心 | mp\_titancore\_flight\_core.nut |
 | • Core Weapon | mp\_titanweapon\_flightcore\_rockets.nut |

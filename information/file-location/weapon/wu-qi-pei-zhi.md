@@ -146,7 +146,7 @@ englishclient_mp_common.bsp.pak000_dir.vpk\scripts\weapons
 | 电浆磁轨炮 | mp\_titanweapon\_sniper.txt |
 | 集束飞弹 | mp\_titanweapon\_dumbfire\_rockets.txt |
 | 悬浮 | mp\_titanability\_hover.txt |
-| 拌索陷阱 | mp\_titanability\_tether\_trap.txt |
+| 绊索陷阱 | mp\_titanability\_tether\_trap.txt |
 | 飞行核心 | mp\_titancore\_flight\_core.txt |
 | • Core Weapon | mp\_titanweapon\_flightcore\_rockets.txt |
 

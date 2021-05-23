@@ -44,4 +44,6 @@ description: 这个名单展示了曾经或仍在对这个维基和社区有贡�
 | **True Inferno** | 数据研究 |
 | **igb\_** | 数据研究 |
 | **Whiskers** | 数据研究 |
+| zxcPandora | 中文翻译 |
+| AIALRA | 中文翻译 |
 
