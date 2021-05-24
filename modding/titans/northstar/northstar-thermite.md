@@ -1,18 +1,18 @@
 # 北极星-铝热剂特效
 
-## Preparation
+## 前期准备
 
 In thoose "guide" called premade I will consider that you know how to proprely setup / start modding your game. If it's not your case you must read the "General info", refer to this [link](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-introduction)
 
 Any suggestion are welcome, you can submit your request / idea on NS Discord or even if you made your own premade weapon / set. You can reach me via [contact](https://noskill.gitbook.io/titanfall2/contact) details.
 
-### Demo
+### 录像
 
 {% embed url="https://www.youtube.com/watch?v=oYTL5fdoAEo" %}
 
-## Railgun
+## 电浆磁轨炮
 
-### Editing
+### 编辑
 
 To get this railgun, you will need to edit one text files. No specific software exept your text editor.
 
@@ -44,7 +44,7 @@ Find and replace the following values in your file. **Note:** Do not copy paste 
 "charge_effect_3p"					"P_wpn_meteor_exp_amp"
 ```
 
-### Crosshair
+### 准星
 
 Here is the crosshair I'm using on the railgun
 
@@ -89,9 +89,9 @@ RUI_CrosshairData
 }
 ```
 
-## Flight core
+## 飞行核心
 
-### Editing
+### 编辑
 
 To get this flight core, you will need to edit one text files. No specific software exept your text editor.
 
@@ -124,7 +124,7 @@ Find and replace the following values in your file. **Note:** Do not copy paste 
 "fire_sound_2"					"Weapon_bulletCasings.Bounce"
 ```
 
-### Crosshair
+### 准星
 
 ```text
 active_crosshair_count				"1"
@@ -156,7 +156,7 @@ RUI_CrosshairData
 }
 ```
 
-## Cluster missile
+## 集束飞弹
 
 To get this cluster missle, you will need to edit one text files. No specific software exept your text editor.
 
@@ -179,7 +179,7 @@ This will change the cluster icon to the one from Frontier Defense. The cluster 
 "projectile_trail_effect_0"			"P_wpn_meteor_trail"
 ```
 
-## Tether trap
+## 绊索陷阱
 
 To get this cluster missle, you will need to edit one text files. No specific software exept your text editor.
 

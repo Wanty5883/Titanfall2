@@ -1,4 +1,4 @@
-# Power shot蓄力颜色
+# 强大火力-蓄力颜色
 
 ## Preparation
 

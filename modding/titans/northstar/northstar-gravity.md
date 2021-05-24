@@ -22,9 +22,9 @@ Any欢迎您提出任何建议，您可以在NS的Discord服务器中提交您�
 
 用你的文本编辑器打开 `mp_titanweapon_sniper.txt` 这个文件
 
-在文件中查找并替换以下数值。**注意**：不要将整个代码块复制粘贴到原始文件中，用字符串替换字符串，否则可能会导致游戏不能正常解析文件。
+在文件中查找并替换以下数值。**注意**：不要将整个代码块复制粘贴到原始文件中，请手动输入双引号中的数值，否则可能会导致游戏不能正常解析文件。
 
-Thoose value change the railgun projectile to a blue one for regular shot and to gravity vortex for the full charged shots.
+这些数值将电浆磁轨炮的炮弹在射出后变为蓝色，并使得进行蓄力射击时拥有重力漩涡特效。
 
 ```text
 "projectile_trail_effect_0"				"wpn_grenade_frag_blue"
@@ -32,7 +32,7 @@ Thoose value change the railgun projectile to a blue one for regular shot and to
 "projectile_trail_effect_2"				"P_wpn_grenade_gravity"
 ```
 
-Those values change the muzzle flash to an electric one. _note:_ muzzle flash apply when you shoot, this is not the vortex effect when you charge the railgun.
+这些数值将枪焰变为电光。 _注:_ _枪焰适用于当你开枪的时候，而不是你蓄力射击时的涡流特效。_
 
 ```text
 "fx_muzzle_flash_view"					"wpn_muzzleflash_arc_cannon_fp"
@@ -40,7 +40,7 @@ Those values change the muzzle flash to an electric one. _note:_ muzzle flash ap
 "fx_muzzle_flash_attach"				"muzzle_flash"
 ```
 
-This list of value change the charge effect and sound of the railgun. I change the charge effect **and**sound to the gravity vortex.
+下列数值改变了电浆磁轨炮蓄力射击时的效果和声音。我把蓄力射击时的效果和声音换成了成重力漩涡的特效。
 
 ```text
 "charge_sound_1p"					"weapon_gravitystar_preexplo"
@@ -51,7 +51,7 @@ This list of value change the charge effect and sound of the railgun. I change t
 
 ### 准星
 
-Here is the crosshair I'm using on the railgun
+这里是我所使用的电浆磁轨炮的准星数据：
 
 ```text
 active_crosshair_count				"2"
@@ -98,17 +98,17 @@ RUI_CrosshairData
 
 ### 编辑
 
-To get this flight core, you will need to edit one text files. No specific software exept your text editor.
+为了修改飞行核心，你需要去编辑一个文本文件。除了你的文本编辑器，没有特定的软件。（系统自带的也行）
 
-For the first file you need to edit, go to this location
+对于需要编辑的第一个文件，请进入以下目录：
 
 > englishclient\_mp\_common.bsp.pak000\_dir.vpk\scripts\vscripts\weapons
 
-Open the file `mp_titanweapon_flightcore_rockets.txt` with your text editor.
+用你的文本编辑器打开 `mp_titanweapon_flightcore_rockets.txt` 这个文件。
 
-Find and replace the following values in your file. **Note:** Do not copy paste this entire code block into your original file, replace string by string or you might resolve with a none working file.
+在文件中查找并替换下面的数值。**Note:** 不要将整个代码块复制粘贴到原始文件中，请手动输入双引号中的数值，否则可能会导致游戏不能正常解析文件。
 
-This will change the muzzle flash to an electric one.
+这将使得飞行核心发射导弹时带有电光特效。
 
 ```text
 "fx_muzzle_flash_view"					"wpn_muzzleflash_arc_cannon_fp"
@@ -120,14 +120,14 @@ This will change the muzzle flash to an electric one.
 "fx_muzzle_flash2_attach"				"muzzle_flash"
 ```
 
-Change the projectile to the EPG one and changeed the impact to the arc launcher one.
+这些数值将把电浆磁轨炮原来的炮弹换成能源炮的炮弹，并使得炮弹带有雷电炮的特效：
 
 ```text
 "impact_effect_table" 					"exp_arc_ball"
 "projectile_trail_effect_0" 				"P_plasma_proj_LG_DLight"
 ```
 
-Changed the core sound to a soft "energy" one \(that point is purely personnal taste\) only for first person.
+下面的修改把核心声音的变成了"软"一些的飞弹声音（这一点是纯粹的个人口味）只影响你自己使用飞行核心的时候。
 
 ```text
 "fire_sound_1_player_1p"			"ShoulderRocket_Homing_Fire_1P"
@@ -169,24 +169,24 @@ RUI_CrosshairData
 
 ## 集束飞弹
 
-To get this cluster missle, you will need to edit one text files. No specific software exept your text editor.
+为了得到视频中集束飞弹的效果，你需要去编辑一个文本文件。除了你自己用的文本编辑器，没有其他特定的软件。
 
-Go to this location
+进入以下目录：
 
 > englishclient\_mp\_common.bsp.pak000\_dir.vpk\scripts\weapons
 
-Open the file `mp_titanweapon_dumbfire_rockets.txt` with your text editor.
+用你的文本编辑器打开 `mp_titanweapon_dumbfire_rockets.txt` 这个文件。
 
-Find and replace the following values in your file. **Note:** Do not copy paste this entire code block into your original file, replace string by string or you might resolve with a none working file.
+在文件中查找并替换下面的数值。**Note:** 不要将整个代码块复制粘贴到原始文件中，请手动输入双引号中的数值，否则可能会导致游戏不能正常解析文件。
 
-This will change the cluster icon to the one from Frontier Defense. The cluster missile animation will change to the twin cluter tier mod from Frontier Defense.
+下面的修改使得集束飞弹的图标变成边境防御中的同款，并且也把集束飞弹的动画效果变成了边境防御中神盾升级后的双倍集束飞弹的动画效果。
 
 ```text
 "hud_icon"		"rui/menu/fd_menu/upgrade_northstar_twin_cluster_hud"
 "viewmodel"		"models/weapons/titan_raptor_rocket_pod/atpov_titan_raptor_rocket_pod_core.mdl"
 ```
 
-This change the cluster missile projectile to the gravity vortex, which is the theme of this Northstar theme.
+这个修改使得集束飞弹的火箭弹变成了重力旋涡的效果，这就是本次北极星修改的主题。
 
 ```text
 "projectile_trail_effect_0"			"P_wpn_grenade_gravity"
@@ -194,23 +194,23 @@ This change the cluster missile projectile to the gravity vortex, which is the t
 
 ## 绊索陷阱
 
-To get this tether trap effect, you will need to edit one text files. No specific software exept your text editor.
+为了得到视频中绊索陷阱的效果，你需要去编辑一个文本文件。除了你的文本编辑器，没有特定的软件。（系统自带的也行）
 
-Go to this location
+对于需要编辑的第一个文件，请进入以下目录：
 
 > englishclient\_mp\_common.bsp.pak000\_dir.vpk\scripts\weapons
 
-Open the file `mp_titanability_tether_trap.txt` with your text editor.
+用你的文本编辑器打开 `mp_titanability_tether_trap.txt` 这个文件。
 
-Find and replace the following values in your file. **Note:** Do not copy paste this entire code block into your original file, replace string by string or you might resolve with a none working file.
+在文件中查找并替换下面的数值。**Note:** 不要将整个代码块复制粘贴到原始文件中，请手动输入双引号中的数值，否则可能会导致游戏不能正常解析文件。
 
-This change the tether trap icon HUD to the one used in Frontier Defense.
+这将把绊索陷阱的图标HUD改为边境防御中的图标。
 
 ```text
 "hud_icon"			"rui/menu/fd_menu/upgrade_northstar_explosive_trap_hud"
 ```
 
-Thoose values make the tether trap this electric effect.
+这些修改后的值使绊索陷阱具有了电光特效。
 
 ```text
 "impact_effect_table"				"P_wpn_arcTrap"

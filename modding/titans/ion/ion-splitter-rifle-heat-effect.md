@@ -1,4 +1,4 @@
-# Splitter Rifle-蓄力颜色
+# 镭射炮-蓄力颜色
 
 ## Preparation
 
