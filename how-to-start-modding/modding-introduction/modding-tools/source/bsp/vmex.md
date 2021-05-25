@@ -1,41 +1,40 @@
 ---
-description: Valve Map Extractor (VMEX) is a decompiler for Source engine maps.
+description: Valve Map Extractor (VMEX)是一个起源引擎地图的反编译器。
 ---
 
 # VMEX
 
-**Valve Map Extractor** \(**VMEX**\) is a decompiler for [Source](https://developer.valvesoftware.com/wiki/Source) engine maps. It converts [BSP](https://developer.valvesoftware.com/wiki/BSP) format files back into [VMF](https://developer.valvesoftware.com/wiki/VMF) format maps that can be loaded into [Hammer](https://developer.valvesoftware.com/wiki/Hammer). Since version 0.98g it supports all of Valve's games up to Left 4 Dead.
+**Valve Map Extractor \(VMEX\)**是一个[起源引擎](https://developer.valvesoftware.com/wiki/Source)地图的反编译器。它可以将将[BSP](https://developer.valvesoftware.com/wiki/BSP)格式文件转换回[VMF](https://developer.valvesoftware.com/wiki/VMF)格式的地图，并可以加载到Hammer。自从0.98g版本以来，它支持Valve直到《求生之路》的所有游戏。
 
 {% hint style="info" %}
-**Note:**Decompiling maps with VMEX may not always result in 100% accurate builds. Some differences \(keyvalues, materials, etc\) may not be an exact match as the original map.
+**注解：**使用VMEX对地图进行反编译不一定能够得到100%准确的构建模型。有些东西（关键值，材质等）可能会与原始地图不完全匹配。
 {% endhint %}
 
-## The Ship
+## 船（一个游戏）
 
-To decompile maps for [The Ship](https://developer.valvesoftware.com/wiki/The_Ship), download the modified version: VMEX \(v0.98e\) [here](http://www.bagthorpe.org/bob/cofrdrbob/files/vmex-098e-ts.zip).
+要反编译[The Ship](https://developer.valvesoftware.com/wiki/The_Ship)的地图，请在这里下载修改过的版本：[VMEX \(v0.98e\)](http://www.bagthorpe.org/bob/cofrdrbob/files/vmex-098e-ts.zip)。
 
-### Left 4 Dead
+### 求生之路
 
-A modified version of vmex was created for decompiling [Left 4 Dead](https://developer.valvesoftware.com/wiki/Left_4_Dead) maps by [TerabyteDragon](https://developer.valvesoftware.com/wiki/User:TerabyteDragon) with permission by the original author. This modification resolves an issue with static props \(specifically how large the entries are in the BSP file\). This version can be downloaded from the link below. Note: This version of vmex is NOT guaranteed to work with maps from any other game.
+vmex的修改版本是由[TerabyteDragon](https://developer.valvesoftware.com/wiki/User:TerabyteDragon)在原作者的许可下创建的，用于反编译[Left 4 Dead](https://developer.valvesoftware.com/wiki/Left_4_Dead)的地图。此修改解决了静态道具的一个问题（特别是BSP文件中的条目大小问题）。这个版本可以从下面的链接获取。注意:这个版本的vmex不保证能兼容其他游戏。
 
-### Left 4 Dead 2
+### 求生之路2
 
-A pre-processor to modify [Left 4 Dead 2](https://developer.valvesoftware.com/wiki/Left_4_Dead_2) BSPs to be decompilable by VMEX written by [Omnicoder](https://developer.valvesoftware.com/wiki/User:Omnicoder) can be downloaded below.
+你可以在下面下载一个由[Omnicoder](https://developer.valvesoftware.com/wiki/User:Omnicoder)编写的可将[Left 4dead 2](https://developer.valvesoftware.com/wiki/Left_4_Dead_2)的bsp文件转换为可由VMEX反编译的预处理器的软件。
 
-### Windows Vista Java fix
+### Windows Vista Java 修复
 
-The current VMEx version \(098g\) does not work with Windows Vista until you manually set the environmental variable path for Java. \(The application will refuse to open, and if you run it from a command prompt, you will also get the error message "Java is not recognized as an internal or external command".\)
+在手动设置Java的环境变量路径之前，当前的VMEx版本\(098g\)是不能与Windows Vista一起工作的。（应用程序将拒绝打开，如果您用命令提示符运行它，您还会得到错误消息“Java is not recognized as an internal or external command”。）
 
-To set the path, follow these steps:
+要设置环境变量路径，请遵循以下步骤：
 
-1. Locate the Java executable \(`Java.exe`\) and make a note of where it is located. It should be either in `C:\Program Files\Java\jre6\bin` \(on 32 bit Windows\) or in `C:\Program Files (x86)\Java\jre6\bin` \(on 64 bit Windows\). Remember this path. \(If you are unable to locate a Java executable, this might mean that Java \(Runtime Environment\) is not even installed on your computer. If not, go to [Javas official site](http://www.java.com/) to download and install it.\)
-2. Click on the Start icon in the lower left corner, then Control Panel, then System, and then System again.
-3. Click on the Advanced System Settings link on the left.
-4. Under the current tab, click the Environment Variables button.
-5. In the lower section \(labeled System Variables\), scroll through and find the item labeled Path and double-click it to edit it.
-6. In the field labeled Variable value, go to the end of the long line, and add a semicolon \(;\), and then the previously mentioned path of Java.exe \(either `C:\Program Files\Java\jre6\bin` or `C:\Program Files (x86)\Java\jre6\bin`\).
+1. 找到JAVA的可执行文件 \(`Java.exe`\) 并记录其路径。常见路径应该为`C:\Program Files\Java\jre6\bin` （32位windows系统）或者`C:\Program Files (x86)\Java\jre6\bin` （64位windows系统）你需要记住这个路径。（如果您无法找到Java可执行文件，这可能意味着Java\(运行时环境\)甚至没有成功地安装在您的计算机上。如果没有，请到[java官方网站](http://www.java.com/)下载并安装。）
+2. 点击左下角的“开始”图标，然后选择“控制面板”，然后点击“系统”，进入后点击左上角“高级系统设置”。
+3. 在弹出的选项卡中点击环境变量按钮。
+4. 在系统变量中找到名为PATHS的变量。
+5. 双击打开，在现有变量值的末尾，添加一个分号\(;\)，然后添加你之前确认过的Java.exe （`C:\Program Files\Java\jre6\bin` 或`C:\Program Files (x86)\Java\jre6\bin`）的路径，随后保存即可生效。
 
 {% hint style="info" %}
-Source: [https://developer.valvesoftware.com/wiki/VMEX](https://developer.valvesoftware.com/wiki/VMEX)
+源文档链接： [https://developer.valvesoftware.com/wiki/VMEX](https://developer.valvesoftware.com/wiki/VMEX)
 {% endhint %}
 

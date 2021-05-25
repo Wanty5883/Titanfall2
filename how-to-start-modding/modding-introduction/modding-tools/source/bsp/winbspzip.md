@@ -1,21 +1,21 @@
 ---
-description: WinBSPZip is a GUI frontend for Valve's Bspzip application.
+description: WinBSPZip是一个用于Valve的Bspzip应用程序的GUI前端。
 ---
 
 # WinBSPZip
 
-**WinBSPZip** is a [GUI](https://developer.valvesoftware.com/wiki/GUI) frontend for Valve's [Bspzip](bspzip.md) application.
+**WinBSPZip**是一个用于Valve的[Bspzip](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-MaZC5_q99KodIIUjIRl/v/chinese/how-to-start-modding/modding-introduction/modding-tools/source/bsp/bspzip)应用程序的[GU](https://developer.valvesoftware.com/wiki/GUI)I前端。
 
-It has three main functions:
+它有以下三个主要功能：
 
-* Fixing errors in writing large files by breaking up writes to Steam [file system](http://en.wikipedia.org/wiki/file_system) write.
-* Adding error checking to list file by fixing back and forward slashes and checking for spaces.
-* Adding all files in a directory to the .[BSP](https://developer.valvesoftware.com/wiki/BSP).
+* 通过把大文件分解写到[Steam的文件系统](http://en.wikipedia.org/wiki/file_system)进行写入，修正了在写大文件时可能发生的错误。
+* 通过修正前后斜杠和检查空格来在文件列表中添加错误检查。
+* 将目录中的所有文件添加到[. bsp](https://developer.valvesoftware.com/wiki/BSP)。
 
 ![](../../../../../.gitbook/assets/winbspzipwindow.gif)
 
 {% hint style="info" %}
-Reference:
+引用文献
 
 * [https://developer.valvesoftware.com/wiki/WinBSPZip](https://developer.valvesoftware.com/wiki/WinBSPZip)
 * [http://www.chaosincarnate.net/cannonfodder/cftools.php?program=winbspzip](http://www.chaosincarnate.net/cannonfodder/cftools.php?program=winbspzip)
