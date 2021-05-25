@@ -2,7 +2,7 @@
 description: Map Analyst (MAN) 是Rolf Hänisch发布的一个GUI工具，用于给. bsp文件嵌入自定义内容，如材料，纹理，模型或声音。
 ---
 
-# Map Analyst 地图分析器
+# Map Analyst
 
  **Map Analyst** \(MAN\) 是Rolf Hänisch发布的一个[GUI](https://developer.valvesoftware.com/wiki/GUI)工具，用于给[. bsp](https://developer.valvesoftware.com/wiki/BSP)文件嵌入自定义内容，如材料，纹理，模型或声音。 其他打包程序因为某些缺陷有时候不能够检测到自定义文件的更改。 MAN可以通过让使用者直接告诉它应该包装什么来规避这个问题。尽管此软件发布的年代久远\(2005年\)，但已被证实仍然适用于传送门2等较新的游戏。
 
