@@ -18,7 +18,7 @@
         * [BSPZIP](how-to-start-modding/modding-introduction/modding-tools/source/bsp/bspzip.md)
         * [EntEd](how-to-start-modding/modding-introduction/modding-tools/source/bsp/ented.md)
         * [Entspy](how-to-start-modding/modding-introduction/modding-tools/source/bsp/entspy.md)
-        * [Map Analyst](how-to-start-modding/modding-introduction/modding-tools/source/bsp/map-analyst.md)
+        * [Map Analyst 地图分析器](how-to-start-modding/modding-introduction/modding-tools/source/bsp/map-analyst.md)
         * [PackBsp](how-to-start-modding/modding-introduction/modding-tools/source/bsp/packbsp.md)
         * [Pakrat](how-to-start-modding/modding-introduction/modding-tools/source/bsp/pakrat.md)
         * [VBSP\_h4xed](how-to-start-modding/modding-introduction/modding-tools/source/bsp/vbsp_h4xed.md)
