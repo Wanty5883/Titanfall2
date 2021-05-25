@@ -1,31 +1,30 @@
 ---
 description: >-
-  The Valve Integrated Development Environment (commonly referred to by its
-  acronym VIDE) is a third party freeware software distribution used by Source
-  developers.
+  Valve集成开发环境(Valve Integrated Development Environment
+  通常简称为VIDE)是供源代码开发人员使用的第三方免费软件发行版。
 ---
 
 # VIDE
 
-The **Valve Integrated Development Environment** \(commonly referred to by its acronym **VIDE**\) is a third party freeware software distribution used by Source developers. It is commonly used by mapmakers to pack custom content \([textures](../../../../../information/textures/), [models](https://developer.valvesoftware.com/wiki/Models), [soundscapes](https://developer.valvesoftware.com/wiki/Soundscapes)\) into their levels.
+Valve集成开发环境**\(Valve Integrated Development Environment** 通常简称为**VIDE\)**是供源代码开发人员使用的第三方免费软件发行版。它通常被地图制作者用来将自定义内容\([纹理](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-MaYSoe1K5NhUn60ZC2N/v/chinese/information/textures/@drafts)、[模型](https://developer.valvesoftware.com/wiki/Models)、[音景](https://developer.valvesoftware.com/wiki/Soundscapes)等\)打包到他们的关卡中。
 
-Any and all custom content must be packed into the level with VIDE; otherwise, external users of your map will see [missing content](../../../../../information/textures/missing-content.md) textures in place of the custom textures only you see on your end.
+任何和所有自定义内容必须用VIDE或者其他软件打包到关卡。否则，你的地图的其他使用者将看到[纹理丢失](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-MaYSoe1K5NhUn60ZC2N/v/chinese/information/textures/missing-content/@drafts)的效果而不是你自定义的纹理。
 
-## Features
+## 功能
 
-* Hammer Splitter Editor
-* Package Viewer \(equivalent to [GCFScape](https://developer.valvesoftware.com/wiki/GCFScape)\)
-* Particle Editor
-* VBSP Editor
-* VMT Editor
-* Mass VMT Editor
-* VTF Editor \(equivalent to [VTFEdit](../vtf-and-vmt/vtfedit.md)\)
-* Mass VTF Editor
-* BSP Info
-* Entity Lump Editor \(equivalent to [Entspy](entspy.md)\)
-* Pakfile Lump Editor \(equivalent to [Pakrat](https://developer.valvesoftware.com/wiki/Pakrat)\)
+* Hammer Splitter Editor （Hammor 分配编辑器）
+* Package Viewer （打包查看器 同等于 [GCFScape](https://developer.valvesoftware.com/wiki/GCFScape)\)
+* Particle Editor （粒子编辑器）
+* VBSP Editor （VBSP 编辑器）
+* VMT Editor （VMT 编辑器）
+* Mass VMT Editor（大规模VMT 编辑器）
+* VTF Editor \(VTF 编辑器 同等于 [VTFEdit](../vtf-and-vmt/vtfedit.md)\)
+* Mass VTF Editor （大规模VTF编辑器）
+* BSP Info （BSP信息查看器）
+* Entity Lump Editor \(实体块编辑器 同等于 [Entspy](entspy.md)\)
+* Pakfile Lump Editor \(包文件块编辑器 同等于 [Pakrat](https://developer.valvesoftware.com/wiki/Pakrat)\)
 
-##  Change Log
+##  更新日志（以下较为冗杂，所以暂不翻译，等有时间翻译）
 
 <table>
   <thead>
@@ -374,7 +373,7 @@ Any and all custom content must be packed into the level with VIDE; otherwise, e
 </table>
 
 {% hint style="info" %}
-Reference:
+引用文献：
 
 * [http://www.riintouge.com/VIDE/](http://www.riintouge.com/VIDE/)
 * [https://developer.valvesoftware.com/wiki/VIDE](https://developer.valvesoftware.com/wiki/VIDE)

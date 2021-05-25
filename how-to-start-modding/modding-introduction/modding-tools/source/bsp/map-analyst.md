@@ -62,35 +62,35 @@ description: Map Analyst (MAN) 是Rolf Hänisch发布的一个GUI工具，用于
 
 ![&#x7ECF;&#x5178;&#x7684;&#x5730;&#x56FE;&#x5206;&#x6790;&#x8F93;&#x51FA;&#x8BED;&#x53E5;&#xFF0C;&#x6CE8;&#x610F;&#xFF0C;&#x6B64;&#x622A;&#x56FE;&#x4E0D;&#x5B8C;&#x6574;&#xFF0C;&#x5B9E;&#x9645;&#x60C5;&#x51B5;&#x4F1A;&#x66F4;&#x957F;](../../../../../.gitbook/assets/288px-man26ebeta05.png)
 
-## DABAODDAdsdsadasddasdsadasdasdasd
+## 打包
 
 ![](../../../../../.gitbook/assets/man26ebeta06.png)
 
-Go to **File, Update game \(VBSP\)**, and that's it! Your packed map will be called **man\_betatest** unless you set the overwrite option mentioned below. Confirm the content was packed with [`sv_pure 2`](https://developer.valvesoftware.com/wiki/Sv_pure) or ask a friend to play your map.
+在软件中选择 **File - Update game \(VBSP）**，然后就成了！ 被你打包的地图将会将会被默认命名为 **man\_betatest** ，除非你设置了下面提到的覆盖选项。请使用命令 [`sv_pure 2`](https://developer.valvesoftware.com/wiki/Sv_pure) 或者邀请你的朋友一起游玩这张地图来确认打包的正确性。
 
-## Options
+## 选项
 
-### Automation
+### 自动化
 
-Under **Options, Automatic** are three settings that can be toggled independently to make the packing process faster:
+在**Options - Automatic** 中有三个可以进行独立开关的设置，可以让你的打包速度更快：
 
-* **Include**: The list of additional files will be loaded automatically.
-* **Analyze**: If a map has been successfully loaded, the analysis will start automatically.
-* **Update**: If the analysis was successful, the update of the BSP will be carried out automatically.
+* **Include**：附加文件列表将会自动加载
+* **Analyze**：如果地图已经成功加载，分析将会自动启动。
+* **Update**: 如果分析成功，BSP文件将会自动更新
 
 ### Verbosity
 
-Due to how many files a single map can end up using, MAN has toggle options to control how much information it tells in the outputs under **Options, Display**.
+对于单个地图最大可以涵盖的文件数， MAN 在**Options - Display** 中有切换控制选项来控制输出文件的大小
 
-### Overwriting
+### 覆盖
 
-If **Options, Overwrite BSP** is turned on, MAN will overwrite the original BSP instead of making a new map file called **man\_betatest**.
+如果 **Options - Overwrite BSP** 处于开启状态， MAN 将覆盖原来的BSP，而不是创建一个名为man\_betatest 的新地图文件。
 
 {% hint style="danger" %}
- **Warning:** The author said that this may corrupt your bsp, likelihood unknown.
+**警告：**这可能会破坏你原来的bsp文件。
 {% endhint %}
 
 {% hint style="info" %}
-Source: [https://developer.valvesoftware.com/wiki/Map\_Analyst](https://developer.valvesoftware.com/wiki/Map_Analyst)
+源文档链接： [https://developer.valvesoftware.com/wiki/Map\_Analyst](https://developer.valvesoftware.com/wiki/Map_Analyst)
 {% endhint %}
 
