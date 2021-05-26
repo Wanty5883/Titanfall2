@@ -9,7 +9,7 @@ description: >-
 
 Particles are animated by using a material comprised of a collection of materials all built together into a "sheet". This is accomplished by using the **mksheet.exe** and **vtex** tools.
 
-## Creating an MKS File
+## 创建MKS文件
 
 First, place your materials that will make up the sheet in a separate sub-directory, usually named for the material they will ultimately represent. For instance, the smoke1.vmt is placed under the materials/particles/smoke1 subdirectory.
 
@@ -82,7 +82,7 @@ The output from this .mks file can be seen below. The RGB and alpha channels are
 
 ![](../../../.gitbook/assets/vista_smoke_alpha.jpg)
 
-## Compiling the Sheet
+## 编译工作表
 
 Once the materials are created, move all of your .tga and .mks files to the `"Steamapps/common/SourceSDK/bin/orangebox/bin"` folder. Inside this directory, create a .bat file, and inside it, write:
 
@@ -98,7 +98,7 @@ mksheet smoke1.mks smoke1.sht smoke1.tga
 
 From this, you will get a/some compiled tga files, a .sht file and a blank .file file. feel free to delete the .file file.
 
-## Compiling the Texture
+## 编译纹理
 
 At this point you should have a .tga file. You can now compile the output .tga file using the vtex.exe tool. Drag both the final .tga file/s, and the .sht file to your game's "materialsrc" file. For Half Life 2, this folder is located at "common/Half-Life 2/hl2/materialsrc". From there, open a new window, and navigate to the location of vtex.exe. Then, simply drag the .sht file onto the vtex.exe. Your finished material will be located in the base materials folder. For Half Life 2, this folder is located at ""common/Half-Life 2/hl2/materials".
 
@@ -106,13 +106,13 @@ At this point you should have a .tga file. You can now compile the output .tga f
 [VTFEdit](../../../how-to-start-modding/modding-introduction/modding-tools/#vtf-and-vmt) probably doesn't support this type of compiling yet.
 {% endhint %}
 
-## Notes
+## 注解
 
 You can use the same image file in multiple sequences \(or multiple times within the same sequence\) without it being duplicated in the output sheet. Examples where you would want to do this are sequences with different timing, particle sequences, looped and non-looped versions of a sequence, etc.
 
 To the extent practical, you should combine as many sprite textures into one sheet as possible, and use different sequences for the different particle systems \(hmm this implies that we might want named sequences for sanity's sake\). This will allow particle systems to be drawn with fewer state changes or even as one batch.
 
-## Automation in 3ds Max
+## 在3ds Max中自动化
 
 You can now export rendered sequences directly into Source with Wall Worm. The system allows you to export IFL \(Image File List\) bitmaps made of TGA bitmaps. Based on the bitmap parameters, the MKS is generated automatically, then sent to mkshheet with the .SHT file and TGA files. See complete documentation at [http://dev.wallworm.com/document/187/exporting\_animated\_particle\_textures.html](http://dev.wallworm.com/document/187/exporting_animated_particle_textures.html)
 

@@ -9,7 +9,7 @@ When distributing a map or mod, care must be taken to ensure that any custom con
 
 If the missing contents shipped with the Source SDK, and are not custom creations, it is likely a problem with your game configuration. See [Incorrect Hammer configuration](https://developer.valvesoftware.com/wiki/Incorrect_Hammer_configuration) for more information.
 
-### Common problems
+### 常见问题
 
 One very common problem is when users see a black-and-magenta checkerboard "sheen" or reflection on surfaces. This is caused by a missing texture, generally due to missing [cubemaps](https://developer.valvesoftware.com/wiki/Cubemaps), which must be "built" in-game prior to distributing the map.
 

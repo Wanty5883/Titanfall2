@@ -1,17 +1,14 @@
 ---
-description: >-
-  $basetexture is a material shader parameter available in all Source games. It
-  defines an albedo texture. It is very rare for a material not to use this
-  parameter and some shaders will load a default t
+description: $basetexture是所有起源引擎游戏中可用的材质着色器参数，它定义了反照率纹理。几乎没有材质不使用此参数，如果未定义，则某些着色器将加载默认纹理。
 ---
 
 # $basetexture
 
 ##  $basetexture
 
-**`$basetexture`** is a [material](../valve-material-type-vmt.md) [shader](https://developer.valvesoftware.com/wiki/Shader) parameter available in all Source games. It defines an [albedo](../albedo.md) texture. It is very rare for a [material](../valve-material-type-vmt.md) not to use this parameter and some [shaders](./) will load a default [texture](../) if it stays undefined.
+**`$basetexture`** 是所有起源引擎游戏中可用的[材质](../valve-material-type-vmt.md) [着色器](https://developer.valvesoftware.com/wiki/Shader) 参数。它定义了[反照率贴图](../albedo.md)纹理。几乎没有[材质](../valve-material-type-vmt.md) 不使用此参数，如果未定义，则某些[着色器](./)将加载默认[纹理](../)。
 
-## VMT syntax
+## VMT语法
 
 ```text
 $basetexture	<texture without extension, relative to <game>\materials\>
@@ -24,43 +21,43 @@ LightmappedGeneric
 }
 ```
 
-### Additional parameters
+### 附加参数
 
 #### `$basetexturetransform` `<`[`matrix`](https://developer.valvesoftware.com/wiki/Matrix)`>`
 
-Transforms the texture before use in the material. This does not affect [lightmaps](../lightmap.md) on the surface.The default position is `"center .5 .5 scale 1 1 rotate 0 translate 0 0"`.
+在材质使用前转换纹理，这不会影响曲面上的[光照贴图](../lightmap.md)。默认定位为 `"center .5 .5 scale 1 1 rotate 0 translate 0 0"`.
 
-1. `center` defines the point of rotation. Only useful if `rotate` is being used.
-2. `scale` fits the texture into the material the given number of times. '`2 1`' is a 50% scale in the X axis.
-3. `rotate` rotates the texture counter-clockwise in degrees. Accepts any number, including negatives.
-4. `translate` shifts the texture by the given numbers. '`.5`' will shift it half-way.
+1. `center` 定义旋转点。 只有在 `rotate` 被使用时才会生效。
+2. `scale` 将纹理与指定数量的材质相匹配 '`2 1`' 是X轴上50%的比例。
+3. `rotate` 以度为单位逆时针旋转纹理。它可以设为任何数字，包括负数。
+4. `translate` 按指定数字移动纹理。 '`.5`' 会把它移到另一半。
 
 {% hint style="info" %}
-All values must be included!
+必须包含所有数值！
 {% endhint %}
 
 {% hint style="warning" %}
-**Bug:** Scaling the texture may cause odd issues where the Texture Lock tool in Hammer will not actually lock the texture in place.
+**Bug:** 缩放纹理可能会导致奇怪的问题，因为Hammer中的纹理锁定工具实际上无法将纹理锁定到位。
 {% endhint %}
 
 {% hint style="warning" %}
-**Bug:** Rotating textures applied on brushes will rotate around the map origin \(confirm: Orangebox engine only?\). A fix for this is to change the center position in the VMT to the brush's origin.
+**Bug:** 应用于笔刷的旋转纹理将围绕贴图原点旋转（确认：仅限Orangebox引擎？）。解决方法是将VMT中的中心位置更改为笔刷的原点。
 {% endhint %}
 
 #### `$frame` `<`[`integer`](https://developer.valvesoftware.com/wiki/Integer)`>`
 
-The frame displayed for a multi-frame texture. This is normally set by the [AnimatedTexture](https://developer.valvesoftware.com/wiki/List_Of_Material_Proxies#Texture_manipulation) or [TextureToggle](https://developer.valvesoftware.com/wiki/List_Of_Material_Proxies#Entity_integration) proxies, but can be set manually. The value must be a valid index, or crashes might occur.
+这是为多帧纹理显示的帧。它通常由 [AnimatedTexture](https://developer.valvesoftware.com/wiki/List_Of_Material_Proxies#Texture_manipulation) 或者 [TextureToggle](https://developer.valvesoftware.com/wiki/List_Of_Material_Proxies#Entity_integration) 替代设置，但也可以手动设置。该值必须是有效索引，否则可能会发生游戏崩溃。
 
 ## $basetexture2
 
-Some shaders \(most notably [WorldVertexTransition](https://developer.valvesoftware.com/wiki/WorldVertexTransition)\) allow the use of two albedos. The second texture is handled by a mirrored set of commands with '2' in their name:
+一些着色器（最著名的是 [WorldVertexTransition](https://developer.valvesoftware.com/wiki/WorldVertexTransition)）允许使用两个反照率贴图。第二个纹理由一组名称带有 '2' 的镜像命令处理：
 
 #### `$basetexture2` `<`[`texture`](../)`>`
 
 #### `$basetexturetransform2` `<`[`matrix`](https://developer.valvesoftware.com/wiki/Matrix)`>`
 
 {% hint style="warning" %}
-**Bug:** `$basetexturetransform2` doesn't exist in the DX9 version of WorldVertexTransition, only working with the DX8 shader. In DX9, `$basetexture2` will instead move with the original `$basetexturetransform` in sync with `$basetexture`. This is the case in [![&amp;lt;Source&amp;gt;](https://developer.valvesoftware.com/w/images/1/18/Source_07_icon_16x16.png)](https://developer.valvesoftware.com/wiki/Source_2007) [Source 2007](https://developer.valvesoftware.com/wiki/Source_2007), [![&amp;lt;Source&amp;gt;](https://developer.valvesoftware.com/w/images/3/3b/Source_13_icon_16x16.png)](https://developer.valvesoftware.com/wiki/Source_2013) [Source 2013](https://developer.valvesoftware.com/wiki/Source_2013), and [![&amp;lt;Alien Swarm&amp;gt;](https://developer.valvesoftware.com/w/images/c/c9/AS-16px.png)](https://developer.valvesoftware.com/wiki/Alien_Swarm) [Alien Swarm](https://developer.valvesoftware.com/wiki/Alien_Swarm). Other games have not been tested.
+**Bug:** `$basetexturetransform2` 在WorldVertexTransnsion的DX9版本中不存在，仅适用于DX8着色器。在DX9中，`$basetexture2` will instead move with the original `$basetexturetransform` in sync with `$basetexture`. 这将会在 [![&amp;lt;Source&amp;gt;](https://developer.valvesoftware.com/w/images/1/18/Source_07_icon_16x16.png)](https://developer.valvesoftware.com/wiki/Source_2007) [Source 2007](https://developer.valvesoftware.com/wiki/Source_2007), [![&amp;lt;Source&amp;gt;](https://developer.valvesoftware.com/w/images/3/3b/Source_13_icon_16x16.png)](https://developer.valvesoftware.com/wiki/Source_2013) [Source 2013](https://developer.valvesoftware.com/wiki/Source_2013)，和 [![&amp;lt;Alien Swarm&amp;gt;](https://developer.valvesoftware.com/w/images/c/c9/AS-16px.png)](https://developer.valvesoftware.com/wiki/Alien_Swarm) [Alien Swarm](https://developer.valvesoftware.com/wiki/Alien_Swarm).中出现。其他游戏尚未测试。
 {% endhint %}
 
 {% hint style="info" %}
@@ -69,9 +66,9 @@ Some shaders \(most notably [WorldVertexTransition](https://developer.valvesoftw
 
 #### `$frame2` `<`[`integer`](https://developer.valvesoftware.com/wiki/Integer)`>`
 
-There are further '2' commands applying to various shader effects, which are each documented in their respective articles.
+还有更多的含 '2' 命令应用于各种着色器效果，每个命令都在各自的文章中进行了说明。
 
-## **Source & reference**
+## 来源和参考
 
 {% hint style="info" %}
 Source: [https://developer.valvesoftware.com/wiki/$basetexture](https://developer.valvesoftware.com/wiki/$basetexture)

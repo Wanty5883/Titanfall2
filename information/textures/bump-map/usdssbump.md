@@ -16,7 +16,7 @@ Standard bump maps only darken [texels](https://developer.valvesoftware.com/wiki
 
 ![Comparing SSBump with standard bump mapping and no mapping at all.](../../../.gitbook/assets/800px-ssbump_examples.jpg)
 
-## Example
+## 例子
 
 ```text
 LightmappedGeneric
@@ -34,13 +34,13 @@ LightmappedGeneric
 
 ![](../../../.gitbook/assets/face-ssbump.jpg)
 
-## Limitations
+## 局限性
 
 The shadows cast by the bump map are permanently baked into the texture, [meaning that they can only appear in one of three predefined locations](http://www.interlopers.net/forum/viewtopic.php?f=16&t=27513). `height2ssbump` generates shadows for light arriving from the right, top-left, and bottom-left of the texture. If light arrives from between those directions \(such as from the left\), the nearest available baked shadows are blended between, producing an acceptable but hardly ideal image.
 
 Additionally, in order to preserve the illusion of height, low areas of a SSBumped material will receive less light even if it arrives head-on. This can look odd if you have too intense \(rugged\) a SSBump.
 
-## Creation
+## 创建
 
 You need to use **`height2ssbump`**, a [command line](https://developer.valvesoftware.com/wiki/Command_line) SDK tool. The command is:
 
@@ -60,7 +60,7 @@ You can use **`normal2ssbump`**, another SDK tool, to generate an SSBump from a 
 
 ![](../../../.gitbook/assets/height2ssbump_bumpscale.jpg)
 
-### Options
+### 选项
 
 #### `<path/filename>`
 

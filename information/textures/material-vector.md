@@ -8,7 +8,7 @@ description: >-
 
 A **material vector** is a collection of values used with some [material](valve-material-type-vmt.md) commands. They most often represent a [RGB](colors/#rgb) color.
 
-## Syntax
+## 语法
 
 ```text
 $scale "[1 1]"
@@ -35,7 +35,7 @@ A vector with three values.
 
 A vector with four values.
 
-### Accessing
+### 访问
 
 Access an individual component of a material vector like this:
 
@@ -45,7 +45,7 @@ $my_vector[1]
 // etc.
 ```
 
-## Source & reference
+## 来源和参考
 
 {% hint style="info" %}
 Source: [https://developer.valvesoftware.com/wiki/Material\_vector](https://developer.valvesoftware.com/wiki/Material_vector)

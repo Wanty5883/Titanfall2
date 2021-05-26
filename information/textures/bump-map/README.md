@@ -17,13 +17,13 @@ Textures often called **Bump Maps**, or **Normal Maps** are used to simulate thr
  **Note:** Bump maps cannot be used on decal textures, except in [![&amp;lt;Counter-Strike: Global Offensive&amp;gt;](https://developer.valvesoftware.com/w/images/3/35/Csgo.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive).
 {% endhint %}
 
-## Format
+## 格式
 
 Each pixel in a bump map contains the \(x, y, z\) coordinates that define a  [normalized](https://developer.valvesoftware.com/wiki/Normal) [vector](https://developer.valvesoftware.com/wiki/Vector).
 
 Because of this each color channel in a bump map has meaning:
 
-### Red
+### 红色
 
 Horizontal facing \(X axis\).
 
@@ -31,7 +31,7 @@ Horizontal facing \(X axis\).
 * 128 = forward or facing viewer
 * 255 = right
 
-### Green
+### 绿色
 
  Vertical facing \(Y axis\).
 
@@ -39,7 +39,7 @@ Horizontal facing \(X axis\).
 * 128 = forward, or facing viewer
 * 255 = down
 
-### Blue
+### 蓝色
 
 Height \(Z axis\).
 
@@ -61,7 +61,7 @@ A bump map is largely useless for really flat surfaces like smooth concrete or m
 
 ![](../../../.gitbook/assets/normalmap.gif)
 
-## Creation
+## 创建
 
 A bump map should be rendered in Tangent space and use vector dimensions X+ Y- Z+.
 
@@ -69,20 +69,20 @@ A bump map should be rendered in Tangent space and use vector dimensions X+ Y- Z
 **Note:** There are basically two sets of rules for normal maps: DirectX and OpenGL. They interpretation of green channels are opposite. Source takes the former. Thus, the green channel may need to be inverted depending on the software used to create it.
 {% endhint %}
 
-## Programs
+## 程序
 
 Various programs can automate the creation of bump maps, either by image analysis or by using 3D geometry the user pro
 
 ![Bump maps as created by various programs.](../../../.gitbook/assets/test_bump.jpg)
 
-### 2D tools
+### 2D工具
 
 * [Photoshop or Paint Shop Pro](https://developer.valvesoftware.com/wiki/Normal_Map_Creation_in_Photoshop_or_Paint_Shop_Pro)
 * [Substance Designer](http://www.youtube.com/watch?v=WsFe-E-33IQ)
 * [The GIMP](https://developer.valvesoftware.com/wiki/Normal_Map_Creation_in_The_GIMP)
 * [nDo](http://www.youtube.com/watch?v=xDZDWvTUz-c)
 
-### 3D tools
+### 3D工具
 
 * [XSI](https://developer.valvesoftware.com/wiki/Normal_Map_Creation_in_XSI)
 * [ZBrush](https://developer.valvesoftware.com/w/index.php?title=Normal_Map_Creation_in_ZBrush&action=edit&redlink=1)
@@ -95,7 +95,7 @@ Various programs can automate the creation of bump maps, either by image analysi
 * [NormalMapper](https://developer.valvesoftware.com/wiki/NormalMapper)
 * [xNormal](http://xnormal.net/)
 
-### Other
+### 其他工具
 
 * [Bitmap2Material 3](http://store.steampowered.com/app/325910/): Alternative to CrazyBump.
 * [CrazyBump](http://www.crazybump.com/): Produces some very good normal maps. Some of them can be argued as almost having the same depth as a parallax map.
@@ -106,9 +106,9 @@ Various programs can automate the creation of bump maps, either by image analysi
 * [ShaderMap](http://shadermap.renderingsystems.com/): A free alternative to CrazyBump.
 * [SSBump Generator 5.3](https://sourceforge.net/projects/ssbumpgenerator/): Another free, open source alternative to CrazyBump that generates Self Shadowed Bump Maps as well as normal maps.
 
-## Conversion
+## 转换
 
-### **In VTFEdit**
+### **在VTFEdit中**
 
 When converting your texture:
 
@@ -119,7 +119,7 @@ When converting your texture:
 **Tip:**VTFEdit can automatically generate bump maps. See the bottom-right of the import screen.
 {% endhint %}
 
-### **In Vtex**
+### **在Vtex中**
 
 1. Save your normal map as a [TGA](../../file-format/truevision-graphics-adapter-tga.md). Give it a name that ends in \_normal. The \_normal at the end of the name will affect how [Vtex](https://developer.valvesoftware.com/wiki/Vtex) converts it. For the brick wall example, we would name the file `brickwall_normal.tga`.
 2. Add `nocompress 1` and `normal 1` to &lt;texture filename&gt;.txt in the same folder as your texture, then compile.

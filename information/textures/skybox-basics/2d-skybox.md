@@ -11,7 +11,7 @@ A 2D skybox is a [skybox](./) that lacks geometrical depth, consisting only of a
 
 ![](../../../.gitbook/assets/skybox_template.jpg)
 
-## Adding sky to a map
+## 为地图添加天空
 
 Simply texture a [world brush](https://developer.valvesoftware.com/wiki/World_brush) \(not a [brush entity](https://developer.valvesoftware.com/wiki/Brush_entity)\) with the [**`tools/toolsskybox`**](https://developer.valvesoftware.com/wiki/Tool_textures) or \(if you are mapping for the [Orange box](https://developer.valvesoftware.com/wiki/Orange_box)\) the [**`tools/toolsskybox2d`**](https://developer.valvesoftware.com/wiki/Tool_textures) material.
 
@@ -29,7 +29,7 @@ In-game, the skybox will be seen through each surface that `toolsskybox` is appl
 
 \*\*\*\*
 
-## Changing the displayed skybox
+## 更改显示的天空盒
 
 See also [Sky List](https://developer.valvesoftware.com/wiki/Sky_List)
 
@@ -42,7 +42,7 @@ If you don't like the standard "sky\_day01\_01" sky, you can change it by settin
 
 ![](../../../.gitbook/assets/sky_change.png)
 
-## Skybox Lighting
+## 天空盒光照
 
 Skybox Lighting enters the map through every [toolsskybox](https://developer.valvesoftware.com/wiki/Skybox)-textured [brush](https://developer.valvesoftware.com/wiki/Brush), representing direct sun/moonlight and diffuse skylight. Its basic properties are controlled by three entities used in combination \(four in some games\):
 
@@ -55,7 +55,7 @@ To make sense of it all, just make sure you have only one of each of these entit
 
 These lighting settings - direction, color, brightness, etc are fairly specific to the actual image used for the 2D skybox. The [Sky List](https://developer.valvesoftware.com/wiki/Sky_List) article suggests some settings for official game skyboxes. The [`worldspawn`](https://developer.valvesoftware.com/wiki/Worldspawn) entity defines which [skybox](https://developer.valvesoftware.com/wiki/Sky_List) to use. Also note that fog will look wrong if [`env_fog_controller`](https://developer.valvesoftware.com/wiki/Env_fog_controller)'s settings don't correspond to the particular skybox in use.![](https://developer.valvesoftware.com/w/images/c/cc/Note.png) **Note:Pitch** can be overriden for `light_environment` and `env_sun`, but not `shadow_control`. The **Pitch** override also cannot be switched off and its rotation is measured counter-clockwise from the horizontal \(so straight down is -90°\) whereas the **&lt;angles&gt; Pitch'**s rotation is clockwise \(so straight down is +90°\). The workaround for this is to make sure your **Pitch** override merely repeats the **&lt;angles&gt;** value; for example, if your `shadow_control`, `light_environment` and `env_sun` **&lt;angles&gt;** are "45 -60 0", set the **Pitch** override to "-45".
 
-## Creating a Custom 2D Skybox Texture
+## 创建自定义2D天空盒纹理
 
 1. Prepare your image files. You need six images of the same resolution:
    * &lt;skyname&gt;BK
@@ -79,7 +79,7 @@ unlitgeneric
 
 Now, in [Hammer](https://developer.valvesoftware.com/wiki/Hammer), go to Map &gt; Map Properties &gt; Skybox Texture Name and type in your skybox name without any side tags.
 
-## Creating a 2D skybox for [Goldsource](https://developer.valvesoftware.com/wiki/Goldsource), using Source
+## 使用起源引擎为[金源引擎](https://developer.valvesoftware.com/wiki/Goldsource)创建2D天空盒
 
 It is possible to create an area of your map into a 2D Skybox to be used in Goldsource \(the HL1-engine\). Here's an simple example:
 
@@ -103,7 +103,7 @@ carrotjuicedn.tga (Down)
 
 You can now copy or move these to your HL1-mods gfx\env-folder, to use it as skybox in a level.
 
-## Source & reference
+## 来源和参考资料
 
 {% hint style="info" %}
 Source: [https://developer.valvesoftware.com/wiki/Skybox\_\(2D\)](https://developer.valvesoftware.com/wiki/Skybox_%282D%29)

@@ -373,7 +373,7 @@ You also can have different values between normal and amped modes on each weapon
 {% endtab %}
 {% endtabs %}
 
-### Vortex Shield
+### 涡流护盾
 
 {% tabs %}
 {% tab title="格式" %}

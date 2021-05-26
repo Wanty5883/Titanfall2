@@ -10,7 +10,7 @@
 **Note:**If a string contains spaces or tabs you have to wrap it in "quote marks".
 {% endhint %}
 
-## Basic settings
+## 基础设置
 
 ### Name
 
@@ -32,7 +32,7 @@ The name of the mod in ASCII. Displayed in Steam and used as the window title. O
 
  Rather than displaying the `Title` text on the main menu, display the content in `resource\GameLogo.res`. See [Adding Your Logo to the Menu](https://developer.valvesoftware.com/wiki/Adding_Your_Logo_to_the_Menu).
 
-### Options
+### 选项
 
  Keys that affect what tabs and options that show up in the Options panel. Also see [Customizing Options: Keyboard](https://developer.valvesoftware.com/wiki/Customizing_Options:_Keyboard).
 
@@ -68,7 +68,7 @@ Hides toggle checkbox for `cl_himodels`, which was used in [GoldSource](https://
 
 Maps in the subkey do not appear in the "Create a Server" dialogue. Does not stop users from being able to load them from the console though. Syntax is `mapname 1`, with one entry per line. Don't include `.bsp`. Remember to open and close the subkey with { and }.
 
-### Steam games list
+### Steam游戏列表
 
 Keys that affect how your game or mod shows up in the Steam Library page.
 
@@ -91,7 +91,7 @@ Local path relative to GameInfo.txt, to an uncompressed 16x16 TGA that will appe
  **Note:**For transparency to work, the TGA must be saved in 32-bit mode with active alpha channel.
 {% endhint %}
 
-### Engine and tools
+### 引擎和工具
 
 Keys that affect how the engine/tools runs and some options for the tools themselves.
 
@@ -123,7 +123,7 @@ Whether or not the game supports Xbox 360.
  **Confirm:**Does this enable being able to use a Xbox 360 controller with the game?
 {% endhint %}
 
-### FileSystem
+### 文件系统
 
 Keys that are within the subkey `FileSystem`.
 
@@ -151,7 +151,7 @@ Deprecated. Another AppID that the mod has access to. This feature was added to 
 
 Deprecated. This is the AppID of the SDK currently in use.
 
-## SearchPaths
+## 路径搜寻
 
 `SearchPaths` is a subkey within `FileSystem`. It contains a key for every search path. When the engine needs a file it traverses the search paths, stopping when the desired file has been found, hence the order of the search paths is important.
 
@@ -159,7 +159,7 @@ Deprecated. This is the AppID of the SDK currently in use.
  **Note:**A thing to keep in mind, is the order that you put the search paths in is important, if there are 2 files of the same name that are in 2 different search paths, and you list them both, the search path at the top will win, and use that file.
 {% endhint %}
 
-### Directories
+### 目录
 
 The directory, which is the value of the key, will either be relative to the `SteamAppID`'s root directory \(i.e. where the executable of the game is located\), relative to GameInfo.txt or absolute. A example of each one respectively would be this:
 
@@ -204,7 +204,7 @@ Game       |GameInfo_Path|.
 Game       |GameInfo_Path|custom/*
 ```
 
-### Keys
+### 关键字
 
 In most older Source games, the only keys for search pathing is `Game` and `Platform`, while these keys will suit most search pathing, in Source 2013 a few new keys where introduced that add more control.
 
@@ -238,11 +238,11 @@ Game+Mod  |GameInfo_Path|MyFolder
 
 This saves you time from having to retype the directory over again.
 
-### Automatic localization
+### 自动识别语言
 
 Source automatically creates localized search paths. If you mount the folder `HL2`, then when your mod runs in French `HL2_French` is automatically mounted just above it, overriding any content in `HL2`. **To do:** Does this also apply for the mod folder?
 
-## Example
+## 例子
 
 A full working GameInfo.txt ready for a Source 2013 Singleplayer mod.
 

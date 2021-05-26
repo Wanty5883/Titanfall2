@@ -1,12 +1,12 @@
 ---
-description: Material $flags and $flags2 parameters control how the material is rendered.
+description: 材质$flags和$flags2参数控制材质的渲染方式。
 ---
 
 # 材质标志
 
-Material `$flags` and `$flags2` parameters control how the material is rendered. `$flag` can be changed in real-time to allow changes in rendering, but `$flags2` is read-only and assists the engine or other code in using the material correctly. Enumerations found in [https://github.com/ValveSoftware/source-sdk-2013/blob/master/mp/src/public/materialsystem/imaterial.h](https://github.com/ValveSoftware/source-sdk-2013/blob/master/mp/src/public/materialsystem/imaterial.h)
+材质 `$flags` 和 `$flags2` 参数控制材质的渲染方式。 `$flag` 允许在渲染中实时进行更改，但是 `$flags2` 是只读的，可以帮助引擎或其他代码正确使用材质。 在下面的链接中可以中找到枚举[https://github.com/ValveSoftware/source-sdk-2013/blob/master/mp/src/public/materialsystem/imaterial.h](https://github.com/ValveSoftware/source-sdk-2013/blob/master/mp/src/public/materialsystem/imaterial.h)
 
-The flags can also be set via the .vmt Example:
+也可以通过下面的.vmt样例设置标志：
 
 ```text
 #Sets the MATERIAL_VAR_VERTEXCOLOR and MATERIAL_VAR_VERTEXALPHA flag
@@ -20,7 +20,7 @@ $vertexalpha 1
 
 ### $flags
 
-$flags can contain the following flags:
+$flags 可以包含以下标志：
 
 | **Flag** | **Value** | **Comment** |
 | :--- | :--- | :--- |
@@ -58,7 +58,7 @@ $flags can contain the following flags:
 
 ### $flags2
 
-$flags2 can contain the following flags:
+$flags2 可以包含以下标志：
 
 | **Flag** | **Value** | **Comment** |
 | :--- | :--- | :--- |

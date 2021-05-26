@@ -10,7 +10,7 @@ description: VPK档案名称，例如游戏文件中的地图名称。
 
 ## 多人地图
 
-| Map Name | File name |
+| 地图名称 | 文件名称 |
 | :--- | :--- |
 | 天使城 | englishclient\_mp\_angel\_city.bsp.pak000\_dir.vpk |
 | 黑水运河 | englishclient\_mp\_black\_water\_canal.bsp.pak000\_dir.vpk |
@@ -30,7 +30,7 @@ description: VPK档案名称，例如游戏文件中的地图名称。
 
 ## 烈火战场模式地图
 
-| Map Name | File name |
+| 地图名称 | 文件名称 |
 | :--- | :--- |
 | 甲板 | englishclient\_mp\_lf\_deck.bsp.pak000\_dir.vpk |
 | 草原 | englishclient\_mp\_lf\_meadow.bsp.pak000\_dir.vpk |
@@ -41,7 +41,7 @@ description: VPK档案名称，例如游戏文件中的地图名称。
 
 ## 单人模式地图
 
-| **Campaign Mission**                                | File name |
+| 战役任务                               **** | 文件名称 |
 | :--- | :--- |
 | 铁驭试炼 | englishclient\_sp\_training.bsp.pak000\_dir.vpk |
 | BT-7274 | englishclient\_sp\_crashsite.bsp.pak000\_dir.vpk |

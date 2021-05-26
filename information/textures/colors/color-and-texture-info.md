@@ -1,6 +1,6 @@
 # 颜色和纹理信息
 
-## VMT & VTF
+## VMT 和& VTF
 
 VMT and VTF files work together. VTF files contain textures \(graphics\) sets and VMT files contain the materials \(values\).
 
@@ -46,7 +46,7 @@ This value increase or decrease the brightness of a glowing effect
 
 Here is more information around VTF files. I'll refer to some header down bellow from the guides.
 
-### How to edit animated texture color
+### 如何编辑动态纹理颜色
 
 Once you loaded the texture in VTFEdit, extract it as PNG outside your extracted folder
 
@@ -56,11 +56,11 @@ PNG format is important, for animated texture you need transparent background.
 
 There is not only one way to edit animated texture, I'll show my way to do it but if you don't like it I'm pretty sure that you can find another way on our friend Google, like I found myself !
 
-**1. Load the picture into Photoshop**
+**1. 使用Photoshop载入图片**
 
 Load the PNG file into Adobe Photoshop, should look like so. That background made up of a white and grey square means that your background is transparent. That's very important ! If you don't [have same result](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/picture/Animated%20texture1.PNG) then you must doing something wrong \(Do not use the picture from the link above, ok?\)
 
-**2. Open gradient map**
+**2.打开渐变贴图**
 
 ![](https://github.com/Wanty5883/Titanfall2/raw/master/picture/Animated%20texture2.PNG?raw=true)
 
@@ -75,11 +75,11 @@ Once you loaded the gradient map, it will add a layer and change the color of th
 
 About my personal preference, I would try to get close as possible of the original saturation. Here is something very similar to what [I use](https://github.com/Wanty5883/Titanfall2/blob/master/picture/Animated%20texture5.PNG?raw=true) in game. Play around with this tool, you will get used to it quickly.
 
-**3. Save texture**
+**3. 保存纹理**
 
 Once you have the color you want, export the texture as PNG \(again very important\) and make sure that you still have a transparent background. Do not make any other change to the texture such as size, compression, file format... etc
 
-**4. Import texture to VTFEdit**
+**4. 导入纹理到VTFEdit**
 
 Import the edited texture in VTFEdit with the shortcut _`CTRL+I`_ and load the texture. VTFEdit will ask to set some settings.
 

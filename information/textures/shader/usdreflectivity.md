@@ -6,7 +6,7 @@
 $reflectivity only affects [static light](https://developer.valvesoftware.com/wiki/Static_light).
 {% endhint %}
 
-### Usage
+### 用法
 
 ```text
 $reflectivity "[.5 .5 .5]"            //To bounce 50% of received light

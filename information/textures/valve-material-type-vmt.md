@@ -10,7 +10,7 @@ The contents of a material will fall into some or all of these categories:
 4. [Fallbacks](https://developer.valvesoftware.com/wiki/Material_optimization)
 5. [Proxies](https://developer.valvesoftware.com/wiki/Material_Proxy)
 
-## A simple example
+## 一个简单的例子
 
 ```text
 LightmappedGeneric
@@ -32,7 +32,7 @@ It's important to remember that this material can only be used on brushes. If it
 
 Most of the time switching materials from one shader to another is as simple as changing their first line, since a great number of parameters are shared between them. Some params only work with certain shaders, like [Phong](https://developer.valvesoftware.com/wiki/Phong) effects, which are only available with `VertexLitGeneric`, but unfortunately you won't encounter any critical errors if a param isn't understood by the shader. It just won't have any effect.![](https://developer.valvesoftware.com/w/images/4/45/Tip.png) **Tip:**If you ever need to use a space or tab character in a parameter value, you must wrap the whole value with "quote marks". You'll often see absolutely everything wrapped like this - save yourself some typing, as that's unnecessary.
 
-## Finding materials
+## 寻找材质
 
 ### SteamPipe
 
@@ -40,7 +40,7 @@ When Valve updated some games to [SteamPipe](https://developer.valvesoftware.com
 
 More info on SteamPipe [here](https://support.steampowered.com/kb_article.php?ref=7388-QPFN-2491)
 
-### Non-SteamPipe Games
+### 非SteamPipe游戏
 
 in non [SteamPipe](https://developer.valvesoftware.com/wiki/SteamPipe) source games, Materials are stored in the `materials\` folder of your game or mod. The best way to browse them is from [Hammer](https://developer.valvesoftware.com/wiki/Hammer)'s texture selection screen.
 

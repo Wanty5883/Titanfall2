@@ -10,15 +10,15 @@ A shader is software which runs on a graphics card to determine how an object sh
 
 Shaders are manipulated with parameters stored in [material](../valve-material-type-vmt.md) files. While the most common are quite simple, very complex ones exist to handle effects like real-time shadowing, lighting and refraction.
 
-## Types
+## 类型
 
 There are two variations of shaders, Pixel shaders and Vertex shaders, each of which performs a different task in the rendering pipeline. Shaders form a replacement for the fixed function pipeline and allow developers greater control over rendering output by providing the ability to modify pixels and vertices dynamically. The SDK includes many [existing shaders](https://developer.valvesoftware.com/wiki/Category:Shaders).
 
-## Shader languages
+## 着色器语言
 
 There are currently three main shader languages: [High Level Shader Language \(HLSL\)](https://developer.valvesoftware.com/wiki/HLSL), [C for Graphics \(Cg\)](https://developer.valvesoftware.com/wiki/CG) and [OpenGL Shading Language \(GLSL\)](http://en.wikipedia.org/wiki/GLSL). The Source engine uses [HLSL](https://developer.valvesoftware.com/wiki/HLSL) based shaders. However Cg is so similar that most Cg shaders can be quickly and easily ported to HLSL.
 
-## Shader models
+## 着色器模型
 
 A shader model defines how advanced shading techniques are allowed to get on graphics card. This prevents older graphics cards from being physically able to recognize newer shading techniques. Currently there are five versions of shader models: SM 1.1, SM 1.4, SM 2.0, SM 3.0 and SM 4.0.
 
@@ -30,13 +30,13 @@ If you want to learn more about the detailed specs of different Shader Models, r
 
  For information on authoring shaders for use in the Source engine, please see [Shader Authoring](https://developer.valvesoftware.com/wiki/Shader_Authoring).
 
-### Vertex shaders
+### 顶点着色器
 
 Vertex shaders are applied for each vertex run on a programmable pipeline. Its most basic goal is to transform geometry into screenspace coordinates so that the Pixel shader can rasterize an image. On a more complex scale, Vertex shaders are responsible for mesh deformation, lighting, shadowing and general vertex displacement. Vertex shaders cannot create vertices.
 
 A heavily commented example vertex shader, ready for use in Source is provided below.
 
-### Example vertex shader
+### 顶点着色器样例
 
 This is a pass through shader - in so far as it makes no major modification to the vertex data, instead just passing the data through to the pixel shader stage.
 
@@ -72,13 +72,13 @@ VS_OUTPUT main( float4 inPos: POSITION )
 }
 ```
 
-## Pixel shaders
+## 像素着色器
 
 Pixel shaders are applied for each pixel rendered to the screen. A pixel shader expects input from interpolated vertex values, which it then uses to rasterize the image. Pixel shaders can produce a huge range of effects involving the color of individual pixels such as refraction, per-pixel lighting or reflection.
 
 A heavily commented example pixel shader, ready for use in Source is provided below.
 
-### Example pixel shader
+### 像素着色器样例
 
 The pixel shader below is intended for use as a post-process shader and creates a grayscale effect.
 
@@ -103,11 +103,11 @@ float4 main( float2 texCoord  : TEXCOORD0 ) : COLOR
 }
 ```
 
-## Applications of shaders in Source
+## 着色器在起源引擎中的应用
 
 The Source engine provides for two separate forms of shaders, Posprocess and Per-Object, the majority of the effects and materials used within the Source engine rely heavily on their Pixel shader components.
 
-### Postprocess
+### 后处理
 
 A Postprocess shader is typically a Pixel shader that works on a quad rendered across the entire screen. The quad is textured with a copy of the frame buffer, the Pixel shader can then alter and modify the rendered output to create a variety of effects, such as basic color modification to more advanced processes such as motion blur and bloom
 
@@ -125,7 +125,7 @@ A Per-Object shader in the Source engine is used on any object with the shader r
 
 The Source SDK provides an example of a Per-Object shader in the lightmap files \( `sdk_lightmap.cpp`, `sdk_lightmap_vs20.fxc`, and `sdk_lightmap_ps20.fxc`\)
 
-## List of shader parameters
+## 着色器参数列表
 
 This category list top-level parameters available in the "Generic" shaders.
 
@@ -138,15 +138,15 @@ See Material Map Compile Flags for the list of special `%compile` parameters whi
 
 **This list is far from complete.**
 
-### **Basics**
+### **基础**
 
 * [$basetexture](usdbasetexture.md)
 
-### Reflection
+### 反射
 
 * [$reflectivity](usdreflectivity.md)
 
-### M.
+### 材质标志
 
 * [Material Flags](material-flags.md)
 

@@ -68,7 +68,7 @@ For example, the following command would set the game directory to the default H
 vconfig -game "C:\Program Files\Steam\SteamApps\Common\Half-Life 2"
 ```
 
-## Specifying the game directory on the command line
+## 在命令行中指定游戏目录
 
 An alternative method to set the current game directory is to directly specify the directory location on the command line when running each SDK tool. All of the SDK tools support the `-game <directory>` command line parameter. The advantage to specifying the game directory on the command line is that you are being explicit about where your game's content is to be found.
 
@@ -98,7 +98,7 @@ Here are some examples of running tools where you specify the game directory exp
 
 Using the `-game` command-line parameter to specify the current game directory gives you the advantage of being able to work on multiple games or MODs at once, and change your configurations for each. This can be easily done by making shortcuts to tools such as vtex with the -game parameter built-into the shortcut. When doing this, make sure to add quotes around the game directory path, if the path contains spaces.
 
-## Notes
+## 注解
 
 Left 4 Dead 2 and later don't work properly when attempting to open the Hammer Editor on a 64-bit system after upgrading from 32-bit, as there comes one or two error messages: `VCONFIG Error`
 

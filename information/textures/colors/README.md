@@ -28,7 +28,7 @@ Colors may appear differently on different computers, and under different 3D lig
 
 In Titanfall 2 it is possible to use values over 1. Giving over exposure \(HDR ?\).
 
-## Source & reference
+## 来源和参考
 
 {% hint style="info" %}
 Source

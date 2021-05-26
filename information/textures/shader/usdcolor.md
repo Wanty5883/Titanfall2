@@ -15,7 +15,7 @@ $color "{ <int> <int> <int> }"
 
 The default is [`"[1 1 1]"`](../colors/#rgb-vec) or [`"{255 255 255}"`](../colors/#rgb).
 
-## Gamma
+## 伽马值
 
 Course uses a gamma correction of 2.2 by default. This must be taken into account when attempting to adjust the color of a texture to match some other color in a screenshot \(for example, when trying to match the color of the bottom of a skybox material to the color of fog in the map\). This is done by raising the initially calculated scale to the power of 2.2 before setting the `$color`value for your material. For example, if the sample \(target\) color in a screenshot is 120, the color of your texture at the point of interest is 240, and you want the two colors to match, you need to compute the [albedo](../albedo.md) scale for your material as $$(120 / 240) ^ 2.2 = 0.218$$ \(not 0.5, as one might expect\).
 
@@ -23,7 +23,7 @@ Course uses a gamma correction of 2.2 by default. This must be taken into accoun
 **Tip:** Don't try to recreate a texture through a screenshot. [GCFScape](https://developer.valvesoftware.com/wiki/GCFScape) is free.
 {% endhint %}
 
-## Solid color
+## 纯色
 
 This parameter can be used _without_ an [albedo](../albedo.md) to display a solid color without the need of a texture \(except  a [`%tooltexture`](https://developer.valvesoftware.com/wiki/%25tooltexture) \). As well as a small saving in performance and memory footprint, [material\_modify\_control](https://developer.valvesoftware.com/wiki/Material_modify_control) can be used to completely change the material's color at run-time if desired.
 
@@ -33,7 +33,7 @@ In this scenario, `"[1 1 1]"` is pure white.
  **Tip:**If the material is representing empty blackness, you will probably want to use the [`UnlitGeneric`](https://developer.valvesoftware.com/wiki/UnlitGeneric) shader to prevent it from ever becoming grey.
 {% endhint %}
 
-## Models
+## 模型
 
 A variant of **`$color`** named **`$color2`** is specific for use with [`VertexLitGeneric`](https://developer.valvesoftware.com/wiki/VertexLitGeneric). It works the same way as **`$color`** but for use on models.
 
@@ -42,7 +42,7 @@ $color2 "[ <float> <float> <float> ]"
 $color2 "{ <int> <int> <int> }"
 ```
 
-### Additional Model Parameters
+### 附加模型参数
 
 #### `$blendtintbybasealpha` `<`[`boolean`](https://developer.valvesoftware.com/wiki/Boolean)`>` \(New with Left 4 Dead\) \(Also in Source 2013\)
 
@@ -68,7 +68,7 @@ Prevents the model's material from being tinted by `$color2` or `rendercolor.`
 
 Prevents the model's material from being tinted by `$color2` or `rendercolor.` Replaces `$allowdiffusemodulation` in [![&amp;lt;Counter-Strike: Global Offensive&amp;gt;](https://developer.valvesoftware.com/w/images/3/35/Csgo.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive).
 
-## Caveats
+## 注意事项
 
 * `$color2` is incompatible with the use of [`$selfillum`](https://developer.valvesoftware.com/wiki/$selfillum), as it will override the glow properties used by both `$selfillum` & `$selfillummask`. Use the `$selfillumtint` command to adjust the glow so it properly appears.
 

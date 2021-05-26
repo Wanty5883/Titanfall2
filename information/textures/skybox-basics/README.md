@@ -21,19 +21,19 @@ A skybox should instead be reserved for places the player can see but just out o
 
 There are two types of skyboxes in the Source engine:
 
-## [2D Skybox](2d-skybox.md)
+## [2D天空盒](2d-skybox.md)
 
 Consists gives the effect of a giant cube surrounding the map used for applying textures in its interior faces. These textures usually consist of the ground meeting the sky in the horizon, clouds, and other distant details. The 2D skybox for a level is set in the `Map Properties`dialog of Hammer.
 
-## [3D Skybox](3d-skybox.md)
+## [3D天空盒](3d-skybox.md)
 
 This new addition for skyboxes became available with the Source engine. It's a surrounding area constructed by the level designer, outside the bounds of the gameplay area on the map. Players can never reach the 3D skybox under normal circumstances. Maps do not require a 3D skybox to be created - it is purely optional visual addition to the map.
 
-### See Also
+### 另见
 
 * [Skybox Optimization](https://developer.valvesoftware.com/wiki/Skybox_Optimization) - A tutorial on how to optimize a skybox.
 
-## Source & reference
+## 来源和参考
 
 {% hint style="info" %}
 Source: [https://developer.valvesoftware.com/wiki/Skybox\_Basics](https://developer.valvesoftware.com/wiki/Skybox_Basics)

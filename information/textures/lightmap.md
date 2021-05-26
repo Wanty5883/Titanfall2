@@ -9,7 +9,7 @@ description: >-
 A lightmap is a generated [texture](./) applied [additively](https://en.wikipedia.org/wiki/Additive_color) to [LightmappedGeneric ](https://developer.valvesoftware.com/wiki/LightmappedGeneric)[brush ](https://developer.valvesoftware.com/wiki/Brush)faces to simulate lighting. The color values in the surface's [albedo](albedo.md) are multiplied by the color values in its lightmap.  
 Lightmaps are created by [VRAD ](https://developer.valvesoftware.com/wiki/VRAD)each time a map is compiled. They are static and cannot change, though it is possible to switch lightmap 'pages" on and off \(see [Naming Lights](https://developer.valvesoftware.com/wiki/Naming_Lights)\).
 
-## Scale
+## 比例
 
 The lightmap scale of a face defines the resolution of its lightmap. The default scale of 16 makes each lightmap pixel \("luxel"\) 16 [units ](https://developer.valvesoftware.com/wiki/Unit)across, while a lightmap scale of 1 males one luxel equal one unit. [The Hammer Face Edit Dialog](https://developer.valvesoftware.com/wiki/Hammer_Face_Edit_Dialog) is used to change the value per-face.
 
@@ -29,7 +29,7 @@ When generating lightmaps, VRAD does not create [penumbras](https://en.wikipedia
 
 ![Scales and effects of light textures.](../../.gitbook/assets/lightmap.png)
 
-## Optimization
+## 优化
 
 Lightmap optimization can be done by eye with the aid of a compiled map: faces with low lighting contrast can have their scales increased, and vice versa faces with high contrast should be considered for lower scale. Just beware of setting a face's scale so high that it ends up a 'blop' of light that doesn't blend with its neighbors \(use `mat_fullbright 2`to spot this\). 
 
@@ -37,13 +37,13 @@ Remember to take into account the size of a face, too. Moving a very large face 
 
 ![Optimising lightmap scales.](../../.gitbook/assets/intlight_lightmaps.jpg)
 
-## Hammer view
+## Hammer视图
 
 Clicking the camera control in the top-left of a 3D view in Hammer provides the option of "3D Lightmap Grid". This view textures each brush surface with a grid that represents its lightmap scale \(shown in the last section\).
 
 Tool brushes are textured like any other in this mode, despite being invisible in-game, so switch them all off from their auto-[visgroup](https://developer.valvesoftware.com/wiki/Visgroup).
 
-## Console commands
+## 控制台指令
 
 The following are all [cheats](https://developer.valvesoftware.com/wiki/Sv_cheats):
 

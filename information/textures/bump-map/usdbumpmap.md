@@ -19,7 +19,7 @@ description: $bumpmap is a material shader parameter available in all Source gam
 
 ![A material&apos;s albedo \(left\) compared to its bump map.](../../../.gitbook/assets/brickwall021a_normalcompare.jpg)
 
-### Basic syntax
+### 基本语法
 
 ```text
 LightmappedGeneric
@@ -32,7 +32,7 @@ LightmappedGeneric
 
 ![The above material in-game.](../../../.gitbook/assets/example_of_bump_mapping.jpg)
 
-### Additional parameters
+### 附加参数
 
 #### `$bumptransform` `<`[`matrix`](https://developer.valvesoftware.com/wiki/Matrix)`>` \(DX9+\)
 
@@ -103,7 +103,7 @@ Same as `$bumptransform`, but for the second bump map.
 
 The strength of the first and second bump maps for bump map blending.
 
-### Console commands
+### 控制台指令
 
 #### `mat_fastnobump` `<`[`boolean`](https://developer.valvesoftware.com/wiki/Boolean)`>`
 
