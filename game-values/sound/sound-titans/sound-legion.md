@@ -5,7 +5,7 @@ description: 军团声音数据
 # 声音-军团
 
 {% tabs %}
-{% tab title="Predator Cannon" %}
+{% tab title="猎杀者机炮" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 23025 | predator\_lowammo\_shot1 |  |
@@ -63,7 +63,7 @@ description: 军团声音数据
 | 30287 | wpn\_predator\_cannon\_reload\_mech\_fr86\_3p |  |
 {% endtab %}
 
-{% tab title="Power Shot" %}
+{% tab title="强大火力" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 29083 | weapon\_predator\_powershot\_chargeup\_1p |  |
@@ -83,7 +83,7 @@ description: 军团声音数据
 | 29097 | weapon\_predator\_powershot\_shortrange\_3p\_int\_enemy |  |
 {% endtab %}
 
-{% tab title="Range Switch" %}
+{% tab title="近/远程模式切换" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 29098 | weapon\_predator\_rangeswitch\_tolong\_1p |  |
@@ -94,7 +94,7 @@ description: 军团声音数据
 | 29103 | weapon\_predator\_rangeswitch\_toshort\_3p\_enemy |  |
 {% endtab %}
 
-{% tab title="Smart Core" %}
+{% tab title="智慧核心" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 27340 | Titan\_Legion\_Smart\_Core\_Activated\_1P |  |
@@ -107,7 +107,7 @@ description: 军团声音数据
 | 27347 | Titan\_Legion\_Smart\_Core\_Unlocked\_1P |  |
 {% endtab %}
 
-{% tab title="Shield" %}
+{% tab title="枪盾" %}
 
 
 | ID | Value | Note |

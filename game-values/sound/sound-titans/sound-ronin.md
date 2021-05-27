@@ -5,7 +5,7 @@ description: 浪人声音数据
 # 声音-浪人
 
 {% tabs %}
-{% tab title="Arc Wave" %}
+{% tab title="电弧波" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 806 | arcwave\_fire\_1p |  |
@@ -19,7 +19,7 @@ description: 浪人声音数据
 | 28181 | weapon\_arcwave\_projectile |  |
 {% endtab %}
 
-{% tab title="Leadwall" %}
+{% tab title="天女散花" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 20710 | leadwall\_lowammo\_shot1 |  |
@@ -42,30 +42,30 @@ description: 浪人声音数据
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
-| Arc Wave | arcwave\_fire\_1p |  |
-| Arc Wave | arcwave\_fire\_3p |  |
-| Arc Wave | arcwave\_tail\_3p |  |
-| Arc Wave | Weapon\_ShoulderLaser\_StutterBuild\_02 |  |
-| Leadwall | Weapon\_Leadwall\_Fire\_1P |  |
-| Leadwall | Weapon\_Leadwall\_Fire\_3P |  |
-| Phase Dash | Pilot\_PhaseShift\_PreActivate\_1P |  |
-| Phase Dash | Pilot\_PhaseShift\_PreActivate\_3P |  |
-| Phase Dash | titan\_phasedash\_activate\_1p |  |
-| Phase Dash | titan\_phasedash\_activate\_3p |  |
-| Phase Dash | titan\_phasedash\_loop\_1p |  |
-| Phase Dash | titan\_phasedash\_loop\_3p |  |
-| Phase Dash | titan\_phasedash\_warningtoend\_1p |  |
-| Phase Dash | titan\_phasedash\_warningtoend\_3p |  |
-| Phase Dash | titan\_phasedash\_end\_1p |  |
-| Phase Dash | titan\_phasedash\_end\_3p |  |
-| Sword Block | Weapon\_ShoulderLaser\_StutterBuild\_1P |  |
-| Sword Block | ronin\_sword\_draw\_02\_3p |  |
-| Sword Block | ronin\_sword\_draw\_3p |  |
-| Sword Block | ronin\_sword\_bullet\_impacts |  |
-| Sword Core | Titan\_Ronin\_Sword\_Core\_Activated\_1P |  |
-| Sword Core | Titan\_Ronin\_Sword\_Core\_Activated\_3P |  |
-| Sword Core | Titan\_Ronin\_Sword\_Core\_Activated\_Upgraded\_1P |  |
-| Sword Core | Titan\_Ronin\_Sword\_Core\_Activated\_Upgraded\_3P |  |
-| Sword Core | Titan\_Ronin\_Sword\_Core\_Deactivated\_1P |  |
-| Sword Core | Titan\_Ronin\_Sword\_Core\_Deactivated\_3P |  |
+| 电弧波 | arcwave\_fire\_1p |  |
+| 电弧波 | arcwave\_fire\_3p |  |
+| 电弧波 | arcwave\_tail\_3p |  |
+| 电弧波 | Weapon\_ShoulderLaser\_StutterBuild\_02 |  |
+| 天女散花 | Weapon\_Leadwall\_Fire\_1P |  |
+| 天女散花 | Weapon\_Leadwall\_Fire\_3P |  |
+| 相位冲刺 | Pilot\_PhaseShift\_PreActivate\_1P |  |
+| 相位冲刺 | Pilot\_PhaseShift\_PreActivate\_3P |  |
+| 相位冲刺 | titan\_phasedash\_activate\_1p |  |
+| 相位冲刺 | titan\_phasedash\_activate\_3p |  |
+| 相位冲刺 | titan\_phasedash\_loop\_1p |  |
+| 相位冲刺 | titan\_phasedash\_loop\_3p |  |
+| 相位冲刺 | titan\_phasedash\_warningtoend\_1p |  |
+| 相位冲刺 | titan\_phasedash\_warningtoend\_3p |  |
+| 相位冲刺 | titan\_phasedash\_end\_1p |  |
+| 相位冲刺 | titan\_phasedash\_end\_3p |  |
+| 剑封锁 | Weapon\_ShoulderLaser\_StutterBuild\_1P |  |
+| 剑封锁 | ronin\_sword\_draw\_02\_3p |  |
+| 剑封锁 | ronin\_sword\_draw\_3p |  |
+| 剑封锁 | ronin\_sword\_bullet\_impacts |  |
+| 剑核心 | Titan\_Ronin\_Sword\_Core\_Activated\_1P |  |
+| 剑核心 | Titan\_Ronin\_Sword\_Core\_Activated\_3P |  |
+| 剑核心 | Titan\_Ronin\_Sword\_Core\_Activated\_Upgraded\_1P |  |
+| 剑核心 | Titan\_Ronin\_Sword\_Core\_Activated\_Upgraded\_3P |  |
+| 剑核心 | Titan\_Ronin\_Sword\_Core\_Deactivated\_1P |  |
+| 剑核心 | Titan\_Ronin\_Sword\_Core\_Deactivated\_3P |  |
 

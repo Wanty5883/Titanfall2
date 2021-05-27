@@ -5,7 +5,7 @@ description: 离子声音数据
 # 声音-离子
 
 {% tabs %}
-{% tab title="Particle Accelerator" %}
+{% tab title="分裂枪" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 22335 | particleaccelerator\_lowammo\_shot1 |  |
@@ -80,7 +80,7 @@ description: 离子声音数据
 | 29054 | weapon\_particle\_accelerator\_windup\_3p\_enemy |  |
 {% endtab %}
 
-{% tab title="Vortex Shield" %}
+{% tab title="涡流护盾" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 19150 | explo\_vortexgrenade\_impact\_1p |  |
@@ -127,7 +127,7 @@ description: 离子声音数据
 | 29752 | weapon\_vortex\_gun\_explosivewarningbeep |  |
 {% endtab %}
 
-{% tab title="Laser Shot" %}
+{% tab title="镭射炮" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 29410 | Weapon\_ShoulderLaser\_Fire\_1P | Fire sound FP |
@@ -139,7 +139,7 @@ description: 离子声音数据
 | 29416 | Weapon\_ShoulderLaser\_StutterBuild\_3P\_Enemy |  |
 {% endtab %}
 
-{% tab title="Laser Core" %}
+{% tab title="镭射核心" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 27240 | titan\_core\_laser\_chargeup\_1p |  |
@@ -166,7 +166,7 @@ description: 离子声音数据
 | 27261 | titan\_core\_laser\_whizby\_loop\_3p\_enemy |  |
 {% endtab %}
 
-{% tab title="Laser Trip Wire" %}
+{% tab title="激光拌线" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 30236 | Wpn\_LaserTripMine\_BothConnections |  |

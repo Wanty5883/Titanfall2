@@ -5,8 +5,8 @@ description: 反泰坦武器声音数据
 # 反泰坦武器
 
 {% tabs %}
-{% tab title="Archer" %}
-| ID | Value | Note |
+{% tab title="射手飞弹" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 19088 | explo\_archer\_impact\_1p |  |
 | 19089 | explo\_archer\_impact\_3p |  |
@@ -52,8 +52,8 @@ description: 反泰坦武器声音数据
 | 28168 | weapon\_archer\_unequip |  |
 {% endtab %}
 
-{% tab title="Charge Rifle" %}
-| ID | Value | Note |
+{% tab title="电能步枪" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 28290 | weapon\_chargerifle\_ads\_in |  |
 | 28291 | weapon\_chargerifle\_ads\_out |  |
@@ -83,8 +83,8 @@ description: 反泰坦武器声音数据
 | 28315 | weapon\_chargerifle\_windup\_3p\_enemy |  |
 {% endtab %}
 
-{% tab title="MGL" %}
-| ID | Value | Note |
+{% tab title="磁能榴弹发射器" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 19108 | explo\_mgl\_impact\_1p |  |
 | 19109 | explo\_mgl\_impact\_1p\_int |  |
@@ -166,8 +166,8 @@ description: 反泰坦武器声音数据
 | 28954 | weapon\_mglv2\_reload\_empty\_5\_1p |  |
 {% endtab %}
 
-{% tab title="Thunderbolt" %}
-| ID | Value | Note |
+{% tab title="LG-97雷电炮" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 28130 | weapon\_arc\_ball\_loop |  |
 | 28131 | weapon\_arc\_ball\_tendril |  |

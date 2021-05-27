@@ -1,8 +1,8 @@
 ---
-description: Arc Tool sound values.
+description: 电弧枪声音数据。
 ---
 
-# Sound - Arc Tool
+# 声音-电弧枪
 
 | ID | Value | Note |
 | :--- | :--- | :--- |

@@ -5,7 +5,7 @@ description: 北极星声音数据
 # 声音-北极星
 
 {% tabs %}
-{% tab title="Railgun" %}
+{% tab title="电浆磁轨炮" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 29627 | weapon\_titan\_sniper\_level\_1\_1p |  |
@@ -111,7 +111,7 @@ description: 北极星声音数据
 | 25805 | skyway\_scripted\_railgun\_warmup |  |
 {% endtab %}
 
-{% tab title="Cluster Missile" %}
+{% tab title="集束飞弹" %}
 | ID | Value | Notes |
 | :--- | :--- | :--- |
 | 2400 | default\_clusterrocket\_explosion\_1p\_vs\_3p |  |
@@ -133,7 +133,7 @@ description: 北极星声音数据
 | 27226 | titan\_clusterrocketsecondaryexplosion\_impact\_3p\_vs\_1p |  |
 {% endtab %}
 
-{% tab title="Tether Trap" %}
+{% tab title="绊索陷阱" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 30305 | Wpn\_TetherTrap\_Deploy\_1P |  |
@@ -143,7 +143,7 @@ description: 北极星声音数据
 | 30309 | Wpn\_TetherTrap\_PopOpen\_3p |  |
 {% endtab %}
 
-{% tab title="Flight Core & Flights" %}
+{% tab title="飞行核心和悬浮" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 28531 | weapon\_flightcore\_incoming\_projectile |  |
@@ -192,6 +192,6 @@ description: 北极星声音数据
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
-| Flight Core | core\_ability\_land\_1p |  |
-| Flight Core | core\_ability\_land\_3p |  |
+| 飞行核心 | core\_ability\_land\_1p |  |
+| 飞行核心 | core\_ability\_land\_3p |  |
 

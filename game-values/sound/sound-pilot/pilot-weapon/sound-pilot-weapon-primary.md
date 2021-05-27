@@ -5,8 +5,8 @@ description: 突击步枪声音数据
 # 突击步枪
 
 {% tabs %}
-{% tab title="Flatline" %}
-| ID | Value | Note |
+{% tab title="V-47平行步枪" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 28001 | vinson\_lowammo\_shot1 |  |
 | 28002 | vinson\_shell |  |
@@ -76,7 +76,7 @@ description: 突击步枪声音数据
 {% endtab %}
 
 {% tab title="G2A5" %}
-| ID | Value | Note |
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 19282 | g2a4\_lowammo\_shot1 |  |
 | 19283 | g2a4\_lowammo\_shot2 |  |
@@ -125,12 +125,12 @@ description: 突击步枪声音数据
 | 30203 | wpn\_g2a4\_reload\_handgrab |  |
 {% endtab %}
 
-{% tab title="Hemlok" %}
+{% tab title="汗洛BF-R" %}
 
 {% endtab %}
 
-{% tab title="R101/R201" %}
-| ID | Value | Note |
+{% tab title="R101/R201卡宾枪" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 23470 | r101\_ai\_wpnfire\_firstshot\_a |  |
 | 23471 | r101\_ai\_wpnfire\_firstshot\_a\_coop |  |
@@ -242,19 +242,19 @@ description: 突击步枪声音数据
 {% endtab %}
 {% endtabs %}
 
-| Sound name | Value | Note |
+| 声音名称 | 数值 | 注解 |
 | :--- | :--- | :--- |
-| **Hemlok** |  |  |
-| Hemlok | hemlok\_dryfire | Dryfire sound |
-| Hemlok | Weapon\_Hemlok\_Trigger | Trigger sound |
-| Hemlok | Weapon\_Hemlok\_FirstShot\_1P |  |
-| Hemlok | Weapon\_Hemlok\_FirstShot\_3P |  |
-| Hemlok | Weapon\_Hemlok\_FirstShot\_NPC |  |
-| Hemlok | Weapon\_Hemlok\_ADS\_In | ADS sound |
-| Hemlok | Weapon\_Hemlok\_ADS\_Out | ADS sound |
-| Hemlok | Hemlok\_LowAmmo\_Shot1 |  |
-| Hemlok | Hemlok\_LowAmmo\_Shot2 |  |
-| Hemlok | Hemlok\_LowAmmo\_Shot3 |  |
+| 汗洛BF-R |  |  |
+| 汗洛BF-R | hemlok\_dryfire | Dryfire sound |
+| 汗洛BF-R | Weapon\_Hemlok\_Trigger | Trigger sound |
+| 汗洛BF-R | Weapon\_Hemlok\_FirstShot\_1P |  |
+| 汗洛BF-R | Weapon\_Hemlok\_FirstShot\_3P |  |
+| 汗洛BF-R | Weapon\_Hemlok\_FirstShot\_NPC |  |
+| 汗洛BF-R | Weapon\_Hemlok\_ADS\_In | ADS sound |
+| 汗洛BF-R | Weapon\_Hemlok\_ADS\_Out | ADS sound |
+| 汗洛BF-R | Hemlok\_LowAmmo\_Shot1 |  |
+| 汗洛BF-R | Hemlok\_LowAmmo\_Shot2 |  |
+| 汗洛BF-R | Hemlok\_LowAmmo\_Shot3 |  |
 
 ## 
 

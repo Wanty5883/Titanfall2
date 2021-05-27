@@ -5,10 +5,10 @@ description: 冲锋枪声音数据
 # 冲锋枪
 
 {% tabs %}
-{% tab title="Alternator" %}
+{% tab title="转换者" %}
 
 
-| ID | Value | Note |
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 352 | alternator\_lowammo\_shot1 |  |
 | 28089 | weapon\_alternator\_firstshot\_1p |  |
@@ -69,7 +69,7 @@ description: 冲锋枪声音数据
 | 30079 | wpn\_alternator\_reload\_MECH\_ClipIn\_fr20\_1p |  |
 | 30080 | wpn\_alternator\_reload\_MECH\_ClipOut\_fr12\_1p |  |
 
-| Sound Values | Notes | Example |
+| 声音数值 | 注解 | 样例 |
 | :--- | :--- | :--- |
 | Weapon\_Hemlok\_Trigger |  |  |
 | Weapon\_Hemlok\_ADS\_In |  |  |
@@ -79,7 +79,7 @@ description: 冲锋枪声音数据
 {% tab title="CAR" %}
 
 
-| ID | Value | Note |
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 2074 | car\_lowammo\_shot1 |  |
 | 28204 | weapon\_car\_ads\_in |  |
@@ -173,7 +173,7 @@ description: 冲锋枪声音数据
 {% tab title="R97" %}
 
 
-| ID | Value | Note |
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 23496 | r97\_ai\_wpnfire\_firstshot\_a |  |
 | 23497 | r97\_ai\_wpnfire\_firstshot\_a\_coop |  |
@@ -258,10 +258,10 @@ description: 冲锋枪声音数据
 | 30294 | wpn\_r97\_reload\_pullmag |  |
 {% endtab %}
 
-{% tab title="Volt" %}
+{% tab title="电能冲锋枪" %}
 
 
-| ID | Value | Note |
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 30378 | wpn\_Volt\_FirstPullout\_foley\_fr01\_1p |  |
 | 30379 | wpn\_Volt\_FirstPullout\_foley\_GunRattle\_fr01\_1p |  |
@@ -288,7 +288,7 @@ description: 冲锋枪声音数据
 | 30400 | wpn\_Volt\_reloadempty\_mech\_MagIn\_fr29\_1p |  |
 | 30401 | wpn\_Volt\_reloadempty\_mech\_MagOut\_fr15\_1p |  |
 
-| ID | Value | Note |
+| ID | 数值 | Note |
 | :--- | :--- | :--- |
 | 19596 | hemloksmg\_lowammo\_shot1 |  |
 | 28632 | weapon\_hemloksmg\_fire\_first\_1p |  |

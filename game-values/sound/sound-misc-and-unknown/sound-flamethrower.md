@@ -1,6 +1,6 @@
-# Sound - Flamethrower
+# 声音- Flamethrower
 
-| ID | Value | Note |
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 29579 | weapon\_titan\_flamethrower\_damaging\_loop\_1p |  |
 | 29580 | weapon\_titan\_flamethrower\_damaging\_loop\_3p |  |

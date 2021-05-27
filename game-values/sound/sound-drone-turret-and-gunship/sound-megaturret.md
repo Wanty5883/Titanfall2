@@ -1,10 +1,10 @@
 ---
-description: MegaTurret sound values.
+description: 巨型炮塔声音数据。
 ---
 
-# Sound - MegaTurret
+# 声音 -巨型炮塔
 
-| ID | Value | Note |
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 21095 | megaturret\_bulletimpact\_killshot\_1p\_vs\_3p |  |
 | 21096 | megaturret\_extend\_guns |  |

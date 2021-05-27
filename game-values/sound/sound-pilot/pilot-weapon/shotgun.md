@@ -5,8 +5,8 @@ description: 散弹枪声音数据
 # 散弹枪
 
 {% tabs %}
-{% tab title="EVA8" %}
-| ID | Value | Note |
+{% tab title="EVA-8自动" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 19073 | eva8\_lowammo\_shot1 |  |
 | 19074 | eva8\_lowammo\_shot2 |  |
@@ -54,8 +54,8 @@ description: 散弹枪声音数据
 | 28524 | weapon\_eva8\_unequip |  |
 {% endtab %}
 
-{% tab title="Mastiff" %}
-| ID | Value | Note |
+{% tab title="獒犬散弹枪" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 21083 | mastiff\_lowammo\_shot1 |  |
 | 21084 | mastiff\_lowammo\_shot2 |  |
@@ -107,25 +107,25 @@ description: 散弹枪声音数据
 {% endtab %}
 {% endtabs %}
 
-| Sound name | Value | Note |
+| 声音名称 | 数值 | 注解 |
 | :--- | :--- | :--- |
-| EVA8 | shotgun\_dryfire |  |
-| EVA8 | Weapon\_EVA8\_AutoFire\_1P | Fire FP |
-| EVA8 | Weapon\_EVA8\_AutoFire\_3P | Fire |
-| EVA8 | Weapon\_EVA8\_AutoFire\_NPC | Fire |
-| EVA8 | EVA8\_LowAmmo\_Shot1 | Low ammo |
-| EVA8 | EVA8\_LowAmmo\_Shot2 | Low ammo |
-| EVA8 | EVA8\_LowAmmo\_Shot3 | Low ammo |
-| EVA8 | wpn\_pickup\_Rifle\_1P | Pickup FP |
-| EVA8 | Weapon\_EVA8\_ADS\_In | ADS in |
-| EVA8 | Weapon\_EVA8\_ADS\_Out | ADS out |
-| EVA8 | Vortex\_Shield\_AbsorbBulletSmall | Vortex absorb |
-| EVA8 | Vortex\_Shield\_AbsorbBulletSmall\_1P\_VS\_3P | Vortex absorb |
-| Mastiff | Weapon\_Mastiff\_Fire\_1P |  |
-| Mastiff | Weapon\_Mastiff\_Fire\_3P |  |
-| Mastiff | Weapon\_Mastiff\_Fire\_npc |  |
-| Mastiff | Mastiff\_LowAmmo\_Shot1 |  |
-| Mastiff | Mastiff\_LowAmmo\_Shot2 |  |
-| Mastiff | Mastiff\_LowAmmo\_Shot3 |  |
-| Mastiff | weapon\_mastiff\_projectile\_crackle | Projectile sound |
+| EVA-8自动 | shotgun\_dryfire |  |
+| EVA-8自动 | Weapon\_EVA8\_AutoFire\_1P | Fire FP |
+| EVA-8自动 | Weapon\_EVA8\_AutoFire\_3P | Fire |
+| EVA-8自动 | Weapon\_EVA8\_AutoFire\_NPC | Fire |
+| EVA-8自动 | EVA8\_LowAmmo\_Shot1 | Low ammo |
+| EVA-8自动 | EVA8\_LowAmmo\_Shot2 | Low ammo |
+| EVA-8自动 | EVA8\_LowAmmo\_Shot3 | Low ammo |
+| EVA-8自动 | wpn\_pickup\_Rifle\_1P | Pickup FP |
+| EVA-8自动 | Weapon\_EVA8\_ADS\_In | ADS in |
+| EVA-8自动 | Weapon\_EVA8\_ADS\_Out | ADS out |
+| EVA-8自动 | Vortex\_Shield\_AbsorbBulletSmall | Vortex absorb |
+| EVA-8自动 | Vortex\_Shield\_AbsorbBulletSmall\_1P\_VS\_3P | Vortex absorb |
+| 獒犬散弹枪 | Weapon\_Mastiff\_Fire\_1P |  |
+| 獒犬散弹枪 | Weapon\_Mastiff\_Fire\_3P |  |
+| 獒犬散弹枪 | Weapon\_Mastiff\_Fire\_npc |  |
+| 獒犬散弹枪 | Mastiff\_LowAmmo\_Shot1 |  |
+| 獒犬散弹枪 | Mastiff\_LowAmmo\_Shot2 |  |
+| 獒犬散弹枪 | Mastiff\_LowAmmo\_Shot3 |  |
+| 獒犬散弹枪 | weapon\_mastiff\_projectile\_crackle | Projectile sound |
 

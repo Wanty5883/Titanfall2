@@ -5,8 +5,8 @@ description: 轻机枪声音数据
 # 轻机枪
 
 {% tabs %}
-{% tab title="Devotion" %}
-| ID | Value | Note |
+{% tab title="X-55专注冲锋枪" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 2434 | devotion\_lowammo\_shot1 |  |
 | 2435 | devotion\_lowammo\_shot2 |  |
@@ -70,8 +70,8 @@ description: 轻机枪声音数据
 | 30151 | wpn\_Devotion\_ReloadEmpty\_WpnMvmt\_fr96\_1P |  |
 {% endtab %}
 
-{% tab title="LSTAR" %}
-| ID | Value | Note |
+{% tab title="L-STAR" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 702 | android\_lstar\_bulletimpact\_1p\_vs\_3p |  |
 | 703 | Android\_lstar\_bulletimpact\_3p\_vs\_1p |  |
@@ -173,10 +173,10 @@ description: 轻机枪声音数据
 | 28845 | weapon\_lstar\_secondshot\_3p\_npc\_a |  |
 {% endtab %}
 
-{% tab title="Spitfire" %}
+{% tab title="喷火枪" %}
 
 
-| ID | Value | Notes |
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 20934 | lmg\_lowammo\_shot1 |  |
 | 20935 | lmg\_shell |  |

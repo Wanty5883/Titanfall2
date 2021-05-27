@@ -3,8 +3,8 @@
 
 
 {% tabs %}
-{% tab title="Arc Grenade" %}
-| ID | Value | Note |
+{% tab title="电弧手榴弹" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 28443 | weapon\_empgrenade\_pinpull |  |
 | 28444 | weapon\_empgrenade\_pinpull\_3P |  |
@@ -12,12 +12,12 @@
 | 28446 | weapon\_empgrenade\_throw\_3P |  |
 {% endtab %}
 
-{% tab title="Arc Trap" %}
+{% tab title="电弧陷阱" %}
 
 {% endtab %}
 
-{% tab title="Electric Smoke" %}
-| ID | Value | Note |
+{% tab title="电子烟雾手榴弹" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 19091 | explo\_electric\_smoke\_impact |  |
 | 28435 | weapon\_electric\_smoke\_electrocute\_human\_1p |  |
@@ -30,10 +30,10 @@
 | 28442 | weapon\_electric\_smoke\_throw\_3p |  |
 {% endtab %}
 
-{% tab title="Firestar" %}
+{% tab title="飞火星" %}
 
 
-| ID | Value | Note |
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 19092 | explo\_firestar\_impact |  |
 | 27311 | titan\_handlaser\_firestart\_1p |  |
@@ -49,8 +49,8 @@
 | 29569 | weapon\_thermitegrenade\_throw |  |
 {% endtab %}
 
-{% tab title="Frag Grenade" %}
-| ID | Value | Note |
+{% tab title="破片手榴弹" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 19095 | explo\_fraggrenade\_impact\_1p |  |
 | 19096 | explo\_fraggrenade\_impact\_1p\_int |  |
@@ -72,7 +72,7 @@
 {% endtab %}
 
 {% tab title="Gravity Mine" %}
-| ID | Value | Note |
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 19389 | GravityMine\_SurfaceImpact\_Concrete\_3P |  |
 | 19390 | GravityMine\_SurfaceImpact\_Dirt\_3P |  |
@@ -84,8 +84,8 @@
 | 22429 | Pilot\_GravityMine\_Throw\_3P |  |
 {% endtab %}
 
-{% tab title="Gravity Star" %}
-| ID | Value | Note |
+{% tab title="重力星" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 2418 | default\_gravitystar\_impact\_3p |  |
 | 19393 | gravitystar\_explo\_3p |  |
@@ -101,7 +101,7 @@
 
 {% tabs %}
 {% tab title="Hardcover" %}
-| ID | Value | Note |
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 19541 | Hardcover\_Shield\_End\_3P |  |
 | 19542 | Hardcover\_Shield\_Start\_3P |  |
@@ -114,7 +114,7 @@
 {% endtab %}
 
 {% tab title="Proximity Mine" %}
-| ID | Value | Note |
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 29117 | weapon\_proximitymine\_armedbeep |  |
 | 29118 | weapon\_proximitymine\_closewarning |  |
@@ -122,8 +122,8 @@
 | 29120 | weapon\_proximitymine\_throw |  |
 {% endtab %}
 
-{% tab title="Satchel" %}
-| ID | Value | Note |
+{% tab title="炸药包" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 19131 | explo\_satchel\_impact\_1p |  |
 | 19132 | explo\_satchel\_impact\_1p\_int |  |
@@ -135,20 +135,20 @@
 {% endtab %}
 {% endtabs %}
 
-| Sound name | Value | Note |
+| 声音名称 | 数值 | 注解 |
 | :--- | :--- | :--- |
-| Arc Trap | Wpn\_ArcTrap\_Activate | FD content |
-| Arc Trap | Wpn\_ArcTrap\_Beep | FD content |
-| Arc Trap | Wpn\_ArcTrap\_Throw | Throw sound |
-| Arc Trap | weapon\_sentryfragdrone\_pinpull\_1p |  |
-| Arc Trap | weapon\_sentryfragdrone\_pinpull\_3p |  |
-| Arc Trap | weapon\_sentryfragdrone\_throw\_3p | Throw sound |
-| Arc Trap | weapon\_sentryfragdrone\_warmup |  |
-| Arc Trap | coop\_senteur\_deploymentdeniedbeep |  |
-| Firestar | flesh\_thermiteburn\_1p\_vs\_3p | Thermite sound |
-| Firestar | flesh\_thermiteburn\_3p\_vs\_1p | Thermite sound |
-| Firestar | titan\_thermiteburn\_1p\_vs\_3p | Thermite sound |
-| Firestar | titan\_thermiteburn\_3p\_vs\_1p | Thermite sound |
+| 电弧陷阱 | Wpn\_ArcTrap\_Activate | FD content |
+| 电弧陷阱 | Wpn\_ArcTrap\_Beep | FD content |
+| 电弧陷阱 | Wpn\_ArcTrap\_Throw | Throw sound |
+| 电弧陷阱 | weapon\_sentryfragdrone\_pinpull\_1p |  |
+| 电弧陷阱 | weapon\_sentryfragdrone\_pinpull\_3p |  |
+| 电弧陷阱 | weapon\_sentryfragdrone\_throw\_3p | Throw sound |
+| 电弧陷阱 | weapon\_sentryfragdrone\_warmup |  |
+| 电弧陷阱 | coop\_senteur\_deploymentdeniedbeep |  |
+| 飞火星 | flesh\_thermiteburn\_1p\_vs\_3p | Thermite sound |
+| 飞火星 | flesh\_thermiteburn\_3p\_vs\_1p | Thermite sound |
+| 飞火星 | titan\_thermiteburn\_1p\_vs\_3p | Thermite sound |
+| 飞火星 | titan\_thermiteburn\_3p\_vs\_1p | Thermite sound |
 | Hardcover | weapon\_sentryfragdrone\_throw\_3p | Throw sound |
 | Hardcover | weapon\_sentryfragdrone\_pinpull\_1p |  |
 | Hardcover | weapon\_sentryfragdrone\_pinpull\_3p |  |

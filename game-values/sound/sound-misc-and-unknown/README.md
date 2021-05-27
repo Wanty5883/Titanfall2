@@ -1,6 +1,6 @@
 # 声音-杂项和未知项
 
-## Misc
+## 杂项
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |

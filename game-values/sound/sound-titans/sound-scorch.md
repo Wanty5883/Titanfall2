@@ -5,7 +5,7 @@ description: 烈焰声音数据
 # 声音-烈焰
 
 {% tabs %}
-{% tab title="Flame Core" %}
+{% tab title="火焰核心" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 19161 | flamewave\_blast\_left |  |
@@ -16,7 +16,7 @@ description: 烈焰声音数据
 | 19166 | flamewave\_start\_3p\_enemy |  |
 {% endtab %}
 
-{% tab title="Flamewall" %}
+{% tab title="火墙" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 19093 | explo\_flamewall\_impact\_1p |  |
@@ -30,7 +30,7 @@ description: 烈焰声音数据
 | 19160 | flamewall\_start\_3p\_enemy |  |
 {% endtab %}
 
-{% tab title="Incendiary Trap" %}
+{% tab title="燃烧陷阱" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 20419 | incendiary\_trap\_burn |  |
@@ -44,7 +44,7 @@ description: 烈焰声音数据
 | 20427 | incendiary\_trap\_land |  |
 {% endtab %}
 
-{% tab title="Thermite Launcher" %}
+{% tab title="T-203铝热剂发射器" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 29570 | weapon\_thermitelauncher\_fire\_1p |  |
@@ -58,7 +58,7 @@ description: 烈焰声音数据
 | 29578 | weapon\_thermitelauncher\_projectile\_3p |  |
 {% endtab %}
 
-{% tab title="Thermal Shield" %}
+{% tab title="热能护罩" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 19577 | heat\_shield\_1p\_end |  |
@@ -78,7 +78,7 @@ description: 烈焰声音数据
 | 19591 | heat\_shield\_stop\_projectile |  |
 {% endtab %}
 
-{% tab title="Thermite" %}
+{% tab title="铝热剂" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 19223 | flesh\_thermiteburn\_1p\_vs\_3p |  |
@@ -104,11 +104,11 @@ description: 烈焰声音数据
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |
-| **Flame Core** |  |  |
-| Flame Core | flamewave\_start\_1p |  |
-| Flame Core | flamewave\_start\_3p |  |
-| Flame Core | Flesh.ThermiteBurn\_3P\_vs\_1P |  |
-| Flame Core | Flesh.ThermiteBurn\_1P\_vs\_3P |  |
+| **火焰核心** |  |  |
+| 火焰核心 | flamewave\_start\_1p |  |
+| 火焰核心 | flamewave\_start\_3p |  |
+| 火焰核心 | Flesh.ThermiteBurn\_3P\_vs\_1P |  |
+| 火焰核心 | Flesh.ThermiteBurn\_1P\_vs\_3P |  |
 | **Meteor Cannon** |  |  |
 | Meteor Cannon | Weapon\_bulletCasings.Bounce |  |
 | Meteor Cannon | weapon\_thermitelauncher\_fire\_1p |  |

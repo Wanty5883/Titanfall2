@@ -1,12 +1,12 @@
 ---
-description: 'Pistols sound values, does include primary weapon pistols.'
+description: 手枪声音数据，包括主武器手枪。
 ---
 
-# Secondary & Pistol
+# 副手武器及手枪
 
 {% tabs %}
-{% tab title="Mozambique" %}
-| ID | Value | Note |
+{% tab title="SA-3莫桑比克" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 30248 | wpn\_mozambique\_projectile\_burnout |  |
 | 30249 | wpn\_mozambique\_projectile\_crackle | Projectile sound |
@@ -23,8 +23,8 @@ description: 'Pistols sound values, does include primary weapon pistols.'
 | 30260 | wpn\_mozambique\_reload\_tech\_fr50\_1p |  |
 {% endtab %}
 
-{% tab title="P2016" %}
-| ID | Value | Note |
+{% tab title="汉蒙P2016" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 |  | pistol\_dryfire |  |
 |  | wpn\_pickup\_Pistol\_1P |  |
@@ -80,8 +80,8 @@ description: 'Pistols sound values, does include primary weapon pistols.'
 | 28999 | weapon\_p2011\_unequip |  |
 {% endtab %}
 
-{% tab title="RE-45" %}
-| ID | Value | Note |
+{% tab title="RE-45自动" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 23513 | re45auto\_lowammo\_shot1 |  |
 | 29282 | weapon\_re45auto\_ads\_in |  |
@@ -175,8 +175,8 @@ description: 'Pistols sound values, does include primary weapon pistols.'
 | 29281 | weapon\_re45\_reload\_magpull |  |
 {% endtab %}
 
-{% tab title="Smart Pistol" %}
-| ID | Value | Note |
+{% tab title="智慧手枪" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 25872 | smartpistol\_lowammo\_shot1 |  |
 | 25873 | smartpistol\_lowammo\_shot2 |  |
@@ -234,8 +234,8 @@ description: 'Pistols sound values, does include primary weapon pistols.'
 | 25852 | skyway\_scripted\_smartpistolrun\_yellow\_spark |  |
 {% endtab %}
 
-{% tab title="Wingman" %}
-| ID | Value | Note |
+{% tab title="B3小帮手" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 29753 | weapon\_wingman\_ads\_in |  |
 | 29754 | weapon\_wingman\_ads\_out |  |
@@ -288,8 +288,8 @@ description: 'Pistols sound values, does include primary weapon pistols.'
 | 30406 | wpn\_wingman\_reload\_open |  |
 {% endtab %}
 
-{% tab title="Wingman Elite" %}
-| ID | Value | Note |
+{% tab title="小帮手精英" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 29755 | weapon\_wingman\_elite\_fire\_1p |  |
 | 29756 | weapon\_wingman\_elite\_fire\_1p\_intlg |  |

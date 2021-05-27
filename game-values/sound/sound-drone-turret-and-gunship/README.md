@@ -1,6 +1,6 @@
 # 声音-无人机和NPC
 
-## Drones, Turret & Gunship
+## 无人机，炮塔和武装直升机
 
 | Sound name | Value | Note |
 | :--- | :--- | :--- |

@@ -5,8 +5,8 @@ description: 狙击步枪声音数据
 # 狙击步枪
 
 {% tabs %}
-{% tab title="DMR" %}
-| ID | Value | Note |
+{% tab title="长弓DMR" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 18930 | dmr\_lowammo\_shot1 |  |
 | 18931 | dmr\_lowammo\_shot2 |  |
@@ -55,8 +55,8 @@ description: 狙击步枪声音数据
 | 28413 | weapon\_dmr\_unequip |  |
 {% endtab %}
 
-{% tab title="Double Take" %}
-| ID | Value | Note |
+{% tab title="D-2双发狙击步枪" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 2057 | bullets\_doubletake\_nearmiss |  |
 | 2058 | bullets\_doubletake\_nearmiss\_aigenerated |  |
@@ -107,8 +107,8 @@ description: 狙击步枪声音数据
 | 30171 | wpn\_doubletake\_reload\_MechMagRelease\_fr18\_1p |  |
 {% endtab %}
 
-{% tab title="Kraber" %}
-| ID | Value | Note |
+{% tab title="克莱博-AP狙击步枪" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 20701 | kraber\_lowammo\_shot1 |  |
 | 20702 | kraber\_lowammo\_shot2 |  |
@@ -158,10 +158,10 @@ description: 狙击步枪声音数据
 {% endtab %}
 {% endtabs %}
 
-| Sound name | Value | Note |
+| 声音名称 | 数值 | 注解 |
 | :--- | :--- | :--- |
-| DMR | large\_shell\_drop |  |
-| Double Take | wpn\_pickup\_Rifle\_1P |  |
-| Double Take | large\_shell\_drop |  |
-| Kraber | large\_shell\_drop |  |
+| 长弓DMR | large\_shell\_drop |  |
+| D-2双发狙击步枪 | wpn\_pickup\_Rifle\_1P |  |
+| D-2双发狙击步枪 | large\_shell\_drop |  |
+| 克莱博-AP狙击步枪 | large\_shell\_drop |  |
 

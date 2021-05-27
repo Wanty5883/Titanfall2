@@ -1,8 +1,8 @@
 ---
-description: Arc Cannon sound values.
+description: 电弧炮声音数据。
 ---
 
-# Sound - Arc Cannon
+# 声音-电弧炮
 
 | ID | Value | Note |
 | :--- | :--- | :--- |

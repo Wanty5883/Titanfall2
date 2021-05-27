@@ -1,12 +1,12 @@
 ---
-description: Grenadier sound value
+description: 榴弹枪声音数据
 ---
 
-# Grenadier
+# 榴弹枪
 
 {% tabs %}
-{% tab title="Cold War" %}
-| ID | Value | Note |
+{% tab title="EM-4冷战榴弹枪" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 2106 | coldwar\_lowammo\_shot1 |  |
 | 2107 | coldwar\_lowammo\_shot2 |  |
@@ -68,8 +68,8 @@ description: Grenadier sound value
 | 30117 | wpn\_ColdWar\_ReloadEmpty\_Mech\_Pt04\_fr106\_1p |  |
 {% endtab %}
 
-{% tab title="EPG" %}
-| ID | Value | Note |
+{% tab title="能源炮-1" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 19071 | epg\_lowammo\_shot1 |  |
 | 19072 | epg\_lowammo\_shot2 |  |
@@ -122,8 +122,8 @@ description: Grenadier sound value
 | 30198 | wpn\_EPG\_reload\_mech\_fr74\_1p |  |
 {% endtab %}
 
-{% tab title="SMR" %}
-| ID | Value | Note |
+{% tab title="响尾蛇飞弹" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 25540 | sidewinder\_lowammo\_shot1 |  |
 | 25541 | sidewinder\_lowammo\_shot2 |  |
@@ -169,8 +169,8 @@ description: Grenadier sound value
 | 29465 | weapon\_sidewinder\_unequip |  |
 {% endtab %}
 
-{% tab title="Softball" %}
-| ID | Value | Note |
+{% tab title="R-6P垒球榴弹枪" %}
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 19136 | explo\_softball\_impact\_1p |  |
 | 19137 | explo\_softball\_impact\_1p\_int |  |

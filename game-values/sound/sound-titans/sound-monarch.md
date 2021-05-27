@@ -5,7 +5,7 @@ description: 帝王声音数据
 # 声音-帝王
 
 {% tabs %}
-{% tab title="Chaingun" %}
+{% tab title="XO-16" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 2046 | bullets\_ampedxo16nearmiss |  |
@@ -92,11 +92,11 @@ description: 帝王声音数据
 | 30425 | xo16\_lowammo\_shot1 |  |
 {% endtab %}
 
-{% tab title="Rearm" %}
+{% tab title="武装" %}
 
 {% endtab %}
 
-{% tab title="Energy Syphon" %}
+{% tab title="能量吸收" %}
 | ID | Value | Note |
 | :--- | :--- | :--- |
 | 19061 | EnergySyphon\_ShieldGive |  |
@@ -120,15 +120,15 @@ description: 帝王声音数据
 | 28463 | Weapon\_EnergySyphon\_Lvl2\_Fire\_3P\_Enemy |  |
 {% endtab %}
 
-{% tab title="Rocket" %}
+{% tab title="火箭弹群" %}
 
 {% endtab %}
 
-{% tab title="Tracking Rockets" %}
+{% tab title="多目标飞弹" %}
 
 {% endtab %}
 
-{% tab title="Upgrade Core" %}
+{% tab title="升级核心" %}
 
 {% endtab %}
 {% endtabs %}

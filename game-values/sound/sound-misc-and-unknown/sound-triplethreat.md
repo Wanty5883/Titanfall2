@@ -2,9 +2,9 @@
 description: Triplethreat sound values.
 ---
 
-# Sound - Triplethreat
+# 声音- Triplethreat
 
-| ID | Value | Note |
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 19145 | explo\_triplethreat\_impact\_1p |  |
 | 19146 | explo\_triplethreat\_impact\_3p |  |
