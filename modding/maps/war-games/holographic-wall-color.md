@@ -6,23 +6,23 @@ description: >-
 
 # 全息墙颜色
 
-## Preparation
+## 前期准备
 
 For this guide you will need a VPK tool and a text editor.
 
 {% page-ref page="../../../how-to-start-modding/modding-introduction/modding-tools/" %}
 
-## Used VPK
+## 使用到的VPK文件
 
 {% hint style="success" %}
 * englishclient\_mp\_wargames.bsp.pak000\_dir.vpk
 {% endhint %}
 
-## Extracting
+## 解包
 
 {% page-ref page="../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
 
-## Editing <a id="editing"></a>
+## 编辑 <a id="editing"></a>
 
 Navigate to this location in your extracted folder.
 
@@ -47,7 +47,7 @@ These material files leave quite lot of possibilities, you could replace texture
 
 {% page-ref page="../../../information/textures/colors/color-and-texture-info.md" %}
 
-### Examples
+### 样例
 
 ![As mentioned in the bulleted list these are orange arrows with &quot;$color2&quot; changed to &quot;\[3 0 1.65\]&quot;](../../../.gitbook/assets/titanfall-2-screenshot-2021.02.05-16.18.02.39.png)
 
@@ -71,7 +71,7 @@ These material files leave quite lot of possibilities, you could replace texture
 
 ![Clear walls](../../../.gitbook/assets/titanfall-2-screenshot-2021.02.16-17.26.26.82.png)
 
-## Repacking
+## 重新打包
 
 {% page-ref page="../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
 

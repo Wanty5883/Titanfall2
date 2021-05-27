@@ -1,10 +1,10 @@
 ---
-description: Guide to edit network menus details and color
+description: 编辑网络菜单详细信息和颜色指南
 ---
 
 # 网路-菜单
 
-## Preparation
+## 前期准备
 
 In this guide you will have to edit res files. You can use text editor for that such as Atom, NotePad++, VIM and many other ones would work fine.
 
@@ -19,7 +19,7 @@ Copy these file and paste them in an empty folder somewhere else:
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
 
-## Unpacking <a id="unpacking"></a>
+## 解包 <a id="unpacking"></a>
 
 Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
 
@@ -27,7 +27,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 ​[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 
-## Editing
+## 编辑
 
 To edit the Network menu interface text color, go to this location
 
@@ -41,7 +41,7 @@ Is possible to hide some labels by editing this string _`visible 1`_ to 0. The l
 
 ![](https://github.com/Wanty5883/Titanfall2/raw/master/picture/community_info.PNG)
 
-### Creator name
+### 网路创建人名字
 
 Find the following code block
 
@@ -89,7 +89,7 @@ Find the following code block
 
 You can edit this string _`fgcolor_override "87 151 219 128"`_. The 3 first value are RGB and the 4th one is the opacity.
 
-### Net Worth
+### 网路净值
 
 Find the following code block
 
@@ -138,7 +138,7 @@ Find the following code block
 
 You can edit this string _`fgcolor_override "x x x x"`_. The 3 first value are RGB and the 4th one is the opacity.
 
-### Members
+### 成员
 
 Find the following code block
 
@@ -184,7 +184,7 @@ Find the following code block
 
 You can edit this string _`fgcolor_override "x x x x"`_. The 3 first value are RGB and the 4th one is the opacity.
 
-### Membership
+### 会员
 
 Find the following code block
 
@@ -230,7 +230,7 @@ Find the following code block
 
 You can edit this string _`fgcolor_override "x x x x"`_. The 3 first value are RGB and the 4th one is the opacity.
 
-### Happy hour
+### 欢乐时光
 
 Find the following code block
 
@@ -278,7 +278,7 @@ Find the following code block
 
 You can edit this string _`fgcolor_override "x x x x"`_. The 3 first value are RGB and the 4th one is the opacity.
 
-### Wins
+### 胜利
 
 Find the following code block
 
@@ -324,7 +324,7 @@ Find the following code block
 
 You can edit this string _`fgcolor_override "x x x x"`_. The 3 first value are RGB and the 4th one is the opacity.
 
-### Kills
+### 击杀
 
 Find the following code block
 
@@ -370,7 +370,7 @@ Find the following code block
 
 You can edit this string _`fgcolor_override "x x x x"`_. The 3 first value are RGB and the 4th one is the opacity.
 
-### Attitude
+### 分类
 
 Find the following code block
 
@@ -416,7 +416,7 @@ Find the following code block
 
 You can edit this string _`fgcolor_override "x x x x"`_. The 3 first value are RGB and the 4th one is the opacity.
 
-### Category
+### 网路类别
 
 Find the following code block
 
@@ -462,7 +462,7 @@ Find the following code block
 
 You can edit this string _`fgcolor_override "x x x x"`_. The 3 first value are RGB and the 4th one is the opacity.
 
-### Mics Policy
+### 麦克风使用偏好
 
 Find the following code block
 
@@ -508,7 +508,7 @@ Find the following code block
 
 You can edit this string _`fgcolor_override "x x x x"`_. The 3 first value are RGB and the 4th one is the opacity.
 
-### Visibility
+### 可见度
 
 Find the following code block
 
@@ -554,7 +554,7 @@ Find the following code block
 
 You can edit this string _`fgcolor_override "x x x x"`_. The 3 first value are RGB and the 4th one is the opacity.
 
-### Languages
+### 语言
 
 Find the following code block
 
@@ -600,7 +600,7 @@ Find the following code block
 
 You can edit this string _`fgcolor_override "x x x x"`_. The 3 first value are RGB and the 4th one is the opacity.
 
-### Regions
+### 区域
 
 Find the following code block
 
@@ -648,7 +648,7 @@ Find the following code block
 
 You can edit this string _`fgcolor_override "x x x x"`_. The 3 first value are RGB and the 4th one is the opacity.
 
-### Message of the day
+### 今日信息
 
 Find the following code block
 
@@ -699,7 +699,7 @@ Find the following code block
 
 You can edit this string _`fgcolor_override "x x x x"`_. The 3 first value are RGB and the 4th one is the opacity.
 
-### Title
+### 网路名称
 
 Find the following code block
 
@@ -746,13 +746,13 @@ Find the following code block
 
 For now, this isn't the right ones. They are only supposition, any information about this label would be welcome ! You can edit this string _`fgcolor_override "x x x x"`_. The 3 first value are RGB and the 4th one is the opacity.
 
-## Hidden label
+## 隐藏标签
 
 At the end of this file, we can see 2 hidden labels which contain death \(opposite of kills\) and losses \(opposite of wins\).
 
 For now, set the value \*`visible 1`\*show it, but both those stats show 0, I guess there is no server track on this stats. They are also by default at the same place then label "Wins" & "Kills", need the right _`wide`_ & _`tall`_ value in labels. Any information would be welcome !
 
-## Repacking <a id="repacking"></a>
+## 重新打包 <a id="repacking"></a>
 
 ​[How to repack VPK files proprely ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)​
 

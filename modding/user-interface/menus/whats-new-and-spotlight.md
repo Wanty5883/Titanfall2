@@ -1,25 +1,25 @@
 ---
-description: Removing the whats new and spotlight sections for a cleaner menu
+description: 删除新闻和聚焦部分以获得更简洁的菜单
 ---
 
-# Whats new and Spotlight
+# 新闻和聚焦
 
-![A screenshot of the main menu showing the Whats New and Spotlight elements](../../../.gitbook/assets/snapshot0023.jpg)
+![&#x4E3B;&#x83DC;&#x5355;&#x7684;&#x5C4F;&#x5E55;&#x622A;&#x56FE;&#x663E;&#x793A;&#x4E86;&#x4EC0;&#x4E48;&#x662F;&#x65B0;&#x95FB;&#x548C;&#x805A;&#x7126;&#x7684;&#x90E8;&#x5206;](../../../.gitbook/assets/snapshot0023.jpg)
 
-## Tools
+## 工具
 
-You will need the:
+你需要到这些:
 
 * [Titanfall VPK Tool](../../../how-to-start-modding/modding-introduction/modding-tools/)
 * [VPK renamer / move \(Optional\)](../../../how-to-start-modding/modding-introduction/modding-tools/)
 
-## Whats New
+## 新闻
 
-Up in the top right hand corner there is a UI element showing off the new elements of the game. The assets for the UI element are located in the games **rpack** files which we dont have access to, however we can remove it since the game is no longer receiving updates.
+在主界面的右上角有一个UI元素，展示了游戏的更新内容。UI元素的资源位于我们无法修改的游戏**rpack**文件中，但是我们可以删除它，因为游戏不再会有更新。。。
 
-To remove the UI element you will need to unpack `englishclient_frontend.bsp.pak000_dir.vpk` and edit the file `\resource\ui\menus\panels\mainmenu.res`.
+为了删除UI元素，你需要解包`englishclient_frontend.bsp.pak000_dir.vpk` ，并编辑 `\resource\ui\menus\panels\mainmenu.res`文件。
 
-Find the `WhatsNew` section in the file:
+在文件中找到 `WhatsNew` 部分代码块
 
 ```text
 WhatsNew
@@ -37,37 +37,37 @@ WhatsNew
     }
 ```
 
-Set visible to 0:
+设置visible为0:
 
 ```text
 visible					0
 ```
 
-You can now repack your VPK and you will no longer see the **Whats New** UI element.
+你现在可以重新打包VPK，你将不再看到**新闻**UI元素。
 
-## Spotlight
+## 聚焦
 
-On the right side of the screen you will 3 UI elements grouped together:
+在主菜单右侧，你将看到3个UI元素组合在一起：
 
 * News - Frontier News Network: Operation Endeavor
 * Rendy Gaming fires away in his Kraber G100 Montage.
 * Check out the latest weapon skins
 
-To remove these elements you will need to unpack `englishclient_frontend.bsp.pak000_dir.vpk` and edit the file `\resource\ui\menus\panels\spotlight.res`.
+为了删除这些UI元素，你需要解包 `englishclient_frontend.bsp.pak000_dir.vpk` ，并编辑 `\resource\ui\menus\panels\spotlight.res`文件。
 
-There are 3 sections in this file:
+此文件中有3个代码块部分需要修改：
 
 * `SpotlightLarge`
 * `SpotlightSmall0`
 * `SpotlightSmall1`
 
-To hide each section set `visible` to 0
+为了隐藏UI元素，请把 `visible` 都设置为0。
 
 ```text
 visible					0
 ```
 
-You can now repack your VPK and you will no longer see the **Spotlight** elements.
+你现在可以重新打包VPK，你将不再看到聚焦的UI元素。
 
-![A screenshot of the main menu with both Whats New and Spotlight removed](../../../.gitbook/assets/snapshot0022.jpg)
+![&#x4E3B;&#x83DC;&#x5355;&#x7684;&#x5C4F;&#x5E55;&#x622A;&#x56FE;&#xFF0C;&#x65B0;&#x95FB;&#x548C;&#x805A;&#x7126;&#x90FD;&#x5DF2;&#x5220;&#x9664;](../../../.gitbook/assets/snapshot0022.jpg)
 

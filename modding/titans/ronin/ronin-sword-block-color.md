@@ -1,6 +1,6 @@
 # 剑封颜色
 
-## Preparation
+## 前期准备
 
 In this guide you will have to edit vmt files. I would recommend you use the software [VTFEdit](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools) to edit them. You can use text editor for that such as Atom, NotePad++, VIM and many other ones would work fine.
 
@@ -15,7 +15,7 @@ Copy these file and paste them in an empty folder somewhere else:
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
 
-## Unpacking
+## 解包
 
 Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
 
@@ -23,7 +23,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 [How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
 
-## Editing
+## 编辑
 
 For editing the Sword Block FX color, go to this directory:
 
@@ -33,11 +33,11 @@ Open the file _`titan_sword_block_fx.vmt`_ and find this string _`"$color2" "[1 
 
 [Here](https://noskill.gitbook.io/titanfall2/information/color-and-texture-info#usdlayercolor) more information about that value and how to edit the way you like.
 
-### Example
+### 样例
 
 {% embed url="https://gfycat.com/livelyequaldevilfish" %}
 
-## Repacking
+## 重新打包
 
 [How to repack VPK files proprely ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
 

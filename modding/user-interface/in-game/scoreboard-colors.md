@@ -1,6 +1,6 @@
 # 计分板背景
 
-## Preparation
+## 前期准备
 
 In this guide you will have to edit text. Simply use a text editor for that such as Atom, NotePad++, VIM or one that you prefer.
 
@@ -15,7 +15,7 @@ Copy these file and paste them in an empty folder somewhere else:
 
 For the next step you'll need the [Titanfall VPK Tool](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools), a program which allows you to open and repack Titanfall VPK files. 
 
-## Unpacking <a id="unpacking"></a>
+## 解包 <a id="unpacking"></a>
 
 Now that these files have been backed up, navigate to your game folder and open this file:
 
@@ -23,7 +23,7 @@ Now that these files have been backed up, navigate to your game folder and open 
 
 ​[How to extract VPK files properly?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 
-## Editing
+## 编辑
 
 To edit the colors, go to this location:
 
@@ -35,7 +35,7 @@ Colors of individual elements are stored as a vector variable which is made out 
 
 {% page-ref page="../../../information/textures/colors/" %}
 
-### Enemy's color
+### 敌人的颜色
 
 Lines: 255, 256 and 257; 1st line corresponds to red, 2nd to green,  3rd to blue
 
@@ -49,7 +49,7 @@ Example, values used were R=200 G=0 B=0:
 
 ![Note that the Badge color also changed](../../../.gitbook/assets/enemies.png)
 
-### Team's color
+### 友军的颜色
 
 Lines: 250, 251 and 252; 1st line corresponds to red, 2nd to green,  3rd to blue
 
@@ -63,7 +63,7 @@ Example, values used were R=0 G=255 B=50:
 
 ![Note that the Badge color also changed](../../../.gitbook/assets/team.png)
 
-### Party's color
+### 派对的颜色
 
 Lines: 265, 266 and 267; 1st line corresponds to red, 2nd to green,  3rd to blue
 
@@ -77,7 +77,7 @@ Example, values used were R=255 G=111 B=0:
 
 ![](../../../.gitbook/assets/party.png)
 
-### Your name's color
+### 你自己名字的颜色
 
 Lines: 260, 261 and 262; 1st line corresponds to red, 2nd to green,  3rd to blue
 
@@ -91,7 +91,7 @@ Example, values used were R=255 G=50 B=255:
 
 ![](../../../.gitbook/assets/local.png)
 
-## Repacking <a id="repacking"></a>
+## 重新打包 <a id="repacking"></a>
 
 After following [this guide](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack), rename:
 

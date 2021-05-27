@@ -1,18 +1,18 @@
 ---
-description: Add additional custom key bindings to the Key Bindings menu
+description: 在“按键绑定”菜单添加其他自定义按键绑定
 ---
 
 # 按键设置
 
-![Edited Key Bindings menu with Titanfall 2 speedrunning section](../../../../.gitbook/assets/snapshot0015.jpg)
+![&#x7F16;&#x8F91;&#x5B8C;&#x6210;&#x5E26;Titanfall 2 speedrunning&#x90E8;&#x5206;&#x7684;&#x6309;&#x952E;&#x7ED1;&#x5B9A;&#x83DC;&#x5355;](../../../../.gitbook/assets/snapshot0015.jpg)
 
-## File Location
+## 文件位置
 
-The Key Bindings menu file is located  in `englishclient_frontend.bsp.pak000_dir.vpk`**,** under `scripts\kb_act.lst`
+按键绑定菜单文件在 `englishclient_frontend.bsp.pak000_dir.vpk`**，**位于 `scripts\kb_act.lst`
 
-## How it works
+## 工作原理
 
-Each line of the file corresponds to either a title/section which looks like:
+文件的每一行对应于这之中的标题/节点，其代码如下：
 
 ```text
 "blank"					"=========================="
@@ -20,7 +20,7 @@ Each line of the file corresponds to either a title/section which looks like:
 "blank"					"=========================="
 ```
 
-or  a bind to an action:
+或是为按键绑定到动作：
 
 ```text
 "+attack"				    "#FIRE"
@@ -29,34 +29,34 @@ or  a bind to an action:
 "+reload"				    "#RELOAD"
 ```
 
-## Creating your own
+## 自定义按键
 
-To add your Key Bindings, first open the file and create a new section \(You don't have to but it makes it a lot neater\). Copy the code block above with the 3 lines that start with `"blank"` and create your own title for the section.
+要添加自定义按键绑定，首先打开文件并创建一个新的节点菜单（不必这样做，但这样会使它看起来更整洁）。 复制以 `"blank"` 开头的三行代码块，并创建自己的标题。
 
-Underneath the new section you've created, add a new line and we'll add our own new key bind setting. 
+在你创建的新节点下面，添加新的行，我们将在这里添加自定义按键绑定设置。
 
-Each setting is set out with the Titanfall/Source variable on the left and a Key Bind Title on the right.
+每个设置的左边是泰坦陨落/起源变量，右边是按键绑定的标题。
 
 ```text
 "+jump"        "Jump"
 ```
 
-## Fun Commands
+## 有趣的指令
 
-Give yourself low gravity
+低重力效果
 
 ```text
 "toggle sv_gravity 200 750"    "Low Gravity"
 ```
 
-Create and load a save point
+创建和加载存档
 
 ```text
 "save quicksave"    "Create Quicksave"
 "load quicksave"    "Load Quicksave"
 ```
 
-Slow down or speed up the game
+放慢或加快游戏速度
 
 ```text
 "toggle host_timescale .25 1"      "0.25x Speed"

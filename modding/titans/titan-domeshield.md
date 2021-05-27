@@ -62,7 +62,7 @@
 Color can be changed. If the texture is black then the color applied in your [material file](../../information/textures/valve-material-type-vmt.md) will be accurate. If the texture is not black, then the color won't be accurate as the starting point is no longer the set color. Find more information on this [page](../../information/textures/colors/) about colors in material files.
 {% endhint %}
 
-### Example
+### 样例
 
 ![domeshield texture replaced with doge. &quot;$color2&quot; &quot;\[5 5 5\]&quot;](../../.gitbook/assets/titanfall-2-screenshot-2020.03.11-19.41.56.68.png)
 

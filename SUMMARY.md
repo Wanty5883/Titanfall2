@@ -136,7 +136,7 @@
     * [暂停菜单模糊](modding/user-interface/menus/pause-menu-blur.md)
     * [主菜单背景](modding/user-interface/menus/menu-background.md)
     * [网路-菜单](modding/user-interface/menus/network-menus.md)
-    * [Whats new and Spotlight](modding/user-interface/menus/whats-new-and-spotlight.md)
+    * [新闻和聚焦](modding/user-interface/menus/whats-new-and-spotlight.md)
     * [设置](modding/user-interface/menus/settings/README.md)
       * [控制](modding/user-interface/menus/settings/controls.md)
       * [按键设置](modding/user-interface/menus/settings/key-bindings.md)

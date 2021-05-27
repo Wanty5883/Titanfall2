@@ -4,7 +4,7 @@ description: Change the Skybox of different maps
 
 # 地图-天空背景
 
-## Preparation
+## 前期准备
 
 Navigate to your folder and find this VPK file:
 
@@ -24,7 +24,7 @@ You will need the Titanfall VPK Tool, a program which allows you to open and rep
 
 {% page-ref page="../../how-to-start-modding/modding-introduction/modding-tools/" %}
 
-## Unpacking
+## 解包
 
 Now that these files have been backed up and everything is installed. Navigate to your game folder and open this file:
 
@@ -32,7 +32,7 @@ Now that these files have been backed up and everything is installed. Navigate t
 
 {% page-ref page="../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
 
-## Editing
+## 编辑
 
 Navigate to this location in your extracted folder
 
@@ -82,7 +82,7 @@ Renaming other [skyboxes ](../../information/textures/skybox-basics/)to the exis
 
 The reason behind this not working is because the textures are not applied via a VPK. Every map has a different VPK. Textures that are not normally on the map stay missing because the script applying them does not apply them there. Once we figured out how to edit `.rpak` files changing actual [skyboxes ](../../information/textures/skybox-basics/)becomes a possibility. 
 
-## Examples
+## 样例
 
 Obviously this wasn't made to be the skybox for normal maps. So there are little errors all around the place.
 
@@ -104,7 +104,7 @@ Obviously this wasn't made to be the skybox for normal maps. So there are little
 
 ![Complex with &quot;mat\_sky\_color 0.5 0.5 0.5;mat\_sun\_color 0.5 0.5 0.5&quot;](../../.gitbook/assets/desktop-screenshot-2020.03.05-17.20.31.33.png)
 
-## Repacking
+## 重新打包
 
 {% page-ref page="../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
 

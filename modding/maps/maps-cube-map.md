@@ -4,7 +4,7 @@ description: 编辑立体地图的步骤指南
 
 # 地图-立体地图
 
-## Preparation
+## 前期准备
 
 Navigate to your folder and find this VPK file:
 
@@ -25,7 +25,7 @@ Make sure to make a Backup of every single Map you edit, Since every map has it'
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
 
-## Unpacking
+## 解包
 
 Now that these files have been backed up and everything is installed. Navigate to your game folder and open this file:
 
@@ -33,7 +33,7 @@ Now that these files have been backed up and everything is installed. Navigate t
 
 [How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
 
-## Editing
+## 编辑
 
 Navigate to this location in your extracted folder
 
@@ -76,13 +76,13 @@ You are now done making a custom cubemap. You now need to replace it with the va
 Making backup of the original texture is very handy !
 {% endhint %}
 
-## Skybox list
+## 天空盒列表
 
 {% hint style="info" %}
 Here is some ready to use skyboxes: [Skybox list](https://github.com/Wanty5883/Titanfall2/tree/master/picture/skyboxes)
 {% endhint %}
 
-## Repacking
+## 重新打包
 
 [How to repack VPK files proprely?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)
 

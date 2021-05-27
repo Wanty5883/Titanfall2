@@ -1,19 +1,19 @@
 ---
-description: Add additional settings and toggles to the Controls menu
+description: 向“控制”菜单添加其他设置和切换功能
 ---
 
 # 控制
 
 ![The Titanfall 2 Controls settings menu with the added sv\_cheats highlighted](../../../../.gitbook/assets/snapshot0014.jpg)
 
-## File Location
+## 文件位置
 
 The Controls menu file is located  in `englishclient_frontend.bsp.pak000_dir.vpk`**,**  and is made up of two files:
 
 * `resource\ui\menus\controls.menu`
 * `scripts\vscripts\ui\menu_controls.nut`
 
-## How it works
+## 工作原理
 
 Each settings toggle that resides in the Controls menu and other menu's like Advanced HUD are layed out like this:
 
@@ -62,7 +62,7 @@ list
 }
 ```
 
-## Adding Descriptions
+## 添加说明
 
 In the `menu_controls.nut` file, create a new line close to the other settings to keep them organised an easy to come back to later. You will now need to setup a new button for your setting variable:
 
@@ -97,7 +97,7 @@ SetConVarToDefault( "sv_cheats" )
 
 `sv_cheats` being the Source Variable that you added.
 
-## Avoiding Errors
+## 避免错误
 
 When adding new settings, make sure you adjust the `pin_to_sibling`, `navUp`, and `navDown` of the previous and next setting, otherwise you can overlap them.
 

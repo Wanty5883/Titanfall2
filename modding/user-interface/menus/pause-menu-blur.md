@@ -1,10 +1,10 @@
 ---
-description: How to change the blur in the single player pause menu
+description: 如何更改单人暂停菜单中的模糊背景效果
 ---
 
 # 暂停菜单模糊
 
-The blur you can see in the background of the pause menu is controlled by a couple of ConVars
+在“暂停”菜单的背景中可以看到的模糊由几个ConVars控制
 
 ```text
 // Default Values
@@ -13,7 +13,7 @@ mat_blur_g 0.7
 mat_blur_b 0.7
 ```
 
-These control the colour of the blur in Red, Green, and Blue values
+它们使用红、绿和蓝色来控制中模糊的颜色效果
 
 ![](../../../.gitbook/assets/sp_boomtown_start0015.jpg)
 
@@ -22,12 +22,12 @@ These control the colour of the blur in Red, Green, and Blue values
 mat_blur_desaturate 0.4
 ```
 
-This controls the saturation of the colour
+这可以控制颜色的饱和度
 
 ```text
 // Default Values
 r_blurmenubg 1
 ```
 
-This value turns the background blur on and off
+该值可打开和关闭背景模糊
 

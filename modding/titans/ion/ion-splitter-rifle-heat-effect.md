@@ -1,6 +1,6 @@
 # 镭射炮-蓄力颜色
 
-## Preparation
+## 前期准备
 
 In this guide you will have to edit vmt files. I would recommend you to use the software [VTFEdit](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools) to edit them. You can use text editor for that such as Atom, NotePad++, VIM and many other ones would work fine.
 
@@ -15,7 +15,7 @@ Copy these file and paste them in an empty folder somewhere else:
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
 
-## Unpacking <a id="unpacking"></a>
+## 解包 <a id="unpacking"></a>
 
 Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
 
@@ -23,7 +23,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 ​[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 
-## Editing
+## 编辑
 
 To edit the following weapon heat effect you need to find their .vmt files. Further in this guide you will find the different file locations and details about what modifications can be done.
 
@@ -31,7 +31,7 @@ You can edit the heat color, [here](https://wanty5883.gitbook.io/titanfall2/info
 
 You can change the heat effect texture to any other texture in the game. Some texture would work, some wouldn't look good and some other texture would just not work. More info [here](https://wanty5883.gitbook.io/titanfall2/information/color-and-texture-info#usdtexture2-and-usdbasetexture) how to edit the texture value.
 
-### Enable heat effect
+### 启用蓄力效果
 
 For editing Splitter Rifle heat effect, go to this location.
 
@@ -63,7 +63,7 @@ That's the line you need to uncomment. Be sure to not uncomment `//Get the Fract
 
 After doing this the heat effect is now enable on the Splitter Rifle.
 
-### Continuous heat effect
+### 连续蓄力效果
 
 On the Splitter Rifle is possible to get continuous heat effect.
 
@@ -90,11 +90,11 @@ $layercolor2 "[2 0 2]" //Pink
 }
 ```
 
-### Example
+### 样例
 
 {% embed url="https://gfycat.com/sickflashygermanshepherd" %}
 
-## Repacking <a id="repacking"></a>
+## 重新打包 <a id="repacking"></a>
 
 ​[How to repack VPK files proprely ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 
