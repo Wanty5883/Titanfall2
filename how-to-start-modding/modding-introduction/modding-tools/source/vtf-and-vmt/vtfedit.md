@@ -4,7 +4,7 @@ description: VTFEdit是包含在VTFLib中函数的GUI前端。
 
 # VTFEdit
 
-**VTFEdit**是包含在[VTFLib](https://developer.valvesoftware.com/wiki/VTFLib)（一个LGPL开源编程库）中函数的GUI前端。VTFEdit是VTFTool的继承者，由  [Neil "Jed" Jedrzejewski](https://developer.valvesoftware.com/wiki/User:Wunderboy) 和 [Ryan "Nemesis" Gregg](https://developer.valvesoftware.com/wiki/User:Nem)所编写的。
+**VTFEdit**是包含在[VTFLib](https://developer.valvesoftware.com/wiki/VTFLib)（一个LGPL开源编程库）中函数的GUI前端。VTFEdit是VTFTool的继承者，由  [Neil "Jed" Jedrzejewski](https://developer.valvesoftware.com/wiki/User:Wunderboy) 和 [Ryan "Nemesis" Gregg](https://developer.valvesoftware.com/wiki/User:Nem)所编写。
 
 VTFEdit本身完全由Ryan编写，是一个基于.NET的GUI工具，用于创建和转换 [VTF](https://developer.valvesoftware.com/wiki/VTF) 和 [VMT](https://developer.valvesoftware.com/wiki/VMT) 文件。 它是一个非常强大的工具，可以将各种格式的文件转换为所有起源纹理格式的VTF格式。
 

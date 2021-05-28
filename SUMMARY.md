@@ -27,12 +27,12 @@
         * [WinBSPC](how-to-start-modding/modding-introduction/modding-tools/source/bsp/winbspc.md)
         * [WinBSPZip](how-to-start-modding/modding-introduction/modding-tools/source/bsp/winbspzip.md)
       * [Hammer](how-to-start-modding/modding-introduction/modding-tools/source/hammer/README.md)
-        * [Displacement Luxel Density](how-to-start-modding/modding-introduction/modding-tools/source/hammer/displacement-luxel-density.md)
+        * [位移Luxel密度](how-to-start-modding/modding-introduction/modding-tools/source/hammer/displacement-luxel-density.md)
       * [VTF & VMT](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/README.md)
         * [VTFEdit](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtfedit.md)
         * [Vtex](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtex/README.md)
           * [Vtex - Compile Parameters](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtex/vtex-compile-parameters.md)
-          * [Vtex - Troubleshooting](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtex/vtex-troubleshooting.md)
+          * [Vtex - 疑难解答](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtex/vtex-troubleshooting.md)
 
 ## 信息 <a id="information"></a>
 
