@@ -31,7 +31,7 @@
       * [VTF & VMT](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/README.md)
         * [VTFEdit](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtfedit.md)
         * [Vtex](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtex/README.md)
-          * [Vtex - Compile Parameters](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtex/vtex-compile-parameters.md)
+          * [Vtex - 编译参数](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtex/vtex-compile-parameters.md)
           * [Vtex - 疑难解答](how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtex/vtex-troubleshooting.md)
 
 ## 信息 <a id="information"></a>

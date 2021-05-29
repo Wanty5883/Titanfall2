@@ -1,10 +1,10 @@
-# Vtex - Compile Parameters
+# Vtex - 编译参数
 
-[Vtex](./) can accept a list of additional compile parameters during its execution. These parameters are optional, but sometimes necessary to get a good result.
+[Vtex](./) 可以在其执行期间加入附加的编译参数列表。这些参数是可选的，用来最优化编译效果。
 
-The list is written in the form of a simple text \(.txt\) document with the same name as the [targa \(.tga\)](../../../../../../information/file-format/truevision-graphics-adapter-tga.md) image to compile, and it should be put in the same folder as it, namely in the `SteamApps/common/gamefolder/materialsrc/` folder, where gamefolder is the game folder of the current game \(`cstrike`/`dod`/`hl2`/`hl2mp`\).
+编译参数列表是一个简单的与相对应需要编译的 [targa \(.tga\)](../../../../../../information/file-format/truevision-graphics-adapter-tga.md) 图像名称相同的文本文件\(.txt\) ，列表和需要编译的图像需要放在同一文件夹，即 `SteamApps/common/gamefolder/materialsrc/` ，其中`gamefolder`是你游戏的根目录。
 
-Example usage from one of the files for the console background:
+控制台后台文件的用法示例：
 
 ```text
 nonice 1
@@ -12,11 +12,11 @@ nolod 1
 nomip 1
 ```
 
-## Parameters
+## 参数
 
 ### allmips
 
-Force texture to use all mipmaps \(No minimum mipmap\).
+强制纹理使用所有mipmap\(没有最小的mipmap\)。
 
 ### alphatest\_hifreq\_threshhold
 
@@ -24,19 +24,19 @@ Force texture to use all mipmaps \(No minimum mipmap\).
 
 ### alphatest
 
-To do: What do these do?
+以上参数用法暂时不明
 
 ### alphatodistance
 
-Creates alpha-to-distance textures.
+创建距离阿尔法（alpha-to-distance）纹理。
 
 ### anisotropic
 
-Force at least Anisotropic filtering on the compiled texture.
+强制需要编译的纹理被施加各向异性过滤（Anisotropic filtering）。
 
 ### bumpscale
 
-Sets texture's bumpscale value, which controls normal map intensity.
+设置纹理的凹凸贴图强度值，控制法线贴图明显度的强弱。
 
 ### clamps
 
@@ -44,23 +44,23 @@ Sets texture's bumpscale value, which controls normal map intensity.
 
 ### clampu
 
-Do not allow the texture to wrap in the S, T, or U coordinate space, respectively. This is most often used for sprites that are not tiled.
+不允许纹理在S、T或U坐标空间中被包裹。这通常用于未平铺的界面。
 
 {% hint style="info" %}
- **Tip:**When a texel is requested that is outside of the texture, one of two techniques is used: **Clamping** limits the texel to the texture size, moving it to the nearest if it is more than the texture size. **Wrapping** makes the texel move back into the texture by increments \(each to size of the texture\). Wrapping causes a texture to be repeated; clamping causes it to be in one spot only.
+**提示：**当一个texel在纹理之外被需要时，我们会使用一下两种技术中的一种来应对：**压缩\(CLAMPING\)** texel以限制纹理大小，如果纹理大小过大则适应为最近大小的可用texel。**包装（WRAPPING\)** 使texel适应为正常纹理的增量（不同大小进行不同情况的适应）。包装会导致纹理重复，压缩只会存在于一个位置。
 {% endhint %}
 
 ### distancespread
 
-How much to spread alpha when creating alpha-to-distance textures.
+控制创建距离阿尔法（alpha-to-distance）纹理时阿尔法的分布情况。
 
 ### dudv
 
-Texture is a Du/Dv map.
+纹理是一个 Du/Dv 贴图。
 
 ### dxt5
 
- Force [DXT5](https://developer.valvesoftware.com/wiki/DirectX_Texture_compression_5) compression, even if the source has no alpha channel.
+ 强制 [DXT5](https://developer.valvesoftware.com/wiki/DirectX_Texture_compression_5) 压缩，即使原图没有阿尔法通道。
 
 ### maxheight
 
@@ -70,79 +70,81 @@ Texture is a Du/Dv map.
 
 ### maxwidth\_360
 
-Sets maximum texture size for "High" \(mat\_picmip 0\) texture quality. Negative mat\_picmip settings will go above this limit.
+为“最高质量”\(mat\_picmip 0\)的纹理质量设置最大的纹理大小。负值的mat\_picmip设置将会超过此限制。
 
 ### mipblend
 
- **To do:** Figure out how to make this work
+功能不明
 
 ### nocompress
 
-Do not use compression on this texture. Useful for textures with fine gradation \(like light halos\).
+不在这个纹理上使用格式压缩。着对于具有精细渐变的纹理\(如光晕\)非常有用。
 
 ### nodebug
 
-No debug override.
+调试时不会覆盖。
+
+
 
 ### nolod
 
-Do not use lower resolution versions of this texture regardless of texture quality \(mat\_picmip\) settings. Used for non-world graphics such as HUD art.
+无论纹理质量\(mat\_picmip\)设置如何，都不使用此纹理的低分辨率版本，此设置用于非世界图形，如HUD艺术。
 
 ### nomip
 
-Do not use mipmapping for this texture. Used for materials like skyboxes and menu backgrounds.
+使纹理不使用mipmapping。一般用于材质，如天空盒和菜单背景。
 
 {% hint style="warning" %}
- **Bug:** The MIPs are still generated and loaded! Use [VTFEdit](../vtfedit.md) to reduce texture footprint.
+ **Bug:** 有时mipmap仍然会加载！请使用 [VTFEdit](../vtfedit.md) 来减少纹理占用。
 {% endhint %}
 
 ### nonice
 
-Do not use NICE filtering on this texture’s lower mip-levels.
+不在此纹理较低的mip级上使用NICE过滤。
 
 ### normal
 
-Texture is a normal map. Implies nonice, so all normals will be kept normalized during mipmap generation.
+此纹理将作为一个法线贴图。意味着不会有nice过滤，所以在生成mipmap时所有法线将保持不变。
 
 {% hint style="info" %}
- **Note:**Automatically applies when the texture name ends with `_normal`
+**注解**：当纹理名称以 `_normal` 结尾时自动执行此命令。
 {% endhint %}
 
 ### normalalphatodudvluminance
 
-Use alpha channel as luminance when converting from normal maps to Du/Dv maps
+当从法线贴图转换为Du/Dv贴图时，使用alpha通道作为亮度贴图
 
 ### normaltodudv
 
-Converts the texture to a Du/Dv map.
+将纹理转换为Du/Dv贴图。
 
 ### numchannels
 
-How many channels to import from source file. \(1 = Red only, 2 = Red and Green, 3 = RGB, 4 = RGB + Alpha\) Omitted color channels are replaced with full color intensity.
+控制从源文件中导入通道的数量。\(1 = Red only, 2 = Red and Green, 3 = RGB, 4 = RGB + Alpha\)没有囊括的颜色通道将被替换为全颜色强度。
 
 ### oneovermiplevelinalpha
 
-Alpha channel fades out as mipmaps get smaller.
+Alpha通道衰减，且mipmap变得更小。
 
 ### pfm
 
-Source texture is a portable floatmap. Used for HDR.
+纹理将作为一个可用于HDR的可移植的浮点贴图。
 
 ### pfmscale \(float\)
 
-Used to scale floatmap intensity.
+用于控制浮点贴图的强度。
 
 ### pointsample
 
-Do not filter this texture in-game.
+不在游戏中过滤这个纹理。
 
 ### premultcolorbyoneovermiplevel
 
-Color channel fades out as mipmaps get smaller. Used when converting normal maps to Du/Dv maps.
+颜色通道随着mipmap变小而衰减。在将法线贴图转换为Du/Dv贴图时使用。
 
 ### procedural
 
-Texture is procedural.
+程序化纹理。
 
 ### reduce
 
@@ -150,19 +152,19 @@ Texture is procedural.
 
 ### reducey
 
-Downscales on both, only X, or only Y axes, respectively. Value must be a power of two, and tells VTEX how to reduce the dimensions \(2 = half size, 4 = quarter size, 8 = eighth size, etc.\).
+同时缩小X轴和Y轴。当然，缩减值必须是2的幂，这将告诉VTEX减少维度的量\(2 =一半大小，4 =四分之一大小，8 =八分之一大小，等等\)。
 
 ### rendertarget
 
-Texture is a rendertarget.
+纹理将作为一个渲染对象。
 
 ### singlecopy
 
-To do: What does this do??
+暂时不造~
 
 ### skybox
 
-Used for compiling [skyboxes](../../../../../../information/textures/skybox-basics/). This assures the edges match between each facet.
+用于编译[天空盒](../../../../../../information/textures/skybox-basics/) 。这将保证天空盒的每个面的边缘都匹配。
 
 ### spheremap\_negz
 
@@ -176,43 +178,43 @@ Used for compiling [skyboxes](../../../../../../information/textures/skybox-basi
 
 ### spheremap\_x
 
-To do: Are these functional?
+这个也不造~
 
 ### ssbump
 
-Used for [self-shadowing bump maps](../../../../../../information/textures/bump-map/usdssbump.md)\($ssbump\).
+用于[自阴影凹凸贴图（self-shadowing bump maps      $ssbump\)](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-MameUdNnvaNTbr4dtZX/v/chinese/information/textures/bump-map/usdssbump/@drafts).
 
 {% hint style="info" %}
- **Note:**Automatically applies when the texture name ends with `_height-ssbump`
+ **注解：**当纹理名称以 `_height-ssbump` 结尾时自动执行此命令。
 {% endhint %}
 
 ### startframe \(integer\)
 
 ### endframe \(integer\)
 
-Used for animated textures. Textures must be named as texture000, texture001, texture002, etc. The startframe defines the beginning frame and the endframe defines the ending frame. Up to 1,000 frames are allowed.
+用于动画纹理。纹理格式必须命名为texture000, texture001, texture002等。startframe定义了开始帧，endframe定义了结束帧。最多允许包含1000帧。
 
 ### stripalphachannel
 
-Used to tell Vtex to ignore the source texture's alpha channel.
+使Vtex忽略源纹理的alpha通道。
 
 ### stripcolorchannel
 
-Used to create a texture with no color data.
+用于创建没有颜色数据的纹理。
 
 ### trilinear
 
-Force at least Trilinear filtering on the compiled texture.
+强制对编译后的纹理施加至少三重线性过滤。
 
 ### volumetexture
 
-Creates a volumetric texture.
+创建一个体积纹理。
 
-### Using .psd 'file info' parameters
+### 使用 .psd 'file info' 参数
 
-Textures compiled from [.psd files](../../../../../../information/file-format/psd-photoshop-document.md) can have command line parameters saved into the [.psd](../../../../../../information/file-format/psd-photoshop-document.md) directly. To do this, use the 'File Info' menu in Photoshop and add your [Vtex ](./)commands into the "description" text field. These parameters will get evaluated by [Vtex ](./)when the [.psd file](../../../../../../information/file-format/psd-photoshop-document.md) is compiled.
+从[.psd文件](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-MameUdNnvaNTbr4dtZX/v/chinese/information/file-format/psd-photoshop-document/@drafts)编译的纹理可以将命令行参数直接保存到[.psd](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-MameUdNnvaNTbr4dtZX/v/chinese/information/file-format/psd-photoshop-document/@drafts)文件中。请使用Photoshop中的“文件信息（File Info）”菜单来达成这一点，并将你的Vtex命令添加到“描述（description）”文本区域。当[编译.psd](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-MameUdNnvaNTbr4dtZX/v/chinese/information/file-format/psd-photoshop-document/@drafts)文件时，这些参数将由[Vtex](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-MameUdNnvaNTbr4dtZX/v/chinese/how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtex/@drafts)自动计算。
 
-Here's an example of usage for creating a flashlight that won't tile:
+以下是一个不会平铺照射的的闪光灯的的创建案例:
 
 ```text
 clamps 1;
@@ -221,6 +223,6 @@ border 0;
 ```
 
 {% hint style="info" %}
-Source: [https://developer.valvesoftware.com/wiki/Vtex\_compile\_parameters](https://developer.valvesoftware.com/wiki/Vtex_compile_parameters)
+源文件链接： [https://developer.valvesoftware.com/wiki/Vtex\_compile\_parameters](https://developer.valvesoftware.com/wiki/Vtex_compile_parameters)
 {% endhint %}
 
