@@ -19,7 +19,6 @@ description: >-
 | :--- | :--- |
 | **CSLeader** | 3D modeling |
 | **Dinorush** | Datamining & proofreading |
-| **Dr.GetGood** | Modding research |
 | **EladMLG** | Modding research |
 | **Jules** | Modding research |
 | **ModernGXI** | Modding research |
