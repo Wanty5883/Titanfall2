@@ -6,11 +6,17 @@ description: How to play around with VPKs without messing everything up
 
 ## How to backup & extract VPK's properly?
 
-When you extract [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)files, you need a directory where the files will be extracted to. This folder **should not** be inside your game directory. Before we start modding, you should create a folder to keep track of your modding files. I would recommend for you to create a folder with an easy name like `Titanfall 2 modding` on your desktop or another place you can access it easily. In this example we will use the path `C:\Users\<username>\Documents`. 
+When you extract [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)archives, you need a directory where the files will be extracted to. This folder **should not** be inside your game directory. Before we start modding, you should create a folder to keep track of your modding files. It is recommended for you to create a folder with an easy name like `Titanfall 2 modding` on your desktop or another place you can access it easily. In this example we will use the path `C:\Users\<username>\Documents`. 
 
 ```text
 C:\Users\<username>\Documents\Titanfall 2 modding
 ```
+
+{% hint style="info" %}
+It is recommended to follow the modding environment setup as well
+{% endhint %}
+
+{% page-ref page="how-to-setup-a-modding-environment.md" %}
 
 Once you have created this folder I recommend creating a sub-folder called `"Backup"` dedicated for, you guessed it: backups. \(Yay!\)
 
@@ -28,13 +34,23 @@ The VPK Tool looks like this:
 
 ![](../../.gitbook/assets/image%20%2811%29.png)
 
-Click on the 1st icon or press `CTRL + O`. Navigate to your game folder and open the VPK that is mentioned in the guide.
+Click on the 1st icon or press `CTRL + O`.
+
+![](../../.gitbook/assets/vpktool_open.png)
+
+Navigate to your game folder and open the VPK that is mentioned in the guide.
 
 {% hint style="warning" %}
-**Only extract** [**VPK** ](../../documentation/file-format/vpk-valve-pak-file.md)**files from the game directory. If you try to extract** [**VPK** ](../../documentation/file-format/vpk-valve-pak-file.md)**files from anywhere else, errors are caused!**
+**Only extract VPK archive from the game directory. If you don't, make sure to have in the same folder all the subsequent VPK archive as shown in the next screenshot.**
 {% endhint %}
 
-Once you have loaded the [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)into the tool, click on the 5th icon to extract the VPK. I recommend you put each extracted [VPK](../../documentation/file-format/vpk-valve-pak-file.md) in a folder with the same or a similar name as the [VPK](../../documentation/file-format/vpk-valve-pak-file.md). This makes it easier to manage when you extract files from different VPK's. We will use a folder named `englishclient_mp_common`.
+![](../../.gitbook/assets/vpkarchive_subsequent.png)
+
+Once the VPK archive is loaded in the VPK tool, extract all the files using the icon shown in the next screenshot.
+
+![](../../.gitbook/assets/vpktool_extractall.png)
+
+It is recommended to put each extracted [VPK](../../documentation/file-format/vpk-valve-pak-file.md) in a folder with the same the [VPK](../../documentation/file-format/vpk-valve-pak-file.md). This makes it easier to manage when you extract files from different VPK's. We will use a folder named `englishclient_mp_common`.
 
 After you have extracted the VPK, open the folder where you extracted your files to and delete the _`extracted_logs`_ folder. You can now follow the guide to start modding.
 

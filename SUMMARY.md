@@ -8,6 +8,7 @@
 
 * [Modding introduction](how-to-start-modding/modding-introduction/README.md)
   * [How to backup, extract & repack](how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
+  * [How to setup a modding environment](how-to-start-modding/modding-introduction/how-to-setup-a-modding-environment.md)
   * [Modding tools](how-to-start-modding/modding-introduction/modding-tools/README.md)
     * [Source](how-to-start-modding/modding-introduction/modding-tools/source/README.md)
       * [Game Directory](how-to-start-modding/modding-introduction/modding-tools/source/game-directory.md)
