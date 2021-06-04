@@ -8,6 +8,7 @@
 
 * [修改指南](how-to-start-modding/modding-introduction/README.md)
   * [如何备份，解包和重新打包](how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
+  * [如何配置修改用一个工作环境](how-to-start-modding/modding-introduction/how-to-setup-a-modding-environment.md)
   * [修改工具](how-to-start-modding/modding-introduction/modding-tools/README.md)
     * [资源](how-to-start-modding/modding-introduction/modding-tools/source/README.md)
       * [游戏目录](how-to-start-modding/modding-introduction/modding-tools/source/game-directory.md)
