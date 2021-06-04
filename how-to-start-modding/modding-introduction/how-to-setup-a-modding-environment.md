@@ -2,7 +2,7 @@
 
 In order to perform some modding methods, it is important to have a good modding environment.
 
-If you are new to modding, it is recommended to get started with the basic method, and as you get more used to modding, the advanced approach might suits you better. But do not worry, the advanced approach is a more in-depth method of the basic one, so no need to start everything from scratch !
+If you are new to modding, it is recommended to get started with the basic method, and as you get more used to modding, the advanced approach might suits you better. But do not worry, the advanced approach is a more in-depth method of the basic one, so no need to start everything from scratch!
 
 ## Basic
 
@@ -52,15 +52,15 @@ Titanfall 2\tools
 {% endtab %}
 {% endtabs %}
 
-As a result, your Titanfall 2 modding folder should look like as in the following screenshot. The purpose of each folders will be explained in details.
+As a result, your Titanfall 2 modding folder should look like what is shown in the following screenshot. The purpose of each folders will be explained in detail.
 
 ![](../../.gitbook/assets/moddingenv_basicfolders.png)
 
 ### Folder - Backup
 
-As the name of the folder suggest, it will be used to store backup of your vpk archives. To perform a backup of a specific VPK archive, the main file and all it's subsequent \(typo here\) will need to be copied over the backup folder.
+As the name of the folder suggests, it will be used to store backups of your VPK archives. To perform a backup of a specific VPK archive, the main file and all it's subsequent \(typo here\) will need to be copied over the backup folder.
 
-A example of a typical backup of the common VPK archive.
+An example of a typical backup of the common VPK archive.
 
 {% tabs %}
 {% tab title="Struct" %}
@@ -109,11 +109,11 @@ Titanfall 2\backup\englishclient_mp_common.bsp.pak000_dir.vpk
 
 ### Folder - extracted
 
-This folder will be the main folder for extracted VPK files, where the different file to be edited will be in.
+This folder will be the main folder for extracted VPK archives, where the files to be edited will be in.
 
-As the common and frontend VPK are the most common to work on, they have their own folder, single player \(levels\) and multiplayer \(maps\) VPK will have their own sub folder.
+As the common and frontend VPK are the most common to work on, they have their own folder, single player \(levels\), and multiplayer \(maps\). The VPK will have it's own sub folder.
 
-In the example following, the folders `common`, `frontend` and `angel city`, would be populated. You don't need to create all the folders inside them, that would be done as their respective VPK archive are extracting.
+In the example following, the folders `common`, `frontend` and `angel city`, would be populated. You don't need to create all the folders inside them, that would be done as their respective VPK archive is extracting.
 
 {% tabs %}
 {% tab title="Struct" %}
@@ -194,7 +194,7 @@ Titanfall 2\tools
 
 ### Folder - repak
 
-The folder used for the output of the VPK tool while repacking a VPK archive. It is a bad practice to repack directly into your game directory. For VPK use of the VPK tool, check:
+The folder used for the output of the VPK tool while repacking a VPK archive. It is a bad practice to repack directly into your game directory. For use of the VPK tool, check:
 
 {% page-ref page="how-to-backup-extract-and-repack.md" %}
 
@@ -233,7 +233,7 @@ Titanfall 2\tools\VPK tool
 
 ## Advanced
 
-In addition to the basic environment, some additionnal folders will be made.
+In addition to the basic environment, some other folders will be made.
 
 {% tabs %}
 {% tab title="Struct" %}
@@ -260,17 +260,17 @@ Titanfall 2\tools
 
 ### Folder - extracted
 
-Using git for your extracted VPK files allow you to have different set of VPK \(main, dev, research, etc.\) while keeping things under a decent amount of sub folders.
+Using git for your extracted VPK files allow you to have different set of VPK \(main, dev, research, etc.\) while keeping things under a decent amount of subfolders.
 
 {% embed url="https://en.wikipedia.org/wiki/Git" %}
 
-Git is a powerful tool that can be used in numerous way, your CLI, dedicated software, your code editor of choice, etc.
+Git is a powerful tool that can be used in numerous ways. Your CLI, dedicated software, your code editor of choice, etc.
 
-For the common and frontend VPK, having a separate copy, vanilla \(not modded\) that will stay vanilla is a time saver, comparing files, restore certain files, etc.Git can be used for a extracted VPK. Idealy, setting up git would be done for the most used VPK, but that is up to personal preference to adapt each users workflow.  
+For the common and frontend VPK, having a separate copy, vanilla \(not modded\) that will stay vanilla is a time saver. Comparing files, restoring certain files, etc. Git can be used for a extracted VPK. Idealy, setting up Git would be done for the most used VPK, but that is up to personal preference to adapt each users workflow.  
 Each VPK folder that has git setup has a extra sub folder so the .git folder is not included while repacking a VPK. The VPK tool does not have the ability to exclude files / folder.
 
 {% hint style="warning" %}
-The \*.vpk in the folder structure aren't VPK archive. They are folders name.
+The \*.vpk in the folder structure isn't the VPK archive. It is the folders name.
 {% endhint %}
 
 ```text
@@ -405,15 +405,15 @@ move /y pak000_dir.vpk "C:\Program Files (x86)\Origin Games\Titanfall 2\vpk\engl
 {% endtabs %}
 
 {% hint style="warning" %}
-Be careful while using the scripts. If you launch a script for the wrong VPK, it will lead to your game crashing.  
-The script has no way to tell the difference between the correct VPK to rename automatically. With that said, if mistakes are done, it can easily be fixed using your backup files.
+Be careful when using the scripts. If you launch a script for the wrong VPK, it will lead to your game crashing.  
+The script has no way to tell the difference between the correct VPK to rename automatically. With that said, if mistakes are made, it can easily be fixed using your backup files.
 {% endhint %}
 
 ### Folder - resource
 
-Depending of what you are doing in modding, you might want to have dedicated folder for some type of game assets.
+Depending on what you are doing in modding, you might want to have dedicated folders for some type of game assets.
 
-A typical setup would look like that
+A typical setup would look like this:
 
 {% tabs %}
 {% tab title="Struct" %}
