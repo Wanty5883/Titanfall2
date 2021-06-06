@@ -1,10 +1,10 @@
 ---
-description: Guide to modify your pulse effect
+description: 修改脉冲刀效果指南
 ---
 
 # 脉冲刀范围特效
 
-## Preparation
+## 前期准备
 
 In this guide you will have to edit vmt and vtf files. I would recommend to use the software [VTFEdit](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools) to edit them.To edit vmt files you can use any text editor such as Atom, NotePad++, VIM and many more, however you need [VTFEdit](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools) and an image editing software for the vtf files. Alternatively you can use VTF plugins for photo editing software such as Gimp, Photoshop and many more.
 
@@ -19,7 +19,7 @@ Copy these files and paste them into an empty folder somewhere else:
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. You can find that [here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools).
 
-## Unpacking
+## 解包
 
 Now that your files have been backed up and everything is installed, navigate to your game folder and open this file:
 
@@ -27,7 +27,7 @@ Now that your files have been backed up and everything is installed, navigate to
 
 ​[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
 
-## Editing
+## 编辑
 
 To edit the pulse effect you'll need to find the .vmt and .vtf files. You will find the different file locations details about what to modify in the different files.
 
@@ -35,7 +35,7 @@ You can edit the texture of the pulse effect, [here](https://noskill.gitbook.io/
 
 You will also need a graphic editor, [here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools) are some tools that you can use for graphics changes.
 
-### Editing the texture
+### 修改纹理
 
 To edit the texture of the pulse effect go to this location.
 
@@ -50,7 +50,7 @@ Choose a texture, you can check [here](../../assets/texture-library.md). With yo
 
 For the parameters you can apply the same as the original texture or you can make your own and test things around! Feel free to send us your results on our Discord server. We might add what you obtained in the wiki! ![](../../.gitbook/assets/08c0a077780263f3df97613e58e71744.svg) 
 
-### Applying the texture
+### 应用纹理
 
 To change the texture of the pulse effect to the one just created, go to this location.
 
@@ -74,7 +74,7 @@ Change `black` to whatever you named your [`.vtf`](../../information/textures/va
 Color can be changed. If the texture is black then the color applied in your [material file](../../information/textures/valve-material-type-vmt.md) will be accurate. If the texture is not black, then the color won't be accurate as the starting point is no longer the set color. Find more information on this [page](../../information/textures/colors/) about colors in material files.
 {% endhint %}
 
-### Example
+### 样例
 
 {% tabs %}
 {% tab title="Fractal" %}
@@ -100,7 +100,7 @@ Color can be changed. If the texture is black then the color applied in your [ma
 
 
 
-## Repacking
+## 重新打包
 
 ​[How to repack VPK files proprely ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 

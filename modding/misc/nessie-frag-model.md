@@ -1,10 +1,10 @@
 ---
-description: Turn your frag grenades or any ordinance into Nessie's
+description: 把你的手榴弹或任何投掷物变成尼斯湖水怪
 ---
 
 # 尼斯湖水怪模型
 
-## Preparation <a id="preparation"></a>
+## 前期准备 <a id="preparation"></a>
 
 In this guide you will have to edit vmt files. I would recommend you to use the software [VTFEdit](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools) to edit them. You can use text editor for that such as Atom, NotePad++, VIM and many other ones would work fine.
 
@@ -19,7 +19,7 @@ Copy these file and paste them in an empty folder somewhere else:
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
 
-## Unpacking <a id="unpacking"></a>
+## 解包 <a id="unpacking"></a>
 
 Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
 
@@ -27,7 +27,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 ​[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 
-## Editing
+## 编辑
 
 You can now open the folder you created that contains the extracted VPK and head to this directory:
 
@@ -49,7 +49,7 @@ to:
 
 **"models/nessy\_doll.mdl"**
 
-## Repacking <a id="repacking"></a>
+## 重新打包 <a id="repacking"></a>
 
 ​[How to repack VPK files properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 
@@ -63,7 +63,7 @@ Place both of the renamed files back into your game directory and then launch Ti
 
 > Origin Games\Titanfall2\vpk\
 
-## Result
+## 结果展示
 
 eh...ill do it later ;\).....[maybe](https://gfycat.com/bestfilthykid)
 

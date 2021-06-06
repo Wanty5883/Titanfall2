@@ -1,10 +1,10 @@
 ---
-description: Guide to edit texture on Marvin chest screen
+description: 马文机器人胸部显示屏纹理修改指南
 ---
 
 # 马文机器人-胸部显示屏
 
-## Preparation <a id="preparation"></a>
+## 前期准备 <a id="preparation"></a>
 
 In this guide you will have to edit vmt files. I would recommend you to use the software [VTFEdit](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools) to edit them. You can use text editor for that such as Atom, NotePad++, VIM and many other ones would work fine.
 
@@ -19,7 +19,7 @@ Copy these file and paste them in an empty folder somewhere else:
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
 
-## Unpacking <a id="unpacking"></a>
+## 解包 <a id="unpacking"></a>
 
 Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
 
@@ -27,7 +27,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 ​[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 
-## Editing
+## 编辑
 
 To edit marvin screen chest, go to this location
 
@@ -37,7 +37,7 @@ The file _`marvin_face_happy.vtf`_ and / or _`marvin_face_sad`_ can be replaced 
 
 [How to edit animated texture color](https://noskill.gitbook.io/titanfall2/information/color-and-texture-info#how-to-edit-animated-texture-color)
 
-## Repacking <a id="repacking"></a>
+## 重新打包 <a id="repacking"></a>
 
 ​[How to repack VPK files proprely ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 

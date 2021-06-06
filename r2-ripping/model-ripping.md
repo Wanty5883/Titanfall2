@@ -4,7 +4,7 @@ description: How To Rip Game Models With Textures into blender
 
 # 导出模型
 
-## Required Software
+## 所需软件
 
 * Blender
   * Blender Source Tool - For importing models into blender
@@ -19,7 +19,7 @@ Check down bellow for the tools page where all the link are provided
 
 {% page-ref page="../how-to-start-modding/modding-introduction/modding-tools/" %}
 
-## Getting The Models
+## 找到模型文件
 
 First, we need to actually obtain the models. You can do this by extracting this VPK file you can learn how to extract VPKs
 
@@ -49,7 +49,7 @@ Once you've decompiled the model into the folder of your choice, we need to open
 
 ![Locate your add-on and install it as shown.](../.gitbook/assets/adding-the-addon.gif)
 
-## Importing The Models
+## 导入模型
 
 Next, we need to import the models using blender source tools. This can easily be done by clicking on `File > import`, and importing the `.qc` file as shown
 
@@ -63,7 +63,7 @@ As you can see, it has addons equipped, such as the proscreen. We can delete thi
 
 ![](../.gitbook/assets/deleting-the-proscreen.gif)
 
-## Texturing The Model
+## 编辑模型纹理
 
 Finally, we can begin to texture our model, this is perhaps the most tedious step, so buckle up
 
@@ -95,7 +95,7 @@ Link them up using the visual guide above
 
 ![](../.gitbook/assets/adding-the-nodes.gif)
 
-## Congrats!
+## 祝贺！
 
 Once its all textured up, your model should look like this, congrats!
 

@@ -1,14 +1,14 @@
 ---
-description: Change the look of your Multiplayer Ticks
+description: 改变你多人模式炸蛛的外观
 ---
 
 # 模型-炸蛛
 
-## Results
+## 结果展示
 
 {% embed url="https://gfycat.com/regalshrilldaddylonglegs" %}
 
-## Preparation <a id="preparation"></a>
+## 前期准备 <a id="preparation"></a>
 
 Navigate to your folder and find this VPK file:
 
@@ -21,7 +21,7 @@ Copy these file and paste them in an empty folder somewhere else:
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
 
-## Unpacking <a id="unpacking"></a>
+## 解包 <a id="unpacking"></a>
 
 Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
 
@@ -29,7 +29,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 ​[How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 
-## Editing
+## 编辑
 
 To modify the tick model to look like the one in Single player, you will need to locate two separate file locations and 4 files total
 
@@ -53,7 +53,7 @@ Once you have renamed the files of the Singleplayer drones, you will need to cop
 
 You will then want to replace your files with the ones already there, once that is done you can close out and proceed to the next step.
 
-## Repacking <a id="repacking"></a>
+## 重新打包 <a id="repacking"></a>
 
 ​[How to repack VPK files proprely ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 

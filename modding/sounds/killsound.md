@@ -1,5 +1,5 @@
 ---
-description: Guide on changing the killsound.
+description: 增加击杀声音指南。
 ---
 
 # 击杀音效
@@ -8,7 +8,7 @@ description: Guide on changing the killsound.
 Too many sounds playing at once may cause stutter. Make your sound as short as possible to prevent multikills from causing stutter.
 {% endhint %}
 
-## Preparation <a id="preparation"></a>
+## 前期准备 <a id="preparation"></a>
 
 Navigate to your folder and find this folder:
 
@@ -21,7 +21,7 @@ Copy these file and paste them in an empty folder somewhere else:
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files and RAD Tools Bik, which lets you convert videos to the BIK format, both found [here.](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
 
-## Unpacking <a id="unpacking"></a>
+## 解包 <a id="unpacking"></a>
 
 Now that these files have been backed up and everything installed, navigate to your game folder and open this file using the VPK tool:
 
@@ -29,7 +29,7 @@ Now that these files have been backed up and everything installed, navigate to y
 
 ​[How to extract VPK's properly?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 
-## Editing
+## 编辑
 
 To add a killsound edit this file using Notepad:
 
@@ -61,7 +61,7 @@ The final product should look like this:
 
 After editing the file save it and move to the next step.
 
-## Creating autoexec.cfg <a id="autoexec"></a>
+## 创建autoexec.cfg <a id="autoexec"></a>
 
 To easily change your killsound you need to use a config file.
 
@@ -84,7 +84,7 @@ After saving add: **`+exec autoexec.cfg`** to your launch options for Titanfall 
 
 ![Origin launch options](../../.gitbook/assets/kuva.png)
 
-## Converting sounds <a id="converting"></a>
+## 转换声音文件 <a id="converting"></a>
 
 To use custom sounds in Titanfall 2 we need to use a workaround and play them as video instead. Use RAD Tools to convert a video with sound to a .bik video. The sound HAS to be a video for it to work.
 
@@ -98,7 +98,7 @@ After binking the video move the new **killsound.bik** to
 Try to trim out as much silence from the start of the file as possible to negate delay.
 {% endhint %}
 
-## Repacking <a id="repacking"></a>
+## 重新打包 <a id="repacking"></a>
 
 ​[How to repack VPK files properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)​
 

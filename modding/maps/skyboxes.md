@@ -52,7 +52,7 @@ To swap skyboxes simply duplicate `planet_blue_sun.mdl` and rename the duplicate
 
 ![delete the original skybox](../../.gitbook/assets/step-3.PNG)
 
-#### Exceptions
+#### 特殊情况
 
 {% hint style="warning" %}
 Some maps have the ending **\_**_**se**_ instead of _**\_sky**_. It is the exact same editing process though.
@@ -66,7 +66,7 @@ Some maps feature an additional file in the directory.  Make sure not to swap th
 ![Don&apos;t touch &quot;timeshift\_warm\_se.mdl&quot;](../../.gitbook/assets/exception-2.PNG)
 {% endhint %}
 
-#### What _**NOT**_ to do
+#### 什么_不_该做
 
 {% hint style="danger" %}
 Removing the Files will result in the disappearing of the skybox.
@@ -86,7 +86,7 @@ The reason behind this not working is because the textures are not applied via a
 
 Obviously this wasn't made to be the skybox for normal maps. So there are little errors all around the place.
 
-**Note that the old scene lights are still present and might look a little out of place on some maps.**
+请注意，原地图的场景灯光仍然存在，并且在某些地图上可能看起来有点不合适。
 
 {% embed url="https://gfycat.com/alldecisivefinwhale" %}
 
@@ -96,7 +96,7 @@ Obviously this wasn't made to be the skybox for normal maps. So there are little
 
 ![Homestead with &quot;mat\_sky\_color 0.5 0.5 0.5;mat\_sun\_color 0.5 0.5 0.5&quot;](../../.gitbook/assets/desktop-screenshot-2020.03.05-17.18.16.92.png)
 
-**Note that the** _**ENTIRE**_ **surrounding scenery disappears.**
+**请注意，**_**整个**_**周围的风景都消失了。**
 
 ![Angel City with &quot;mat\_sky\_color 0 0 0; mat\_sun\_color 0 0 0&quot; ](../../.gitbook/assets/desktop-screenshot-2020.03.04-18.47.58.92.png)
 

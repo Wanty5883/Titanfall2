@@ -1,6 +1,6 @@
 # 漩涡防护罩颜色
 
-## Preparation
+## 前期准备
 
 In this guide you will have to edit .nut files. You can use text editor for that such as Atom, NotePad++, VIM and many other ones would work fine.
 
@@ -15,7 +15,7 @@ Copy these file and paste them in an empty folder somewhere else:
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
 
-## Unpacking
+## 解包
 
 Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
 
@@ -23,7 +23,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 [How to extract VPK's properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
 
-## Editing
+## 编辑
 
 To edit the vortex shield color you need to go this directory
 
@@ -42,7 +42,7 @@ The color code is [rgb ](../../../information/textures/colors/#rgb)0 – 255. Th
 
 It is not recommend you use pure color \(pure pink is 255 0 255 for example\) they are too bright and would be difficult to see through. It is recommended to reduce the value between 170 to 200 instead of 255. You can change the different energy states to the same color, but you won’t know the amount of energy on an enemy Ion vortex shield anymore. I personally use pink, purple then original red.
 
-### Example
+### 样例
 
 {% embed url="https://gfycat.com/uniteddecimaleelelephant" %}
 
@@ -50,7 +50,7 @@ It is not recommend you use pure color \(pure pink is 255 0 255 for example\) th
 
 ![](../../../.gitbook/assets/yellow.png)
 
-## Repacking
+## 重新打包
 
 [How to repack VPK files proprely ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)
 

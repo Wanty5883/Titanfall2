@@ -4,11 +4,11 @@ description: Extract the 3D map model from the Titanfall 2 VPK's
 
 # 导出地图
 
-### Tools
+### 工具
 
 You will need the **Titanfall Map Exporter** python script and the **Titanfall VPK Tool** from the [Modding Tools](../how-to-start-modding/modding-introduction/modding-tools/) page. If you don't have python installed, you will also need that.
 
-### Instructions
+### 介绍
 
 1\) Extract the VPK of the map you want to export with the **Titanfall VPK Tool**.
 
@@ -28,7 +28,7 @@ python /PATHT/TO/THE/SCRIPT/TitanfallMapExporter.py
 
 4\) After the map has been exported, you should find it in the same directory that the python file is in. \(You will need to rename the exported file to have `.obj` at the end.\)
 
-### Completed Results\*
+### 完工作品\*
 
 \*In these screenshots I have scaled down and removed the boxes encasing the levels.
 

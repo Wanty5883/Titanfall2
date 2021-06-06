@@ -1,10 +1,10 @@
 ---
-description: Guide on changing the lobby music.
+description: 更改大厅背景音乐指南。
 ---
 
 # 大厅背景音乐
 
-## Preparation <a id="preparation"></a>
+## 前期准备 <a id="preparation"></a>
 
 Navigate to your folder and find this folder:
 
@@ -17,7 +17,7 @@ Copy these file and paste them in an empty folder somewhere else:
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files and RAD Tools Bik, which lets you convert videos to the BIK format, both found [here.](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
 
-## Unpacking <a id="unpacking"></a>
+## 解包 <a id="unpacking"></a>
 
 Now that these files have been backed up and everything installed, navigate to your game folder and open this file using the VPK tool:
 
@@ -25,7 +25,7 @@ Now that these files have been backed up and everything installed, navigate to y
 
 ​[How to extract VPK's properly?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 
-## Editing
+## 编辑
 
 To add custom music open this file using Notepad:
 
@@ -101,7 +101,7 @@ void function LoopLobbyMusic()
 
 After editing the file save it and move to the next step.
 
-## Creating autoexec.cfg <a id="autoexec"></a>
+## 创建autoexec.cfg <a id="autoexec"></a>
 
 To easily change your music you need to use a config file.
 
@@ -121,7 +121,7 @@ After saving add `+exec autoexec.cfg` to your launch options for titanfall on Or
 
 ![Origin launch options](../../.gitbook/assets/kuva%20%281%29.png)
 
-## Converting music <a id="converting"></a>
+## 转换声音文件 <a id="converting"></a>
 
 To use custom sounds in Titanfall 2 we need to use a workaround and play them as video instead. Use RAD Tools to convert a music video to a .bik video. The music HAS to be as a video for it to work.
 
@@ -139,7 +139,7 @@ You can turn down the original lobby music in the ingame settings.
 
 
 
-## Repacking <a id="repacking"></a>
+## 重新打包 <a id="repacking"></a>
 
 ​[How to repack VPK files properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack#how-to-repack-vpk-files-properly)​
 

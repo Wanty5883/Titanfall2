@@ -2,11 +2,11 @@
 
 Suggestions? Please reach us through Discord! Wiki will be updated as soon as possible.
 
-## Online library
+## 在线库
 
 * [https://www.patterncooler.com/](https://www.patterncooler.com/)
 
-## Custom textures
+## 自定义纹理
 
 Texture listed here are only texture made by the community.
 
