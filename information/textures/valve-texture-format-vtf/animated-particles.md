@@ -1,82 +1,79 @@
 ---
-description: >-
-  Particles are animated by using a material comprised of a collection of
-  materials all built together into a "sheet". This is accomplished by using the
-  mksheet.exe and vtex tools.
+description: 动画粒子是通过一个材料集合建立的“表”构成的动画。您可以通过mksheet.exe和vtex工具来创建动画粒子。
 ---
 
 # 创建动画粒子
 
-Particles are animated by using a material comprised of a collection of materials all built together into a "sheet". This is accomplished by using the **mksheet.exe** and **vtex** tools.
+动画粒子是通过一个材料集合建立的“表”构成的动画。您可以通过**mksheet.exe**和**vtex**工具来创建动画粒子。
 
 ## 创建MKS文件
 
-First, place your materials that will make up the sheet in a separate sub-directory, usually named for the material they will ultimately represent. For instance, the smoke1.vmt is placed under the materials/particles/smoke1 subdirectory.
+首先，请把你想要组成动画粒子表的材料放在一个单独的子文件夹中，一般情况下这些材料都会以他们最终构成的粒子名称命名。例如，smoke1.vmt 就位于 `materials/particles/smoke1 subdirectory` 目录下。
 
-Next, create a file with the same name as the material you'd like to make, and give it an .mks file extension. For the smoke1.vmt, you would call this smoke1.mks.
+接下来，请创建一个和你想要创建的粒子名称相同的文件，并赋予其一个.mks扩展名。比如说，对于smoke1.vmt来说，其应该命名为smoke1.mks
 
-The .mks file defines how the sheet is interpreted when the particle is rendered. You can organize materials in to sequences for playback, define the number of frames and their playback rate, and whether a sequence should loop continuously.
+mks文件定义了粒子动画的工作序列。你可以组织材料以构成你需要播放的序列，并通过其定义帧数和播放速率，以及是否需要循环。
 
-In the .mks file, this looks like:
+下面是一个.mks文件的例子：
 
 ```text
-// First sequence
+// 序列1
 sequence 0
 loop
 frame mymaterial1.tga 1
 frame mymaterial2.tga 1
 
-// Second sequence
+// 序列2
 sequence 1
 frame mymaterial3.tga 1
 
-// multiple image sequence (two images per frame, for multi-texturing)
+// 多重图像序列 (每帧多个图像，用于纹理叠加)
 sequence 2
 frame fire_base0.tga fire_additive0.tga 1
 frame fire_base1.tga fire_additive1.tga 1
 
-// Sequence that combines the alpha channels of two frames at a time
-//  into the alpha and green channels of a frame for a special shader
+// 同时结合两帧alpha通道的序列
+// 包含一个特殊着色器的alpha和绿色通道
 sequence 3
 frame frame0.tga{g=a},frame1.tga{a=a} 1
 frame frame2.tga{g=a},frame3.tga{a=a} 1
 ```
 
-### sequence
+### 序列 sequence
 
-Tells mksheet that the following frames are to be grouped together into a sequence, which can be referred to by number. This allows you to pick different animations or frame groups when the particle is created.
+一个序列可以通过引用一串编号来对mksheet（表文件）中的帧进行排序。这将允许你在创建粒子时选择不同样式的动画以及帧组合。 
 
-### frame
+### 帧 frame
 
-Takes two parameters. The first is the material to use for this frame. The second is the playback rate. A value of 1 tells the renderer to playback this frame for the normal time duration. A value of 0.5 would play the frame for half as long as was specified in the particle definition, and a value of 2 would make the frame render for twice as long.
+制作帧需要两个参数。首先是此帧使用的材质，其次是此帧的播放速率。值为1的回放速率告诉渲染器以正常速度播放，而0.5意为播放时间变为粒子动画标准定义中的一半。同理，当值为2时，播放速度变为原来的两倍。
 
-### loop
+### 循环 loop
 
-Tells the renderer to loop the frames continuously. Without this identifier the renderer would play all the frames in the sequence once and stop on the last frame.
+此参数会高速渲染器去连续循环此帧。如果没有这个参数，渲染器将在播放完此序列中的所有帧之后停止工作。 
 
-Additionally, frames can be packed separately in RGB from Alpha. This takes the alphas from a set of input frames and stores them in the alpha of the output sheet. It takes the RGBs and stores them in the RGB. The interesting thing about this is that each get their own sequences. They also have their frame sizes entirely decoupled, so the RGB's can have 200x200 images while the alpha has 150x150, for example. See Below :
+此外，帧可以分开打包alpha通道和RGB通道。这个操作将会从一组输入帧中获取其的alpha通道信息并将其存储在输出的alpha通道信息表中。同理，RGB信息将会被记录在RGB通道信息表中。有趣的是，每一个输出表都会有其自己的序列，各自的帧大小也是完全不相干的，例如，RGB可以拥有200x200的图像，而alpha可能只有150x150的，下面是一个例子：
 
 ```text
-// Sequence that stores separate frame data in the RGB from the alpha
-//  for dual sequencing combining one set of RGBs and another set of alphas
+// 在RGB和alpha中存储独立帧数据的序列
+// 一个完整的序列由一组rgb和一组alpha序列组合构成
 
-// Packmode sets mksheet to separate the RGB frames from the Alpha ones.
+// 此处，Packmode使mksheet将RGB帧与Alpha帧分开。
 packmode rgb+a
 
-// First Sequence - Looping Alpha Frames
+// 序列1——alpha帧循环
 sequence-a 0
 LOOP
 frame reframedSmokeSprites170_0033.tga 1
 frame reframedSmokeSprites170_0035.tga 1
 
-// Second Sequence - Looping RGB Frames
+// 序列2——RGB帧循环
 sequence-rgb 1
 LOOP
 frame smokeTex0001_341.tga 1
 frame smokeTex0002_341.tga 1
 ```
 
-The output from this .mks file can be seen below. The RGB and alpha channels are shown. Note that the individual frame sizes are all non-power-of-two and that they are different between the RGB and Alpha frames.
+这个.mks文件的输出如下所示。RGB和alpha通道将会分开显示。注意，每个帧的大小都不是2的幂，而且RGB帧和Alpha帧之间完全不相干的。
 
 ![](../../../.gitbook/assets/vista_smoke_rgb.jpg)
 
@@ -84,39 +81,39 @@ The output from this .mks file can be seen below. The RGB and alpha channels are
 
 ## 编译工作表
 
-Once the materials are created, move all of your .tga and .mks files to the `"Steamapps/common/SourceSDK/bin/orangebox/bin"` folder. Inside this directory, create a .bat file, and inside it, write:
+一旦材料被成功创建，所有的.tga和.mks文件将会被移动到`"Steamapps/common/SourceSDK/bin/orangebox/bin"` 文件夹。你可以在这个文件夹中，创建一个.bat批处理文件，并写入：
 
 ```text
 mksheet <sheetname>.mks <sheetname>.sht <sheetname>.tga
 ```
 
-The tool takes one main parameter and two optional ones. The first is the .mks sheet which will define how the .sht and .tga files are created. The second, optional parameter is the .sht file. Finally, the third optional parameter is the .tga file to create, consisting of all the tga files previously specified. The second and third parameters must bear the name of the final material you wish to create. For example, the build call for the smoke1.vmt material would be:
+此工具包含一个主参数和两个可选参数。主要参数是mks表，它将定义如何创建.sht和.tga文件。第一个可选参数是.sht文件，第二个可选参数是要创建的.tga文件，它有先前指定的所有.tga文件组成。第二和第三个参数需要包含你希望最终创建的材料的名称呢过。例如，为了构建一个smke1.vmt，输入语句如下：
 
 ```text
 mksheet smoke1.mks smoke1.sht smoke1.tga
 ```
 
-From this, you will get a/some compiled tga files, a .sht file and a blank .file file. feel free to delete the .file file.
+由此，你将会得到一个或多个编译后的.tga文件，一个.sht文件和一个空白的.file文件。.file文件没有实际作用，你可以选择直接删除。
 
 ## 编译纹理
 
-At this point you should have a .tga file. You can now compile the output .tga file using the vtex.exe tool. Drag both the final .tga file/s, and the .sht file to your game's "materialsrc" file. For Half Life 2, this folder is located at "common/Half-Life 2/hl2/materialsrc". From there, open a new window, and navigate to the location of vtex.exe. Then, simply drag the .sht file onto the vtex.exe. Your finished material will be located in the base materials folder. For Half Life 2, this folder is located at ""common/Half-Life 2/hl2/materials".
+现在，你应该已经生成了一个.tga文件。接下来，你可以使用 vtex.exe 工具来编译这哦.tga文件。拖拽你的.tga文件（一个或者多个）和.sht文件到你游戏的"materialsrc"文件夹。例如，对于半条命2来说，这个文件夹的路径是"common/Half-Life 2/hl2/materialsrc"。完成这步之后，请打开一个新窗口，并定位到 vtex.exe 的目录。然后，只需将.sht文件拖拽到vtex.exe中，即可进行编译。编译完成材料将会位于基本材质文件夹中。例如，对于半条命2来说，这个文件夹的路径是"common/Half-Life 2/hl2/materials"。
 
 {% hint style="warning" %}
-[VTFEdit](../../../how-to-start-modding/modding-introduction/modding-tools/#vtf-and-vmt) probably doesn't support this type of compiling yet.
+[VTFEdit](../../../how-to-start-modding/modding-introduction/modding-tools/#vtf-and-vmt) 目前可能并不支持此形式的编译。
 {% endhint %}
 
 ## 注解
 
-You can use the same image file in multiple sequences \(or multiple times within the same sequence\) without it being duplicated in the output sheet. Examples where you would want to do this are sequences with different timing, particle sequences, looped and non-looped versions of a sequence, etc.
+你可以在多个序列中使用相同的图像文件（或者在同一个序列中多次使用），且不会在输出表中出现重复。可以有实际运用的场景有异步/非同时序列，粒子序列，循环和非循环序列等等。
 
-To the extent practical, you should combine as many sprite textures into one sheet as possible, and use different sequences for the different particle systems \(hmm this implies that we might want named sequences for sanity's sake\). This will allow particle systems to be drawn with fewer state changes or even as one batch.
+从实际角度来说，你应该尽可能地将纹理整合到同一张表中，并为不同的粒子系统使用不同的序列（可能需要你对序列进行命名）。这将允许粒子系统产生较少的状态变化，提高运行效率。
 
 ## 在3ds Max中自动化
 
-You can now export rendered sequences directly into Source with Wall Worm. The system allows you to export IFL \(Image File List\) bitmaps made of TGA bitmaps. Based on the bitmap parameters, the MKS is generated automatically, then sent to mkshheet with the .SHT file and TGA files. See complete documentation at [http://dev.wallworm.com/document/187/exporting\_animated\_particle\_textures.html](http://dev.wallworm.com/document/187/exporting_animated_particle_textures.html)
+你现在可以使用Wall Worm直接将渲染序列导出到起源引擎中。改系统将会允许你导出 IFL \( 图像文件列表 Image File List\)位图所构成的TGA位图。然后根据位图参数自动生成MKS。最后，根据.sht文件和TGA文件一起创建mksheet。详情请参阅此文档： [http://dev.wallworm.com/document/187/exporting\_animated\_particle\_textures.html](http://dev.wallworm.com/document/187/exporting_animated_particle_textures.html)
 
 {% hint style="info" %}
-Source: [https://developer.valvesoftware.com/wiki/Animated\_Particles](https://developer.valvesoftware.com/wiki/Animated_Particles)
+源文档链接： [https://developer.valvesoftware.com/wiki/Animated\_Particles](https://developer.valvesoftware.com/wiki/Animated_Particles)
 {% endhint %}
 

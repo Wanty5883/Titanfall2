@@ -2,14 +2,14 @@
 
 ## RGB
 
-**RGB** stands for **r**ed, **g**reen, **b**lue. In a [TGA](../../file-format/truevision-graphics-adapter-tga.md) or [VTF](../valve-texture-format-vtf/), each pixel of the image is defined by three [bytes](https://developer.valvesoftware.com/wiki/Byte) that define how much red, green, and blue light are added together to produce the color in that pixel. Textures can also have a fourth channel, called [alpha](https://developer.valvesoftware.com/wiki/Alpha), which can store other information for each pixel \(usually opacity\).
+**RGB** 是红，绿，蓝三种颜色的缩写形式。在 [TGA](../../file-format/truevision-graphics-adapter-tga.md) 或 [VTF](../valve-texture-format-vtf/) 中，图像的每个像素由三个可以定义每像素红/绿/蓝叠加含量的[字节](https://developer.valvesoftware.com/wiki/Byte)所定义, 不同的含量可以叠加出不同的颜色。纹理也可以有第四个名为 [alpha](https://developer.valvesoftware.com/wiki/Alpha) 的通道，一般用来为每像素存储其不透明度。
 
-* The three or four separate values for each color are called 'channels'. [Shaders](https://developer.valvesoftware.com/wiki/Shader) in Source can manipulate each channel individually to produce color effects.
-* Within [materials](../valve-material-type-vmt.md), an RGB colour is a [material vector](../material-vector.md).
+* 每种颜色的三/四个单独的数据值一般被称为“通道 channels”。起源引擎中的[着色器](https://developer.valvesoftware.com/wiki/Shader)可以单独操作每个通道以产生不同的颜色效果。 
+* 在[材质](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-Mb557rsibt7WkRMyAMQ/v/chinese/information/textures/valve-material-type-vmt/@drafts)中，RGB颜色是一个[材质矢量](https://app.gitbook.com/@noskill/s/titanfall2/~/drafts/-Mb557rsibt7WkRMyAMQ/v/chinese/information/textures/material-vector/@drafts)。
 
-### RGB Vec
+### RGB 矢量
 
-In the RGB color system, you specify a color in terms of fractions of red, green, and blue, corresponding to how strongly glowing are the tiny red, green, and blue dots of the computer screen. In the RGB scheme, white is the color with a maximum of red, blue, and green \(1, 1, 1\). Black has minimum amounts \(0, 0, 0\). The brightest red is represented by \(1, 0, 0\); that is, it has the full amount of red, no green, and no blue.
+在RGB颜色系统中，你可以根据不同的红、绿、蓝配比来指定某一种颜色，其的值与计算机屏幕上的红、绿、蓝灯珠的发光强度所对应。在RGB方案中，白色表示为`红、绿、蓝（1，1，1）`，而黑色为`红、绿、蓝（0，0，0）`，而某个最亮的颜色值将为表示为三色通道中的某一通道值为1，其余都为0，意味着没有其他颜色。一些颜色参数案例如下所示：
 
 ```text
 vec(1,0,0)         // red
@@ -24,18 +24,18 @@ vec(0,0,0)         // black
 vec(1,1,1)         // white
 ```
 
-Colors may appear differently on different computers, and under different 3D lighting conditions. The named colors above are most likely to display appropriately, because RGB values of 0 or 1 are unaffected by differing color corrections \("gamma" corrections\).
+在不同的电脑以及不同的3D光照条件下，颜色的表现效果可能不尽相同。以上的颜色在不同情境下的显示差异应该是最小的，因为RGB值为0/1时不会受色彩校正（gamma correction 伽马校正）所影响。
 
-In Titanfall 2 it is possible to use values over 1. Giving over exposure \(HDR ?\).
+在泰坦陨落2中玩家可以使用超过1的值，在游戏中会表现为过度曝光。（可能是HDR ?）
 
 ## 来源和参考
 
 {% hint style="info" %}
-Source
+源文档链接：
 
 * [https://www.glowscript.org/docs/GlowScriptDocs/color.html](https://www.glowscript.org/docs/GlowScriptDocs/color.html)
 * [https://developer.valvesoftware.com/wiki/RGB](https://developer.valvesoftware.com/wiki/RGB)
 
-Reference: [https://thebookofshaders.com/06/?lan=us](https://thebookofshaders.com/06/?lan=us)
+参考文献： [https://thebookofshaders.com/06/?lan=us](https://thebookofshaders.com/06/?lan=us)
 {% endhint %}
 
