@@ -1,6 +1,6 @@
-# 加载界面
+# 私房加载界面
 
-| Loadscreen name | Value | Note |
+| 加载界面名称 | 数值 | 注解 |
 | :--- | :--- | :--- |
 | Forwardbase Kodai | loadscreens/forwardbase\_kodai\_lobby |  |
 | Grave | loadscreens/grave\_lobby |  |

@@ -4,7 +4,7 @@ description: 电弧炮声音数据。
 
 # 声音-电弧炮
 
-| ID | Value | Note |
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 765 | arc\_cannon\_charge |  |
 | 766 | arc\_cannon\_charge\_3p |  |

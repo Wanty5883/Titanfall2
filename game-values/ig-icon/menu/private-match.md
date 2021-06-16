@@ -2,7 +2,7 @@
 
 
 
-| Icon name | Value | Note |
+| 图标名称 | 数值 | 注解 |
 | :--- | :--- | :--- |
 |  | ui/menu/common/menu\_background\_militia |  |
 |  | ui/menu/common/menu\_background\_imc\_blur |  |

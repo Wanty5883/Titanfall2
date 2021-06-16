@@ -271,7 +271,7 @@
     * [声音- Triplethreat](game-values/sound/sound-misc-and-unknown/sound-triplethreat.md)
 * [图标和HUD](game-values/ig-icon/README.md)
   * [菜单](game-values/ig-icon/menu/README.md)
-    * [加载界面](game-values/ig-icon/menu/loadscreen.md)
+    * [私房加载界面](game-values/ig-icon/menu/loadscreen.md)
     * [私人比赛](game-values/ig-icon/menu/private-match.md)
     * [计分板](game-values/ig-icon/menu/scoreboard.md)
 

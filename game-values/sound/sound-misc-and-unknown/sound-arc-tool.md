@@ -4,7 +4,7 @@ description: 电弧枪声音数据。
 
 # 声音-电弧枪
 
-| ID | Value | Note |
+| ID | 数值 | 注解 |
 | :--- | :--- | :--- |
 | 1144 | Beacon\_Anim\_arc\_tool\_steal\_pt01 |  |
 | 1145 | Beacon\_Anim\_arc\_tool\_steal\_pt02 |  |

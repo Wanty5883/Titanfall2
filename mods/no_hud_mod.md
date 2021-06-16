@@ -4,11 +4,11 @@ description: 'Installation, removal and settings of the No-HUD mod'
 
 # 无HUD修改
 
-## Preparation
+## 前期准备
 
 To install this mod, you are going to need an archive software. You can find more about that in the [tool page](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools#archives).
 
-## Download and Installing 
+## 下载软件并安装
 
 {% hint style="warning" %}
 Following the tutorial will disable your Origin Overlay. However it can be enabled again \(more on that in the Removal paragraph\).
@@ -16,13 +16,13 @@ Following the tutorial will disable your Origin Overlay. However it can be enabl
 
 First, you'll need to download the mod from [here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools#titanfall), then unpack it into a folder. There's going to be 2 versions in there, one for Nvidia graphic card users and one for AMD users, although both follow the same installation process.
 
-## **What and where to copy?**
+## **需要复制什么以及去哪里复制文件？**
 
 After opening the the right folder, you need to copy the `ShaderFixes` folder and the `d3dx.ini` file and paste it into your main game directory, the one that includes the main Titanfall2.exe file.
 
 Next, copy all of the .dll mod files \(`d3d11.dll`, `d3dcompiler_46.dll` and `nvapi64.dll`\) and paste them into `\Titanfall2\bin\x64_retail`. After this the mod should be ready. You can toggle your in-game HUD on and off by pressing Capslock.
 
-## Removal
+## 移除
 
 To fully remove \(uninstall\) the mod, you'll not only need to remove the files which came from the mod, but also repair your game via Origin. This can be done by entering your Game Library, clicking on Titanfall 2, opening the settings \(they're under the Play button\) and pressing repair. **This process should re-enable your Origin Overlay**, but if it doesn't try, manually re-enabling it in Origin Settings.
 
@@ -30,15 +30,15 @@ To fully remove \(uninstall\) the mod, you'll not only need to remove the files 
 Following this process will disable all of your current .vpk mods, you'll need to add them again.
 {% endhint %}
 
-## Settings
+## 设置
 
 The mod comes with a lot of settings, most of them are related to shaders and rendering, but this guide covers those **related to** the HUD **keybinds**.
 
-### **What and where to edit?**
+### **需要修改什么以及在哪里修改？**
 
 You need to open the `d3dx.ini` file you pasted into your game folder with a text editor, then scroll down to line 86 or use ctrl+f and search for `[Key1]`. If you only want to change your keybind, just type your key into the `key =`  line. Numbers \(0-9\) and letters \(A-Z\) can be inputed by simply typing them in, e.g. `key = Y` would bind your HUD toggle on/off function to Y. For key combinations, you only need to separate your keys with spaces, e.g. `key = C V`. If you wish to use buttons like Tab, Mouse Buttons etc., refer to [this page](https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes). You can also change your function type to `hold`, meaning the HUD will disappear when holding a certain button or combination. The `hold` type also supports a `delay` and `release_delay` functions. Those delay the deactivation/activation of the HUD and accept number values, where 1 = 1 millisecond of delay. 
 
-### PC keybind
+### 电脑平台键位
 
 {% tabs %}
 {% tab title="Mouse" %}
@@ -238,7 +238,7 @@ You need to open the `d3dx.ini` file you pasted into your game folder with a tex
 {% endtab %}
 {% endtabs %}
 
-### **X-Box Controller Keybinds**
+### **X-Box主机控制**键位
 
 | Value | Button |
 | :--- | :--- |

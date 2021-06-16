@@ -4,7 +4,7 @@ description: 用到的特效
 
 # 特效
 
-## Action
+## 行为设置
 
 ```text
 weapon.PlayWeaponEffect
@@ -91,7 +91,7 @@ projectile.SetProjectilTrailEffectIndex
 {% endtab %}
 {% endtabs %}
 
-## Trigger
+## 触发行为
 
 {% tabs %}
 {% tab title="Weapon Trigger" %}
