@@ -6,7 +6,7 @@ description: Grenadier FX value
 
 {% tabs %}
 {% tab title="Cold War" %}
-| **Cold War** |  |  |
+| 特效值 |  |  |
 | :--- | :--- | :--- |
 | P\_plasma\_proj\_MD | Projectile effect |  |
 | P\_plasma\_proj\_MD\_amp | Amped projectile |  |
@@ -49,7 +49,7 @@ description: Grenadier FX value
 {% endtab %}
 
 {% tab title="EPG" %}
-| **FX Value** | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | P\_plasma\_proj\_LG\_DLight | Projectile |  |
 | P\_plasma\_proj\_LG\_amp | Projectile amped |  |
@@ -85,7 +85,7 @@ description: Grenadier FX value
 {% endtab %}
 
 {% tab title="SMR" %}
-| **FX Value** | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | Rocket\_Smoke\_SMR | Projectile effect |  |
 | Rocket\_Smoke\_SMR\_burn | Amped projectile |  |
@@ -125,7 +125,7 @@ description: Grenadier FX value
 {% endtab %}
 
 {% tab title="Softball" %}
-| **FX Value** | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | weapon\_tracers\_xo16 | Tracer effect |  |
 | wpn\_grenade\_frag\_softball | Projectile effect |  |

@@ -4,7 +4,7 @@ description: Norhtstar datamined FX values. Dediceted page as there is too many 
 
 # 特效-电浆轨道炮
 
-| Value | Note | Tracer | Projectile |
+| 特效值 | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |
 | **Railgun** |  |  |  |
 | P\_titan\_sniper1 | Datamined value |  |  |

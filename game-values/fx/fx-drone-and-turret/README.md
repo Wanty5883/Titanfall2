@@ -2,7 +2,7 @@
 
 ## Drones, Turret & Gunship
 
-| FX name | Value | Note |
+| 特效名称 | 特效值 | Note |
 | :--- | :--- | :--- |
 | Bomber | P\_veh\_crow\_exp\_sml | TagHealthFX |
 | Bomber | xo\_health\_smoke\_white | TagHealthFX |

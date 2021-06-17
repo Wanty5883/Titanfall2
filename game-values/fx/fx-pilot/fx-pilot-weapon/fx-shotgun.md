@@ -6,7 +6,7 @@ description: Shotgun FX value
 
 {% tabs %}
 {% tab title="EVA8" %}
-| Value | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | weapon\_tracers\_shotgun | Tracer |  |
 | P\_wpn\_tracer\_shotgun\_BC | Tracer amped |  |
@@ -63,7 +63,7 @@ description: Shotgun FX value
 {% endtab %}
 
 {% tab title="Mastiff" %}
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | P\_mastiff\_proj | Projectile |  |
 | P\_mastiff\_proj\_amp | Amped projectile |  |

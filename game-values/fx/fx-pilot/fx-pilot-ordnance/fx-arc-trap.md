@@ -2,9 +2,9 @@
 description: 'Arc Trap FX values, ordnance from Frontier Defense'
 ---
 
-# 特效-电弧手雷
+# 特效-电弧效果
 
-| Value | Note | Tracer | Projectile |
+| 特效值 | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |
 | **Arc Trap** |  |  |  |
 | P\_wpn\_arcTrap | FD content |  |  |

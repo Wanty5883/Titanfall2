@@ -4,7 +4,7 @@ description: Viper FX values
 
 # 特效-毒蛇
 
-| Value | Note | Tracer | Projectile |
+| 特效值 | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |
 | P\_wind\_cruising | Player wind FX |  |  |
 | P\_s2s\_viper\_death\_fire | Death FX |  |  |

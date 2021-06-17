@@ -6,7 +6,7 @@ description: Ronin FX value
 
 {% tabs %}
 {% tab title="Leadwall" %}
-| FX Values | Notes | Impact |
+| 特效值 | Notes | Impact |
 | :--- | :--- | :--- |
 | P\_impact\_leadwall |  |  |
 | P\_impact\_leadwall\_air |  |  |
@@ -31,7 +31,7 @@ description: Ronin FX value
 {% endtab %}
 
 {% tab title="Arc Wave" %}
-| Value | Note | Tracer | Projectile |
+| 特效值 | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |
 | **Arc Wave** |  |  |  |
 | P\_arcwave\_exp |  |  |  |
@@ -49,13 +49,13 @@ description: Ronin FX value
 {% endtab %}
 
 {% tab title="Sword Block" %}
-| **FX Value** | Note | Tracer | Projectile |
+| 特效值 | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |
 | P\_impact\_xo\_sword |  |  |  |
 {% endtab %}
 
 {% tab title="Melee" %}
-| **FX Value** | Note | Tracer | Projectile |
+| 特效值 | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |
 | P\_xo\_sword\_core\_hld\_FP | Glow FP |  |  |
 | P\_xo\_sword\_core\_hld | Glow |  |  |
@@ -64,7 +64,7 @@ description: Ronin FX value
 {% endtab %}
 
 {% tab title="Sword" %}
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | P\_xo\_sword\_AW\_blade\_swipe |  |  |
 | P\_xo\_sword\_AW\_chrg |  |  |

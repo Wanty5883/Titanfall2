@@ -6,7 +6,7 @@ description: Sniper FX value
 
 {% tabs %}
 {% tab title="DMR" %}
-| **FX Value** | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | P\_wpn\_tracer\_sniper | Tracer |  |
 | P\_wpn\_tracer\_sniper\_BC | Tracer amped |  |
@@ -18,7 +18,7 @@ description: Sniper FX value
 {% endtab %}
 
 {% tab title="Double Take" %}
-| **FX Value** | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | P\_doubletake\_proj | Projectile effect |  |
 | P\_doubletake\_proj\_burn | Amped projectile |  |
@@ -91,7 +91,7 @@ description: Sniper FX value
 {% endtab %}
 
 {% tab title="Kraber" %}
-| **FX Value** | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | weapon\_kraber\_projectile | Projectile |  |
 | weapon\_kraber\_projectile\_burn | Projectile amped |  |

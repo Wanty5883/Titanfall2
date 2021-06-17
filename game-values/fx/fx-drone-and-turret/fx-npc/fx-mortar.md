@@ -4,7 +4,7 @@ description: Mortar FX values
 
 # FX - Mortar
 
-| Value | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | wpn\_mortar\_tracer | Tracer |  |
 | P\_Rocket\_Mortar | Projectile |  |

@@ -4,7 +4,7 @@ description: Scorch FX value
 
 # 特效-烈焰
 
-| Value | Note | Tracer | Projectile |
+| 特效值 | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |
 | **Flame Core** |  |  |  |
 | P\_impact\_exp\_xsmll\_metal |  |  |  |

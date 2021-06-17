@@ -8,7 +8,7 @@ description: Tone FX value
 
 {% tabs %}
 {% tab title="40MM" %}
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | weapon\_tracers\_40mm | Tracer |  |
 | weapon\_40mm\_projectile | Projectile |  |
@@ -102,7 +102,7 @@ description: Tone FX value
 {% endtab %}
 
 {% tab title="Salvo Core" %}
-| **Salvo Core** | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | P\_handlaser\_charge | Charge |  |
 | P\_SalvoCore\_trail | Datamined value |  |
@@ -115,7 +115,7 @@ description: Tone FX value
 {% endtab %}
 
 {% tab title="Sonar Pulse" %}
-| Value | Note | Tracer |
+| 特效值 | Note | Tracer |
 | :--- | :--- | :--- |
 | **Sonar Pulse** |  |  |
 | P\_impact\_exp\_laserlite\_AMP |  |  |

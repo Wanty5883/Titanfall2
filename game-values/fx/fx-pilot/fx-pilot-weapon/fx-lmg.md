@@ -6,7 +6,7 @@ description: LMG FX value
 
 {% tabs %}
 {% tab title="Devotion" %}
-| Value | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | **Devotion** |  |  |
 | pulse\_bullet | Impact |  |
@@ -46,7 +46,7 @@ description: LMG FX value
 {% tab title="LSTAR" %}
 
 
-| FX Value | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | P\_projectile\_lstar | Projectile |  |
 | P\_projectile\_lstar\_burn | Projectile amped |  |
@@ -118,7 +118,7 @@ description: LMG FX value
 {% endtab %}
 
 {% tab title="Spitfire" %}
-| Value | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | P\_wpn\_tracer | Tracer |  |
 | P\_wpn\_tracer\_BC | Tracer amped |  |

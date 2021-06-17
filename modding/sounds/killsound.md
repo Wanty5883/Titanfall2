@@ -40,7 +40,7 @@ and use `CTRL+F` to search for `string victimString` on line 255.
 Place this under `string victimString`
 
 ```cpp
-    if(attacker == GetLocalClientPlayer())
+    if(attacker == GetLocalClientPlayer() && victim != GetLocalClientPlayer() && victimInfo.petDisplayName == "" )
     {
         GetLocalClientPlayer().ClientCommand("killsound")
     }
@@ -53,7 +53,7 @@ The final product should look like this:
 	string weaponString
 	string victimString
 	
-	if(attacker == GetLocalClientPlayer())
+	if(attacker == GetLocalClientPlayer() && victim != GetLocalClientPlayer() && victimInfo.petDisplayName == "" )
 	{
 		GetLocalClientPlayer().ClientCommand("killsound")
 	}

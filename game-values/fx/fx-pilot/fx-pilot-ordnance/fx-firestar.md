@@ -4,7 +4,7 @@ description: Firestar FX value
 
 # 特效-飞火星
 
-| Value | Note | Tracer | Projectile | Muzzleflash |
+| 特效值 | Note | Tracer | Projectile | Muzzleflash |
 | :--- | :--- | :--- | :--- | :--- |
 | **Firestar** |  |  |  |  |
 | exp\_frag\_grenade | Impact | [Tracer](https://gfycat.com/shockedmeanalabamamapturtle) |  |  |

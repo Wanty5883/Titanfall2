@@ -4,7 +4,7 @@ description: Monarch FX value
 
 # 特效-帝王
 
-| Value | Note | Tracer | Projectile | Muzzleflash |
+| 特效值 | Note | Tracer | Projectile | Muzzleflash |
 | :--- | :--- | :--- | :--- | :--- |
 | **Chaingun** |  |  |  |  |
 | weapon\_tracers\_xo16\_speed | Tracer FX |  |  |  |

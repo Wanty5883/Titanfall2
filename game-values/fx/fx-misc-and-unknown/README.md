@@ -2,7 +2,7 @@
 
 ## Misc
 
-| FX name | Value | Note |
+| 特效名称 | 特效值 | Note |
 | :--- | :--- | :--- |
 | ACL Light | acl\_light\_red |  |
 | ACL Light | acl\_light\_green |  |

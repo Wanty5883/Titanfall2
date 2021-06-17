@@ -4,7 +4,7 @@ description: Drone Frag FX values.
 
 # FX - Drone Frag
 
-| FX Values | Notes | Tracer | Projectile | Impact |
+| 特效值 | Notes | Tracer | Projectile | Impact |
 | :--- | :--- | :--- | :--- | :--- |
 | P\_drone\_frag\_exp | Explosion |  |  |  |
 | drone\_frag\_debris\_pc\_CH | Explosion |  |  |  |

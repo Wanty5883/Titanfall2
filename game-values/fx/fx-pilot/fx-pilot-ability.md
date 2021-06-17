@@ -2,7 +2,7 @@
 
 ## 铁驭能力
 
-| Value | Note | Tracer | Projectile |
+| 特效值 | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |
 | **Ghost** | SP content |  |  |
 | P\_holo\_screespace | Screen effect |  |  |

@@ -1,6 +1,6 @@
 # 特效-Meteor First
 
-| FX Value | Notes | Example |
+| 特效值 | Notes | Example |
 | :--- | :--- | :--- |
 | P\_meteor\_fist\_charge |  |  |
 | P\_meteor\_fist\_trail |  |  |

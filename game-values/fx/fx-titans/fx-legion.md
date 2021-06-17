@@ -4,7 +4,7 @@ description: Legion FX value
 
 # 特效-军团
 
-| Value | Note | Tracer | Projectile | Muzzleflash |
+| 特效值 | Note | Tracer | Projectile | Muzzleflash |
 | :--- | :--- | :--- | :--- | :--- |
 | **Gunshield** |  |  |  |  |
 | P\_titan\_gun\_shield\_FP | Shield FP |  |  |  |

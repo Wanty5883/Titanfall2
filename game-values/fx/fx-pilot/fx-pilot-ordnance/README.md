@@ -6,7 +6,7 @@ description: Ordnance FX value
 
 {% tabs %}
 {% tab title="Arc Grenade" %}
-| Value | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | bounce\_arc | Bounce effect |  |
 | exp\_emp | Impact effect | [Impact](https://gfycat.com/greedyfittingemu) |
@@ -26,7 +26,7 @@ description: Ordnance FX value
 {% endtab %}
 
 {% tab title="Firestar" %}
-| Value | Note | Tracer | Projectile | Muzzleflash |
+| 特效值 | Note | Tracer | Projectile | Muzzleflash |
 | :--- | :--- | :--- | :--- | :--- |
 | **Firestar** |  |  |  |  |
 | exp\_frag\_grenade | Impact | [Tracer](https://gfycat.com/shockedmeanalabamamapturtle) |  |  |
@@ -68,7 +68,7 @@ description: Ordnance FX value
 {% endtab %}
 
 {% tab title="Frag Grenade" %}
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | bounce\_small | Bounce |  |
 | exp\_frag\_grenade | Impact | [Tracer](https://gfycat.com/fr/shockedmeanalabamamapturtle-titanfall2) |
@@ -155,7 +155,7 @@ description: Ordnance FX value
 {% endtab %}
 
 {% tab title="Gravity Star" %}
-| Value | Note | Tracer | Projectile |
+| 特效值 | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |
 | gravity\_grenade\_bounce\_table | Bounce effect |  |  |
 | exp\_gravity\_grenade | Impact effect |  |  |
@@ -181,7 +181,7 @@ description: Ordnance FX value
 {% endtab %}
 
 {% tab title="Satchel" %}
-| FX Value | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | exp\_satchel | Explosion | [Impact](https://gfycat.com/understatedheavenlybluebreastedkookaburra) |
 | wpn\_laser\_blink |  |  |
@@ -200,7 +200,7 @@ description: Ordnance FX value
 {% endtab %}
 
 {% tab title="Smoke Grenade" %}
-| **FX Value** | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | exp\_electric\_smoke\_grenade | Impact |  |
 | P\_wpn\_grenade\_smoke\_trail | Projectile |  |

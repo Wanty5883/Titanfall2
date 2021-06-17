@@ -6,7 +6,7 @@ description: SMG FX value
 
 {% tabs %}
 {% tab title="SMG" %}
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | P\_wpn\_muz\_shotgun\_amp |  |  |
 | P\_wpn\_muz\_shotgun\_amp\_FP |  |  |
@@ -50,7 +50,7 @@ description: SMG FX value
 {% endtab %}
 
 {% tab title="SMG amped" %}
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | mflash\_smg\_elec\_FP\_base |  |  |
 | mflash\_smg\_elec\_FP\_core |  |  |
@@ -73,7 +73,7 @@ description: SMG FX value
 {% endtab %}
 
 {% tab title="Alternator" %}
-| **Alternator** |  |  |  |
+| 特效值 |  |  |  |
 | :--- | :--- | :--- | :--- |
 | P\_wpn\_tracer\_pistol | Tracer |  |  |
 | P\_wpn\_tracer\_BC | Tracer amped |  |  |
@@ -117,7 +117,7 @@ description: SMG FX value
 {% endtab %}
 
 {% tab title="CAR" %}
-| **CAR** |  |  |  |
+| 特效值 |  |  |  |
 | :--- | :--- | :--- | :--- |
 | P\_wpn\_tracer\_pistol | Tracer |  |  |
 | P\_wpn\_tracer\_BC | Tracer amped |  |  |
@@ -134,7 +134,7 @@ description: SMG FX value
 {% endtab %}
 
 {% tab title="R-97" %}
-| **R-97** |  |  |  |
+| 特效值 |  |  |  |
 | :--- | :--- | :--- | :--- |
 | P\_wpn\_tracer\_pistol | Tracer |  |  |
 | P\_wpn\_tracer\_BC | Tracer amped |  |  |
@@ -152,7 +152,7 @@ description: SMG FX value
 {% endtab %}
 
 {% tab title="Volt" %}
-| **Volt** |  |  |  |
+| 特效值 |  |  |  |
 | :--- | :--- | :--- | :--- |
 | pulse\_bullet | Impact |  |  |
 | P\_wpn\_tracer\_pulse | Tracer |  |  |

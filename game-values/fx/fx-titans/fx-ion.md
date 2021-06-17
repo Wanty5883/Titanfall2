@@ -8,7 +8,7 @@ description: Ion FX value
 
 {% tabs %}
 {% tab title="Particle Accelerator" %}
-| FX Values | Notes | Tracer | Projectile | Muzzleflash |
+| 特效值 | Notes | Tracer | Projectile | Muzzleflash |
 | :--- | :--- | :--- | :--- | :--- |
 | **Default values** |  |  |  |  |
 | P\_projectile\_TPA | Projectile |  |  |  |
@@ -84,7 +84,7 @@ description: Ion FX value
 {% endtab %}
 
 {% tab title="Laser Core" %}
-| **FX Values** | Notes | Tracer | Projectile | Impact |
+| 特效值 | Notes | Tracer | Projectile | Impact |
 | :--- | :--- | :--- | :--- | :--- |
 | P\_wpn\_lasercannon\_aim | Aim |  |  |  |
 | P\_lasercannon\_core | Core |  |  |  |
@@ -116,7 +116,7 @@ description: Ion FX value
 {% endtab %}
 
 {% tab title="Laser Shot" %}
-| **FX Values** | Note | Tracer | Projectile | Impact |
+| 特效值 | Note | Tracer | Projectile | Impact |
 | :--- | :--- | :--- | :--- | :--- |
 | **Default values** |  |  |  |  |
 | P\_wpn\_hand\_laser\_beam | Tracer | [Tracer](https://gfycat.com/specificuntimelyharvestmen) |  |  |
@@ -175,7 +175,7 @@ description: Ion FX value
 {% endtab %}
 
 {% tab title="Laser Trip Wire" %}
-| FX Values | Notes | Tracer | Projectile | Impact |
+| 特效值 | Notes | Tracer | Projectile | Impact |
 | :--- | :--- | :--- | :--- | :--- |
 | P\_impact\_exp\_arcball\_default | Airburst FX |  |  |  |
 | P\_wpn\_lasertrip\_beam | Beam FX |  |  |  |
@@ -198,7 +198,7 @@ description: Ion FX value
 {% endtab %}
 
 {% tab title="Misc" %}
-| FX Values | Notes | Tracer | Projectile |
+| 特效值 | Notes | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |
 | P\_ion\_moving\_proj |  |  |  |
 {% endtab %}
@@ -208,7 +208,7 @@ description: Ion FX value
 
 {% tabs %}
 {% tab title="Vortex Shield" %}
-| **FX Values** | Notes | Tracer | Projectile | Impact |
+| 特效值 | Notes | Tracer | Projectile | Impact |
 | :--- | :--- | :--- | :--- | :--- |
 | P\_impact\_xo\_shield\_cp |  |  |  |  |
 | P\_impact\_exp\_med\_xo\_shield\_CP |  |  |  |  |
@@ -251,7 +251,7 @@ description: Ion FX value
 {% endtab %}
 
 {% tab title="Vortex Titan" %}
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | **Muzzleflash** |  |  |
 | projectile\_SuperSpec\_CH\_glow |  |  |
@@ -320,7 +320,7 @@ description: Ion FX value
 {% endtab %}
 
 {% tab title="Vortex Titan Overcharge" %}
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | **Muzzleflash** |  |  |
 | vortex\_OCharge\_exp |  |  |
@@ -331,7 +331,7 @@ description: Ion FX value
 {% endtab %}
 
 {% tab title="Vortex Titan Heat" %}
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | **Muzzleflash** |  |  |
 | HS\_burn\_hmn\_CH\_fire |  |  |
@@ -362,7 +362,7 @@ description: Ion FX value
 {% endtab %}
 
 {% tab title="Vortex Titan CP" %}
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | **Muzzleflash** |  |  |
 | vortex\_CH\_streak |  |  |
@@ -388,7 +388,7 @@ description: Ion FX value
 {% endtab %}
 
 {% tab title="Vortex Titan CP mod" %}
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | **Muzzleflash** |  |  |
 | tracers\_vortex\_mod\_flash |  |  |

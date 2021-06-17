@@ -4,7 +4,7 @@ description: Monarch Beam FX value datamined
 
 # 特效-Monarch Beam
 
-| Value | Note | Tracer | Projectile | Muzzleflash |
+| 特效值 | Note | Tracer | Projectile | Muzzleflash |
 | :--- | :--- | :--- | :--- | :--- |
 | **Beam Impact** |  |  |  |  |
 | mBeam\_body\_titan\_CH\_arcs\_MDL | Datamined value |  |  |  |

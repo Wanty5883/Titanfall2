@@ -6,7 +6,7 @@ description: Anti-Titan weapon FX value
 
 {% tabs %}
 {% tab title="Archer" %}
-| **FX Value** | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | Rocket\_Smoke\_Large | Projectile |  |
 | Rocket\_Smoke\_Large\_burn | Projectile effect amped |  |
@@ -55,7 +55,7 @@ description: Anti-Titan weapon FX value
 {% endtab %}
 
 {% tab title="Charge Rifle" %}
-| FX Value | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | P\_wpn\_defender\_beam | Tracer effect |  |
 | P\_wpn\_defender\_beam\_burn | Tracer effect amped |  |
@@ -109,7 +109,7 @@ description: Anti-Titan weapon FX value
 {% endtab %}
 
 {% tab title="MGL" %}
-| **FX Value** | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | exp\_mgl | Impact effect |  |
 | wpn\_grenade\_frag\_mag | Projectile effect |  |
@@ -141,7 +141,7 @@ description: Anti-Titan weapon FX value
 {% endtab %}
 
 {% tab title="Thunderbolt" %}
-| **FX Value** | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | P\_wpn\_arcball\_trail | Projectile effect |  |
 | P\_wpn\_arcball\_trail\_amp | Amped projectile |  |

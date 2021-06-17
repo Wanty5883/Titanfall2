@@ -4,7 +4,7 @@ description: FX Firewall FX values.
 
 # 特效-火墙
 
-| FX Value | Notes | Example |
+| 特效值 | Notes | Example |
 | :--- | :--- | :--- |
 | P\_wpn\_meteor\_wall |  |  |
 | P\_wpn\_meteor\_wall\_s2s |  |  |

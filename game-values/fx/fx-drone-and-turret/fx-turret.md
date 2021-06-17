@@ -6,7 +6,7 @@ description: List of the different turrets FX values in the game.
 
 {% tabs %}
 {% tab title="Ion Turret" %}
-| Value | Note | Tracer | Projectile |
+| 特效值 | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |
 | **Ion Turret** |  |  |  |
 | P\_ion\_turret\_proj | Datamined value |  | [Projectile](https://gfycat.com/shinydeadkingfisher) |
@@ -20,7 +20,7 @@ description: List of the different turrets FX values in the game.
 {% endtab %}
 
 {% tab title="Laser Turret" %}
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | **Muzzleflash** |  |  |
 | P\_muzzleflash\_laserturret |  |  |
@@ -38,7 +38,7 @@ description: List of the different turrets FX values in the game.
 {% endtab %}
 
 {% tab title="Mega Turret" %}
-| FX Value | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | **Muzzleflash** |  |  |
 | wpn\_muzzleflash\_mega\_trrt |  |  |
@@ -53,7 +53,7 @@ description: List of the different turrets FX values in the game.
 {% endtab %}
 
 {% tab title="Plasma Mega Turret" %}
-| Value | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | **Trail effect** |  |  |
 | P\_projectile\_turretplasma\_mega | Datamined value | [Projectile](https://gfycat.com/bitterhelpfulcamel) |
@@ -73,7 +73,7 @@ description: List of the different turrets FX values in the game.
 {% endtab %}
 
 {% tab title="Turret RedEye" %}
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | **Muzzleflash** |  |  |
 | wpn\_mflash\_redeye\_base |  |  |
@@ -84,7 +84,7 @@ description: List of the different turrets FX values in the game.
 {% endtab %}
 
 {% tab title="Turret Sentry" %}
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | **Muzzleflash** |  |  |
 | mflash\_sentry\_CH\_base |  |  |

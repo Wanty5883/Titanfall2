@@ -4,7 +4,7 @@ description: Thermite Launcher FX values
 
 # 特效-铝热剂发射器
 
-| Value | Note | Tracer | Projectile | Muzzleflash |
+| 特效值 | Note | Tracer | Projectile | Muzzleflash |
 | :--- | :--- | :--- | :--- | :--- |
 | **Thermite Launcher** |  |  |  |  |
 | weapon\_tracers\_40mm | Tracer |  |  |  |

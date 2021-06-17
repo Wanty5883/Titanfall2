@@ -4,7 +4,7 @@ description: 'Holo Spectre FX values. Datamined value, not used by default in th
 
 # FX - Holo Spectre
 
-| FX name | Value | Note |
+| 特效名称 | 特效值 | Note |
 | :--- | :--- | :--- |
 | Holo Spectre | spectre\_holo\_CH\_glow | Datamined value |
 | Holo Spectre | spectre\_holo\_CH\_vapor | Datamined value |

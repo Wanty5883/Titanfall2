@@ -6,7 +6,7 @@ description: Northstar FX value
 
 
 
-| Value | Note | Tracer | Projectile | Muzzleflash |
+| 特效值 | Note | Tracer | Projectile | Muzzleflash |
 | :--- | :--- | :--- | :--- | :--- |
 | **Cluster** |  |  |  |  |
 | exp\_rocket\_dumbfire | Impact |  |  |  |

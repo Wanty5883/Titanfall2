@@ -4,7 +4,7 @@ description: Gravity Star FX value
 
 # 特效-重力星
 
-| Value | Note | Tracer | Projectile |
+| 特效值 | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |
 | **Gravity Star** |  |  |  |
 | gravity\_grenade\_bounce\_table | Bounce effect |  |  |

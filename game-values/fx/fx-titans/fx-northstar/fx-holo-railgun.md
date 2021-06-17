@@ -2,7 +2,7 @@
 
 
 
-| Value | Note | Tracer | Projectile |
+| 特效值 | Note | Tracer | Projectile |
 | :--- | :--- | :--- | :--- |
 | **Holo Railgun** |  |  |  |
 | P\_railgun\_hologram | Datamined value |  | [Projectile](https://gfycat.com/enragedgregarioushawk) |

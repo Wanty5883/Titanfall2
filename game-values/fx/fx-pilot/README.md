@@ -2,7 +2,7 @@
 
 ## 铁驭
 
-| Value | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | **Base** |  |  |
 | pilot\_foostep | Footstep impact |  |

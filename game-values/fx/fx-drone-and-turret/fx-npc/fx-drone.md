@@ -4,7 +4,7 @@ description: Drone FX values
 
 # 特效-无人机
 
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | P\_drone\_dam\_smoke |  |  |
 | P\_drone\_exp\_md |  |  |

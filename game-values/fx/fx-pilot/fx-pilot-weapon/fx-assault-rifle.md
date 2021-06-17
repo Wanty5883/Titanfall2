@@ -22,7 +22,7 @@ description: Assault Rifle FX value
 {% endtab %}
 {% endtabs %}
 
-| Value | Note | Tracer | Projectile | Muzzleflash |
+| 特效值 | Note | Tracer | Projectile | Muzzleflash |
 | :--- | :--- | :--- | :--- | :--- |
 | **G2A5** |  |  |  |  |
 | P\_wpn\_tracer | Tracer |  |  |  |

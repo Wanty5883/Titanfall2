@@ -6,7 +6,7 @@ description: Secondary & Pistols FX value
 
 {% tabs %}
 {% tab title="Pistol" %}
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | **Muzzleflash** |  |  |
 | wpn\_mflash\_pistol\_base |  |  |
@@ -34,7 +34,7 @@ description: Secondary & Pistols FX value
 {% endtab %}
 
 {% tab title="Amped Pistol" %}
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | **Muzzleflash** |  |  |
 | mflash\_pistol\_elec\_FP\_base |  |  |
@@ -59,7 +59,7 @@ description: Secondary & Pistols FX value
 {% endtab %}
 
 {% tab title="Smart Pistol" %}
-| FX Values | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | P\_wpn\_tracer\_pistol | Tracer |  |
 | P\_wpn\_tracer\_BC | Tracer amped |  |
@@ -80,7 +80,7 @@ description: Secondary & Pistols FX value
 {% endtab %}
 
 {% tab title="Wingman" %}
-| **FX Values** | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | P\_wpn\_tracer | Tracer |  |
 | P\_wpn\_tracer\_BC | Tracer amped |  |
@@ -97,7 +97,7 @@ description: Secondary & Pistols FX value
 {% endtab %}
 
 {% tab title="Wingman Elite" %}
-| **FX Values** | Note | Example |
+| 特效值 | Note | Example |
 | :--- | :--- | :--- |
 | P\_wpn\_tracer | Tracer, not used |  |
 | P\_wpn\_tracer\_BC | Tracer amped |  |

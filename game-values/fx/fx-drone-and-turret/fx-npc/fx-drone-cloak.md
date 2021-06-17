@@ -4,7 +4,7 @@ description: Drone Cloak FX values.
 
 # FX - Drone Cloak
 
-| FX Values | Notes | Examples |
+| 特效值 | Notes | Examples |
 | :--- | :--- | :--- |
 | P\_drone\_cloak\_beam |  |  |
 | dronecloak\_CH\_MDL |  |  |
