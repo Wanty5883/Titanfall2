@@ -43,7 +43,7 @@ Place this under `string soundAlias`:
     int musicLenght;
     while(true)
     {
-        musicLenght = GetConVarInt("sp_deathtips_tip6")
+        musicLenght = GetConVarInt("sp_deathtips_tip5")
         GetLocalClientPlayer().ClientCommand("lobbymusic")
         wait musicLenght;
     }
