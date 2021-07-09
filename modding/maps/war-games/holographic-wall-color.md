@@ -63,11 +63,11 @@ These material files leave quite lot of possibilities, you could replace texture
 
 {% embed url="https://gfycat.com/reliableboringasiaticmouflon" %}
 
-![made by chrisssgx\#5949](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/picture/WarGames%20-%20Holographic%20wall%20color1.png)
+![made by frog\#1626](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/picture/WarGames%20-%20Holographic%20wall%20color1.png)
 
-![made by chrisssgx\#5949](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/picture/WarGames%20-%20Holographic%20wall%20color2.png)
+![made by frog\#1626](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/picture/WarGames%20-%20Holographic%20wall%20color2.png)
 
-![made by chrisssgx\#5949](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/picture/WarGames%20-%20Holographic%20wall%20color3.png)
+![made by frog\#1626](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/picture/WarGames%20-%20Holographic%20wall%20color3.png)
 
 ![Clear walls](../../../.gitbook/assets/titanfall-2-screenshot-2021.02.16-17.26.26.82.png)
 
