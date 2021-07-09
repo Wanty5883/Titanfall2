@@ -17,6 +17,7 @@ description: >-
 
 | Name | Description |
 | :--- | :--- |
+| **catbug\_** | Editor & proofreading |
 | **CSLeader** | 3D modeling |
 | **Dinorush** | Datamining & proofreading |
 | **EladMLG** | Modding research |
@@ -25,7 +26,7 @@ description: >-
 | **MrCleansForeHead** | Modding research |
 | **Phyr** | Modding research |
 | **S2ymi** | Modding research |
-| **Taskinoz** | Modding research |
+| \*\*\*\*[**Taskinoz**](https://github.com/taskinoz)\*\*\*\* | Modding research |
 
 ## Special Thanks
 
@@ -36,13 +37,13 @@ description: >-
 | [**cra0kalo**](https://github.com/cra0kalo) | Titanfall VPK Tool |
 | **Exrill** | Modding research |
 | **Grimmers** | Proofreading |
+| **igb\_** | Modding research |
+| [**McSimp**](https://github.com/McSimp) | Titanfall Map Exporter tool |
 | [**MOM-2236**](https://github.com/mom-2236/) | Modding research |
-| [**McSimp's**](https://github.com/McSimp) | Titanfall Map Exporter tool |
 | **Noobie** | Modding research |
 | **Norkkom** | Modding research |
 | **p0358** | Reverse engineering & modding research |
 | **RocKiT** | 3D modeling |
 | **True Inferno** | Modding research |
-| **igb\_** | Modding research |
 | **Whiskers** | Modding research |
 
