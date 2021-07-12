@@ -25,6 +25,8 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 * Titanfall Map Exporter - [Info ](../../../r2-ripping/exporting-maps.md)& [Download](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/tools/TitanfallMapExporter.py)
 * Legion - [Info and Download](https://wiki.modme.co/wiki/apps/Legion.html)
 
+{% page-ref page="how-to-use-rspnvpk.md" %}
+
 ### VTF & VMT
 
 * VTFEdit - [Download](https://github.com/Wanty5883/Titanfall2/blob/master/tools/vtfedit133.zip)
