@@ -99,6 +99,12 @@
 ## Modding
 
 * [Weapon](modding/weapon-config-info/README.md)
+  * [Custom Gun Skins](modding/weapon-config-info/cgss-custom-gun-skins-title-suggestions/README.md)
+    * [Using/Applying Custom Gun Skins](modding/weapon-config-info/cgss-custom-gun-skins-title-suggestions/using-applying-cgss/README.md)
+      * [Getting VTF files](modding/weapon-config-info/cgss-custom-gun-skins-title-suggestions/using-applying-cgss/getting-vtfs.md)
+    * [Making Custom Gun Skins](modding/weapon-config-info/cgss-custom-gun-skins-title-suggestions/making-cgss/README.md)
+      * [2D Wireframes](modding/weapon-config-info/cgss-custom-gun-skins-title-suggestions/making-cgss/2d-wireframes.md)
+    * [Custom Gun Skin Gallery](modding/weapon-config-info/cgss-custom-gun-skins-title-suggestions/cgs-gallery.md)
   * [Crosshair modding](modding/weapon-config-info/crosshair-modding/README.md)
     * [Batch crosshair modding](modding/weapon-config-info/crosshair-modding/batch-crosshair-modding.md)
     * [Crosshair example](modding/weapon-config-info/crosshair-modding/crosshair-example.md)
