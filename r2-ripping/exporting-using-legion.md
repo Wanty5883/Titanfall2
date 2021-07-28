@@ -21,5 +21,5 @@ After you open the rpak file, the Legion window should show a list of files. Dou
 
 #### "Titanfall 2" button
 
-Clicking the `Titanfall 2` button will open a window prompting you to drop a `.mdl` file to convert. This will convert the file into seperate 3D Object files \(`.obj`\). Note that not every export format has been tested for Titanfall 2. Semodel's have been tested but requires Blender 2.97 to use BUT you can export as .obj which then you can use newer Blender versions.
+Clicking the `Titanfall 2` button will open a window prompting you to drop a `.mdl` file to convert. This will convert the file into seperate 3D Object files \(`.obj`\). Note that not every export format has been tested for Titanfall 2. Semodel's have been tested but requires Blender 2.79 to use BUT you can export as .obj which then you can use newer Blender versions. You can change export format in "Settings".
 
