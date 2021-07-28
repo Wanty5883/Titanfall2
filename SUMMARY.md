@@ -284,6 +284,7 @@
 ## Exporting Assets <a id="r2-ripping"></a>
 
 * [Exporting Maps](r2-ripping/exporting-maps.md)
+* [Exporting using Legion](r2-ripping/exporting-using-legion.md)
 * [Exporting Models](r2-ripping/model-ripping.md)
 
 ## Assets
