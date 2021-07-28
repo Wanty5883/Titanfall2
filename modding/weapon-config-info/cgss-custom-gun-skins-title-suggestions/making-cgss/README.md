@@ -138,3 +138,5 @@ Wireframes are a 2D cover to help with organization, detail, shape, size, and ac
 
 Base textures from the game to help with color, shape, and organization. Learn how to export the base textures here:
 
+{% page-ref page="../../../../r2-ripping/exporting-using-legion.md" %}
+
