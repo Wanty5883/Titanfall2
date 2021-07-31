@@ -10,6 +10,7 @@
   * [如何备份，解包和重新打包](how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
   * [如何配置修改用一个工作环境](how-to-start-modding/modding-introduction/how-to-setup-a-modding-environment.md)
   * [修改工具](how-to-start-modding/modding-introduction/modding-tools/README.md)
+    * [如何使用RSPNVPK](how-to-start-modding/modding-introduction/modding-tools/ru-he-shi-yong-rspnvpk.md)
     * [资源](how-to-start-modding/modding-introduction/modding-tools/source/README.md)
       * [游戏目录](how-to-start-modding/modding-introduction/modding-tools/source/game-directory.md)
       * [BSP](how-to-start-modding/modding-introduction/modding-tools/source/bsp/README.md)
@@ -97,6 +98,12 @@
 ## 修改 <a id="modding"></a>
 
 * [武器](modding/weapon-config-info/README.md)
+  * [自定义武器皮肤](modding/weapon-config-info/zi-ding-yi-wu-qi-pi-fu/README.md)
+    * [使用\应用自定义武器皮肤](modding/weapon-config-info/zi-ding-yi-wu-qi-pi-fu/shi-yong-ying-yong-zi-ding-yi-wu-qi-pi-fu/README.md)
+      * [VTF文件制作](modding/weapon-config-info/zi-ding-yi-wu-qi-pi-fu/shi-yong-ying-yong-zi-ding-yi-wu-qi-pi-fu/vtf-wen-jian-zhi-zuo.md)
+    * [制作武器自定义皮肤](modding/weapon-config-info/zi-ding-yi-wu-qi-pi-fu/zhi-zuo-wu-qi-zi-ding-yi-pi-fu/README.md)
+      * [2D图像线框渲染模式\(Wireframe mode\)](modding/weapon-config-info/zi-ding-yi-wu-qi-pi-fu/zhi-zuo-wu-qi-zi-ding-yi-pi-fu/2d-tu-xiang-xian-kuang-xuan-ran-mo-shi-wireframe-mode.md)
+    * [武器自定义皮肤样例](modding/weapon-config-info/zi-ding-yi-wu-qi-pi-fu/wu-qi-zi-ding-yi-pi-fu-yang-li.md)
   * [武器效果](modding/weapon-config-info/weapon-effects.md)
   * [准星修改](modding/weapon-config-info/crosshair-modding/README.md)
     * [批量修改准星](modding/weapon-config-info/crosshair-modding/batch-crosshair-modding.md)
@@ -284,6 +291,7 @@
 
 * [导出地图](r2-ripping/exporting-maps.md)
 * [导出模型](r2-ripping/model-ripping.md)
+* [使用Legion的方式导出](r2-ripping/shi-yong-legion-de-fang-shi-dao-chu.md)
 
 ## 资源 <a id="assets"></a>
 
