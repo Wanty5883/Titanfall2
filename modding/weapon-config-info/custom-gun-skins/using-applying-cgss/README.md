@@ -133,3 +133,10 @@ Now drag and drop `englishclient_mp_common.bsp.pak000_dir.vpk` onto the `RSPNVPK
 
 After the tool is finished, copy `englishclient_mp_common.bsp.pak000_dir.vpk` and `client_mp_common.bsp.pak000_228.vpk` into your game directory and you should be done!
 
+## Final Product?
+
+{% embed url="https://www.youtube.com/watch?v=No0qOGnf3fo" %}
+
+Say thanks to YawdinXiro for creating a Not you Savior Showcase for the Wiki.   
+Thanks YawdinXiro! \(Note; due to different mods, the showcase video lighting is different. The skin wont look exactly like this for you.\)
+
