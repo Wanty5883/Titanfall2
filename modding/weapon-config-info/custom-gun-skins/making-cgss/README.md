@@ -12,15 +12,38 @@ These are not the only ways to create a skin. Use your own tools if you like. If
 
 This page is more on useful tools, tip & tricks, and info about making skin its to help with creating a skin. I cannot guide you or tell you how to be creative. The point is to create something you want to, learn, use, share, or just admire. Good luck and Have fun.
 
-## Possibilities
+## Skin formats
+
+## 2 kinds of skins \(VTF format and DDS format\)
+
+### VTF format
+
+VTF is the first found custom gun skin method. VTF CGS's take editing a path in a .mdl file and making the skin and script in the common vpk. 
+
+* Up to 4k skins
+* Animated skins
+* Viewed from afar
+* Works on low graphics
+* Can use transparency
+
+### DDS format
+
+DDS is the 'best' custom skin method. DDS CGS's takes \(idk\). 
+
+* Properly shaded skins
+* Community made tools
+* high quantity high-quality skins
+* Most commonly used
+
+## Skin style possibilities
 
 ### Static, Single frames
 
-Static skins are skins that don't move in any way. Simple and at times, most elegant.
+Static skins are skins that don't move in any way. Compatible with VTF and DDS format. Simple and at times, most elegant.
 
 ### Moving texture, Single texture
 
-Moving skins are skins that have a code group in their `.vmt` that moves your vtf texture to your desired parameters. The code block to move your textures; note this goes into your `.vmt` file:
+Moving skins are skins that have a code group in their `.vmt` that moves your vtf texture to your desired parameters. Only available with VTF format. The code block to move your textures; note this goes into your `.vmt` file:
 
 ```text
 "Proxies"
@@ -39,7 +62,7 @@ Change `"texturescrollangle" "180"` to change direction of  movement.
 
 ### Animated texture, Multiple frames
 
-Animated skins are skins that create a moving affect or active scene by using multiple frames. You wont need multiple vtf's as VTFedit creates one file with every frame inside. Mind that this increases size and you can use Add-ons on your image editors to help with animated skins. You also need a code group in your `.vmt` to activate animation; found below.
+Animated skins are skins that create a moving affect or active scene by using multiple frames. Only available with VTF format. You wont need multiple vtf's as VTFedit creates one file with every frame inside. Mind that this increases size and you can use Add-ons on your image editors to help with animated skins. You also need a code group in your `.vmt` to activate animation; found below.
 
 ```text
 "Proxies"
@@ -55,27 +78,17 @@ Animated skins are skins that create a moving affect or active scene by using mu
 
 Change `"animatedtextureFrameRate" "2"` to change framerate in game.
 
+
+
 ### Recommended Software
 
 This is software that has been used and tested to create CGSs. 
 
-#### AutoHotkey
+#### [Substance Painter](https://www.substance3d.com/) - "Substance becomes Adobe Substance" \(paid, app\)
 
-"AutoHotkey is a free, open-source scripting language for Windows that allows users to easily create small to complex scripts for all kinds of tasks such as: form fillers, auto-clicking, macros, etc."
+"Substance painter is a specialized texturing tool which utilizes a procedural Physically Based Rendering \(PBR\) workflow."
 
-AutoHotkey is used by many to create custom keybind macro. Usually using a numpad as the macro start key. Find their website and info at [by clicking these words](https://www.autohotkey.com/). As coding goes, there is many ways to code macros. Personally i use,
-
-```text
-Numpad1::send {ctrl down}{s down}{ctrl up}{s up}
-Numpad3::send {alt down}{r down}{alt up}{r up}
-Numpad2::send {ctrl down}{z down}{ctrl up}{z up}
-]::Suspend
-\::ExitApp
-```
-
-* Numpad1: Saves \(CTRL+S\)
-* Numpad2: Undo \(CTRL+Z\)
-* Numpad3: Reloads images in Blender with NodeWrangler \(ALT+R\)  
+Substance Painter is better than Blender for this scenario. Substance Painter can both view and edit on a 3d model or a flat UV. It can also use more advanced brushes, smart textures, and truly live viewing of edits or shaders. Substance Painter can also create many maps such as specular, glossiness, and much more to increase quality. Now acquired by Adobe and expensive.
 
 #### Adobe Photoshop \(paid, app\)
 
@@ -84,7 +97,7 @@ Adobe photoshop is a image editing and photo retouching application.
 We use this application to edit over the original texture and create our own custom texture. Photoshop is recommended Image Editor for CGS because of the native support in Blender that lets us reload images without needing to export, save as, import, connect.   
 With reload .psd support in Blender we can refresh the .psd to use the the most recent changes made. To "reload" the image we use a Blender Add-ons; Node Wrangler, then press ALT+R in the "shading" tab. 
 
-#### Blender \(free, app\)
+#### [Blender](https://www.blender.org/) \(free, app\)
 
 "Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, video editing and 2D animation pipeline."
 
@@ -125,6 +138,24 @@ GIMP is widely used and recommended by many people. There is also quite a few of
  "Substance painter is a specialized texturing tool which utilizes a procedural Physically Based Rendering \(PBR\) workflow."
 
 Substance Painter is better than Blender for this scenario. Substance Painter can both view and edit on a 3d model or a flat UV. It can also use more advanced brushes, smart textures, and truly live viewing of edits or shaders. Substance Painter can also create many maps such as specular, glossiness, and much more to increase quality. Now acquired by Adobe and expensive.
+
+#### [Autohotkey](https://www.autohotkey.com/) - "The ultimate automation scripting language for Windows"
+
+"AutoHotkey is a free, open-source scripting language for Windows that allows users to easily create small to complex scripts for all kinds of tasks such as: form fillers, auto-clicking, macros, etc."
+
+AutoHotkey is used by many to create custom keybind macro. Usually using a numpad as the macro start key. Find their website and info at [by clicking these words](https://www.autohotkey.com/). As coding goes, there is many ways to code macros. Personally i use,
+
+```text
+Numpad1::send {ctrl down}{s down}{ctrl up}{s up}
+Numpad3::send {alt down}{r down}{alt up}{r up}
+Numpad2::send {ctrl down}{z down}{ctrl up}{z up}
+]::Suspend
+\::ExitApp
+```
+
+* Numpad1: Saves \(CTRL+S\)
+* Numpad2: Undo \(CTRL+Z\)
+* Numpad3: Reloads images in Blender with NodeWrangler \(ALT+R\) 
 
 ## Useful things:
 

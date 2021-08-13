@@ -2,7 +2,7 @@
 
 RSPNVPK is a new VPK repacker written by [Mr Steyk](https://github.com/mrsteyk) which creates a VPK patch rather than repacking the entire VPK. It can repack a VPK, replace, add, or delete files in a VPK. It can't, however unpack a VPK, so you would still have to use the VPKTool if you need to do that.
 
-You can get the latest version from Mr Steyek's repository on the [releases page](https://github.com/mrsteyk/RSPNVPK/releases).
+You can get the latest version from Mr Steyek's repository on the [releases page](https://github.com/mrsteyk/RSPNVPK/releases). If not found check [here](https://github.com/squidgyberries/RSPNVPK).
 
 ## Usage
 

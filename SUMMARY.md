@@ -100,8 +100,8 @@
 
 * [Weapon](modding/weapon-config-info/README.md)
   * [Custom Gun Skins](modding/weapon-config-info/custom-gun-skins/README.md)
-    * [Using/Applying Custom Gun Skins](modding/weapon-config-info/custom-gun-skins/using-applying-cgss/README.md)
-      * [Getting VTF files](modding/weapon-config-info/custom-gun-skins/using-applying-cgss/getting-vtfs.md)
+    * [VTF Format](modding/weapon-config-info/custom-gun-skins/vtf-format-cgs/README.md)
+      * [Getting Custom Skin files](modding/weapon-config-info/custom-gun-skins/vtf-format-cgs/getting-vtfs.md)
     * [Making Custom Gun Skins](modding/weapon-config-info/custom-gun-skins/making-cgss/README.md)
       * [2D Wireframes](modding/weapon-config-info/custom-gun-skins/making-cgss/2d-wireframes.md)
     * [Custom Gun Skin Gallery](modding/weapon-config-info/custom-gun-skins/cgs-gallery.md)
