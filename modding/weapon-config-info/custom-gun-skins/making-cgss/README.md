@@ -21,7 +21,7 @@ This page is more on useful tools, tip & tricks, and info about making skin its 
 VTF is the first found custom gun skin method. VTF CGS's take editing a path in a .mdl file and making the skin and script in the common vpk. 
 
 * Up to 4k skins
-* Animated skins
+* Animated skins \(VMT options\)
 * Viewed from afar
 * Works on low graphics
 * Can use transparency
