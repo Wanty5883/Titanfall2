@@ -152,7 +152,6 @@
   * [击杀音效](modding/sounds/killsound.md)
   * [大厅背景音乐](modding/sounds/lobby-music.md)
 * [杂项](modding/misc/README.md)
-  * [移除太阳效果](modding/misc/yi-chu-tai-yang-xiao-guo.md)
   * [电缆-滑索](modding/misc/cable-zipline.md)
   * [马文机器人-胸部显示屏](modding/misc/marvin-chest-screen.md)
   * [脉冲刀范围特效](modding/misc/pulse-effect.md)
