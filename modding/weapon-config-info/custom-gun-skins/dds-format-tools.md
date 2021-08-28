@@ -17,6 +17,12 @@ Made by greishuh/Gracious, Titanfall2 DDS Tool is a tool with cmd ui to more man
 
 ### Third-party tutorial \(Youtube by PHNTM\)
 
+New Tutorial \(below\)
+
+{% embed url="https://www.youtube.com/watch?v=trvO7t59FmU" %}
+
+Old Tutorial \(below\)
+
 {% embed url="https://www.youtube.com/watch?v=tUMeCUOyI00&list=PLDZQutpjzJ03WUXscuIVKxZlkh\_SxQfDh&index=19" %}
 
 
