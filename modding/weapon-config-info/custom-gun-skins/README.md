@@ -10,6 +10,8 @@ description: CGS stands for Custom Gun Skins.
 Pick your journey
 {% endhint %}
 
+{% page-ref page="dds-format-tools.md" %}
+
 {% page-ref page="vtf-format-cgs/" %}
 
 {% page-ref page="making-cgss/" %}
