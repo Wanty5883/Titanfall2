@@ -14,8 +14,6 @@ Pick your journey
 
 {% page-ref page="making-cgss/" %}
 
-{% page-ref page="cgs-gallery.md" %}
-
 
 
 

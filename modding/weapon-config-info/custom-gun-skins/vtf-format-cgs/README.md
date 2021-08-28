@@ -79,8 +79,6 @@ The `.vtf` we will be using for an example is the Not Your Savior skin:
 
 Find the download in the gallery:
 
-{% page-ref page="../cgs-gallery.md" %}
-
 ### VMT File \(managing file\)
 
 Now that we have our VTF\(s\) in our file system, We can create a Valve Material Type \(VMT\) file, which manages the `.vtf` and applies it to the models. In the folder with your VTF, create a blank text document and name it the last string in the path that you edited with the `.vmt` extension:
