@@ -2,7 +2,7 @@
 description: Patience makes a fruitful man.
 ---
 
-# Making Custom Gun Skins
+# Creating Custom Skin Info
 
 {% hint style="info" %}
 These are not the only ways to create a skin. Use your own tools if you like. If you believe your tools makes skinning better or easier feel free to share.
@@ -78,7 +78,11 @@ Animated skins are skins that create a moving affect or active scene by using mu
 
 Change `"animatedtextureFrameRate" "2"` to change framerate in game.
 
+### List of to do to make a skin:
 
+* .mdl file of choice edited and converted to .obj for editing application.
+* Editing application; Image editing software, 3D workspace; Blender, Substance Painter.
+* Creativity. Images to draw inspiration or to implement.
 
 ### Recommended Software
 

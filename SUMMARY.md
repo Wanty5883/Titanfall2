@@ -100,10 +100,10 @@
 
 * [Weapon](modding/weapon-config-info/README.md)
   * [Custom Gun Skins](modding/weapon-config-info/custom-gun-skins/README.md)
-    * [DDS Format \(lazy-format\)](modding/weapon-config-info/custom-gun-skins/dds-format-tools.md)
+    * [DDS Format \(notfinished\)](modding/weapon-config-info/custom-gun-skins/dds-format-tools.md)
     * [VTF Format](modding/weapon-config-info/custom-gun-skins/vtf-format-cgs/README.md)
       * [Getting Custom Skin files](modding/weapon-config-info/custom-gun-skins/vtf-format-cgs/getting-vtfs.md)
-    * [Making Custom Gun Skins](modding/weapon-config-info/custom-gun-skins/making-cgss/README.md)
+    * [Creating Custom Skin Info](modding/weapon-config-info/custom-gun-skins/making-cgss/README.md)
       * [2D Wireframes](modding/weapon-config-info/custom-gun-skins/making-cgss/2d-wireframes.md)
   * [Crosshair modding](modding/weapon-config-info/crosshair-modding/README.md)
     * [Batch crosshair modding](modding/weapon-config-info/crosshair-modding/batch-crosshair-modding.md)

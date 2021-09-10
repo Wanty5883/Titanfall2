@@ -5,7 +5,7 @@ description: >-
   yelled at.
 ---
 
-# DDS Format \(lazy-format\)
+# DDS Format \(notfinished\)
 
 ### [Titanfall2 SkinTool](https://github.com/zxcPandora/Titanfall2-SkinTool) - DDS Skin tool
 
