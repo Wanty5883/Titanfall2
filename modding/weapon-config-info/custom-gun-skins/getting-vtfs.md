@@ -10,7 +10,7 @@ There are several ways to obtain files for custom skins.
 
 #### Custom Skin Gallery Info and Files
 
-You can get community-created skin's from the gallery. Here in Gitbook we will be showcasing and sharing files of skins that are posted in the NoSkill server:
+You can get community-created skin's from our discord server NoSkill. Here at [https://discord.gg/sEgmTKg](https://discord.gg/sEgmTKg).
 
 #### Asking anyone with a custom skin or in Modding Titanfall 2 servers
 
@@ -24,5 +24,6 @@ You could also input an image into VTFEdit for a skin, but it may not be the mos
 
 The most daring option would be making your own skin from scratch. It will be time consuming if you are new to the process, but you can create whatever your mind desires to use. Check this page for tips on making your own skin:
 
-{% page-ref page="../making-cgss/" %}
-
+{% content-ref url="making-cgss/" %}
+[making-cgss](making-cgss/)
+{% endcontent-ref %}

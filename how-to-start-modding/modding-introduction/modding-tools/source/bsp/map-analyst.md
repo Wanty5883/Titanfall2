@@ -6,13 +6,13 @@ description: >-
 
 # Map Analyst
 
- **Map Analyst** \(MAN\) is a [GUI](https://developer.valvesoftware.com/wiki/GUI) tool by Rolf Hänisch for embedding custom content, such as materials, textures, models or sounds, into a .[BSP](https://developer.valvesoftware.com/wiki/BSP) file. Other packing programs sometimes won't detect custom files because their automation is flawed. MAN can circumvent that by having the user tell it directly what should be packed. Despite the age \(2005\), this has been confirmed to still work with Portal 2.
+&#x20;**Map Analyst** (MAN) is a [GUI](https://developer.valvesoftware.com/wiki/GUI) tool by Rolf Hänisch for embedding custom content, such as materials, textures, models or sounds, into a .[BSP](https://developer.valvesoftware.com/wiki/BSP) file. Other packing programs sometimes won't detect custom files because their automation is flawed. MAN can circumvent that by having the user tell it directly what should be packed. Despite the age (2005), this has been confirmed to still work with Portal 2.
 
 {% hint style="info" %}
 **Note:**This guide is a translated and condensed version of the German one included in the [ZIP](http://en.wikipedia.org/wiki/ZIP) file. Don't worry, the program is in full English.
 {% endhint %}
 
-Special thanks go to Gosuke, who gave me the idea for this program. After the first steps, a lot of mappers supported me. In addition to Gosuke, Thomas 'Flausch' Abts, DJ flyer \(alias Markus\), Spice, and Thorn have earned special merit. Without their help, Map Analyst would not have left beta status and many features would be missing. THANK YOU!
+Special thanks go to Gosuke, who gave me the idea for this program. After the first steps, a lot of mappers supported me. In addition to Gosuke, Thomas 'Flausch' Abts, DJ flyer (alias Markus), Spice, and Thorn have earned special merit. Without their help, Map Analyst would not have left beta status and many features would be missing. THANK YOU!
 
 ## Installation
 
@@ -64,7 +64,7 @@ One by one, all the files in the map are examined. Some text will appear with wa
 
 ![](../../../../../.gitbook/assets/man26ebeta06.png)
 
-Go to **File, Update game \(VBSP\)**, and that's it! Your packed map will be called **man\_betatest** unless you set the overwrite option mentioned below. Confirm the content was packed with [`sv_pure 2`](https://developer.valvesoftware.com/wiki/Sv_pure) or ask a friend to play your map.
+Go to **File, Update game (VBSP)**, and that's it! Your packed map will be called **man\_betatest** unless you set the overwrite option mentioned below. Confirm the content was packed with [`sv_pure 2`](https://developer.valvesoftware.com/wiki/Sv\_pure) or ask a friend to play your map.
 
 ## Options
 
@@ -85,10 +85,9 @@ Due to how many files a single map can end up using, MAN has toggle options to c
 If **Options, Overwrite BSP** is turned on, MAN will overwrite the original BSP instead of making a new map file called **man\_betatest**.
 
 {% hint style="danger" %}
- **Warning:** The author said that this may corrupt your bsp, likelihood unknown.
+&#x20;**Warning: **The author said that this may corrupt your bsp, likelihood unknown.
 {% endhint %}
 
 {% hint style="info" %}
-Source: [https://developer.valvesoftware.com/wiki/Map\_Analyst](https://developer.valvesoftware.com/wiki/Map_Analyst)
+Source: [https://developer.valvesoftware.com/wiki/Map\_Analyst](https://developer.valvesoftware.com/wiki/Map\_Analyst)
 {% endhint %}
-

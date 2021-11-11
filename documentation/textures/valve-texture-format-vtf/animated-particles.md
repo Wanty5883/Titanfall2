@@ -7,7 +7,7 @@ description: >-
 
 # Creating Animated Particles
 
-Particles are animated by using a material comprised of a collection of materials all built together into a "sheet". This is accomplished by using the **mksheet.exe** and **vtex** tools.
+Particles are animated by using a material comprised of a collection of materials all built together into a "sheet". This is accomplished by using the **mksheet.exe** and **vtex **tools.
 
 ## Creating an MKS File
 
@@ -19,7 +19,7 @@ The .mks file defines how the sheet is interpreted when the particle is rendered
 
 In the .mks file, this looks like:
 
-```text
+```
 // First sequence
 sequence 0
 loop
@@ -56,7 +56,7 @@ Tells the renderer to loop the frames continuously. Without this identifier the 
 
 Additionally, frames can be packed separately in RGB from Alpha. This takes the alphas from a set of input frames and stores them in the alpha of the output sheet. It takes the RGBs and stores them in the RGB. The interesting thing about this is that each get their own sequences. They also have their frame sizes entirely decoupled, so the RGB's can have 200x200 images while the alpha has 150x150, for example. See Below :
 
-```text
+```
 // Sequence that stores separate frame data in the RGB from the alpha
 //  for dual sequencing combining one set of RGBs and another set of alphas
 
@@ -78,21 +78,21 @@ frame smokeTex0002_341.tga 1
 
 The output from this .mks file can be seen below. The RGB and alpha channels are shown. Note that the individual frame sizes are all non-power-of-two and that they are different between the RGB and Alpha frames.
 
-![](../../../.gitbook/assets/vista_smoke_rgb.jpg)
+![](../../../.gitbook/assets/vista\_smoke\_rgb.jpg)
 
-![](../../../.gitbook/assets/vista_smoke_alpha.jpg)
+![](../../../.gitbook/assets/vista\_smoke\_alpha.jpg)
 
 ## Compiling the Sheet
 
 Once the materials are created, move all of your .tga and .mks files to the `"Steamapps/common/SourceSDK/bin/orangebox/bin"` folder. Inside this directory, create a .bat file, and inside it, write:
 
-```text
+```
 mksheet <sheetname>.mks <sheetname>.sht <sheetname>.tga
 ```
 
 The tool takes one main parameter and two optional ones. The first is the .mks sheet which will define how the .sht and .tga files are created. The second, optional parameter is the .sht file. Finally, the third optional parameter is the .tga file to create, consisting of all the tga files previously specified. The second and third parameters must bear the name of the final material you wish to create. For example, the build call for the smoke1.vmt material would be:
 
-```text
+```
 mksheet smoke1.mks smoke1.sht smoke1.tga
 ```
 
@@ -108,15 +108,14 @@ At this point you should have a .tga file. You can now compile the output .tga f
 
 ## Notes
 
-You can use the same image file in multiple sequences \(or multiple times within the same sequence\) without it being duplicated in the output sheet. Examples where you would want to do this are sequences with different timing, particle sequences, looped and non-looped versions of a sequence, etc.
+You can use the same image file in multiple sequences (or multiple times within the same sequence) without it being duplicated in the output sheet. Examples where you would want to do this are sequences with different timing, particle sequences, looped and non-looped versions of a sequence, etc.
 
-To the extent practical, you should combine as many sprite textures into one sheet as possible, and use different sequences for the different particle systems \(hmm this implies that we might want named sequences for sanity's sake\). This will allow particle systems to be drawn with fewer state changes or even as one batch.
+To the extent practical, you should combine as many sprite textures into one sheet as possible, and use different sequences for the different particle systems (hmm this implies that we might want named sequences for sanity's sake). This will allow particle systems to be drawn with fewer state changes or even as one batch.
 
 ## Automation in 3ds Max
 
-You can now export rendered sequences directly into Source with Wall Worm. The system allows you to export IFL \(Image File List\) bitmaps made of TGA bitmaps. Based on the bitmap parameters, the MKS is generated automatically, then sent to mkshheet with the .SHT file and TGA files. See complete documentation at [http://dev.wallworm.com/document/187/exporting\_animated\_particle\_textures.html](http://dev.wallworm.com/document/187/exporting_animated_particle_textures.html)
+You can now export rendered sequences directly into Source with Wall Worm. The system allows you to export IFL (Image File List) bitmaps made of TGA bitmaps. Based on the bitmap parameters, the MKS is generated automatically, then sent to mkshheet with the .SHT file and TGA files. See complete documentation at [http://dev.wallworm.com/document/187/exporting\_animated\_particle\_textures.html](http://dev.wallworm.com/document/187/exporting\_animated\_particle\_textures.html)
 
 {% hint style="info" %}
-Source: [https://developer.valvesoftware.com/wiki/Animated\_Particles](https://developer.valvesoftware.com/wiki/Animated_Particles)
+Source: [https://developer.valvesoftware.com/wiki/Animated\_Particles](https://developer.valvesoftware.com/wiki/Animated\_Particles)
 {% endhint %}
-

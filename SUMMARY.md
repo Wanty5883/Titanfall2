@@ -4,7 +4,7 @@
 * [Contact](contact.md)
 * [Contributors](contributors.md)
 
-## Wiki 101 - How to start ? <a id="how-to-start-modding"></a>
+## Wiki 101 - How to start ? <a href="how-to-start-modding" id="how-to-start-modding"></a>
 
 * [Modding introduction](how-to-start-modding/modding-introduction/README.md)
   * [How to backup, extract & repack](how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
@@ -23,7 +23,7 @@
         * [Map Analyst](how-to-start-modding/modding-introduction/modding-tools/source/bsp/map-analyst.md)
         * [PackBsp](how-to-start-modding/modding-introduction/modding-tools/source/bsp/packbsp.md)
         * [Pakrat](how-to-start-modding/modding-introduction/modding-tools/source/bsp/pakrat.md)
-        * [VBSP\_h4xed](how-to-start-modding/modding-introduction/modding-tools/source/bsp/vbsp_h4xed.md)
+        * [VBSP\_h4xed](how-to-start-modding/modding-introduction/modding-tools/source/bsp/vbsp\_h4xed.md)
         * [VIDE](how-to-start-modding/modding-introduction/modding-tools/source/bsp/vide.md)
         * [VMEX](how-to-start-modding/modding-introduction/modding-tools/source/bsp/vmex.md)
         * [WinBSPC](how-to-start-modding/modding-introduction/modding-tools/source/bsp/winbspc.md)
@@ -90,20 +90,20 @@
     * [Model - Beacon](documentation/file-location/models/models-beacon.md)
     * [Model - Containers](documentation/file-location/models/model-containers.md)
     * [Model - Fixtures](documentation/file-location/models/model-fixtures.md)
-    * [Model - imc\_base](documentation/file-location/models/model-imc_base.md)
+    * [Model - imc\_base](documentation/file-location/models/model-imc\_base.md)
     * [Model - Industrial](documentation/file-location/models/model-industrial.md)
-    * [Model - kodai\_live\_fire](documentation/file-location/models/model-kodai_live_fire.md)
+    * [Model - kodai\_live\_fire](documentation/file-location/models/model-kodai\_live\_fire.md)
     * [Model - NPC](documentation/file-location/models/mode-npc.md)
     * [Model - Frontier Defense](documentation/file-location/models/model-frontier-defense.md)
 
 ## Modding
 
 * [Weapon](modding/weapon-config-info/README.md)
-  * [Custom Gun Skins](modding/weapon-config-info/custom-gun-skins/README.md)
-    * [DDS Format \(notfinished\)](modding/weapon-config-info/custom-gun-skins/dds-format-tools.md)
-    * [VTF Format](modding/weapon-config-info/custom-gun-skins/vtf-format-cgs/README.md)
-      * [Getting Custom Skin files](modding/weapon-config-info/custom-gun-skins/vtf-format-cgs/getting-vtfs.md)
-    * [Creating Custom Skin Info](modding/weapon-config-info/custom-gun-skins/making-cgss/README.md)
+  * [Custom Skins](modding/weapon-config-info/custom-gun-skins/README.md)
+    * [DDS Format (notfinished)](modding/weapon-config-info/custom-gun-skins/dds-format-tools.md)
+    * [VTF Format](modding/weapon-config-info/custom-gun-skins/vtf-format-cgs.md)
+    * [Getting Custom Skin files](modding/weapon-config-info/custom-gun-skins/getting-vtfs.md)
+    * [Making Custom Skins Info](modding/weapon-config-info/custom-gun-skins/making-cgss/README.md)
       * [2D Wireframes](modding/weapon-config-info/custom-gun-skins/making-cgss/2d-wireframes.md)
   * [Crosshair modding](modding/weapon-config-info/crosshair-modding/README.md)
     * [Batch crosshair modding](modding/weapon-config-info/crosshair-modding/batch-crosshair-modding.md)
@@ -137,7 +137,7 @@
   * [War Games](modding/maps/war-games/README.md)
     * [Holographic wall color](modding/maps/war-games/holographic-wall-color.md)
 * [User Interface](modding/user-interface/README.md)
-  * [Text modding r1\_language](modding/user-interface/text-modding-r1_language.md)
+  * [Text modding r1\_language](modding/user-interface/text-modding-r1\_language.md)
   * [In Game](modding/user-interface/in-game/README.md)
     * [Scoreboard colors](modding/user-interface/in-game/scoreboard-colors.md)
   * [Menus](modding/user-interface/menus/README.md)
@@ -160,10 +160,10 @@
   * [Ticks - Model](modding/misc/ticks.md)
   * [Nessie- Frag Model](modding/misc/nessie-frag-model.md)
 
-## Script Values <a id="game-values"></a>
+## Script Values <a href="game-values" id="game-values"></a>
 
 * [Crosshair](game-values/crosshair.md)
-* [Effect \(FX\)](game-values/effect-fx.md)
+* [Effect (FX)](game-values/effect-fx.md)
 * [FX](game-values/fx/README.md)
   * [FX - Pilot](game-values/fx/fx-pilot/README.md)
     * [FX - Pilot Weapon](game-values/fx/fx-pilot/fx-pilot-weapon/README.md)
@@ -285,9 +285,9 @@
 ## Mods
 
 * [Plastic Mode](mods/plastic-mode.md)
-* [No-HUD Mod](mods/no_hud_mod.md)
+* [No-HUD Mod](mods/no\_hud\_mod.md)
 
-## Exporting Assets <a id="r2-ripping"></a>
+## Exporting Assets <a href="r2-ripping" id="r2-ripping"></a>
 
 * [Exporting Maps](r2-ripping/exporting-maps.md)
 * [Exporting using Legion](r2-ripping/exporting-using-legion.md)
@@ -296,4 +296,3 @@
 ## Assets
 
 * [Texture library](assets/texture-library.md)
-

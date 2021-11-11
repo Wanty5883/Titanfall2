@@ -17,41 +17,45 @@ description: How To Rip Game Models With Textures into blender
 Check down bellow for the tools page where all the link are provided
 {% endhint %}
 
-{% page-ref page="../how-to-start-modding/modding-introduction/modding-tools/" %}
+{% content-ref url="../how-to-start-modding/modding-introduction/modding-tools/" %}
+[modding-tools](../how-to-start-modding/modding-introduction/modding-tools/)
+{% endcontent-ref %}
 
 ## Getting The Models
 
 First, we need to actually obtain the models. You can do this by extracting this VPK file you can learn how to extract VPKs
 
-{% page-ref page="../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
+{% content-ref url="../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
+[how-to-backup-extract-and-repack.md](../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
+{% endcontent-ref %}
 
 For the most part, models can be found in the common vpk. But you will find other models in the other vpk from Titanfall 2.
 
-```text
+```
 "Titanfall2\vpk\englishclient_mp_common.bsp.pak000_dir.vpk"
 ```
 
 Next, you need to find the model you want. In this guide, as an example, the CAR SMG will be chosen. Which is located here
 
-```text
+```
 ExtractedVPK\models\weapons\car101
 ```
 
-However, we can't just straight import this into blender, we will need to decompile the model using crowbar. So first, extract crowbar using your archive software of choice, and load up `crowbar.exe` 
+However, we can't just straight import this into blender, we will need to decompile the model using crowbar. So first, extract crowbar using your archive software of choice, and load up `crowbar.exe`&#x20;
 
 ![Copy these settings here, with the filepath to your model and click decompile](../.gitbook/assets/crowbar-settings.png)
 
-Once you've decompiled the model into the folder of your choice, we need to open up blender and install blender source tools. 
+Once you've decompiled the model into the folder of your choice, we need to open up blender and install blender source tools.&#x20;
 
-![Go into your preferences panel](../.gitbook/assets/desktop-2020.08.10-14.13.29.22_1.gif)
+![Go into your preferences panel](../.gitbook/assets/desktop-2020.08.10-14.13.29.22\_1.gif)
 
-![Click the install button on top of the blender preferences window](../.gitbook/assets/install%20%281%29.png)
+![Click the install button on top of the blender preferences window](<../.gitbook/assets/install (1).png>)
 
 ![Locate your add-on and install it as shown.](../.gitbook/assets/adding-the-addon.gif)
 
 ## Importing The Models
 
-Next, we need to import the models using blender source tools. This can easily be done by clicking on `File > import`, and importing the `.qc` file as shown
+Next, we need to import the models using blender source tools. This can easily be done by clicking on `File > import`, and importing the `.qc `file as shown
 
 ![](../.gitbook/assets/importing-the-model.gif)
 
@@ -85,9 +89,9 @@ Finally, we can begin to texture our model, this is perhaps the most tedious ste
 
 ![Copy paste the texture name and paste it into the legion extractor search bar. ](../.gitbook/assets/copy-paste.gif)
 
-![The textures are located within the &quot;exported\_files/materials&quot; path for legion.](../.gitbook/assets/car-smg.png)
+![The textures are located within the "exported\_files/materials" path for legion.](../.gitbook/assets/car-smg.png)
 
-Now, we need to link up the textures to the blender node, however. we need to figure out which texture is which type. I've created a handy little image to help you identify them 
+Now, we need to link up the textures to the blender node, however. we need to figure out which texture is which type. I've created a handy little image to help you identify them&#x20;
 
 ![](../.gitbook/assets/texture-linking.png)
 
@@ -100,6 +104,4 @@ Link them up using the visual guide above
 Once its all textured up, your model should look like this, congrats!
 
 ![](../.gitbook/assets/spijny-car.gif)
-
-
 

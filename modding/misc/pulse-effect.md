@@ -10,11 +10,11 @@ In this guide you will have to edit vmt and vtf files. I would recommend to use 
 
 Locate your game folder and find this folder if you are on Origin:
 
-> Origin Games\Titanfall2\vpk\
+> Origin Games\Titanfall2\vpk\\
 
 Or this folder if you are on Steam:
 
-> Steam\steamapps\common\Titanfall2\vpk\
+> Steam\steamapps\common\Titanfall2\vpk\\
 
 Copy these files and paste them in a backup folder somewhere else:
 
@@ -43,33 +43,33 @@ You will also need a graphic editor, [here](https://noskill.gitbook.io/titanfall
 
 To edit the texture of the pulse effect go to this location.
 
-> \materials\effects\
+> \materials\effects\\
 
-The texture used for pulse effect is `black.vtf`, you can either change this texture or create a new one.  
+The texture used for pulse effect is `black.vtf`, you can either change this texture or create a new one.\
 Editing this texture will have impact on other effect in the game.
 
 It is recommended to create a new texture so it is possible to make custom effect for specific part of the game.
 
 Choose a texture, you can check [here](../../assets/texture-library.md). With your chosen texture, compile it with [VTFEdit](../../how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtfedit.md). For consistency the [`.vtf`](../../documentation/textures/valve-texture-format-vtf/) file will be renamed as`pulse.vtf`.
 
-For the parameters you can apply the same as the original texture or you can make your own and test things around! Feel free to send us your results on our Discord server. We might add what you obtained in the wiki! ![](../../.gitbook/assets/08c0a077780263f3df97613e58e71744.svg) 
+For the parameters you can apply the same as the original texture or you can make your own and test things around! Feel free to send us your results on our Discord server. We might add what you obtained in the wiki! ![](../../.gitbook/assets/08c0a077780263f3df97613e58e71744.svg)&#x20;
 
 ### Applying the texture
 
 To change the texture of the pulse effect to the one just created, go to this location.
 
-> materials\models\fx\
+> materials\models\fx\\
 
 Open the `ar_impact_pilot.vmt` file and locate these lines, they are what you want to change.
 
-```text
+```
 "$basetexture" "effects\black"
 "$Texture2" "effects\black"
 ```
 
 Change `black` to whatever you named your [`.vtf`](../../documentation/textures/valve-texture-format-vtf/) file, in this case pulse.
 
-```text
+```
 "$basetexture" "effects\pulse"
 "$Texture2" "effects\pulse"
 ```
@@ -84,21 +84,33 @@ Color can be changed. If the texture is black then the color applied in your [ma
 {% tab title="Fractal" %}
 {% embed url="https://gfycat.com/damagedcluelesscirriped" %}
 
-{% embed url="https://gfycat.com/farcavernousequestrian" caption="Fractal 01" %}
+{% embed url="https://gfycat.com/farcavernousequestrian" %}
+Fractal 01
+{% endembed %}
 
-{% embed url="https://gfycat.com/clumsywickedbonobo" caption="Fractal 02" %}
+{% embed url="https://gfycat.com/clumsywickedbonobo" %}
+Fractal 02
+{% endembed %}
 {% endtab %}
 
 {% tab title="Alien Pulse" %}
-{% embed url="https://gfycat.com/alertaggravatingfly" caption="\"$basetexture\" & \"$Texture2\" edited" %}
+{% embed url="https://gfycat.com/alertaggravatingfly" %}
+"$basetexture" & "$Texture2" edited
+{% endembed %}
 
-{% embed url="https://gfycat.com/blaringhospitableaddax" caption="\"$Texture2\" edited" %}
+{% embed url="https://gfycat.com/blaringhospitableaddax" %}
+"$Texture2" edited
+{% endembed %}
 
-{% embed url="https://gfycat.com/glossyscaredekaltadeta" caption="\"$basetexture\" edited" %}
+{% embed url="https://gfycat.com/glossyscaredekaltadeta" %}
+"$basetexture" edited
+{% endembed %}
 {% endtab %}
 
 {% tab title="Others" %}
 {% embed url="https://gfycat.com/mellowklutzydavidstiger" %}
+
+
 {% endtab %}
 {% endtabs %}
 
@@ -115,4 +127,3 @@ Rename `pak000_000.vpk` _to_ `client_mp_common.bsp.pak000_000.vpk`
 Rename `pak000_dir.vpk` _to_ `englishclient_mp_common.bsp.pak000_dir.vpk`
 
 Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see your new pulse effect!
-

@@ -8,7 +8,7 @@ description: Add additional settings and toggles to the Controls menu
 
 ## File Location
 
-The Controls menu file is located  in `englishclient_frontend.bsp.pak000_dir.vpk`**,**  and is made up of two files:
+The Controls menu file is located  in `englishclient_frontend.bsp.pak000_dir.vpk`**,  **and is made up of two files:
 
 * `resource\ui\menus\controls.menu`
 * `scripts\vscripts\ui\menu_controls.nut`
@@ -17,7 +17,7 @@ The Controls menu file is located  in `englishclient_frontend.bsp.pak000_dir.vpk
 
 Each settings toggle that resides in the Controls menu and other menu's like Advanced HUD are layed out like this:
 
-```text
+```
 SwchAutoSprint
 		{
 			ControlName				RuiButton
@@ -46,15 +46,15 @@ SwchAutoSprint
 
 `pin_to_sibling` is the variable name of the setting above it.
 
-`navUp` is the variable name of the setting you will navigate to when pressing up \(usually above it\).
+`navUp` is the variable name of the setting you will navigate to when pressing up (usually above it).
 
-`navDown` is the variable name of the setting you will navigate to when pressing down \(usually below it\).
+`navDown` is the variable name of the setting you will navigate to when pressing down (usually below it).
 
 `ConVar` the source variable that you are modifying e.g `cl_showpos`, `cl_showfps`, or `sv_cheats`.
 
 `list` a set of options for the `Convar`:
 
-```text
+```
 list
 {
     "Disable" 0
@@ -66,23 +66,23 @@ list
 
 In the `menu_controls.nut` file, create a new line close to the other settings to keep them organised an easy to come back to later. You will now need to setup a new button for your setting variable:
 
-```text
+```
 SetupButton( Hud_GetChild( menu, "SwitchEnableCheats" ), "Enable Cheats", "Toggles `1sv_cheats`0 Enables extra commands." )
 ```
 
 The new setting I'm creating is for `sv_cheats` which I've called `SwitchEnableCheats`.
 
-`"Enable Cheats"` is the setting name that you will see in the menu \(see screenshot for example\).
+`"Enable Cheats"` is the setting name that you will see in the menu (see screenshot for example).
 
 ``"Toggles `1sv_cheats`0 Enables extra commands."`` is the description of the setting.
 
-You will notice that there is a ```1`` and a ```0``. These will change the color of the text. 1 sets it blue and 0 sets it back white.
+You will notice that there is a `` `1 `` and a `` `0 ``. These will change the color of the text. 1 sets it blue and 0 sets it back white.
 
 
 
 The last thing you will need to do is add one more line to the file under this function, which is already in the file:
 
-```text
+```
 void function Controller_ResetToDefaults()
 {
 
@@ -91,7 +91,7 @@ void function Controller_ResetToDefaults()
 
 Add your new setting to the function like this:
 
-```text
+```
 SetConVarToDefault( "sv_cheats" )
 ```
 
@@ -100,4 +100,3 @@ SetConVarToDefault( "sv_cheats" )
 ## Avoiding Errors
 
 When adding new settings, make sure you adjust the `pin_to_sibling`, `navUp`, and `navDown` of the previous and next setting, otherwise you can overlap them.
-

@@ -6,9 +6,9 @@ description: How to play around with VPKs without messing everything up
 
 ## How to backup & extract VPK's properly?
 
-When you extract [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)archives, you need a directory where the files will be extracted to. This folder **should not** be inside your game directory. Before we start modding, you should create a folder to keep track of your modding files. It is recommended for you to create a folder with an easy name like `Titanfall 2 modding` on your desktop or another place you can access it easily. In this example we will use the path `C:\Users\<username>\Documents`. 
+When you extract [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)archives, you need a directory where the files will be extracted to. This folder **should not** be inside your game directory. Before we start modding, you should create a folder to keep track of your modding files. It is recommended for you to create a folder with an easy name like `Titanfall 2 modding` on your desktop or another place you can access it easily. In this example we will use the path `C:\Users\<username>\Documents`.&#x20;
 
-```text
+```
 C:\Users\<username>\Documents\Titanfall 2 modding
 ```
 
@@ -16,11 +16,13 @@ C:\Users\<username>\Documents\Titanfall 2 modding
 It is recommended to follow the modding environment setup as well
 {% endhint %}
 
-{% page-ref page="how-to-setup-a-modding-environment.md" %}
+{% content-ref url="how-to-setup-a-modding-environment.md" %}
+[how-to-setup-a-modding-environment.md](how-to-setup-a-modding-environment.md)
+{% endcontent-ref %}
 
-Once you have created this folder I recommend creating a sub-folder called `"Backup"` dedicated for, you guessed it: backups. \(Yay!\)
+Once you have created this folder I recommend creating a sub-folder called `"Backup"` dedicated for, you guessed it: backups. (Yay!)
 
-```text
+```
 C:\Users\<username>\Documents\Titanfall 2 Modding\backup
 ```
 
@@ -32,11 +34,11 @@ The next step uses the Titanfall VPK Tool. If you haven't done so already, downl
 
 The VPK Tool looks like this:
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](<../../.gitbook/assets/image (11).png>)
 
 Click on the 1st icon or press `CTRL + O`.
 
-![](../../.gitbook/assets/vpktool_open.png)
+![](../../.gitbook/assets/vpktool\_open.png)
 
 Navigate to your game folder and open the VPK that is mentioned in the guide.
 
@@ -44,11 +46,11 @@ Navigate to your game folder and open the VPK that is mentioned in the guide.
 **Only extract VPK archive from the game directory. If you don't, make sure to have in the same folder all the subsequent VPK archive as shown in the next screenshot.**
 {% endhint %}
 
-![](../../.gitbook/assets/vpkarchive_subsequent.png)
+![](../../.gitbook/assets/vpkarchive\_subsequent.png)
 
 Once the VPK archive is loaded in the VPK tool, extract all the files using the icon shown in the next screenshot.
 
-![](../../.gitbook/assets/vpktool_extractall.png)
+![](../../.gitbook/assets/vpktool\_extractall.png)
 
 It is recommended to put each extracted [VPK](../../documentation/file-format/vpk-valve-pak-file.md) in a folder with the same the [VPK](../../documentation/file-format/vpk-valve-pak-file.md). This makes it easier to manage when you extract files from different VPK's. We will use a folder named `englishclient_mp_common`.
 
@@ -62,7 +64,7 @@ Open the repacking tool inside the Titanfall VPK Tool. You have 2 ways to do tha
 
 Once we are done with modding our crosshairs, select `Browse` next to the first box. Navigate to and select the extracted folder. Next, select `Browse` next to the second box and select your modding folder.
 
-> C:\Users\\Documents\Titanfall 2 modding\Repack\
+> C:\Users\\\Documents\Titanfall 2 modding\Repack\\
 
 Then, deselect `Debug log` from the options menu, and click `Build VPK`. Once the VPK file has been built, navigate to the location you selected as the second directory. You will find two files named _`pak000_000.vpk`_ _`pack000_dir.vpk`_. Before moving those 2 files into your game directory, they have to be renamed. At the end of each guide, it it will tell you how to how to rename each file:
 
@@ -89,11 +91,12 @@ move "englishclient_mp_common.bsp.pak000_dir.vpk" "<ORIGINGAMES>\Titanfall2\vpk\
 
 That's the script for renaming for _`englishclient_mp_common.bsp.pak000_dir.vpk`_, it can be adapted to any other VPKs you edit quite often. Just paste that in a blank notepad file and save it with a `.bat` extension.
 
-**Don't forget to add the correct game directory by replacing** _`<ORIGINGAMES>`_ **with the location of you game install.** You can also replace _`<ORIGINGAMES>`_ with your steam directory or wherever your Steam game library is \(`Steam\steamapps\common`\).
+**Don't forget to add the correct game directory by replacing **_`<ORIGINGAMES>`_ **with the location of you game install.** You can also replace _`<ORIGINGAMES>`_ with your steam directory or wherever your Steam game library is (`Steam\steamapps\common`).
 
 {% hint style="danger" %}
 Make sure to close the VPK tool before executing this script, as it will cause an error.
 {% endhint %}
 
-{% page-ref page="modding-tools/" %}
-
+{% content-ref url="modding-tools/" %}
+[modding-tools](modding-tools/)
+{% endcontent-ref %}

@@ -4,36 +4,36 @@ description: VPK (Valve Pak) files are uncompressed archives used to package gam
 
 # VPK - Valve Pak file
 
- **VPK** \(Valve Pak\) files are uncompressed archives used to package game content. Valve's post-[GCF](https://developer.valvesoftware.com/wiki/GCF) games store [materials](../textures/valve-material-type-vmt.md), [models](https://developer.valvesoftware.com/wiki/MDL), [particles](https://developer.valvesoftware.com/wiki/Particles), [choreography scenes](https://developer.valvesoftware.com/wiki/VCD) and many other file types in VPK files.  
-VPKs are also used to distribute mods via the the `addoninstaller` tool that ships with some games, such as [Left 4 Dead 2](https://developer.valvesoftware.com/wiki/Left_4_Dead_2).
+&#x20;**VPK** (Valve Pak) files are uncompressed archives used to package game content. Valve's post-[GCF](https://developer.valvesoftware.com/wiki/GCF) games store [materials](../textures/valve-material-type-vmt.md), [models](https://developer.valvesoftware.com/wiki/MDL), [particles](https://developer.valvesoftware.com/wiki/Particles), [choreography scenes](https://developer.valvesoftware.com/wiki/VCD) and many other file types in VPK files.\
+VPKs are also used to distribute mods via the the `addoninstaller` tool that ships with some games, such as [Left 4 Dead 2](https://developer.valvesoftware.com/wiki/Left\_4\_Dead\_2).
 
 ## Creation
 
-VPKs can be created with the [command line](https://developer.valvesoftware.com/wiki/Command_line) tool `vpk.exe`.
+VPKs can be created with the [command line](https://developer.valvesoftware.com/wiki/Command\_line) tool `vpk.exe`.
 
 The tool can be located in the bin folders for most Source games, such as the ones below. The tool is not game dependent, however it is suggested that you use the tool that corresponds to the game you are creating the vpk for. The version in one game may not be as up to date as the version in another due to game updates.
 
-|  Game |  Path to VPK.exe |
-| :--- | :--- |
-| [![&amp;lt;Alien Swarm&amp;gt;](https://developer.valvesoftware.com/w/images/c/c9/AS-16px.png)](https://developer.valvesoftware.com/wiki/Alien_Swarm)[Alien Swarm](https://developer.valvesoftware.com/wiki/Alien_Swarm) | C:\Program Files \(x86\)\Steam\SteamApps\common\Alien Swarm\bin |
-| [![&amp;lt;Team Fortress 2&amp;gt;](https://developer.valvesoftware.com/w/images/8/84/Tf2-16px.png)](https://developer.valvesoftware.com/wiki/Team_Fortress_2)[Team Fortress 2](https://developer.valvesoftware.com/wiki/Team_Fortress_2) | C:\Program Files \(x86\)\Steam\SteamApps\common\Team Fortress 2\bin |
-| [![&amp;lt;Left 4 Dead&amp;gt;](https://developer.valvesoftware.com/w/images/c/c0/L4D-16px.png)](https://developer.valvesoftware.com/wiki/Left_4_Dead)[Left 4 Dead](https://developer.valvesoftware.com/wiki/Left_4_Dead) | C:\Program Files \(x86\)\Steam\SteamApps\common\Left 4 Dead\bin |
-| [![&amp;lt;Counter-Strike: Source&amp;gt;](https://developer.valvesoftware.com/w/images/c/c7/Css.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:_Source)[Counter-Strike: Source](https://developer.valvesoftware.com/wiki/Counter-Strike:_Source) | C:\Program Files \(x86\)\Steam\SteamApps\common\Counter-Strike Source\bin |
-| [![&amp;lt;Source&amp;gt;](https://developer.valvesoftware.com/w/images/5/5a/Source_icon_16x16.gif)](https://developer.valvesoftware.com/wiki/Source) [Source SDK Base 2013](https://developer.valvesoftware.com/wiki/Source_SDK_Base) | C:\Program Files \(x86\)\Steam\SteamApps\common\Source SDK Base 2013\&lt;Singleplayer or Multiplayer&gt;\bin |
-| [![&amp;lt;Counter-Strike: Global Offensive&amp;gt;](https://developer.valvesoftware.com/w/images/3/35/Csgo.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive) [Counter-Strike: Global Offensive](https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive) | C:\Program Files \(x86\)\Steam\SteamApps\common\Counter-Strike Global Offensive\bin |
-| [![\[Portal 2\]](https://developer.valvesoftware.com/w/images/7/77/Portal2-16px.png)](https://developer.valvesoftware.com/wiki/Portal_2) [Portal 2](https://developer.valvesoftware.com/wiki/Portal_2) | C:\Program Files \(x86\)\Steam\steamapps\common\Portal 2\bin |
+|  Game                                                                                                                                                                                                                                                                                             |  Path to VPK.exe                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| [![\<Alien Swarm>](https://developer.valvesoftware.com/w/images/c/c9/AS-16px.png)](https://developer.valvesoftware.com/wiki/Alien\_Swarm)[Alien Swarm](https://developer.valvesoftware.com/wiki/Alien\_Swarm)                                                                                     | C:\Program Files (x86)\Steam\SteamApps\common\Alien Swarm\bin                                          |
+| [![\<Team Fortress 2>](https://developer.valvesoftware.com/w/images/8/84/Tf2-16px.png)](https://developer.valvesoftware.com/wiki/Team\_Fortress\_2)[Team Fortress 2](https://developer.valvesoftware.com/wiki/Team\_Fortress\_2)                                                                  | C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\bin                                      |
+| [![\<Left 4 Dead>](https://developer.valvesoftware.com/w/images/c/c0/L4D-16px.png)](https://developer.valvesoftware.com/wiki/Left\_4\_Dead)[Left 4 Dead](https://developer.valvesoftware.com/wiki/Left\_4\_Dead)                                                                                  | C:\Program Files (x86)\Steam\SteamApps\common\Left 4 Dead\bin                                          |
+| [![\<Counter-Strike: Source>](https://developer.valvesoftware.com/w/images/c/c7/Css.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:\_Source)[Counter-Strike: Source](https://developer.valvesoftware.com/wiki/Counter-Strike:\_Source)                                             | C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike Source\bin                                |
+| [![\<Source>](https://developer.valvesoftware.com/w/images/5/5a/Source\_icon\_16x16.gif)](https://developer.valvesoftware.com/wiki/Source) [Source SDK Base 2013](https://developer.valvesoftware.com/wiki/Source\_SDK\_Base)                                                                     | C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013\\\<Singleplayer or Multiplayer>\bin |
+| [![\<Counter-Strike: Global Offensive>](https://developer.valvesoftware.com/w/images/3/35/Csgo.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:\_Global\_Offensive) [Counter-Strike: Global Offensive](https://developer.valvesoftware.com/wiki/Counter-Strike:\_Global\_Offensive) | C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike Global Offensive\bin                      |
+| [![\[Portal 2\]](https://developer.valvesoftware.com/w/images/7/77/Portal2-16px.png)](https://developer.valvesoftware.com/wiki/Portal\_2) [Portal 2](https://developer.valvesoftware.com/wiki/Portal\_2)                                                                                          | C:\Program Files (x86)\Steam\steamapps\common\Portal 2\bin                                             |
 
- For servers installed using [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD), it is located in the server's bin\ directory. On Linux, it is named vpk\_linux32 instead of vpk.exe.
+&#x20;For servers installed using [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD), it is located in the server's bin\ directory. On Linux, it is named vpk\_linux32 instead of vpk.exe.
 
 ### Linux / Unix
 
 On Linux / Unix clients, the vpk file can be found replacing "`C:\Program Files (x86)\Steam\SteamApps\common`" for "`~/.steam/steam/SteamApps/common/`". However, it is named `vpk_linux32` instead of `vpk.exe`.
 
-  
-If you are running on a 64-bit system, this binary will not work by default. You must tell it to use the 32-bit libraries located in the same directory. This can be done by setting the `LD_LIBRARY_PATH` variable.  
-The following script, if created in the above listed bin directories, will create a wrapper to properly launch the 32-bit executable; then a link \(or desktop shortcut\) to `vpk.sh` \(if saved as said name\) can be created, from there:
+\
+If you are running on a 64-bit system, this binary will not work by default. You must tell it to use the 32-bit libraries located in the same directory. This can be done by setting the `LD_LIBRARY_PATH` variable.\
+The following script, if created in the above listed bin directories, will create a wrapper to properly launch the 32-bit executable; then a link (or desktop shortcut) to `vpk.sh` (if saved as said name) can be created, from there:
 
-```text
+```
 #!/bin/bash
 DIR=$(dirname "${BASH_SOURCE[0]}")
 export LD_LIBRARY_PATH=$(cd "$DIR" && pwd)
@@ -42,7 +42,7 @@ exec "$DIR/vpk_linux32" "${@}"
 
 Alternatively, if you're running 64-bit Linux, you can use this script to execute the `vpk_linux32` binary successfully. Save this script to "`/usr/local/bin/vpk`" and set it as an executable in the file's properties, for ease of use:
 
-```text
+```
 #!/bin/bash
 VPK_LINUX=$(find "${HOME}/.local/share/Steam" -type f -iname "vpk_linux32" -print | head -n 1)
 VALVE_LIB_DIR=$(dirname "${VPK_LINUX}")
@@ -55,7 +55,7 @@ LD_LIBRARY_PATH="${VALVE_LIB_DIR}:${LD_LIBRARY_PATH}" "${VPK_LINUX}" "${@}"
 
 ### Windows
 
-On Windows, a shortcut \(\*.lnk\) linked to the `vpk.exe` file in the `bin` folder can be created instead, making it so that you can drag-and-drop folders onto the shortcut and get a \*.vpk file in return, and vice-versa.A easily-created shortcut named "vpk" can be left in the `custom` folder, making packaging folders into vpk's and vice-versa \(while also debugging your custom files\) a lot easier instead of having to do it from the command prompt.
+On Windows, a shortcut (\*.lnk) linked to the `vpk.exe` file in the `bin` folder can be created instead, making it so that you can drag-and-drop folders onto the shortcut and get a \*.vpk file in return, and vice-versa.A easily-created shortcut named "vpk" can be left in the `custom` folder, making packaging folders into vpk's and vice-versa (while also debugging your custom files) a lot easier instead of having to do it from the command prompt.
 
 ## Commands
 
@@ -71,7 +71,7 @@ On Windows, a shortcut \(\*.lnk\) linked to the `vpk.exe` file in the `bin` fold
 
 #### `vpk <dirname>`
 
-Creates a pack file named &lt;dirname&gt;.vpk. Must be an existing location. The VPK will appear next to the directory.
+Creates a pack file named \<dirname>.vpk. Must be an existing location. The VPK will appear next to the directory.
 
 {% hint style="info" %}
 **Tip:**Drag a folder onto the tool in Explorer to trigger this command.
@@ -79,18 +79,18 @@ Creates a pack file named &lt;dirname&gt;.vpk. Must be an existing location. The
 
 #### `vpk a <vpkfile> <filename1> <filename2> ...`
 
-Add file\(s\).
+Add file(s).
 
 #### `a <vpkfile> @<filename>`
 
-Adds the files referenced in a "response file" \(not response rules\). Note the `@` symbol.
+Adds the files referenced in a "response file" (not response rules). Note the `@` symbol.
 
 #### `k vpkfile <keyvalues_filename>`
 
 Add files references in a [keyvalues](../programming/keyvalues/) control file.
 
 {% hint style="warning" %}
-**Bug:** They will appear inside the VPK with their full path \(`C:\etc\`\) intact - is there a way to avoid this?
+**Bug:** They will appear inside the VPK with their full path (`C:\etc\`) intact - is there a way to avoid this?
 {% endhint %}
 
 #### `vpk <directory>`
@@ -105,7 +105,7 @@ Create VPK from directory structure.
 
 #### `vpk x <vpkfile> <filename1> <filename2> ...`
 
-Extract file\(s\).
+Extract file(s).
 
 #### `vpk <vpkfile>`
 
@@ -135,7 +135,7 @@ Verify signature of specified VPK file. Requires -k to specify key file to use.
 
 #### `vpk generate_keypair <keybasename>`
 
-Generate public/private key file. Output files will be named &lt;keybasename&gt;.publickey.vdf and &lt;keybasename&gt;.privatekey.vdf
+Generate public/private key file. Output files will be named \<keybasename>.publickey.vdf and \<keybasename>.privatekey.vdf
 
 {% hint style="info" %}
 **Note:**Remember: your private key should be kept private.
@@ -153,14 +153,14 @@ Verbose output.
 
 #### -M
 
-Produce a multi-chunk VPK. ****
+Produce a multi-chunk VPK.** **
 
 {% hint style="info" %}
 **Note:**Required if creating a VPK with key values.
 {% endhint %}
 
 * Each chunk is a file limited to around 200MB.
-* To reduce patch sizes, chunks are never overwritten. New/modified files are instead written to a brand new chunk every time you run the tool.![](https://developer.valvesoftware.com/w/images/c/cc/Note.png) ****
+* To reduce patch sizes, chunks are never overwritten. New/modified files are instead written to a brand new chunk every time you run the tool.![](https://developer.valvesoftware.com/w/images/c/cc/Note.png)** **
 
 {% hint style="info" %}
 **Note:**Multi-chunk generations only works when creating a VPK from a response file.
@@ -176,7 +176,7 @@ Use SteamPipe-friendly incremental build algorithm. Use with 'k' command. For op
 
 #### `-c <size>`
 
-Use specified chunk size \(in MB\). Default is 200.
+Use specified chunk size (in MB). Default is 200.
 
 #### `-a`
 
@@ -202,10 +202,10 @@ VPKs must be mounted in gameinfo.txt.
 
 ### Creating A Key Value File and VPK
 
-1. Create a folder with the correct directory structure and files that you wish to use such as `mymod/resource/ui/<file.res>`2. Use the command line in a prompt or a bat:`vpk generate_keypair <name>vpk -M -k <name>.publickey.vdf -K <name>.privatekey.vdf "C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\bin\mymod"`3. In the folder where the vpk tool is located there will now be a public key vdf, a private key vdf, a vpk named mymod\_000 and a vpk named mymod\_dir.
+1\. Create a folder with the correct directory structure and files that you wish to use such as `mymod/resource/ui/<file.res>`2. Use the command line in a prompt or a bat:`vpk generate_keypair <name>vpk -M -k <name>.publickey.vdf -K <name>.privatekey.vdf "C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\bin\mymod"`3. In the folder where the vpk tool is located there will now be a public key vdf, a private key vdf, a vpk named mymod\_000 and a vpk named mymod\_dir.
 
 {% hint style="danger" %}
- **Warning:** Never disclose or share your private key vdf or the key. Only share the public key.
+&#x20;**Warning: **Never disclose or share your private key vdf or the key. Only share the public key.
 {% endhint %}
 
 * You must distribute your mod with both the mymod\_dir and mymod\_000 vpks for the keyvalue to work.
@@ -216,7 +216,7 @@ A "response file" contains a list of files to be added to a VPK. Paths are relat
 
 Below is a Python script which generates a response file and then builds a multi-chunk VPK. Put it in your mod folder. You will need to edit the three variables at the top.
 
-```text
+```
 # User settings (don't use the \ character)
 target_folders = [ "materials", "models", "particles", "scenes" ]
 file_types = [ "vmt", "vtf", "mdl", "phy", "vtx", "vvd", "pcf", "vcd" ]
@@ -241,19 +241,17 @@ out.close()
 subprocess.call([vpk_path, "-M", "a", "pak01", "@" + response_path])
 ```
 
-[![\[Portal 2\]](https://developer.valvesoftware.com/w/images/7/77/Portal2-16px.png)](https://developer.valvesoftware.com/wiki/Portal_2) To handle this process for portal 2 you can also use the [P2 Multichunk Tool](https://developer.valvesoftware.com/wiki/P2_Multichunk_Tool), to automate the response file creation and the creation of the vpk files.
+[![\[Portal 2\]](https://developer.valvesoftware.com/w/images/7/77/Portal2-16px.png)](https://developer.valvesoftware.com/wiki/Portal\_2) To handle this process for portal 2 you can also use the [P2 Multichunk Tool](https://developer.valvesoftware.com/wiki/P2\_Multichunk\_Tool), to automate the response file creation and the creation of the vpk files.
 
 #### Excluded files
 
 Executable and archive files are discarded by the VPK tool:
 
-```text
+```
 .zip .reg .rar .msi .exe .dll .com .cmd .bat
 ```
 
 {% hint style="info" %}
 Source: [https://developer.valvesoftware.com/wiki/VPK](https://developer.valvesoftware.com/wiki/VPK)
 {% endhint %}
-
-
 
