@@ -5,7 +5,7 @@ description: >-
   yelled at.
 ---
 
-# DDS Format (notfinished)
+# DDS Format (incomplete)
 
 ### [Titanfall2 SkinTool](https://github.com/zxcPandora/Titanfall2-SkinTool) - DDS Skin tool
 
@@ -15,13 +15,17 @@ Made by zxcPandora, Titanfall2 SkinTool is a Titanfall 2 and R5R tool with a UI 
 
 Made by greishuh/Gracious, Titanfall2 DDS Tool is a tool with cmd ui to more manually apply DDS weapon skins. Not recently updated.
 
-### Third-party tutorial (Youtube by PHNTM)
+{% embed url="https://youtu.be/1_nSqO_q3oA" %}
+Third-party tutorial for applying skins with Gracious's Titanfall2 DDS Tool
+{% endembed %}
 
-New Tutorial (below)
+### Third-party tutorials (Hosted on Youtube by Mauer-Läufer)
+
+Newer Tutorial (below)
 
 {% embed url="https://www.youtube.com/watch?v=trvO7t59FmU" %}
 
-Old Tutorial (below)
+Old Tutorial (may be obsolete) (below)
 
 {% embed url="https://www.youtube.com/watch?v=tUMeCUOyI00&list=PLDZQutpjzJ03WUXscuIVKxZlkh_SxQfDh&index=19" %}
 
