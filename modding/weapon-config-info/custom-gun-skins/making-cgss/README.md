@@ -1,84 +1,26 @@
 ---
-description: Patience makes a fruitful man.
+description: Patience makes a fruitful modder.
 ---
 
-# Making Custom Skins Info
+# Making Custom Skins
 
 {% hint style="info" %}
-These are not the only ways to create a skin. Use your own tools if you like. If you believe your tools makes skinning better, easier, or differently. Feel free to share.
+These are not the only ways to create a skin. Use your own tools if you like. If you believe your tools makes skinning better, easier, or different. Feel free to share.
 {% endhint %}
 
 ## This is not a guide on how to make a skin.&#x20;
 
-### Instead just some info if you are curious in custom skins.
+### Instead just some info if you are curious in making custom skins.
 
 This page is more on useful tools, tip & tricks, and info about making skin. It can help with creating a skin. I cannot guide you or tell you how to be creative. The point is to create something you want to, learn, use, share, or just admire. Good luck and Have fun.
 
-## Skin formats
+## Info about possibilities?
 
-## 2 kinds of skins (VTF format and DDS format)
+Below is a page where you can find can kind of skins you can make. Don't be shy to make something new.
 
-### VTF format
-
-VTF is the first found custom gun skin method. VTF CGS's take editing a path in a .mdl file to use the skin and script in the common vpk.&#x20;
-
-* Up to 4k skins
-* Animated skins (VMT options)
-* Viewed from afar
-* Works on low graphics
-* Can use transparency
-
-### DDS format
-
-DDS is the 'best' custom skin method. DDS CGS's takes more complicated things. (idk smarter people haven't filled this out lol)&#x20;
-
-* Properly shaded skins
-* Community made tools
-* high quantity high-quality skins
-* Most commonly used
-
-## Skin style possibilities
-
-### Static, Single frames
-
-Static skins are skins that don't move in any way. Compatible with VTF and DDS format. Simple and at times, most elegant.
-
-### Moving texture, Single texture
-
-Only available with VTF format. Moving skins are skins that have a code group in their `.vmt` that moves your vtf texture to your desired parameters. The code block to move your textures is below; note this goes into your models `.vmt` file:
-
-```
-"Proxies"
-    {
-        "TextureScroll"
-        {
-            "texturescrollvar" "$baseTextureTransform"
-            "texturescrollrate" "-0.03"
-            "texturescrollangle" "180"
-        }
-    }
-```
-
-Change `"texturescrollrate" "-0.03"` to change speed of movement. \
-Change `"texturescrollangle" "180"` to change direction of  movement.
-
-### Animated texture, Multiple frames
-
-Only available with VTF format. Animated skins are skins that create a moving affect or active scene by using multiple frames. You wont need multiple vtf's as VTFEdit creates one file with every frame inside. Mind that this increases size; which can have affects in recompiling. Note you can use Add-ons on your image editors to help with making animated skins. You need this code group in your models `.vmt` to activate animation; found below.
-
-```
-"Proxies"
-    {
-        "AnimatedTexture"
-        {
-            "animatedTextureVar"	"$basetexture"
-			"animatedTextureFrameNumVar"	"$frame"
-			"animatedtextureFrameRate"	"2"
-        }
-    }
-```
-
-Change `"animatedtextureFrameRate" "2"` to change framerate in game.
+{% content-ref url="../custom-skin-info.md" %}
+[custom-skin-info.md](../custom-skin-info.md)
+{% endcontent-ref %}
 
 ### List of to do/get to make a skin:
 

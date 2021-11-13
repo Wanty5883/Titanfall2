@@ -8,7 +8,7 @@ description: Prepping the Hydro Dipping table.
 
 There are several ways to obtain files for custom skins.
 
-#### Custom Skin Gallery Info and Files
+#### NoSkill Discord Server's #custom-skins channel.
 
 You can get community-created skin's from our discord server NoSkill. Here at [https://discord.gg/sEgmTKg](https://discord.gg/sEgmTKg).
 
