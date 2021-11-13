@@ -152,6 +152,7 @@
   * [Killsound](modding/sounds/killsound.md)
   * [Lobby music](modding/sounds/lobby-music.md)
 * [Misc](modding/misc/README.md)
+  * [FF ID Color change](modding/misc/ff-id-color-change.md)
   * [Remove Sun Flares](modding/misc/remove-sun-flares.md)
   * [Cable - Zipline](modding/misc/cable-zipline.md)
   * [Marvin - Chest screen](modding/misc/marvin-chest-screen.md)
