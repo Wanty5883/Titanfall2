@@ -28,7 +28,7 @@ Below is a page where you can find can kind of skins you can make. Don't be shy 
 * Editing application; Image editing software, 3D workspace; Blender, Substance Painter.
 * Creativity. Images or videos to draw inspiration or to implement.
 
-### Recommended Software
+### Recommended Software:
 
 This is software that has been used and tested to create CGSs.&#x20;
 
@@ -51,7 +51,7 @@ With reload .psd support in Blender we can refresh the .psd to use the the most 
 
 We use this application to view our 3D models and 2D skins wrapped onto our 3d models. You can also create 3D renders, 3D printable files, and much MUCH more. This is super useful to view our work.
 
-### Useful websites
+### Useful websites:
 
 #### [Coolors](https://coolors.co) - "the super fast color scheme generator"
 
@@ -59,9 +59,9 @@ Coolors is a color palette generator with many options to find what you need.
 
 #### [Color Picker online](https://imagecolorpicker.com) - "HEX Color Picker"
 
-I personally use this. If you have a safer or better website feel free to let us know. I use this because i can pick specific pixels and its the easiest when uploading my own images to rip colors from.
+I personally use this. If you have a safer or better website feel free to let us know. I use this because i can pick specific pixels and its the easiest when uploading my own images to rip colors from.pps
 
-### Image editing apps
+### Image Editing websites & apps.
 
 #### [Pixlr.com](https://pixlr.com) - "online graphic designer" (free website)
 
@@ -87,11 +87,13 @@ GIMP is widely used and recommended by many people. There is also quite a few of
 
 Substance Painter is better than Blender for this scenario. Substance Painter can both view and edit on a 3d model or a flat UV. It can also use more advanced brushes, smart textures, and truly live viewing of edits or shaders. Substance Painter can also create many maps such as specular, glossiness, and much more to increase quality. Now acquired by Adobe and expensive.
 
+### Useful Apps:
+
 #### [Autohotkey](https://www.autohotkey.com) - "The ultimate automation scripting language for Windows"
 
 "AutoHotkey is a free, open-source scripting language for Windows that allows users to easily create small to complex scripts for all kinds of tasks such as: form fillers, auto-clicking, macros, etc."
 
-AutoHotkey is used by many to create custom keybind macro. Usually using a numpad as the macro start key. Find their website and info at [by clicking these words](https://www.autohotkey.com). As coding goes, there is many ways to code macros. Personally i use,
+AutoHotkey is used by many to create custom keybind macro. Usually using a numpad as the macro start key. Find their website and info at [by clicking these words](https://www.autohotkey.com). As coding goes, there is many ways to code macros. Personally i use the code below to refresh Photoshop file to update the skin in Blender;
 
 ```
 Numpad1::send {ctrl down}{s down}{ctrl up}{s up}
@@ -109,16 +111,60 @@ Numpad2::send {ctrl down}{z down}{ctrl up}{z up}
 
 ### 2D Wireframe
 
-Wireframes are a 2D cover to help with organization, detail, shape, size, and accuracy of your skin.
+Wireframes are a 2D cover to help with organization, detail, shape, size, and accuracy of your skin. Learn how with the page link below.
 
 {% content-ref url="2d-wireframes.md" %}
 [2d-wireframes.md](2d-wireframes.md)
 {% endcontent-ref %}
 
-### 2D Textures (factory reference)
+### 2D Textures (factory skin reference)
 
-Base textures from the game to help with color, shape, and organization. Learn how to export the base textures here:
+Base textures from the game to help with color, shape, and organization for 2D skin creation. Learn how to export the base textures here:
 
 {% content-ref url="../../../../r2-ripping/exporting-using-legion.md" %}
 [exporting-using-legion.md](../../../../r2-ripping/exporting-using-legion.md)
 {% endcontent-ref %}
+
+### Naming Sheet for Titanfall 2 Models (and tables).
+
+![](../../../../.gitbook/assets/tf2namingmodelsheet.png)
+
+| Pilot Model | Pilot In-game |
+| ----------: | ------------- |
+|       geist | Grapple       |
+|         ged | Phase Shift   |
+|        drex | Cloak         |
+|      jester | Stim          |
+|        roog | A-Wall        |
+|      reaper | Pulse Blade   |
+|     stalker | Holo Pilot    |
+
+| Titan Model | Titan In-game |
+| ----------: | ------------- |
+|    deadbolt | Legion        |
+|      locust | Ronin         |
+|      raptor | Northstar     |
+|        ajax | Ion           |
+|      wraith | Tone          |
+|        ogre | Scorch        |
+|    vanguard | Monarch       |
+
+## Acquiring models for skinning:
+
+We already have a good wiki page for exporting models. Found below.
+
+{% content-ref url="../../../../r2-ripping/model-ripping.md" %}
+[model-ripping.md](../../../../r2-ripping/model-ripping.md)
+{% endcontent-ref %}
+
+Below page could also help with exporting with legion.
+
+{% content-ref url="../../../../r2-ripping/exporting-using-legion.md" %}
+[exporting-using-legion.md](../../../../r2-ripping/exporting-using-legion.md)
+{% endcontent-ref %}
+
+#### The Full Apex Legends Blender Tutorial (Model Extraction, Shading, Transparency, Posing, Animating)
+
+{% embed url="https://youtu.be/dMqk0jz749U" %}
+40 minute video of a whole process of extracting to posing.
+{% endembed %}

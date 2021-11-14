@@ -1,11 +1,8 @@
 ---
-description: >-
-  Not a guide just useful tools. Skins found in NoSkill discord. I do this
-  because official guides are hard. Im going to keep this updated? Unless i get
-  yelled at.
+description: Not a guide yet. Just useful tools and information.
 ---
 
-# DDS Format (incomplete)
+# DDS Format (partial)
 
 ### [Titanfall2 SkinTool](https://github.com/zxcPandora/Titanfall2-SkinTool) - DDS Skin tool
 
@@ -29,3 +26,8 @@ Old Tutorial (may be obsolete) (below)
 
 {% embed url="https://www.youtube.com/watch?v=tUMeCUOyI00&list=PLDZQutpjzJ03WUXscuIVKxZlkh_SxQfDh&index=19" %}
 
+## Resources for how to mod for DDS skins.
+
+### List of hex offsets by MrSteyk(via Wayback Machine):&#x20;
+
+[https://web.archive.org/web/20210725135838/https://gist.githubusercontent.com/mrsteyk/f9f853d93139cd395c1a49ab24b17b3d/raw/fdae77196a8f861c03373b243573096bd88406c0/common.rpak.log](https://web.archive.org/web/20210725135838/https://gist.githubusercontent.com/mrsteyk/f9f853d93139cd395c1a49ab24b17b3d/raw/fdae77196a8f861c03373b243573096bd88406c0/common.rpak.log)
