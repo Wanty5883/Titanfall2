@@ -1,8 +1,9 @@
 # Table of contents
 
-* [Main page](README.md)
-* [Contact](contact.md)
-* [Contributors](contributors.md)
+* [Titanfall 2 Modding Guide](README.md)
+* [Contact & Help](contact.md)
+* [Contributing](contributing.md)
+* [Credits](contributors.md)
 
 ## Wiki 101 - How to start ? <a href="how-to-start-modding" id="how-to-start-modding"></a>
 
@@ -98,7 +99,7 @@
 
 ## Modding
 
-* [Weapon](modding/weapon-config-info/README.md)
+* [Weapons](modding/weapon-config-info/README.md)
   * [Custom Skins](modding/weapon-config-info/custom-gun-skins/README.md)
     * [Custom Skin Info](modding/weapon-config-info/custom-gun-skins/custom-skin-info.md)
     * [DDS Format (partial)](modding/weapon-config-info/custom-gun-skins/dds-format-tools.md)

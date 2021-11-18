@@ -4,20 +4,20 @@ description: >-
   modding community.
 ---
 
-# Contributors
+# Credits
 
-## Admins / Main Editors
+### Admins & Main Editors
 
-| Name                                               | Description              |
-| -------------------------------------------------- | ------------------------ |
-| ****[**DirectXeon**](https://leonbenkovic.com)**** | Admin & graphic designer |
-| ****[**Wanty**](https://github.com/Wanty5883)****  | Admin & main editor      |
+| Name                                               | Description                  |
+| -------------------------------------------------- | ---------------------------- |
+| ****[**DirectXeon**](https://leonbenkovic.com)**** | Admin, Main Editor, Designer |
+| **catbug\_**                                       | Admin, Main Editor           |
 
-## Contributors / Editors
+### Contributors
 
 | Name                                                | Description               |
 | --------------------------------------------------- | ------------------------- |
-| **catbug\_**                                        | Editor & proofreading     |
+| **finnishbird**                                     | Editor                    |
 | **CSLeader**                                        | 3D modeling               |
 | **Dinorush**                                        | Datamining & proofreading |
 | **EladMLG**                                         | Modding research          |
@@ -27,8 +27,9 @@ description: >-
 | **Phyr**                                            | Modding research          |
 | **S2ymi**                                           | Modding research          |
 | ****[**Taskinoz**](https://github.com/taskinoz)**** | Modding research          |
+| [**Wanty**](https://github.com/Wanty5883)****       | Editor                    |
 
-## Special Thanks
+### Special Thanks
 
 | Name                                           | Description                            |
 | ---------------------------------------------- | -------------------------------------- |

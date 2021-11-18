@@ -1,36 +1,23 @@
-# Contact
+# Contact & Help
 
-## Our community discord server
+### Our community Discord server
 
-NoSkill Community [https://discord.gg/sEgmTKg](https://discord.gg/sEgmTKg) permanent & public link.
+NoSkill Community** **[**https://discord.gg/sEgmTKg**](https://discord.gg/sEgmTKg) permanent & public link.
 
 {% embed url="https://discord.gg/sEgmTKg" %}
 
-## How to ask for help
+### How to ask for help
 
-We like helping other people through our Discord server, however, please know the difference between asking for help and asking for support. Do not take this help for granted, we are not chatbots nor are we being paid for this service.
+We like helping other people through our Discord server. However, please know the difference between asking for help and asking for support. Do not take this help for granted, we are not chatbots nor are we being paid for this service.
 
-The NoSkill discord is **not a support discord for modding** for the ones **who don't read given information**.&#x20;
+Please respect other people's time when asking for help. When you ask your question, display the fact that you made some research by providing details, screenshots and videos if necessary. The more information you provide the easier it will be for other people to help you.
 
 {% hint style="warning" %}
-This is a good example of how to **not** ask for help:
-
-> JustaNub: Hey\
-> JustaNub: I don't find R97 crosshair
-
-> JustaNub: Hey\
-> JustaNub: I want this
-
-> JustaNub: Hey\
-> JustaNub: Can you give me your VPK files ?
-
-**Just no... Spend 5 more minutes reading, you will find what you are looking for. **
-{% endhint %}
-
-{% hint style="danger" %}
-When you ask your question, display the fact that you made some research, explain with details, screenshots, videos if necessary. The more information you provide, the better it is!
+Don't ask for other people's VPKs or any other files. That is not asking for help. That's just being lazy.
 {% endhint %}
 
 {% hint style="info" %}
-Also make sure to make your message readable, use proper code block with syntax highlight if you share code, etc. This will help establish that you're not being a lazy sponge asking for spoon-feeding and wasting people's time. Better yet, display what you have learned from doing these things. We like answering questions for people who have demonstrated they can learn from the answers
+Make sure to make your messages readable, use proper code block with syntax highlight if you share code, etc. This will help establish that you're not being a lazy sponge asking for spoon-feeding and wasting people's time. Better yet, display what you have learned from doing these things. We like answering questions for people who have demonstrated they can learn from the answers.
 {% endhint %}
+
+For modding help please use the **#titanfall** channel in our Discord server.
