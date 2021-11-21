@@ -12,6 +12,10 @@ Pick your journey
 CGS stands for Custom Gun Skins.
 {% endhint %}
 
+{% content-ref url="custom-skin-info.md" %}
+[custom-skin-info.md](custom-skin-info.md)
+{% endcontent-ref %}
+
 {% content-ref url="dds-format-tools.md" %}
 [dds-format-tools.md](dds-format-tools.md)
 {% endcontent-ref %}
