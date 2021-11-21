@@ -18,7 +18,7 @@ If you ask around in NoSkill or other Titanfall 2 modding servers, you may be fi
 
 #### VTFEdit
 
-You could also input an image into VTFEdit for a skin, but it may not be the most accurate.
+For VTF format. You could also input an image into VTFEdit for a skin, but it may not be the most accurate.&#x20;
 
 #### Making them
 

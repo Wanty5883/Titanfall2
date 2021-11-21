@@ -76,3 +76,25 @@ Only available with VTF format. Animated skins are skins that create a moving af
 
 Change `"animatedtextureFrameRate" "2"` to change framerate in game.
 
+## Using Custom Skins
+
+#### DDS Format
+
+If you want to use DDS format skins. We recommend the frequently updated Titanfall2-SkinTool found here; [https://github.com/zxcPandora/Titanfall2-SkinTool](https://github.com/zxcPandora/Titanfall2-SkinTool).&#x20;
+
+Simply download formatted skins. Getting custom skins below:
+
+{% content-ref url="getting-vtfs.md" %}
+[getting-vtfs.md](getting-vtfs.md)
+{% endcontent-ref %}
+
+Backup your pc\_stream.rpak. Then follow your chosen tools instructions.&#x20;
+
+#### VTF Format
+
+If you want to use VTF format skins. There is no current tool to automate the application of VTF format skins. If you want to learn how to manually apply VTF format skins we have a guide for that! Linked below:
+
+{% content-ref url="vtf-format-cgs.md" %}
+[vtf-format-cgs.md](vtf-format-cgs.md)
+{% endcontent-ref %}
+
