@@ -17,7 +17,6 @@ description: >-
 
 | Name                                                | Description               |
 | --------------------------------------------------- | ------------------------- |
-| **finnishbird**                                     | Editor                    |
 | **CSLeader**                                        | 3D modeling               |
 | **Dinorush**                                        | Datamining & proofreading |
 | **EladMLG**                                         | Modding research          |
