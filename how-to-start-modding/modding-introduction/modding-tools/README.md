@@ -17,13 +17,21 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 ### Titanfall
 
 * Titanfall VPK Tool - [Download](../../../tools/Titanfall\_VPKTool3.4\_Portable.zip)
-* RSPNVPK - [Download](https://github.com/squidgyberries/RSPNVPK)
+* Legion - [Info and Download](https://wiki.modme.co/wiki/apps/Legion.html)
+* RPAK2L - [Github to Download](https://github.com/headassbtw/rpak2l) (Experimental)
 * VPK renamer / move - [Info here](../how-to-backup-extract-and-repack.md#vpk-rename-move-batch-script)
 * Titanfall 2 weapon renamer - [Download](https://bitbucket.org/lunderdeamon/tf2renamer)
 * MSD (Miles Sound Dumper) - [Info ](https://github.com/Lyxica/Miles-10-Sound-Dumper)& [Download](https://github.com/Lyxica/Miles-10-Sound-Dumper/releases/tag/v1.0-tf2-beta1)
-* No HUD toggle - [Download](https://www.moddb.com/games/titanfall-2/downloads/toggle-hud5)
 * Titanfall Map Exporter - [Info ](../../../r2-ripping/exporting-maps.md)& [Download](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/tools/TitanfallMapExporter.py)
-* Legion - [Info and Download](https://wiki.modme.co/wiki/apps/Legion.html)
+* No HUD toggle - [Download](https://www.moddb.com/games/titanfall-2/downloads/toggle-hud5)
+
+### RPSNVPK's
+
+* squidgyberries RSPNVPK - [Download](https://github.com/squidgyberries/RSPNVPK)
+* taskinoz RSPNVPK - [Download](https://github.com/taskinoz/RSPNVPK)
+* Provoxin RSPNVPK - [Download](https://github.com/Provoxin/RSPNVPK-GUI)
+
+
 
 {% content-ref url="how-to-use-rspnvpk.md" %}
 [how-to-use-rspnvpk.md](how-to-use-rspnvpk.md)
@@ -53,10 +61,10 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
   * [Gradient Mapping plug-in](https://forums.getpaint.net/topic/6265-gradient-mapping/)
   * [VTF plug-in](../../../tools/pdnvtfplugin111.zip)
   * [Animation Helper](https://pixelbyte.itch.io/paint-net-sprite-plugin)
-* Source VMT Color - [Download](https://dev.cra0kalo.com/?p=155)
 * GIMP - [Download](https://www.gimp.org/downloads/)
   * [VTF plug-in](https://www.tophattwaffle.com/downloads/gimp-vtf-plugin/)
 * [RGB Tool converter](http://hewmc.blogspot.fr/2012/12/rgb-to-percentage-converter.html)
+* Source VMT Color - [Download](https://dev.cra0kalo.com/?p=155)
 * Color Pick Windows - [Download & Info](https://pixelbyte.itch.io/color-pick)
 * [GIF splitter](https://ezgif.com/split)
 * [Rad Tools Bik](http://www.radgametools.com/bnkdown.htm) (needs [Quicktime 7.6](https://support.apple.com/downloads/quicktime))
@@ -84,7 +92,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 {% hint style="warning" %}
 Can't download one of those software ? Contact us! We probably have a backup.\
-_Check in the _[_contact page_](../../../contact.md)__
+_Check in the_ [_contact page_](../../../contact.md)__
 {% endhint %}
 
 {% content-ref url="../../../contact.md" %}
