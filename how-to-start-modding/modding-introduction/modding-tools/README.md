@@ -18,7 +18,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 * Titanfall VPK Tool - [Download](../../../tools/Titanfall\_VPKTool3.4\_Portable.zip)
 * Legion - [Info and Download](https://wiki.modme.co/wiki/apps/Legion.html)
-* RPAK2L - [Github to Download](https://github.com/headassbtw/rpak2l) (Experimental)
+* RPAK2L - [Download ](https://github.com/headassbtw/rpak2l/releases/latest)(Experimental)
 * VPK renamer / move - [Info here](../how-to-backup-extract-and-repack.md#vpk-rename-move-batch-script)
 * Titanfall 2 weapon renamer - [Download](https://bitbucket.org/lunderdeamon/tf2renamer)
 * MSD (Miles Sound Dumper) - [Info ](https://github.com/Lyxica/Miles-10-Sound-Dumper)& [Download](https://github.com/Lyxica/Miles-10-Sound-Dumper/releases/tag/v1.0-tf2-beta1)
