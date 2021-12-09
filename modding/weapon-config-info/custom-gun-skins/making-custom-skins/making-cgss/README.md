@@ -162,3 +162,7 @@ Below page could also help with exporting with legion.
 {% embed url="https://youtu.be/dMqk0jz749U" %}
 40 minute video hosted on Youtube about Apex Legends Blender tutorial.
 {% endembed %}
+
+{% embed url="https://youtu.be/trvO7t59FmU" %}
+17 minute video hosted on Youtube about Titanfall2 Custom Skin Guide.
+{% endembed %}
