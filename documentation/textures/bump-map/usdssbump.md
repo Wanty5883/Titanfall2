@@ -48,9 +48,9 @@ You need to use **`height2ssbump`**, a [command line](https://developer.valvesof
 height2ssbump <options> <path\to\heightmap.tga> <float|bumpscale>
 ```
 
-The output is `<input name>-ssbump.tga`, in the same folder as the input file. `Bumpscale` controls the intensity of the ssbump (i.e. coarseness of the surface).![](https://developer.valvesoftware.com/w/images/c/cc/Note.png)** Note:**Bizarrely, the tool examines only the [alpha channel](https://developer.valvesoftware.com/wiki/Alpha\_channel) of the input TGA. The original alpha channel will be passed on to the output TGA, but serves no purpose and should be deleted.
+The output is `<input name>-ssbump.tga`, in the same folder as the input file. `Bumpscale` controls the intensity of the ssbump (i.e. coarseness of the surface).![](https://developer.valvesoftware.com/w/images/c/cc/Note.png) **Note:**Bizarrely, the tool examines only the [alpha channel](https://developer.valvesoftware.com/wiki/Alpha\_channel) of the input TGA. The original alpha channel will be passed on to the output TGA, but serves no purpose and should be deleted.
 
-You can use **`normal2ssbump`**, another SDK tool, to generate an SSBump from a normal bump map (as opposed to a height or displacement map) - Unlike **`height2ssbump`** you do not need to run through the [command line](https://developer.valvesoftware.com/wiki/Command\_line) or use any additional parameters; simply drag-and-drop your normal map onto the program or a shortcut.![](https://developer.valvesoftware.com/w/images/4/45/Tip.png)** Tip:**If you are generating an SSbump from a Valve-created heightmap, you may need to remove the alpha channel from the heightmap first, and then copy the Green channel into a replacement Alpha channel in order to generate the SSbump correctly. This can be caused by leftover [Specular](https://developer.valvesoftware.com/wiki/Specular) maps in the Alpha channel most likely used in the generation of [Env map masks](https://developer.valvesoftware.com/wiki/$envmapmask) that are stored in the alpha channel of a [Normal map](https://developer.valvesoftware.com/wiki/Normal\_Maps) and enabled via the [`$normalmapalphaenvmapmask`](https://developer.valvesoftware.com/wiki/$normalmapalphaenvmapmask) material parameter.
+You can use **`normal2ssbump`**, another SDK tool, to generate an SSBump from a normal bump map (as opposed to a height or displacement map) - Unlike **`height2ssbump`** you do not need to run through the [command line](https://developer.valvesoftware.com/wiki/Command\_line) or use any additional parameters; simply drag-and-drop your normal map onto the program or a shortcut.![](https://developer.valvesoftware.com/w/images/4/45/Tip.png) **Tip:**If you are generating an SSbump from a Valve-created heightmap, you may need to remove the alpha channel from the heightmap first, and then copy the Green channel into a replacement Alpha channel in order to generate the SSbump correctly. This can be caused by leftover [Specular](https://developer.valvesoftware.com/wiki/Specular) maps in the Alpha channel most likely used in the generation of [Env map masks](https://developer.valvesoftware.com/wiki/$envmapmask) that are stored in the alpha channel of a [Normal map](https://developer.valvesoftware.com/wiki/Normal\_Maps) and enabled via the [`$normalmapalphaenvmapmask`](https://developer.valvesoftware.com/wiki/$normalmapalphaenvmapmask) material parameter.
 
 {% hint style="info" %}
 **Tip:**Self-shadowed normal mapping actually renders faster than standard normal maps!
@@ -76,7 +76,7 @@ Generate a conventional bump map as `<input name>-bump.tga`.
 
 #### `-d`&#x20;
 
-(New with Left 4 Dead)Generate an ssbump detail texture. **To do: **What is this for?
+(New with Left 4 Dead)Generate an ssbump detail texture. **To do:** What is this for?
 
 #### `-A`
 

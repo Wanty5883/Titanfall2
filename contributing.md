@@ -11,5 +11,5 @@ Anyone is more than welcome to contribute to this wiki. If you would like to con
 {% hint style="info" %}
 **IT'S JUST A TYPO!**
 
-If you would like to report a minor error in the guide (a typo, inaccurate information, etc.) you don't need to request editing access. Instead you can just send us a message and tag **@Frontier Militia **on Discord to notify any available editors to make the change.
+If you would like to report a minor error in the guide (a typo, inaccurate information, etc.) you don't need to request editing access. Instead you can just send us a message and tag **@Frontier Militia** on Discord to notify any available editors to make the change.
 {% endhint %}

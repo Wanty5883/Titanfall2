@@ -114,7 +114,7 @@ MissileAirBurst
 
 #### \<Boolean int> / \<Boolean str>
 
-The **Boolean **data type is a [data type](https://en.wikipedia.org/wiki/Data\_type) that has one of two possible values (usually denoted true and false) which is intended to represent the two [truth values](https://en.wikipedia.org/wiki/Truth\_value) of [logic](https://en.wikipedia.org/wiki/Logic) and [Boolean algebra](https://en.wikipedia.org/wiki/Boolean\_algebra).&#x20;
+The **Boolean** data type is a [data type](https://en.wikipedia.org/wiki/Data\_type) that has one of two possible values (usually denoted true and false) which is intended to represent the two [truth values](https://en.wikipedia.org/wiki/Truth\_value) of [logic](https://en.wikipedia.org/wiki/Logic) and [Boolean algebra](https://en.wikipedia.org/wiki/Boolean\_algebra).&#x20;
 
 A boolean as an integer (int) will differ from a boolean as a string (str), they are used depending on the syntax of the language. Its use varies in different areas of the engine but for the most part, in weapon config files boolean values are used in a form of intergers. Howhever there are some exeptions, those will be differenciated by either `<Boolean int>` or `<Boolean str>`.
 
@@ -145,10 +145,10 @@ An example of tracer FX
 {% endembed %}
 
 The tracers FX will change the aesthetics of your bullets, either for the bullet itself or the trail it leaves behind (the bullet itself being the leading graphical element as it moves in one direction)\
-Combination are of course possible, but not from the weapon config file. _(refer to the mentions under the main _[_FX header_](weaponconfig.txt.md#effects-fx)_)_\
+Combination are of course possible, but not from the weapon config file. _(refer to the mentions under the main_ [_FX header_](weaponconfig.txt.md#effects-fx)_)_\
 __Different "kinds" of bullets can be achieved (energy, electric, fire, high velocity, etc.)
 
-* **tracer\_effect **will set an FX to the given weapon from other entities (players & NPC's)
+* **tracer\_effect** will set an FX to the given weapon from other entities (players & NPC's)
 * **tracer\_effect\_first\_person** will set an FX only from your uses of the weapon
 
 While modding with large quantities of FX, it is recommended to primarily focus on first person variables, thus having a lower impact on performance and being less confusing.
@@ -182,10 +182,10 @@ An example of projectile FX
 {% endembed %}
 
 The projectile trail FX will change the aesthetics of your projectiles, either for the projectile itself or the trail it leaves behind (the projectile itself being the leading graphical element as it moves in one direction).\
-Combination are of course possible, but not from the weapon config file. _(refer to the mentions under the main _[_FX header_](weaponconfig.txt.md#effects-fx)_)_\
+Combination are of course possible, but not from the weapon config file. _(refer to the mentions under the main_ [_FX header_](weaponconfig.txt.md#effects-fx)_)_\
 __Different "kinds" of bullets can be achieved (energy, electric, fire, high velocity, etc.)
 
-* **projectile\_trail\_effect\_0 **will set an FX to the given weapon from other entities (players & NPC's)
+* **projectile\_trail\_effect\_0** will set an FX to the given weapon from other entities (players & NPC's)
 * **projectile\_trail\_attachment** the effect of this variable are unknown for now.
 
 {% hint style="info" %}
@@ -227,13 +227,13 @@ _using this one waiting for a better one to be made_
 {% endhint %}
 
 The sustained laser FX will change the aesthetics of your laser, either for the laser itself or the impact itself.\
-Combination are of course possible, but not from the weapon config file. _(refer to the mentions under the main _[_FX header_](weaponconfig.txt.md#effects-fx)_)_
+Combination are of course possible, but not from the weapon config file. _(refer to the mentions under the main_ [_FX header_](weaponconfig.txt.md#effects-fx)_)_
 
-* **sustained\_laser\_effect\_1p **will set an FX only from your uses of the weapon
-* **sustained\_laser\_effect\_3p **will set an FX to the given weapon from other entities (players & NPC's)
-* **sustained\_laser\_attachment **the effect of this variable are unknown for now.
-* **sustained\_laser\_effect\_loops **the effect of this variable are unknown for now.
-* **sustained\_laser\_impact\_effect **will set an FX for the laser impact.
+* **sustained\_laser\_effect\_1p** will set an FX only from your uses of the weapon
+* **sustained\_laser\_effect\_3p** will set an FX to the given weapon from other entities (players & NPC's)
+* **sustained\_laser\_attachment** the effect of this variable are unknown for now.
+* **sustained\_laser\_effect\_loops** the effect of this variable are unknown for now.
+* **sustained\_laser\_impact\_effect** will set an FX for the laser impact.
 
 {% tabs %}
 {% tab title="Format" %}
@@ -421,7 +421,7 @@ UI elements (basically graphical elements) are indexed in this page
 
 #### \<Icon>
 
-Variables used to change the icon. **The expected value is a path to **[**material **](../../textures/valve-material-type-vmt.md)**as a string.**
+Variables used to change the icon. **The expected value is a path to** [**material** ](../../textures/valve-material-type-vmt.md)**as a string.**
 
 If your desired weapon already has an icon RUI location allocated on your screen then it becomes fairly easy to modify. This will be the case most of the time.
 

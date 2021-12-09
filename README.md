@@ -6,13 +6,13 @@ description: The ultimate guide to cosmetic modding in Titanfall 2
 
 ![](.gitbook/assets/wiki-banner.jpg)
 
-**Link to the wiki: **[**https://noskill.gitbook.io/titanfall2/**](https://noskill.gitbook.io/titanfall2/)****
+**Link to the wiki:** [**https://noskill.gitbook.io/titanfall2/**](https://noskill.gitbook.io/titanfall2/)****
 
 Welcome to the Titanfall 2 Modding Guide by NoSkill. This is the ultimate guide to cosmetic modding of the game that will give you an in-depth walkthough of all aspects of modding and its possibilites.
 
 While our goal is to give players a written guide that is simple and easy to understand, some things can be a bit more advanced, especially if you're just starting out with modding.
 
-If this is your first time diving into modding and you have no prior experience, we highly recommend you check out the [**Modding introduction**](how-to-start-modding/modding-introduction/)** **page before getting started.
+If this is your first time diving into modding and you have no prior experience, we highly recommend you check out the [**Modding introduction**](how-to-start-modding/modding-introduction/) **** page before getting started.
 
 {% content-ref url="how-to-start-modding/modding-introduction/" %}
 [modding-introduction](how-to-start-modding/modding-introduction/)

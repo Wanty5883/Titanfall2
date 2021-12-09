@@ -20,7 +20,7 @@ The default is [`"[1 1 1]"`](../colors/#rgb-vec) or [`"{255 255 255}"`](../color
 Course uses a gamma correction of 2.2 by default. This must be taken into account when attempting to adjust the color of a texture to match some other color in a screenshot (for example, when trying to match the color of the bottom of a skybox material to the color of fog in the map). This is done by raising the initially calculated scale to the power of 2.2 before setting the `$color`value for your material. For example, if the sample (target) color in a screenshot is 120, the color of your texture at the point of interest is 240, and you want the two colors to match, you need to compute the [albedo](../albedo.md) scale for your material as $$(120 / 240) ^ 2.2 = 0.218$$ (not 0.5, as one might expect).
 
 {% hint style="info" %}
-**Tip: **Don't try to recreate a texture through a screenshot. [GCFScape](https://developer.valvesoftware.com/wiki/GCFScape) is free.
+**Tip:** Don't try to recreate a texture through a screenshot. [GCFScape](https://developer.valvesoftware.com/wiki/GCFScape) is free.
 {% endhint %}
 
 ## Solid color

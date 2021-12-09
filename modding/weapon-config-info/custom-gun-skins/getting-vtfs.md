@@ -24,6 +24,6 @@ For VTF format. You could also input an image into VTFEdit for a skin, but it ma
 
 The most daring option would be making your own skin from scratch. It will be time consuming if you are new to the process, but you can create whatever your mind desires to use. Check this page for tips on making your own skin:
 
-{% content-ref url="making-cgss/" %}
-[making-cgss](making-cgss/)
+{% content-ref url="making-custom-skins/making-cgss/" %}
+[making-cgss](making-custom-skins/making-cgss/)
 {% endcontent-ref %}

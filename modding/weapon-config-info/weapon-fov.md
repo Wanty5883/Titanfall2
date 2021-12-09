@@ -14,7 +14,7 @@ You will need the Titanfall VPK Tool, the program which will allow you to open a
 
 ## Introduction
 
-The way Titanfall 2 and other Source Engine games handles magnification when "aiming down sights" is by changing the FOV to a smaller number, which gives the effect of magnification. This guide will teach you how to modify the FOV when ADS with any weapon. We will do this by modifying the `"zoom_fov" `variable that each weapon/scope has.&#x20;
+The way Titanfall 2 and other Source Engine games handles magnification when "aiming down sights" is by changing the FOV to a smaller number, which gives the effect of magnification. This guide will teach you how to modify the FOV when ADS with any weapon. We will do this by modifying the `"zoom_fov"` variable that each weapon/scope has.&#x20;
 
 ## Editing
 
@@ -36,7 +36,7 @@ In this section, find the line called `"zoom_fov"`this is the variable we will b
 "zoom_fov"                                        "35"
 ```
 
-This is the default variable for `"zoom_fov" ` with the Wingman Elite. So when `"zoom_fov"` is set to `"35"`, this gives us a true horizontal FOV of 69.51, when our base hip fire FOV is set to 110.&#x20;
+This is the default variable for `"zoom_fov"` with the Wingman Elite. So when `"zoom_fov"` is set to `"35"`, this gives us a true horizontal FOV of 69.51, when our base hip fire FOV is set to 110.&#x20;
 
 {% hint style="danger" %}
 &#x20;The horizontal FOV of your weapon when zoomed in will depend on your base hip fire fov.
@@ -44,7 +44,7 @@ This is the default variable for `"zoom_fov" ` with the Wingman Elite. So when `
 
 As a basis of understanding, the lower the variable for `"zoom_fov"` is set to, the more your weapon will zoom in when ADS. Therefore, the higher the variable is set to, the weapon will zoom in less. The max variable you can input is `"70"`. When `"zoom_fov"` is set to `"70"`, your weapon will not zoom in at all, and will remain at your hip fire FOV.&#x20;
 
-You can also have different Zoom FOVs for different scopes on each weapon. To do this, find the` Mods` section for the weapon you are editing. We will use HCOG on Wingman Elite as example, look for something like this:
+You can also have different Zoom FOVs for different scopes on each weapon. To do this, find the `Mods` section for the weapon you are editing. We will use HCOG on Wingman Elite as example, look for something like this:
 
 ```
 hcog
@@ -88,13 +88,13 @@ In order to determine exactly what your true horizontal FOV will be when ADS, we
 Take your `cl_fovScale`value and multiply it by the variable you choose for your `"zoom_fov"`. If you don't know your `cl_fovScale`, then you can determine that by dividing your hip fire FOV by 70. For this example we will use 110 FOV.&#x20;
 
 {% hint style="info" %}
-**110/70 = 1.5714 **<---- this number is our cl\_fovScale (when fov is set to 110)
+**110/70 = 1.5714** <---- this number is our cl\_fovScale (when fov is set to 110)
 {% endhint %}
 
 We then multiply that number (cl\_fovScale) by whatever number we chose for our zoom\_fov variable. In this example we will use "56", as that's what I currently have it set to for my Wingman Elite.&#x20;
 
 {% hint style="info" %}
-1.5714 x 56 = **87.99 **<---- this number is your horizontal FOV in 4:3 aspect ratio
+1.5714 x 56 = **87.99** <---- this number is your horizontal FOV in 4:3 aspect ratio
 {% endhint %}
 
 4:3 aspect ration is what Source Engine uses to calculate our actual horizontal FOV. Now we need to convert this number to 16:9, which will give us our _true_ horizontal fov. For this, you can just use a tool like [mouse-sensitivity.com](https://www.mouse-sensitivity.com). Select Titanfall 2, and by default, the calculator should look like this:
@@ -119,7 +119,7 @@ The green number next to Actual HFOV is your true horizontal FOV when zoomed in 
 
 ### Misc Notes
 
-The in game slider for FOV is wrong. When fov is set to 110, your `cl_fovScale` remains at 1.55, which means your horizontal fov is actually 108.5, instead of 110. To always ensure that you're playing on the correct fov. Take the number you wish to have for your horizontal fov and divide it by 70. Using 110 as an example 110/70 = 1.5714. We then need to change the `cl_fovScale `variable in order to actually have 110 fov in game. To do this, go to&#x20;
+The in game slider for FOV is wrong. When fov is set to 110, your `cl_fovScale` remains at 1.55, which means your horizontal fov is actually 108.5, instead of 110. To always ensure that you're playing on the correct fov. Take the number you wish to have for your horizontal fov and divide it by 70. Using 110 as an example 110/70 = 1.5714. We then need to change the `cl_fovScale` variable in order to actually have 110 fov in game. To do this, go to&#x20;
 
 > \Documents\Respawn\Titanfall2\profile
 

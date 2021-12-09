@@ -8,7 +8,7 @@ description: Add additional custom key bindings to the Key Bindings menu
 
 ## File Location
 
-The Key Bindings menu file is located  in `englishclient_frontend.bsp.pak000_dir.vpk`**, **under `scripts\kb_act.lst`
+The Key Bindings menu file is located  in `englishclient_frontend.bsp.pak000_dir.vpk`**,** under `scripts\kb_act.lst`
 
 ## How it works
 

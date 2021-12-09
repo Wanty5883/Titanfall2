@@ -54,7 +54,7 @@ Hides the multiplayer crosshair selection menu.
 
 #### AdvCrosshair `<`[`boolean`](https://developer.valvesoftware.com/wiki/Boolean)`>`
 
-Enables the special advanced crosshair options. **To do: **How to implement.
+Enables the special advanced crosshair options. **To do:** How to implement.
 
 #### NoModels `<`[`boolean`](https://developer.valvesoftware.com/wiki/Boolean)`>`
 
@@ -226,11 +226,11 @@ The current keys known so far are:
 * `Platform`\
   Adds a special search path to the folder containing core engine files, this will usually lead to the game's `Platform` folder.
 * `Mod` (New with Source 2013)\
-  Marks the search path as a Mod path. This is usually where the game executable is. **To do: **What does this do exactly?
+  Marks the search path as a Mod path. This is usually where the game executable is. **To do:** What does this do exactly?
 * `Mod_Write` (New with Source 2013)\
   Marks the search path as a Mod write path. This is usually where GameInfo.txt is. It marks the directory as the default directory for writing (configuration files, etc) for this mod.
 * `Default_Write_Path`\
-  A fallback for when either Mod\_Write or Game\_Write isn't specified. This is usually where GameInfo.txt is. **To do: **What does this "Write" exactly?
+  A fallback for when either Mod\_Write or Game\_Write isn't specified. This is usually where GameInfo.txt is. **To do:** What does this "Write" exactly?
 * `VPK` (New with Contagion)\
   Used to mount a [VPK](https://developer.valvesoftware.com/wiki/VPK) by name. Do not put `.vpk` at the end.
 
@@ -251,7 +251,7 @@ This saves you time from having to retype the directory over again.
 
 ### Automatic localization
 
-Source automatically creates localized search paths. If you mount the folder `HL2`, then when your mod runs in French `HL2_French` is automatically mounted just above it, overriding any content in `HL2`. **To do: **Does this also apply for the mod folder?
+Source automatically creates localized search paths. If you mount the folder `HL2`, then when your mod runs in French `HL2_French` is automatically mounted just above it, overriding any content in `HL2`. **To do:** Does this also apply for the mod folder?
 
 ## Example
 

@@ -85,7 +85,7 @@ Due to how many files a single map can end up using, MAN has toggle options to c
 If **Options, Overwrite BSP** is turned on, MAN will overwrite the original BSP instead of making a new map file called **man\_betatest**.
 
 {% hint style="danger" %}
-&#x20;**Warning: **The author said that this may corrupt your bsp, likelihood unknown.
+&#x20;**Warning:** The author said that this may corrupt your bsp, likelihood unknown.
 {% endhint %}
 
 {% hint style="info" %}

@@ -10,17 +10,17 @@ VTF files can be created from TGA images using the Source SDK Tool VTEX, or from
 
 * An environment map is a six-faced [cube map](../cube-mapping.md).
 * A volumetric texture is a texture with depth, where each frame is a "layer" which are layered in the third dimension. So a 16x16x16 volumetric texture has 16 separate 16x16 textures stacked to give depth. This format is used internally by Source, and you shouldn't have any need to actually create one yourself.
-* For each frame and face, the VTF file contains both the basic original source-image data (pixel map) and a series of [**mipmaps **](../mip-mapping.md)used for rendering the texture over varying distances. Because each successive mipmap is exactly 1/2 the dimension (height and width) of the previous one, the source-image dimensions must be a multiple of 4. Although the source-image may be rectangular, square mipmaps are stored more efficiently in the VTF.
+* For each frame and face, the VTF file contains both the basic original source-image data (pixel map) and a series of [**mipmaps** ](../mip-mapping.md)used for rendering the texture over varying distances. Because each successive mipmap is exactly 1/2 the dimension (height and width) of the previous one, the source-image dimensions must be a multiple of 4. Although the source-image may be rectangular, square mipmaps are stored more efficiently in the VTF.
 * Start frame (for animations)
 * **Bump map** scale
-* A **Reflectivity **value for use by **VRAD**
+* A **Reflectivity** value for use by **VRAD**
 * A very low resolution copy of the VTF for color sampling by the engine.
 
 ### Resources
 
 VTF 7.3 added an extensible "resource data" system. Anything can be added, but Source will recognise only the following:
 
-* A **CRC **value, for detecting data corruption.
+* A **CRC** value, for detecting data corruption.
 * An **U/V** LOD control. This is the highest mipmap which should be loaded when game's Texture Detail setting is "High" (`mat_picmip 0`). An U LOD Control value of 11 selects the mipmap which is 2048 pixels (211) across.
 
 {% hint style="info" %}
@@ -34,7 +34,7 @@ Since users are currently only presented with one texture detail setting above H
 
 The VTF image format can store image data in a variety of formats. Some formats were meant for the engine, some only as an interim format for conversions. The uncompressed formats are not lossy and the compressed (DXT) formats are.
 
-![](https://developer.valvesoftware.com/w/images/c/cc/Note.png)** Note:**The VTF format can actually store many more formats than those listed below -- consult your engine branch's `public/bitmap/imageformat.h` to see exactly what it supports. However, these formats are not GUARANTEED to work and their enum values are prone to being shuffled around between engine branches.
+![](https://developer.valvesoftware.com/w/images/c/cc/Note.png) **Note:**The VTF format can actually store many more formats than those listed below -- consult your engine branch's `public/bitmap/imageformat.h` to see exactly what it supports. However, these formats are not GUARANTEED to work and their enum values are prone to being shuffled around between engine branches.
 
 ### Image data format table
 
@@ -87,13 +87,13 @@ Though the VTF image format provides support for a wide range of image data form
 * **BGR888:** use this format for textures with no alpha channel and very fine gradients (i.e. normal maps or light halos).
 * **BGRA8888:** use this format for textures with an alpha channel and very fine gradients (i.e. normal maps or light halos). It can also be used to produce Very High quality textures.
 * **DXT1:** use this format for typical textures with no alpha channel. (Also known as BC1.)
-  * **Note: **DXT1 supports 1 bit of alpha precision. **However**, any areas of 0 alpha will be fully black. This functionality is therefore best used for textures using $alphatest.
+  * **Note:** DXT1 supports 1 bit of alpha precision. **However**, any areas of 0 alpha will be fully black. This functionality is therefore best used for textures using $alphatest.
 * **DXT3:** **DXT5 should almost always be used over DXT3**, but DXT3 is acceptable (not necessarily better) for textures with an alpha channel with sharp gradients. (Also known as BC2.)
 * **DXT5:** use this format for typical textures with an alpha channel. (Also known as BC3).
 * **I8:** use this format for black and white textures with no alpha channel and very fine gradients (i.e. light halos).
 * **IA88:** use this format for black and white textures with an alpha channel and very fine gradients (i.e. smoke or light halos).
 * **RGBA16161616F:** use this format for **HDR** textures.
-* **UV88:** use this format for **DuDv **maps.
+* **UV88:** use this format for **DuDv** maps.
 
 Find technical details on the various DXT compression formats here and here.
 
@@ -131,7 +131,7 @@ A VTF file can contain the following flags (version 7.5):
 | Premultiply Color By One Over Mipmap Level | 0x100000   | (Internal to VTEX?)                                                                 |
 | Normal To DuDv                             | 0x200000   | Texture is a DuDv map. (Internal to VTEX?)                                          |
 | Alpha Test Mipmap Generation               | 0x400000   | (Internal to VTEX?)                                                                 |
-| No Depth Buffer                            | 0x800000   |  Do not **buffer **for Video Processing, generally render distance.                 |
+| No Depth Buffer                            | 0x800000   |  Do not **buffer** for Video Processing, generally render distance.                 |
 | Nice Filtered                              | 0x1000000  |  Use **NICE filtering** to generate mipmaps. (Internal to VTEX?)                    |
 | Clamp U                                    | 0x2000000  | Clamp U coordinates (for volumetric textures).                                      |
 | Vertex Texture                             | 0x4000000  | Usable as a vertex texture                                                          |
@@ -319,7 +319,7 @@ Tightly packed interleaved high resolution image data in the format described in
 
 ### Version history
 
-**To do: **Address game-specific compatibility issues
+**To do:** Address game-specific compatibility issues
 
 #### **v7.5**
 

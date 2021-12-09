@@ -67,6 +67,6 @@ To hide each section set `visible` to 0
 visible					0
 ```
 
-You can now repack your VPK and you will no longer see the **Spotlight **elements.
+You can now repack your VPK and you will no longer see the **Spotlight** elements.
 
 ![A screenshot of the main menu with both Whats New and Spotlight removed](../../../.gitbook/assets/snapshot0022.jpg)

@@ -20,7 +20,7 @@ Lowering scale will make lightmap shadows sharper, but leads to larger map file 
 When generating lightmaps, VRAD does not create [penumbras](https://en.wikipedia.org/wiki/Umbra,\_penumbra\_and\_antumbra#Umbra). The effect can be done by placing multiple lights near each other to simulate a non-point source of light, and/or increasing lightmap scale (which is why the relatively large value of 16 is the default).
 
 {% hint style="info" %}
-**Note: **Each compiled [brush](https://developer.valvesoftware.com/wiki/Brush) polygon can host a maximum of 31x31 luxels. VBSP will chop faces to get extra luxels on if it needs to. That is also the reason for the limited displacement luxel density.
+**Note:** Each compiled [brush](https://developer.valvesoftware.com/wiki/Brush) polygon can host a maximum of 31x31 luxels. VBSP will chop faces to get extra luxels on if it needs to. That is also the reason for the limited displacement luxel density.
 {% endhint %}
 
 {% hint style="info" %}
@@ -77,11 +77,11 @@ Unwraps each lightmap into a small, tessellating display in the top left of the 
 
 `r_lightmap <?>`
 
-**To do: **[Use uncertain](https://github.com/VSES/SourceEngine2007/blob/43a5c90a5ada1e69ca044595383be67f40b33c61/src\_main/engine/gl\_lightmap.cpp#L1011).
+**To do:** [Use uncertain](https://github.com/VSES/SourceEngine2007/blob/43a5c90a5ada1e69ca044595383be67f40b33c61/src\_main/engine/gl\_lightmap.cpp#L1011).
 
 `r_unloadlightmaps <bool>`
 
-**To do: **Unknown. Possibly a way of flushing lightmap data between map loads?
+**To do:** Unknown. Possibly a way of flushing lightmap data between map loads?
 
 ![mat\_fullbright 2](../../.gitbook/assets/mat\_fullbright\_2.jpg)
 

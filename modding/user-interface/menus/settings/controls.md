@@ -8,7 +8,7 @@ description: Add additional settings and toggles to the Controls menu
 
 ## File Location
 
-The Controls menu file is located  in `englishclient_frontend.bsp.pak000_dir.vpk`**,  **and is made up of two files:
+The Controls menu file is located  in `englishclient_frontend.bsp.pak000_dir.vpk`**,**  and is made up of two files:
 
 * `resource\ui\menus\controls.menu`
 * `scripts\vscripts\ui\menu_controls.nut`

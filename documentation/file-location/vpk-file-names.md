@@ -58,7 +58,7 @@ If you have difficulties finding your game files, check the FAQ page.
 
 ## SP Maps
 
-| **Campaign Mission                               ** | File name                                                                                                                                                   |
+| **Campaign Mission**                                | File name                                                                                                                                                   |
 | --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | The Pilot's Gauntlet                                | englishclient\_sp\_training.bsp.pak000\_dir.vpk                                                                                                             |
 | BT-7274                                             | englishclient\_sp\_crashsite.bsp.pak000\_dir.vpk                                                                                                            |

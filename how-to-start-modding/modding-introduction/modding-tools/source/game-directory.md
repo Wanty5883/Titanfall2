@@ -88,7 +88,7 @@ Here are some examples of running tools where you specify the game directory exp
 %sourcesdk%\bin\hammer -game C:\Program Files\Steam\SteamApps\sourcemods\MyMod\Blasters
 ```
 
-![](https://developer.valvesoftware.com/w/images/c/cc/Note.png)** Note:**If you have spaces in your game directory path, you **must** use quotation marks around the game directory path:
+![](https://developer.valvesoftware.com/w/images/c/cc/Note.png) **Note:**If you have spaces in your game directory path, you **must** use quotation marks around the game directory path:
 
 ```
 %sourcesdk%\bin\hammer -game "C:\Program Files\Steam\SteamApps\Common\counter-strike source\cstrike"

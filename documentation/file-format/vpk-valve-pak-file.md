@@ -153,14 +153,14 @@ Verbose output.
 
 #### -M
 
-Produce a multi-chunk VPK.** **
+Produce a multi-chunk VPK. ****&#x20;
 
 {% hint style="info" %}
 **Note:**Required if creating a VPK with key values.
 {% endhint %}
 
 * Each chunk is a file limited to around 200MB.
-* To reduce patch sizes, chunks are never overwritten. New/modified files are instead written to a brand new chunk every time you run the tool.![](https://developer.valvesoftware.com/w/images/c/cc/Note.png)** **
+* To reduce patch sizes, chunks are never overwritten. New/modified files are instead written to a brand new chunk every time you run the tool.![](https://developer.valvesoftware.com/w/images/c/cc/Note.png) ****&#x20;
 
 {% hint style="info" %}
 **Note:**Multi-chunk generations only works when creating a VPK from a response file.
@@ -205,7 +205,7 @@ VPKs must be mounted in gameinfo.txt.
 1\. Create a folder with the correct directory structure and files that you wish to use such as `mymod/resource/ui/<file.res>`2. Use the command line in a prompt or a bat:`vpk generate_keypair <name>vpk -M -k <name>.publickey.vdf -K <name>.privatekey.vdf "C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\bin\mymod"`3. In the folder where the vpk tool is located there will now be a public key vdf, a private key vdf, a vpk named mymod\_000 and a vpk named mymod\_dir.
 
 {% hint style="danger" %}
-&#x20;**Warning: **Never disclose or share your private key vdf or the key. Only share the public key.
+&#x20;**Warning:** Never disclose or share your private key vdf or the key. Only share the public key.
 {% endhint %}
 
 * You must distribute your mod with both the mymod\_dir and mymod\_000 vpks for the keyvalue to work.

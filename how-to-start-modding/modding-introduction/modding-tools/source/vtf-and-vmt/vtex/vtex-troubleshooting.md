@@ -35,7 +35,7 @@ One solution is to remove the instance of the VProject Environment variable. In 
 5. Click the Delete button.
 6. Click OK twice to exit.
 
-However, this solution will create the Unable to find gameinfo.txt error instead. **To do: **Delete this non-functioning solution alternative?
+However, this solution will create the Unable to find gameinfo.txt error instead. **To do:** Delete this non-functioning solution alternative?
 
 ### **Alternative Solution**
 

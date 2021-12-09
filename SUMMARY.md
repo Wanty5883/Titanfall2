@@ -5,7 +5,7 @@
 * [Contributing](contributing.md)
 * [Credits](contributors.md)
 
-## Wiki 101 - How to start ? <a href="how-to-start-modding" id="how-to-start-modding"></a>
+## Wiki 101 - How to start ? <a href="#how-to-start-modding" id="how-to-start-modding"></a>
 
 * [Modding introduction](how-to-start-modding/modding-introduction/README.md)
   * [How to backup, extract & repack](how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
@@ -101,12 +101,15 @@
 
 * [Weapons](modding/weapon-config-info/README.md)
   * [Custom Skins](modding/weapon-config-info/custom-gun-skins/README.md)
-    * [Custom Skin Info](modding/weapon-config-info/custom-gun-skins/custom-skin-info.md)
-    * [DDS Format (partial)](modding/weapon-config-info/custom-gun-skins/dds-format-tools.md)
-    * [VTF Format](modding/weapon-config-info/custom-gun-skins/vtf-format-cgs.md)
+    * [Custom Skin Info & Formats](modding/weapon-config-info/custom-gun-skins/custom-skin-info-and-formats/README.md)
+      * [DDS Format (partial)](modding/weapon-config-info/custom-gun-skins/custom-skin-info-and-formats/dds-format-tools.md)
+      * [VTF Format](modding/weapon-config-info/custom-gun-skins/custom-skin-info-and-formats/vtf-format-cgs.md)
     * [Getting Custom Skin files](modding/weapon-config-info/custom-gun-skins/getting-vtfs.md)
-    * [Making Custom Skins](modding/weapon-config-info/custom-gun-skins/making-cgss/README.md)
-      * [2D Wireframes](modding/weapon-config-info/custom-gun-skins/making-cgss/2d-wireframes.md)
+    * [Making Custom Skins](modding/weapon-config-info/custom-gun-skins/making-custom-skins/README.md)
+      * [Making Custom Skin Info & Resources](modding/weapon-config-info/custom-gun-skins/making-custom-skins/making-cgss/README.md)
+        * [2D Wireframes](modding/weapon-config-info/custom-gun-skins/making-custom-skins/making-cgss/2d-wireframes.md)
+      * [Making a Pilot Skin (partial)](modding/weapon-config-info/custom-gun-skins/making-custom-skins/making-a-pilot-skin-partial.md)
+      * [Making a Gun Skin (partial)](modding/weapon-config-info/custom-gun-skins/making-custom-skins/making-a-gun-skin-partial.md)
   * [Crosshair modding](modding/weapon-config-info/crosshair-modding/README.md)
     * [Batch crosshair modding](modding/weapon-config-info/crosshair-modding/batch-crosshair-modding.md)
     * [Crosshair example](modding/weapon-config-info/crosshair-modding/crosshair-example.md)
@@ -163,7 +166,7 @@
   * [Ticks - Model](modding/misc/ticks.md)
   * [Nessie- Frag Model](modding/misc/nessie-frag-model.md)
 
-## Script Values <a href="game-values" id="game-values"></a>
+## Script Values <a href="#game-values" id="game-values"></a>
 
 * [Crosshair](game-values/crosshair.md)
 * [Effect (FX)](game-values/effect-fx.md)
@@ -290,7 +293,7 @@
 * [Plastic Mode](mods/plastic-mode.md)
 * [No-HUD Mod](mods/no\_hud\_mod.md)
 
-## Exporting Assets <a href="r2-ripping" id="r2-ripping"></a>
+## Exporting Assets <a href="#r2-ripping" id="r2-ripping"></a>
 
 * [Exporting Maps](r2-ripping/exporting-maps.md)
 * [Exporting using Legion](r2-ripping/exporting-using-legion.md)

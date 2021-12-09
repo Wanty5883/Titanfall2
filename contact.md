@@ -2,7 +2,7 @@
 
 ### Our community Discord server
 
-NoSkill Community** **[**https://discord.gg/sEgmTKg**](https://discord.gg/sEgmTKg) permanent & public link.
+NoSkill Community **** [**https://discord.gg/sEgmTKg**](https://discord.gg/sEgmTKg) permanent & public link.
 
 {% embed url="https://discord.gg/sEgmTKg" %}
 

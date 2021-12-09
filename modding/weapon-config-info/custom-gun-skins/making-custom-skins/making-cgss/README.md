@@ -1,34 +1,28 @@
 ---
-description: Patience makes a fruitful modder.
+description: Custom Skin Info and resources.
 ---
 
-# Making Custom Skins
+# Making Custom Skin Info & Resources
 
-{% hint style="info" %}
-These are not the only ways to create a skin. Use your own tools if you like. If you believe your tools makes skinning better, easier, or different. Feel free to share.
-{% endhint %}
+## &#x20;This is just resources and info.
 
-## This is not a guide on how to make a skin.&#x20;
+Tutorials or suedo Tutorials can be found under the Making Custom Skins category.
 
-### Instead just some info if you are curious in making custom skins.
+## Possibilities?
 
-This page is more on useful tools, tip & tricks, and info about making skin. It can help with creating a skin. I cannot guide you or tell you how to be creative. The point is to create something you want to, learn, use, share, or just admire. Good luck and Have fun.
+Below is a page where you can find can kind of skins you can make. Don't be shy to make something new. Some objects needs or function with a certain format.
 
-## Info about possibilities?
-
-Below is a page where you can find can kind of skins you can make. Don't be shy to make something new.
-
-{% content-ref url="../custom-skin-info.md" %}
-[custom-skin-info.md](../custom-skin-info.md)
+{% content-ref url="../../custom-skin-info-and-formats/" %}
+[custom-skin-info-and-formats](../../custom-skin-info-and-formats/)
 {% endcontent-ref %}
 
-### List of to do/get to make a skin:
+## List of to do/get to make a skin:
 
 * .mdl file of choice edited and converted to .obj (or of choice) for editing application.
 * Editing application; Image editing software, 3D workspace; Blender, Substance Painter.
 * Creativity. Images or videos to draw inspiration or to implement.
 
-### Recommended Software:
+## Recommended Software:
 
 This is software that has been used and tested to create CGSs.&#x20;
 
@@ -51,7 +45,7 @@ With reload .psd support in Blender we can refresh the .psd to use the the most 
 
 We use this application to view our 3D models and 2D skins wrapped onto our 3d models. You can also create 3D renders, 3D printable files, and much MUCH more. This is super useful to view our work.
 
-### Useful websites:
+## Useful Websites:
 
 #### [Coolors](https://coolors.co) - "the super fast color scheme generator"
 
@@ -87,7 +81,7 @@ GIMP is widely used and recommended by many people. There is also quite a few of
 
 Substance Painter is better than Blender for this scenario. Substance Painter can both view and edit on a 3d model or a flat UV. It can also use more advanced brushes, smart textures, and truly live viewing of edits or shaders. Substance Painter can also create many maps such as specular, glossiness, and much more to increase quality. Now acquired by Adobe and expensive.
 
-### Useful Apps:
+## Useful Apps:
 
 #### [Autohotkey](https://www.autohotkey.com) - "The ultimate automation scripting language for Windows"
 
@@ -107,7 +101,7 @@ Numpad2::send {ctrl down}{z down}{ctrl up}{z up}
 * Numpad2: Undo (CTRL+Z)
 * Numpad3: Reloads images in Blender with NodeWrangler (ALT+R)&#x20;
 
-## Useful things:
+## Useful Pages:
 
 ### 2D Wireframe
 
@@ -121,13 +115,29 @@ Wireframes are a 2D cover to help with organization, detail, shape, size, and ac
 
 Base textures from the game to help with color, shape, and organization for 2D skin creation. Learn how to export the base textures here:
 
-{% content-ref url="../../../../r2-ripping/exporting-using-legion.md" %}
-[exporting-using-legion.md](../../../../r2-ripping/exporting-using-legion.md)
+{% content-ref url="../../../../../r2-ripping/exporting-using-legion.md" %}
+[exporting-using-legion.md](../../../../../r2-ripping/exporting-using-legion.md)
 {% endcontent-ref %}
+
+### Acquiring models for skinning:
+
+We already have a good wiki page for exporting models. Found below.
+
+{% content-ref url="../../../../../r2-ripping/model-ripping.md" %}
+[model-ripping.md](../../../../../r2-ripping/model-ripping.md)
+{% endcontent-ref %}
+
+Below page could also help with exporting with legion.
+
+{% content-ref url="../../../../../r2-ripping/exporting-using-legion.md" %}
+[exporting-using-legion.md](../../../../../r2-ripping/exporting-using-legion.md)
+{% endcontent-ref %}
+
+## Resources:
 
 ### Naming Sheet for Titanfall 2 Models (and tables).
 
-![](../../../../.gitbook/assets/tf2namingmodelsheet.png)
+![](../../../../../.gitbook/assets/tf2namingmodelsheet.png)
 
 | Pilot Model | Pilot In-game |
 | ----------: | ------------- |
@@ -149,22 +159,6 @@ Base textures from the game to help with color, shape, and organization for 2D s
 |        ogre | Scorch        |
 |    vanguard | Monarch       |
 
-## Acquiring models for skinning:
-
-We already have a good wiki page for exporting models. Found below.
-
-{% content-ref url="../../../../r2-ripping/model-ripping.md" %}
-[model-ripping.md](../../../../r2-ripping/model-ripping.md)
-{% endcontent-ref %}
-
-Below page could also help with exporting with legion.
-
-{% content-ref url="../../../../r2-ripping/exporting-using-legion.md" %}
-[exporting-using-legion.md](../../../../r2-ripping/exporting-using-legion.md)
-{% endcontent-ref %}
-
-#### The Full Apex Legends Blender Tutorial (Model Extraction, Shading, Transparency, Posing, Animating)
-
 {% embed url="https://youtu.be/dMqk0jz749U" %}
-40 minute video of a whole process of extracting to posing.
+40 minute video hosted on Youtube about Apex Legends Blender tutorial.
 {% endembed %}

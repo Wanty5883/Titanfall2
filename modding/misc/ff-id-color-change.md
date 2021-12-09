@@ -23,7 +23,7 @@ These are the values you want to change.  Values: R G B
 {% hint style="info" %}
 Before converting your color to hex:&#x20;
 
-RGB values are written in vectors where 0 is a minimum value and 1 is max (255 in regular format). If you're not familiar with this format, check [**Color & Texture info**](../../documentation/textures/colors/color-and-texture-info.md#usdlayercolor)** **page.
+RGB values are written in vectors where 0 is a minimum value and 1 is max (255 in regular format). If you're not familiar with this format, check [**Color & Texture info**](../../documentation/textures/colors/color-and-texture-info.md#usdlayercolor) **** page.
 {% endhint %}
 
 #### Example values for one color:

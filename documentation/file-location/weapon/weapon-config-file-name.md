@@ -20,13 +20,13 @@ Several titan weapons and abilities have their values spread across multiple fil
 
 ### Assault Rifle
 
-| Weapon name       | File name                   |
-| ----------------- | --------------------------- |
-| R-201** **Carbine |  mp\_weapon\_rspn101.txt    |
-| R-101 Carbine     | mp\_weapon\_rspn101\_og.txt |
-| Hemlock BF-R      | mp\_weapon\_hemlock.txt     |
-| V-47 Flatline     | mp\_weapon\_vinson.txt      |
-| G2A5              | mp\_weapon\_g2.txt          |
+| Weapon name        | File name                   |
+| ------------------ | --------------------------- |
+| R-201 **** Carbine |  mp\_weapon\_rspn101.txt    |
+| R-101 Carbine      | mp\_weapon\_rspn101\_og.txt |
+| Hemlock BF-R       | mp\_weapon\_hemlock.txt     |
+| V-47 Flatline      | mp\_weapon\_vinson.txt      |
+| G2A5               | mp\_weapon\_g2.txt          |
 
 ### **Submachine Gun**
 

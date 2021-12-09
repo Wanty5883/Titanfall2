@@ -10,7 +10,7 @@ description: >-
 PackBsp is a program that makes it easy for mappers to embed custom models, textures, and other assets into their maps for games based on Valve's [Source](http://en.wikipedia.org/wiki/Source\_\(game\_engine\)) engine. It does this by analyzing the map, determining exactly what custom content is being used and what dependencies might exist, and packaging everything into a single BSP file.
 
 {% hint style="danger" %}
-&#x20;**Warning: **Currently, this tool does not work at all if it cannot detect the old [Source SDK](https://developer.valvesoftware.com/wiki/Source\_SDK) at \SteamApps\\\[steam\_username]\Source SDK\ which makes it somewhat unusable with the new [SteamPipe](https://developer.valvesoftware.com/wiki/SteamPipe) update that moved all game folders to ]SteamApps\common\ -- until someone fixes it and releases new binaries, it is suggested you use [bspzip](bspzip.md) or [Pakrat](pakrat.md) instead.
+&#x20;**Warning:** Currently, this tool does not work at all if it cannot detect the old [Source SDK](https://developer.valvesoftware.com/wiki/Source\_SDK) at \SteamApps\\\[steam\_username]\Source SDK\ which makes it somewhat unusable with the new [SteamPipe](https://developer.valvesoftware.com/wiki/SteamPipe) update that moved all game folders to ]SteamApps\common\ -- until someone fixes it and releases new binaries, it is suggested you use [bspzip](bspzip.md) or [Pakrat](pakrat.md) instead.
 {% endhint %}
 
 {% hint style="info" %}

@@ -12,24 +12,24 @@ Pick your journey
 CGS stands for Custom Gun Skins.
 {% endhint %}
 
-{% content-ref url="custom-skin-info.md" %}
-[custom-skin-info.md](custom-skin-info.md)
+{% content-ref url="custom-skin-info-and-formats/" %}
+[custom-skin-info-and-formats](custom-skin-info-and-formats/)
 {% endcontent-ref %}
 
-{% content-ref url="dds-format-tools.md" %}
-[dds-format-tools.md](dds-format-tools.md)
+{% content-ref url="custom-skin-info-and-formats/dds-format-tools.md" %}
+[dds-format-tools.md](custom-skin-info-and-formats/dds-format-tools.md)
 {% endcontent-ref %}
 
-{% content-ref url="vtf-format-cgs.md" %}
-[vtf-format-cgs.md](vtf-format-cgs.md)
+{% content-ref url="custom-skin-info-and-formats/vtf-format-cgs.md" %}
+[vtf-format-cgs.md](custom-skin-info-and-formats/vtf-format-cgs.md)
 {% endcontent-ref %}
 
 {% content-ref url="getting-vtfs.md" %}
 [getting-vtfs.md](getting-vtfs.md)
 {% endcontent-ref %}
 
-{% content-ref url="making-cgss/" %}
-[making-cgss](making-cgss/)
+{% content-ref url="making-custom-skins/making-cgss/" %}
+[making-cgss](making-custom-skins/making-cgss/)
 {% endcontent-ref %}
 
 

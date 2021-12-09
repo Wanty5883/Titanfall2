@@ -7,7 +7,7 @@ description: >-
 
 # Creating Animated Particles
 
-Particles are animated by using a material comprised of a collection of materials all built together into a "sheet". This is accomplished by using the **mksheet.exe** and **vtex **tools.
+Particles are animated by using a material comprised of a collection of materials all built together into a "sheet". This is accomplished by using the **mksheet.exe** and **vtex** tools.
 
 ## Creating an MKS File
 

@@ -74,7 +74,7 @@ Sets maximum texture size for "High" (mat\_picmip 0) texture quality. Negative m
 
 ### mipblend
 
-&#x20;**To do: **Figure out how to make this work
+&#x20;**To do:** Figure out how to make this work
 
 ### nocompress&#xD;
 

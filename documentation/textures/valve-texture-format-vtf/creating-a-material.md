@@ -12,7 +12,7 @@ This tutorial is a step-by-step guide to creating a brand new [material](../valv
 
 Any image file can be used as a texture, so long as both of its dimensions (height and width) are a power of two: 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048 and so on. To decide which to use, examine existing textures that fill the same role as yours. Higher resolutions lower performance but make an image sharper when viewed up close.
 
-Different classes of object have different standard resolutions (e.g. character models' are very high). Check Valve's choices in `source materials.gcf` with [GCFScape](https://developer.valvesoftware.com/wiki/GCFScape) if you are ever confused.![](https://developer.valvesoftware.com/w/images/c/cc/Note.png)** **
+Different classes of object have different standard resolutions (e.g. character models' are very high). Check Valve's choices in `source materials.gcf` with [GCFScape](https://developer.valvesoftware.com/wiki/GCFScape) if you are ever confused.![](https://developer.valvesoftware.com/w/images/c/cc/Note.png) ****&#x20;
 
 {% hint style="info" %}
 **Note:**Texture source files should be saved in a lossless format like [TGA](../../file-format/truevision-graphics-adapter-tga.md) pre-compile, to prevent unnecessary loss in quality.
@@ -76,10 +76,10 @@ Finally, save the file somewhere under your game or mod's  `\materials` folder.
 
 Source doesn't access textures directly. Everything goes through a [material](../valve-material-type-vmt.md).
 
-[Materials](../valve-material-type-vmt.md) are script files that can be created in any text editor, but it's recommended that you use one of the [software listed](../../../how-to-start-modding/modding-introduction/modding-tools/#general) in conjunction with the community-made [syntax highlighting rules](https://developer.valvesoftware.com/wiki/Notepad%2B%2B\_VDF\_languages). For your material to be detected, **you must save it under your game or mod's ** **`\materials` folder with the extension `.vmt`**.
+[Materials](../valve-material-type-vmt.md) are script files that can be created in any text editor, but it's recommended that you use one of the [software listed](../../../how-to-start-modding/modding-introduction/modding-tools/#general) in conjunction with the community-made [syntax highlighting rules](https://developer.valvesoftware.com/wiki/Notepad%2B%2B\_VDF\_languages). For your material to be detected, **you must save it under your game or mod's** **`\materials` folder with the extension `.vmt`**.
 
 {% hint style="info" %}
-&#x20;**Note: **If you are creating materials and textures exclusively for a map for a existing mod, consider using  [BSPZIP](https://developer.valvesoftware.com/wiki/BSPZIP)\\[Packbsp](https://developer.valvesoftware.com/wiki/Packbsp)\\[Pakrat](https://developer.valvesoftware.com/wiki/Pakrat)\\[Compile Pal](https://developer.valvesoftware.com/wiki/Compile\_Pal) to package the material and texture files within the map file itself. This will avoid them ever becoming lost.
+&#x20;**Note:** If you are creating materials and textures exclusively for a map for a existing mod, consider using  [BSPZIP](https://developer.valvesoftware.com/wiki/BSPZIP)\\[Packbsp](https://developer.valvesoftware.com/wiki/Packbsp)\\[Pakrat](https://developer.valvesoftware.com/wiki/Pakrat)\\[Compile Pal](https://developer.valvesoftware.com/wiki/Compile\_Pal) to package the material and texture files within the map file itself. This will avoid them ever becoming lost.
 {% endhint %}
 
 ### Syntax
@@ -119,11 +119,11 @@ With a shader chosen you're onto parameters (also called commands). There are hu
 * [`$model`](https://developer.valvesoftware.com/wiki/$model\_\(VMT\))
 
 {% hint style="info" %}
-&#x20;**Tip: **If you ever need to use a space or tab character in a parameter value, you must wrap the while value with "quote marks". You'll often see absolutely everything wrapped like this - save yourself some typing, as that's unnecessary.
+&#x20;**Tip:** If you ever need to use a space or tab character in a parameter value, you must wrap the while value with "quote marks". You'll often see absolutely everything wrapped like this - save yourself some typing, as that's unnecessary.
 {% endhint %}
 
 {% hint style="info" %}
-&#x20;**Tip: **To refresh materials in-game - use this console command: `mat_reloadallmaterials`, this will reload every single material. It's recommended to use this command to prevent game from freezing and some other weird artifacts: `mat_reloadmaterial "vmt_name without .vmt"`. Example: `mat_reloadmaterial "monitor_screen"`. Mat\_reloadtextures is presented too.
+&#x20;**Tip:** To refresh materials in-game - use this console command: `mat_reloadallmaterials`, this will reload every single material. It's recommended to use this command to prevent game from freezing and some other weird artifacts: `mat_reloadmaterial "vmt_name without .vmt"`. Example: `mat_reloadmaterial "monitor_screen"`. Mat\_reloadtextures is presented too.
 {% endhint %}
 
 ## Source & reference

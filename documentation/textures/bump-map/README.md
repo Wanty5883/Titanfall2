@@ -7,14 +7,14 @@ description: >-
 
 # Bump map
 
-Textures often called **Bump Maps**, or **Normal Maps **are used to simulate three-dimensional details on a two-dimensional surface by manipulating its lighting.
+Textures often called **Bump Maps**, or **Normal Maps** are used to simulate three-dimensional details on a two-dimensional surface by manipulating its lighting.
 
 {% hint style="info" %}
-&#x20;**Note: **Static props using bump maps can not be lit per-vertex, except in [![\<Counter-Strike: Global Offensive>](https://developer.valvesoftware.com/w/images/3/35/Csgo.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:\_Global\_Offensive).
+&#x20;**Note:** Static props using bump maps can not be lit per-vertex, except in [![\<Counter-Strike: Global Offensive>](https://developer.valvesoftware.com/w/images/3/35/Csgo.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:\_Global\_Offensive).
 {% endhint %}
 
 {% hint style="info" %}
-&#x20;**Note: **Bump maps cannot be used on decal textures, except in [![\<Counter-Strike: Global Offensive>](https://developer.valvesoftware.com/w/images/3/35/Csgo.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:\_Global\_Offensive).
+&#x20;**Note:** Bump maps cannot be used on decal textures, except in [![\<Counter-Strike: Global Offensive>](https://developer.valvesoftware.com/w/images/3/35/Csgo.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:\_Global\_Offensive).
 {% endhint %}
 
 ## Format
@@ -48,7 +48,7 @@ Height (Z axis).
 * 255 = facing 'out' of the texture towards the viewer.
 
 {% hint style="info" %}
-&#x20;**Note: **Valve's "flat" bump map textures use RGB values of \[120, 124, 248]
+&#x20;**Note:** Valve's "flat" bump map textures use RGB values of \[120, 124, 248]
 {% endhint %}
 
 {% hint style="warning" %}
@@ -66,7 +66,7 @@ A bump map is largely useless for really flat surfaces like smooth concrete or m
 A bump map should be rendered in Tangent space and use vector dimensions X+ Y- Z+.
 
 {% hint style="info" %}
-**Note: **There are basically two sets of rules for normal maps: DirectX and OpenGL. They interpretation of green channels are opposite. Source takes the former. Thus, the green channel may need to be inverted depending on the software used to create it.
+**Note:** There are basically two sets of rules for normal maps: DirectX and OpenGL. They interpretation of green channels are opposite. Source takes the former. Thus, the green channel may need to be inverted depending on the software used to create it.
 {% endhint %}
 
 ## Programs

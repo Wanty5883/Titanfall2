@@ -36,7 +36,7 @@ LightmappedGeneric
 
 #### `$bumptransform` `<`[`matrix`](https://developer.valvesoftware.com/wiki/Matrix)`>` (DX9+)
 
-Transforms the bump map texture. **To do: **Does this actually require DX9? Present in DX8 fallback shaders.The default position is `"center .5 .5 scale 1 1 rotate 0 translate 0 0"`.
+Transforms the bump map texture. **To do:** Does this actually require DX9? Present in DX8 fallback shaders.The default position is `"center .5 .5 scale 1 1 rotate 0 translate 0 0"`.
 
 1. `center` defines the point of rotation. Only useful if `rotate` is being used.
 2. `scale` fits the texture into the material the given number of times. '`2 1`' is a 50% scale in the X axis.
@@ -61,7 +61,7 @@ Flags the bump map texture(s) as being self-shadowing. Click for more details.
 
 #### `$bumpscale` `<`[`float`](https://developer.valvesoftware.com/wiki/Float)`>` (DX8)
 
-Scales the bump map by the given value in DirectX 8. **To do: **Does this actually exist? Seemingly not present in DX8 fallback shaders.
+Scales the bump map by the given value in DirectX 8. **To do:** Does this actually exist? Seemingly not present in DX8 fallback shaders.
 
 #### `$bumpframe` `<`[`integer`](https://developer.valvesoftware.com/wiki/Integer)`>`
 

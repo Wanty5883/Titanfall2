@@ -4,7 +4,7 @@ description: Turn your frag grenades or any ordinance into Nessie's
 
 # Nessie- Frag Model
 
-## Preparation <a href="preparation" id="preparation"></a>
+## Preparation <a href="#preparation" id="preparation"></a>
 
 In this guide you will have to edit vmt files. I would recommend you to use the software [VTFEdit](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools) to edit them. You can use text editor for that such as Atom, NotePad++, VIM and many other ones would work fine.
 
@@ -23,7 +23,7 @@ Copy these files and paste them in a backup folder somewhere else:
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
 
-## Unpacking <a href="unpacking" id="unpacking"></a>
+## Unpacking <a href="#unpacking" id="unpacking"></a>
 
 Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
 
@@ -43,7 +43,7 @@ Once you reach this point you can open a text file named:
 >
 > \-Note: You don't have to use the frag grenade. You can use other ordinances if you wish.
 
-Scroll down to the section named **//Models**, with 3 subsections named **"Viewmodel"** **"playermodel"** and **"Projectilemodel", **You leave these alone and only change the scripts to the right of them.
+Scroll down to the section named **//Models**, with 3 subsections named **"Viewmodel"** **"playermodel"** and **"Projectilemodel",** You leave these alone and only change the scripts to the right of them.
 
 You can now replace **all** the model names from:&#x20;
 
@@ -53,7 +53,7 @@ to:
 
 **"models/nessy\_doll.mdl"**
 
-## Repacking <a href="repacking" id="repacking"></a>
+## Repacking <a href="#repacking" id="repacking"></a>
 
 ​[How to repack VPK files properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 

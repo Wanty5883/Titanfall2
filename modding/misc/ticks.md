@@ -8,7 +8,7 @@ description: Change the look of your Multiplayer Ticks
 
 {% embed url="https://gfycat.com/regalshrilldaddylonglegs" %}
 
-## Preparation <a href="preparation" id="preparation"></a>
+## Preparation <a href="#preparation" id="preparation"></a>
 
 Locate your game folder and find this folder if you are on Origin:
 
@@ -25,7 +25,7 @@ Copy these files and paste them in a backup folder somewhere else:
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)​
 
-## Unpacking <a href="unpacking" id="unpacking"></a>
+## Unpacking <a href="#unpacking" id="unpacking"></a>
 
 Now that these files have been backed up and everything installed. Navigate to your game folder and open this file:
 
@@ -47,9 +47,9 @@ The **drone\_frag** file is the Single player tick while the **sentry frag** is 
 
 First you will need to rename the two single player tick file names to the multiplayer ones.
 
-> drone\_frag.mdl ---- **>   **sentry\_frag.mdl
+> drone\_frag.mdl ---- **>**   sentry\_frag.mdl
 >
-> frag\_drone\_proj.mdl ----**>   **sentry\_frag\_proj.mdl
+> frag\_drone\_proj.mdl ----**>**   sentry\_frag\_proj.mdl
 
 Once you have renamed the files of the Singleplayer drones, you will need to copy and paste them to the multiplayer folder. Copy and Paste your renamed files (sentry\_frag.mdl and sentry\_frag\_proj.mdl) to:
 
@@ -57,7 +57,7 @@ Once you have renamed the files of the Singleplayer drones, you will need to cop
 
 You will then want to replace your files with the ones already there, once that is done you can close out and proceed to the next step.
 
-## Repacking <a href="repacking" id="repacking"></a>
+## Repacking <a href="#repacking" id="repacking"></a>
 
 ​[How to repack VPK files properly ?](https://noskill.gitbook.io/titanfall2/how-to-start-modding/how-to-backup-extract-and-repack)​
 

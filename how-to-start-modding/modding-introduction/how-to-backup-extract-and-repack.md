@@ -91,7 +91,7 @@ move "englishclient_mp_common.bsp.pak000_dir.vpk" "<ORIGINGAMES>\Titanfall2\vpk\
 
 That's the script for renaming for _`englishclient_mp_common.bsp.pak000_dir.vpk`_, it can be adapted to any other VPKs you edit quite often. Just paste that in a blank notepad file and save it with a `.bat` extension.
 
-**Don't forget to add the correct game directory by replacing **_`<ORIGINGAMES>`_ **with the location of you game install.** You can also replace _`<ORIGINGAMES>`_ with your steam directory or wherever your Steam game library is (`Steam\steamapps\common`).
+**Don't forget to add the correct game directory by replacing** _`<ORIGINGAMES>`_ **with the location of you game install.** You can also replace _`<ORIGINGAMES>`_ with your steam directory or wherever your Steam game library is (`Steam\steamapps\common`).
 
 {% hint style="danger" %}
 Make sure to close the VPK tool before executing this script, as it will cause an error.

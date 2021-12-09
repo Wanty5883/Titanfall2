@@ -65,7 +65,7 @@ To swap skyboxes simply duplicate `planet_blue_sun.mdl` and rename the duplicate
 #### Exceptions
 
 {% hint style="warning" %}
-Some maps have the ending **\_**_**se **_instead of_ **\_sky**_. It is the exact same editing process though.
+Some maps have the ending **\_**_**se**_ instead of _ **\_sky**_. It is the exact same editing process though.
 
 ![](../../.gitbook/assets/exception.PNG)
 
@@ -122,9 +122,9 @@ Obviously this wasn't made to be the skybox for normal maps. So there are little
 
 After closely following the previous link step by step:
 
-Rename `pak000_000.vpk` _to_ **`client_mp_` `<<mapname>>` `.bsp.pak000_000.vpk`**
+Rename `pak000_000.vpk` _to_ **`client_mp_`  `<<mapname>>`  `.bsp.pak000_000.vpk`**
 
-Rename `pak000_dir.vpk` _to_ **`englishclient_mp_` `<<mapname>>`** **`.bsp.pak000_dir.vpk`**
+Rename `pak000_dir.vpk` _to_ **`englishclient_mp_`  `<<mapname>>`** **`.bsp.pak000_dir.vpk`**
 
 {% hint style="danger" %}
 Make sure to pay attention when renaming them because every map has it's own VPK.

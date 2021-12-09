@@ -23,13 +23,13 @@ englishclient_mp_common.bsp.pak000_dir.vpk\models\weapons\at_rifle
 
 ### Assault Rifle
 
-| Weapon name       | Folder       |
-| ----------------- | ------------ |
-| R-201** **Carbine | rspn101      |
-| R-101 Carbine     | r101\_sfp    |
-| Hemlock BF-R      | m1a1\_hemlok |
-| V-47 Flatline     | vinson       |
-| G2A5              | g2           |
+| Weapon name        | Folder       |
+| ------------------ | ------------ |
+| R-201 **** Carbine | rspn101      |
+| R-101 Carbine      | r101\_sfp    |
+| Hemlock BF-R       | m1a1\_hemlok |
+| V-47 Flatline      | vinson       |
+| G2A5               | g2           |
 
 ### **Submachine Gun**
 

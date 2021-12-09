@@ -117,38 +117,38 @@ description: SMG FX value
 {% endtab %}
 
 {% tab title="CAR" %}
-| **CAR**                            |                      |   |   |
-| ---------------------------------- | -------------------- | - | - |
-| P\_wpn\_tracer\_pistol             | Tracer               |   |   |
-| P\_wpn\_tracer\_BC                 | Tracer amped         |   |   |
-| wpn\_muzzleflash\_pistol\_FP       | Muzzleflash FP       |   |   |
-| wpn\_muzzleflash\_pistol           | Muzzleflash          |   |   |
-| wpn\_muzzleflash\_pistol\_elec\_FP | Muzzleflash FP amped |   |   |
-| wpn\_muzzleflash\_pistol\_elec     | Muzzleflash amped    |   |   |
-| muzzle\_flash                      | Muzzleflash attach   |   |   |
-| wpn\_shelleject\_pistol\_FP        | Shell eject FP       |   |   |
-| wpn\_shelleject\_pistol            | Shell eject          |   |   |
-| shell                              | Shell eject attach   |   |   |
-| wpn\_vortex\_projectile\_rifle\_FP | Vortex absorb** **FP |   |   |
-| wpn\_vortex\_projectile\_rifle     | Vortex absorb        |   |   |
+| **CAR**                            |                       |   |   |
+| ---------------------------------- | --------------------- | - | - |
+| P\_wpn\_tracer\_pistol             | Tracer                |   |   |
+| P\_wpn\_tracer\_BC                 | Tracer amped          |   |   |
+| wpn\_muzzleflash\_pistol\_FP       | Muzzleflash FP        |   |   |
+| wpn\_muzzleflash\_pistol           | Muzzleflash           |   |   |
+| wpn\_muzzleflash\_pistol\_elec\_FP | Muzzleflash FP amped  |   |   |
+| wpn\_muzzleflash\_pistol\_elec     | Muzzleflash amped     |   |   |
+| muzzle\_flash                      | Muzzleflash attach    |   |   |
+| wpn\_shelleject\_pistol\_FP        | Shell eject FP        |   |   |
+| wpn\_shelleject\_pistol            | Shell eject           |   |   |
+| shell                              | Shell eject attach    |   |   |
+| wpn\_vortex\_projectile\_rifle\_FP | Vortex absorb **** FP |   |   |
+| wpn\_vortex\_projectile\_rifle     | Vortex absorb         |   |   |
 {% endtab %}
 
 {% tab title="R-97" %}
-| **R-97**                           |                      |   |   |
-| ---------------------------------- | -------------------- | - | - |
-| P\_wpn\_tracer\_pistol             | Tracer               |   |   |
-| P\_wpn\_tracer\_BC                 | Tracer amped         |   |   |
-| inc\_bullet                        | Impact               |   |   |
-| wpn\_muzzleflash\_pistol\_FP       | Muzzleflash FP       |   |   |
-| wpn\_muzzleflash\_pistol           | Muzzleflash          |   |   |
-| wpn\_muzzleflash\_pistol\_elec\_FP | Muzzleflash FP amped |   |   |
-| wpn\_muzzleflash\_pistol\_elec     | Muzzleflash amped    |   |   |
-| muzzle\_flash                      | Muzzleflash attach   |   |   |
-| wpn\_shelleject\_pistol\_FP        | Shell eject FP       |   |   |
-| wpn\_shelleject\_pistol            | Shell eject          |   |   |
-| shell                              | Shell eject attach   |   |   |
-| wpn\_vortex\_projectile\_rifle\_FP | Vortex absorb** **FP |   |   |
-| wpn\_vortex\_projectile\_rifle     | Vortex absorb        |   |   |
+| **R-97**                           |                       |   |   |
+| ---------------------------------- | --------------------- | - | - |
+| P\_wpn\_tracer\_pistol             | Tracer                |   |   |
+| P\_wpn\_tracer\_BC                 | Tracer amped          |   |   |
+| inc\_bullet                        | Impact                |   |   |
+| wpn\_muzzleflash\_pistol\_FP       | Muzzleflash FP        |   |   |
+| wpn\_muzzleflash\_pistol           | Muzzleflash           |   |   |
+| wpn\_muzzleflash\_pistol\_elec\_FP | Muzzleflash FP amped  |   |   |
+| wpn\_muzzleflash\_pistol\_elec     | Muzzleflash amped     |   |   |
+| muzzle\_flash                      | Muzzleflash attach    |   |   |
+| wpn\_shelleject\_pistol\_FP        | Shell eject FP        |   |   |
+| wpn\_shelleject\_pistol            | Shell eject           |   |   |
+| shell                              | Shell eject attach    |   |   |
+| wpn\_vortex\_projectile\_rifle\_FP | Vortex absorb **** FP |   |   |
+| wpn\_vortex\_projectile\_rifle     | Vortex absorb         |   |   |
 {% endtab %}
 
 {% tab title="Volt" %}

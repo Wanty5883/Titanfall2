@@ -164,7 +164,7 @@ The default texture scale in Hammer is `0.25`. This means that 1 texture pixel =
 
 * **Texture (pixels)** : Square format is preferred but rectangles are acceptable. Each dimension must be a power of two upto 2048.
 * **Hammer (map units)** : using the default Texture Scale of 0.25. This can be overridden locally per surface in Hammer or per material by using the [$basetexturetransform](https://developer.valvesoftware.com/wiki/$basetexturetransform) scale factor in the [VMT](../textures/valve-material-type-vmt.md). For example A 512x512 texture with a scale of 0.5 will cover only 64x64 map units, and when viewed up close should appear highly detailed.
-* **Filesize (kB)** : is given for 32bit uncompressed rasta image. **To do: **[VTF](../textures/valve-texture-format-vtf/) uses it's own compression system ...
+* **Filesize (kB)** : is given for 32bit uncompressed rasta image. **To do:** [VTF](../textures/valve-texture-format-vtf/) uses it's own compression system ...
 
 **Note:**3D Skybox scale is 1/16th of map scale, so textures for 3D skybox surfaces should be designed accordingly.
 
