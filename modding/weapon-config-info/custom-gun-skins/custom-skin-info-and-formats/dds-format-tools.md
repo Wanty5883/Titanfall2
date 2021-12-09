@@ -6,13 +6,15 @@ description: Not a guide yet. Just useful tools and information.
 
 ## Installing DDS Skins with a tool and a premade skin.
 
-### stolen from catbug on discord
+{% embed url="https://youtu.be/sG6LAoE1IjY" %}
+DirectXeon made this short video that covers the basics of installing
+{% endembed %}
 
 Before we do anything else, you want to create a backup of the file `pc_stream.starpak`. You can locate it in the game directory here: `\Titanfall2\r2\paks\Win64`. It is the biggest file in the folder, about 10GB. Make sure the backups are not in the game directory, maybe put it in on your desktop. This is where the skins are stored.
 
 ![\\](../../../../.gitbook/assets/catbugcheats1.0.png)
 
-Next you want to download the latest full release (currently `c0.3.2`) of Pandora's skin tool here: [https://github.com/zxcPandora/Titanfall2-SkinTool/releases](https://github.com/zxcPandora/Titanfall2-SkinTool/releases). Download `SkinTool-User-ENG.zip`
+Next you want to download the latest full release (`c0.3.2` as of the writing of this guide) of Pandora's skin tool here: [https://github.com/zxcPandora/Titanfall2-SkinTool/releases](https://github.com/zxcPandora/Titanfall2-SkinTool/releases). Download `SkinTool-User-ENG.zip`
 
 ![](../../../../.gitbook/assets/catbugcheats1.1.png)
 
@@ -38,15 +40,9 @@ Click `Import Skin` and you're done!
 
 ![](<../../../../.gitbook/assets/unknown (3).png>)
 
-(yeah it isn't that good of a skin but whatever. it works for the tutorial)
-
 ![](<../../../../.gitbook/assets/unknown (6).png>)
 
-video tutorial that's easier to understand:&#x20;
-
-{% embed url="https://www.youtube.com/watch?v=sG6LAoE1IjY" %}
-
-{% hint style="info" %}
+{% hint style="warning" %}
 If you don't see the skins in game (_in_ game, not the menu), you may need to turn up your texture filtering to at least 8x
 {% endhint %}
 
@@ -67,7 +63,7 @@ Third-party tutorial for applying skins with Gracious's Titanfall2 DDS Tool
 ## Resources:
 
 {% embed url="https://www.youtube.com/watch?v=sG6LAoE1IjY" %}
-Catbug tool assisted with formatted skin.
+DirectXeon's video tutorial
 {% endembed %}
 
 Newer Tutorial (below)
