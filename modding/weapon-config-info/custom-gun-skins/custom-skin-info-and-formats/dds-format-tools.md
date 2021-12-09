@@ -18,7 +18,7 @@ Next you want to download the latest full release (`c0.3.2` as of the writing of
 
 ![](../../../../.gitbook/assets/catbugcheats1.1.png)
 
-The final download is a skin from #custom-skins-collection, I'll use my own that I made a while ago. (Note: you don't need to extract the zip folder that has the skin)
+The final download is a skin from #custom-skins-collection in our [Discord](https://discord.gg/sEgmTKg), I'll use my own that I made a while ago. (Note: you don't need to extract the zip folder that has the skin)
 
 ![](../../../../.gitbook/assets/catbugcheats1.2.png)
 
