@@ -24,6 +24,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 * VPK renamer / move - [Info here](../how-to-backup-extract-and-repack.md#vpk-rename-move-batch-script)
 * Titanfall 2 weapon renamer - [Download](https://bitbucket.org/lunderdeamon/tf2renamer)
 * MSD (Miles Sound Dumper) - [Info ](https://github.com/Lyxica/Miles-10-Sound-Dumper)& [Download](https://github.com/Lyxica/Miles-10-Sound-Dumper/releases/tag/v1.0-tf2-beta1)
+* Titanfall 2 Blender Importer - [Info & Download](https://github.com/snake-biscuits/io\_import\_rbsp)
 * Titanfall Map Exporter - [Info ](../../../r2-ripping/exporting-maps.md)& [Download](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/tools/TitanfallMapExporter.py)
 * No HUD toggle - [Download](https://www.moddb.com/games/titanfall-2/downloads/toggle-hud5)
 
