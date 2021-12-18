@@ -1,8 +1,10 @@
 # Making a Gun Skin (partial)
 
-i forgot to finish this...
+i forgot to finish this...\
+suedo guide lel
 
-legion\
+get your model\
+use legion (convert)\
 blender (import smd)\
 delete anim nodes\
 position correctly\
