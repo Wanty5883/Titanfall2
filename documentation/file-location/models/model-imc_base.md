@@ -1,11 +1,64 @@
 # Model - imc\_base
 
-| File                                       | Material                                                                                                                                                      |
-| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| cargo\_container\_imc\_01\_blue.mdl        | <p>models\containers\cargo_container_decals_01</p><p>models\imc_base\cargo_container_imc_01_blue</p>                                                          |
-| cargo\_container\_imc\_01\_orange.mdl      | <p>models\containers\cargo_container_decals_01</p><p>models\imc_base\cargo_container_imc_01_orange</p>                                                       |
-| cargo\_container\_imc\_01\_white\_open.mdl | <p>models\imc_base\cargo_container_imc_01_white</p><p>models\containers\cargo_container_decals_01</p>                                                         |
-| console\_door\_small\_imc\_01.mdl          | <p>models\imc_base\console_door_small_imc_01</p><p>models\imc_base\console_door_small_imc_01_locked</p><p>models\imc_base\console_door_small_imc_01_open</p>  |
-| imc\_fan\_large\_01\_animated.mdl          | models\imc\_base\imc\_fan\_large\_01                                                                                                                          |
-| imc\_fan\_large\_case\_01.mdl              | models\imc\_base\imc\_fan\_large\_01                                                                                                                          |
-| outer\_gate\_imc\_closed.mdl               | <p>models\imc_base\outer_gate_imc_01</p><p>models\imc_base\outer_gate_imc_02</p><p>models\imc_base\outer_gate_imc_03</p><p>world\decal\decal_leak_small</p> |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">File</th>
+      <th style="text-align:left">Material</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">cargo_container_imc_01_blue.mdl</td>
+      <td style="text-align:left">
+        <p>models\containers\cargo_container_decals_01</p>
+        <p>models\imc_base\cargo_container_imc_01_blue</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">cargo_container_imc_01_orange.mdl</td>
+      <td style="text-align:left">
+        <p>
+          <br />models\containers\cargo_container_decals_01</p>
+        <p>models\imc_base\cargo_container_imc_01_orange</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">cargo_container_imc_01_white_open.mdl</td>
+      <td style="text-align:left">
+        <p>models\imc_base\cargo_container_imc_01_white</p>
+        <p>models\containers\cargo_container_decals_01</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">console_door_small_imc_01.mdl</td>
+      <td style="text-align:left">
+        <p>models\imc_base\console_door_small_imc_01</p>
+        <p>models\imc_base\console_door_small_imc_01_locked</p>
+        <p>models\imc_base\console_door_small_imc_01_open</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">imc_fan_large_01_animated.mdl</td>
+      <td style="text-align:left">models\imc_base\imc_fan_large_01</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">imc_fan_large_case_01.mdl</td>
+      <td style="text-align:left">models\imc_base\imc_fan_large_01</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">outer_gate_imc_closed.mdl</td>
+      <td style="text-align:left">
+        <p>models\imc_base\outer_gate_imc_01</p>
+        <p>models\imc_base\outer_gate_imc_02
+          <br />
+        </p>
+        <p>models\imc_base\outer_gate_imc_03
+          <br />
+        </p>
+        <p>world\decal\decal_leak_small</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+

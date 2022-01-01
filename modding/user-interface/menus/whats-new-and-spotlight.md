@@ -11,7 +11,7 @@ description: Removing the whats new and spotlight sections for a cleaner menu
 You will need the:
 
 * [Titanfall VPK Tool](../../../how-to-start-modding/modding-introduction/modding-tools/)
-* [VPK renamer / move (Optional)](../../../how-to-start-modding/modding-introduction/modding-tools/)
+* [VPK renamer / move \(Optional\)](../../../how-to-start-modding/modding-introduction/modding-tools/)
 
 ## Whats New
 
@@ -21,7 +21,7 @@ To remove the UI element you will need to unpack `englishclient_frontend.bsp.pak
 
 Find the `WhatsNew` section in the file:
 
-```
+```text
 WhatsNew
     {
         ControlName				RuiPanel
@@ -39,7 +39,7 @@ WhatsNew
 
 Set visible to 0:
 
-```
+```text
 visible					0
 ```
 
@@ -63,10 +63,11 @@ There are 3 sections in this file:
 
 To hide each section set `visible` to 0
 
-```
+```text
 visible					0
 ```
 
 You can now repack your VPK and you will no longer see the **Spotlight** elements.
 
 ![A screenshot of the main menu with both Whats New and Spotlight removed](../../../.gitbook/assets/snapshot0022.jpg)
+
