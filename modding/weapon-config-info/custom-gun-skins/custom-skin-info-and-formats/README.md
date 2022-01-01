@@ -94,8 +94,8 @@ Backup your pc\_stream.rpak. Then follow your chosen tools instructions.&#x20;
 
 If you want to use VTF format skins. There is no current tool to automate the application of VTF format skins. If you want to learn how to manually apply VTF format skins we have a guide for that! Linked below:
 
-{% content-ref url="vtf-format-cgs.md" %}
-[vtf-format-cgs.md](vtf-format-cgs.md)
+{% content-ref url="../vtf-format-cgs.md" %}
+[vtf-format-cgs.md](../vtf-format-cgs.md)
 {% endcontent-ref %}
 
 ## Getting Custom Skins:

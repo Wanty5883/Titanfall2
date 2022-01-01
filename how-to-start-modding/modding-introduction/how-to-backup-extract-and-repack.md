@@ -40,7 +40,11 @@ Click on the 1st icon or press `CTRL + O`.
 
 ![](../../.gitbook/assets/vpktool\_open.png)
 
-Navigate to your game folder and open the VPK that is mentioned in the guide.
+Navigate to your game folder and open the VPK that is mentioned in the guide you are referring to.
+
+{% hint style="info" %}
+Note you can ONLY extract `_dir` version of vpks with VPK Tool.
+{% endhint %}
 
 {% hint style="warning" %}
 **Only extract VPK archive from the game directory. If you don't, make sure to have in the same folder all the subsequent VPK archive as shown in the next screenshot.**
