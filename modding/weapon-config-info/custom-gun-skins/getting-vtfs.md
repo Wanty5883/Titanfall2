@@ -16,6 +16,8 @@ You can get community-created skin's from our discord server NoSkill. Here at [h
 
 If you ask around in NoSkill or other Titanfall 2 modding servers, you may be find someone willing to share their skins or direct you to some.
 
+#### Northstar Discord Link: [https://northstar.tf/discord](https://northstar.tf/discord)
+
 #### VTFEdit
 
 For VTF format. You could also input an image into VTFEdit for a skin, but it may not be the most accurate.&#x20;

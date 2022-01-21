@@ -62,17 +62,25 @@ Third-party tutorial for applying skins with Gracious's Titanfall2 DDS Tool
 
 ## Resources:
 
+DirectExon's Info and Tutorials of Skin Installation.
+
 {% embed url="https://www.youtube.com/watch?v=sG6LAoE1IjY" %}
 DirectXeon's video tutorial
 {% endembed %}
 
-Newer Tutorial (below)
+headassbtw's Blender Tutorials of Custom Skin for the C.A.R.
+
+{% embed url="https://youtu.be/bBB2g5_7tPw" %}
+headassbtw Custom skin in Blender Guide
+{% endembed %}
+
+Mauey's Newer Tutorial (below)
 
 {% embed url="https://www.youtube.com/watch?v=trvO7t59FmU" %}
 Mauey Latest Tutorial. Tool assisted.
 {% endembed %}
 
-Old Tutorial (may be obsolete) (below)
+Mauey's Old Tutorial (may be obsolete) (below)
 
 {% embed url="https://www.youtube.com/watch?v=tUMeCUOyI00&list=PLDZQutpjzJ03WUXscuIVKxZlkh_SxQfDh&index=19" %}
 Mauey Outdated Tutorial. Manual.
