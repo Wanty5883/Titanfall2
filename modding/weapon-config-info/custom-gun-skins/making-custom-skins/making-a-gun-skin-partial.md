@@ -2,6 +2,7 @@
 
 i forgot to finish this...\
 suedo guide lel\
+[https://youtu.be/bBB2g5\_7tPw](https://youtu.be/bBB2g5\_7tPw)\
 \
 What you need:\
 Legion\

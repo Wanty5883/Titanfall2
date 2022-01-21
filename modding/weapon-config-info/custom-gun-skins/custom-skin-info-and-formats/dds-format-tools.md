@@ -4,7 +4,7 @@ description: Not a guide yet. Just useful tools and information.
 
 # DDS Format (partial)
 
-## Installing DDS Skins with a tool and a premade skin.
+## An Installing DDS Skins with a tool and a premade skin.
 
 {% embed url="https://youtu.be/sG6LAoE1IjY" %}
 DirectXeon made this short video that covers the basics of installing
