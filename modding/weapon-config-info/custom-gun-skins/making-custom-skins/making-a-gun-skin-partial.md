@@ -2,7 +2,7 @@
 
 i forgot to finish this...\
 suedo guide lel\
-[https://youtu.be/bBB2g5\_7tPw](https://youtu.be/bBB2g5\_7tPw)\
+[https://youtu.be/bBB2g5\_7tPw](https://youtu.be/bBB2g5\_7tPw) (headassbtw's video guide with blender)\
 \
 What you need:\
 Legion\
