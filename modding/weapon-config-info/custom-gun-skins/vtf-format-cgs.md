@@ -45,9 +45,11 @@ In this example, I will use the CAR smg, so I will copy the 2 `.mdl` files to`\e
 
 ## Editing .mdl's with a Hex Editor
 
-Time to use the Hex Editor. I will be using HxD in this example.
+Time to use the Hex Editor. I will be using [HxD](https://mh-nexus.de/en/hxd/) in this example.
 
-We will be using a hex editor to adjust the weapons texture path to something we can work with/input our own textures. To start, open your .mdl file in the hex editor. Using this, we can edit the file path for the factory skin, or for each non-paid weapon skins.
+We will be using a hex editor to adjust the weapons texture path to something we can work with/input our own textures.&#x20;
+
+To start, open your .mdl file in the hex editor. Using this, we can edit the file path for the factory skin, or for each non-paid weapon skins.
 
 Once you've opened your file press CTRL+F and search for `skin31` . If nothing shows up, then search for `skin_31`. This is part of one of the paths that you can edit to change the skins. The 2 paths for the 2 skins are `.models\WeaponsR2\<gun name>\<gun name>` and `.models\WeaponsR2\<gun name>\<gun name>_skin31` / `.models\WeaponsR2\<gun name>\<gun name>_skin_31`
 
@@ -55,7 +57,11 @@ You can have 2 custom skins per gun in the game. Editing `\<gun name>` replaces 
 
 ![The green underline is the factory skin, and the red underline is the non-paid camos (skin31)](../../../.gitbook/assets/screenshot-2021-07-06-101713.png)
 
-Hex Editors work differently from normal text. It replaces instead of deleting then placing new objects. So click before the letter you want to change and press the key of the letter you now want. We will make a simple change of changing the path from `.models\Weapons_R2\car_smg\CAR_smg` to `.models\weapons_r2\car_lmg\car_lmg` . The new path can be whatever you want , but to keep the gallery organized, we have a list of recommended names for each gun. After you save your edits, the file will be saved and you will have a `.mdl.bak` extension file. You can go ahead and delete the `.mdl.bak` file, as it's just the unedited `.mdl`.
+Hex Editors work differently from normal text editing. It replaces instead of deleting then placing new characters. So click before the letter you want to change and press the key of the letter you now want.&#x20;
+
+We will make a simple change of changing the path from `.models\Weapons_R2\car_smg\CAR_smg` to `.models\weapons_r2\car_lmg\car_lmg` . The new path can be whatever you want , but to keep the gallery organized, we have a list of recommended names for each gun.&#x20;
+
+After you save your edits, the file will be saved and you will have a `.mdl.bak` extension file. You can go ahead and delete the `.mdl.bak` file, as it's just the previous version `.mdl`.
 
 {% hint style="warning" %}
 Notice that we made the edited path lowercase. If you are using RSPNVPK, you need to use lowercase in the edited path.

@@ -6,11 +6,11 @@ description: Custom Skin Info and resources.
 
 ## &#x20;This is just resources and info.
 
-Tutorials or suedo Tutorials can be found under the Making Custom Skins category.
+(suedo)Using custom skin tutorials can be found under the Making Custom Skins category.
 
 ## Possibilities?
 
-Below is a page where you can find can kind of skins you can make. Don't be shy to make something new. Some objects needs or function with a certain format.
+Below is a page where you can find can kind of skins you can make. Don't be shy to make something new. Some object's needs or only function with a certain format.
 
 {% content-ref url="../../custom-skin-info-and-formats/" %}
 [custom-skin-info-and-formats](../../custom-skin-info-and-formats/)
@@ -22,7 +22,7 @@ Below is a page where you can find can kind of skins you can make. Don't be shy 
 * Editing application; Image editing software, 3D workspace; Blender, Substance Painter.
 * Creativity. Images or videos to draw inspiration or to implement.
 
-## Recommended Software:
+## Recommended Skin  Making Software:
 
 This is software that has been used and tested to create CGSs.&#x20;
 
@@ -55,7 +55,7 @@ Coolors is a color palette generator with many options to find what you need.
 
 I personally use this. If you have a safer or better website feel free to let us know. I use this because i can pick specific pixels and its the easiest when uploading my own images to rip colors from.pps
 
-### Image Editing websites & apps.
+## Image Editing websites & apps.
 
 #### [Pixlr.com](https://pixlr.com) - "online graphic designer" (free website)
 
@@ -82,6 +82,14 @@ GIMP is widely used and recommended by many people. There is also quite a few of
 Substance Painter is better than Blender for this scenario. Substance Painter can both view and edit on a 3d model or a flat UV. It can also use more advanced brushes, smart textures, and truly live viewing of edits or shaders. Substance Painter can also create many maps such as specular, glossiness, and much more to increase quality. Now acquired by Adobe and expensive.
 
 ## Useful Apps:
+
+****[**Pureref**](https://www.pureref.com) **- "All your reference images in one place."**
+
+"PureRef is a stand-alone program for Windows, Mac and Linux that keeps track of your images.
+
+Whether you're gathering inspiration, making mood boards or need reference images for your painting or 3D model, PureRef is there so you can focus on creating."
+
+PureRef is a popular and useful simple image reference collage application. Simple.
 
 #### [Autohotkey](https://www.autohotkey.com) - "The ultimate automation scripting language for Windows"
 
