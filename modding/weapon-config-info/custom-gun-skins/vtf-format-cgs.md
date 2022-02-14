@@ -35,7 +35,9 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 ## Retrieving files to edit
 
-From your extracted vpk, navigate to the `\models\weapons\` folder, and then to the folder of the gun you want to edit. Start by creating a file path on your desktop that has the same name as the common vpk (without the `.vpk` extension), and replicating the file path that the `.mdl` files are in:`\englishclient_mp_common.bsp.pak000_dir\models\weapons\<gun name>`
+From your extracted vpk, navigate to the `\models\weapons\` folder, and then to the folder of the gun you want to edit.&#x20;
+
+Start by creating a folder/file path on your desktop that has the same names as the common vpk (without the `.vpk` extension), and replicating the file path that leads to the `.mdl` files that are in:`\englishclient_mp_common.bsp.pak000_dir\models\weapons\<gun name>`
 
 {% hint style="info" %}
 We are creating this path so that we can copy and repack the VPK using RSPNVPK
