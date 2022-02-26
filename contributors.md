@@ -8,10 +8,10 @@ description: >-
 
 ### Admins & Main Editors
 
-| Name                                               | Description                  |
-| -------------------------------------------------- | ---------------------------- |
-| ****[**DirectXeon**](https://leonbenkovic.com)**** | Admin, Main Editor, Designer |
-| **catbug\_**                                       | Admin, Main Editor           |
+| Name           | Description                  |
+| -------------- | ---------------------------- |
+| **DirectXeon** | Admin, Main Editor, Designer |
+| **catbug\_**   | Admin, Main Editor           |
 
 ### Contributors
 
