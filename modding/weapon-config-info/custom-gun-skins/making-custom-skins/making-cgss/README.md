@@ -172,5 +172,9 @@ Below page could also help with exporting with legion.
 {% endembed %}
 
 {% embed url="https://youtu.be/trvO7t59FmU" %}
-17 minute video hosted on Youtube about Titanfall2 Custom Skin Guide.
+17 minute video hosted on Youtube about Titanfall2 custom skins.
+{% endembed %}
+
+{% embed url="https://youtu.be/bBB2g5_7tPw" %}
+10 minute video hosted on YouTube. headass's full process of making a custom skin using blender.
 {% endembed %}
