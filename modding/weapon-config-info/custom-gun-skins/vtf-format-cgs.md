@@ -57,7 +57,7 @@ Once you've opened your file press CTRL+F and search for `skin31` . If nothing s
 
 You can have 2 custom skins per gun in the game. Editing `\<gun name>` replaces the path used for the factory (default) skin, and `\<gun name>_skin31` will replace the path for all of the non-paid skins.&#x20;
 
-![The green underline is the factory skin, and the red underline is the non-paid camos (skin31)](../../../../.gitbook/assets/screenshot-2021-07-06-101713.png)
+![The green underline is the factory skin, and the red underline is the non-paid camos (skin31)](../../../.gitbook/assets/screenshot-2021-07-06-101713.png)
 
 Hex Editors work differently from normal text editing. It replaces instead of deleting then placing new characters. So click before the letter you want to change and press the key of the letter you now want.&#x20;
 
@@ -85,7 +85,7 @@ For this example, the path would be `englishclient_mp_common.bsp.pak000_dir\mate
 
 The `.vtf` we will be using for an example is the Not Your Savior skin:
 
-![90notyoursavior.vtf](../../../../.gitbook/assets/unsaved.png)
+![90notyoursavior.vtf](../../../.gitbook/assets/unsaved.png)
 
 Find the download in the gallery:
 
@@ -97,7 +97,7 @@ Find the download in the gallery:
 
 Now that we have our VTF(s) in our file system, We can create a Valve Material Type (VMT) file, which manages the `.vtf` and applies it to the models. In the folder with your VTF, create a blank text document and name it the last string in the path that you edited with the `.vmt` extension:
 
-![](<../../../../.gitbook/assets/image (22).png>)
+![](<../../../.gitbook/assets/image (22).png>)
 
 {% hint style="info" %}
 Note that if you want to change the `skin31` or `prime` paths, your `.vmt` file will have to be the same number of characters. For ease of use, just use the name of the path (example `.vmt` name: `car_lmg_skin_31.vmt).`
@@ -123,13 +123,13 @@ In our example, the code would be:
 
 After you are done, save and that's it for the VMT. You can find more documentation about VMT's here:
 
-{% content-ref url="../../../../documentation/textures/valve-material-type-vmt.md" %}
-[valve-material-type-vmt.md](../../../../documentation/textures/valve-material-type-vmt.md)
+{% content-ref url="../../../documentation/textures/valve-material-type-vmt.md" %}
+[valve-material-type-vmt.md](../../../documentation/textures/valve-material-type-vmt.md)
 {% endcontent-ref %}
 
 After you are done with editing the `.mdl` files and the `.vmt` and `.vtf` files, your folder on your desktop should look like this:
 
-![First layer in replacement directory](../../../../.gitbook/assets/firstlayer.png)
+![First layer in replacement directory](../../../.gitbook/assets/firstlayer.png)
 
 {% hint style="warning" %}
 Make sure you have a backup of the vpks you are modding before continuing in case something breaks or you are not satisfied with the results
@@ -139,11 +139,11 @@ Make sure you have a backup of the vpks you are modding before continuing in cas
 
 Now we are ready to compile our VPK. We will be using [RSPNVPK](https://github.com/squidgyberries/RSPNVPK). Copy the folder on your desktop from earlier and  `englishclient_mp_common.bsp.pak000_dir.vpk` from your game directory into the RSPNVPK directory:
 
-![Main 'menu' of RPSNVPK](../../../../.gitbook/assets/backupfolder.png)
+![Main 'menu' of RPSNVPK](../../../.gitbook/assets/backupfolder.png)
 
 Now drag and drop `englishclient_mp_common.bsp.pak000_dir.vpk` onto the `RSPNVPK.exe` . It should bring up a command prompt. Press `ENTER` to start, and `ENTER` when RSPNVPK tells you it is finished.
 
-![Starting Prompt before pressing Enter](../../../../.gitbook/assets/starting.png)
+![Starting Prompt before pressing Enter](../../../.gitbook/assets/starting.png)
 
 After the tool is finished, copy `englishclient_mp_common.bsp.pak000_dir.vpk` and `client_mp_common.bsp.pak000_228.vpk` into your game directory and you should be done!
 

@@ -14,18 +14,18 @@ CGS stands for Custom Gun Skins.
 
 ### Custom Skin Info & Formats
 
-{% content-ref url="custom-skin-info/" %}
-[custom-skin-info](custom-skin-info/)
+{% content-ref url="custom-skin-info-and-formats/" %}
+[custom-skin-info-and-formats](custom-skin-info-and-formats/)
 {% endcontent-ref %}
 
 #### Sub-Pages
 
-{% content-ref url="custom-skin-info/dds-format-tools.md" %}
-[dds-format-tools.md](custom-skin-info/dds-format-tools.md)
+{% content-ref url="custom-skin-info-and-formats/dds-format-tools.md" %}
+[dds-format-tools.md](custom-skin-info-and-formats/dds-format-tools.md)
 {% endcontent-ref %}
 
-{% content-ref url="custom-skin-info/vtf-format-cgs.md" %}
-[vtf-format-cgs.md](custom-skin-info/vtf-format-cgs.md)
+{% content-ref url="vtf-format-cgs.md" %}
+[vtf-format-cgs.md](vtf-format-cgs.md)
 {% endcontent-ref %}
 
 ### Getting Custom Skin Files

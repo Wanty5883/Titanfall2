@@ -12,8 +12,8 @@ description: Custom Skin Info and resources.
 
 Below is a page where you can find can kind of skins you can make. Don't be shy to make something new. Some object's needs or only function with a certain format.
 
-{% content-ref url="../../custom-skin-info/" %}
-[custom-skin-info](../../custom-skin-info/)
+{% content-ref url="../../custom-skin-info-and-formats/" %}
+[custom-skin-info-and-formats](../../custom-skin-info-and-formats/)
 {% endcontent-ref %}
 
 ## List of to do/get to make a skin:

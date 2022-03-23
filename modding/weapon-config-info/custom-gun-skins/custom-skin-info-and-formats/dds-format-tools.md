@@ -56,9 +56,11 @@ Made by zxcPandora, Titanfall2 SkinTool is a Titanfall 2 and R5R tool with a UI 
 
 Made by greishuh/Gracious, Titanfall2 DDS Tool is a tool with cmd ui to more manually apply DDS weapon skins. Not recently updated.
 
-{% embed url="https://youtu.be/1_nSqO_q3oA" %}
-Third-party tutorial for applying skins with Gracious's Titanfall2 DDS Tool
-{% endembed %}
+[Video using Gracious tool.](https://youtu.be/1\_nSqO\_q3oA)
+
+### [Titanfall2 SkinTool](https://github.com/Strykus/Titanfall2-SkinTool) - DDS Skin tool
+
+Edited by Strykus, Titanfall2 SkinTool is a tool. This tool can apply Titan skins and Attachment skins.
 
 ## Resources:
 
