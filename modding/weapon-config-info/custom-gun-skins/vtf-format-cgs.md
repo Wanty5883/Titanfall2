@@ -1,5 +1,5 @@
 ---
-description: The first custom gun skin.
+description: Installing VTF skins.
 ---
 
 # VTF Format
@@ -79,8 +79,8 @@ With our new paths for custom skins, we need to create the folders following sai
 
 For this example, the path would be `englishclient_mp_common.bsp.pak000_dir\materials\models\weapons_r2\car_lmg`. Next, put a `.vtf` file of your choice in the weapon folder (`\car_lmg`). A Valve Texture Format (VTF) is a texture that the Source engine uses. That texture is used in our custom skin. If you don't have one, we have a few in the gallery. See below on how to get VTF's:
 
-{% content-ref url="getting-vtfs.md" %}
-[getting-vtfs.md](getting-vtfs.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 The `.vtf` we will be using for an example is the Not Your Savior skin:

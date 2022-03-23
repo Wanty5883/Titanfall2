@@ -2,14 +2,14 @@
 description: Custom Skin Info and resources.
 ---
 
-# MCS Info
+# Making Skin Info
 
 ## Possibilities?
 
 Below is a page where you can find the kind's of skins you can make. Don't be shy to make something new.
 
-{% content-ref url="../../custom-skin-info-and-formats/" %}
-[custom-skin-info-and-formats](../../custom-skin-info-and-formats/)
+{% content-ref url="../custom-skin-info-and-formats/" %}
+[custom-skin-info-and-formats](../custom-skin-info-and-formats/)
 {% endcontent-ref %}
 
 ## List of to do/get to make a skin:
@@ -28,7 +28,7 @@ zxcPandora's Skin Tool: [https://github.com/zxcPandora/Titanfall2-SkinTool](http
 
 Bigspice, E3VL, Strykus: [https://github.com/BigSpice/TitanFall\_2\_Weapon\_Skin\_Modding](https://github.com/BigSpice/TitanFall\_2\_Weapon\_Skin\_Modding)
 
-## Creation Websites:
+## Websites:
 
 #### [Coolors](https://coolors.co) - "the super fast color scheme generator"
 
@@ -42,7 +42,7 @@ You can pick specific pixels and its the easiest when uploading my own images to
 
 #### [Photopea](https://www.photopea.com) - "Online Photo Editor" (free website)
 
-## Creation Apps:
+## Apps:
 
 ****[**Blender**](https://www.blender.org) **- "Blender's mission is to bring the best 3D technology as tools in the hands of artists, for all platforms, everywhere in the world, free and open source forever." (free, app)**
 
@@ -100,22 +100,22 @@ Wireframes are a 2D cover to help with organization, detail, shape, size, and ac
 
 Base textures from the game to help with color, shape, and organization for 2D skin creation. Learn how to export the base textures here:
 
-{% content-ref url="../../../../../r2-ripping/exporting-using-legion.md" %}
-[exporting-using-legion.md](../../../../../r2-ripping/exporting-using-legion.md)
+{% content-ref url="../../../../r2-ripping/exporting-using-legion.md" %}
+[exporting-using-legion.md](../../../../r2-ripping/exporting-using-legion.md)
 {% endcontent-ref %}
 
 ### Acquiring models:
 
 We already have a good wiki page for exporting models. Found below.
 
-{% content-ref url="../../../../../r2-ripping/model-ripping.md" %}
-[model-ripping.md](../../../../../r2-ripping/model-ripping.md)
+{% content-ref url="../../../../r2-ripping/model-ripping.md" %}
+[model-ripping.md](../../../../r2-ripping/model-ripping.md)
 {% endcontent-ref %}
 
 Below page could also help with exporting with legion.
 
-{% content-ref url="../../../../../r2-ripping/exporting-using-legion.md" %}
-[exporting-using-legion.md](../../../../../r2-ripping/exporting-using-legion.md)
+{% content-ref url="../../../../r2-ripping/exporting-using-legion.md" %}
+[exporting-using-legion.md](../../../../r2-ripping/exporting-using-legion.md)
 {% endcontent-ref %}
 
 ## Naming Tables:
