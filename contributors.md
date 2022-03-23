@@ -8,10 +8,9 @@ description: >-
 
 ### Admins & Main Editors
 
-| Name           | Description                  |
-| -------------- | ---------------------------- |
-| **DirectXeon** | Admin, Main Editor, Designer |
-| **catbug\_**   | Admin, Main Editor           |
+| Name         | Description        |
+| ------------ | ------------------ |
+| **catbug\_** | Admin, Main Editor |
 
 ### Contributors
 
@@ -27,6 +26,7 @@ description: >-
 | **S2ymi**                                           | Modding research          |
 | ****[**Taskinoz**](https://github.com/taskinoz)**** | Modding research          |
 | [**Wanty**](https://github.com/Wanty5883)****       | Editor                    |
+| **DirectXeon**                                      | Editor, Designer          |
 
 ### Special Thanks
 
