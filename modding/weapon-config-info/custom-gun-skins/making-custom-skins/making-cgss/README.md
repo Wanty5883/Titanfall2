@@ -12,40 +12,27 @@ description: Custom Skin Info and resources.
 
 Below is a page where you can find can kind of skins you can make. Don't be shy to make something new. Some object's needs or only function with a certain format.
 
-{% content-ref url="../../custom-skin-info-and-formats/" %}
-[custom-skin-info-and-formats](../../custom-skin-info-and-formats/)
+{% content-ref url="../../custom-skin-info/" %}
+[custom-skin-info](../../custom-skin-info/)
 {% endcontent-ref %}
 
 ## List of to do/get to make a skin:
 
-* .mdl file of choice edited and converted to .obj (or of choice) for editing application.
+* .mdl file of choice edited and converted to .smd (or of choice) for editing application.
 * Editing application; Image editing software, 3D workspace; Blender, Substance Painter.
 * Creativity. Images or videos to draw inspiration or to implement.
 
-## Recommended Skin  Making Software:
+## Community Tools:
 
-This is software that has been used and tested to create CGSs.&#x20;
+Strykus/Avalar's Skin Tool:[ https://github.com/Strykus/Titanfall2-SkinTool](https://github.com/Strykus/Titanfall2-SkinTool)
 
-#### [Substance Painter](https://www.substance3d.com) - "Substance becomes Adobe Substance" (paid, app)
+zxcPandora's Skin Tool: [https://github.com/zxcPandora/Titanfall2-SkinTool](https://github.com/zxcPandora/Titanfall2-SkinTool)
 
-"Substance painter is a specialized texturing tool which utilizes a procedural Physically Based Rendering (PBR) workflow."
+## Community Wiki's
 
-Substance Painter is better than Blender for this scenario. Substance Painter can both view and edit on a 3d model or a flat UV. It can also use more advanced brushes, smart textures, and truly live viewing of edits or shaders. Substance Painter can also create many maps such as specular, glossiness, and much more to increase quality. Now acquired by Adobe and expensive.
+Bigspice, E3VL, Strykus: [https://github.com/BigSpice/TitanFall\_2\_Weapon\_Skin\_Modding](https://github.com/BigSpice/TitanFall\_2\_Weapon\_Skin\_Modding)
 
-#### [Adobe Photoshop](https://www.photoshop.com) - "The world is your canvas, so grab inspiration from all around you and have fun experimenting." (paid, app)
-
-Adobe photoshop is a image editing and photo retouching application.
-
-We use this application to edit over the original texture and create our own custom texture. Photoshop is recommended Image Editor for CGS because of the native support in Blender that lets us reload images without needing to export, save as, import, connect. \
-With reload .psd support in Blender we can refresh the .psd to use the the most recent changes made. To "reload" the image we use a Blender Add-ons; Node Wrangler, then press ALT+R in the "shading" tab.&#x20;
-
-#### [Blender](https://www.blender.org) - "Blender's mission is to bring the best 3D technology as tools in the hands of artists, for all platforms, everywhere in the world, free and open source forever." (free, app)
-
-"Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, video editing and 2D animation pipeline."
-
-We use this application to view our 3D models and 2D skins wrapped onto our 3d models. You can also create 3D renders, 3D printable files, and much MUCH more. This is super useful to view our work.
-
-## Useful Websites:
+## Creation Websites:
 
 #### [Coolors](https://coolors.co) - "the super fast color scheme generator"
 
@@ -53,43 +40,37 @@ Coolors is a color palette generator with many options to find what you need.
 
 #### [Color Picker online](https://imagecolorpicker.com) - "HEX Color Picker"
 
-I personally use this. If you have a safer or better website feel free to let us know. I use this because i can pick specific pixels and its the easiest when uploading my own images to rip colors from.pps
-
-## Image Editing websites & apps.
+You can pick specific pixels and its the easiest when uploading my own images to rip colors from.
 
 #### [Pixlr.com](https://pixlr.com) - "online graphic designer" (free website)
 
-Yeah its a free photo image editing and works but sometimes breaks. You don't lose files when it "breaks".
-
 #### [Photopea](https://www.photopea.com) - "Online Photo Editor" (free website)
 
-Another and if not a better image editing website than Pixlr. Heard very well from this website.&#x20;
+## Creation Apps:
 
-#### [Affinity](https://affinity.serif.com/en-us/) - "Professional Image Editing Software" (paid, 50$ each)
+****[**Blender**](https://www.blender.org) **- "Blender's mission is to bring the best 3D technology as tools in the hands of artists, for all platforms, everywhere in the world, free and open source forever." (free, app)**
 
-[Affinity Photo](https://affinity.serif.com/en-us/photo/) and [Affinity Designer](https://affinity.serif.com/en-us/designer/) offers trials, and offers their software at $50 USD per app. I have seen extended trials(3 months) and deals for $25 USD per app. I enjoy this software for being capable and affordable, although I haven't found an add-on for real-time support in Blender.&#x20;
+"Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, video editing and 2D animation pipeline."
 
-#### [GIMP](https://www.gimp.org) - "GNU Image Manipulation Program" (free, app)
+****[**Adobe Photoshop**](https://www.adobe.com/products/photoshop.html) **- "The world is your canvas, so grab inspiration from all around you and have fun experimenting." (paid, app)**
 
-" GIMP is a cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems. It is [free software](https://www.gnu.org/philosophy/free-sw.html), you can change its [source code](https://git.gnome.org/browse/gimp) and [distribute](https://www.gnu.org/licenses/quick-guide-gplv3.en.html) your changes."
-
-GIMP is widely used and recommended by many people. There is also quite a few of add-ons for GIMP, including a vtf export add-on that can help with needing to make many vtf's for example making each frame for an animated CGS.
+"Adobe photoshop is a image editing and photo retouching application."
 
 #### [Substance Painter](https://www.substance3d.com) - "Substance becomes Adobe Substance" (paid, app)
 
 &#x20;"Substance painter is a specialized texturing tool which utilizes a procedural Physically Based Rendering (PBR) workflow."
 
-Substance Painter is better than Blender for this scenario. Substance Painter can both view and edit on a 3d model or a flat UV. It can also use more advanced brushes, smart textures, and truly live viewing of edits or shaders. Substance Painter can also create many maps such as specular, glossiness, and much more to increase quality. Now acquired by Adobe and expensive.
+#### [GIMP](https://www.gimp.org) - "GNU Image Manipulation Program" (free, app)
 
-## Useful Apps:
+" GIMP is a cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems. It is [free software](https://www.gnu.org/philosophy/free-sw.html), you can change its [source code](https://git.gnome.org/browse/gimp) and [distribute](https://www.gnu.org/licenses/quick-guide-gplv3.en.html) your changes."
+
+#### [Affinity](https://affinity.serif.com/en-us/) - "Professional Image Editing Software" (paid, 50$ each)
+
+[Affinity Photo](https://affinity.serif.com/en-us/photo/) and [Affinity Designer](https://affinity.serif.com/en-us/designer/) offers trials, and offers their software at $50 USD per app. I have seen extended trials(3 months) and deals for $25 USD per app. I enjoy this software for being capable and affordable, although I haven't found an add-on for real-time support in Blender.&#x20;
 
 ****[**Pureref**](https://www.pureref.com) **- "All your reference images in one place."**
 
 "PureRef is a stand-alone program for Windows, Mac and Linux that keeps track of your images.
-
-Whether you're gathering inspiration, making mood boards or need reference images for your painting or 3D model, PureRef is there so you can focus on creating."
-
-PureRef is a popular and useful simple image reference collage application. Simple.
 
 #### [Autohotkey](https://www.autohotkey.com) - "The ultimate automation scripting language for Windows"
 
@@ -141,11 +122,7 @@ Below page could also help with exporting with legion.
 [exporting-using-legion.md](../../../../../r2-ripping/exporting-using-legion.md)
 {% endcontent-ref %}
 
-## Resources:
-
-### Naming Sheet for Titanfall 2 Models (and tables).
-
-![](../../../../../.gitbook/assets/tf2namingmodelsheet.png)
+## Naming Tables:
 
 | Pilot Model | Pilot In-game |
 | ----------: | ------------- |
@@ -166,6 +143,21 @@ Below page could also help with exporting with legion.
 |      wraith | Tone          |
 |        ogre | Scorch        |
 |    vanguard | Monarch       |
+
+|                          Optic | Optic In-game        |
+| -----------------------------: | -------------------- |
+|                          hcog2 | Hcog                 |
+|                    acgs\_sight | Acog                 |
+|                      aog\_sigh | Aog                  |
+| holo\_reflex\_sight\_magnifier | Holo Relex           |
+|                    pro\_screen | Pro Screen           |
+|                           dcom | Default Sniper Scope |
+|                   talon\_optic | Sniper Scope 4x      |
+|                    suppressors | Suppressor           |
+|           charge\_rifle\_optic | Threat Scope         |
+|    long\_range\_optic\_wonyeon | Threat Scope Sniper  |
+
+## Videos:
 
 {% embed url="https://youtu.be/dMqk0jz749U" %}
 40 minute video hosted on Youtube about Apex Legends Blender tutorial.
