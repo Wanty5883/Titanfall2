@@ -1,5 +1,5 @@
 ---
-description: The first custom gun skin.
+description: Installing VTF skins.
 ---
 
 # VTF Format

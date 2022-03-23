@@ -2,7 +2,7 @@
 description: Custom Skin Info and resources.
 ---
 
-# Making Custom Skin Info & Resources
+# MCS Info
 
 ## &#x20;This is just resources and info.
 
@@ -92,7 +92,7 @@ Numpad2::send {ctrl down}{z down}{ctrl up}{z up}
 
 ## Useful Pages:
 
-### 2D Wireframe
+### Getting 2D Wireframe:
 
 Wireframes are a 2D cover to help with organization, detail, shape, size, and accuracy of your skin. Learn how with the page link below.
 
@@ -100,7 +100,7 @@ Wireframes are a 2D cover to help with organization, detail, shape, size, and ac
 [2d-wireframes.md](2d-wireframes.md)
 {% endcontent-ref %}
 
-### 2D Textures (factory skin reference)
+### Acquiring 2D Textures:
 
 Base textures from the game to help with color, shape, and organization for 2D skin creation. Learn how to export the base textures here:
 
@@ -108,7 +108,7 @@ Base textures from the game to help with color, shape, and organization for 2D s
 [exporting-using-legion.md](../../../../../r2-ripping/exporting-using-legion.md)
 {% endcontent-ref %}
 
-### Acquiring models for skinning:
+### Acquiring models:
 
 We already have a good wiki page for exporting models. Found below.
 
