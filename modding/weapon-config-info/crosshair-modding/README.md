@@ -8,11 +8,11 @@ description: Guide to change crosshair icons
 
 Locate your game folder and find this folder if you are on Origin:
 
-> Origin Games\Titanfall2\vpk\\
+> Origin Games\Titanfall2\vpk\
 
 Or this folder if you are on Steam:
 
-> Steam\steamapps\common\Titanfall2\vpk\\
+> Steam\steamapps\common\Titanfall2\vpk\
 
 Copy these files and paste them in a backup folder somewhere else:
 
@@ -35,7 +35,7 @@ Now that these files have been backed up and everything installed. Navigate to y
 
 Go to this location in your extracted folder
 
-```
+```text
 englishclient_mp_common.bsp.pak000_dir.vpk\scripts\weapons
 ```
 
@@ -43,14 +43,14 @@ This folder contains the "config files" for the weapons. Edit those files at you
 
 Find that code block to get where is the crosshair code part.
 
-```
+```text
 active_crosshair_count                      “1”
 rui_crosshair_index                         “0”
 
 RUI_CrosshairData
 ```
 
-From this part to the bottom of the _`RUI_CrosshairData`_ bracket that's the part that we will edit together ! (finally getting into the interesting part !)
+From this part to the bottom of the _`RUI_CrosshairData`_ bracket that's the part that we will edit together ! \(finally getting into the interesting part !\)
 
 To change the crosshair, you have to change the _`ui`_ with the one you want. You can find the value for the different crosshair in the game down bellow.
 
@@ -58,11 +58,11 @@ For example, change
 
 _`ui/crosshair_tri`_ to _`ui/crosshair_alternator`_
 
-That will change the classic AR / SMG (used on R201, CAR, R97...) to the Alternator crosshair.
+That will change the classic AR / SMG \(used on R201, CAR, R97...\) to the Alternator crosshair.
 
 Is possible to combine multiple crosshair at the same time, for that you need to duplicate _`Crosshair_1`_ bracket and is value inside like this example
 
-```
+```text
 Crosshair_1
 {
     “ui”                                     “ui/crosshair_plus”
@@ -78,7 +78,7 @@ Don't copy paste the value from this example, use the one you have in the edited
 
 ### active\_crosshair\_count
 
-```
+```text
 active_crosshair_count "2"
 ```
 
@@ -108,46 +108,42 @@ This value set the based size of the crosshair, this won't change the vector siz
 
 Args or arguments can change how the crosshair is acting
 
-| Argument           | Value                                   | Note |
-| ------------------ | --------------------------------------- | ---- |
-| adjustedSpread     | weapon\_spread                          |      |
-| adsFrac            | player\_zoomFrac                        |      |
-| ammoFrac           | "progress\_weapon\_clip\_ammo\_frac"    |      |
-| ammoFrac           | "progress\_grapple\_power"              |      |
-| chargeFrac         | player\_chargeFrac                      |      |
-| chargeLevel        | player\_chargeLevel                     |      |
-| chargeMaxTime      | eWeaponVar.custom\_float\_0             |      |
-| chargeStartTime    | weapon\_script\_time\_0                 |      |
-| clipAmmo           | weapon\_ammo                            |      |
-| clipSize           | weapon\_clipSize                        |      |
-| crosshairMovementX | crosshair\_movement\_x                  |      |
-| crosshairMovementY | crosshair\_movement\_y                  |      |
-| dryfireTime        | "weapon\_latest\_dryfire\_time"         |      |
-| isActive           | weapon\_is\_active                      |      |
-| isAmped            | weapon\_is\_amped                       |      |
-| isFiring           | weapon\_is\_firing                      |      |
-| isGrappleInRange   | "grapple\_in\_range"                    |      |
-| isLocked           | smartammo\_locked                       |      |
-| isReloading        | weapon\_is\_reloading                   |      |
-| isSprinting        | player\_is\_sprinting                   |      |
-| readyFrac          | progress\_ready\_to\_fire\_frac         |      |
-| regenRate          | "eWeaponVar.regen\_ammo\_refill\_rate"  |      |
-| smartFov           | "eWeaponVar.smart\_ammo\_search\_angle" |      |
-| teamColor          | crosshair\_team\_color                  |      |
+| Argument | Value | Note |
+| :--- | :--- | :--- |
+| adjustedSpread | weapon\_spread |  |
+| adsFrac | player\_zoomFrac |  |
+| ammoFrac | "progress\_weapon\_clip\_ammo\_frac" |  |
+| ammoFrac | "progress\_grapple\_power" |  |
+| chargeFrac | player\_chargeFrac |  |
+| chargeLevel | player\_chargeLevel |  |
+| chargeMaxTime | eWeaponVar.custom\_float\_0 |  |
+| chargeStartTime | weapon\_script\_time\_0 |  |
+| clipAmmo | weapon\_ammo |  |
+| clipSize | weapon\_clipSize |  |
+| crosshairMovementX | crosshair\_movement\_x |  |
+| crosshairMovementY | crosshair\_movement\_y |  |
+| dryfireTime | "weapon\_latest\_dryfire\_time" |  |
+| isActive | weapon\_is\_active |  |
+| isAmped | weapon\_is\_amped |  |
+| isFiring | weapon\_is\_firing |  |
+| isGrappleInRange | "grapple\_in\_range" |  |
+| isLocked | smartammo\_locked |  |
+| isReloading | weapon\_is\_reloading |  |
+| isSprinting | player\_is\_sprinting |  |
+| readyFrac | progress\_ready\_to\_fire\_frac |  |
+| regenRate | "eWeaponVar.regen\_ammo\_refill\_rate" |  |
+| smartFov | "eWeaponVar.smart\_ammo\_search\_angle" |  |
+| teamColor | crosshair\_team\_color |  |
 
 More argument information on this page
 
-{% content-ref url="../" %}
-[..](../)
-{% endcontent-ref %}
+{% page-ref page="../" %}
 
 ### Config file name
 
 List of the different weapon config files. Sometimes names are not the same as in game name.
 
-{% content-ref url="../../../documentation/file-location/weapon/weapon-config-file-name.md" %}
-[weapon-config-file-name.md](../../../documentation/file-location/weapon/weapon-config-file-name.md)
-{% endcontent-ref %}
+{% page-ref page="../../../documentation/file-location/weapon-config-file-name.md" %}
 
 ## Repacking
 
@@ -160,3 +156,4 @@ Rename `pak000_000.vpk` _to_ `client_mp_common.bsp.pak000_000.vpk`
 Rename `ak000_dir.vpk` _to_ `englishclient_mp_common.bsp.pak000_dir.vpk`
 
 Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see your new crosshair!
+

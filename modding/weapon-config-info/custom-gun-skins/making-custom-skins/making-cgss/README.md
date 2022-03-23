@@ -4,13 +4,9 @@ description: Custom Skin Info and resources.
 
 # MCS Info
 
-## &#x20;This is just resources and info.
-
-(suedo)Using custom skin tutorials can be found under the Making Custom Skins category.
-
 ## Possibilities?
 
-Below is a page where you can find can kind of skins you can make. Don't be shy to make something new. Some object's needs or only function with a certain format.
+Below is a page where you can find the kind's of skins you can make. Don't be shy to make something new.
 
 {% content-ref url="../../custom-skin-info-and-formats/" %}
 [custom-skin-info-and-formats](../../custom-skin-info-and-formats/)

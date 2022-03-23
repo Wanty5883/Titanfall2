@@ -28,6 +28,12 @@ CGS stands for Custom Gun Skins.
 [vtf-format-cgs.md](vtf-format-cgs.md)
 {% endcontent-ref %}
 
+### Getting Custom Skin Files
+
+{% content-ref url="getting-vtfs.md" %}
+[getting-vtfs.md](getting-vtfs.md)
+{% endcontent-ref %}
+
 ### Making Custom Skins
 
 {% content-ref url="making-custom-skins/" %}
@@ -40,12 +46,12 @@ CGS stands for Custom Gun Skins.
 [making-cgss](making-custom-skins/making-cgss/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="making-custom-skins/making-a-pilot-skin-partial.md" %}
+[making-a-pilot-skin-partial.md](making-custom-skins/making-a-pilot-skin-partial.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="making-custom-skins/making-a-gun-skin-partial.md" %}
+[making-a-gun-skin-partial.md](making-custom-skins/making-a-gun-skin-partial.md)
 {% endcontent-ref %}
 
 
