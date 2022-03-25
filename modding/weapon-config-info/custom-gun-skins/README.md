@@ -22,12 +22,6 @@ description: Custom skins for pilots and weapons! psst..titans are semi possible
 
 ### Making Custom Skins
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-#### Sub-Pages
-
 {% content-ref url="making-cgss/" %}
 [making-cgss](making-cgss/)
 {% endcontent-ref %}
