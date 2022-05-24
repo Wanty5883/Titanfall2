@@ -4,7 +4,7 @@ description: Modifying the main menu and startup videos
 
 # Menu Background
 
-For this tutorial you will need **Rad Video Tools** which you can find on the [Modding Tools](../../../how-to-start-modding/modding-introduction/modding-tools/) page as well as **Quicktime 7.6** for Windows (this will help to convert your video the bik format).
+For this tutorial you will need **Rad Video Tools** which you can find on the [Modding Tools](../../../how-to-start-modding/modding-introduction/modding-tools/) page as well as **Quicktime 7.6** for Windows \(this will help to convert your video the bik format\).
 
 1\) After installing **Rad Video Tools** open the program and navigate to the video you wish to use for your custom menu and click the **Bink it** button.
 
@@ -26,4 +26,6 @@ Some already made Custom Menu's
 
 * [SGDQ 2019](https://www.youtube.com/watch?v=jVn4hRA8pJY)
 * [GDQx 2018](https://www.youtube.com/watch?v=b-mU1Nq4eck)
+
+
 

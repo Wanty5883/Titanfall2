@@ -6,17 +6,17 @@ If you are new to modding, it is recommended to get started with the basic metho
 
 ## Basic
 
-In the first place, a main folder for modding is necessary.\
+In the first place, a main folder for modding is necessary.  
 Creating a Titanfall 2 folder inside a Modding folder is a preferred method. The location of this root folder will depend of your personal preference.
 
 {% hint style="info" %}
-If you are using different storage devices, for better performance, the root folder can be in your faster SSD.\
+If you are using different storage devices, for better performance, the root folder can be in your faster SSD.  
 If you are using a dedicated storage device for your games, consider having your root folder there.
 {% endhint %}
 
 {% tabs %}
 {% tab title="Format" %}
-```
+```text
 <Path>\Modding\Titanfall 2
 ```
 {% endtab %}
@@ -33,7 +33,7 @@ After the creation of the Titanfall 2 root folder, more folders have to be creat
 
 {% tabs %}
 {% tab title="Struct" %}
-```
+```text
 ├── Titanfall 2
 │   ├── backup
 │   ├── extracted
@@ -54,17 +54,17 @@ Titanfall 2\tools
 
 As a result, your Titanfall 2 modding folder should look like as in the following screenshot. The purpose of each folders will be explained in details.
 
-![](../../.gitbook/assets/moddingenv\_basicfolders.png)
+![](../../.gitbook/assets/moddingenv_basicfolders.png)
 
 ### Folder - Backup
 
-As the name of the folder suggest, it will be used to store backup of your vpk archives. To perform a backup of a specific VPK archive, the main file and all it's subsequent (typo here) will need to be copied over the backup folder.
+As the name of the folder suggest, it will be used to store backup of your vpk archives. To perform a backup of a specific VPK archive, the main file and all it's subsequent \(typo here\) will need to be copied over the backup folder.
 
 A example of a typical backup of the common VPK archive.
 
 {% tabs %}
 {% tab title="Struct" %}
-```
+```text
 ├── Titanfall 2
 │   ├── backup
 │   │   ├── client_mp_common.bsp.pak000_000.vpk
@@ -111,13 +111,13 @@ Titanfall 2\backup\englishclient_mp_common.bsp.pak000_dir.vpk
 
 This folder will be the main folder for extracted VPK files, where the different file to be edited will be in.
 
-As the common and frontend VPK are the most common to work on, they have their own folder, single player (levels) and multiplayer (maps) VPK will have their own sub folder.
+As the common and frontend VPK are the most common to work on, they have their own folder, single player \(levels\) and multiplayer \(maps\) VPK will have their own sub folder.
 
 In the example following, the folders `common`, `frontend` and `angel city`, would be populated. You don't need to create all the folders inside them, that would be done as their respective VPK archive are extracting.
 
 {% tabs %}
 {% tab title="Struct" %}
-```
+```text
 ├── Titanfall 2
 │   ├── backup
 │   ├── extracted
@@ -196,9 +196,7 @@ Titanfall 2\tools
 
 The folder used for the output of the VPK tool while repacking a VPK archive. It is a bad practice to repack directly into your game directory. For VPK use of the VPK tool, check:
 
-{% content-ref url="how-to-backup-extract-and-repack.md" %}
-[how-to-backup-extract-and-repack.md](how-to-backup-extract-and-repack.md)
-{% endcontent-ref %}
+{% page-ref page="how-to-backup-extract-and-repack.md" %}
 
 ### Folder - tools
 
@@ -206,7 +204,7 @@ The folder containing your modding tools for Titanfall 2. Each of those folders 
 
 {% tabs %}
 {% tab title="Struct" %}
-```
+```text
 ├── Titanfall 2
 │   ├── backup
 │   ├── extracted
@@ -239,7 +237,7 @@ In addition to the basic environment, some additionnal folders will be made.
 
 {% tabs %}
 {% tab title="Struct" %}
-```
+```text
 ├── Titanfall 2
 │   ├── backup
 │   ├── extracted
@@ -262,20 +260,20 @@ Titanfall 2\tools
 
 ### Folder - extracted
 
-Using git for your extracted VPK files allow you to have different set of VPK (main, dev, research, etc.) while keeping things under a decent amount of sub folders.
+Using git for your extracted VPK files allow you to have different set of VPK \(main, dev, research, etc.\) while keeping things under a decent amount of sub folders.
 
 {% embed url="https://en.wikipedia.org/wiki/Git" %}
 
 Git is a powerful tool that can be used in numerous way, your CLI, dedicated software, your code editor of choice, etc.
 
-For the common and frontend VPK, having a separate copy, vanilla (not modded) that will stay vanilla is a time saver, comparing files, restore certain files, etc.Git can be used for a extracted VPK. Idealy, setting up git would be done for the most used VPK, but that is up to personal preference to adapt each users workflow.\
+For the common and frontend VPK, having a separate copy, vanilla \(not modded\) that will stay vanilla is a time saver, comparing files, restore certain files, etc.Git can be used for a extracted VPK. Idealy, setting up git would be done for the most used VPK, but that is up to personal preference to adapt each users workflow.  
 Each VPK folder that has git setup has a extra sub folder so the .git folder is not included while repacking a VPK. The VPK tool does not have the ability to exclude files / folder.
 
 {% hint style="warning" %}
 The \*.vpk in the folder structure aren't VPK archive. They are folders name.
 {% endhint %}
 
-```
+```text
 ├── Titanfall 2
 │   ├── backup
 │   ├── extracted
@@ -378,8 +376,8 @@ Based on the following format and examples, you can adapt it to fit your setup.
 
 {% tabs %}
 {% tab title="Format" %}
-{% code title="Modding\Titanfall 2\repak\<Script Name>.bat" %}
-```
+{% code title="Modding\\Titanfall 2\\repak\\<Script Name>.bat" %}
+```text
 move /y pak000_000.vpk "<Game Directory>\vpk\<VPK archive name>"
 move /y pak000_dir.vpk "<Game Directory>\vpk\<VPK directory name>"
 ```
@@ -387,7 +385,7 @@ move /y pak000_dir.vpk "<Game Directory>\vpk\<VPK directory name>"
 {% endtab %}
 
 {% tab title="common.bat" %}
-{% code title="Modding\Titanfall 2\repak\common.bat" %}
+{% code title="Modding\\Titanfall 2\\repak\\common.bat" %}
 ```
 move /y pak000_000.vpk "C:\Program Files (x86)\Origin Games\Titanfall 2\vpk\client_mp_common.bsp.pak000_000.vpk"
 move /y pak000_dir.vpk "C:\Program Files (x86)\Origin Games\Titanfall 2\vpk\englishclient_mp_common.bsp.pak000_dir.vpk"
@@ -397,7 +395,7 @@ move /y pak000_dir.vpk "C:\Program Files (x86)\Origin Games\Titanfall 2\vpk\engl
 {% endtab %}
 
 {% tab title="frontend.bat" %}
-{% code title="Modding\Titanfall 2\repak\frontend.bat" %}
+{% code title="Modding\\Titanfall 2\\repak\\frontend.bat" %}
 ```
 move /y pak000_000.vpk "C:\Program Files (x86)\Origin Games\Titanfall 2\vpk\client_frontend.bsp.pak000_000.vpk"
 move /y pak000_dir.vpk "C:\Program Files (x86)\Origin Games\Titanfall 2\vpk\englishclient_frontend.bsp.pak000_dir.vpk"
@@ -407,7 +405,7 @@ move /y pak000_dir.vpk "C:\Program Files (x86)\Origin Games\Titanfall 2\vpk\engl
 {% endtabs %}
 
 {% hint style="warning" %}
-Be careful while using the scripts. If you launch a script for the wrong VPK, it will lead to your game crashing.\
+Be careful while using the scripts. If you launch a script for the wrong VPK, it will lead to your game crashing.  
 The script has no way to tell the difference between the correct VPK to rename automatically. With that said, if mistakes are done, it can easily be fixed using your backup files.
 {% endhint %}
 
@@ -419,7 +417,7 @@ A typical setup would look like that
 
 {% tabs %}
 {% tab title="Struct" %}
-```
+```text
 ├── Titanfall 2
 │   ├── backup
 │   ├── extracted
@@ -436,6 +434,8 @@ A typical setup would look like that
 
 {% tab title="Path" %}
 ```
+
 ```
 {% endtab %}
 {% endtabs %}
+

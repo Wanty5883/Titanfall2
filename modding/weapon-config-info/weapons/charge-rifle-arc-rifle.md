@@ -14,9 +14,7 @@ description: >-
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
 
-{% content-ref url="../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
-[how-to-backup-extract-and-repack.md](../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
-{% endcontent-ref %}
+{% page-ref page="../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
 
 ## Introduction
 
@@ -36,7 +34,7 @@ In the first place you need to get your hands on the arc tool model. You will ne
 
 With the VPK tool you do not need to extract the entire archive, you can just extract the file you are looking for. Which you will find at this location
 
-```
+```text
 \models\weapons\arc_tool_sp\ptpov_arc_tool_sp.mdl
 ```
 
@@ -66,6 +64,5 @@ That's it ! You are done with it. Now it should work as intended as shown in the
 
 ### Repacking
 
-{% content-ref url="../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
-[how-to-backup-extract-and-repack.md](../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
-{% endcontent-ref %}
+{% page-ref page="../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
+

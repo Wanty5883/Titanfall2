@@ -18,7 +18,6 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 * Titanfall VPK Tool - [Download](../../../tools/Titanfall\_VPKTool3.4\_Portable.zip)
 * Legion - [Info and Download](https://wiki.modme.co/wiki/apps/Legion.html)
-* Legion+ - [Info and Download](https://github.com/r-ex/LegionPlus)
 * RPAK2L - [Download ](https://github.com/headassbtw/rpak2l/releases/latest)(Experimental)
 * Titanfall2-SkinTool - [Download](https://github.com/zxcPandora/Titanfall2-SkinTool) (recommended)
 * Titanfall2-DDS-Tool - [Download](https://github.com/greishuhs/Titanfall2-DDS-Tool)&#x20;
@@ -51,17 +50,17 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 ### Text editors (code editors)
 
-* Atom Text - [Download](https://atom.io/) _recommended_
+* Atom Text - [Download](https://atom.io) _recommended_
   * Syntax color KeyValue - [Download](https://atom.io/packages/language-source-cfg)
   * Syntax color Squirrel - [Download](https://atom.io/packages/squirrel-language)
   * Color picker - [Download](https://atom.io/packages/color-picker)
-* Visual Studio Code - [Download](https://code.visualstudio.com/)
+* Visual Studio Code - [Download](https://code.visualstudio.com)
 * Notepad++ - [Download](https://notepad-plus-plus.org/downloads/)
 * TextCrawler 3 - [Download](https://www.digitalvolcano.co.uk/tcdownloads.html)
 
 ### Graphics / animation / color editors
 
-* Paint.net - [Download](https://www.getpaint.net/)
+* Paint.net - [Download](https://www.getpaint.net)
   * [Gradient Mapping plug-in](https://forums.getpaint.net/topic/6265-gradient-mapping/)
   * [VTF plug-in](../../../tools/pdnvtfplugin111.zip)
   * [Animation Helper](https://pixelbyte.itch.io/paint-net-sprite-plugin)
@@ -75,7 +74,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 ### Archives
 
-* 7zip - [Info & Download](https://www.7-zip.org/)
+* 7zip - [Info & Download](https://www.7-zip.org)
 
 ### Driver editors
 
@@ -84,7 +83,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 ## 3D Models
 
-* Blender - [Download](https://www.blender.org/)
+* Blender - [Download](https://www.blender.org)
   * Blender Source Tool - [Download & info](https://steamreview.org/BlenderSourceTools/)
   * Blender VMT - [Download & info](https://github.com/lasa01/blender-vmt)
   * io import VMF & VMT - [Download & info](https://github.com/lasa01/io\_import\_vmf)

@@ -20,15 +20,25 @@ On a separate tab head to:
 [modding-tools](../../../how-to-start-modding/modding-introduction/modding-tools/)
 {% endcontent-ref %}
 
-Download these tools from each category.&#x20;
+#### Download these tools from each category.&#x20;
 
 ### Titanfall
 
 * Titanfall VPK Tool
 * Legion
+* Legion+
 
 ### 3D Models
 
 * Blender
   * Blender Source Tool
   * S/G Shader
+
+#### You should have 6 tools/files.&#x20;
+
+1. `blender_source_tools_3.2.2.zip`
+2. `blender-x.x.x-windows-x64.msi`
+3. `Legion+x.x.x.zip`
+4. `LegionReleasev2.43.zip`
+5. `SG_Shader.blend`
+6. `Titanfall_VPKTool3.4_Portable.zip`

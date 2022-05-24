@@ -93,17 +93,17 @@ Various programs can automate the creation of bump maps, either by image analysi
 * [NVIDIA Melody](http://www.nvidia.com/object/melody\_home.html)
 * [Cinema 4D](http://planetpixelemporium.com/tutorialpages/normal2.html)
 * [NormalMapper](https://developer.valvesoftware.com/wiki/NormalMapper)
-* [xNormal](http://xnormal.net/)
+* [xNormal](http://xnormal.net)
 
 ### Other
 
 * [Bitmap2Material 3](http://store.steampowered.com/app/325910/): Alternative to CrazyBump.
-* [CrazyBump](http://www.crazybump.com/): Produces some very good normal maps. Some of them can be argued as almost having the same depth as a parallax map.
+* [CrazyBump](http://www.crazybump.com): Produces some very good normal maps. Some of them can be argued as almost having the same depth as a parallax map.
 * [Filter Forge](http://filterforge.com/filters/8774.html): Can generate normal maps for its filters and external images.
 * [InsaneBump](https://sites.google.com/site/ccdsurgeon/download/): Specifically made to be a free alternative to CrazyBump, produces high quality normal maps.
-* [MindTex](http://mindtex.com/): A cheaper alternative to CrazyBump. Also produces high-quality normal maps.
+* [MindTex](http://mindtex.com): A cheaper alternative to CrazyBump. Also produces high-quality normal maps.
 * [Normal2dudv](https://developer.valvesoftware.com/wiki/Normal2dudv): a third party tool for converting bump maps to Dx8-friendly [du/dv maps](https://developer.valvesoftware.com/wiki/Du/dv\_maps).
-* [ShaderMap](http://shadermap.renderingsystems.com/): A free alternative to CrazyBump.
+* [ShaderMap](http://shadermap.renderingsystems.com): A free alternative to CrazyBump.
 * [SSBump Generator 5.3](https://sourceforge.net/projects/ssbumpgenerator/): Another free, open source alternative to CrazyBump that generates Self Shadowed Bump Maps as well as normal maps.
 
 ## Conversion

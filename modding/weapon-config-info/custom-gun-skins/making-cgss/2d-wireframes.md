@@ -4,7 +4,7 @@ description: Wireframes for making CGS's.
 
 # 2D Wireframes
 
-## Extracting Wireframes using Blender (2.92 tested)
+## Extracting Wireframes using Blender \(2.92 tested\)
 
 What are wireframes? 2D Wireframes are images that display a lined out frame of a 3d model. Wireframes are useful for getting precise work, organizing your work or just understanding a model. These are simple to obtain from Blender for us.
 
@@ -39,3 +39,4 @@ Now go to where you'd like the UV map to be in the "Blender File View". Press "E
 {% hint style="info" %}
 Make sure to create multiple wireframes for different parts of models by changing your selections.
 {% endhint %}
+
