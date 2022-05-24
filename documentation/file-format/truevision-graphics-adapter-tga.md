@@ -4,7 +4,7 @@
 
 The format stores the basic RGB (red, green, blue) channels with 8 bit precision (0-255) each, for a total of 24 bits/pixel, with an optional additional 8 bit [alpha channel](https://developer.valvesoftware.com/wiki/Alpha\_channel), for a total of 32 bits/pixel. The extra channel contains information that the [VMT](../textures/valve-material-type-vmt.md) [shaders](https://developer.valvesoftware.com/wiki/Shader) can use for effects such as transparency or specularity.
 
-Most Textures in Source start life as **TGAs** which are edited and adjusted with any suitable [image editor](../../start-modding/modding-intro/tools/#graphics-animation-color-editors). The TGA is then compiled into the Valve Texture Format ([VTF](../textures/valve-texture-format-vtf/)) using [Vtex](https://developer.valvesoftware.com/wiki/Vtex).exe (or a third-party tool such as [VTFEdit](../../start-modding/modding-intro/tools/#vtf-and-vmt)) to participate in the [Material System](https://developer.valvesoftware.com/wiki/Material\_System).
+Most Textures in Source start life as **TGAs** which are edited and adjusted with any suitable [image editor](../../how-to-start-modding/modding-introduction/modding-tools/#graphics-animation-color-editors). The TGA is then compiled into the Valve Texture Format ([VTF](../textures/valve-texture-format-vtf/)) using [Vtex](https://developer.valvesoftware.com/wiki/Vtex).exe (or a third-party tool such as [VTFEdit](../../how-to-start-modding/modding-introduction/modding-tools/#vtf-and-vmt)) to participate in the [Material System](https://developer.valvesoftware.com/wiki/Material\_System).
 
 ## History
 

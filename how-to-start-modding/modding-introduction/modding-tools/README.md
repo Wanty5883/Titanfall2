@@ -18,6 +18,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 * Titanfall VPK Tool - [Download](../../../tools/Titanfall\_VPKTool3.4\_Portable.zip)
 * Legion - [Info and Download](https://wiki.modme.co/wiki/apps/Legion.html)
+* Legion+ - [Info and Download](https://github.com/r-ex/LegionPlus)
 * RPAK2L - [Download ](https://github.com/headassbtw/rpak2l/releases/latest)(Experimental)
 * Titanfall2-SkinTool - [Download](https://github.com/zxcPandora/Titanfall2-SkinTool) (recommended)
 * Titanfall2-DDS-Tool - [Download](https://github.com/greishuhs/Titanfall2-DDS-Tool)&#x20;

@@ -10,8 +10,8 @@ description: >-
 
 For this guide you will need a VPK tool and a text editor.
 
-{% content-ref url="../../../start-modding/modding-intro/tools/" %}
-[tools](../../../start-modding/modding-intro/tools/)
+{% content-ref url="../../../how-to-start-modding/modding-introduction/modding-tools/" %}
+[modding-tools](../../../how-to-start-modding/modding-introduction/modding-tools/)
 {% endcontent-ref %}
 
 ## Used VPK
@@ -22,8 +22,8 @@ For this guide you will need a VPK tool and a text editor.
 
 ## Extracting
 
-{% content-ref url="../../../start-modding/modding-intro/how-to-backup-extract-and-repack.md" %}
-[how-to-backup-extract-and-repack.md](../../../start-modding/modding-intro/how-to-backup-extract-and-repack.md)
+{% content-ref url="../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
+[how-to-backup-extract-and-repack.md](../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
 {% endcontent-ref %}
 
 ## Editing <a href="#editing" id="editing"></a>
@@ -79,8 +79,8 @@ These material files leave quite lot of possibilities, you could replace texture
 
 ## Repacking
 
-{% content-ref url="../../../start-modding/modding-intro/how-to-backup-extract-and-repack.md" %}
-[how-to-backup-extract-and-repack.md](../../../start-modding/modding-intro/how-to-backup-extract-and-repack.md)
+{% content-ref url="../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
+[how-to-backup-extract-and-repack.md](../../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
 {% endcontent-ref %}
 
 This guide will be updated with making the walls transparent, clear, changing colors, putting any picture on them, playing a gif, etc. if there is interest shown in the Discord community.

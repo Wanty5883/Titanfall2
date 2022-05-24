@@ -10,23 +10,21 @@ You can get the latest version from Mr Steyek's repository on the [releases page
 Unlike the VPKTool, only the `englishclient` VPK files are edited, so you will only have to backup the `englishclient` VPK files in your `Titanfall2/vpk` directory to restore your game files. Because RSPNVPK does not make back ups, make sure to back up your files before editing.
 {% endhint %}
 
-To edit a VPK, create a folder with the name of the VPK you are looking to make modifications to. For example, if you are trying to modify `englishclient_frontend.bsp.pak000_dir.vpk`, rename the folder `englishclient_frontend.bsp.pak000_dir`. For each file you want to edit/add/replace, you want to create the filepath that those files would be in. For example, [if you wanted to change `r1_english.txt`](../../../modding/user-interface/text-modding-r1_language.md), you would put the edited file in `englishclient_frontend.bsp.pak000_dir\resource`.
+To edit a VPK, create a folder with the name of the VPK you are looking to make modifications to. For example, if you are trying to modify `englishclient_frontend.bsp.pak000_dir.vpk`, rename the folder `englishclient_frontend.bsp.pak000_dir`. For each file you want to edit/add/replace, you want to create the filepath that those files would be in. For example, [if you wanted to change `r1_english.txt`](../../../modding/user-interface/text-modding-r1\_language.md), you would put the edited file in `englishclient_frontend.bsp.pak000_dir\resource`.
 
-![](../../../.gitbook/assets/image%20%2818%29.png)
+![](<../../../.gitbook/assets/image (18).png>)
 
 To delete files in the VPK, just add a `.delete` extension to that file in the correct filepath. In this example [I will remove the sunflares from the game](../../../modding/misc/remove-sun-flares.md):
 
-![](../../../.gitbook/assets/image%20%2820%29.png)
+![](<../../../.gitbook/assets/image (20).png>)
 
 Once you are done with your edits, copy your folder and the VPK file into the RSPNVPK folder:
 
-![](../../../.gitbook/assets/image%20%2819%29.png)
+![](<../../../.gitbook/assets/image (19).png>)
 
 Next, drag the VPK file onto `RSPNVPK.exe`, and a window showing what files will be edited will be opened:
 
-![](../../../.gitbook/assets/image%20%2821%29.png)
+![](<../../../.gitbook/assets/image (21).png>)
 
 When the tool is done, you can press ENTER to close the tool and you will have a new `client_frontend.bsp.pak000_228.vpk` file. Copy both of the VPK files these files to your game directory to install your modifications.
-
-
 

@@ -5,6 +5,5 @@ This is not a bug. Displacements have a maximum luxel density based on the size 
 See [Displacement](https://developer.valvesoftware.com/wiki/Displacement) for more information on how to create, edit, clip and sew displacements.
 
 {% hint style="info" %}
-Source: [https://developer.valvesoftware.com/wiki/Displacement\_Luxel\_Density](https://developer.valvesoftware.com/wiki/Displacement_Luxel_Density)
+Source: [https://developer.valvesoftware.com/wiki/Displacement\_Luxel\_Density](https://developer.valvesoftware.com/wiki/Displacement\_Luxel\_Density)
 {% endhint %}
-

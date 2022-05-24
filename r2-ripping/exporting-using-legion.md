@@ -8,8 +8,8 @@ description: Legion is used to export images, animations, texture, and materials
 
 If you have not downloaded and set up Legion, you can find it on the Modding tools page:
 
-{% content-ref url="../start-modding/modding-intro/tools/" %}
-[tools](../start-modding/modding-intro/tools/)
+{% content-ref url="../how-to-start-modding/modding-introduction/modding-tools/" %}
+[modding-tools](../how-to-start-modding/modding-introduction/modding-tools/)
 {% endcontent-ref %}
 
 ### How to Use

@@ -28,7 +28,7 @@ VTFEdit will make your life so much easier but in certain cases, you have to use
 
 The drag-and-drop method is the easy way to use Vtex. Just drag the icon of either the targa image to be converted, or its list of compile parameters (from its `materialsrc/` folder) on top of the icon of the Vtex executable (Vtex.exe) and let go, and Vtex will compile the texture file automatically.
 
-## Vtex CLI use <a href="firstheading" id="firstheading"></a>
+## Vtex CLI use <a href="#firstheading" id="firstheading"></a>
 
 Apart from the drag-and-drop method, Vtex can also be executed via the command prompt in the Command Line Interface (MS-DOS). This will allow you to use its more advanced features. You can provide additional parameters to create a basic .vmt file when the texture is compiled, as well as other options.
 
@@ -72,7 +72,7 @@ You can add the `-mkdir` command to vtex, and it will add the destination direct
 "%sourcesdk%\bin\vtex" -mkdir sample_material.tga
 ```
 
-This would create a new directory called "`sample`" in your` Half-Life 2/hl2/materials` directory, if it didn't already exist, and then place the compiled .VTF file in that new location. If the directory already exists, the `-mkdir` parameter is ignored.
+This would create a new directory called "`sample`" in your `Half-Life 2/hl2/materials` directory, if it didn't already exist, and then place the compiled .VTF file in that new location. If the directory already exists, the `-mkdir` parameter is ignored.
 
 #### -shader
 

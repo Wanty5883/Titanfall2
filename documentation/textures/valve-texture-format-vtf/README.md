@@ -2,7 +2,7 @@
 
 The **Valve Texture Format (VTF)** is the propietary [texture ](../)format used by the [Source ](https://developer.valvesoftware.com/wiki/Source)engine. VTF files are generally referenced in a material instead of being accessed directly, which allows re-use in different ways.
 
-VTF files can be created from TGA images using the Source SDK Tool VTEX, or from most common image formats with [third-party tools](../../../start-modding/modding-intro/tools/#vtf-and-vmt). Both textures and materials are stored in subfolders of `game_dir/materials/`.
+VTF files can be created from TGA images using the Source SDK Tool VTEX, or from most common image formats with [third-party tools](../../../how-to-start-modding/modding-introduction/modding-tools/#vtf-and-vmt). Both textures and materials are stored in subfolders of `game_dir/materials/`.
 
 ## Storage capabilities
 

@@ -17,16 +17,16 @@ description: How To Rip Game Models With Textures into blender
 Check down bellow for the tools page where all the link are provided
 {% endhint %}
 
-{% content-ref url="../start-modding/modding-intro/tools/" %}
-[tools](../start-modding/modding-intro/tools/)
+{% content-ref url="../how-to-start-modding/modding-introduction/modding-tools/" %}
+[modding-tools](../how-to-start-modding/modding-introduction/modding-tools/)
 {% endcontent-ref %}
 
 ## Getting The Models
 
 First, we need to actually obtain the models. You can do this by extracting this VPK file you can learn how to extract VPKs
 
-{% content-ref url="../start-modding/modding-intro/how-to-backup-extract-and-repack.md" %}
-[how-to-backup-extract-and-repack.md](../start-modding/modding-intro/how-to-backup-extract-and-repack.md)
+{% content-ref url="../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
+[how-to-backup-extract-and-repack.md](../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
 {% endcontent-ref %}
 
 For the most part, models can be found in the common vpk. But you will find other models in the other vpk from Titanfall 2.

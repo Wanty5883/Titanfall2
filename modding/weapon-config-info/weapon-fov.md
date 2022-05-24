@@ -8,8 +8,8 @@
 
 You will need the Titanfall VPK Tool, the program which will allow you to open and repack Titanfall VPK files. [Here](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)
 
-{% content-ref url="../../start-modding/modding-intro/how-to-backup-extract-and-repack.md" %}
-[how-to-backup-extract-and-repack.md](../../start-modding/modding-intro/how-to-backup-extract-and-repack.md)
+{% content-ref url="../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
+[how-to-backup-extract-and-repack.md](../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
 {% endcontent-ref %}
 
 ## Introduction
@@ -113,8 +113,8 @@ The green number next to Actual HFOV is your true horizontal FOV when zoomed in 
 
 ## Repacking
 
-{% content-ref url="../../start-modding/modding-intro/how-to-backup-extract-and-repack.md" %}
-[how-to-backup-extract-and-repack.md](../../start-modding/modding-intro/how-to-backup-extract-and-repack.md)
+{% content-ref url="../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
+[how-to-backup-extract-and-repack.md](../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
 {% endcontent-ref %}
 
 ### Misc Notes
