@@ -8,11 +8,15 @@ description: How to change pretty much all of your weapons to the same crosshair
 
 This guide requires that you understand the basics outlined in Modding introduction, How to backup, extract & repack, and Modding tools. If you do not understand these concepts, please click below.
 
-{% page-ref page="../../../how-to-start-modding/modding-introduction/" %}
+{% content-ref url="../../../start-modding/modding-intro/" %}
+[modding-intro](../../../start-modding/modding-intro/)
+{% endcontent-ref %}
 
 This guide also requires that you download a program called TextCrawler 3. Download link can be found [here](https://www.digitalvolcano.co.uk/tcdownloads.html). Any other application capable of making batch modifications based on regular expressions will also work. Other required tools can be found on the tools page.
 
-{% page-ref page="../../../how-to-start-modding/modding-introduction/modding-tools/" %}
+{% content-ref url="../../../start-modding/modding-intro/tools/" %}
+[tools](../../../start-modding/modding-intro/tools/)
+{% endcontent-ref %}
 
 This guide is for Windows 10, and we will not provide extended support for other operating systems. Sorry.
 
@@ -24,19 +28,19 @@ Create a folder for yourself to perform these edits within, mine is called `Cros
 
 ### Step 2. Open TextCrawler, and configure settings.
 
-![](../../../.gitbook/assets/image%20%284%29%20%281%29.png)
+![](<../../../.gitbook/assets/image (4) (1).png>)
 
 This step consists of 5 parts, listed below.
 
 1. Slap the path to that folder containing configs you made before into this box
 2. Select the "Regular Expression" tab.
-3. Change the "Rex Ex:" box to `ui/crosshair_\w+` this filters for all strings beginning with `ui/crosshair_` and stops the selection at the end of the "word" \(section of text with no spaces\)
+3. Change the "Rex Ex:" box to `ui/crosshair_\w+` this filters for all strings beginning with `ui/crosshair_` and stops the selection at the end of the "word" (section of text with no spaces)
 4. Set the "Replace:" box to the full id of the crosshair you would like to make your base.
 5. Click "Find"
 
 ### Step 3. Verify settings are working correctly
 
-![](../../../.gitbook/assets/image%20%283%29.png)
+![](<../../../.gitbook/assets/image (3).png>)
 
 If all is done correctly, you should see a list of your configs appear with the crosshair settings within them highlighted. Make sure that all of your configs have the "Matches" column value of 1. If this is not the case you will have to manually modify as these configs have multiple overlaid crosshairs.
 
@@ -52,5 +56,6 @@ Open up a config, and verify that the change has gone through, and delete all th
 
 If you screw something up by improperly using this program, your fault, not ours. If something in this guide is incorrect, message us on discord by tagging `@Frontier Militia`
 
-{% page-ref page="../../../" %}
-
+{% content-ref url="../../../" %}
+[..](../../../)
+{% endcontent-ref %}

@@ -12,12 +12,12 @@ description: Custom skins for pilots and weapons! psst..titans are semi possible
 
 #### Sub-Pages
 
-{% content-ref url="../../customskins/info/ddsinstall.md" %}
-[ddsinstall.md](../../customskins/info/ddsinstall.md)
+{% content-ref url="custom-skin-info-and-formats/dds-format-tools.md" %}
+[dds-format-tools.md](custom-skin-info-and-formats/dds-format-tools.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../customskins/info/vtfmanual.md" %}
-[vtfmanual.md](../../customskins/info/vtfmanual.md)
+{% content-ref url="vtf-format-cgs.md" %}
+[vtf-format-cgs.md](vtf-format-cgs.md)
 {% endcontent-ref %}
 
 ### Making Custom Skins

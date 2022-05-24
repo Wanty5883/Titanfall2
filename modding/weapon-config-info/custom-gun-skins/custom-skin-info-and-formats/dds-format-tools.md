@@ -12,35 +12,35 @@ DirectXeon made this short video that covers the basics of installing
 
 Before we do anything else, you want to create a backup of the file `pc_stream.starpak`. You can locate it in the game directory here: `\Titanfall2\r2\paks\Win64`. It is the biggest file in the folder, about 10GB. Make sure the backups are not in the game directory, maybe put it in on your desktop. This is where the skins are stored.
 
-![\\](../../../.gitbook/assets/catbugcheats1.0.png)
+![\\](../../../../.gitbook/assets/catbugcheats1.0.png)
 
 Next you want to download the latest full release (`c0.3.2` as of the writing of this guide) of Pandora's skin tool here: [https://github.com/zxcPandora/Titanfall2-SkinTool/releases](https://github.com/zxcPandora/Titanfall2-SkinTool/releases). Download `SkinTool-User-ENG.zip`
 
-![](../../../.gitbook/assets/catbugcheats1.1.png)
+![](../../../../.gitbook/assets/catbugcheats1.1.png)
 
 The final download is a skin from #custom-skins-collection in our [Discord](https://discord.gg/sEgmTKg), I'll use my own that I made a while ago. (Note: you don't need to extract the zip folder that has the skin)
 
-![](../../../.gitbook/assets/catbugcheats1.2.png)
+![](../../../../.gitbook/assets/catbugcheats1.2.png)
 
 After you extract the skin tool, run the application: (note, you may have to run as administrator if it doesn't work)
 
-![](../../../.gitbook/assets/catbugcheats1.3.png)
+![](../../../../.gitbook/assets/catbugcheats1.3.png)
 
 First, you have to set the game path. Click `Set` and then `SetGamePath`. Locate `Titanfall2.exe` (or just the `Titanfall2` application if you don't have extensions on.
 
-![](../../../.gitbook/assets/catbugcheats1.4.png)
+![](../../../../.gitbook/assets/catbugcheats1.4.png)
 
 Next, click the three dots on the right and select the zipped skin you downloaded
 
-![](<../../../.gitbook/assets/unknown (7).png>)
+![](<../../../../.gitbook/assets/unknown (7).png>)
 
 Click `Import Skin` and you're done!
 
-![](<../../../.gitbook/assets/unknown (1).png>)
+![](<../../../../.gitbook/assets/unknown (1).png>)
 
-![](<../../../.gitbook/assets/unknown (3).png>)
+![](<../../../../.gitbook/assets/unknown (3).png>)
 
-![](<../../../.gitbook/assets/unknown (6).png>)
+![](<../../../../.gitbook/assets/unknown (6).png>)
 
 {% hint style="warning" %}
 If you don't see the skins in game (_in_ game, not the menu), you may need to turn up your texture filtering to at least 8x

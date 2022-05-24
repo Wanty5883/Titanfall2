@@ -103,7 +103,7 @@ From this, you will get a/some compiled tga files, a .sht file and a blank .file
 At this point you should have a .tga file. You can now compile the output .tga file using the vtex.exe tool. Drag both the final .tga file/s, and the .sht file to your game's "materialsrc" file. For Half Life 2, this folder is located at "common/Half-Life 2/hl2/materialsrc". From there, open a new window, and navigate to the location of vtex.exe. Then, simply drag the .sht file onto the vtex.exe. Your finished material will be located in the base materials folder. For Half Life 2, this folder is located at "common/Half-Life 2/hl2/materials".
 
 {% hint style="warning" %}
-[VTFEdit](../../../how-to-start-modding/modding-introduction/modding-tools/#vtf-and-vmt) probably doesn't support this type of compiling yet.
+[VTFEdit](../../../start-modding/modding-intro/tools/#vtf-and-vmt) probably doesn't support this type of compiling yet.
 {% endhint %}
 
 ## Notes

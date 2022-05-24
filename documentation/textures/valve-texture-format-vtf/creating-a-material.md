@@ -20,9 +20,9 @@ Different classes of object have different standard resolutions (e.g. character 
 
 ## **Converting the texture**
 
-Textures must be converted to the [Valve Texture Format (VTF)](./) before Source can  use them. The tool Valve provides for this is [VTEX](https://developer.valvesoftware.com/wiki/Vtex). It's a [command line](https://developer.valvesoftware.com/wiki/Command\_line) tool with quite a few limitations, so the third-party tool [VTFEdit](../../../how-to-start-modding/modding-introduction/modding-tools/#vtf-and-vmt) is preferable: it provides a graphical user interface, allows you to change a texture's properties without re-compiling it from scratch, accepts a wide range of image formats, and doesn't require the creation of script files for each and every texture. There are a handful of situations where you'll need to fall back on VTEX... but only a handful (Animate texture with [spritesheet technique](animated-particles.md)).
+Textures must be converted to the [Valve Texture Format (VTF)](./) before Source can  use them. The tool Valve provides for this is [VTEX](https://developer.valvesoftware.com/wiki/Vtex). It's a [command line](https://developer.valvesoftware.com/wiki/Command\_line) tool with quite a few limitations, so the third-party tool [VTFEdit](../../../start-modding/modding-intro/tools/#vtf-and-vmt) is preferable: it provides a graphical user interface, allows you to change a texture's properties without re-compiling it from scratch, accepts a wide range of image formats, and doesn't require the creation of script files for each and every texture. There are a handful of situations where you'll need to fall back on VTEX... but only a handful (Animate texture with [spritesheet technique](animated-particles.md)).
 
-Also, if you have textures that use transparency, it is recommended that you save in TIFF format before importing to VTFEdit as PNG transparency tends to have problems. (There are VTF plug-ins that let you save to the format directly from [Photoshop](../../../how-to-start-modding/modding-introduction/modding-tools/#graphics-animation-color-editors), [GIMP ](../../../how-to-start-modding/modding-introduction/modding-tools/#graphics-animation-color-editors)and [Paint.net](../../../how-to-start-modding/modding-introduction/modding-tools/#graphics-animation-color-editors), but this tutorial will not cover them as not everyone uses those tools).
+Also, if you have textures that use transparency, it is recommended that you save in TIFF format before importing to VTFEdit as PNG transparency tends to have problems. (There are VTF plug-ins that let you save to the format directly from [Photoshop](../../../start-modding/modding-intro/tools/#graphics-animation-color-editors), [GIMP ](../../../start-modding/modding-intro/tools/#graphics-animation-color-editors)and [Paint.net](../../../start-modding/modding-intro/tools/#graphics-animation-color-editors), but this tutorial will not cover them as not everyone uses those tools).
 
 To import your texture with VTFEdit, use  `File > Import` or press **Ctrl+I**. Select your image and you will be presented with the import screen:
 
@@ -50,7 +50,7 @@ There settings are the most important. There are three:
 &#x20;**Tip:**Textures that will appear in the 3D world should have [mipmaps](../mip-mapping.md). To conserve memory, textures that will only be used in a 2D interface should not.
 {% endhint %}
 
-The following images demonstrate the various [mipmap ](../mip-mapping.md)filters available in [VTFEdit](../../../how-to-start-modding/modding-introduction/modding-tools/#vtf-and-vmt):
+The following images demonstrate the various [mipmap ](../mip-mapping.md)filters available in [VTFEdit](../../../start-modding/modding-intro/tools/#vtf-and-vmt):
 
 ![Sharpen filters](../../../.gitbook/assets/vtf\_sharpen\_filters.jpg)
 
@@ -76,7 +76,7 @@ Finally, save the file somewhere under your game or mod's  `\materials` folder.
 
 Source doesn't access textures directly. Everything goes through a [material](../valve-material-type-vmt.md).
 
-[Materials](../valve-material-type-vmt.md) are script files that can be created in any text editor, but it's recommended that you use one of the [software listed](../../../how-to-start-modding/modding-introduction/modding-tools/#general) in conjunction with the community-made [syntax highlighting rules](https://developer.valvesoftware.com/wiki/Notepad%2B%2B\_VDF\_languages). For your material to be detected, **you must save it under your game or mod's** **`\materials` folder with the extension `.vmt`**.
+[Materials](../valve-material-type-vmt.md) are script files that can be created in any text editor, but it's recommended that you use one of the [software listed](../../../start-modding/modding-intro/tools/#general) in conjunction with the community-made [syntax highlighting rules](https://developer.valvesoftware.com/wiki/Notepad%2B%2B\_VDF\_languages). For your material to be detected, **you must save it under your game or mod's** **`\materials` folder with the extension `.vmt`**.
 
 {% hint style="info" %}
 &#x20;**Note:** If you are creating materials and textures exclusively for a map for a existing mod, consider using  [BSPZIP](https://developer.valvesoftware.com/wiki/BSPZIP)\\[Packbsp](https://developer.valvesoftware.com/wiki/Packbsp)\\[Pakrat](https://developer.valvesoftware.com/wiki/Pakrat)\\[Compile Pal](https://developer.valvesoftware.com/wiki/Compile\_Pal) to package the material and texture files within the map file itself. This will avoid them ever becoming lost.
