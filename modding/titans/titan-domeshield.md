@@ -38,7 +38,7 @@ Editing this texture will have impact on other effect in the game.
 
 It is recommended to create a new texture so it is possible to make custom effect for specific part of the game.
 
-Choose a texture, you can check [here](../../assets/texture-library.md). With your chosen texture, compile it with [VTFEdit](../../intro/duction/tools/source/vtf-and-vmt/vtfedit.md). For consistency the [`.vtf`](../../documentation/textures/valve-texture-format-vtf/) file will be renamed as`dome.vtf`.
+Choose a texture, you can check [here](../../assets/texture-library.md). With your chosen texture, compile it with [VTFEdit](../../how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtfedit.md). For consistency the [`.vtf`](../../documentation/textures/valve-texture-format-vtf/) file will be renamed as`dome.vtf`.
 
 For the parameters you can apply the same as the original texture or you can make your own and test things around! Feel free to send us your results on our Discord server. We might add what you obtained in the wiki! <img src="../../.gitbook/assets/08c0a077780263f3df97613e58e71744.svg" alt="" data-size="line">&#x20;
 
