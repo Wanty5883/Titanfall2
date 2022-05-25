@@ -75,3 +75,25 @@ Only available with VTF format. Animated skins are skins that create a moving af
 ```
 
 Change `"animatedtextureFrameRate" "2"` to change framerate in game.
+
+### Transparency
+
+Only available with VTF format. Transparency can be enabled in the the model's vmt. Example.
+
+```
+$translucent 1
+```
+
+### Refract Shader ('mirror')
+
+Only available with VTF format. The refract shader can be apply to give the model a "refracted" look. Documentation here: [https://developer.valvesoftware.com/wiki/Refract](https://developer.valvesoftware.com/wiki/Refract))
+
+```
+Refract
+{
+	$normalmap ...
+	$dudvmap ...
+	$refracttint "[1 1 1]"
+	$refractamount .2
+}
+```
