@@ -18,11 +18,14 @@ This Gitbook repo will be updated over time as we get new information about Tita
 Check contact page for more information.
 {% endhint %}
 
-{% page-ref page="../../contact.md" %}
+{% content-ref url="../../contact.md" %}
+[contact.md](../../contact.md)
+{% endcontent-ref %}
 
 ## Notes
 
 As a side note, in this wiki we will refer to some tools to do certain processes. Check out the "[Modding tools](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools)" page. This page is linked to when tools are mentioned in other guides.
 
-{% page-ref page="how-to-backup-extract-and-repack.md" %}
-
+{% content-ref url="vpk-packpack.md" %}
+[vpk-packpack.md](vpk-packpack.md)
+{% endcontent-ref %}

@@ -22,7 +22,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 * RPAK2L - [Download ](https://github.com/headassbtw/rpak2l/releases/latest)(Experimental)
 * Titanfall2-SkinTool - [Download](https://github.com/zxcPandora/Titanfall2-SkinTool) (recommended)
 * Titanfall2-DDS-Tool - [Download](https://github.com/greishuhs/Titanfall2-DDS-Tool)&#x20;
-* VPK renamer / move - [Info here](../how-to-backup-extract-and-repack.md#vpk-rename-move-batch-script)
+* VPK renamer / move - [Info here](../vpk-packpack.md#vpk-rename-move-batch-script)
 * Titanfall 2 weapon renamer - [Download](https://bitbucket.org/lunderdeamon/tf2renamer)
 * MSD (Miles Sound Dumper) - [Info ](https://github.com/Lyxica/Miles-10-Sound-Dumper)& [Download](https://github.com/Lyxica/Miles-10-Sound-Dumper/releases/tag/v1.0-tf2-beta1)
 * Titanfall 2 Blender Importer - [Info & Download](https://github.com/snake-biscuits/io\_import\_rbsp)

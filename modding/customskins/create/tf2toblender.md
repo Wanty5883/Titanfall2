@@ -20,8 +20,8 @@ Anyways. Here is the follow along video:
 
 On a separate tab head to:
 
-{% content-ref url="../../../how-to-start-modding/modding-introduction/modding-tools/" %}
-[modding-tools](../../../how-to-start-modding/modding-introduction/modding-tools/)
+{% content-ref url="../../../intro/duction/tools/" %}
+[tools](../../../intro/duction/tools/)
 {% endcontent-ref %}
 
 #### Download these tools from each category.&#x20;

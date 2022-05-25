@@ -12,10 +12,10 @@ Welcome to the Titanfall 2 Modding Guide by NoSkill. This is the ultimate guide 
 
 While our goal is to give players a written guide that is simple and easy to understand, some things can be a bit more advanced, especially if you're just starting out with modding.
 
-If this is your first time diving into modding and you have no prior experience, we highly recommend you check out the [**Modding introduction**](how-to-start-modding/modding-introduction/) **** page before getting started.
+If this is your first time diving into modding and you have no prior experience, we highly recommend you check out the [**Modding introduction**](intro/duction/) **** page before getting started.
 
-{% content-ref url="how-to-start-modding/modding-introduction/" %}
-[modding-introduction](how-to-start-modding/modding-introduction/)
+{% content-ref url="intro/duction/" %}
+[duction](intro/duction/)
 {% endcontent-ref %}
 
 {% hint style="danger" %}

@@ -10,8 +10,8 @@ description: >-
 
 For this guide you will need a VPK tool and a text editor.
 
-{% content-ref url="../../how-to-start-modding/modding-introduction/modding-tools/" %}
-[modding-tools](../../how-to-start-modding/modding-introduction/modding-tools/)
+{% content-ref url="../../intro/duction/tools/" %}
+[tools](../../intro/duction/tools/)
 {% endcontent-ref %}
 
 ### Used VPK
@@ -22,8 +22,8 @@ For this guide you will need a VPK tool and a text editor.
 
 ## Extracting
 
-{% content-ref url="../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
-[how-to-backup-extract-and-repack.md](../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
+{% content-ref url="../../intro/duction/vpk-packpack.md" %}
+[vpk-packpack.md](../../intro/duction/vpk-packpack.md)
 {% endcontent-ref %}
 
 ## Editing
@@ -46,6 +46,6 @@ To change color, simply change values in "<1.0, 0.36, 0.12>".
 
 ## Repacking
 
-{% content-ref url="../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md" %}
-[how-to-backup-extract-and-repack.md](../../how-to-start-modding/modding-introduction/how-to-backup-extract-and-repack.md)
+{% content-ref url="../../intro/duction/vpk-packpack.md" %}
+[vpk-packpack.md](../../intro/duction/vpk-packpack.md)
 {% endcontent-ref %}

@@ -8,14 +8,14 @@ description: How to change pretty much all of your weapons to the same crosshair
 
 This guide requires that you understand the basics outlined in Modding introduction, How to backup, extract & repack, and Modding tools. If you do not understand these concepts, please click below.
 
-{% content-ref url="../../../how-to-start-modding/modding-introduction/" %}
-[modding-introduction](../../../how-to-start-modding/modding-introduction/)
+{% content-ref url="../../../intro/duction/" %}
+[duction](../../../intro/duction/)
 {% endcontent-ref %}
 
 This guide also requires that you download a program called TextCrawler 3. Download link can be found [here](https://www.digitalvolcano.co.uk/tcdownloads.html). Any other application capable of making batch modifications based on regular expressions will also work. Other required tools can be found on the tools page.
 
-{% content-ref url="../../../how-to-start-modding/modding-introduction/modding-tools/" %}
-[modding-tools](../../../how-to-start-modding/modding-introduction/modding-tools/)
+{% content-ref url="../../../intro/duction/tools/" %}
+[tools](../../../intro/duction/tools/)
 {% endcontent-ref %}
 
 This guide is for Windows 10, and we will not provide extended support for other operating systems. Sorry.

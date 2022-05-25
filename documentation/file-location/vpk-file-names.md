@@ -14,8 +14,8 @@ Titanfall2\vpk
 If you have difficulties finding your game files, check the FAQ page.
 {% endhint %}
 
-{% content-ref url="../../how-to-start-modding/faq.md" %}
-[faq.md](../../how-to-start-modding/faq.md)
+{% content-ref url="../../intro/faq.md" %}
+[faq.md](../../intro/faq.md)
 {% endcontent-ref %}
 
 ## General purpose
