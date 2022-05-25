@@ -18,13 +18,6 @@ If you have difficulties finding your game files, check the FAQ page.
 [faq.md](../../how-to-start-modding/faq.md)
 {% endcontent-ref %}
 
-## General purpose
-
-| Name     | File name                                     |
-| -------- | --------------------------------------------- |
-| Common   | englishclient\_mp\_common.bsp.pak000\_dir.vpk |
-| Frontend | englishclient\_frontend.bsp.pak000\_dir.vpk   |
-
 ## MP Maps
 
 | Map Name           | File name                                                  |
@@ -44,6 +37,13 @@ If you have difficulties finding your game files, check the FAQ page.
 | Relic              | englishclient\_mp\_relic02.bsp.pak000\_dir.vpk             |
 | Rise               | englishclient\_mp\_rise.bsp.pak000\_dir.vpk                |
 | Wargames           | englishclient\_mp\_wargames.bsp.pak000\_dir.vpk            |
+
+## General VPKs
+
+| Name     | File name                                     |
+| -------- | --------------------------------------------- |
+| Common   | englishclient\_mp\_common.bsp.pak000\_dir.vpk |
+| Frontend | englishclient\_frontend.bsp.pak000\_dir.vpk   |
 
 ## LF Maps
 

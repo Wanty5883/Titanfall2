@@ -37,8 +37,8 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 
 
 
-{% content-ref url="how-to-use-rspnvpk.md" %}
-[how-to-use-rspnvpk.md](how-to-use-rspnvpk.md)
+{% content-ref url="../../../how-to-start-modding/modding-introduction/modding-tools/how-to-use-rspnvpk.md" %}
+[how-to-use-rspnvpk.md](../../../how-to-start-modding/modding-introduction/modding-tools/how-to-use-rspnvpk.md)
 {% endcontent-ref %}
 
 ### VTF & VMT
