@@ -2,14 +2,14 @@
 description: Custom Skin Info and resources.
 ---
 
-# Making
+# Info
 
 ## Possibilities?
 
 Below is a page where you can find the kind's of skins you can make. Don't be shy to make something new.
 
-{% content-ref url="../../../customskins/info.md" %}
-[info.md](../../../customskins/info.md)
+{% content-ref url="../formats.md" %}
+[formats.md](../formats.md)
 {% endcontent-ref %}
 
 ## List of to do/get to make a skin:
@@ -100,22 +100,22 @@ Wireframes are a 2D cover to help with organization, detail, shape, size, and ac
 
 Base textures from the game to help with color, shape, and organization for 2D skin creation. Learn how to export the base textures here:
 
-{% content-ref url="../../../../r2-ripping/exporting-using-legion.md" %}
-[exporting-using-legion.md](../../../../r2-ripping/exporting-using-legion.md)
+{% content-ref url="../../../r2-ripping/exporting-using-legion.md" %}
+[exporting-using-legion.md](../../../r2-ripping/exporting-using-legion.md)
 {% endcontent-ref %}
 
 ### Acquiring models:
 
 We already have a good wiki page for exporting models. Found below.
 
-{% content-ref url="../../../../r2-ripping/model-ripping.md" %}
-[model-ripping.md](../../../../r2-ripping/model-ripping.md)
+{% content-ref url="../../../r2-ripping/model-ripping.md" %}
+[model-ripping.md](../../../r2-ripping/model-ripping.md)
 {% endcontent-ref %}
 
 Below page could also help with exporting with legion.
 
-{% content-ref url="../../../../r2-ripping/exporting-using-legion.md" %}
-[exporting-using-legion.md](../../../../r2-ripping/exporting-using-legion.md)
+{% content-ref url="../../../r2-ripping/exporting-using-legion.md" %}
+[exporting-using-legion.md](../../../r2-ripping/exporting-using-legion.md)
 {% endcontent-ref %}
 
 ## Naming Tables:

@@ -2,12 +2,12 @@
 
 ### Installing DDS formatted skins (common).
 
-{% content-ref url="ddsinstall.md" %}
-[ddsinstall.md](ddsinstall.md)
+{% content-ref url="DDS.md" %}
+[DDS.md](DDS.md)
 {% endcontent-ref %}
 
 ### Installing VTF formatted skins (not common)
 
-{% content-ref url="vtfmanual.md" %}
-[vtfmanual.md](vtfmanual.md)
+{% content-ref url="VTF.md" %}
+[VTF.md](VTF.md)
 {% endcontent-ref %}

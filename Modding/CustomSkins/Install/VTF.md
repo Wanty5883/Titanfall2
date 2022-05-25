@@ -2,7 +2,7 @@
 description: Installing VTF skins.
 ---
 
-# VTF Format
+# VTF Format (manual)
 
 ## Introduction
 

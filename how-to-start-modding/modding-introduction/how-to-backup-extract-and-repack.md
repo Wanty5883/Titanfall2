@@ -26,7 +26,7 @@ Once you have created this folder I recommend creating a sub-folder called `"Bac
 C:\Users\<username>\Documents\Titanfall 2 Modding\backup
 ```
 
-At the beginning of each guide, it will tell you what files you should backup. As an example, we will use the [crosshair modding](../../modding/weapon-config-info/crosshair-modding/) guide. At the beginning, it tells us to backup `englishclient_mp_common.bsp.pak000_dir.vpk` and `client_mp_common.bsp.pak000_000.vpk`. Copy these VPKs and paste them into your backup folder.
+At the beginning of each guide, it will tell you what files you should backup. As an example, we will use the [crosshair modding](../../Modding/weapon-config-info/crosshair-modding/) guide. At the beginning, it tells us to backup `englishclient_mp_common.bsp.pak000_dir.vpk` and `client_mp_common.bsp.pak000_000.vpk`. Copy these VPKs and paste them into your backup folder.
 
 {% hint style="info" %}
 The next step uses the Titanfall VPK Tool. If you haven't done so already, download the VPK Tool from the [Modding tools](modding-tools/) page. Make sure you have version 3.3 or 3.4. You may have unwanted behavior by using an older version.

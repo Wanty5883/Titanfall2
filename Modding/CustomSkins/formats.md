@@ -2,7 +2,7 @@
 description: Info about our customizability of skins along side the formats.
 ---
 
-# Custom Skin Info
+# Formats
 
 {% hint style="info" %}
 These are not the only ways to customize a skin. You can innovate as always. If you feel you made a discovery feel free to share it in the Discord server!
