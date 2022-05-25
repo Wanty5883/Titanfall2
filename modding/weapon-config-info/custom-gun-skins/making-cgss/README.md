@@ -2,14 +2,14 @@
 description: Custom Skin Info and resources.
 ---
 
-# Making Skin Info
+# Making
 
 ## Possibilities?
 
 Below is a page where you can find the kind's of skins you can make. Don't be shy to make something new.
 
-{% content-ref url="../custom-skin-info-and-formats/" %}
-[custom-skin-info-and-formats](../custom-skin-info-and-formats/)
+{% content-ref url="../../../customskins/info.md" %}
+[info.md](../../../customskins/info.md)
 {% endcontent-ref %}
 
 ## List of to do/get to make a skin:
@@ -30,21 +30,21 @@ Bigspice, E3VL, Strykus: [https://github.com/BigSpice/TitanFall\_2\_Weapon\_Skin
 
 ## Websites:
 
-#### [Coolors](https://coolors.co) - "the super fast color scheme generator"
+#### [Coolors](https://coolors.co/) - "the super fast color scheme generator"
 
 Coolors is a color palette generator with many options to find what you need.
 
-#### [Color Picker online](https://imagecolorpicker.com) - "HEX Color Picker"
+#### [Color Picker online](https://imagecolorpicker.com/) - "HEX Color Picker"
 
 You can pick specific pixels and its the easiest when uploading my own images to rip colors from.
 
-#### [Pixlr.com](https://pixlr.com) - "online graphic designer" (free website)
+#### [Pixlr.com](https://pixlr.com/) - "online graphic designer" (free website)
 
-#### [Photopea](https://www.photopea.com) - "Online Photo Editor" (free website)
+#### [Photopea](https://www.photopea.com/) - "Online Photo Editor" (free website)
 
 ## Apps:
 
-****[**Blender**](https://www.blender.org) **- "Blender's mission is to bring the best 3D technology as tools in the hands of artists, for all platforms, everywhere in the world, free and open source forever." (free, app)**
+****[**Blender**](https://www.blender.org/) **- "Blender's mission is to bring the best 3D technology as tools in the hands of artists, for all platforms, everywhere in the world, free and open source forever." (free, app)**
 
 "Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, video editing and 2D animation pipeline."
 
@@ -52,11 +52,11 @@ You can pick specific pixels and its the easiest when uploading my own images to
 
 "Adobe photoshop is a image editing and photo retouching application."
 
-#### [Substance Painter](https://www.substance3d.com) - "Substance becomes Adobe Substance" (paid, app)
+#### [Substance Painter](https://www.substance3d.com/) - "Substance becomes Adobe Substance" (paid, app)
 
 &#x20;"Substance painter is a specialized texturing tool which utilizes a procedural Physically Based Rendering (PBR) workflow."
 
-#### [GIMP](https://www.gimp.org) - "GNU Image Manipulation Program" (free, app)
+#### [GIMP](https://www.gimp.org/) - "GNU Image Manipulation Program" (free, app)
 
 " GIMP is a cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems. It is [free software](https://www.gnu.org/philosophy/free-sw.html), you can change its [source code](https://git.gnome.org/browse/gimp) and [distribute](https://www.gnu.org/licenses/quick-guide-gplv3.en.html) your changes."
 
@@ -64,15 +64,15 @@ You can pick specific pixels and its the easiest when uploading my own images to
 
 [Affinity Photo](https://affinity.serif.com/en-us/photo/) and [Affinity Designer](https://affinity.serif.com/en-us/designer/) offers trials, and offers their software at $50 USD per app. I have seen extended trials(3 months) and deals for $25 USD per app. I enjoy this software for being capable and affordable, although I haven't found an add-on for real-time support in Blender.&#x20;
 
-****[**Pureref**](https://www.pureref.com) **- "All your reference images in one place."**
+****[**Pureref**](https://www.pureref.com/) **- "All your reference images in one place."**
 
 "PureRef is a stand-alone program for Windows, Mac and Linux that keeps track of your images.
 
-#### [Autohotkey](https://www.autohotkey.com) - "The ultimate automation scripting language for Windows"
+#### [Autohotkey](https://www.autohotkey.com/) - "The ultimate automation scripting language for Windows"
 
 "AutoHotkey is a free, open-source scripting language for Windows that allows users to easily create small to complex scripts for all kinds of tasks such as: form fillers, auto-clicking, macros, etc."
 
-AutoHotkey is used by many to create custom keybind macro. Usually using a numpad as the macro start key. Find their website and info at [by clicking these words](https://www.autohotkey.com). As coding goes, there is many ways to code macros. Personally i use the code below to refresh Photoshop file to update the skin in Blender;
+AutoHotkey is used by many to create custom keybind macro. Usually using a numpad as the macro start key. Find their website and info at [by clicking these words](https://www.autohotkey.com/). As coding goes, there is many ways to code macros. Personally i use the code below to refresh Photoshop file to update the skin in Blender;
 
 ```
 Numpad1::send {ctrl down}{s down}{ctrl up}{s up}

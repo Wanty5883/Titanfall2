@@ -6,11 +6,11 @@ In this guide you will have to edit vmt and vtf files. I would recommend to use 
 
 Locate your game folder and find this folder if you are on Origin:
 
-> Origin Games\Titanfall2\vpk\
+> Origin Games\Titanfall2\vpk\\
 
 Or this folder if you are on Steam:
 
-> Steam\steamapps\common\Titanfall2\vpk\
+> Steam\steamapps\common\Titanfall2\vpk\\
 
 Copy these files and paste them in a backup folder somewhere else:
 
@@ -31,33 +31,33 @@ Now that your files have been backed up and everything is installed, navigate to
 
 To edit the texture of the domeshield go to this location.
 
-> \materials\effects\
+> \materials\effects\\
 
-The texture used for domeshield is `black.vtf`, you can either change this texture or create a new one.  
+The texture used for domeshield is `black.vtf`, you can either change this texture or create a new one.\
 Editing this texture will have impact on other effect in the game.
 
 It is recommended to create a new texture so it is possible to make custom effect for specific part of the game.
 
 Choose a texture, you can check [here](../../assets/texture-library.md). With your chosen texture, compile it with [VTFEdit](../../how-to-start-modding/modding-introduction/modding-tools/source/vtf-and-vmt/vtfedit.md). For consistency the [`.vtf`](../../documentation/textures/valve-texture-format-vtf/) file will be renamed as`dome.vtf`.
 
-For the parameters you can apply the same as the original texture or you can make your own and test things around! Feel free to send us your results on our Discord server. We might add what you obtained in the wiki! ![](../../.gitbook/assets/08c0a077780263f3df97613e58e71744.svg) 
+For the parameters you can apply the same as the original texture or you can make your own and test things around! Feel free to send us your results on our Discord server. We might add what you obtained in the wiki! <img src="../../.gitbook/assets/08c0a077780263f3df97613e58e71744.svg" alt="" data-size="line">&#x20;
 
 ### Applying the texture
 
 To change the texture of the domeshield to the one just created, go to this location.
 
-> materials\models\fx\
+> materials\models\fx\\
 
 Open the `xo_shield_edgedetect.vmt` file and locate these lines, they are what you want to change.
 
-```text
+```
 "$basetexture" "effects\black"
 "$Texture2" "effects\black"
 ```
 
 Change `black` to whatever you named your [`.vtf`](../../documentation/textures/valve-texture-format-vtf/) file, in this case dome.
 
-```text
+```
 "$basetexture" "effects\dome"
 "$Texture2" "effects\dome"
 ```
@@ -68,7 +68,7 @@ Color can be changed. If the texture is black then the color applied in your [ma
 
 ### Example
 
-![domeshield texture replaced with doge. &quot;$color2&quot; &quot;\[5 5 5\]&quot;](../../.gitbook/assets/titanfall-2-screenshot-2020.03.11-19.41.56.68.png)
+![domeshield texture replaced with doge. "$color2" "\[5 5 5\]"](../../.gitbook/assets/titanfall-2-screenshot-2020.03.11-19.41.56.68.png)
 
 ## Repacking
 
@@ -81,4 +81,3 @@ Rename `pak000_000.vpk` _to_ `client_mp_common.bsp.pak000_000.vpk`
 Rename `pak000_dir.vpk` _to_ `englishclient_mp_common.bsp.pak000_dir.vpk`
 
 Place both of the renamed files back into your game directory and then launch Titanfall 2. You should be able to see your new domeshield texture!
-
